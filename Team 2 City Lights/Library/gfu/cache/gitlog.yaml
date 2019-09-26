@@ -9,13 +9,1618 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 0}
+  m_Script: {fileID: -530159753, guid: 68c7e4565cde54155bb78d8e935f1ddb, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: GitHub.Unity.45:GitHub.Unity:GitLogCache
+  m_EditorClassIdentifier: 
   cacheType: 3
-  lastUpdatedAtString: 2019-09-24T09:29:04.133-04:00
-  initializedAtString: 2019-09-24T09:29:04.133-04:00
+  lastUpdatedAtString: 2019-09-26T09:33:18.651-04:00
+  initializedAtString: 2019-09-26T09:29:25.895-04:00
   log:
+  - commitID: d92b57ef368a246259ad1675f29184a24764aebf
+    mergeA: 
+    mergeB: 
+    authorName: Trey Starshak
+    authorEmail: threestarhouse@gmail.com
+    commitEmail: threestarhouse@gmail.com
+    commitName: Trey Starshak
+    summary: Made Lighting Smoother
+    description: Lighting now changes sightly over the span of 0.5 seconds as opposed
+      to being a large discrete jump.
+    timeString: 2019-09-26T09:32:17.000-04:00
+    commitTimeString: 2019-09-26T09:32:17.000-04:00
+    changes:
+    - path: Team 2 City Lights\Library\EditorInstance.json
+      fullPath: C:\Users\Three\Desktop\CityLights\team2\Team 2 City Lights\Library\EditorInstance.json
+      projectPath: Library\EditorInstance.json
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Team 2 City Lights\Temp\UnityTempFile-1b53abb68513b634b944ac729826ce24
+      fullPath: C:\Users\Three\Desktop\CityLights\team2\Team 2 City Lights\Temp\UnityTempFile-1b53abb68513b634b944ac729826ce24
+      projectPath: Temp\UnityTempFile-1b53abb68513b634b944ac729826ce24
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Team 2 City Lights\Temp\UnityTempFile-d5c6a35d52510254098a0d80d8bc3128
+      fullPath: C:\Users\Three\Desktop\CityLights\team2\Team 2 City Lights\Temp\UnityTempFile-d5c6a35d52510254098a0d80d8bc3128
+      projectPath: Temp\UnityTempFile-d5c6a35d52510254098a0d80d8bc3128
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Team 2 City Lights\Temp\UnityTempFile-df755f6b803b6cd42beade61d399dbdf
+      fullPath: C:\Users\Three\Desktop\CityLights\team2\Team 2 City Lights\Temp\UnityTempFile-df755f6b803b6cd42beade61d399dbdf
+      projectPath: Temp\UnityTempFile-df755f6b803b6cd42beade61d399dbdf
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Team 2 City Lights\Temp\UnityTempFile-e77f4a25bccb2734bab6aba6f931c3ff
+      fullPath: C:\Users\Three\Desktop\CityLights\team2\Team 2 City Lights\Temp\UnityTempFile-e77f4a25bccb2734bab6aba6f931c3ff
+      projectPath: Temp\UnityTempFile-e77f4a25bccb2734bab6aba6f931c3ff
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Team 2 City Lights\Temp\UnityTempFile-f81e1ecf1539c3c4aab052c4e4ba1b6d
+      fullPath: C:\Users\Three\Desktop\CityLights\team2\Team 2 City Lights\Temp\UnityTempFile-f81e1ecf1539c3c4aab052c4e4ba1b6d
+      projectPath: Temp\UnityTempFile-f81e1ecf1539c3c4aab052c4e4ba1b6d
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+  - commitID: 4987ebf65af3041d7dcdca0f181069487a789760
+    mergeA: 
+    mergeB: 
+    authorName: Trey Starshak
+    authorEmail: threestarhouse@gmail.com
+    commitEmail: threestarhouse@gmail.com
+    commitName: Trey Starshak
+    summary: Basics of Vacuum, Lighting now is activated by enemies and fireflies
+    description: 
+    timeString: 2019-09-26T07:49:10.000-04:00
+    commitTimeString: 2019-09-26T07:49:10.000-04:00
+    changes:
+    - path: Team 2 City Lights\Assembly-CSharp-Editor-firstpass.csproj
+      fullPath: C:\Users\Three\Desktop\CityLights\team2\Team 2 City Lights\Assembly-CSharp-Editor-firstpass.csproj
+      projectPath: Assembly-CSharp-Editor-firstpass.csproj
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Team 2 City Lights\Assembly-CSharp.csproj
+      fullPath: C:\Users\Three\Desktop\CityLights\team2\Team 2 City Lights\Assembly-CSharp.csproj
+      projectPath: Assembly-CSharp.csproj
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Team 2 City Lights\Assets\Plugins.meta
+      fullPath: C:\Users\Three\Desktop\CityLights\team2\Team 2 City Lights\Assets\Plugins.meta
+      projectPath: Assets\Plugins.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Team 2 City Lights\Assets\Plugins\GitHub.meta
+      fullPath: C:\Users\Three\Desktop\CityLights\team2\Team 2 City Lights\Assets\Plugins\GitHub.meta
+      projectPath: Assets\Plugins\GitHub.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Team 2 City Lights\Assets\Plugins\GitHub\Editor.meta
+      fullPath: C:\Users\Three\Desktop\CityLights\team2\Team 2 City Lights\Assets\Plugins\GitHub\Editor.meta
+      projectPath: Assets\Plugins\GitHub\Editor.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Team 2 City Lights\Assets\Plugins\GitHub\Editor\AsyncBridge.Net35.dll
+      fullPath: C:\Users\Three\Desktop\CityLights\team2\Team 2 City Lights\Assets\Plugins\GitHub\Editor\AsyncBridge.Net35.dll
+      projectPath: Assets\Plugins\GitHub\Editor\AsyncBridge.Net35.dll
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Team 2 City Lights\Assets\Plugins\GitHub\Editor\AsyncBridge.Net35.dll.meta
+      fullPath: C:\Users\Three\Desktop\CityLights\team2\Team 2 City Lights\Assets\Plugins\GitHub\Editor\AsyncBridge.Net35.dll.meta
+      projectPath: Assets\Plugins\GitHub\Editor\AsyncBridge.Net35.dll.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Team 2 City Lights\Assets\Plugins\GitHub\Editor\ExtensionLoader.cs
+      fullPath: C:\Users\Three\Desktop\CityLights\team2\Team 2 City Lights\Assets\Plugins\GitHub\Editor\ExtensionLoader.cs
+      projectPath: Assets\Plugins\GitHub\Editor\ExtensionLoader.cs
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Team 2 City Lights\Assets\Plugins\GitHub\Editor\ExtensionLoader.cs.meta
+      fullPath: C:\Users\Three\Desktop\CityLights\team2\Team 2 City Lights\Assets\Plugins\GitHub\Editor\ExtensionLoader.cs.meta
+      projectPath: Assets\Plugins\GitHub\Editor\ExtensionLoader.cs.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Team 2 City Lights\Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll
+      fullPath: C:\Users\Three\Desktop\CityLights\team2\Team 2 City Lights\Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Team 2 City Lights\Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll.meta
+      fullPath: C:\Users\Three\Desktop\CityLights\team2\Team 2 City Lights\Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll.meta
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Team 2 City Lights\Assets\Plugins\GitHub\Editor\GitHub.Api.dll
+      fullPath: C:\Users\Three\Desktop\CityLights\team2\Team 2 City Lights\Assets\Plugins\GitHub\Editor\GitHub.Api.dll
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Api.dll
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Team 2 City Lights\Assets\Plugins\GitHub\Editor\GitHub.Api.dll.meta
+      fullPath: C:\Users\Three\Desktop\CityLights\team2\Team 2 City Lights\Assets\Plugins\GitHub\Editor\GitHub.Api.dll.meta
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Api.dll.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Team 2 City Lights\Assets\Plugins\GitHub\Editor\GitHub.Logging.dll
+      fullPath: C:\Users\Three\Desktop\CityLights\team2\Team 2 City Lights\Assets\Plugins\GitHub\Editor\GitHub.Logging.dll
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Logging.dll
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Team 2 City Lights\Assets\Plugins\GitHub\Editor\GitHub.Logging.dll.meta
+      fullPath: C:\Users\Three\Desktop\CityLights\team2\Team 2 City Lights\Assets\Plugins\GitHub\Editor\GitHub.Logging.dll.meta
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Logging.dll.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Team 2 City Lights\Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll
+      fullPath: C:\Users\Three\Desktop\CityLights\team2\Team 2 City Lights\Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Team 2 City Lights\Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll.meta
+      fullPath: C:\Users\Three\Desktop\CityLights\team2\Team 2 City Lights\Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll.meta
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Team 2 City Lights\Assets\Plugins\GitHub\Editor\GitHub.Unity.dll
+      fullPath: C:\Users\Three\Desktop\CityLights\team2\Team 2 City Lights\Assets\Plugins\GitHub\Editor\GitHub.Unity.dll
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Unity.dll
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Team 2 City Lights\Assets\Plugins\GitHub\Editor\GitHub.Unity.dll.meta
+      fullPath: C:\Users\Three\Desktop\CityLights\team2\Team 2 City Lights\Assets\Plugins\GitHub\Editor\GitHub.Unity.dll.meta
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Unity.dll.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Team 2 City Lights\Assets\Plugins\GitHub\Editor\GitHub.UnityShim.dll
+      fullPath: C:\Users\Three\Desktop\CityLights\team2\Team 2 City Lights\Assets\Plugins\GitHub\Editor\GitHub.UnityShim.dll
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.UnityShim.dll
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Team 2 City Lights\Assets\Plugins\GitHub\Editor\GitHub.UnityShim.dll.meta
+      fullPath: C:\Users\Three\Desktop\CityLights\team2\Team 2 City Lights\Assets\Plugins\GitHub\Editor\GitHub.UnityShim.dll.meta
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.UnityShim.dll.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Team 2 City Lights\Assets\Plugins\GitHub\Editor\Mono.Posix.dll
+      fullPath: C:\Users\Three\Desktop\CityLights\team2\Team 2 City Lights\Assets\Plugins\GitHub\Editor\Mono.Posix.dll
+      projectPath: Assets\Plugins\GitHub\Editor\Mono.Posix.dll
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Team 2 City Lights\Assets\Plugins\GitHub\Editor\Mono.Posix.dll.meta
+      fullPath: C:\Users\Three\Desktop\CityLights\team2\Team 2 City Lights\Assets\Plugins\GitHub\Editor\Mono.Posix.dll.meta
+      projectPath: Assets\Plugins\GitHub\Editor\Mono.Posix.dll.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Team 2 City Lights\Assets\Plugins\GitHub\Editor\QuickGuide.pdf
+      fullPath: C:\Users\Three\Desktop\CityLights\team2\Team 2 City Lights\Assets\Plugins\GitHub\Editor\QuickGuide.pdf
+      projectPath: Assets\Plugins\GitHub\Editor\QuickGuide.pdf
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Team 2 City Lights\Assets\Plugins\GitHub\Editor\QuickGuide.pdf.meta
+      fullPath: C:\Users\Three\Desktop\CityLights\team2\Team 2 City Lights\Assets\Plugins\GitHub\Editor\QuickGuide.pdf.meta
+      projectPath: Assets\Plugins\GitHub\Editor\QuickGuide.pdf.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Team 2 City Lights\Assets\Plugins\GitHub\Editor\ReadOnlyCollectionsInterfaces.dll
+      fullPath: C:\Users\Three\Desktop\CityLights\team2\Team 2 City Lights\Assets\Plugins\GitHub\Editor\ReadOnlyCollectionsInterfaces.dll
+      projectPath: Assets\Plugins\GitHub\Editor\ReadOnlyCollectionsInterfaces.dll
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Team 2 City Lights\Assets\Plugins\GitHub\Editor\ReadOnlyCollectionsInterfaces.dll.meta
+      fullPath: C:\Users\Three\Desktop\CityLights\team2\Team 2 City Lights\Assets\Plugins\GitHub\Editor\ReadOnlyCollectionsInterfaces.dll.meta
+      projectPath: Assets\Plugins\GitHub\Editor\ReadOnlyCollectionsInterfaces.dll.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Team 2 City Lights\Assets\Plugins\GitHub\Editor\System.Threading.dll
+      fullPath: C:\Users\Three\Desktop\CityLights\team2\Team 2 City Lights\Assets\Plugins\GitHub\Editor\System.Threading.dll
+      projectPath: Assets\Plugins\GitHub\Editor\System.Threading.dll
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Team 2 City Lights\Assets\Plugins\GitHub\Editor\System.Threading.dll.meta
+      fullPath: C:\Users\Three\Desktop\CityLights\team2\Team 2 City Lights\Assets\Plugins\GitHub\Editor\System.Threading.dll.meta
+      projectPath: Assets\Plugins\GitHub\Editor\System.Threading.dll.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Team 2 City Lights\Assets\Plugins\GitHub\Editor\UnityAPIWrapper.cs
+      fullPath: C:\Users\Three\Desktop\CityLights\team2\Team 2 City Lights\Assets\Plugins\GitHub\Editor\UnityAPIWrapper.cs
+      projectPath: Assets\Plugins\GitHub\Editor\UnityAPIWrapper.cs
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Team 2 City Lights\Assets\Plugins\GitHub\Editor\UnityAPIWrapper.cs.meta
+      fullPath: C:\Users\Three\Desktop\CityLights\team2\Team 2 City Lights\Assets\Plugins\GitHub\Editor\UnityAPIWrapper.cs.meta
+      projectPath: Assets\Plugins\GitHub\Editor\UnityAPIWrapper.cs.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Team 2 City Lights\Assets\Plugins\GitHub\Editor\big-logo@2x.png
+      fullPath: C:\Users\Three\Desktop\CityLights\team2\Team 2 City Lights\Assets\Plugins\GitHub\Editor\big-logo@2x.png
+      projectPath: Assets\Plugins\GitHub\Editor\big-logo@2x.png
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Team 2 City Lights\Assets\Plugins\GitHub\Editor\big-logo@2x.png.meta
+      fullPath: C:\Users\Three\Desktop\CityLights\team2\Team 2 City Lights\Assets\Plugins\GitHub\Editor\big-logo@2x.png.meta
+      projectPath: Assets\Plugins\GitHub\Editor\big-logo@2x.png.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Team 2 City Lights\Assets\Plugins\GitHub\Editor\credits.txt
+      fullPath: C:\Users\Three\Desktop\CityLights\team2\Team 2 City Lights\Assets\Plugins\GitHub\Editor\credits.txt
+      projectPath: Assets\Plugins\GitHub\Editor\credits.txt
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Team 2 City Lights\Assets\Plugins\GitHub\Editor\credits.txt.meta
+      fullPath: C:\Users\Three\Desktop\CityLights\team2\Team 2 City Lights\Assets\Plugins\GitHub\Editor\credits.txt.meta
+      projectPath: Assets\Plugins\GitHub\Editor\credits.txt.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Team 2 City Lights\Assets\Plugins\GitHub\Editor\eula.txt
+      fullPath: C:\Users\Three\Desktop\CityLights\team2\Team 2 City Lights\Assets\Plugins\GitHub\Editor\eula.txt
+      projectPath: Assets\Plugins\GitHub\Editor\eula.txt
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Team 2 City Lights\Assets\Plugins\GitHub\Editor\eula.txt.meta
+      fullPath: C:\Users\Three\Desktop\CityLights\team2\Team 2 City Lights\Assets\Plugins\GitHub\Editor\eula.txt.meta
+      projectPath: Assets\Plugins\GitHub\Editor\eula.txt.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Team 2 City Lights\Assets\Plugins\GitHub\Editor\libsfw.bundle
+      fullPath: C:\Users\Three\Desktop\CityLights\team2\Team 2 City Lights\Assets\Plugins\GitHub\Editor\libsfw.bundle
+      projectPath: Assets\Plugins\GitHub\Editor\libsfw.bundle
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Team 2 City Lights\Assets\Plugins\GitHub\Editor\libsfw.bundle.meta
+      fullPath: C:\Users\Three\Desktop\CityLights\team2\Team 2 City Lights\Assets\Plugins\GitHub\Editor\libsfw.bundle.meta
+      projectPath: Assets\Plugins\GitHub\Editor\libsfw.bundle.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Team 2 City Lights\Assets\Plugins\GitHub\Editor\libsfw.so
+      fullPath: C:\Users\Three\Desktop\CityLights\team2\Team 2 City Lights\Assets\Plugins\GitHub\Editor\libsfw.so
+      projectPath: Assets\Plugins\GitHub\Editor\libsfw.so
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Team 2 City Lights\Assets\Plugins\GitHub\Editor\libsfw.so.meta
+      fullPath: C:\Users\Three\Desktop\CityLights\team2\Team 2 City Lights\Assets\Plugins\GitHub\Editor\libsfw.so.meta
+      projectPath: Assets\Plugins\GitHub\Editor\libsfw.so.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Team 2 City Lights\Assets\Plugins\GitHub\Editor\sfw.net.dll
+      fullPath: C:\Users\Three\Desktop\CityLights\team2\Team 2 City Lights\Assets\Plugins\GitHub\Editor\sfw.net.dll
+      projectPath: Assets\Plugins\GitHub\Editor\sfw.net.dll
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Team 2 City Lights\Assets\Plugins\GitHub\Editor\sfw.net.dll.meta
+      fullPath: C:\Users\Three\Desktop\CityLights\team2\Team 2 City Lights\Assets\Plugins\GitHub\Editor\sfw.net.dll.meta
+      projectPath: Assets\Plugins\GitHub\Editor\sfw.net.dll.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Team 2 City Lights\Assets\Plugins\GitHub\Editor\x64.meta
+      fullPath: C:\Users\Three\Desktop\CityLights\team2\Team 2 City Lights\Assets\Plugins\GitHub\Editor\x64.meta
+      projectPath: Assets\Plugins\GitHub\Editor\x64.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Team 2 City Lights\Assets\Plugins\GitHub\Editor\x64\pthreadVC2.dll
+      fullPath: C:\Users\Three\Desktop\CityLights\team2\Team 2 City Lights\Assets\Plugins\GitHub\Editor\x64\pthreadVC2.dll
+      projectPath: Assets\Plugins\GitHub\Editor\x64\pthreadVC2.dll
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Team 2 City Lights\Assets\Plugins\GitHub\Editor\x64\pthreadVC2.dll.meta
+      fullPath: C:\Users\Three\Desktop\CityLights\team2\Team 2 City Lights\Assets\Plugins\GitHub\Editor\x64\pthreadVC2.dll.meta
+      projectPath: Assets\Plugins\GitHub\Editor\x64\pthreadVC2.dll.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Team 2 City Lights\Assets\Plugins\GitHub\Editor\x64\sfw_x64.dll
+      fullPath: C:\Users\Three\Desktop\CityLights\team2\Team 2 City Lights\Assets\Plugins\GitHub\Editor\x64\sfw_x64.dll
+      projectPath: Assets\Plugins\GitHub\Editor\x64\sfw_x64.dll
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Team 2 City Lights\Assets\Plugins\GitHub\Editor\x64\sfw_x64.dll.meta
+      fullPath: C:\Users\Three\Desktop\CityLights\team2\Team 2 City Lights\Assets\Plugins\GitHub\Editor\x64\sfw_x64.dll.meta
+      projectPath: Assets\Plugins\GitHub\Editor\x64\sfw_x64.dll.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Team 2 City Lights\Assets\Plugins\GitHub\Editor\x86.meta
+      fullPath: C:\Users\Three\Desktop\CityLights\team2\Team 2 City Lights\Assets\Plugins\GitHub\Editor\x86.meta
+      projectPath: Assets\Plugins\GitHub\Editor\x86.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Team 2 City Lights\Assets\Plugins\GitHub\Editor\x86\pthreadVC2.dll
+      fullPath: C:\Users\Three\Desktop\CityLights\team2\Team 2 City Lights\Assets\Plugins\GitHub\Editor\x86\pthreadVC2.dll
+      projectPath: Assets\Plugins\GitHub\Editor\x86\pthreadVC2.dll
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Team 2 City Lights\Assets\Plugins\GitHub\Editor\x86\pthreadVC2.dll.meta
+      fullPath: C:\Users\Three\Desktop\CityLights\team2\Team 2 City Lights\Assets\Plugins\GitHub\Editor\x86\pthreadVC2.dll.meta
+      projectPath: Assets\Plugins\GitHub\Editor\x86\pthreadVC2.dll.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Team 2 City Lights\Assets\Plugins\GitHub\Editor\x86\sfw_x86.dll
+      fullPath: C:\Users\Three\Desktop\CityLights\team2\Team 2 City Lights\Assets\Plugins\GitHub\Editor\x86\sfw_x86.dll
+      projectPath: Assets\Plugins\GitHub\Editor\x86\sfw_x86.dll
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Team 2 City Lights\Assets\Plugins\GitHub\Editor\x86\sfw_x86.dll.meta
+      fullPath: C:\Users\Three\Desktop\CityLights\team2\Team 2 City Lights\Assets\Plugins\GitHub\Editor\x86\sfw_x86.dll.meta
+      projectPath: Assets\Plugins\GitHub\Editor\x86\sfw_x86.dll.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Team 2 City Lights\Assets\Prefabs.meta
+      fullPath: C:\Users\Three\Desktop\CityLights\team2\Team 2 City Lights\Assets\Prefabs.meta
+      projectPath: Assets\Prefabs.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Team 2 City Lights\Assets\Prefabs\Firefly.prefab
+      fullPath: C:\Users\Three\Desktop\CityLights\team2\Team 2 City Lights\Assets\Prefabs\Firefly.prefab
+      projectPath: Assets\Prefabs\Firefly.prefab
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Team 2 City Lights\Assets\Prefabs\Firefly.prefab.meta
+      fullPath: C:\Users\Three\Desktop\CityLights\team2\Team 2 City Lights\Assets\Prefabs\Firefly.prefab.meta
+      projectPath: Assets\Prefabs\Firefly.prefab.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Team 2 City Lights\Assets\Prefabs\Player.prefab
+      fullPath: C:\Users\Three\Desktop\CityLights\team2\Team 2 City Lights\Assets\Prefabs\Player.prefab
+      projectPath: Assets\Prefabs\Player.prefab
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Team 2 City Lights\Assets\Prefabs\Player.prefab.meta
+      fullPath: C:\Users\Three\Desktop\CityLights\team2\Team 2 City Lights\Assets\Prefabs\Player.prefab.meta
+      projectPath: Assets\Prefabs\Player.prefab.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Team 2 City Lights\Assets\Prefabs\Shadoow.prefab
+      fullPath: C:\Users\Three\Desktop\CityLights\team2\Team 2 City Lights\Assets\Prefabs\Shadoow.prefab
+      projectPath: Assets\Prefabs\Shadoow.prefab
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Team 2 City Lights\Assets\Prefabs\Shadoow.prefab.meta
+      fullPath: C:\Users\Three\Desktop\CityLights\team2\Team 2 City Lights\Assets\Prefabs\Shadoow.prefab.meta
+      projectPath: Assets\Prefabs\Shadoow.prefab.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Team 2 City Lights\Assets\Scenes\Trey's Test Scene.unity
+      fullPath: C:\Users\Three\Desktop\CityLights\team2\Team 2 City Lights\Assets\Scenes\Trey's
+        Test Scene.unity
+      projectPath: Assets\Scenes\Trey's Test Scene.unity
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Team 2 City Lights\Assets\Scripts.meta
+      fullPath: C:\Users\Three\Desktop\CityLights\team2\Team 2 City Lights\Assets\Scripts.meta
+      projectPath: Assets\Scripts.meta
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Team 2 City Lights\Assets\Scripts\CameraFollow.cs
+      fullPath: C:\Users\Three\Desktop\CityLights\team2\Team 2 City Lights\Assets\Scripts\CameraFollow.cs
+      projectPath: Assets\Scripts\CameraFollow.cs
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Team 2 City Lights\Assets\Scripts\CameraFollow.cs.meta
+      fullPath: C:\Users\Three\Desktop\CityLights\team2\Team 2 City Lights\Assets\Scripts\CameraFollow.cs.meta
+      projectPath: Assets\Scripts\CameraFollow.cs.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Team 2 City Lights\Assets\Scripts\Lighting.cs
+      fullPath: C:\Users\Three\Desktop\CityLights\team2\Team 2 City Lights\Assets\Scripts\Lighting.cs
+      projectPath: Assets\Scripts\Lighting.cs
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Team 2 City Lights\Assets\Scripts\Lighting.cs.meta
+      fullPath: C:\Users\Three\Desktop\CityLights\team2\Team 2 City Lights\Assets\Scripts\Lighting.cs.meta
+      projectPath: Assets\Scripts\Lighting.cs.meta
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Team 2 City Lights\Assets\Scripts\PlayerMovement.cs
+      fullPath: C:\Users\Three\Desktop\CityLights\team2\Team 2 City Lights\Assets\Scripts\PlayerMovement.cs
+      projectPath: Assets\Scripts\PlayerMovement.cs
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Team 2 City Lights\Assets\Scripts\PlayerMovement.cs.meta
+      fullPath: C:\Users\Three\Desktop\CityLights\team2\Team 2 City Lights\Assets\Scripts\PlayerMovement.cs.meta
+      projectPath: Assets\Scripts\PlayerMovement.cs.meta
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Team 2 City Lights\Assets\Scripts\Vacuum.cs
+      fullPath: C:\Users\Three\Desktop\CityLights\team2\Team 2 City Lights\Assets\Scripts\Vacuum.cs
+      projectPath: Assets\Scripts\Vacuum.cs
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Team 2 City Lights\Assets\Scripts\Vacuum.cs.meta
+      fullPath: C:\Users\Three\Desktop\CityLights\team2\Team 2 City Lights\Assets\Scripts\Vacuum.cs.meta
+      projectPath: Assets\Scripts\Vacuum.cs.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Team 2 City Lights\Assets\Sprites.meta
+      fullPath: C:\Users\Three\Desktop\CityLights\team2\Team 2 City Lights\Assets\Sprites.meta
+      projectPath: Assets\Sprites.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Team 2 City Lights\Library\APIUpdater\project-dependencies.graph
+      fullPath: C:\Users\Three\Desktop\CityLights\team2\Team 2 City Lights\Library\APIUpdater\project-dependencies.graph
+      projectPath: Library\APIUpdater\project-dependencies.graph
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Team 2 City Lights\Library\CrashedAssetImports.txt
+      fullPath: C:\Users\Three\Desktop\CityLights\team2\Team 2 City Lights\Library\CrashedAssetImports.txt
+      projectPath: Library\CrashedAssetImports.txt
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Team 2 City Lights\Library\CurrentLayout-default.dwlt
+      fullPath: C:\Users\Three\Desktop\CityLights\team2\Team 2 City Lights\Library\CurrentLayout-default.dwlt
+      projectPath: Library\CurrentLayout-default.dwlt
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Team 2 City Lights\Library\CurrentMaximizeLayout.dwlt
+      fullPath: C:\Users\Three\Desktop\CityLights\team2\Team 2 City Lights\Library\CurrentMaximizeLayout.dwlt
+      projectPath: Library\CurrentMaximizeLayout.dwlt
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Team 2 City Lights\Library\EditorInstance.json
+      fullPath: C:\Users\Three\Desktop\CityLights\team2\Team 2 City Lights\Library\EditorInstance.json
+      projectPath: Library\EditorInstance.json
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Team 2 City Lights\Library\InspectorExpandedItems.asset
+      fullPath: C:\Users\Three\Desktop\CityLights\team2\Team 2 City Lights\Library\InspectorExpandedItems.asset
+      projectPath: Library\InspectorExpandedItems.asset
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Team 2 City Lights\Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.dll
+      fullPath: C:\Users\Three\Desktop\CityLights\team2\Team 2 City Lights\Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.dll
+      projectPath: Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.dll
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Team 2 City Lights\Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.pdb
+      fullPath: C:\Users\Three\Desktop\CityLights\team2\Team 2 City Lights\Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.pdb
+      projectPath: Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.pdb
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Team 2 City Lights\Library\ScriptAssemblies\Assembly-CSharp.dll
+      fullPath: C:\Users\Three\Desktop\CityLights\team2\Team 2 City Lights\Library\ScriptAssemblies\Assembly-CSharp.dll
+      projectPath: Library\ScriptAssemblies\Assembly-CSharp.dll
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Team 2 City Lights\Library\ScriptAssemblies\Assembly-CSharp.pdb
+      fullPath: C:\Users\Three\Desktop\CityLights\team2\Team 2 City Lights\Library\ScriptAssemblies\Assembly-CSharp.pdb
+      projectPath: Library\ScriptAssemblies\Assembly-CSharp.pdb
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Team 2 City Lights\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+      fullPath: C:\Users\Three\Desktop\CityLights\team2\Team 2 City Lights\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+      projectPath: Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Team 2 City Lights\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+      fullPath: C:\Users\Three\Desktop\CityLights\team2\Team 2 City Lights\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+      projectPath: Library\ScriptAssemblies\Unity.Rider.Editor.dll
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Team 2 City Lights\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+      fullPath: C:\Users\Three\Desktop\CityLights\team2\Team 2 City Lights\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+      projectPath: Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Team 2 City Lights\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+      fullPath: C:\Users\Three\Desktop\CityLights\team2\Team 2 City Lights\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+      projectPath: Library\ScriptAssemblies\Unity.TextMeshPro.dll
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Team 2 City Lights\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+      fullPath: C:\Users\Three\Desktop\CityLights\team2\Team 2 City Lights\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+      projectPath: Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Team 2 City Lights\Library\ScriptAssemblies\Unity.Timeline.dll
+      fullPath: C:\Users\Three\Desktop\CityLights\team2\Team 2 City Lights\Library\ScriptAssemblies\Unity.Timeline.dll
+      projectPath: Library\ScriptAssemblies\Unity.Timeline.dll
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Team 2 City Lights\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+      fullPath: C:\Users\Three\Desktop\CityLights\team2\Team 2 City Lights\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+      projectPath: Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Team 2 City Lights\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+      fullPath: C:\Users\Three\Desktop\CityLights\team2\Team 2 City Lights\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+      projectPath: Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Team 2 City Lights\Library\ScriptAssemblies\UnityEditor.UI.dll
+      fullPath: C:\Users\Three\Desktop\CityLights\team2\Team 2 City Lights\Library\ScriptAssemblies\UnityEditor.UI.dll
+      projectPath: Library\ScriptAssemblies\UnityEditor.UI.dll
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Team 2 City Lights\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+      fullPath: C:\Users\Three\Desktop\CityLights\team2\Team 2 City Lights\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+      projectPath: Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Team 2 City Lights\Library\ScriptAssemblies\UnityEngine.UI.dll
+      fullPath: C:\Users\Three\Desktop\CityLights\team2\Team 2 City Lights\Library\ScriptAssemblies\UnityEngine.UI.dll
+      projectPath: Library\ScriptAssemblies\UnityEngine.UI.dll
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Team 2 City Lights\Library\ShaderCache\0\04ae92a655e37a0b6167997c698d9c71.bin
+      fullPath: C:\Users\Three\Desktop\CityLights\team2\Team 2 City Lights\Library\ShaderCache\0\04ae92a655e37a0b6167997c698d9c71.bin
+      projectPath: Library\ShaderCache\0\04ae92a655e37a0b6167997c698d9c71.bin
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Team 2 City Lights\Library\ShaderCache\0\05b2df2a2a22cc6a6c526154cb923a39.bin
+      fullPath: C:\Users\Three\Desktop\CityLights\team2\Team 2 City Lights\Library\ShaderCache\0\05b2df2a2a22cc6a6c526154cb923a39.bin
+      projectPath: Library\ShaderCache\0\05b2df2a2a22cc6a6c526154cb923a39.bin
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Team 2 City Lights\Library\ShaderCache\0\07bea87863102800bec50e9fffb40a71.bin
+      fullPath: C:\Users\Three\Desktop\CityLights\team2\Team 2 City Lights\Library\ShaderCache\0\07bea87863102800bec50e9fffb40a71.bin
+      projectPath: Library\ShaderCache\0\07bea87863102800bec50e9fffb40a71.bin
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Team 2 City Lights\Library\ShaderCache\0\095675d3e46990f51d5a295e77b17bc3.bin
+      fullPath: C:\Users\Three\Desktop\CityLights\team2\Team 2 City Lights\Library\ShaderCache\0\095675d3e46990f51d5a295e77b17bc3.bin
+      projectPath: Library\ShaderCache\0\095675d3e46990f51d5a295e77b17bc3.bin
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Team 2 City Lights\Library\ShaderCache\0\0a9b85e4f8ed4c73a774e925f1742e14.bin
+      fullPath: C:\Users\Three\Desktop\CityLights\team2\Team 2 City Lights\Library\ShaderCache\0\0a9b85e4f8ed4c73a774e925f1742e14.bin
+      projectPath: Library\ShaderCache\0\0a9b85e4f8ed4c73a774e925f1742e14.bin
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Team 2 City Lights\Library\ShaderCache\0\0abadb9cf36ab36e048bfba92ed35ad5.bin
+      fullPath: C:\Users\Three\Desktop\CityLights\team2\Team 2 City Lights\Library\ShaderCache\0\0abadb9cf36ab36e048bfba92ed35ad5.bin
+      projectPath: Library\ShaderCache\0\0abadb9cf36ab36e048bfba92ed35ad5.bin
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Team 2 City Lights\Library\ShaderCache\1\1392a3de4c9813fff53cd0b10f5a0455.bin
+      fullPath: C:\Users\Three\Desktop\CityLights\team2\Team 2 City Lights\Library\ShaderCache\1\1392a3de4c9813fff53cd0b10f5a0455.bin
+      projectPath: Library\ShaderCache\1\1392a3de4c9813fff53cd0b10f5a0455.bin
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Team 2 City Lights\Library\ShaderCache\1\18710b69a0303bec8a7cfc707853fb82.bin
+      fullPath: C:\Users\Three\Desktop\CityLights\team2\Team 2 City Lights\Library\ShaderCache\1\18710b69a0303bec8a7cfc707853fb82.bin
+      projectPath: Library\ShaderCache\1\18710b69a0303bec8a7cfc707853fb82.bin
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Team 2 City Lights\Library\ShaderCache\1\1d174f239170da53990e977b596f704f.bin
+      fullPath: C:\Users\Three\Desktop\CityLights\team2\Team 2 City Lights\Library\ShaderCache\1\1d174f239170da53990e977b596f704f.bin
+      projectPath: Library\ShaderCache\1\1d174f239170da53990e977b596f704f.bin
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Team 2 City Lights\Library\ShaderCache\1\1f74e7a58e73b5400d5df22907c94cfb.bin
+      fullPath: C:\Users\Three\Desktop\CityLights\team2\Team 2 City Lights\Library\ShaderCache\1\1f74e7a58e73b5400d5df22907c94cfb.bin
+      projectPath: Library\ShaderCache\1\1f74e7a58e73b5400d5df22907c94cfb.bin
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Team 2 City Lights\Library\ShaderCache\2\2223121d3f0f3cecceceeed2b60c2ebd.bin
+      fullPath: C:\Users\Three\Desktop\CityLights\team2\Team 2 City Lights\Library\ShaderCache\2\2223121d3f0f3cecceceeed2b60c2ebd.bin
+      projectPath: Library\ShaderCache\2\2223121d3f0f3cecceceeed2b60c2ebd.bin
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Team 2 City Lights\Library\ShaderCache\2\256f0f6ce5ca6deec0da9a30768e8245.bin
+      fullPath: C:\Users\Three\Desktop\CityLights\team2\Team 2 City Lights\Library\ShaderCache\2\256f0f6ce5ca6deec0da9a30768e8245.bin
+      projectPath: Library\ShaderCache\2\256f0f6ce5ca6deec0da9a30768e8245.bin
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Team 2 City Lights\Library\ShaderCache\2\29ed828b035a542a2272caff8b799fa6.bin
+      fullPath: C:\Users\Three\Desktop\CityLights\team2\Team 2 City Lights\Library\ShaderCache\2\29ed828b035a542a2272caff8b799fa6.bin
+      projectPath: Library\ShaderCache\2\29ed828b035a542a2272caff8b799fa6.bin
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Team 2 City Lights\Library\ShaderCache\2\2beafb00d638337ac28301a7bd526144.bin
+      fullPath: C:\Users\Three\Desktop\CityLights\team2\Team 2 City Lights\Library\ShaderCache\2\2beafb00d638337ac28301a7bd526144.bin
+      projectPath: Library\ShaderCache\2\2beafb00d638337ac28301a7bd526144.bin
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Team 2 City Lights\Library\ShaderCache\2\2d563b4233112413ce3e2b109ca13adf.bin
+      fullPath: C:\Users\Three\Desktop\CityLights\team2\Team 2 City Lights\Library\ShaderCache\2\2d563b4233112413ce3e2b109ca13adf.bin
+      projectPath: Library\ShaderCache\2\2d563b4233112413ce3e2b109ca13adf.bin
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Team 2 City Lights\Library\ShaderCache\2\2ee4f4bc757d0f644fa17223f3bfcfc8.bin
+      fullPath: C:\Users\Three\Desktop\CityLights\team2\Team 2 City Lights\Library\ShaderCache\2\2ee4f4bc757d0f644fa17223f3bfcfc8.bin
+      projectPath: Library\ShaderCache\2\2ee4f4bc757d0f644fa17223f3bfcfc8.bin
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Team 2 City Lights\Library\ShaderCache\2\2f4cdeb51658d591357ab234b3b673f7.bin
+      fullPath: C:\Users\Three\Desktop\CityLights\team2\Team 2 City Lights\Library\ShaderCache\2\2f4cdeb51658d591357ab234b3b673f7.bin
+      projectPath: Library\ShaderCache\2\2f4cdeb51658d591357ab234b3b673f7.bin
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Team 2 City Lights\Library\ShaderCache\3\36588ccfe5ced37e51f33924a8d92558.bin
+      fullPath: C:\Users\Three\Desktop\CityLights\team2\Team 2 City Lights\Library\ShaderCache\3\36588ccfe5ced37e51f33924a8d92558.bin
+      projectPath: Library\ShaderCache\3\36588ccfe5ced37e51f33924a8d92558.bin
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Team 2 City Lights\Library\ShaderCache\3\39cd1eb185c2cab82cbbcebe122c504b.bin
+      fullPath: C:\Users\Three\Desktop\CityLights\team2\Team 2 City Lights\Library\ShaderCache\3\39cd1eb185c2cab82cbbcebe122c504b.bin
+      projectPath: Library\ShaderCache\3\39cd1eb185c2cab82cbbcebe122c504b.bin
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Team 2 City Lights\Library\ShaderCache\3\3b9b75cc7f33677702c25b2fa8143fc5.bin
+      fullPath: C:\Users\Three\Desktop\CityLights\team2\Team 2 City Lights\Library\ShaderCache\3\3b9b75cc7f33677702c25b2fa8143fc5.bin
+      projectPath: Library\ShaderCache\3\3b9b75cc7f33677702c25b2fa8143fc5.bin
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Team 2 City Lights\Library\ShaderCache\3\3eb64aa7948ccfb2cbc6b99b3a8a241c.bin
+      fullPath: C:\Users\Three\Desktop\CityLights\team2\Team 2 City Lights\Library\ShaderCache\3\3eb64aa7948ccfb2cbc6b99b3a8a241c.bin
+      projectPath: Library\ShaderCache\3\3eb64aa7948ccfb2cbc6b99b3a8a241c.bin
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Team 2 City Lights\Library\ShaderCache\4\42c09533e20c6aa42685ddca0dadca6b.bin
+      fullPath: C:\Users\Three\Desktop\CityLights\team2\Team 2 City Lights\Library\ShaderCache\4\42c09533e20c6aa42685ddca0dadca6b.bin
+      projectPath: Library\ShaderCache\4\42c09533e20c6aa42685ddca0dadca6b.bin
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Team 2 City Lights\Library\ShaderCache\5\50d6dd97358e8aca1f0e099225234f6f.bin
+      fullPath: C:\Users\Three\Desktop\CityLights\team2\Team 2 City Lights\Library\ShaderCache\5\50d6dd97358e8aca1f0e099225234f6f.bin
+      projectPath: Library\ShaderCache\5\50d6dd97358e8aca1f0e099225234f6f.bin
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Team 2 City Lights\Library\ShaderCache\5\5334948754e37d87a59cbc75eb1f2f03.bin
+      fullPath: C:\Users\Three\Desktop\CityLights\team2\Team 2 City Lights\Library\ShaderCache\5\5334948754e37d87a59cbc75eb1f2f03.bin
+      projectPath: Library\ShaderCache\5\5334948754e37d87a59cbc75eb1f2f03.bin
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Team 2 City Lights\Library\ShaderCache\5\569780a9b8522aacc3dd4df7a2cb1ab0.bin
+      fullPath: C:\Users\Three\Desktop\CityLights\team2\Team 2 City Lights\Library\ShaderCache\5\569780a9b8522aacc3dd4df7a2cb1ab0.bin
+      projectPath: Library\ShaderCache\5\569780a9b8522aacc3dd4df7a2cb1ab0.bin
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Team 2 City Lights\Library\ShaderCache\5\5838eb594c34760758d32718fd4b36b0.bin
+      fullPath: C:\Users\Three\Desktop\CityLights\team2\Team 2 City Lights\Library\ShaderCache\5\5838eb594c34760758d32718fd4b36b0.bin
+      projectPath: Library\ShaderCache\5\5838eb594c34760758d32718fd4b36b0.bin
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Team 2 City Lights\Library\ShaderCache\5\5e1ce4fc03df82a113734462bb969fd5.bin
+      fullPath: C:\Users\Three\Desktop\CityLights\team2\Team 2 City Lights\Library\ShaderCache\5\5e1ce4fc03df82a113734462bb969fd5.bin
+      projectPath: Library\ShaderCache\5\5e1ce4fc03df82a113734462bb969fd5.bin
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Team 2 City Lights\Library\ShaderCache\6\6032ea2449115f08b7ec8d2a53712586.bin
+      fullPath: C:\Users\Three\Desktop\CityLights\team2\Team 2 City Lights\Library\ShaderCache\6\6032ea2449115f08b7ec8d2a53712586.bin
+      projectPath: Library\ShaderCache\6\6032ea2449115f08b7ec8d2a53712586.bin
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Team 2 City Lights\Library\ShaderCache\6\60ee5c6560038b5b18f4f24a9540c5cb.bin
+      fullPath: C:\Users\Three\Desktop\CityLights\team2\Team 2 City Lights\Library\ShaderCache\6\60ee5c6560038b5b18f4f24a9540c5cb.bin
+      projectPath: Library\ShaderCache\6\60ee5c6560038b5b18f4f24a9540c5cb.bin
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Team 2 City Lights\Library\ShaderCache\6\6f5d34e2f3fd06cbb4f0e2bc9f8cc0f7.bin
+      fullPath: C:\Users\Three\Desktop\CityLights\team2\Team 2 City Lights\Library\ShaderCache\6\6f5d34e2f3fd06cbb4f0e2bc9f8cc0f7.bin
+      projectPath: Library\ShaderCache\6\6f5d34e2f3fd06cbb4f0e2bc9f8cc0f7.bin
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Team 2 City Lights\Library\ShaderCache\7\7c590c0172d3171c9183f616a85a45d5.bin
+      fullPath: C:\Users\Three\Desktop\CityLights\team2\Team 2 City Lights\Library\ShaderCache\7\7c590c0172d3171c9183f616a85a45d5.bin
+      projectPath: Library\ShaderCache\7\7c590c0172d3171c9183f616a85a45d5.bin
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Team 2 City Lights\Library\ShaderCache\8\842d01dd4d405079b8488869290585b5.bin
+      fullPath: C:\Users\Three\Desktop\CityLights\team2\Team 2 City Lights\Library\ShaderCache\8\842d01dd4d405079b8488869290585b5.bin
+      projectPath: Library\ShaderCache\8\842d01dd4d405079b8488869290585b5.bin
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Team 2 City Lights\Library\ShaderCache\8\8696958a7af945607f63528611f5ba18.bin
+      fullPath: C:\Users\Three\Desktop\CityLights\team2\Team 2 City Lights\Library\ShaderCache\8\8696958a7af945607f63528611f5ba18.bin
+      projectPath: Library\ShaderCache\8\8696958a7af945607f63528611f5ba18.bin
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Team 2 City Lights\Library\ShaderCache\8\8f1c786dd4b3ead6410ed22dd55da019.bin
+      fullPath: C:\Users\Three\Desktop\CityLights\team2\Team 2 City Lights\Library\ShaderCache\8\8f1c786dd4b3ead6410ed22dd55da019.bin
+      projectPath: Library\ShaderCache\8\8f1c786dd4b3ead6410ed22dd55da019.bin
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Team 2 City Lights\Library\ShaderCache\9\90faa71a0beb8b9676b25d31d8c0025b.bin
+      fullPath: C:\Users\Three\Desktop\CityLights\team2\Team 2 City Lights\Library\ShaderCache\9\90faa71a0beb8b9676b25d31d8c0025b.bin
+      projectPath: Library\ShaderCache\9\90faa71a0beb8b9676b25d31d8c0025b.bin
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Team 2 City Lights\Library\ShaderCache\9\93e4c342916b41d20ab3c8a92d6105d7.bin
+      fullPath: C:\Users\Three\Desktop\CityLights\team2\Team 2 City Lights\Library\ShaderCache\9\93e4c342916b41d20ab3c8a92d6105d7.bin
+      projectPath: Library\ShaderCache\9\93e4c342916b41d20ab3c8a92d6105d7.bin
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Team 2 City Lights\Library\ShaderCache\9\947b894082757f2457bb2b2bb76a35cd.bin
+      fullPath: C:\Users\Three\Desktop\CityLights\team2\Team 2 City Lights\Library\ShaderCache\9\947b894082757f2457bb2b2bb76a35cd.bin
+      projectPath: Library\ShaderCache\9\947b894082757f2457bb2b2bb76a35cd.bin
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Team 2 City Lights\Library\ShaderCache\9\955653980dc79ae92a430e22b57c9631.bin
+      fullPath: C:\Users\Three\Desktop\CityLights\team2\Team 2 City Lights\Library\ShaderCache\9\955653980dc79ae92a430e22b57c9631.bin
+      projectPath: Library\ShaderCache\9\955653980dc79ae92a430e22b57c9631.bin
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Team 2 City Lights\Library\ShaderCache\EditorEncounteredVariants
+      fullPath: C:\Users\Three\Desktop\CityLights\team2\Team 2 City Lights\Library\ShaderCache\EditorEncounteredVariants
+      projectPath: Library\ShaderCache\EditorEncounteredVariants
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Team 2 City Lights\Library\ShaderCache\a\a0a6322c620a6a3a2bbd864ca1aae1d6.bin
+      fullPath: C:\Users\Three\Desktop\CityLights\team2\Team 2 City Lights\Library\ShaderCache\a\a0a6322c620a6a3a2bbd864ca1aae1d6.bin
+      projectPath: Library\ShaderCache\a\a0a6322c620a6a3a2bbd864ca1aae1d6.bin
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Team 2 City Lights\Library\ShaderCache\a\a4b0d92e061bb92a51bb08787c120d8d.bin
+      fullPath: C:\Users\Three\Desktop\CityLights\team2\Team 2 City Lights\Library\ShaderCache\a\a4b0d92e061bb92a51bb08787c120d8d.bin
+      projectPath: Library\ShaderCache\a\a4b0d92e061bb92a51bb08787c120d8d.bin
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Team 2 City Lights\Library\ShaderCache\a\ad6540778021856608bedef2060a64ea.bin
+      fullPath: C:\Users\Three\Desktop\CityLights\team2\Team 2 City Lights\Library\ShaderCache\a\ad6540778021856608bedef2060a64ea.bin
+      projectPath: Library\ShaderCache\a\ad6540778021856608bedef2060a64ea.bin
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Team 2 City Lights\Library\ShaderCache\b\b114dda851ff03d7572aea0489ead574.bin
+      fullPath: C:\Users\Three\Desktop\CityLights\team2\Team 2 City Lights\Library\ShaderCache\b\b114dda851ff03d7572aea0489ead574.bin
+      projectPath: Library\ShaderCache\b\b114dda851ff03d7572aea0489ead574.bin
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Team 2 City Lights\Library\ShaderCache\b\b1f051fb0e101ea0349046458f1fb847.bin
+      fullPath: C:\Users\Three\Desktop\CityLights\team2\Team 2 City Lights\Library\ShaderCache\b\b1f051fb0e101ea0349046458f1fb847.bin
+      projectPath: Library\ShaderCache\b\b1f051fb0e101ea0349046458f1fb847.bin
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Team 2 City Lights\Library\ShaderCache\b\b3b8e01e59d4d96ed05b77c7e69ab625.bin
+      fullPath: C:\Users\Three\Desktop\CityLights\team2\Team 2 City Lights\Library\ShaderCache\b\b3b8e01e59d4d96ed05b77c7e69ab625.bin
+      projectPath: Library\ShaderCache\b\b3b8e01e59d4d96ed05b77c7e69ab625.bin
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Team 2 City Lights\Library\ShaderCache\b\b689b8e6d5c75da134a641614c015b01.bin
+      fullPath: C:\Users\Three\Desktop\CityLights\team2\Team 2 City Lights\Library\ShaderCache\b\b689b8e6d5c75da134a641614c015b01.bin
+      projectPath: Library\ShaderCache\b\b689b8e6d5c75da134a641614c015b01.bin
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Team 2 City Lights\Library\ShaderCache\b\b9a11144ece6f990a73c35d5c58b83a5.bin
+      fullPath: C:\Users\Three\Desktop\CityLights\team2\Team 2 City Lights\Library\ShaderCache\b\b9a11144ece6f990a73c35d5c58b83a5.bin
+      projectPath: Library\ShaderCache\b\b9a11144ece6f990a73c35d5c58b83a5.bin
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Team 2 City Lights\Library\ShaderCache\b\ba0986f004c7b79b7df84b7ab7bb526a.bin
+      fullPath: C:\Users\Three\Desktop\CityLights\team2\Team 2 City Lights\Library\ShaderCache\b\ba0986f004c7b79b7df84b7ab7bb526a.bin
+      projectPath: Library\ShaderCache\b\ba0986f004c7b79b7df84b7ab7bb526a.bin
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Team 2 City Lights\Library\ShaderCache\b\be8a954a0375946ac054f9aed818cf99.bin
+      fullPath: C:\Users\Three\Desktop\CityLights\team2\Team 2 City Lights\Library\ShaderCache\b\be8a954a0375946ac054f9aed818cf99.bin
+      projectPath: Library\ShaderCache\b\be8a954a0375946ac054f9aed818cf99.bin
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Team 2 City Lights\Library\ShaderCache\b\bef8f9e8ff8380cb78cbdf55b12aefff.bin
+      fullPath: C:\Users\Three\Desktop\CityLights\team2\Team 2 City Lights\Library\ShaderCache\b\bef8f9e8ff8380cb78cbdf55b12aefff.bin
+      projectPath: Library\ShaderCache\b\bef8f9e8ff8380cb78cbdf55b12aefff.bin
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Team 2 City Lights\Library\ShaderCache\b\bf50ae63260d7b872c9cf68e3dd2dbed.bin
+      fullPath: C:\Users\Three\Desktop\CityLights\team2\Team 2 City Lights\Library\ShaderCache\b\bf50ae63260d7b872c9cf68e3dd2dbed.bin
+      projectPath: Library\ShaderCache\b\bf50ae63260d7b872c9cf68e3dd2dbed.bin
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Team 2 City Lights\Library\ShaderCache\c\cda3e1bf0a6f09367212c835070da17e.bin
+      fullPath: C:\Users\Three\Desktop\CityLights\team2\Team 2 City Lights\Library\ShaderCache\c\cda3e1bf0a6f09367212c835070da17e.bin
+      projectPath: Library\ShaderCache\c\cda3e1bf0a6f09367212c835070da17e.bin
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Team 2 City Lights\Library\ShaderCache\c\ce754901d595b86dd25ab091d23b2618.bin
+      fullPath: C:\Users\Three\Desktop\CityLights\team2\Team 2 City Lights\Library\ShaderCache\c\ce754901d595b86dd25ab091d23b2618.bin
+      projectPath: Library\ShaderCache\c\ce754901d595b86dd25ab091d23b2618.bin
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Team 2 City Lights\Library\ShaderCache\c\cedef43f62c37daf3570a9715b766a22.bin
+      fullPath: C:\Users\Three\Desktop\CityLights\team2\Team 2 City Lights\Library\ShaderCache\c\cedef43f62c37daf3570a9715b766a22.bin
+      projectPath: Library\ShaderCache\c\cedef43f62c37daf3570a9715b766a22.bin
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Team 2 City Lights\Library\ShaderCache\d\d41a1c9b1cefdf2751500e16e815908f.bin
+      fullPath: C:\Users\Three\Desktop\CityLights\team2\Team 2 City Lights\Library\ShaderCache\d\d41a1c9b1cefdf2751500e16e815908f.bin
+      projectPath: Library\ShaderCache\d\d41a1c9b1cefdf2751500e16e815908f.bin
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Team 2 City Lights\Library\ShaderCache\d\dcbe99218eb885fb3208da2f0b413669.bin
+      fullPath: C:\Users\Three\Desktop\CityLights\team2\Team 2 City Lights\Library\ShaderCache\d\dcbe99218eb885fb3208da2f0b413669.bin
+      projectPath: Library\ShaderCache\d\dcbe99218eb885fb3208da2f0b413669.bin
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Team 2 City Lights\Library\ShaderCache\e\e3cd3c5e1703d24a9d1e82e0bdaffb3d.bin
+      fullPath: C:\Users\Three\Desktop\CityLights\team2\Team 2 City Lights\Library\ShaderCache\e\e3cd3c5e1703d24a9d1e82e0bdaffb3d.bin
+      projectPath: Library\ShaderCache\e\e3cd3c5e1703d24a9d1e82e0bdaffb3d.bin
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Team 2 City Lights\Library\ShaderCache\e\e7295cb1f21f388559ed5ce53cd99609.bin
+      fullPath: C:\Users\Three\Desktop\CityLights\team2\Team 2 City Lights\Library\ShaderCache\e\e7295cb1f21f388559ed5ce53cd99609.bin
+      projectPath: Library\ShaderCache\e\e7295cb1f21f388559ed5ce53cd99609.bin
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Team 2 City Lights\Library\ShaderCache\e\e8fe1fa6b7b7be382726e78a04bd3a4e.bin
+      fullPath: C:\Users\Three\Desktop\CityLights\team2\Team 2 City Lights\Library\ShaderCache\e\e8fe1fa6b7b7be382726e78a04bd3a4e.bin
+      projectPath: Library\ShaderCache\e\e8fe1fa6b7b7be382726e78a04bd3a4e.bin
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Team 2 City Lights\Library\ShaderCache\f\f866df9e0e7cac553bc98bccc31e8b32.bin
+      fullPath: C:\Users\Three\Desktop\CityLights\team2\Team 2 City Lights\Library\ShaderCache\f\f866df9e0e7cac553bc98bccc31e8b32.bin
+      projectPath: Library\ShaderCache\f\f866df9e0e7cac553bc98bccc31e8b32.bin
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Team 2 City Lights\Library\ShaderCache\f\f9b4b6c8df96a1e98c68850b6c3c5bd1.bin
+      fullPath: C:\Users\Three\Desktop\CityLights\team2\Team 2 City Lights\Library\ShaderCache\f\f9b4b6c8df96a1e98c68850b6c3c5bd1.bin
+      projectPath: Library\ShaderCache\f\f9b4b6c8df96a1e98c68850b6c3c5bd1.bin
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Team 2 City Lights\Library\ShaderCache\f\fa7dff6fc3774de030f8a48cccc9189c.bin
+      fullPath: C:\Users\Three\Desktop\CityLights\team2\Team 2 City Lights\Library\ShaderCache\f\fa7dff6fc3774de030f8a48cccc9189c.bin
+      projectPath: Library\ShaderCache\f\fa7dff6fc3774de030f8a48cccc9189c.bin
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Team 2 City Lights\Library\StateCache\Hierarchy\8a2adc-7318cb11bbae1da4ea.json
+      fullPath: C:\Users\Three\Desktop\CityLights\team2\Team 2 City Lights\Library\StateCache\Hierarchy\8a2adc-7318cb11bbae1da4ea.json
+      projectPath: Library\StateCache\Hierarchy\8a2adc-7318cb11bbae1da4ea.json
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Team 2 City Lights\Library\StateCache\Hierarchy\8a2adc-mainStage.json
+      fullPath: C:\Users\Three\Desktop\CityLights\team2\Team 2 City Lights\Library\StateCache\Hierarchy\8a2adc-mainStage.json
+      projectPath: Library\StateCache\Hierarchy\8a2adc-mainStage.json
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Team 2 City Lights\Library\StateCache\SceneView\46b5ac-7318cb11bbae1da4ea.json
+      fullPath: C:\Users\Three\Desktop\CityLights\team2\Team 2 City Lights\Library\StateCache\SceneView\46b5ac-7318cb11bbae1da4ea.json
+      projectPath: Library\StateCache\SceneView\46b5ac-7318cb11bbae1da4ea.json
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Team 2 City Lights\Library\StateCache\SceneView\46b5ac-mainStage.json
+      fullPath: C:\Users\Three\Desktop\CityLights\team2\Team 2 City Lights\Library\StateCache\SceneView\46b5ac-mainStage.json
+      projectPath: Library\StateCache\SceneView\46b5ac-mainStage.json
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Team 2 City Lights\Library\assetDatabase3
+      fullPath: C:\Users\Three\Desktop\CityLights\team2\Team 2 City Lights\Library\assetDatabase3
+      projectPath: Library\assetDatabase3
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Team 2 City Lights\Library\expandedItems
+      fullPath: C:\Users\Three\Desktop\CityLights\team2\Team 2 City Lights\Library\expandedItems
+      projectPath: Library\expandedItems
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Team 2 City Lights\Library\gfu\cache\branches.yaml
+      fullPath: C:\Users\Three\Desktop\CityLights\team2\Team 2 City Lights\Library\gfu\cache\branches.yaml
+      projectPath: Library\gfu\cache\branches.yaml
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Team 2 City Lights\Library\gfu\cache\gitlocks.yaml
+      fullPath: C:\Users\Three\Desktop\CityLights\team2\Team 2 City Lights\Library\gfu\cache\gitlocks.yaml
+      projectPath: Library\gfu\cache\gitlocks.yaml
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Team 2 City Lights\Library\gfu\cache\gitlog.yaml
+      fullPath: C:\Users\Three\Desktop\CityLights\team2\Team 2 City Lights\Library\gfu\cache\gitlog.yaml
+      projectPath: Library\gfu\cache\gitlog.yaml
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Team 2 City Lights\Library\gfu\cache\gitstatusentries.yaml
+      fullPath: C:\Users\Three\Desktop\CityLights\team2\Team 2 City Lights\Library\gfu\cache\gitstatusentries.yaml
+      projectPath: Library\gfu\cache\gitstatusentries.yaml
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Team 2 City Lights\Library\gfu\cache\gittrackingstatus.yaml
+      fullPath: C:\Users\Three\Desktop\CityLights\team2\Team 2 City Lights\Library\gfu\cache\gittrackingstatus.yaml
+      projectPath: Library\gfu\cache\gittrackingstatus.yaml
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Team 2 City Lights\Library\gfu\cache\gituser.yaml
+      fullPath: C:\Users\Three\Desktop\CityLights\team2\Team 2 City Lights\Library\gfu\cache\gituser.yaml
+      projectPath: Library\gfu\cache\gituser.yaml
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Team 2 City Lights\Library\gfu\cache\repoinfo.yaml
+      fullPath: C:\Users\Three\Desktop\CityLights\team2\Team 2 City Lights\Library\gfu\cache\repoinfo.yaml
+      projectPath: Library\gfu\cache\repoinfo.yaml
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Team 2 City Lights\Library\metadata\01\0188ec438976e5849b40a2c1ce5f20f9
+      fullPath: C:\Users\Three\Desktop\CityLights\team2\Team 2 City Lights\Library\metadata\01\0188ec438976e5849b40a2c1ce5f20f9
+      projectPath: Library\metadata\01\0188ec438976e5849b40a2c1ce5f20f9
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Team 2 City Lights\Library\metadata\01\0188ec438976e5849b40a2c1ce5f20f9.info
+      fullPath: C:\Users\Three\Desktop\CityLights\team2\Team 2 City Lights\Library\metadata\01\0188ec438976e5849b40a2c1ce5f20f9.info
+      projectPath: Library\metadata\01\0188ec438976e5849b40a2c1ce5f20f9.info
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Team 2 City Lights\Library\metadata\07\07dee3f8cae365741a10f70c0fa39bc5
+      fullPath: C:\Users\Three\Desktop\CityLights\team2\Team 2 City Lights\Library\metadata\07\07dee3f8cae365741a10f70c0fa39bc5
+      projectPath: Library\metadata\07\07dee3f8cae365741a10f70c0fa39bc5
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Team 2 City Lights\Library\metadata\07\07dee3f8cae365741a10f70c0fa39bc5.info
+      fullPath: C:\Users\Three\Desktop\CityLights\team2\Team 2 City Lights\Library\metadata\07\07dee3f8cae365741a10f70c0fa39bc5.info
+      projectPath: Library\metadata\07\07dee3f8cae365741a10f70c0fa39bc5.info
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Team 2 City Lights\Library\metadata\13\136dc24f151211d438acee17aff4e934
+      fullPath: C:\Users\Three\Desktop\CityLights\team2\Team 2 City Lights\Library\metadata\13\136dc24f151211d438acee17aff4e934
+      projectPath: Library\metadata\13\136dc24f151211d438acee17aff4e934
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Team 2 City Lights\Library\metadata\13\136dc24f151211d438acee17aff4e934.info
+      fullPath: C:\Users\Three\Desktop\CityLights\team2\Team 2 City Lights\Library\metadata\13\136dc24f151211d438acee17aff4e934.info
+      projectPath: Library\metadata\13\136dc24f151211d438acee17aff4e934.info
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Team 2 City Lights\Library\metadata\13\13b5eaacbd83c8d43bf022eaec3b2553
+      fullPath: C:\Users\Three\Desktop\CityLights\team2\Team 2 City Lights\Library\metadata\13\13b5eaacbd83c8d43bf022eaec3b2553
+      projectPath: Library\metadata\13\13b5eaacbd83c8d43bf022eaec3b2553
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Team 2 City Lights\Library\metadata\13\13b5eaacbd83c8d43bf022eaec3b2553.info
+      fullPath: C:\Users\Three\Desktop\CityLights\team2\Team 2 City Lights\Library\metadata\13\13b5eaacbd83c8d43bf022eaec3b2553.info
+      projectPath: Library\metadata\13\13b5eaacbd83c8d43bf022eaec3b2553.info
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Team 2 City Lights\Library\metadata\15\151a1d946b98deb4b98445400983ba92
+      fullPath: C:\Users\Three\Desktop\CityLights\team2\Team 2 City Lights\Library\metadata\15\151a1d946b98deb4b98445400983ba92
+      projectPath: Library\metadata\15\151a1d946b98deb4b98445400983ba92
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Team 2 City Lights\Library\metadata\15\151a1d946b98deb4b98445400983ba92.info
+      fullPath: C:\Users\Three\Desktop\CityLights\team2\Team 2 City Lights\Library\metadata\15\151a1d946b98deb4b98445400983ba92.info
+      projectPath: Library\metadata\15\151a1d946b98deb4b98445400983ba92.info
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Team 2 City Lights\Library\metadata\15\15ca2bebf173f2d4484686a03a45b56d
+      fullPath: C:\Users\Three\Desktop\CityLights\team2\Team 2 City Lights\Library\metadata\15\15ca2bebf173f2d4484686a03a45b56d
+      projectPath: Library\metadata\15\15ca2bebf173f2d4484686a03a45b56d
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Team 2 City Lights\Library\metadata\15\15ca2bebf173f2d4484686a03a45b56d.info
+      fullPath: C:\Users\Three\Desktop\CityLights\team2\Team 2 City Lights\Library\metadata\15\15ca2bebf173f2d4484686a03a45b56d.info
+      projectPath: Library\metadata\15\15ca2bebf173f2d4484686a03a45b56d.info
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Team 2 City Lights\Library\metadata\18\18e096a98c2704c40a818dd1214cd179
+      fullPath: C:\Users\Three\Desktop\CityLights\team2\Team 2 City Lights\Library\metadata\18\18e096a98c2704c40a818dd1214cd179
+      projectPath: Library\metadata\18\18e096a98c2704c40a818dd1214cd179
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Team 2 City Lights\Library\metadata\18\18e096a98c2704c40a818dd1214cd179.info
+      fullPath: C:\Users\Three\Desktop\CityLights\team2\Team 2 City Lights\Library\metadata\18\18e096a98c2704c40a818dd1214cd179.info
+      projectPath: Library\metadata\18\18e096a98c2704c40a818dd1214cd179.info
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Team 2 City Lights\Library\metadata\21\21206c65839f84d0e9ae14bc1fdc68db
+      fullPath: C:\Users\Three\Desktop\CityLights\team2\Team 2 City Lights\Library\metadata\21\21206c65839f84d0e9ae14bc1fdc68db
+      projectPath: Library\metadata\21\21206c65839f84d0e9ae14bc1fdc68db
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Team 2 City Lights\Library\metadata\21\21206c65839f84d0e9ae14bc1fdc68db.info
+      fullPath: C:\Users\Three\Desktop\CityLights\team2\Team 2 City Lights\Library\metadata\21\21206c65839f84d0e9ae14bc1fdc68db.info
+      projectPath: Library\metadata\21\21206c65839f84d0e9ae14bc1fdc68db.info
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Team 2 City Lights\Library\metadata\2b\2b9c6f18a9f01a84da3885022acec615
+      fullPath: C:\Users\Three\Desktop\CityLights\team2\Team 2 City Lights\Library\metadata\2b\2b9c6f18a9f01a84da3885022acec615
+      projectPath: Library\metadata\2b\2b9c6f18a9f01a84da3885022acec615
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Team 2 City Lights\Library\metadata\2b\2b9c6f18a9f01a84da3885022acec615.info
+      fullPath: C:\Users\Three\Desktop\CityLights\team2\Team 2 City Lights\Library\metadata\2b\2b9c6f18a9f01a84da3885022acec615.info
+      projectPath: Library\metadata\2b\2b9c6f18a9f01a84da3885022acec615.info
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Team 2 City Lights\Library\metadata\44\44a7fa5f96d7dc646bcc8bdd629f6c05
+      fullPath: C:\Users\Three\Desktop\CityLights\team2\Team 2 City Lights\Library\metadata\44\44a7fa5f96d7dc646bcc8bdd629f6c05
+      projectPath: Library\metadata\44\44a7fa5f96d7dc646bcc8bdd629f6c05
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Team 2 City Lights\Library\metadata\44\44a7fa5f96d7dc646bcc8bdd629f6c05.info
+      fullPath: C:\Users\Three\Desktop\CityLights\team2\Team 2 City Lights\Library\metadata\44\44a7fa5f96d7dc646bcc8bdd629f6c05.info
+      projectPath: Library\metadata\44\44a7fa5f96d7dc646bcc8bdd629f6c05.info
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Team 2 City Lights\Library\metadata\48\48c22d5d7479fcb49ab3be0cdd2ccec0
+      fullPath: C:\Users\Three\Desktop\CityLights\team2\Team 2 City Lights\Library\metadata\48\48c22d5d7479fcb49ab3be0cdd2ccec0
+      projectPath: Library\metadata\48\48c22d5d7479fcb49ab3be0cdd2ccec0
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Team 2 City Lights\Library\metadata\48\48c22d5d7479fcb49ab3be0cdd2ccec0.info
+      fullPath: C:\Users\Three\Desktop\CityLights\team2\Team 2 City Lights\Library\metadata\48\48c22d5d7479fcb49ab3be0cdd2ccec0.info
+      projectPath: Library\metadata\48\48c22d5d7479fcb49ab3be0cdd2ccec0.info
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Team 2 City Lights\Library\metadata\4b\4ba2329b63d54f0187bcaa12486b1b0f
+      fullPath: C:\Users\Three\Desktop\CityLights\team2\Team 2 City Lights\Library\metadata\4b\4ba2329b63d54f0187bcaa12486b1b0f
+      projectPath: Library\metadata\4b\4ba2329b63d54f0187bcaa12486b1b0f
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Team 2 City Lights\Library\metadata\55\555cd6f54c03341b1970d950df1a5ee5
+      fullPath: C:\Users\Three\Desktop\CityLights\team2\Team 2 City Lights\Library\metadata\55\555cd6f54c03341b1970d950df1a5ee5
+      projectPath: Library\metadata\55\555cd6f54c03341b1970d950df1a5ee5
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Team 2 City Lights\Library\metadata\55\555cd6f54c03341b1970d950df1a5ee5.info
+      fullPath: C:\Users\Three\Desktop\CityLights\team2\Team 2 City Lights\Library\metadata\55\555cd6f54c03341b1970d950df1a5ee5.info
+      projectPath: Library\metadata\55\555cd6f54c03341b1970d950df1a5ee5.info
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Team 2 City Lights\Library\metadata\57\57a58db6cbda31b4d976c87b85e3da03
+      fullPath: C:\Users\Three\Desktop\CityLights\team2\Team 2 City Lights\Library\metadata\57\57a58db6cbda31b4d976c87b85e3da03
+      projectPath: Library\metadata\57\57a58db6cbda31b4d976c87b85e3da03
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Team 2 City Lights\Library\metadata\57\57a58db6cbda31b4d976c87b85e3da03.info
+      fullPath: C:\Users\Three\Desktop\CityLights\team2\Team 2 City Lights\Library\metadata\57\57a58db6cbda31b4d976c87b85e3da03.info
+      projectPath: Library\metadata\57\57a58db6cbda31b4d976c87b85e3da03.info
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Team 2 City Lights\Library\metadata\63\636d33ae594884e7d80b569f429d245d
+      fullPath: C:\Users\Three\Desktop\CityLights\team2\Team 2 City Lights\Library\metadata\63\636d33ae594884e7d80b569f429d245d
+      projectPath: Library\metadata\63\636d33ae594884e7d80b569f429d245d
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Team 2 City Lights\Library\metadata\63\636d33ae594884e7d80b569f429d245d.info
+      fullPath: C:\Users\Three\Desktop\CityLights\team2\Team 2 City Lights\Library\metadata\63\636d33ae594884e7d80b569f429d245d.info
+      projectPath: Library\metadata\63\636d33ae594884e7d80b569f429d245d.info
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Team 2 City Lights\Library\metadata\68\68c7e4565cde54155bb78d8e935f1dd4
+      fullPath: C:\Users\Three\Desktop\CityLights\team2\Team 2 City Lights\Library\metadata\68\68c7e4565cde54155bb78d8e935f1dd4
+      projectPath: Library\metadata\68\68c7e4565cde54155bb78d8e935f1dd4
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Team 2 City Lights\Library\metadata\68\68c7e4565cde54155bb78d8e935f1dd4.info
+      fullPath: C:\Users\Three\Desktop\CityLights\team2\Team 2 City Lights\Library\metadata\68\68c7e4565cde54155bb78d8e935f1dd4.info
+      projectPath: Library\metadata\68\68c7e4565cde54155bb78d8e935f1dd4.info
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Team 2 City Lights\Library\metadata\68\68c7e4565cde54155bb78d8e935f1ddb
+      fullPath: C:\Users\Three\Desktop\CityLights\team2\Team 2 City Lights\Library\metadata\68\68c7e4565cde54155bb78d8e935f1ddb
+      projectPath: Library\metadata\68\68c7e4565cde54155bb78d8e935f1ddb
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Team 2 City Lights\Library\metadata\68\68c7e4565cde54155bb78d8e935f1ddb.info
+      fullPath: C:\Users\Three\Desktop\CityLights\team2\Team 2 City Lights\Library\metadata\68\68c7e4565cde54155bb78d8e935f1ddb.info
+      projectPath: Library\metadata\68\68c7e4565cde54155bb78d8e935f1ddb.info
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Team 2 City Lights\Library\metadata\72\720712be6e31c444f88f57bb85bf5fa5
+      fullPath: C:\Users\Three\Desktop\CityLights\team2\Team 2 City Lights\Library\metadata\72\720712be6e31c444f88f57bb85bf5fa5
+      projectPath: Library\metadata\72\720712be6e31c444f88f57bb85bf5fa5
+      originalPath: Team 2 City Lights\Library\metadata\33\33cfc29015cecc64d878c98be0b4aacb
+      indexStatus: 6
+      workTreeStatus: 0
+    - path: Team 2 City Lights\Library\metadata\72\720712be6e31c444f88f57bb85bf5fa5.info
+      fullPath: C:\Users\Three\Desktop\CityLights\team2\Team 2 City Lights\Library\metadata\72\720712be6e31c444f88f57bb85bf5fa5.info
+      projectPath: Library\metadata\72\720712be6e31c444f88f57bb85bf5fa5.info
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Team 2 City Lights\Library\metadata\73\7318cb11bbae1da4eaa7516780b148e3
+      fullPath: C:\Users\Three\Desktop\CityLights\team2\Team 2 City Lights\Library\metadata\73\7318cb11bbae1da4eaa7516780b148e3
+      projectPath: Library\metadata\73\7318cb11bbae1da4eaa7516780b148e3
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Team 2 City Lights\Library\metadata\73\7318cb11bbae1da4eaa7516780b148e3.info
+      fullPath: C:\Users\Three\Desktop\CityLights\team2\Team 2 City Lights\Library\metadata\73\7318cb11bbae1da4eaa7516780b148e3.info
+      projectPath: Library\metadata\73\7318cb11bbae1da4eaa7516780b148e3.info
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Team 2 City Lights\Library\metadata\79\790749ba7e4b18141953e39cb13f1b79
+      fullPath: C:\Users\Three\Desktop\CityLights\team2\Team 2 City Lights\Library\metadata\79\790749ba7e4b18141953e39cb13f1b79
+      projectPath: Library\metadata\79\790749ba7e4b18141953e39cb13f1b79
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Team 2 City Lights\Library\metadata\79\790749ba7e4b18141953e39cb13f1b79.info
+      fullPath: C:\Users\Three\Desktop\CityLights\team2\Team 2 City Lights\Library\metadata\79\790749ba7e4b18141953e39cb13f1b79.info
+      projectPath: Library\metadata\79\790749ba7e4b18141953e39cb13f1b79.info
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Team 2 City Lights\Library\metadata\84\84a5ce5b391fac247bfccd9b6d6fa3eb
+      fullPath: C:\Users\Three\Desktop\CityLights\team2\Team 2 City Lights\Library\metadata\84\84a5ce5b391fac247bfccd9b6d6fa3eb
+      projectPath: Library\metadata\84\84a5ce5b391fac247bfccd9b6d6fa3eb
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Team 2 City Lights\Library\metadata\84\84a5ce5b391fac247bfccd9b6d6fa3eb.info
+      fullPath: C:\Users\Three\Desktop\CityLights\team2\Team 2 City Lights\Library\metadata\84\84a5ce5b391fac247bfccd9b6d6fa3eb.info
+      projectPath: Library\metadata\84\84a5ce5b391fac247bfccd9b6d6fa3eb.info
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Team 2 City Lights\Library\metadata\86\863e1b9976c4e46d29bf83928b3a8ab2
+      fullPath: C:\Users\Three\Desktop\CityLights\team2\Team 2 City Lights\Library\metadata\86\863e1b9976c4e46d29bf83928b3a8ab2
+      projectPath: Library\metadata\86\863e1b9976c4e46d29bf83928b3a8ab2
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Team 2 City Lights\Library\metadata\86\863e1b9976c4e46d29bf83928b3a8ab2.info
+      fullPath: C:\Users\Three\Desktop\CityLights\team2\Team 2 City Lights\Library\metadata\86\863e1b9976c4e46d29bf83928b3a8ab2.info
+      projectPath: Library\metadata\86\863e1b9976c4e46d29bf83928b3a8ab2.info
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Team 2 City Lights\Library\metadata\86\868fbb4c41814baebc00f96e24ede2f8
+      fullPath: C:\Users\Three\Desktop\CityLights\team2\Team 2 City Lights\Library\metadata\86\868fbb4c41814baebc00f96e24ede2f8
+      projectPath: Library\metadata\86\868fbb4c41814baebc00f96e24ede2f8
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Team 2 City Lights\Library\metadata\86\868fbb4c41814baebc00f96e24ede2f8.info
+      fullPath: C:\Users\Three\Desktop\CityLights\team2\Team 2 City Lights\Library\metadata\86\868fbb4c41814baebc00f96e24ede2f8.info
+      projectPath: Library\metadata\86\868fbb4c41814baebc00f96e24ede2f8.info
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Team 2 City Lights\Library\metadata\91\91fe7a187507ff144bfb829d1eb666a0
+      fullPath: C:\Users\Three\Desktop\CityLights\team2\Team 2 City Lights\Library\metadata\91\91fe7a187507ff144bfb829d1eb666a0
+      projectPath: Library\metadata\91\91fe7a187507ff144bfb829d1eb666a0
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Team 2 City Lights\Library\metadata\91\91fe7a187507ff144bfb829d1eb666a0.info
+      fullPath: C:\Users\Three\Desktop\CityLights\team2\Team 2 City Lights\Library\metadata\91\91fe7a187507ff144bfb829d1eb666a0.info
+      projectPath: Library\metadata\91\91fe7a187507ff144bfb829d1eb666a0.info
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Team 2 City Lights\Library\metadata\99\99b48d4d4f6a66340ab06bd487d70a45
+      fullPath: C:\Users\Three\Desktop\CityLights\team2\Team 2 City Lights\Library\metadata\99\99b48d4d4f6a66340ab06bd487d70a45
+      projectPath: Library\metadata\99\99b48d4d4f6a66340ab06bd487d70a45
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Team 2 City Lights\Library\metadata\99\99b48d4d4f6a66340ab06bd487d70a45.info
+      fullPath: C:\Users\Three\Desktop\CityLights\team2\Team 2 City Lights\Library\metadata\99\99b48d4d4f6a66340ab06bd487d70a45.info
+      projectPath: Library\metadata\99\99b48d4d4f6a66340ab06bd487d70a45.info
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Team 2 City Lights\Library\metadata\a0\a0ded7adcc817ce489fec07977f16d13
+      fullPath: C:\Users\Three\Desktop\CityLights\team2\Team 2 City Lights\Library\metadata\a0\a0ded7adcc817ce489fec07977f16d13
+      projectPath: Library\metadata\a0\a0ded7adcc817ce489fec07977f16d13
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Team 2 City Lights\Library\metadata\a0\a0ded7adcc817ce489fec07977f16d13.info
+      fullPath: C:\Users\Three\Desktop\CityLights\team2\Team 2 City Lights\Library\metadata\a0\a0ded7adcc817ce489fec07977f16d13.info
+      projectPath: Library\metadata\a0\a0ded7adcc817ce489fec07977f16d13.info
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Team 2 City Lights\Library\metadata\a8\a83159a46d87d2a4f8cec651049b9231
+      fullPath: C:\Users\Three\Desktop\CityLights\team2\Team 2 City Lights\Library\metadata\a8\a83159a46d87d2a4f8cec651049b9231
+      projectPath: Library\metadata\a8\a83159a46d87d2a4f8cec651049b9231
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Team 2 City Lights\Library\metadata\a8\a83159a46d87d2a4f8cec651049b9231.info
+      fullPath: C:\Users\Three\Desktop\CityLights\team2\Team 2 City Lights\Library\metadata\a8\a83159a46d87d2a4f8cec651049b9231.info
+      projectPath: Library\metadata\a8\a83159a46d87d2a4f8cec651049b9231.info
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Team 2 City Lights\Library\metadata\c7\c743ae24ee231884887054d20ccdd0ab
+      fullPath: C:\Users\Three\Desktop\CityLights\team2\Team 2 City Lights\Library\metadata\c7\c743ae24ee231884887054d20ccdd0ab
+      projectPath: Library\metadata\c7\c743ae24ee231884887054d20ccdd0ab
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Team 2 City Lights\Library\metadata\c7\c743ae24ee231884887054d20ccdd0ab.info
+      fullPath: C:\Users\Three\Desktop\CityLights\team2\Team 2 City Lights\Library\metadata\c7\c743ae24ee231884887054d20ccdd0ab.info
+      projectPath: Library\metadata\c7\c743ae24ee231884887054d20ccdd0ab.info
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Team 2 City Lights\Library\metadata\c7\c743ae24ee231884887054d20ccdd0ae
+      fullPath: C:\Users\Three\Desktop\CityLights\team2\Team 2 City Lights\Library\metadata\c7\c743ae24ee231884887054d20ccdd0ae
+      projectPath: Library\metadata\c7\c743ae24ee231884887054d20ccdd0ae
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Team 2 City Lights\Library\metadata\c7\c743ae24ee231884887054d20ccdd0ae.info
+      fullPath: C:\Users\Three\Desktop\CityLights\team2\Team 2 City Lights\Library\metadata\c7\c743ae24ee231884887054d20ccdd0ae.info
+      projectPath: Library\metadata\c7\c743ae24ee231884887054d20ccdd0ae.info
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Team 2 City Lights\Library\metadata\ca\cad92998c5182496e8b989b406d9f156
+      fullPath: C:\Users\Three\Desktop\CityLights\team2\Team 2 City Lights\Library\metadata\ca\cad92998c5182496e8b989b406d9f156
+      projectPath: Library\metadata\ca\cad92998c5182496e8b989b406d9f156
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Team 2 City Lights\Library\metadata\ca\cad92998c5182496e8b989b406d9f156.info
+      fullPath: C:\Users\Three\Desktop\CityLights\team2\Team 2 City Lights\Library\metadata\ca\cad92998c5182496e8b989b406d9f156.info
+      projectPath: Library\metadata\ca\cad92998c5182496e8b989b406d9f156.info
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Team 2 City Lights\Library\metadata\d5\d516f2a1bec6a9645a084ef8c9237132
+      fullPath: C:\Users\Three\Desktop\CityLights\team2\Team 2 City Lights\Library\metadata\d5\d516f2a1bec6a9645a084ef8c9237132
+      projectPath: Library\metadata\d5\d516f2a1bec6a9645a084ef8c9237132
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Team 2 City Lights\Library\metadata\d5\d516f2a1bec6a9645a084ef8c9237132.info
+      fullPath: C:\Users\Three\Desktop\CityLights\team2\Team 2 City Lights\Library\metadata\d5\d516f2a1bec6a9645a084ef8c9237132.info
+      projectPath: Library\metadata\d5\d516f2a1bec6a9645a084ef8c9237132.info
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Team 2 City Lights\Library\metadata\d6\d601ecb6855bb432bae2aa49d8fd82e8
+      fullPath: C:\Users\Three\Desktop\CityLights\team2\Team 2 City Lights\Library\metadata\d6\d601ecb6855bb432bae2aa49d8fd82e8
+      projectPath: Library\metadata\d6\d601ecb6855bb432bae2aa49d8fd82e8
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Team 2 City Lights\Library\metadata\d6\d601ecb6855bb432bae2aa49d8fd82e8.info
+      fullPath: C:\Users\Three\Desktop\CityLights\team2\Team 2 City Lights\Library\metadata\d6\d601ecb6855bb432bae2aa49d8fd82e8.info
+      projectPath: Library\metadata\d6\d601ecb6855bb432bae2aa49d8fd82e8.info
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Team 2 City Lights\Library\metadata\da\dae2ecee8a704dd59797e26554ff8606
+      fullPath: C:\Users\Three\Desktop\CityLights\team2\Team 2 City Lights\Library\metadata\da\dae2ecee8a704dd59797e26554ff8606
+      projectPath: Library\metadata\da\dae2ecee8a704dd59797e26554ff8606
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Team 2 City Lights\Library\metadata\da\dae2ecee8a704dd59797e26554ff8606.info
+      fullPath: C:\Users\Three\Desktop\CityLights\team2\Team 2 City Lights\Library\metadata\da\dae2ecee8a704dd59797e26554ff8606.info
+      projectPath: Library\metadata\da\dae2ecee8a704dd59797e26554ff8606.info
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Team 2 City Lights\Library\metadata\dd\dd416312a2e90324fa3833e98cd4d9cc
+      fullPath: C:\Users\Three\Desktop\CityLights\team2\Team 2 City Lights\Library\metadata\dd\dd416312a2e90324fa3833e98cd4d9cc
+      projectPath: Library\metadata\dd\dd416312a2e90324fa3833e98cd4d9cc
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Team 2 City Lights\Library\metadata\dd\dd416312a2e90324fa3833e98cd4d9cc.info
+      fullPath: C:\Users\Three\Desktop\CityLights\team2\Team 2 City Lights\Library\metadata\dd\dd416312a2e90324fa3833e98cd4d9cc.info
+      projectPath: Library\metadata\dd\dd416312a2e90324fa3833e98cd4d9cc.info
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Team 2 City Lights\Library\metadata\dd\ddb8611e748af425a82a497ac5a98c0c
+      fullPath: C:\Users\Three\Desktop\CityLights\team2\Team 2 City Lights\Library\metadata\dd\ddb8611e748af425a82a497ac5a98c0c
+      projectPath: Library\metadata\dd\ddb8611e748af425a82a497ac5a98c0c
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Team 2 City Lights\Library\metadata\dd\ddb8611e748af425a82a497ac5a98c0c.info
+      fullPath: C:\Users\Three\Desktop\CityLights\team2\Team 2 City Lights\Library\metadata\dd\ddb8611e748af425a82a497ac5a98c0c.info
+      projectPath: Library\metadata\dd\ddb8611e748af425a82a497ac5a98c0c.info
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Team 2 City Lights\Library\metadata\ee\ee422c1cd1681be45a3673575661036b
+      fullPath: C:\Users\Three\Desktop\CityLights\team2\Team 2 City Lights\Library\metadata\ee\ee422c1cd1681be45a3673575661036b
+      projectPath: Library\metadata\ee\ee422c1cd1681be45a3673575661036b
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Team 2 City Lights\Library\metadata\ee\ee422c1cd1681be45a3673575661036b.info
+      fullPath: C:\Users\Three\Desktop\CityLights\team2\Team 2 City Lights\Library\metadata\ee\ee422c1cd1681be45a3673575661036b.info
+      projectPath: Library\metadata\ee\ee422c1cd1681be45a3673575661036b.info
+      originalPath: Team 2 City Lights\Library\metadata\33\33cfc29015cecc64d878c98be0b4aacb.info
+      indexStatus: 6
+      workTreeStatus: 0
+    - path: Team 2 City Lights\Library\metadata\f8\f81094832d834c64d93b198cb16b6a3e
+      fullPath: C:\Users\Three\Desktop\CityLights\team2\Team 2 City Lights\Library\metadata\f8\f81094832d834c64d93b198cb16b6a3e
+      projectPath: Library\metadata\f8\f81094832d834c64d93b198cb16b6a3e
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Team 2 City Lights\Library\metadata\f8\f81094832d834c64d93b198cb16b6a3e.info
+      fullPath: C:\Users\Three\Desktop\CityLights\team2\Team 2 City Lights\Library\metadata\f8\f81094832d834c64d93b198cb16b6a3e.info
+      projectPath: Library\metadata\f8\f81094832d834c64d93b198cb16b6a3e.info
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Team 2 City Lights\Library\metadata\f9\f9fc9b08ecd899944adf9860b4abd6b6
+      fullPath: C:\Users\Three\Desktop\CityLights\team2\Team 2 City Lights\Library\metadata\f9\f9fc9b08ecd899944adf9860b4abd6b6
+      projectPath: Library\metadata\f9\f9fc9b08ecd899944adf9860b4abd6b6
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Team 2 City Lights\Library\metadata\f9\f9fc9b08ecd899944adf9860b4abd6b6.info
+      fullPath: C:\Users\Three\Desktop\CityLights\team2\Team 2 City Lights\Library\metadata\f9\f9fc9b08ecd899944adf9860b4abd6b6.info
+      projectPath: Library\metadata\f9\f9fc9b08ecd899944adf9860b4abd6b6.info
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Team 2 City Lights\Library\metadata\fe\fe5abeadcbe591e4fa9107fbc02f3998
+      fullPath: C:\Users\Three\Desktop\CityLights\team2\Team 2 City Lights\Library\metadata\fe\fe5abeadcbe591e4fa9107fbc02f3998
+      projectPath: Library\metadata\fe\fe5abeadcbe591e4fa9107fbc02f3998
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Team 2 City Lights\Library\metadata\fe\fe5abeadcbe591e4fa9107fbc02f3998.info
+      fullPath: C:\Users\Three\Desktop\CityLights\team2\Team 2 City Lights\Library\metadata\fe\fe5abeadcbe591e4fa9107fbc02f3998.info
+      projectPath: Library\metadata\fe\fe5abeadcbe591e4fa9107fbc02f3998.info
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Team 2 City Lights\Library\shadercompiler-UnityShaderCompiler.exe0.log
+      fullPath: C:\Users\Three\Desktop\CityLights\team2\Team 2 City Lights\Library\shadercompiler-UnityShaderCompiler.exe0.log
+      projectPath: Library\shadercompiler-UnityShaderCompiler.exe0.log
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Team 2 City Lights\Library\shadercompiler-UnityShaderCompiler.exe1.log
+      fullPath: C:\Users\Three\Desktop\CityLights\team2\Team 2 City Lights\Library\shadercompiler-UnityShaderCompiler.exe1.log
+      projectPath: Library\shadercompiler-UnityShaderCompiler.exe1.log
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Team 2 City Lights\Library\shadercompiler-UnityShaderCompiler.exe2.log
+      fullPath: C:\Users\Three\Desktop\CityLights\team2\Team 2 City Lights\Library\shadercompiler-UnityShaderCompiler.exe2.log
+      projectPath: Library\shadercompiler-UnityShaderCompiler.exe2.log
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Team 2 City Lights\Library\shadercompiler-UnityShaderCompiler.exe3.log
+      fullPath: C:\Users\Three\Desktop\CityLights\team2\Team 2 City Lights\Library\shadercompiler-UnityShaderCompiler.exe3.log
+      projectPath: Library\shadercompiler-UnityShaderCompiler.exe3.log
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Team 2 City Lights\ProjectSettings\QualitySettings.asset
+      fullPath: C:\Users\Three\Desktop\CityLights\team2\Team 2 City Lights\ProjectSettings\QualitySettings.asset
+      projectPath: ProjectSettings\QualitySettings.asset
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Team 2 City Lights\ProjectSettings\TagManager.asset
+      fullPath: C:\Users\Three\Desktop\CityLights\team2\Team 2 City Lights\ProjectSettings\TagManager.asset
+      projectPath: ProjectSettings\TagManager.asset
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Team 2 City Lights\ProjectSettings\UnityConnectSettings.asset
+      fullPath: C:\Users\Three\Desktop\CityLights\team2\Team 2 City Lights\ProjectSettings\UnityConnectSettings.asset
+      projectPath: ProjectSettings\UnityConnectSettings.asset
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Team 2 City Lights\Team 2 City Lights.sln
+      fullPath: C:\Users\Three\Desktop\CityLights\team2\Team 2 City Lights\Team 2
+        City Lights.sln
+      projectPath: Team 2 City Lights.sln
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Team 2 City Lights\obj\Debug\Assembly-CSharp-Editor-firstpass.csproj.CoreCompileInputs.cache
+      fullPath: C:\Users\Three\Desktop\CityLights\team2\Team 2 City Lights\obj\Debug\Assembly-CSharp-Editor-firstpass.csproj.CoreCompileInputs.cache
+      projectPath: obj\Debug\Assembly-CSharp-Editor-firstpass.csproj.CoreCompileInputs.cache
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Team 2 City Lights\obj\Debug\Assembly-CSharp-Editor-firstpass.csprojAssemblyReference.cache
+      fullPath: C:\Users\Three\Desktop\CityLights\team2\Team 2 City Lights\obj\Debug\Assembly-CSharp-Editor-firstpass.csprojAssemblyReference.cache
+      projectPath: obj\Debug\Assembly-CSharp-Editor-firstpass.csprojAssemblyReference.cache
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Team 2 City Lights\obj\Debug\Assembly-CSharp.csproj.CoreCompileInputs.cache
+      fullPath: C:\Users\Three\Desktop\CityLights\team2\Team 2 City Lights\obj\Debug\Assembly-CSharp.csproj.CoreCompileInputs.cache
+      projectPath: obj\Debug\Assembly-CSharp.csproj.CoreCompileInputs.cache
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Team 2 City Lights\obj\Debug\Assembly-CSharp.csprojAssemblyReference.cache
+      fullPath: C:\Users\Three\Desktop\CityLights\team2\Team 2 City Lights\obj\Debug\Assembly-CSharp.csprojAssemblyReference.cache
+      projectPath: obj\Debug\Assembly-CSharp.csprojAssemblyReference.cache
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Team 2 City Lights\obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache
+      fullPath: C:\Users\Three\Desktop\CityLights\team2\Team 2 City Lights\obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache
+      projectPath: obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
   - commitID: 419092913fe3eeda0d7510a23a82c7d5162530f5
     mergeA: 
     mergeB: 
