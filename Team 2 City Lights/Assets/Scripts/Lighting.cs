@@ -24,11 +24,11 @@ public class Lighting : MonoBehaviour
         lightComp.shadows = LightShadows.Soft;
         for(int i = 0; i < 5; i++)
         {
-            Instantiate(firefly, new Vector3((float)(i/2), 0.5f, (float) Mathf.Sqrt((i-2)*(i-1))), new Quaternion(0f, 0f, 0f, 0f));
+            Instantiate(firefly, new Vector3((float)(i*2 + i^2/4), 0.5f, (float) Mathf.Sqrt((i-2)*(i-1)) + 2*i + i/2 -4), new Quaternion(0f, 0f, 0f, 0f));
         }
         for (int i = 0; i < 5; i++)
         {
-            Instantiate(enemy, new Vector3((float)Mathf.Sqrt((i - 2) * (i - 1)), 0.5f, (float)(-i/2)), new Quaternion(0f, 0f, 0f, 0f));
+            Instantiate(enemy, new Vector3((float)Mathf.Sqrt((i - 2) * (2*i - 1)), 0.5f, (float)(-i/2) + 2*i), new Quaternion(0f, 0f, 0f, 0f));
         }
 
 
@@ -50,21 +50,57 @@ public class Lighting : MonoBehaviour
     }
 
     public void OnTriggerEnter(Collider other)
-    {
-        if(other.tag == "Firefly")
-        {
-            lightComp.range = lightComp.range + 2f;
-            lightComp.transform.Translate(new Vector3(0, 0.4f, 0));
-            Destroy(other.gameObject);
-        }
+    {   
         if (other.tag == "Enemy")
         {
-            lightComp.range = lightComp.range - 2f;
-            lightComp.transform.Translate(new Vector3(0, -0.4f, 0));
-            Destroy(other.gameObject);
+            if (other.gameObject.transform.position.x - lightComp.transform.position.x < 1f && other.gameObject.transform.position.z - lightComp.transform.position.z < 1f)
+            {
+                if (lightComp.range > 7) { 
+                lightComp.range = lightComp.range - 2f;
+                lightComp.transform.Translate(new Vector3(0, -0.4f, 0));
+                }
+                Destroy(other.gameObject);
+            }
         }
     }
 
+    public void OnTriggerStay(Collider other)
+    {
+      if(other.tag == "Firefly")
+        {
+            StartCoroutine(Vacuum(other.gameObject));
 
+            if (Input.GetMouseButton(0) && other.gameObject.transform.position.x - lightComp.transform.position.x < 1f && other.gameObject.transform.position.z - lightComp.transform.position.z < 1f)
+            {
+                {
+                    lightComp.range = lightComp.range + 2f;
+                    lightComp.transform.Translate(new Vector3(0, 0.4f, 0));
+                    Destroy(other.gameObject);
+                }
+            }
+        }
+      
+    }
+
+    IEnumerator Vacuum(GameObject obj)
+    {
+        float xComp = 0;
+        float zComp = 0;
+        if (Input.GetMouseButton(0) || Input.GetMouseButton(1))
+            {
+                xComp = 0;
+                zComp = 0;
+            if (obj.transform.position.x > this.transform.position.x)
+                    xComp = -0.1f;
+                else
+                    xComp = 0.1f;
+                if (obj.transform.position.z > this.transform.position.z)
+                    zComp = -0.1f;
+                else
+                    zComp = 0.1f;
+            }
+        obj.gameObject.transform.Translate(xComp, 0, zComp);
+        yield return null;
+    }
 
 }

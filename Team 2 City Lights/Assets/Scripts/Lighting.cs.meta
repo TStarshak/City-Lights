@@ -3,7 +3,12 @@ guid: 57a58db6cbda31b4d976c87b85e3da03
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2
-  defaultReferences: []
+  defaultReferences:
+  - gameLight: {fileID: 102886255569621853, guid: 7318cb11bbae1da4eaa7516780b148e3,
+      type: 3}
+  - firefly: {fileID: 1046136094439768473, guid: 13b5eaacbd83c8d43bf022eaec3b2553,
+      type: 3}
+  - enemy: {fileID: 1301353855854334405, guid: 07dee3f8cae365741a10f70c0fa39bc5, type: 3}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 
