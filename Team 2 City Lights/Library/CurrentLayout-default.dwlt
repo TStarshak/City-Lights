@@ -16,12 +16,12 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 43.2
-    width: 2048
-    height: 1068.8
+    width: 1536
+    height: 780.8
   m_ShowMode: 4
   m_Title: 
   m_RootView: {fileID: 2}
-  m_MinSize: {x: 950, y: 544}
+  m_MinSize: {x: 950, y: 394}
   m_MaxSize: {x: 10000, y: 10000}
 --- !u!114 &2
 MonoBehaviour:
@@ -43,9 +43,9 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 2048
-    height: 1069
-  m_MinSize: {x: 950, y: 544}
+    width: 1536
+    height: 781
+  m_MinSize: {x: 950, y: 394}
   m_MaxSize: {x: 10000, y: 10000}
 --- !u!114 &3
 MonoBehaviour:
@@ -64,7 +64,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 2048
+    width: 1536
     height: 30
   m_MinSize: {x: 0, y: 0}
   m_MaxSize: {x: 0, y: 0}
@@ -85,8 +85,8 @@ MonoBehaviour:
   m_Position:
     serializedVersion: 2
     x: 0
-    y: 1049
-    width: 2048
+    y: 761
+    width: 1536
     height: 20
   m_MinSize: {x: 0, y: 0}
   m_MaxSize: {x: 0, y: 0}
@@ -109,12 +109,12 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 30
-    width: 2048
-    height: 1019
-  m_MinSize: {x: 683, y: 494}
-  m_MaxSize: {x: 14004, y: 14044}
+    width: 1536
+    height: 731
+  m_MinSize: {x: 683, y: 344}
+  m_MaxSize: {x: 12008, y: 8044}
   vertical: 0
-  controlID: 5439
+  controlID: 30
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -134,12 +134,12 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 1633
-    height: 1019
-  m_MinSize: {x: 406, y: 494}
-  m_MaxSize: {x: 10002, y: 14044}
+    width: 1225
+    height: 731
+  m_MinSize: {x: 406, y: 344}
+  m_MaxSize: {x: 8006, y: 8044}
   vertical: 1
-  controlID: 5440
+  controlID: 31
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -159,12 +159,12 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 1633
-    height: 583
+    width: 1225
+    height: 418
   m_MinSize: {x: 406, y: 222}
   m_MaxSize: {x: 8006, y: 4022}
   vertical: 0
-  controlID: 5441
+  controlID: 32
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -182,8 +182,8 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 405
-    height: 583
+    width: 304
+    height: 418
   m_MinSize: {x: 202, y: 222}
   m_MaxSize: {x: 4002, y: 4022}
   m_ActualView: {fileID: 13}
@@ -206,18 +206,18 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
-    x: 405
+    x: 304
     y: 0
-    width: 1228
-    height: 583
+    width: 921
+    height: 418
   m_MinSize: {x: 204, y: 222}
   m_MaxSize: {x: 4004, y: 4022}
-  m_ActualView: {fileID: 12}
+  m_ActualView: {fileID: 14}
   m_Panes:
   - {fileID: 14}
   - {fileID: 12}
-  m_Selected: 1
-  m_LastSelected: 0
+  m_Selected: 0
+  m_LastSelected: 1
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -234,17 +234,17 @@ MonoBehaviour:
   m_Position:
     serializedVersion: 2
     x: 0
-    y: 583
-    width: 1633
-    height: 436
-  m_MinSize: {x: 232, y: 272}
-  m_MaxSize: {x: 10002, y: 10022}
-  m_ActualView: {fileID: 15}
+    y: 418
+    width: 1225
+    height: 313
+  m_MinSize: {x: 102, y: 122}
+  m_MaxSize: {x: 4002, y: 4022}
+  m_ActualView: {fileID: 16}
   m_Panes:
   - {fileID: 15}
   - {fileID: 16}
-  m_Selected: 0
-  m_LastSelected: 1
+  m_Selected: 1
+  m_LastSelected: 0
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -260,10 +260,10 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
-    x: 1633
+    x: 1225
     y: 0
-    width: 415
-    height: 1019
+    width: 311
+    height: 731
   m_MinSize: {x: 277, y: 72}
   m_MaxSize: {x: 4002, y: 4022}
   m_ActualView: {fileID: 17}
@@ -321,7 +321,7 @@ MonoBehaviour:
     m_HSlider: 0
     m_VSlider: 0
     m_IgnoreScrollWheelUntilClicked: 0
-    m_EnableMouseInput: 1
+    m_EnableMouseInput: 0
     m_EnableSliderZoomHorizontal: 0
     m_EnableSliderZoomVertical: 0
     m_UniformScale: 1
@@ -376,15 +376,15 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 73.6
-    width: 405
-    height: 564
+    width: 304
+    height: 399
   m_ViewDataDictionary: {fileID: 0}
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: cee6ffff54f8ffff12fbffffb4300000e0300000
+      m_ExpandedIDs: 78fbffff82300000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -429,24 +429,24 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 404.80002
+    x: 304
     y: 73.6
-    width: 1226
-    height: 564
+    width: 919
+    height: 399
   m_ViewDataDictionary: {fileID: 0}
   m_ShowContextualTools: 0
   m_WindowGUID: 46b5ac00046847545b69326a31642c9f
   m_Gizmos: 1
   m_SceneIsLit: 1
   m_SceneLighting: 1
-  m_2DMode: 1
+  m_2DMode: 0
   m_isRotationLocked: 0
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 512.29694, y: 291.47974, z: -138.48218}
+    m_Target: {x: 1.3408213, y: -2.7426443, z: 2.1454234}
     speed: 2
-    m_Value: {x: 512.29694, y: 291.47974, z: -138.48218}
+    m_Value: {x: 1.3408213, y: -2.7426443, z: 2.1454234}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -467,25 +467,25 @@ MonoBehaviour:
       speed: 2
       m_Value: 0
     yGrid:
-      m_Target: 0
-      speed: 2
-      m_Value: 0
-    zGrid:
       m_Target: 1
       speed: 2
       m_Value: 1
+    zGrid:
+      m_Target: 0
+      speed: 2
+      m_Value: 0
   m_Rotation:
-    m_Target: {x: 0, y: 0, z: 0, w: 1}
+    m_Target: {x: -0.21931705, y: -0.10019336, z: 0.022647653, w: -0.970234}
     speed: 2
-    m_Value: {x: 0, y: 0, z: 0, w: 1}
+    m_Value: {x: -0.21931645, y: -0.10019308, z: 0.022647591, w: -0.9702313}
   m_Size:
-    m_Target: 653.6502
+    m_Target: 12.011051
     speed: 2
-    m_Value: 653.6502
+    m_Value: 12.011051
   m_Ortho:
-    m_Target: 1
+    m_Target: 0
     speed: 2
-    m_Value: 1
+    m_Value: 0
   m_CameraSettings:
     m_Speed: 1
     m_SpeedNormalized: 0.5
@@ -529,9 +529,9 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 0
-    y: 656
-    width: 1633
-    height: 417
+    y: 491.2
+    width: 1225
+    height: 294
   m_ViewDataDictionary: {fileID: 0}
   m_SearchFilter:
     m_NameFilter: 
@@ -546,11 +546,11 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Scripts/UI
+    - Assets/Scripts/NPC
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Scripts/UI
+  - Assets/Scripts/NPC
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\ariks\OneDrive\Desktop\CityLightsGame\team2\Team 2 City
     Lights
@@ -558,9 +558,9 @@ MonoBehaviour:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: e82e0000
-    m_LastClickedID: 12008
-    m_ExpandedIDs: 000000007a2d0000a82e000000ca9a3b
+    m_SelectedIDs: 48310000
+    m_LastClickedID: 12616
+    m_ExpandedIDs: 000000002e2d0000702f000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -588,7 +588,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 000000007a2d000000ca9a3b
+    m_ExpandedIDs: 000000002e2d0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -666,9 +666,9 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 0
-    y: 515.2
+    y: 491.2
     width: 1225
-    height: 270
+    height: 294
   m_ViewDataDictionary: {fileID: 0}
 --- !u!114 &17
 MonoBehaviour:
@@ -691,10 +691,10 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 1632.8
+    x: 1224.8
     y: 73.6
-    width: 413
-    height: 1000
+    width: 309
+    height: 712
   m_ViewDataDictionary: {fileID: 0}
   m_OpenAddComponentMenu: 0
   m_ObjectsLockedBeforeSerialization: []
@@ -726,10 +726,10 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 1632.8
+    x: 1224.8
     y: 73.6
-    width: 413
-    height: 1000
+    width: 309
+    height: 712
   m_ViewDataDictionary: {fileID: 0}
   progressMessageClearTime: -1
   notificationClearTime: -1
@@ -939,7 +939,7 @@ MonoBehaviour:
     currentLocksHasUpdate: 1
     commitBody: 
     commitMessage: 
-    currentBranch: '[menu-dev]'
+    currentBranch: '[fireflies]'
     treeScroll: {x: 0, y: 0}
     treeChanges:
       assets:
@@ -949,13 +949,8 @@ MonoBehaviour:
         keys:
         - Team 2 City Lights
         - Team 2 City Lights\Assets
-        - Team 2 City Lights\Assets\Images
-        - Team 2 City Lights\Assets\Images\UI
         - Team 2 City Lights\Assets\Scenes
         - Team 2 City Lights\Library
-        - Team 2 City Lights\Library\ShaderCache
-        - Team 2 City Lights\Library\StateCache
-        - Team 2 City Lights\Library\StateCache\SceneView
         values:
         - path: Team 2 City Lights
           label: Team 2 City Lights
@@ -993,42 +988,6 @@ MonoBehaviour:
             originalPath: 
             indexStatus: 0
             workTreeStatus: 0
-        - path: Team 2 City Lights\Assets\Images
-          label: Images
-          level: 2
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 0
-        - path: Team 2 City Lights\Assets\Images\UI
-          label: UI
-          level: 3
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 0
         - path: Team 2 City Lights\Assets\Scenes
           label: Scenes
           level: 2
@@ -1050,60 +1009,6 @@ MonoBehaviour:
         - path: Team 2 City Lights\Library
           label: Library
           level: 1
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 0
-        - path: Team 2 City Lights\Library\ShaderCache
-          label: ShaderCache
-          level: 2
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 0
-        - path: Team 2 City Lights\Library\StateCache
-          label: StateCache
-          level: 2
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 0
-        - path: Team 2 City Lights\Library\StateCache\SceneView
-          label: SceneView
-          level: 3
           isFolder: 1
           isContainer: 0
           isCollapsed: 0
@@ -1183,118 +1088,6 @@ MonoBehaviour:
           originalPath: 
           indexStatus: 0
           workTreeStatus: 0
-      - path: Team 2 City Lights\Assets\Images.meta
-        label: Images.meta
-        level: 2
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Team 2 City Lights\Assets\Images.meta
-          fullPath: C:\Users\ariks\OneDrive\Desktop\CityLightsGame\team2\Team 2 City
-            Lights\Assets\Images.meta
-          projectPath: Assets\Images.meta
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: Team 2 City Lights\Assets\Images
-        label: Images
-        level: 2
-        isFolder: 1
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: 
-          fullPath: 
-          projectPath: 
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 0
-      - path: Team 2 City Lights\Assets\Images\UI.meta
-        label: UI.meta
-        level: 3
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Team 2 City Lights\Assets\Images\UI.meta
-          fullPath: C:\Users\ariks\OneDrive\Desktop\CityLightsGame\team2\Team 2 City
-            Lights\Assets\Images\UI.meta
-          projectPath: Assets\Images\UI.meta
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: Team 2 City Lights\Assets\Images\UI
-        label: UI
-        level: 3
-        isFolder: 1
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: 
-          fullPath: 
-          projectPath: 
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 0
-      - path: Team 2 City Lights\Assets\Images\UI\City Lights Presentation 9-8.png
-        label: City Lights Presentation 9-8.png
-        level: 4
-        isFolder: 0
-        isContainer: 1
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Team 2 City Lights\Assets\Images\UI\City Lights Presentation 9-8.png
-          fullPath: C:\Users\ariks\OneDrive\Desktop\CityLightsGame\team2\Team 2 City
-            Lights\Assets\Images\UI\City Lights Presentation 9-8.png
-          projectPath: Assets\Images\UI\City Lights Presentation 9-8.png
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: Team 2 City Lights\Assets\Images\UI\City Lights Presentation 9-8.png.meta
-        label: City Lights Presentation 9-8.png.meta
-        level: 5
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Team 2 City Lights\Assets\Images\UI\City Lights Presentation 9-8.png.meta
-          fullPath: C:\Users\ariks\OneDrive\Desktop\CityLightsGame\team2\Team 2 City
-            Lights\Assets\Images\UI\City Lights Presentation 9-8.png.meta
-          projectPath: Assets\Images\UI\City Lights Presentation 9-8.png.meta
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
       - path: Team 2 City Lights\Assets\Scenes
         label: Scenes
         level: 2
@@ -1313,8 +1106,8 @@ MonoBehaviour:
           originalPath: 
           indexStatus: 0
           workTreeStatus: 0
-      - path: Team 2 City Lights\Assets\Scenes\MainMenu.unity
-        label: MainMenu.unity
+      - path: Team 2 City Lights\Assets\Scenes\FireflyTest.unity
+        label: FireflyTest.unity
         level: 3
         isFolder: 0
         isContainer: 1
@@ -1325,15 +1118,15 @@ MonoBehaviour:
         checkState: 0
         isLocked: 0
         gitStatusEntry:
-          path: Team 2 City Lights\Assets\Scenes\MainMenu.unity
+          path: Team 2 City Lights\Assets\Scenes\FireflyTest.unity
           fullPath: C:\Users\ariks\OneDrive\Desktop\CityLightsGame\team2\Team 2 City
-            Lights\Assets\Scenes\MainMenu.unity
-          projectPath: Assets\Scenes\MainMenu.unity
+            Lights\Assets\Scenes\FireflyTest.unity
+          projectPath: Assets\Scenes\FireflyTest.unity
           originalPath: 
           indexStatus: 1
           workTreeStatus: 1
-      - path: Team 2 City Lights\Assets\Scenes\MainMenu.unity.meta
-        label: MainMenu.unity.meta
+      - path: Team 2 City Lights\Assets\Scenes\FireflyTest.unity.meta
+        label: FireflyTest.unity.meta
         level: 4
         isFolder: 0
         isContainer: 0
@@ -1344,29 +1137,10 @@ MonoBehaviour:
         checkState: 0
         isLocked: 0
         gitStatusEntry:
-          path: Team 2 City Lights\Assets\Scenes\MainMenu.unity.meta
+          path: Team 2 City Lights\Assets\Scenes\FireflyTest.unity.meta
           fullPath: C:\Users\ariks\OneDrive\Desktop\CityLightsGame\team2\Team 2 City
-            Lights\Assets\Scenes\MainMenu.unity.meta
-          projectPath: Assets\Scenes\MainMenu.unity.meta
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: Team 2 City Lights\Assets\Scripts.meta
-        label: Scripts.meta
-        level: 2
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Team 2 City Lights\Assets\Scripts.meta
-          fullPath: C:\Users\ariks\OneDrive\Desktop\CityLightsGame\team2\Team 2 City
-            Lights\Assets\Scripts.meta
-          projectPath: Assets\Scripts.meta
+            Lights\Assets\Scenes\FireflyTest.unity.meta
+          projectPath: Assets\Scenes\FireflyTest.unity.meta
           originalPath: 
           indexStatus: 1
           workTreeStatus: 1
@@ -1407,44 +1181,6 @@ MonoBehaviour:
           originalPath: 
           indexStatus: 0
           workTreeStatus: 3
-      - path: Team 2 City Lights\Library\CurrentLayout-default.dwlt
-        label: CurrentLayout-default.dwlt
-        level: 2
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Team 2 City Lights\Library\CurrentLayout-default.dwlt
-          fullPath: C:\Users\ariks\OneDrive\Desktop\CityLightsGame\team2\Team 2 City
-            Lights\Library\CurrentLayout-default.dwlt
-          projectPath: Library\CurrentLayout-default.dwlt
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 3
-      - path: Team 2 City Lights\Library\LastSceneManagerSetup.txt
-        label: LastSceneManagerSetup.txt
-        level: 2
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Team 2 City Lights\Library\LastSceneManagerSetup.txt
-          fullPath: C:\Users\ariks\OneDrive\Desktop\CityLightsGame\team2\Team 2 City
-            Lights\Library\LastSceneManagerSetup.txt
-          projectPath: Library\LastSceneManagerSetup.txt
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 3
       - path: Team 2 City Lights\Library\SceneVisibilityState.asset
         label: SceneVisibilityState.asset
         level: 2
@@ -1464,43 +1200,6 @@ MonoBehaviour:
           originalPath: 
           indexStatus: 0
           workTreeStatus: 3
-      - path: Team 2 City Lights\Library\ShaderCache
-        label: ShaderCache
-        level: 2
-        isFolder: 1
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: 
-          fullPath: 
-          projectPath: 
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 0
-      - path: Team 2 City Lights\Library\ShaderCache\EditorEncounteredVariants
-        label: EditorEncounteredVariants
-        level: 3
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Team 2 City Lights\Library\ShaderCache\EditorEncounteredVariants
-          fullPath: C:\Users\ariks\OneDrive\Desktop\CityLightsGame\team2\Team 2 City
-            Lights\Library\ShaderCache\EditorEncounteredVariants
-          projectPath: Library\ShaderCache\EditorEncounteredVariants
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 3
       - path: Team 2 City Lights\Library\shadercompiler-UnityShaderCompiler.exe0.log
         label: shadercompiler-UnityShaderCompiler.exe0.log
         level: 2
@@ -1517,61 +1216,6 @@ MonoBehaviour:
           fullPath: C:\Users\ariks\OneDrive\Desktop\CityLightsGame\team2\Team 2 City
             Lights\Library\shadercompiler-UnityShaderCompiler.exe0.log
           projectPath: Library\shadercompiler-UnityShaderCompiler.exe0.log
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 3
-      - path: Team 2 City Lights\Library\StateCache
-        label: StateCache
-        level: 2
-        isFolder: 1
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: 
-          fullPath: 
-          projectPath: 
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 0
-      - path: Team 2 City Lights\Library\StateCache\SceneView
-        label: SceneView
-        level: 3
-        isFolder: 1
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: 
-          fullPath: 
-          projectPath: 
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 0
-      - path: Team 2 City Lights\Library\StateCache\SceneView\46b5ac-mainStage.json
-        label: 46b5ac-mainStage.json
-        level: 4
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Team 2 City Lights\Library\StateCache\SceneView\46b5ac-mainStage.json
-          fullPath: C:\Users\ariks\OneDrive\Desktop\CityLightsGame\team2\Team 2 City
-            Lights\Library\StateCache\SceneView\46b5ac-mainStage.json
-          projectPath: Library\StateCache\SceneView\46b5ac-mainStage.json
           originalPath: 
           indexStatus: 0
           workTreeStatus: 3
@@ -1595,47 +1239,15 @@ MonoBehaviour:
           indexStatus: 0
           workTreeStatus: 0
     gitStatusEntries:
-    - path: Team 2 City Lights\Assets\Images.meta
-      fullPath: C:\Users\ariks\OneDrive\Desktop\CityLightsGame\team2\Team 2 City Lights\Assets\Images.meta
-      projectPath: Assets\Images.meta
+    - path: Team 2 City Lights\Assets\Scenes\FireflyTest.unity
+      fullPath: C:\Users\ariks\OneDrive\Desktop\CityLightsGame\team2\Team 2 City Lights\Assets\Scenes\FireflyTest.unity
+      projectPath: Assets\Scenes\FireflyTest.unity
       originalPath: 
       indexStatus: 1
       workTreeStatus: 1
-    - path: Team 2 City Lights\Assets\Images\UI.meta
-      fullPath: C:\Users\ariks\OneDrive\Desktop\CityLightsGame\team2\Team 2 City Lights\Assets\Images\UI.meta
-      projectPath: Assets\Images\UI.meta
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Team 2 City Lights\Assets\Images\UI\City Lights Presentation 9-8.png
-      fullPath: C:\Users\ariks\OneDrive\Desktop\CityLightsGame\team2\Team 2 City Lights\Assets\Images\UI\City
-        Lights Presentation 9-8.png
-      projectPath: Assets\Images\UI\City Lights Presentation 9-8.png
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Team 2 City Lights\Assets\Images\UI\City Lights Presentation 9-8.png.meta
-      fullPath: C:\Users\ariks\OneDrive\Desktop\CityLightsGame\team2\Team 2 City Lights\Assets\Images\UI\City
-        Lights Presentation 9-8.png.meta
-      projectPath: Assets\Images\UI\City Lights Presentation 9-8.png.meta
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Team 2 City Lights\Assets\Scenes\MainMenu.unity
-      fullPath: C:\Users\ariks\OneDrive\Desktop\CityLightsGame\team2\Team 2 City Lights\Assets\Scenes\MainMenu.unity
-      projectPath: Assets\Scenes\MainMenu.unity
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Team 2 City Lights\Assets\Scenes\MainMenu.unity.meta
-      fullPath: C:\Users\ariks\OneDrive\Desktop\CityLightsGame\team2\Team 2 City Lights\Assets\Scenes\MainMenu.unity.meta
-      projectPath: Assets\Scenes\MainMenu.unity.meta
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Team 2 City Lights\Assets\Scripts.meta
-      fullPath: C:\Users\ariks\OneDrive\Desktop\CityLightsGame\team2\Team 2 City Lights\Assets\Scripts.meta
-      projectPath: Assets\Scripts.meta
+    - path: Team 2 City Lights\Assets\Scenes\FireflyTest.unity.meta
+      fullPath: C:\Users\ariks\OneDrive\Desktop\CityLightsGame\team2\Team 2 City Lights\Assets\Scenes\FireflyTest.unity.meta
+      projectPath: Assets\Scenes\FireflyTest.unity.meta
       originalPath: 
       indexStatus: 1
       workTreeStatus: 1
@@ -1645,27 +1257,9 @@ MonoBehaviour:
       originalPath: 
       indexStatus: 0
       workTreeStatus: 3
-    - path: Team 2 City Lights\Library\CurrentLayout-default.dwlt
-      fullPath: C:\Users\ariks\OneDrive\Desktop\CityLightsGame\team2\Team 2 City Lights\Library\CurrentLayout-default.dwlt
-      projectPath: Library\CurrentLayout-default.dwlt
-      originalPath: 
-      indexStatus: 0
-      workTreeStatus: 3
-    - path: Team 2 City Lights\Library\LastSceneManagerSetup.txt
-      fullPath: C:\Users\ariks\OneDrive\Desktop\CityLightsGame\team2\Team 2 City Lights\Library\LastSceneManagerSetup.txt
-      projectPath: Library\LastSceneManagerSetup.txt
-      originalPath: 
-      indexStatus: 0
-      workTreeStatus: 3
     - path: Team 2 City Lights\Library\SceneVisibilityState.asset
       fullPath: C:\Users\ariks\OneDrive\Desktop\CityLightsGame\team2\Team 2 City Lights\Library\SceneVisibilityState.asset
       projectPath: Library\SceneVisibilityState.asset
-      originalPath: 
-      indexStatus: 0
-      workTreeStatus: 3
-    - path: Team 2 City Lights\Library\ShaderCache\EditorEncounteredVariants
-      fullPath: C:\Users\ariks\OneDrive\Desktop\CityLightsGame\team2\Team 2 City Lights\Library\ShaderCache\EditorEncounteredVariants
-      projectPath: Library\ShaderCache\EditorEncounteredVariants
       originalPath: 
       indexStatus: 0
       workTreeStatus: 3
@@ -1675,21 +1269,15 @@ MonoBehaviour:
       originalPath: 
       indexStatus: 0
       workTreeStatus: 3
-    - path: Team 2 City Lights\Library\StateCache\SceneView\46b5ac-mainStage.json
-      fullPath: C:\Users\ariks\OneDrive\Desktop\CityLightsGame\team2\Team 2 City Lights\Library\StateCache\SceneView\46b5ac-mainStage.json
-      projectPath: Library\StateCache\SceneView\46b5ac-mainStage.json
-      originalPath: 
-      indexStatus: 0
-      workTreeStatus: 3
-    changedFilesText: 14 changed files
+    changedFilesText: 5 changed files
     lastCurrentBranchChangedEvent:
-      updatedTimeString: 2019-09-26T00:15:49.521-04:00
+      updatedTimeString: 2019-09-29T17:19:38.998-04:00
       cacheType: 1
     lastStatusEntriesChangedEvent:
-      updatedTimeString: 2019-09-26T01:22:49.072-04:00
+      updatedTimeString: 2019-09-29T17:58:55.152-04:00
       cacheType: 6
     lastLocksChangedEvent:
-      updatedTimeString: 2019-09-26T01:22:23.257-04:00
+      updatedTimeString: 2019-09-29T17:58:18.503-04:00
       cacheType: 7
   historyView:
     currentLogHasUpdate: 0
@@ -52336,7 +51924,7 @@ MonoBehaviour:
     updatedTimeString: 2019-09-17T15:37:11.366-04:00
     cacheType: 5
   lastStatusEntriesChangedEvent:
-    updatedTimeString: 2019-09-17T15:39:58.845-04:00
+    updatedTimeString: 2019-09-29T14:04:51.702-04:00
     cacheType: 6
   pullButtonContent:
     m_Text: Pull
