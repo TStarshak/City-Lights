@@ -5,7 +5,6 @@ using UnityEngine.SceneManagement;
 
 public class ZoneFeaturePlanning : MonoBehaviour
 {
-    [SerializeField] Camera cam;
 
     int ringSize = 3;
     int mapSize;
@@ -119,7 +118,6 @@ public class ZoneFeaturePlanning : MonoBehaviour
                 else if (map[i, q].Substring(0, 1).Equals("C"))
                 {
                     mapPiece.GetComponent<MeshRenderer>().material.color = new Color(1, 1, 1);
-                    cam.transform.position = new Vector3(mapPiece.transform.position.x, 50 * (ringSize + 1), mapPiece.transform.position.z);
                 }
                 else if (map[i, q].Substring(0, 1).Equals("5"))
                 {
