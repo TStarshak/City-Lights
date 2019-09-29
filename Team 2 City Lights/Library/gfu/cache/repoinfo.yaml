@@ -13,26 +13,26 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 1
-  lastUpdatedAtString: 2019-09-25T20:25:59.631-04:00
-  initializedAtString: 2019-09-25T20:25:59.631-04:00
+  lastUpdatedAtString: 2019-09-29T19:13:34.436-04:00
+  initializedAtString: 2019-09-29T19:13:34.436-04:00
   currentGitRemote:
     name: origin
-    url: git@csecode.case.edu:academic/eecs-390/team2.git
+    url: https://csecode.case.edu/academic/eecs-390/team2.git
     login: 
     user: 
     host: 
     function: 0
     token: 
   currentGitBranch:
-    name: master
-    tracking: origin/master
+    name: vaculamp
+    tracking: origin/vaculamp
   currentConfigBranch:
-    name: master
+    name: vaculamp
     remote:
       name: origin
-      url: git@csecode.case.edu:academic/eecs-390/team2.git
-    trackingBranch: master
+      url: https://csecode.case.edu/academic/eecs-390/team2.git
+    trackingBranch: vaculamp
   currentConfigRemote:
     name: origin
-    url: git@csecode.case.edu:academic/eecs-390/team2.git
+    url: https://csecode.case.edu/academic/eecs-390/team2.git
   currentHead: 
