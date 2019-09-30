@@ -4,7 +4,7 @@ MonoImporter:
   externalObjects: {}
   serializedVersion: 2
   defaultReferences:
-  - gameLight: {fileID: 102886255569621853, guid: 7318cb11bbae1da4eaa7516780b148e3,
+  - lightObj: {fileID: 102886255569621853, guid: 7318cb11bbae1da4eaa7516780b148e3,
       type: 3}
   - firefly: {fileID: 1046136094439768473, guid: 13b5eaacbd83c8d43bf022eaec3b2553,
       type: 3}
