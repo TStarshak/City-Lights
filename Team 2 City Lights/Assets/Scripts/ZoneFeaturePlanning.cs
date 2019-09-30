@@ -6,7 +6,7 @@ using UnityEngine.SceneManagement;
 public class ZoneFeaturePlanning : MonoBehaviour
 {
 
-    int ringSize = 3;
+    int ringSize = 5;
     int mapSize;
 
     string[,] map;
@@ -65,7 +65,7 @@ public class ZoneFeaturePlanning : MonoBehaviour
                 GameObject mapPiece = GameObject.CreatePrimitive(PrimitiveType.Cube);
                 cubes.Add(mapPiece);
                 mapPiece.transform.localScale = new Vector3(5, 5, 5);
-                mapPiece.transform.position = new Vector3(5 * i, 0, 5 * q);
+                mapPiece.transform.position = new Vector3(5 * i, -2.5f, 5 * q);
                 if (map[i, q].Substring(0, 1).Equals("3"))
                 {
                     if(map[i, q].Substring(2, 1).Equals("1"))
@@ -126,6 +126,11 @@ public class ZoneFeaturePlanning : MonoBehaviour
                 }
             }
         }
+
+        foreach (GameObject go in cubes){
+            go.transform.Translate(new Vector3(-2.5f * map.GetLength(0), 0, -2.5f * map.GetLength(0)));
+        }
+
     }
 
     public void Start()
