@@ -13,7 +13,7 @@ TagManager:
   - UI
   - 
   - 
-  - 
+  - overlay
   - 
   - 
   - 
@@ -38,6 +38,9 @@ TagManager:
   - 
   - 
   m_SortingLayers:
+  - name: Overlay Menu
+    uniqueID: 2084010207
+    locked: 0
   - name: Default
     uniqueID: 0
     locked: 0
