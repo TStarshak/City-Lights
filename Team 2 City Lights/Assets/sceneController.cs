@@ -22,6 +22,10 @@ public class sceneController : MonoBehaviour
                 overlay.SetActive(false);
 
             }
+            else
+            {
+                overlay.SetActive(true);
+            }
 
         }
     }
