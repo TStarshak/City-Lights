@@ -22,10 +22,10 @@ public class Lighting : MonoBehaviour
     void Start()
     {
         capacity = 10;
-        numFireflies = 0;
+        numFireflies = 5;
        
         gameLightInner.transform.SetPositionAndRotation(new Vector3(0, 5, 0), new Quaternion(0, 0, 0, 0));
-        gameLightOuter.transform.SetPositionAndRotation(new Vector3(0, 7, 0), new Quaternion(0, 0, 0, 0));
+        gameLightOuter.transform.SetPositionAndRotation(new Vector3(0, 5, 0), new Quaternion(0, 0, 0, 0));
         gameLightDistant.transform.SetPositionAndRotation(new Vector3(0, 11, 0), new Quaternion(0, 0, 0, 0));
 
         gameLightInner.GetComponent<Light>().range = 7;
@@ -61,11 +61,11 @@ public class Lighting : MonoBehaviour
 
     // Update is called once per frame
     void Update()
-    { /*
+    { 
         if (Input.GetKeyDown(KeyCode.LeftShift))
             StartCoroutine(SmoothLight(lightRange));
-        if (Input.GetKeyDown(KeyCode.R) && lightComp.range > 7)
-            StartCoroutine(SmoothLight(-lightRange)); */
+        if (Input.GetKeyDown(KeyCode.R) && gameLightInner.GetComponent<Light>().range > 3)
+            StartCoroutine(SmoothLight(-lightRange)); 
     }
 
     public void OnTriggerEnter(Collider other)
@@ -74,7 +74,7 @@ public class Lighting : MonoBehaviour
         {
             if (other.gameObject.transform.position.x - this.transform.position.x < 1f && other.gameObject.transform.position.z - this.transform.position.z < 1f)
             {
-                if (gameLightInner.GetComponent<Light>().range > 7)
+                if (gameLightInner.GetComponent<Light>().range > 3)
                 {
                     numFireflies--;
                     StartCoroutine(SmoothLight(-lightRange));

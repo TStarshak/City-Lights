@@ -157,7 +157,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 57a58db6cbda31b4d976c87b85e3da03, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  lightObj: {fileID: 0}
+  gameLightInner: {fileID: 0}
+  gameLightOuter: {fileID: 0}
+  gameLightDistant: {fileID: 0}
   firefly: {fileID: 0}
   enemy: {fileID: 0}
   capacity: 0
@@ -397,7 +399,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4985687500189541586}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 9, z: 0}
+  m_LocalPosition: {x: 0, y: 5, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 102886255569621849}
@@ -414,7 +416,7 @@ Light:
   serializedVersion: 9
   m_Type: 2
   m_Color: {r: 1, g: 0.8825476, b: 0.12941176, a: 1}
-  m_Intensity: 0.85
+  m_Intensity: 0.7
   m_Range: 8
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
@@ -456,7 +458,7 @@ Light:
   m_Lightmapping: 1
   m_LightShadowCasterMode: 0
   m_AreaSize: {x: 3, y: 1}
-  m_BounceIntensity: 1.5
+  m_BounceIntensity: 1
   m_ColorTemperature: 6570
   m_UseColorTemperature: 0
   m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 0}
