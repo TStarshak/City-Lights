@@ -12,8 +12,8 @@ public class Lighting : MonoBehaviour
     [SerializeField] private GameObject firefly;
     [SerializeField] private GameObject enemy;
 
-    public int capacity;
-    private int numFireflies;
+    public static int capacity;
+    public static int numFireflies;
 
     private static float lightRange = 0.025f;
     private float lightTrans = lightRange / 5;
@@ -22,18 +22,18 @@ public class Lighting : MonoBehaviour
     void Start()
     {
         capacity = 10;
-        numFireflies = 5;
+        numFireflies = 0;
        
-        gameLightInner.transform.SetPositionAndRotation(new Vector3(0, 5, 0), new Quaternion(0, 0, 0, 0));
-        gameLightOuter.transform.SetPositionAndRotation(new Vector3(0, 5, 0), new Quaternion(0, 0, 0, 0));
+        gameLightInner.transform.SetPositionAndRotation(new Vector3(0, 3, 0), new Quaternion(0, 0, 0, 0));
+        gameLightOuter.transform.SetPositionAndRotation(new Vector3(0, 3, 0), new Quaternion(0, 0, 0, 0));
         gameLightDistant.transform.SetPositionAndRotation(new Vector3(0, 11, 0), new Quaternion(0, 0, 0, 0));
 
-        gameLightInner.GetComponent<Light>().range = 7;
-        gameLightOuter.GetComponent<Light>().range = 9;
+        gameLightInner.GetComponent<Light>().range = 4;
+        gameLightOuter.GetComponent<Light>().range = 7;
         gameLightDistant.GetComponent<Light>().range = 33;
 
         gameLightInner.GetComponent<Light>().intensity = 1.5f;
-        gameLightOuter.GetComponent<Light>().intensity = 0.85f;
+        gameLightOuter.GetComponent<Light>().intensity = 0.8f;
         gameLightDistant.GetComponent<Light>().intensity = 0.45f;
 
         gameLightInner.GetComponent<Light>().color = new Color(0.9921569f, 0.9254902f, 0.2941177f);
@@ -59,6 +59,7 @@ public class Lighting : MonoBehaviour
 
     }
 
+    
     // Update is called once per frame
     void Update()
     { 
@@ -66,15 +67,17 @@ public class Lighting : MonoBehaviour
             StartCoroutine(SmoothLight(lightRange));
         if (Input.GetKeyDown(KeyCode.R) && gameLightInner.GetComponent<Light>().range > 3)
             StartCoroutine(SmoothLight(-lightRange)); 
+
+
     }
 
-    public void OnTriggerEnter(Collider other)
+   /* public void OnTriggerEnter(Collider other)
     {
         if (other.tag == "Enemy")
         {
             if (other.gameObject.transform.position.x - this.transform.position.x < 1f && other.gameObject.transform.position.z - this.transform.position.z < 1f)
             {
-                if (gameLightInner.GetComponent<Light>().range > 3)
+                if (numFireflies > 0)
                 {
                     numFireflies--;
                     StartCoroutine(SmoothLight(-lightRange));
@@ -84,60 +87,47 @@ public class Lighting : MonoBehaviour
         }
     }
 
-    public void OnTriggerStay(Collider other)
+   public void OnTriggerStay(Collider other)
     {
         if (other.tag == "Firefly")
         {
-            StartCoroutine(Vacuum(other.gameObject));
-
-            if (Input.GetMouseButton(0) && other.gameObject.transform.position.x - this.transform.position.x < 1f && other.gameObject.transform.position.z - this.transform.position.z < 1f)
+            if (Vacuum.getVac() && Mathf.Abs(other.gameObject.transform.position.x - this.transform.position.x) < 0.1f && Mathf.Abs(other.gameObject.transform.position.z - this.transform.position.z) < 0.1f)
             {
                 {
                     if (numFireflies < capacity)
                     {
-                        numFireflies++;
-                        StartCoroutine(SmoothLight(lightRange));
                         Destroy(other.gameObject);
+                        StartCoroutine(SmoothLight(lightRange));
                     }
                 }
             }
         }
 
     }
+    */
+    void onFireflyEnter()
+    {
+        StartCoroutine(SmoothLight(lightRange));
+    }
+
+    void onEnemyEnter()
+    {
+        StartCoroutine(SmoothLight(-lightRange));
+    }
 
     IEnumerator SmoothLight(float range)
     {
+        numFireflies++;
         Light lInner = gameLightInner.GetComponent<Light>();
+        Light lOuter = gameLightOuter.GetComponent<Light>();
         float time = Time.time;
         while (Time.time - time < 0.5f)
         {
-            gameLightInner.GetComponent<Light>().range += range;
-            gameLightInner.transform.Translate(new Vector3(0, (lightTrans * range / Mathf.Abs(range)), 0));
-            gameLightOuter.GetComponent<Light>().range += 1.5f * range;
-            gameLightOuter.transform.Translate(new Vector3(0, (1.5f * lightTrans * range / Mathf.Abs(range)), 0));
+            lInner.range += range;
+            lInner.transform.Translate(new Vector3(0, (lightTrans * range / Mathf.Abs(range)), 0));
+            lOuter.GetComponent<Light>().range += (3f * range);
+            lOuter.transform.Translate(new Vector3(0, (3 * lightTrans * range / Mathf.Abs(range)), 0));
             yield return null;
         }
     }
-
-    IEnumerator Vacuum(GameObject obj)
-    {
-        float xComp = 0;
-        float zComp = 0;
-        if (Input.GetMouseButton(0) || Input.GetMouseButton(1))
-        {
-            xComp = 0;
-            zComp = 0;
-            if (obj.transform.position.x > this.transform.position.x)
-                xComp = -0.1f;
-            else
-                xComp = 0.1f;
-            if (obj.transform.position.z > this.transform.position.z)
-                zComp = -0.1f;
-            else
-                zComp = 0.1f;
-        }
-        obj.gameObject.transform.Translate(xComp, 0, zComp);
-        yield return null;
-    }
-
 }
