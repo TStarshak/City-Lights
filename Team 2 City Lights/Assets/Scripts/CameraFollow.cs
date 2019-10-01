@@ -6,7 +6,7 @@ public class CameraFollow : MonoBehaviour
 
     public GameObject player;
 
-    public float speed = 2.0f;
+    public static float speed = 2.0f;
 
     Camera cam;
 
