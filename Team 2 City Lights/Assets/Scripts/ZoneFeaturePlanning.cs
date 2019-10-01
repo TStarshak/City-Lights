@@ -5,7 +5,14 @@ using UnityEngine.SceneManagement;
 
 public class ZoneFeaturePlanning : MonoBehaviour
 {
+    /*
+     * !!!!CONTROLS!!!!
+     * Spacebar: regenerate the world
+     * Up arrow key: increase ringSize by one
+     * Down arrow key: decrease ringSize by one
+     */
 
+    //change the ringSize variable here to change the thickness of a single zone's ring
     int ringSize = 5;
     int mapSize;
 
@@ -15,6 +22,7 @@ public class ZoneFeaturePlanning : MonoBehaviour
     string[] zone2Tiles = { "2-1", "2-2", "2-3", "2-4" };
     string[] zone3Tiles = { "3-1", "3-2", "3-3", "3-4" };
 
+    //alters the map 2D array to include the city and the city zone at the center of the map
     private void generateCity()
     {
         for (int i = (map.GetLength(0) / 2) - 2; i < (map.GetLength(0) / 2) + 3; i++)
@@ -27,8 +35,10 @@ public class ZoneFeaturePlanning : MonoBehaviour
         map[map.GetLength(0) / 2, map.GetLength(0) / 2] = "C-C";
     }
 
+    //generates three rings around the city as well as a single ring around the entire world for the wal
     private void generateWorld()
     {
+        //determine map size necessary for inputted ring size
         mapSize = (ringSize * 6) + 7;
         map = new string[mapSize, mapSize];
 
@@ -53,8 +63,10 @@ public class ZoneFeaturePlanning : MonoBehaviour
         }
     }
 
+    //using the map array, spawn in a bunch of cubes with varying color per zone and per zone tile type
     public void layoutWorld()
     {
+        cubes = new List<GameObject>();
         generateWorld();
         generateCity();
 
