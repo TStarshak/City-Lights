@@ -6,26 +6,29 @@ using UnityEngine.AI;
 public class Enemy : MonoBehaviour
 {
 
-private NavMeshAgent Shadoow; //Calls the mesh agent that tells our enemy what paths are travesable
-public GameObject Player;
-public float activationDistance = 3.0f; //This distance determines how close you have to get to make the enemy chase after you
+    private NavMeshAgent Shadoow; //Calls the mesh agent that tells our enemy what paths are travesable
+    public GameObject Player;
+    public float activationDistance = 3.0f; //This distance determines how close you have to get to make the enemy chase after you
+    public GameObject SceneC;
 
-void Start()
-{
-Shadoow=GetComponent<NavMeshAgent>(); //applies the agent to our lovely enemy
-}
+    void Start()
+    {
+        Shadoow = GetComponent<NavMeshAgent>(); //applies the agent to our lovely enemy
+    }
 
-void Update() //this all just tells the enemy to chase the player
-{
-float distance=Vector3.Distance(transform.position, Player.transform.position);
+    void Update() //this all just tells the enemy to chase the player
+    {
+        if (sceneController.isPaused == false) {
+            float distance = Vector3.Distance(transform.position, Player.transform.position);
 
-if (distance<activationDistance)
-{
-Vector3 dirToPlayer=transform.position-Player.transform.position;
+            if (distance < activationDistance)
+            {
+                Vector3 dirToPlayer = transform.position - Player.transform.position;
 
-Vector3 newPos=transform.position-dirToPlayer;
+                Vector3 newPos = transform.position - dirToPlayer;
 
-Shadoow.SetDestination(newPos);
-}
-}
+                Shadoow.SetDestination(newPos);
+            }
+        }
+    }
 }

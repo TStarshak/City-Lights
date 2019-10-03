@@ -5,7 +5,8 @@ using UnityEngine;
 public class sceneController : MonoBehaviour
 {
     public GameObject overlay;
-
+    public GameObject overlaySuper;
+    public static bool isPaused = false;
     // Start is called before the first frame update
     void Start()
     {
@@ -17,16 +18,22 @@ public class sceneController : MonoBehaviour
     {
         if (Input.GetKeyDown("escape"))
         {
-            if (overlay.activeInHierarchy)
+            if (overlaySuper.activeInHierarchy)
             {
-                overlay.SetActive(false);
-
+                overlaySuper.SetActive(false);
             }
-            else
-            {
-                overlay.SetActive(true);
+            else {
+                if (overlay.activeInHierarchy)
+                {
+                    overlay.SetActive(false);
+                    isPaused = true;
+                }
+                else
+                {
+                    overlay.SetActive(true);
+                    isPaused = false;
+                }
             }
-
         }
     }
 }
