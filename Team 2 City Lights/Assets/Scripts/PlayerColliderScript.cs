@@ -18,7 +18,6 @@ public class PlayerColliderScript : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        Debug.Log("Collision");
         if (other.gameObject.tag.Equals("Firefly"))
         {
             if (Lighting.numFireflies < Lighting.capacity && Vacuum.isOn)
