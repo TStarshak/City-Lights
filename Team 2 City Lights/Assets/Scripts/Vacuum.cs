@@ -12,7 +12,7 @@ public class Vacuum : MonoBehaviour
     {
         particles = this.transform.GetChild(transform.childCount - 1).GetComponent<ParticleSystem>();
         isOn = false;
-        transform.GetChild(transform.childCount - 1).transform.Rotate(new Vector3(0, 1, 0), 90);
+        //transform.GetChild(transform.childCount - 1).transform.Rotate(new Vector3(0, 1, 0), 90);
     }
 
     // Update is called once per frame
@@ -30,26 +30,17 @@ public class Vacuum : MonoBehaviour
             isOn = false;
         }
         Plane playerPlane = new Plane(Vector3.up, transform.position);
-       // Vector3 vec = Camera.main.ScreenToWorldPoint(Input.mousePosition);// -this.transform.GetChild(transform.childCount - 1).transform.position;
-       // vec.y = this.transform.GetChild(transform.childCount - 1).transform.position.y;
-
-       // this.transform.GetChild(transform.childCount - 1).transform.LookAt(vec);
-
         Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
         float hitdist = 0.0f;
-        // If the ray is parallel to the plane, Raycast will return false.
-
         if (playerPlane.Raycast(ray, out hitdist))
         {
             Vector3 targetPoint = ray.GetPoint(hitdist);
             targetPoint.y = transform.GetChild(transform.childCount - 1).transform.position.y;
             Quaternion targetRotation = Quaternion.LookRotation(targetPoint - transform.GetChild(transform.childCount - 1).transform.position);
             Vector3 rot = transform.GetChild(transform.childCount - 1).transform.rotation.eulerAngles - new Vector3(0, 90, 0);
-            transform.GetChild(transform.childCount - 1).transform.rotation = Quaternion.Lerp(transform.GetChild(transform.childCount - 1).transform.rotation, targetRotation, 10.0f * Time.deltaTime);
-            
+            transform.GetChild(transform.childCount - 1).transform.rotation = Quaternion.Lerp(transform.GetChild(transform.childCount - 1).transform.rotation, targetRotation, 40.0f * Time.deltaTime);
+            transform.GetChild(transform.childCount - 1).transform.Rotate(new Vector3(0, -90, 0));
         }
-
-
     }
 
     IEnumerator moveFirefly(GameObject firefly)

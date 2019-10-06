@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 2
-  lastUpdatedAtString: 2019-10-01T10:18:39.421-04:00
-  initializedAtString: 2019-10-01T10:16:28.175-04:00
+  lastUpdatedAtString: 2019-10-06T18:35:41.553-04:00
+  initializedAtString: 2019-10-06T18:35:41.490-04:00
   localBranches:
   - name: lighting
     tracking: 
@@ -26,6 +26,12 @@ MonoBehaviour:
   - name: origin/lighting
     tracking: '[None]'
   - name: origin/master
+    tracking: '[None]'
+  - name: origin/option-menu-attempt
+    tracking: '[None]'
+  - name: origin/spawnEdits
+    tracking: '[None]'
+  - name: origin/world-generation
     tracking: '[None]'
   remotes:
   - name: origin
@@ -58,6 +64,9 @@ MonoBehaviour:
       - HEAD
       - lighting
       - master
+      - option-menu-attempt
+      - spawnEdits
+      - world-generation
     subKeyValues:
     - Values:
       - name: HEAD
@@ -71,6 +80,21 @@ MonoBehaviour:
           url: https://csecode.case.edu/academic/eecs-390/team2
         trackingBranch: 
       - name: master
+        remote:
+          name: origin
+          url: https://csecode.case.edu/academic/eecs-390/team2
+        trackingBranch: 
+      - name: option-menu-attempt
+        remote:
+          name: origin
+          url: https://csecode.case.edu/academic/eecs-390/team2
+        trackingBranch: 
+      - name: spawnEdits
+        remote:
+          name: origin
+          url: https://csecode.case.edu/academic/eecs-390/team2
+        trackingBranch: 
+      - name: world-generation
         remote:
           name: origin
           url: https://csecode.case.edu/academic/eecs-390/team2
