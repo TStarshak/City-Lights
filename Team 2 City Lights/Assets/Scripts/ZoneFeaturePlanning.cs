@@ -5,9 +5,15 @@ using UnityEngine.SceneManagement;
 
 public class ZoneFeaturePlanning : MonoBehaviour
 {
-    [SerializeField] Camera cam;
+    /*
+     * !!!!CONTROLS!!!!
+     * Spacebar: regenerate the world
+     * Up arrow key: increase ringSize by one
+     * Down arrow key: decrease ringSize by one
+     */
 
-    int ringSize = 3;
+    //change the ringSize variable here to change the thickness of a single zone's ring
+    int ringSize = 5;
     int mapSize;
 
     string[,] map;
@@ -16,6 +22,7 @@ public class ZoneFeaturePlanning : MonoBehaviour
     string[] zone2Tiles = { "2-1", "2-2", "2-3", "2-4" };
     string[] zone3Tiles = { "3-1", "3-2", "3-3", "3-4" };
 
+    //alters the map 2D array to include the city and the city zone at the center of the map
     private void generateCity()
     {
         for (int i = (map.GetLength(0) / 2) - 2; i < (map.GetLength(0) / 2) + 3; i++)
@@ -28,8 +35,10 @@ public class ZoneFeaturePlanning : MonoBehaviour
         map[map.GetLength(0) / 2, map.GetLength(0) / 2] = "C-C";
     }
 
+    //generates three rings around the city as well as a single ring around the entire world for the wal
     private void generateWorld()
     {
+        //determine map size necessary for inputted ring size
         mapSize = (ringSize * 6) + 7;
         map = new string[mapSize, mapSize];
 
@@ -54,8 +63,10 @@ public class ZoneFeaturePlanning : MonoBehaviour
         }
     }
 
+    //using the map array, spawn in a bunch of cubes with varying color per zone and per zone tile type
     public void layoutWorld()
     {
+        cubes = new List<GameObject>();
         generateWorld();
         generateCity();
 
@@ -66,7 +77,7 @@ public class ZoneFeaturePlanning : MonoBehaviour
                 GameObject mapPiece = GameObject.CreatePrimitive(PrimitiveType.Cube);
                 cubes.Add(mapPiece);
                 mapPiece.transform.localScale = new Vector3(5, 5, 5);
-                mapPiece.transform.position = new Vector3(5 * i, 0, 5 * q);
+                mapPiece.transform.position = new Vector3(5 * i, -2.5f, 5 * q);
                 if (map[i, q].Substring(0, 1).Equals("3"))
                 {
                     if(map[i, q].Substring(2, 1).Equals("1"))
@@ -119,7 +130,6 @@ public class ZoneFeaturePlanning : MonoBehaviour
                 else if (map[i, q].Substring(0, 1).Equals("C"))
                 {
                     mapPiece.GetComponent<MeshRenderer>().material.color = new Color(1, 1, 1);
-                    cam.transform.position = new Vector3(mapPiece.transform.position.x, 50 * (ringSize + 1), mapPiece.transform.position.z);
                 }
                 else if (map[i, q].Substring(0, 1).Equals("5"))
                 {
@@ -128,6 +138,11 @@ public class ZoneFeaturePlanning : MonoBehaviour
                 }
             }
         }
+
+        foreach (GameObject go in cubes){
+            go.transform.Translate(new Vector3(-2.5f * map.GetLength(0), 0, -2.5f * map.GetLength(0)));
+        }
+
     }
 
     public void Start()
