@@ -55,11 +55,7 @@ public class Lighting : MonoBehaviour
         {
             Instantiate(enemy, new Vector3((float)Mathf.Sqrt(Mathf.Abs((i - 2)) * (2 * i)) - 2, 0.5f, (float)(-i / 2) + 2 * i), new Quaternion(0f, 0f, 0f, 0f));
         }
-
-
     }
-
-    
     // Update is called once per frame
     void Update()
     { 
@@ -67,44 +63,8 @@ public class Lighting : MonoBehaviour
             StartCoroutine(SmoothLight(lightRange));
         if (Input.GetKeyDown(KeyCode.R) && gameLightInner.GetComponent<Light>().range > 3)
             StartCoroutine(SmoothLight(-lightRange)); 
-
-
     }
 
-   /* public void OnTriggerEnter(Collider other)
-    {
-        if (other.tag == "Enemy")
-        {
-            if (other.gameObject.transform.position.x - this.transform.position.x < 1f && other.gameObject.transform.position.z - this.transform.position.z < 1f)
-            {
-                if (numFireflies > 0)
-                {
-                    numFireflies--;
-                    StartCoroutine(SmoothLight(-lightRange));
-                }
-                Destroy(other.gameObject);
-            }
-        }
-    }
-
-   public void OnTriggerStay(Collider other)
-    {
-        if (other.tag == "Firefly")
-        {
-            if (Vacuum.getVac() && Mathf.Abs(other.gameObject.transform.position.x - this.transform.position.x) < 0.1f && Mathf.Abs(other.gameObject.transform.position.z - this.transform.position.z) < 0.1f)
-            {
-                {
-                    if (numFireflies < capacity)
-                    {
-                        Destroy(other.gameObject);
-                        StartCoroutine(SmoothLight(lightRange));
-                    }
-                }
-            }
-        }
-
-    }
-    */
     void onFireflyEnter()
     {
         StartCoroutine(SmoothLight(lightRange));
