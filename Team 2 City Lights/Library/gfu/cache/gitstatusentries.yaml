@@ -13,120 +13,210 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 6
-  lastUpdatedAtString: 2019-09-29T20:29:52.219-04:00
-  initializedAtString: 2019-09-29T19:52:28.296-04:00
+  lastUpdatedAtString: 2019-10-06T18:32:32.260-04:00
+  initializedAtString: 2019-10-06T18:18:59.587-04:00
   entries:
+  - path: Team 2 City Lights\.vs\Team 2 City Lights\v15\.suo
+    fullPath: C:\Users\Three\Desktop\team2\Team 2 City Lights\.vs\Team 2 City Lights\v15\.suo
+    projectPath: .vs\Team 2 City Lights\v15\.suo
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Team 2 City Lights\.vs\Team 2 City Lights\v15\Server\sqlite3\storage.ide-shm
+    fullPath: C:\Users\Three\Desktop\team2\Team 2 City Lights\.vs\Team 2 City Lights\v15\Server\sqlite3\storage.ide-shm
+    projectPath: .vs\Team 2 City Lights\v15\Server\sqlite3\storage.ide-shm
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Team 2 City Lights\.vs\Team 2 City Lights\v15\Server\sqlite3\storage.ide-wal
+    fullPath: C:\Users\Three\Desktop\team2\Team 2 City Lights\.vs\Team 2 City Lights\v15\Server\sqlite3\storage.ide-wal
+    projectPath: .vs\Team 2 City Lights\v15\Server\sqlite3\storage.ide-wal
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
   - path: Team 2 City Lights\Assets\Scenes\PrototypeScene.unity
-    fullPath: C:\Users\ariks\OneDrive\Desktop\CityLightsGame\team2\Team 2 City Lights\Assets\Scenes\PrototypeScene.unity
+    fullPath: C:\Users\Three\Desktop\team2\Team 2 City Lights\Assets\Scenes\PrototypeScene.unity
     projectPath: Assets\Scenes\PrototypeScene.unity
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: Team 2 City Lights\Assets\Scripts\ZoneFeaturePlanning.cs
-    fullPath: C:\Users\ariks\OneDrive\Desktop\CityLightsGame\team2\Team 2 City Lights\Assets\Scripts\ZoneFeaturePlanning.cs
-    projectPath: Assets\Scripts\ZoneFeaturePlanning.cs
+  - path: Team 2 City Lights\Assets\Scripts\Vacuum.cs
+    fullPath: C:\Users\Three\Desktop\team2\Team 2 City Lights\Assets\Scripts\Vacuum.cs
+    projectPath: Assets\Scripts\Vacuum.cs
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
   - path: Team 2 City Lights\Library\assetDatabase3
-    fullPath: C:\Users\ariks\OneDrive\Desktop\CityLightsGame\team2\Team 2 City Lights\Library\assetDatabase3
+    fullPath: C:\Users\Three\Desktop\team2\Team 2 City Lights\Library\assetDatabase3
     projectPath: Library\assetDatabase3
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: Team 2 City Lights\Library\CurrentMaximizeLayout.dwlt
-    fullPath: C:\Users\ariks\OneDrive\Desktop\CityLightsGame\team2\Team 2 City Lights\Library\CurrentMaximizeLayout.dwlt
-    projectPath: Library\CurrentMaximizeLayout.dwlt
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Team 2 City Lights\Library\gfu\cache\branches.yaml
-    fullPath: C:\Users\ariks\OneDrive\Desktop\CityLightsGame\team2\Team 2 City Lights\Library\gfu\cache\branches.yaml
-    projectPath: Library\gfu\cache\branches.yaml
+  - path: Team 2 City Lights\Library\CurrentLayout-default.dwlt
+    fullPath: C:\Users\Three\Desktop\team2\Team 2 City Lights\Library\CurrentLayout-default.dwlt
+    projectPath: Library\CurrentLayout-default.dwlt
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
   - path: Team 2 City Lights\Library\gfu\cache\gitlocks.yaml
-    fullPath: C:\Users\ariks\OneDrive\Desktop\CityLightsGame\team2\Team 2 City Lights\Library\gfu\cache\gitlocks.yaml
+    fullPath: C:\Users\Three\Desktop\team2\Team 2 City Lights\Library\gfu\cache\gitlocks.yaml
     projectPath: Library\gfu\cache\gitlocks.yaml
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: Team 2 City Lights\Library\gfu\cache\gitlog.yaml
-    fullPath: C:\Users\ariks\OneDrive\Desktop\CityLightsGame\team2\Team 2 City Lights\Library\gfu\cache\gitlog.yaml
-    projectPath: Library\gfu\cache\gitlog.yaml
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
   - path: Team 2 City Lights\Library\gfu\cache\gitstatusentries.yaml
-    fullPath: C:\Users\ariks\OneDrive\Desktop\CityLightsGame\team2\Team 2 City Lights\Library\gfu\cache\gitstatusentries.yaml
+    fullPath: C:\Users\Three\Desktop\team2\Team 2 City Lights\Library\gfu\cache\gitstatusentries.yaml
     projectPath: Library\gfu\cache\gitstatusentries.yaml
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
   - path: Team 2 City Lights\Library\gfu\cache\gittrackingstatus.yaml
-    fullPath: C:\Users\ariks\OneDrive\Desktop\CityLightsGame\team2\Team 2 City Lights\Library\gfu\cache\gittrackingstatus.yaml
+    fullPath: C:\Users\Three\Desktop\team2\Team 2 City Lights\Library\gfu\cache\gittrackingstatus.yaml
     projectPath: Library\gfu\cache\gittrackingstatus.yaml
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: Team 2 City Lights\Library\SceneVisibilityState.asset
-    fullPath: C:\Users\ariks\OneDrive\Desktop\CityLightsGame\team2\Team 2 City Lights\Library\SceneVisibilityState.asset
-    projectPath: Library\SceneVisibilityState.asset
+  - path: Team 2 City Lights\Library\gfu\cache\repoinfo.yaml
+    fullPath: C:\Users\Three\Desktop\team2\Team 2 City Lights\Library\gfu\cache\repoinfo.yaml
+    projectPath: Library\gfu\cache\repoinfo.yaml
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Team 2 City Lights\Library\InspectorExpandedItems.asset
+    fullPath: C:\Users\Three\Desktop\team2\Team 2 City Lights\Library\InspectorExpandedItems.asset
+    projectPath: Library\InspectorExpandedItems.asset
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Team 2 City Lights\Library\metadata\84\84a5ce5b391fac247bfccd9b6d6fa3eb
+    fullPath: C:\Users\Three\Desktop\team2\Team 2 City Lights\Library\metadata\84\84a5ce5b391fac247bfccd9b6d6fa3eb
+    projectPath: Library\metadata\84\84a5ce5b391fac247bfccd9b6d6fa3eb
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
   - path: Team 2 City Lights\Library\ScriptAssemblies\Assembly-CSharp.dll
-    fullPath: C:\Users\ariks\OneDrive\Desktop\CityLightsGame\team2\Team 2 City Lights\Library\ScriptAssemblies\Assembly-CSharp.dll
+    fullPath: C:\Users\Three\Desktop\team2\Team 2 City Lights\Library\ScriptAssemblies\Assembly-CSharp.dll
     projectPath: Library\ScriptAssemblies\Assembly-CSharp.dll
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
   - path: Team 2 City Lights\Library\ScriptAssemblies\Assembly-CSharp.pdb
-    fullPath: C:\Users\ariks\OneDrive\Desktop\CityLightsGame\team2\Team 2 City Lights\Library\ScriptAssemblies\Assembly-CSharp.pdb
+    fullPath: C:\Users\Three\Desktop\team2\Team 2 City Lights\Library\ScriptAssemblies\Assembly-CSharp.pdb
     projectPath: Library\ScriptAssemblies\Assembly-CSharp.pdb
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
+  - path: Team 2 City Lights\Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.dll
+    fullPath: C:\Users\Three\Desktop\team2\Team 2 City Lights\Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.dll
+    projectPath: Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Team 2 City Lights\Library\ScriptAssemblies\NavMeshComponents.dll
+    fullPath: C:\Users\Three\Desktop\team2\Team 2 City Lights\Library\ScriptAssemblies\NavMeshComponents.dll
+    projectPath: Library\ScriptAssemblies\NavMeshComponents.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Team 2 City Lights\Library\ScriptAssemblies\NavMeshComponentsEditor.dll
+    fullPath: C:\Users\Three\Desktop\team2\Team 2 City Lights\Library\ScriptAssemblies\NavMeshComponentsEditor.dll
+    projectPath: Library\ScriptAssemblies\NavMeshComponentsEditor.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Team 2 City Lights\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+    fullPath: C:\Users\Three\Desktop\team2\Team 2 City Lights\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+    projectPath: Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Team 2 City Lights\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+    fullPath: C:\Users\Three\Desktop\team2\Team 2 City Lights\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+    projectPath: Library\ScriptAssemblies\Unity.Rider.Editor.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Team 2 City Lights\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+    fullPath: C:\Users\Three\Desktop\team2\Team 2 City Lights\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+    projectPath: Library\ScriptAssemblies\Unity.TextMeshPro.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Team 2 City Lights\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+    fullPath: C:\Users\Three\Desktop\team2\Team 2 City Lights\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+    projectPath: Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Team 2 City Lights\Library\ScriptAssemblies\Unity.Timeline.dll
+    fullPath: C:\Users\Three\Desktop\team2\Team 2 City Lights\Library\ScriptAssemblies\Unity.Timeline.dll
+    projectPath: Library\ScriptAssemblies\Unity.Timeline.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Team 2 City Lights\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+    fullPath: C:\Users\Three\Desktop\team2\Team 2 City Lights\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+    projectPath: Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Team 2 City Lights\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+    fullPath: C:\Users\Three\Desktop\team2\Team 2 City Lights\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+    projectPath: Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Team 2 City Lights\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+    fullPath: C:\Users\Three\Desktop\team2\Team 2 City Lights\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+    projectPath: Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Team 2 City Lights\Library\ScriptAssemblies\UnityEditor.UI.dll
+    fullPath: C:\Users\Three\Desktop\team2\Team 2 City Lights\Library\ScriptAssemblies\UnityEditor.UI.dll
+    projectPath: Library\ScriptAssemblies\UnityEditor.UI.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Team 2 City Lights\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+    fullPath: C:\Users\Three\Desktop\team2\Team 2 City Lights\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+    projectPath: Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Team 2 City Lights\Library\ScriptAssemblies\UnityEngine.UI.dll
+    fullPath: C:\Users\Three\Desktop\team2\Team 2 City Lights\Library\ScriptAssemblies\UnityEngine.UI.dll
+    projectPath: Library\ScriptAssemblies\UnityEngine.UI.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
   - path: Team 2 City Lights\Library\ShaderCache\EditorEncounteredVariants
-    fullPath: C:\Users\ariks\OneDrive\Desktop\CityLightsGame\team2\Team 2 City Lights\Library\ShaderCache\EditorEncounteredVariants
+    fullPath: C:\Users\Three\Desktop\team2\Team 2 City Lights\Library\ShaderCache\EditorEncounteredVariants
     projectPath: Library\ShaderCache\EditorEncounteredVariants
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: Team 2 City Lights\Library\shadercompiler-UnityShaderCompiler.exe7.log
-    fullPath: C:\Users\ariks\OneDrive\Desktop\CityLightsGame\team2\Team 2 City Lights\Library\shadercompiler-UnityShaderCompiler.exe7.log
-    projectPath: Library\shadercompiler-UnityShaderCompiler.exe7.log
+  - path: Team 2 City Lights\Library\shadercompiler-UnityShaderCompiler.exe0.log
+    fullPath: C:\Users\Three\Desktop\team2\Team 2 City Lights\Library\shadercompiler-UnityShaderCompiler.exe0.log
+    projectPath: Library\shadercompiler-UnityShaderCompiler.exe0.log
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: Team 2 City Lights\Library\shadercompiler-UnityShaderCompiler.exe8.log
-    fullPath: C:\Users\ariks\OneDrive\Desktop\CityLightsGame\team2\Team 2 City Lights\Library\shadercompiler-UnityShaderCompiler.exe8.log
-    projectPath: Library\shadercompiler-UnityShaderCompiler.exe8.log
+  - path: Team 2 City Lights\Library\shadercompiler-UnityShaderCompiler.exe1.log
+    fullPath: C:\Users\Three\Desktop\team2\Team 2 City Lights\Library\shadercompiler-UnityShaderCompiler.exe1.log
+    projectPath: Library\shadercompiler-UnityShaderCompiler.exe1.log
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: Team 2 City Lights\Library\shadercompiler-UnityShaderCompiler.exe9.log
-    fullPath: C:\Users\ariks\OneDrive\Desktop\CityLightsGame\team2\Team 2 City Lights\Library\shadercompiler-UnityShaderCompiler.exe9.log
-    projectPath: Library\shadercompiler-UnityShaderCompiler.exe9.log
+  - path: Team 2 City Lights\Library\shadercompiler-UnityShaderCompiler.exe2.log
+    fullPath: C:\Users\Three\Desktop\team2\Team 2 City Lights\Library\shadercompiler-UnityShaderCompiler.exe2.log
+    projectPath: Library\shadercompiler-UnityShaderCompiler.exe2.log
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: Team 2 City Lights\obj\Debug\Assembly-CSharp.csproj.CoreCompileInputs.cache
-    fullPath: C:\Users\ariks\OneDrive\Desktop\CityLightsGame\team2\Team 2 City Lights\obj\Debug\Assembly-CSharp.csproj.CoreCompileInputs.cache
-    projectPath: obj\Debug\Assembly-CSharp.csproj.CoreCompileInputs.cache
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Team 2 City Lights\obj\Debug\Assembly-CSharp.csprojAssemblyReference.cache
-    fullPath: C:\Users\ariks\OneDrive\Desktop\CityLightsGame\team2\Team 2 City Lights\obj\Debug\Assembly-CSharp.csprojAssemblyReference.cache
-    projectPath: obj\Debug\Assembly-CSharp.csprojAssemblyReference.cache
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Team 2 City Lights\obj\Debug\Assembly-CSharp-Editor-firstpass.csproj.CoreCompileInputs.cache
-    fullPath: C:\Users\ariks\OneDrive\Desktop\CityLightsGame\team2\Team 2 City Lights\obj\Debug\Assembly-CSharp-Editor-firstpass.csproj.CoreCompileInputs.cache
-    projectPath: obj\Debug\Assembly-CSharp-Editor-firstpass.csproj.CoreCompileInputs.cache
+  - path: Team 2 City Lights\Library\shadercompiler-UnityShaderCompiler.exe3.log
+    fullPath: C:\Users\Three\Desktop\team2\Team 2 City Lights\Library\shadercompiler-UnityShaderCompiler.exe3.log
+    projectPath: Library\shadercompiler-UnityShaderCompiler.exe3.log
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
