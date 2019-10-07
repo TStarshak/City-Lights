@@ -12,9 +12,20 @@ public class ZoneFeaturePlanning : MonoBehaviour
      * Down arrow key: decrease ringSize by one
      */
 
+    [SerializeField] GameObject playerCharacter;
+    [SerializeField] GameObject shadeExample;
+
+
+
     //change the ringSize variable here to change the thickness of a single zone's ring
-    int ringSize = 5;
+    //chnage the tileSize variable here to change the size of each tile
+    int ringSize = 20;
+    int tileSize = 3;
+
+
     int mapSize;
+    string ringLocation = "0";
+    bool spawningShade = true;
 
     string[,] map;
     List<GameObject> cubes = new List<GameObject>();
@@ -76,8 +87,9 @@ public class ZoneFeaturePlanning : MonoBehaviour
             {
                 GameObject mapPiece = GameObject.CreatePrimitive(PrimitiveType.Cube);
                 cubes.Add(mapPiece);
-                mapPiece.transform.localScale = new Vector3(5, 5, 5);
-                mapPiece.transform.position = new Vector3(5 * i, -2.5f, 5 * q);
+                mapPiece.name = map[i, q];
+                mapPiece.transform.localScale = new Vector3(tileSize, tileSize, tileSize);
+                mapPiece.transform.position = new Vector3(tileSize * i, -0.5f * tileSize, tileSize * q);
                 if (map[i, q].Substring(0, 1).Equals("3"))
                 {
                     if(map[i, q].Substring(2, 1).Equals("1"))
@@ -112,15 +124,30 @@ public class ZoneFeaturePlanning : MonoBehaviour
                 {
                     if (map[i, q].Substring(2, 1).Equals("1"))
                     {
-                        mapPiece.GetComponent<MeshRenderer>().material.color = new Color(0.848f, 0.405f, 0.870f);
+                        Sprite sprite = (Sprite)Resources.LoadAll("Sprites/Zone1Tiles")[5];
+                        Texture2D tex =  new Texture2D((int)sprite.textureRect.width, (int)sprite.textureRect.height);
+                        Color[] pixels = sprite.texture.GetPixels((int)sprite.textureRect.x, (int)sprite.textureRect.y, (int)sprite.textureRect.width, (int)sprite.textureRect.height);
+                        tex.SetPixels(pixels);
+                        tex.Apply();
+                        mapPiece.GetComponent<MeshRenderer>().material.SetTexture("_MainTex", tex);
                     }
                     else if (map[i, q].Substring(2, 1).Equals("2"))
                     {
-                        mapPiece.GetComponent<MeshRenderer>().material.color = new Color(0.669f, 0.092f, 0.585f);
+                        Sprite sprite = (Sprite)Resources.LoadAll("Sprites/Zone1Tiles")[14];
+                        Texture2D tex = new Texture2D((int)sprite.textureRect.width, (int)sprite.textureRect.height);
+                        Color[] pixels = sprite.texture.GetPixels((int)sprite.textureRect.x, (int)sprite.textureRect.y, (int)sprite.textureRect.width, (int)sprite.textureRect.height);
+                        tex.SetPixels(pixels);
+                        tex.Apply();
+                        mapPiece.GetComponent<MeshRenderer>().material.SetTexture("_MainTex", tex);
                     }
                     else
                     {
-                        mapPiece.GetComponent<MeshRenderer>().material.color = new Color(0.406f, 0.013f, 0.309f);
+                        Sprite sprite = (Sprite)Resources.LoadAll("Sprites/Zone1Tiles")[23];
+                        Texture2D tex = new Texture2D((int)sprite.textureRect.width, (int)sprite.textureRect.height);
+                        Color[] pixels = sprite.texture.GetPixels((int)sprite.textureRect.x, (int)sprite.textureRect.y, (int)sprite.textureRect.width, (int)sprite.textureRect.height);
+                        tex.SetPixels(pixels);
+                        tex.Apply();
+                        mapPiece.GetComponent<MeshRenderer>().material.SetTexture("_MainTex", tex);
                     }
                 }
                 else if (map[i, q].Substring(0, 1).Equals("0"))
@@ -134,20 +161,21 @@ public class ZoneFeaturePlanning : MonoBehaviour
                 else if (map[i, q].Substring(0, 1).Equals("5"))
                 {
                     mapPiece.GetComponent<MeshRenderer>().material.color = new Color(0.5f, 0.2450981f, 0);
-                    mapPiece.transform.localScale = new Vector3(5, 20, 5);
+                    mapPiece.transform.localScale = new Vector3(tileSize, 20, tileSize);
                 }
             }
         }
 
         foreach (GameObject go in cubes){
-            go.transform.Translate(new Vector3(-2.5f * map.GetLength(0), 0, -2.5f * map.GetLength(0)));
+            go.transform.Translate(new Vector3((tileSize / -2f) * map.GetLength(0), 0, (tileSize / -2f) * map.GetLength(0)));
+            go.transform.Rotate(new Vector3(0, 180, 0), Space.Self);
         }
-
     }
 
     public void Start()
     {
         layoutWorld();
+        StartCoroutine(shadeSpawn());
     }
 
     public void Update()
@@ -179,6 +207,72 @@ public class ZoneFeaturePlanning : MonoBehaviour
                 Destroy(g);
             }
             layoutWorld();
+        }
+
+        RaycastHit hit;
+        Physics.Raycast(playerCharacter.transform.position, -Vector3.up, out hit);
+        ringLocation = hit.collider.gameObject.name.Substring(0, 1);
+    }
+
+    private IEnumerator shadeSpawn()
+    {
+        float randomAngle;
+        while (true)
+        {
+            if (ringLocation.Equals("1"))
+            {
+                yield return new WaitForSeconds(6);
+                if (ringLocation.Equals("1"))
+                {
+                    randomAngle = Random.Range(0, 360);
+                    RaycastHit hit;
+                    Physics.Raycast(new Vector3(playerCharacter.transform.position.x + (7 * Mathf.Cos(randomAngle)), 0.5f, playerCharacter.transform.position.z + (7 * Mathf.Sin(randomAngle))), -Vector3.up, out hit);
+                    while (!hit.collider.gameObject.name.Substring(0, 1).Equals("1"))
+                    {
+                        randomAngle = Random.Range(0, 360);
+                        Physics.Raycast(new Vector3(playerCharacter.transform.position.x + (7 * Mathf.Cos(randomAngle)), 0.5f, playerCharacter.transform.position.z + (7 * Mathf.Sin(randomAngle))), -Vector3.up, out hit);
+                    }
+                    Instantiate(shadeExample, new Vector3(playerCharacter.transform.position.x + (7 * Mathf.Cos(randomAngle)), 0.5f, playerCharacter.transform.position.z + (7 * Mathf.Sin(randomAngle))), new Quaternion(0f, 0f, 0f, 0f));
+                }
+            }
+            else if (ringLocation.Equals("2"))
+            {
+                yield return new WaitForSeconds(3);
+                if (ringLocation.Equals("2"))
+                {
+                    randomAngle = Random.Range(0, 360);
+                    RaycastHit hit;
+                    Physics.Raycast(new Vector3(playerCharacter.transform.position.x + (7 * Mathf.Cos(randomAngle)), 0.5f, playerCharacter.transform.position.z + (7 * Mathf.Sin(randomAngle))), -Vector3.up, out hit);
+                    while (!hit.collider.gameObject.name.Substring(0, 1).Equals("2"))
+                    {
+                        randomAngle = Random.Range(0, 360);
+                        Physics.Raycast(new Vector3(playerCharacter.transform.position.x + (7 * Mathf.Cos(randomAngle)), 0.5f, playerCharacter.transform.position.z + (7 * Mathf.Sin(randomAngle))), -Vector3.up, out hit);
+                    }
+                    Instantiate(shadeExample, new Vector3(playerCharacter.transform.position.x + (7 * Mathf.Cos(randomAngle)), 0.5f, playerCharacter.transform.position.z + (7 * Mathf.Sin(randomAngle))), new Quaternion(0f, 0f, 0f, 0f));
+                }
+            }
+            else if (ringLocation.Equals("3"))
+            {
+                yield return new WaitForSeconds(2);
+                if (ringLocation.Equals("3"))
+                {
+                    randomAngle = Random.Range(0, 360);
+                    RaycastHit hit;
+                    Physics.Raycast(new Vector3(playerCharacter.transform.position.x + (7 * Mathf.Cos(randomAngle)), 0.5f, playerCharacter.transform.position.z + (7 * Mathf.Sin(randomAngle))), -Vector3.up, out hit);
+                    if (hit.collider != null)
+                    {
+                        while (!hit.collider.gameObject.name.Substring(0, 1).Equals("3"))
+                        {
+                            randomAngle = Random.Range(0, 360);
+                            Physics.Raycast(new Vector3(playerCharacter.transform.position.x + (7 * Mathf.Cos(randomAngle)), 0.5f, playerCharacter.transform.position.z + (7 * Mathf.Sin(randomAngle))), -Vector3.up, out hit);
+                        }
+                        Instantiate(shadeExample, new Vector3(playerCharacter.transform.position.x + (7 * Mathf.Cos(randomAngle)), 0.5f, playerCharacter.transform.position.z + (7 * Mathf.Sin(randomAngle))), new Quaternion(0f, 0f, 0f, 0f));
+                    }
+                }
+            } else
+            {
+                yield return new WaitForSeconds(0);
+            }
         }
     }
 }
