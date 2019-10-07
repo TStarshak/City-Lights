@@ -7,11 +7,14 @@ public class Vacuum : MonoBehaviour
     [SerializeField] private GameObject vacuum;
     private ParticleSystem particles;
     public static bool isOn;
+    private bool lookRight;
     // Start is called before the first frame update
     void Start()
     {
         particles = this.transform.GetChild(transform.childCount - 1).GetComponent<ParticleSystem>();
-        isOn = false;
+        transform.GetChild(transform.childCount - 1).transform.SetPositionAndRotation(new Vector3(transform.GetChild(transform.childCount - 1).transform.position.x - 3.0f, transform.GetChild(transform.childCount - 1).transform.position.y, transform.GetChild(transform.childCount - 1).transform.position.z), transform.GetChild(transform.childCount - 1).transform.rotation);
+    isOn = false;
+        lookRight = true;
         //transform.GetChild(transform.childCount - 1).transform.Rotate(new Vector3(0, 1, 0), 90);
     }
 
@@ -38,9 +41,22 @@ public class Vacuum : MonoBehaviour
             targetPoint.y = transform.GetChild(transform.childCount - 1).transform.position.y;
             Quaternion targetRotation = Quaternion.LookRotation(targetPoint - transform.GetChild(transform.childCount - 1).transform.position);
             Vector3 rot = transform.GetChild(transform.childCount - 1).transform.rotation.eulerAngles - new Vector3(0, 90, 0);
-            transform.GetChild(transform.childCount - 1).transform.rotation = Quaternion.Lerp(transform.GetChild(transform.childCount - 1).transform.rotation, targetRotation, 40.0f * Time.deltaTime);
+            transform.GetChild(transform.childCount - 1).transform.rotation = Quaternion.Lerp(transform.GetChild(transform.childCount - 1).transform.rotation, targetRotation, 72.0f * Time.deltaTime);
             transform.GetChild(transform.childCount - 1).transform.Rotate(new Vector3(0, -90, 0));
         }
+
+
+        if (Input.mousePosition.x > Screen.width / 2 && lookRight)
+        {
+            lookRight = false;
+            transform.GetChild(transform.childCount - 1).transform.SetPositionAndRotation(new Vector3(transform.GetChild(transform.childCount - 1).transform.position.x + 4.0f, transform.GetChild(transform.childCount - 1).transform.position.y, transform.GetChild(transform.childCount - 1).transform.position.z), transform.GetChild(transform.childCount - 1).transform.rotation);
+        }
+        else if (Input.mousePosition.x < Screen.width / 2 && !lookRight)
+        {
+            lookRight = true;
+            transform.GetChild(transform.childCount - 1).transform.SetPositionAndRotation(new Vector3(transform.GetChild(transform.childCount - 1).transform.position.x - 4.0f, transform.GetChild(transform.childCount - 1).transform.position.y, transform.GetChild(transform.childCount - 1).transform.position.z), transform.GetChild(transform.childCount - 1).transform.rotation);
+        }
+
     }
 
     IEnumerator moveFirefly(GameObject firefly)

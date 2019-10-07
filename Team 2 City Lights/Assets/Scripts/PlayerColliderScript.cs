@@ -22,8 +22,8 @@ public class PlayerColliderScript : MonoBehaviour
         {
             if (Lighting.numFireflies < Lighting.capacity && Vacuum.isOn)
             {
-                SendMessageUpwards("onFireflyEnter");
                 Destroy(other.gameObject);
+                SendMessageUpwards("onFireflyEnter");
                 Lighting.numFireflies += 1;
             }
         }
