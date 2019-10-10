@@ -45,9 +45,12 @@ public class Lighting : MonoBehaviour
         colliderComp = GetComponent<Collider>();
         // Set color and position
 
+        GameObject fly;
         for (int i = 0; i < 5; i++)
         {
-            Instantiate(firefly, new Vector3((float)(i * 2 + i ^ 2 / 4), 0.5f, (float)Mathf.Sqrt((i - 2) * (i - 1)) + 2 * i + i / 2 - 4), new Quaternion(0f, 0f, 0f, 0f));
+            fly = Instantiate(firefly, new Vector3((float)(i * 2 + i ^ 2 / 4), 0.5f, (float)Mathf.Sqrt((i - 2) * (i - 1)) + 2 * i + i / 2 - 4), new Quaternion(0f, 0f, 0f, 0f));
+            fly.GetComponent<Animator>().SetFloat("Offset", Random.value * 1.5f);
+            fly.GetComponent<Animator>().speed = Random.value * 1.5f + 0.1f;
         }
         for (int i = 0; i < 5; i++)
         {
@@ -81,8 +84,8 @@ public class Lighting : MonoBehaviour
         Light lOuter = gameLightOuter.GetComponent<Light>();
         Light lPlayer = gameLightPlayer.GetComponent<Light>();
         float time = Time.time;
-        if(lPlayer.intensity < 3 || range < 0)
-            lPlayer.intensity += (0.4f * Mathf.Abs(range) / range);
+        if((lPlayer.intensity > 1 && range < 0) || (lPlayer.intensity > 3 && range > 0))
+            lPlayer.intensity += (0.2f * Mathf.Abs(range) / range);
         while (Time.time - time < 0.5f)
         {
             lInner.range += range;

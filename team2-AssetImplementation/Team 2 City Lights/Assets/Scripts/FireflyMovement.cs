@@ -9,8 +9,8 @@ public class FireflyMovement : MonoBehaviour
     // private float flightSpeed = 10f;
 
     // Variables for object floating
-    private float floatAmplitude = 0.5f;
-    private float floatFrequency = 1f;
+    private float floatAmplitude = 0.25f;
+    private float floatFrequency = 0.7f;
 
     // Store the position
     Vector3 posOffset = new Vector3();
