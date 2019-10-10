@@ -18,7 +18,7 @@ public class Enemy : MonoBehaviour
 
     void Update() //this all just tells the enemy to chase the player
     {
-        if (sceneController.isPaused == false) {
+        if (SceneC.activeInHierarchy == false) {
             float distance = Vector3.Distance(transform.position, Player.transform.position);
 
             if (distance < activationDistance)
