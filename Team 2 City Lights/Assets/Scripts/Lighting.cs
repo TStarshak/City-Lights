@@ -51,10 +51,6 @@ public class Lighting : MonoBehaviour
         {
             Instantiate(firefly, new Vector3((float)(i * 2 + i ^ 2 / 4), 0.5f, (float)Mathf.Sqrt((i - 2) * (i - 1)) + 2 * i + i / 2 - 4), new Quaternion(0f, 0f, 0f, 0f));
         }
-        for (int i = 0; i < 5; i++)
-        {
-            Instantiate(enemy, new Vector3((float)Mathf.Sqrt(Mathf.Abs((i - 2)) * (2 * i)) - 2, 0.5f, (float)(-i / 2) + 2 * i), new Quaternion(0f, 0f, 0f, 0f));
-        }
     }
     // Update is called once per frame
     void Update()
