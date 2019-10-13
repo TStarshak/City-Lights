@@ -1,0 +1,37 @@
+**Note- This script also requires you to create and modify settings in the [[Navigation]] Tab (Window->AI->Navigation)**
+**Edit agent radius etc, bake the scene (determines walkable paths) and add it to the enemy itself (Add Component-->Nav Mesh Agent)**
+**My current idea is to implement this in large clumps (to force kiting) or to place one or more of these enemies 
+at a door to force the player to approach it, drag it away, and juke past it to exit an area**
+**For now we will name this enemy doorKeep and  the player object Player**
+
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+using UnityEngine.AI;
+
+public class Enemy : MonoBehviour
+{
+
+private NavMeshAgent doorKeep; //Calls the mesh agent that tells our enemy what paths are travesable
+public GameObject Player;
+public float activationDistance = 3.0f; //This distance determines how close you have to get to make the enemy chase after you
+
+void Start()
+{
+doorKeep=GetComponent<NavMeshAgent>(); //applies the agent to our lovely enemy
+}
+
+void Update() //this all just tells the enemy to chase the player
+{
+float distance=Vector3.Distance(transform.position, Player.transform.position);
+
+if (distance<activationDistance)
+{
+Vector3 dirToPlayer=transform.position-Player.transform.position;
+
+Vector3 newPos=transform.position-dirToPlayer;
+
+doorKeep.SetDestination(newPos);
+}
+}
+}
