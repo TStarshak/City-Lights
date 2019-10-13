@@ -9,7 +9,7 @@ public class PlayerMovementCity : MonoBehaviour
     private CharacterController _charController;
     private float sprintMultiplier;
     private bool sprinting;
-
+    private Transform playerTransform;
     // Variation of PlayerMovement that clamps the vertical movement of the player
     void Start()
     {
@@ -17,10 +17,12 @@ public class PlayerMovementCity : MonoBehaviour
         _charController = GetComponent<CharacterController>();
         movementSpeed = 10.0f;
         sprintMultiplier = 2.0f;
+        playerTransform = gameObject.transform;
     }
 
     void Update()
     {
+
         if (Input.GetKey(KeyCode.LeftShift))
         {
             if(!sprinting) 
@@ -34,17 +36,28 @@ public class PlayerMovementCity : MonoBehaviour
             sprinting = false;
         }
 
-        float deltaX = Input.GetAxis("Horizontal") * movementSpeed;
-        float deltaZ = Input.GetAxis("Vertical") * movementSpeed;
+        float deltaX = Input.GetAxis("Horizontal") * movementSpeed * Time.deltaTime;
+        float deltaZ = Input.GetAxis("Vertical") * movementSpeed * Time.deltaTime;
+
+        //Bound the vertical movement of the player
+        float newPosZ = deltaZ + playerTransform.position.z;
+        if (newPosZ > 4.0f || newPosZ < -4.0f){
+            deltaZ = 0.0f;
+        }
+        float newPosX = deltaX + playerTransform.position.x;
+        // Bound the horizontal movement of the player
+        if (newPosX > 25.0f || newPosX < -25.0f){
+            deltaX = 0.0f;
+        }
+
         Vector3 movement = new Vector3(deltaX, 0, deltaZ);
         movement = Vector3.ClampMagnitude(movement, movementSpeed);
 		movement.y = 0f;
-        
+
         //Move the character
-		movement *= Time.deltaTime;
-        movement.z = Mathf.Clamp(movement.z, -4, 4);
 		movement = transform.TransformDirection(movement);
 		_charController.Move(movement);
+
     }
     
 
