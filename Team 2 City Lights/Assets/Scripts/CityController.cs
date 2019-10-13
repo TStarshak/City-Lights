@@ -4,7 +4,7 @@ using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 using UnityEngine;
 
-//Used to control City Management
+//Used to control City Management and interactions
 public class CityController : MonoBehaviour
 {
     [SerializeField] private GameObject player;
