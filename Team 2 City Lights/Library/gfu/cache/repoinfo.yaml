@@ -13,26 +13,26 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 1
-  lastUpdatedAtString: 2019-10-06T18:18:53.674-04:00
-  initializedAtString: 2019-10-06T18:18:53.674-04:00
+  lastUpdatedAtString: 2019-10-13T11:38:14.767-04:00
+  initializedAtString: 2019-10-13T11:38:14.767-04:00
   currentGitRemote:
     name: origin
-    url: https://csecode.case.edu/academic/eecs-390/team2
+    url: https://csecode.case.edu/academic/eecs-390/team2.git
     login: 
     user: 
     host: 
     function: 0
     token: 
   currentGitBranch:
-    name: lighting
-    tracking: 
+    name: City
+    tracking: origin/City
   currentConfigBranch:
-    name: lighting
+    name: City
     remote:
-      name: 
-      url: 
-    trackingBranch: 
+      name: origin
+      url: https://csecode.case.edu/academic/eecs-390/team2.git
+    trackingBranch: City
   currentConfigRemote:
     name: origin
-    url: https://csecode.case.edu/academic/eecs-390/team2
+    url: https://csecode.case.edu/academic/eecs-390/team2.git
   currentHead: 
