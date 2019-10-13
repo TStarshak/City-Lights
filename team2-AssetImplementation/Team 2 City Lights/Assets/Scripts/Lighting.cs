@@ -15,7 +15,7 @@ public class Lighting : MonoBehaviour
     public static int capacity;
     public static int numFireflies;
 
-    private static float lightRange = 0.0125f;
+    private static float lightRange = 0.02f;
     private float lightTrans = lightRange / 5;
 
     // Start is called before the first frame update
