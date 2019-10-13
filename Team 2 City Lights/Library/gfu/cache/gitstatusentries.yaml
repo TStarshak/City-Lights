@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 6
-  lastUpdatedAtString: 2019-10-13T18:07:39.391-04:00
-  initializedAtString: 2019-10-13T11:56:16.321-04:00
+  lastUpdatedAtString: 2019-10-13T18:31:40.505-04:00
+  initializedAtString: 2019-10-13T18:25:46.379-04:00
   entries:
   - path: Team 2 City Lights\Assembly-CSharp.csproj
     fullPath: C:\Users\ariks\Desktop\CityLightsGame\team2\Team 2 City Lights\Assembly-CSharp.csproj
@@ -22,24 +22,12 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: Team 2 City Lights\Assets\Resources\Scenes\City.unity
-    fullPath: C:\Users\ariks\Desktop\CityLightsGame\team2\Team 2 City Lights\Assets\Resources\Scenes\City.unity
-    projectPath: Assets\Resources\Scenes\City.unity
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
   - path: Team 2 City Lights\Assets\Scripts\CityController.cs
     fullPath: C:\Users\ariks\Desktop\CityLightsGame\team2\Team 2 City Lights\Assets\Scripts\CityController.cs
     projectPath: Assets\Scripts\CityController.cs
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Team 2 City Lights\Assets\Scripts\CityController.cs.meta
-    fullPath: C:\Users\ariks\Desktop\CityLightsGame\team2\Team 2 City Lights\Assets\Scripts\CityController.cs.meta
-    projectPath: Assets\Scripts\CityController.cs.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 3
   - path: Team 2 City Lights\Library\assetDatabase3
     fullPath: C:\Users\ariks\Desktop\CityLightsGame\team2\Team 2 City Lights\Library\assetDatabase3
     projectPath: Library\assetDatabase3
@@ -58,12 +46,6 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: Team 2 City Lights\Library\gfu\cache\gitlog.yaml
-    fullPath: C:\Users\ariks\Desktop\CityLightsGame\team2\Team 2 City Lights\Library\gfu\cache\gitlog.yaml
-    projectPath: Library\gfu\cache\gitlog.yaml
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
   - path: Team 2 City Lights\Library\gfu\cache\gitstatusentries.yaml
     fullPath: C:\Users\ariks\Desktop\CityLightsGame\team2\Team 2 City Lights\Library\gfu\cache\gitstatusentries.yaml
     projectPath: Library\gfu\cache\gitstatusentries.yaml
@@ -76,9 +58,9 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: Team 2 City Lights\Library\InspectorExpandedItems.asset
-    fullPath: C:\Users\ariks\Desktop\CityLightsGame\team2\Team 2 City Lights\Library\InspectorExpandedItems.asset
-    projectPath: Library\InspectorExpandedItems.asset
+  - path: Team 2 City Lights\Library\gfu\cache\repoinfo.yaml
+    fullPath: C:\Users\ariks\Desktop\CityLightsGame\team2\Team 2 City Lights\Library\gfu\cache\repoinfo.yaml
+    projectPath: Library\gfu\cache\repoinfo.yaml
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
@@ -94,27 +76,21 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: Team 2 City Lights\obj\Debug\Assembly-CSharp.csproj.CoreCompileInputs.cache
-    fullPath: C:\Users\ariks\Desktop\CityLightsGame\team2\Team 2 City Lights\obj\Debug\Assembly-CSharp.csproj.CoreCompileInputs.cache
-    projectPath: obj\Debug\Assembly-CSharp.csproj.CoreCompileInputs.cache
+  - path: Team 2 City Lights\Library\shadercompiler-UnityShaderCompiler.exe0.log
+    fullPath: C:\Users\ariks\Desktop\CityLightsGame\team2\Team 2 City Lights\Library\shadercompiler-UnityShaderCompiler.exe0.log
+    projectPath: Library\shadercompiler-UnityShaderCompiler.exe0.log
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: Team 2 City Lights\obj\Debug\Assembly-CSharp.csprojAssemblyReference.cache
-    fullPath: C:\Users\ariks\Desktop\CityLightsGame\team2\Team 2 City Lights\obj\Debug\Assembly-CSharp.csprojAssemblyReference.cache
-    projectPath: obj\Debug\Assembly-CSharp.csprojAssemblyReference.cache
+  - path: Team 2 City Lights\NavMeshComponents.csproj
+    fullPath: C:\Users\ariks\Desktop\CityLightsGame\team2\Team 2 City Lights\NavMeshComponents.csproj
+    projectPath: NavMeshComponents.csproj
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: Team 2 City Lights\ProjectSettings\EditorBuildSettings.asset
-    fullPath: C:\Users\ariks\Desktop\CityLightsGame\team2\Team 2 City Lights\ProjectSettings\EditorBuildSettings.asset
-    projectPath: ProjectSettings\EditorBuildSettings.asset
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Team 2 City Lights\ProjectSettings\InputManager.asset
-    fullPath: C:\Users\ariks\Desktop\CityLightsGame\team2\Team 2 City Lights\ProjectSettings\InputManager.asset
-    projectPath: ProjectSettings\InputManager.asset
+  - path: Team 2 City Lights\NavMeshComponentsEditor.csproj
+    fullPath: C:\Users\ariks\Desktop\CityLightsGame\team2\Team 2 City Lights\NavMeshComponentsEditor.csproj
+    projectPath: NavMeshComponentsEditor.csproj
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3

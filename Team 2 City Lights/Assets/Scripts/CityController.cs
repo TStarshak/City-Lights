@@ -47,7 +47,7 @@ public class CityController : MonoBehaviour
     void enableCityExitPrompt(){
         //Display Prompt and eligible to exit city
             buttonPrompt.gameObject.SetActive(true);
-            buttonPrompt.text = "Press 'E' to exit the city!";
+            buttonPrompt.text = "Press 'E' to enter the forest!";
     }
     void disableCityExitPrompt(){
         buttonPrompt.text = "";
