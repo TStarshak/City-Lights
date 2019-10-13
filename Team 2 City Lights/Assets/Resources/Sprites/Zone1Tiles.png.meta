@@ -1,0 +1,832 @@
+fileFormatVersion: 2
+guid: d80bcaddb4a39481e936b760cf1a3fb3
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7216985012007614030
+    second: Zone1 Tiles V1_0
+  - first:
+      213: -3112456813951583364
+    second: Zone1 Tiles V1_1
+  - first:
+      213: -2332055458295287447
+    second: Zone1 Tiles V1_2
+  - first:
+      213: -2534633484417868849
+    second: Zone1 Tiles V1_3
+  - first:
+      213: 1047514679162098610
+    second: Zone1 Tiles V1_4
+  - first:
+      213: -7848237311235879652
+    second: Zone1 Tiles V1_5
+  - first:
+      213: 6581326750755997392
+    second: Zone1 Tiles V1_6
+  - first:
+      213: 4839581439673860156
+    second: Zone1 Tiles V1_7
+  - first:
+      213: 800686941878680833
+    second: Zone1 Tiles V1_8
+  - first:
+      213: -8503344398159606036
+    second: Zone1 Tiles V1_9
+  - first:
+      213: 8887055347070665426
+    second: Zone1 Tiles V1_10
+  - first:
+      213: -1855738777200277722
+    second: Zone1 Tiles V1_11
+  - first:
+      213: -6867452173935569961
+    second: Zone1 Tiles V1_12
+  - first:
+      213: 5223838565770226098
+    second: Zone1 Tiles V1_13
+  - first:
+      213: -2443011047889435607
+    second: Zone1 Tiles V1_14
+  - first:
+      213: -1291122820715091669
+    second: Zone1 Tiles V1_15
+  - first:
+      213: -459234575193609938
+    second: Zone1 Tiles V1_16
+  - first:
+      213: 8456615399811067383
+    second: Zone1 Tiles V1_17
+  - first:
+      213: 991508165085121572
+    second: Zone1 Tiles V1_18
+  - first:
+      213: -6160870453940758447
+    second: Zone1 Tiles V1_19
+  - first:
+      213: 493650988303862708
+    second: Zone1 Tiles V1_20
+  - first:
+      213: -8185646788006511451
+    second: Zone1 Tiles V1_21
+  - first:
+      213: -640046182856983672
+    second: Zone1 Tiles V1_22
+  - first:
+      213: 1717311375836886982
+    second: Zone1 Tiles V1_23
+  - first:
+      213: -3156116497726322432
+    second: Zone1 Tiles V1_24
+  - first:
+      213: -4872346779055114654
+    second: Zone1 Tiles V1_25
+  - first:
+      213: -1017786684740486348
+    second: Zone1 Tiles V1_26
+  - first:
+      213: -2087466918363123334
+    second: Zone1Tiles_0
+  - first:
+      213: 3914457952552351464
+    second: Zone1Tiles_1
+  - first:
+      213: 6609410466836052812
+    second: Zone1Tiles_2
+  - first:
+      213: 172477989047708220
+    second: Zone1Tiles_3
+  - first:
+      213: 8235378908566334603
+    second: Zone1Tiles_4
+  - first:
+      213: 5574909199203975956
+    second: Zone1Tiles_5
+  - first:
+      213: -5805472058081989666
+    second: Zone1Tiles_6
+  - first:
+      213: 8511650628984777055
+    second: Zone1Tiles_7
+  - first:
+      213: -1156573119376615035
+    second: Zone1Tiles_8
+  - first:
+      213: 3684892047580881267
+    second: Zone1Tiles_9
+  - first:
+      213: -7941066943276745095
+    second: Zone1Tiles_10
+  - first:
+      213: -4874372275778377267
+    second: Zone1Tiles_11
+  - first:
+      213: -8055754793902383707
+    second: Zone1Tiles_12
+  - first:
+      213: 5468401321531950245
+    second: Zone1Tiles_13
+  - first:
+      213: 2424910249359397026
+    second: Zone1Tiles_14
+  - first:
+      213: -7410536324719381176
+    second: Zone1Tiles_15
+  - first:
+      213: -3272156896763922776
+    second: Zone1Tiles_16
+  - first:
+      213: -6414918272421288439
+    second: Zone1Tiles_17
+  - first:
+      213: 3951807843937828862
+    second: Zone1Tiles_18
+  - first:
+      213: 5433526192411750556
+    second: Zone1Tiles_19
+  - first:
+      213: 8735706879716199838
+    second: Zone1Tiles_20
+  - first:
+      213: 6903594623839337128
+    second: Zone1Tiles_21
+  - first:
+      213: -7848413428382006074
+    second: Zone1Tiles_22
+  - first:
+      213: -7018832296942699759
+    second: Zone1Tiles_23
+  - first:
+      213: -3615556275952379511
+    second: Zone1Tiles_24
+  - first:
+      213: 4973698987147445281
+    second: Zone1Tiles_25
+  - first:
+      213: 1304906340160349994
+    second: Zone1Tiles_26
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 1
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: -1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Zone1Tiles_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2115.5557
+        width: 264
+        height: 264.44446
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c6b0be6317a5464bbeaec9aa293188f
+      internalID: -2087466918363123334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zone1Tiles_1
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 2115.5557
+        width: 264
+        height: 264.44446
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c93b66114cb04c01a92fcc0d627ade0
+      internalID: 3914457952552351464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zone1Tiles_2
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 2115.5557
+        width: 264
+        height: 264.44446
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe29fe248eeed4e9c95d1b7a6faef7ae
+      internalID: 6609410466836052812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zone1Tiles_3
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1851.5555
+        width: 264
+        height: 264.44446
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4efc171507b9543a3be5ca0cfbc88f5e
+      internalID: 172477989047708220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zone1Tiles_4
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 1851.5555
+        width: 264
+        height: 264.44446
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21d254a50c7724ac4aedb91b58357f54
+      internalID: 8235378908566334603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zone1Tiles_5
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 1851.5555
+        width: 264
+        height: 264.44446
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 014896b090ee94067befb30bcd08d81d
+      internalID: 5574909199203975956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zone1Tiles_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1587.5555
+        width: 264
+        height: 264.44446
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 304328c321a09470498bdf74db6701c0
+      internalID: -5805472058081989666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zone1Tiles_7
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 1587.5555
+        width: 264
+        height: 264.44446
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c939e64fa00dd4ab4876d9a309f6c45c
+      internalID: 8511650628984777055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zone1Tiles_8
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 1587.5555
+        width: 264
+        height: 264.44446
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3df8b8290ccc48d5a63c32fb00ab2cb
+      internalID: -1156573119376615035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zone1Tiles_9
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1323.5555
+        width: 264
+        height: 264.44446
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4927c765519b4649ad2bad0ae497b51
+      internalID: 3684892047580881267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zone1Tiles_10
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 1323.5555
+        width: 264
+        height: 264.44446
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4689ab8fb2cc40979ece2487e949f76
+      internalID: -7941066943276745095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zone1Tiles_11
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 1323.5555
+        width: 264
+        height: 264.44446
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 905ac23aafbd447b0baa015fd474958f
+      internalID: -4874372275778377267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zone1Tiles_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1059.5555
+        width: 264
+        height: 264.44446
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf114b79609ac430d8d8ad76759f217e
+      internalID: -8055754793902383707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zone1Tiles_13
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 1059.5555
+        width: 264
+        height: 264.44446
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99d71d3e68d33488aa7d73f532ccc40e
+      internalID: 5468401321531950245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zone1Tiles_14
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 1059.5555
+        width: 264
+        height: 264.44446
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 519ac45c1e73d465eb849071c157cbb1
+      internalID: 2424910249359397026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zone1Tiles_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 795.55554
+        width: 264
+        height: 264.44446
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4f8960d7af1a4b76a731377d4a59342
+      internalID: -7410536324719381176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zone1Tiles_16
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 795.55554
+        width: 264
+        height: 264.44446
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ed60022acc3f40eba5b00a3dcf4add3
+      internalID: -3272156896763922776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zone1Tiles_17
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 795.55554
+        width: 264
+        height: 264.44446
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d23b3d09d95894010808c94c06a5c249
+      internalID: -6414918272421288439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zone1Tiles_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 531.55554
+        width: 264
+        height: 264.44446
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc0fa7321240148a6b5f1d401b340434
+      internalID: 3951807843937828862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zone1Tiles_19
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 531.55554
+        width: 264
+        height: 264.44446
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41e15dc247b24431c953fa0bd934fe1d
+      internalID: 5433526192411750556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zone1Tiles_20
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 531.55554
+        width: 264
+        height: 264.44446
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b55e8ebe61f24fa8a9442fce4e0c082
+      internalID: 8735706879716199838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zone1Tiles_21
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 267.55554
+        width: 264
+        height: 264.44446
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a41fd8f50c9b7461781d407b7e7c4dd2
+      internalID: 6903594623839337128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zone1Tiles_22
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 267.55554
+        width: 264
+        height: 264.44446
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67037754b103049d9983ff971245782e
+      internalID: -7848413428382006074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zone1Tiles_23
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 267.55554
+        width: 264
+        height: 264.44446
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89fbb2639f2ea4d0d8c108a88af4fe7c
+      internalID: -7018832296942699759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zone1Tiles_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3.555542
+        width: 264
+        height: 264.44446
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39516db0c3661406da1dea655019c951
+      internalID: -3615556275952379511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zone1Tiles_25
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 3.555542
+        width: 264
+        height: 264.44446
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c74839a8f5da4cef9b152901c594f14
+      internalID: 4973698987147445281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zone1Tiles_26
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 3.555542
+        width: 264
+        height: 264.44446
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58d08ab8d1a324ab0ae7b9fa55ece2be
+      internalID: 1304906340160349994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: b92f95b1f0b134d4a8fc1c666aee526a
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
