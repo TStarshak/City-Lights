@@ -10,10 +10,14 @@ public class Enemy : MonoBehaviour
     public GameObject Player;
     public float activationDistance = 3.0f; //This distance determines how close you have to get to make the enemy chase after you
     public GameObject SceneC;
+    //private Rigidbody rb;
+    //private Vector3 sv;
+    //test
 
     void Start()
     {
         Shadoow = GetComponent<NavMeshAgent>(); //applies the agent to our lovely enemy
+        //rb = this.gameObject.AddComponent<Rigidbody>();
     }
 
     void Update() //this all just tells the enemy to chase the player
@@ -29,6 +33,15 @@ public class Enemy : MonoBehaviour
 
                 Shadoow.SetDestination(newPos);
             }
+            //sv = rb.velocity;
+        }
+        else
+        {
+            Shadoow.SetDestination(this.gameObject.transform.position);
+            /*if (Input.GetKeyDown("escape"))
+            {
+                rb.velocity = sv;
+            }*/
         }
     }
 }

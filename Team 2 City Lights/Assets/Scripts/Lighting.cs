@@ -76,6 +76,7 @@ public class Lighting : MonoBehaviour
                     lightComp.range = lightComp.range + 2f;
                     lightComp.transform.Translate(new Vector3(0, 0.4f, 0));
                     Destroy(other.gameObject);
+                    sceneController.FCollected++;
                 }
             }
         }

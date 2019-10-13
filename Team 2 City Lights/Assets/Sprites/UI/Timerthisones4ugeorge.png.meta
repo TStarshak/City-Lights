@@ -1,7 +1,994 @@
 fileFormatVersion: 2
 guid: 802490f5ec847e34db797dedceb3a52a
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: -902345686808710282
+    second: Timerthisones4ugeorge_0
+  - first:
+      213: -9035683979664845565
+    second: Timerthisones4ugeorge_1
+  - first:
+      213: -2818960927503950182
+    second: Timerthisones4ugeorge_2
+  - first:
+      213: -7695689168039944632
+    second: Timerthisones4ugeorge_3
+  - first:
+      213: -4526989352767130350
+    second: Timerthisones4ugeorge_4
+  - first:
+      213: 1311394015414678030
+    second: Timerthisones4ugeorge_5
+  - first:
+      213: 8210986395939644787
+    second: Timerthisones4ugeorge_6
+  - first:
+      213: -7551219146290063163
+    second: Timerthisones4ugeorge_7
+  - first:
+      213: -5660978520652168791
+    second: Timerthisones4ugeorge_8
+  - first:
+      213: -3433347956302688546
+    second: Timerthisones4ugeorge_9
+  - first:
+      213: -4449616371225737149
+    second: Timerthisones4ugeorge_10
+  - first:
+      213: 109736339870857991
+    second: Timerthisones4ugeorge_11
+  - first:
+      213: -432831611756107990
+    second: Timerthisones4ugeorge_12
+  - first:
+      213: 1850910758404310502
+    second: Timerthisones4ugeorge_13
+  - first:
+      213: -1824852067071760666
+    second: Timerthisones4ugeorge_14
+  - first:
+      213: -420643515746760880
+    second: Timerthisones4ugeorge_15
+  - first:
+      213: -8258227267929032291
+    second: Timerthisones4ugeorge_16
+  - first:
+      213: 6537939509381117790
+    second: Timerthisones4ugeorge_17
+  - first:
+      213: 8877712151064290268
+    second: Timerthisones4ugeorge_18
+  - first:
+      213: 7082403677336430741
+    second: Timerthisones4ugeorge_19
+  - first:
+      213: 3430834659146341434
+    second: Timerthisones4ugeorge_20
+  - first:
+      213: 1852825752820945522
+    second: Timerthisones4ugeorge_21
+  - first:
+      213: 8317031691441299138
+    second: Timerthisones4ugeorge_22
+  - first:
+      213: 5128107143251012904
+    second: Timerthisones4ugeorge_23
+  - first:
+      213: -6347642250661069747
+    second: Timerthisones4ugeorge_24
+  - first:
+      213: -3928935987222047845
+    second: Timerthisones4ugeorge_25
+  - first:
+      213: -7827472983274262843
+    second: Timerthisones4ugeorge_26
+  - first:
+      213: -739227955274583356
+    second: Timerthisones4ugeorge_27
+  - first:
+      213: -8033219957999609443
+    second: Timerthisones4ugeorge_28
+  - first:
+      213: 7204759711047356076
+    second: Timerthisones4ugeorge_29
+  - first:
+      213: -6219341899039429496
+    second: Timerthisones4ugeorge_30
+  - first:
+      213: -2503960542676518136
+    second: Timerthisones4ugeorge_31
+  - first:
+      213: 4745746092503330344
+    second: Timerthisones4ugeorge_32
+  - first:
+      213: 3266262570945916120
+    second: Timerthisones4ugeorge_33
+  - first:
+      213: 1563972180266025234
+    second: Timerthisones4ugeorge_34
+  - first:
+      213: 5245639065522802544
+    second: Timerthisones4ugeorge_35
+  - first:
+      213: -5563458205158209682
+    second: Timerthisones4ugeorge_36
+  - first:
+      213: 127144198620184473
+    second: Timerthisones4ugeorge_37
+  - first:
+      213: -3976077500382824618
+    second: Timerthisones4ugeorge_38
+  - first:
+      213: -2828965517810211813
+    second: Timerthisones4ugeorge_39
+  - first:
+      213: -8382213408068494712
+    second: Timerthisones4ugeorge_40
+  - first:
+      213: 595946794687543935
+    second: Timerthisones4ugeorge_41
+  - first:
+      213: -7398512541963612652
+    second: Timerthisones4ugeorge_42
+  - first:
+      213: -4762626782547206234
+    second: Timerthisones4ugeorge_43
+  - first:
+      213: -6251793704822064530
+    second: Timerthisones4ugeorge_44
+  - first:
+      213: -3077816470782467081
+    second: Timerthisones4ugeorge_45
+  - first:
+      213: -4883653854017118985
+    second: Timerthisones4ugeorge_46
+  - first:
+      213: 3909281543605591651
+    second: Timerthisones4ugeorge_47
+  - first:
+      213: 3810060656284495478
+    second: Timerthisones4ugeorge_48
+  - first:
+      213: -7104716647175093999
+    second: Timerthisones4ugeorge_49
+  - first:
+      213: 9066912552298024786
+    second: Timerthisones4ugeorge_50
+  - first:
+      213: -3201466539445569126
+    second: Timerthisones4ugeorge_51
+  - first:
+      213: 5873306332514265928
+    second: Timerthisones4ugeorge_52
+  - first:
+      213: -5107827167150251238
+    second: Timerthisones4ugeorge_53
+  - first:
+      213: -373171680167799923
+    second: Timerthisones4ugeorge_54
+  - first:
+      213: 150735372834083240
+    second: Timerthisones4ugeorge_55
+  - first:
+      213: -6812874597647522354
+    second: Timerthisones4ugeorge_56
+  - first:
+      213: -8088951981021335255
+    second: Timerthisones4ugeorge_57
+  - first:
+      213: 8545351894124297990
+    second: Timerthisones4ugeorge_58
+  - first:
+      213: 5247650169822562172
+    second: Timerthisones4ugeorge_59
+  - first:
+      213: -4249309992684755329
+    second: Timerthisones4ugeorge_60
+  - first:
+      213: -7481615682923443499
+    second: Timerthisones4ugeorge_61
+  - first:
+      213: 6124040422239565707
+    second: Timerthisones4ugeorge_62
+  - first:
+      213: 5639514153973985584
+    second: Timerthisones4ugeorge_63
+  - first:
+      213: 3892624369612720698
+    second: Timerthisones4ugeorge_64
+  - first:
+      213: 6471863009572857419
+    second: Timerthisones4ugeorge_65
+  - first:
+      213: 7811484378193369504
+    second: Timerthisones4ugeorge_66
+  - first:
+      213: -2547552175991344167
+    second: Timerthisones4ugeorge_67
+  - first:
+      213: 5790299661565340411
+    second: Timerthisones4ugeorge_68
+  - first:
+      213: -4353374885323779124
+    second: Timerthisones4ugeorge_69
+  - first:
+      213: -3735832710399718382
+    second: Timerthisones4ugeorge_70
+  - first:
+      213: -1300143968086504900
+    second: Timerthisones4ugeorge_71
+  - first:
+      213: 2910681541504043659
+    second: Timerthisones4ugeorge_72
+  - first:
+      213: -8146752760172502412
+    second: Timerthisones4ugeorge_73
+  - first:
+      213: 7158926244817801714
+    second: Timerthisones4ugeorge_74
+  - first:
+      213: 7591748438909829892
+    second: Timerthisones4ugeorge_75
+  - first:
+      213: -350729464633351874
+    second: Timerthisones4ugeorge_76
+  - first:
+      213: -6851682286030699375
+    second: Timerthisones4ugeorge_77
+  - first:
+      213: 4525153890097345867
+    second: Timerthisones4ugeorge_78
+  - first:
+      213: 5175955600048834243
+    second: Timerthisones4ugeorge_79
+  - first:
+      213: 4800647993291123960
+    second: Timerthisones4ugeorge_80
+  - first:
+      213: 424533401458863573
+    second: Timerthisones4ugeorge_81
+  - first:
+      213: 4380888855126205964
+    second: Timerthisones4ugeorge_82
+  - first:
+      213: -4718421648078842717
+    second: Timerthisones4ugeorge_83
+  - first:
+      213: 4030254795741228191
+    second: Timerthisones4ugeorge_84
+  - first:
+      213: 5175501804294939733
+    second: Timerthisones4ugeorge_85
+  - first:
+      213: -6880681931393942172
+    second: Timerthisones4ugeorge_86
+  - first:
+      213: 3015702926406419300
+    second: Timerthisones4ugeorge_87
+  - first:
+      213: 8351414551094653672
+    second: Timerthisones4ugeorge_88
+  - first:
+      213: 3688227629561464670
+    second: Timerthisones4ugeorge_89
+  - first:
+      213: 8979071435503509205
+    second: Timerthisones4ugeorge_90
+  - first:
+      213: 6897956895013882442
+    second: Timerthisones4ugeorge_91
+  - first:
+      213: 1340276904177961439
+    second: Timerthisones4ugeorge_92
+  - first:
+      213: 4532142355566745469
+    second: Timerthisones4ugeorge_93
+  - first:
+      213: 1174633701848072009
+    second: Timerthisones4ugeorge_94
+  - first:
+      213: 6313613305823828820
+    second: Timerthisones4ugeorge_95
+  - first:
+      213: 3632111197585920928
+    second: Timerthisones4ugeorge_96
+  - first:
+      213: 4720904535683054888
+    second: Timerthisones4ugeorge_97
+  - first:
+      213: 5348630720014793143
+    second: Timerthisones4ugeorge_98
+  - first:
+      213: -1642891558858801228
+    second: Timerthisones4ugeorge_99
+  - first:
+      213: 7077156019392488570
+    second: Timerthisones4ugeorge_100
+  - first:
+      213: -7629917318784481735
+    second: Timerthisones4ugeorge_101
+  - first:
+      213: -6282472412027663981
+    second: Timerthisones4ugeorge_102
+  - first:
+      213: -2819817924319236366
+    second: Timerthisones4ugeorge_103
+  - first:
+      213: 33960914300869069
+    second: Timerthisones4ugeorge_104
+  - first:
+      213: -6280348460296641727
+    second: Timerthisones4ugeorge_105
+  - first:
+      213: -6324918451777323174
+    second: Timerthisones4ugeorge_106
+  - first:
+      213: 3485305732753144602
+    second: Timerthisones4ugeorge_107
+  - first:
+      213: -8802801091093082750
+    second: Timerthisones4ugeorge_108
+  - first:
+      213: 1248431512251448906
+    second: Timerthisones4ugeorge_109
+  - first:
+      213: 5304047852807942360
+    second: Timerthisones4ugeorge_110
+  - first:
+      213: -2545475460547711004
+    second: Timerthisones4ugeorge_111
+  - first:
+      213: 1240246121237681551
+    second: Timerthisones4ugeorge_112
+  - first:
+      213: 7823117886515901235
+    second: Timerthisones4ugeorge_113
+  - first:
+      213: -6115374354865315584
+    second: Timerthisones4ugeorge_114
+  - first:
+      213: 467487489542625613
+    second: Timerthisones4ugeorge_115
+  - first:
+      213: -5266830177175105656
+    second: Timerthisones4ugeorge_116
+  - first:
+      213: 3449098859091168062
+    second: Timerthisones4ugeorge_117
+  - first:
+      213: 2400255847872397124
+    second: Timerthisones4ugeorge_118
+  - first:
+      213: -224343389874467503
+    second: Timerthisones4ugeorge_119
+  - first:
+      213: -505870477526110642
+    second: Timerthisones4ugeorge_120
+  - first:
+      213: 395236369485255479
+    second: Timerthisones4ugeorge_121
+  - first:
+      213: -500273962347857869
+    second: Timerthisones4ugeorge_122
+  - first:
+      213: -9222940018470838642
+    second: Timerthisones4ugeorge_123
+  - first:
+      213: 6192999491315921426
+    second: Timerthisones4ugeorge_124
+  - first:
+      213: -6421752625776920028
+    second: Timerthisones4ugeorge_125
+  - first:
+      213: 4419734128642831233
+    second: Timerthisones4ugeorge_126
+  - first:
+      213: -7892192121553149199
+    second: Timerthisones4ugeorge_127
+  - first:
+      213: -8027041319140579077
+    second: Timerthisones4ugeorge_128
+  - first:
+      213: -7358929102726298567
+    second: Timerthisones4ugeorge_129
+  - first:
+      213: 6393686778547044897
+    second: Timerthisones4ugeorge_130
+  - first:
+      213: 5710978475538582296
+    second: Timerthisones4ugeorge_131
+  - first:
+      213: -180847812515747725
+    second: Timerthisones4ugeorge_132
+  - first:
+      213: 1286275952003345949
+    second: Timerthisones4ugeorge_133
+  - first:
+      213: -4809353888880567097
+    second: Timerthisones4ugeorge_134
+  - first:
+      213: 6679233833351953735
+    second: Timerthisones4ugeorge_135
+  - first:
+      213: 2779315888501176394
+    second: Timerthisones4ugeorge_136
+  - first:
+      213: 1740754764205948550
+    second: Timerthisones4ugeorge_137
+  - first:
+      213: -1081848280499411639
+    second: Timerthisones4ugeorge_138
+  - first:
+      213: 7030360172868583576
+    second: Timerthisones4ugeorge_139
+  - first:
+      213: 612512183426728848
+    second: Timerthisones4ugeorge_140
+  - first:
+      213: -451889636666135771
+    second: Timerthisones4ugeorge_141
+  - first:
+      213: 4147140428278731732
+    second: Timerthisones4ugeorge_142
+  - first:
+      213: -1859231787025910203
+    second: Timerthisones4ugeorge_143
+  - first:
+      213: 657726899392444187
+    second: Timerthisones4ugeorge_144
+  - first:
+      213: -7824464794120195835
+    second: Timerthisones4ugeorge_145
+  - first:
+      213: 8289898183291189936
+    second: Timerthisones4ugeorge_146
+  - first:
+      213: 7503189935849656936
+    second: Timerthisones4ugeorge_147
+  - first:
+      213: -7961606987819559787
+    second: Timerthisones4ugeorge_148
+  - first:
+      213: 1224814399463439131
+    second: Timerthisones4ugeorge_149
+  - first:
+      213: 138833944856298745
+    second: Timerthisones4ugeorge_150
+  - first:
+      213: -165254117155758220
+    second: Timerthisones4ugeorge_151
+  - first:
+      213: 310703129389303260
+    second: Timerthisones4ugeorge_152
+  - first:
+      213: 1011793270827178742
+    second: Timerthisones4ugeorge_153
+  - first:
+      213: -1742329496596701111
+    second: Timerthisones4ugeorge_154
+  - first:
+      213: 3373301111223125726
+    second: Timerthisones4ugeorge_155
+  - first:
+      213: -8501724938354413517
+    second: Timerthisones4ugeorge_156
+  - first:
+      213: -3717653118879639906
+    second: Timerthisones4ugeorge_157
+  - first:
+      213: -2800910097307884006
+    second: Timerthisones4ugeorge_158
+  - first:
+      213: -6153034574771281270
+    second: Timerthisones4ugeorge_159
+  - first:
+      213: 8575651946081296620
+    second: Timerthisones4ugeorge_160
+  - first:
+      213: 1240921677624910511
+    second: Timerthisones4ugeorge_161
+  - first:
+      213: 2212194210963879055
+    second: Timerthisones4ugeorge_162
+  - first:
+      213: 5433725977822946299
+    second: Timerthisones4ugeorge_163
+  - first:
+      213: 8312086491641234345
+    second: Timerthisones4ugeorge_164
+  - first:
+      213: 4698811435244788269
+    second: Timerthisones4ugeorge_165
+  - first:
+      213: -4627683611992388458
+    second: Timerthisones4ugeorge_166
+  - first:
+      213: 2215253507735499715
+    second: Timerthisones4ugeorge_167
+  - first:
+      213: 7398122348715537149
+    second: Timerthisones4ugeorge_168
+  - first:
+      213: -8518966132256745149
+    second: Timerthisones4ugeorge_169
+  - first:
+      213: 2715749993655113561
+    second: Timerthisones4ugeorge_170
+  - first:
+      213: -1839357761886283528
+    second: Timerthisones4ugeorge_171
+  - first:
+      213: -3560305019599424489
+    second: Timerthisones4ugeorge_172
+  - first:
+      213: -4977410911053092285
+    second: Timerthisones4ugeorge_173
+  - first:
+      213: 7591410969342179671
+    second: Timerthisones4ugeorge_174
+  - first:
+      213: 8466687533182930821
+    second: Timerthisones4ugeorge_175
+  - first:
+      213: -2342487305863317039
+    second: Timerthisones4ugeorge_176
+  - first:
+      213: 6609501398185290605
+    second: Timerthisones4ugeorge_177
+  - first:
+      213: 8645515611994858277
+    second: Timerthisones4ugeorge_178
+  - first:
+      213: -8467773740783281608
+    second: Timerthisones4ugeorge_179
+  - first:
+      213: -3127755210217572798
+    second: Timerthisones4ugeorge_180
+  - first:
+      213: 8140374791646407407
+    second: Timerthisones4ugeorge_181
+  - first:
+      213: 178857518078708127
+    second: Timerthisones4ugeorge_182
+  - first:
+      213: -5629052564426847805
+    second: Timerthisones4ugeorge_183
+  - first:
+      213: 4666894631032160366
+    second: Timerthisones4ugeorge_184
+  - first:
+      213: -2057309832018041130
+    second: Timerthisones4ugeorge_185
+  - first:
+      213: -5965587535579502027
+    second: Timerthisones4ugeorge_186
+  - first:
+      213: 7921911290496362186
+    second: Timerthisones4ugeorge_187
+  - first:
+      213: -1484364800332126939
+    second: Timerthisones4ugeorge_188
+  - first:
+      213: -6806177660010587684
+    second: Timerthisones4ugeorge_189
+  - first:
+      213: -935391829097321700
+    second: Timerthisones4ugeorge_190
+  - first:
+      213: -7727994648752508124
+    second: Timerthisones4ugeorge_191
+  - first:
+      213: 2746609562024795424
+    second: Timerthisones4ugeorge_192
+  - first:
+      213: -6956842244564744505
+    second: Timerthisones4ugeorge_193
+  - first:
+      213: 1964029542235331744
+    second: Timerthisones4ugeorge_194
+  - first:
+      213: 1441720443520091634
+    second: Timerthisones4ugeorge_195
+  - first:
+      213: 4641925756562193085
+    second: Timerthisones4ugeorge_196
+  - first:
+      213: 4983766104294378031
+    second: Timerthisones4ugeorge_197
+  - first:
+      213: 3603813484457833333
+    second: Timerthisones4ugeorge_198
+  - first:
+      213: 3384354553009240321
+    second: Timerthisones4ugeorge_199
+  - first:
+      213: 4976879468089552619
+    second: Timerthisones4ugeorge_200
+  - first:
+      213: 410518137559581530
+    second: Timerthisones4ugeorge_201
+  - first:
+      213: -1409306032913714285
+    second: Timerthisones4ugeorge_202
+  - first:
+      213: 4200499652069183948
+    second: Timerthisones4ugeorge_203
+  - first:
+      213: -4512733598482561594
+    second: Timerthisones4ugeorge_204
+  - first:
+      213: -4173667112481130741
+    second: Timerthisones4ugeorge_205
+  - first:
+      213: -9013518914359021107
+    second: Timerthisones4ugeorge_206
+  - first:
+      213: -5749115449711030892
+    second: Timerthisones4ugeorge_207
+  - first:
+      213: 2743282868650963335
+    second: Timerthisones4ugeorge_208
+  - first:
+      213: -1673338539730827041
+    second: Timerthisones4ugeorge_209
+  - first:
+      213: -6768808899565076009
+    second: Timerthisones4ugeorge_210
+  - first:
+      213: -7740669692464454568
+    second: Timerthisones4ugeorge_211
+  - first:
+      213: 6197820482389084562
+    second: Timerthisones4ugeorge_212
+  - first:
+      213: -9091043868843790406
+    second: Timerthisones4ugeorge_213
+  - first:
+      213: -5976690449592087995
+    second: Timerthisones4ugeorge_214
+  - first:
+      213: 8486562430682183264
+    second: Timerthisones4ugeorge_215
+  - first:
+      213: -7837538945205992326
+    second: Timerthisones4ugeorge_216
+  - first:
+      213: -5506271587549786478
+    second: Timerthisones4ugeorge_217
+  - first:
+      213: 8902729255326814118
+    second: Timerthisones4ugeorge_218
+  - first:
+      213: 6895400581837129171
+    second: Timerthisones4ugeorge_219
+  - first:
+      213: -8309980620844419936
+    second: Timerthisones4ugeorge_220
+  - first:
+      213: -2227551588600027961
+    second: Timerthisones4ugeorge_221
+  - first:
+      213: -5888369018864596684
+    second: Timerthisones4ugeorge_222
+  - first:
+      213: 6048118801864436658
+    second: Timerthisones4ugeorge_223
+  - first:
+      213: -5838245684926073262
+    second: Timerthisones4ugeorge_224
+  - first:
+      213: 6308110078178605783
+    second: Timerthisones4ugeorge_225
+  - first:
+      213: -7813625592586071275
+    second: Timerthisones4ugeorge_226
+  - first:
+      213: 3295862280317832035
+    second: Timerthisones4ugeorge_227
+  - first:
+      213: 1741316976134834210
+    second: Timerthisones4ugeorge_228
+  - first:
+      213: -7160875743014459611
+    second: Timerthisones4ugeorge_229
+  - first:
+      213: -2169151494199969171
+    second: Timerthisones4ugeorge_230
+  - first:
+      213: -8738618828927872848
+    second: Timerthisones4ugeorge_231
+  - first:
+      213: 3806038133138090293
+    second: Timerthisones4ugeorge_232
+  - first:
+      213: -2383270009617806494
+    second: Timerthisones4ugeorge_233
+  - first:
+      213: -559447475706701451
+    second: Timerthisones4ugeorge_234
+  - first:
+      213: -7426338428718248905
+    second: Timerthisones4ugeorge_235
+  - first:
+      213: 4517945785819087591
+    second: Timerthisones4ugeorge_236
+  - first:
+      213: -535871562747080065
+    second: Timerthisones4ugeorge_237
+  - first:
+      213: -699889263412064950
+    second: Timerthisones4ugeorge_238
+  - first:
+      213: 766504381357699118
+    second: Timerthisones4ugeorge_239
+  - first:
+      213: 3290146132378825151
+    second: Timerthisones4ugeorge_240
+  - first:
+      213: -4384170607905397118
+    second: Timerthisones4ugeorge_241
+  - first:
+      213: -4736356262102285491
+    second: Timerthisones4ugeorge_242
+  - first:
+      213: -7514283398345753104
+    second: Timerthisones4ugeorge_243
+  - first:
+      213: -4055291308964549498
+    second: Timerthisones4ugeorge_244
+  - first:
+      213: -4566539780833353537
+    second: Timerthisones4ugeorge_245
+  - first:
+      213: 8691373855566604207
+    second: Timerthisones4ugeorge_246
+  - first:
+      213: -1303916305952633825
+    second: Timerthisones4ugeorge_247
+  - first:
+      213: -5429926994965860992
+    second: Timerthisones4ugeorge_248
+  - first:
+      213: -7265071500986793526
+    second: Timerthisones4ugeorge_249
+  - first:
+      213: -8880124056974876877
+    second: Timerthisones4ugeorge_250
+  - first:
+      213: 4345149916304556709
+    second: Timerthisones4ugeorge_251
+  - first:
+      213: -1040289864213814614
+    second: Timerthisones4ugeorge_252
+  - first:
+      213: -66654610592201266
+    second: Timerthisones4ugeorge_253
+  - first:
+      213: 3172642101313035455
+    second: Timerthisones4ugeorge_254
+  - first:
+      213: -8623155866801981703
+    second: Timerthisones4ugeorge_255
+  - first:
+      213: -7585874021195696277
+    second: Timerthisones4ugeorge_256
+  - first:
+      213: -5912452680231724881
+    second: Timerthisones4ugeorge_257
+  - first:
+      213: -7178861724347665793
+    second: Timerthisones4ugeorge_258
+  - first:
+      213: 2587582958812453452
+    second: Timerthisones4ugeorge_259
+  - first:
+      213: 4406693026269746929
+    second: Timerthisones4ugeorge_260
+  - first:
+      213: 6902503603302426760
+    second: Timerthisones4ugeorge_261
+  - first:
+      213: -4166559369768416061
+    second: Timerthisones4ugeorge_262
+  - first:
+      213: -3875817191293698730
+    second: Timerthisones4ugeorge_263
+  - first:
+      213: 2724247234887955942
+    second: Timerthisones4ugeorge_264
+  - first:
+      213: -2277232156272137370
+    second: Timerthisones4ugeorge_265
+  - first:
+      213: 2101643269858971671
+    second: Timerthisones4ugeorge_266
+  - first:
+      213: 5782728061840331958
+    second: Timerthisones4ugeorge_267
+  - first:
+      213: 8284669247624060899
+    second: Timerthisones4ugeorge_268
+  - first:
+      213: -3904878186999329842
+    second: Timerthisones4ugeorge_269
+  - first:
+      213: 6742328119319584009
+    second: Timerthisones4ugeorge_270
+  - first:
+      213: 363681315962835264
+    second: Timerthisones4ugeorge_271
+  - first:
+      213: -7964728145231063099
+    second: Timerthisones4ugeorge_272
+  - first:
+      213: 4066697864457556256
+    second: Timerthisones4ugeorge_273
+  - first:
+      213: 6695695248358269171
+    second: Timerthisones4ugeorge_274
+  - first:
+      213: 6305459468808970781
+    second: Timerthisones4ugeorge_275
+  - first:
+      213: 3786622345043159910
+    second: Timerthisones4ugeorge_276
+  - first:
+      213: -5377162969817415862
+    second: Timerthisones4ugeorge_277
+  - first:
+      213: 8247155085148671134
+    second: Timerthisones4ugeorge_278
+  - first:
+      213: -3707980744315383763
+    second: Timerthisones4ugeorge_279
+  - first:
+      213: -2087793196978263326
+    second: Timerthisones4ugeorge_280
+  - first:
+      213: -770081813159434453
+    second: Timerthisones4ugeorge_281
+  - first:
+      213: 2926077599816670505
+    second: Timerthisones4ugeorge_282
+  - first:
+      213: 5932141233406374221
+    second: Timerthisones4ugeorge_283
+  - first:
+      213: 1785867931295636657
+    second: Timerthisones4ugeorge_284
+  - first:
+      213: -7896743083840529359
+    second: Timerthisones4ugeorge_285
+  - first:
+      213: 5171141101681421394
+    second: Timerthisones4ugeorge_286
+  - first:
+      213: -3449196348229486641
+    second: Timerthisones4ugeorge_287
+  - first:
+      213: -8508846944991767422
+    second: Timerthisones4ugeorge_288
+  - first:
+      213: -6884303488436998623
+    second: Timerthisones4ugeorge_289
+  - first:
+      213: -7986299973651462782
+    second: Timerthisones4ugeorge_290
+  - first:
+      213: 8264803229608133582
+    second: Timerthisones4ugeorge_291
+  - first:
+      213: 2523738557041235494
+    second: Timerthisones4ugeorge_292
+  - first:
+      213: -2495211074895894668
+    second: Timerthisones4ugeorge_293
+  - first:
+      213: -2081167573724952243
+    second: Timerthisones4ugeorge_294
+  - first:
+      213: -1610763949634485144
+    second: Timerthisones4ugeorge_295
+  - first:
+      213: 4046767497376971660
+    second: Timerthisones4ugeorge_296
+  - first:
+      213: 6692388592636714808
+    second: Timerthisones4ugeorge_297
+  - first:
+      213: 7002401029915648732
+    second: Timerthisones4ugeorge_298
+  - first:
+      213: -5676158241178028495
+    second: Timerthisones4ugeorge_299
+  - first:
+      213: 6430201557118136810
+    second: Timerthisones4ugeorge_300
+  - first:
+      213: 4839690531884902591
+    second: Timerthisones4ugeorge_301
+  - first:
+      213: 4216820232224921117
+    second: Timerthisones4ugeorge_302
+  - first:
+      213: -13782014920648026
+    second: Timerthisones4ugeorge_303
+  - first:
+      213: -6319808694428781773
+    second: Timerthisones4ugeorge_304
+  - first:
+      213: -1428937090905087308
+    second: Timerthisones4ugeorge_305
+  - first:
+      213: -3393193818504815415
+    second: Timerthisones4ugeorge_306
+  - first:
+      213: 246707168814631001
+    second: Timerthisones4ugeorge_307
+  - first:
+      213: 8060231149286296578
+    second: Timerthisones4ugeorge_308
+  - first:
+      213: 3634884145699481825
+    second: Timerthisones4ugeorge_309
+  - first:
+      213: 682369053294154207
+    second: Timerthisones4ugeorge_310
+  - first:
+      213: -6828757879305962663
+    second: Timerthisones4ugeorge_311
+  - first:
+      213: -882402201957855869
+    second: Timerthisones4ugeorge_312
+  - first:
+      213: -6895391290261637895
+    second: Timerthisones4ugeorge_313
+  - first:
+      213: 5512534874458899243
+    second: Timerthisones4ugeorge_314
+  - first:
+      213: -850100436672911639
+    second: Timerthisones4ugeorge_315
+  - first:
+      213: -552567361684621995
+    second: Timerthisones4ugeorge_316
+  - first:
+      213: -7308567804537655586
+    second: Timerthisones4ugeorge_317
+  - first:
+      213: -8398358518128040793
+    second: Timerthisones4ugeorge_318
+  - first:
+      213: 316153547863707555
+    second: Timerthisones4ugeorge_319
+  - first:
+      213: -4972055667126260335
+    second: Timerthisones4ugeorge_320
+  - first:
+      213: 6442653685902957653
+    second: Timerthisones4ugeorge_321
+  - first:
+      213: 1948420752830741453
+    second: Timerthisones4ugeorge_322
+  - first:
+      213: 1855780970086071999
+    second: Timerthisones4ugeorge_323
+  - first:
+      213: -992524583428759122
+    second: Timerthisones4ugeorge_324
+  - first:
+      213: -2427767179505372144
+    second: Timerthisones4ugeorge_325
+  - first:
+      213: -706373922042626263
+    second: Timerthisones4ugeorge_326
+  - first:
+      213: 6411634333199890682
+    second: Timerthisones4ugeorge_327
+  - first:
+      213: -6909978244992182457
+    second: Timerthisones4ugeorge_328
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -84,11 +1071,3203 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Timerthisones4ugeorge_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3924
+        width: 166
+        height: 172
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 018b03c85f790d247bed3ffd71660120
+      internalID: -902345686808710282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Timerthisones4ugeorge_1
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 3924
+        width: 166
+        height: 172
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9cc7a437de011f349817f3d33238657d
+      internalID: -9035683979664845565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Timerthisones4ugeorge_2
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 3924
+        width: 166
+        height: 172
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 491a9599d22003b42aeedd34c4379b75
+      internalID: -2818960927503950182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Timerthisones4ugeorge_3
+      rect:
+        serializedVersion: 2
+        x: 498
+        y: 3924
+        width: 166
+        height: 172
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f2ceca627e5c094980b3fff39480128
+      internalID: -7695689168039944632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Timerthisones4ugeorge_4
+      rect:
+        serializedVersion: 2
+        x: 664
+        y: 3924
+        width: 166
+        height: 172
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b112b54ba2868a4fbd241322ea34668
+      internalID: -4526989352767130350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Timerthisones4ugeorge_5
+      rect:
+        serializedVersion: 2
+        x: 830
+        y: 3924
+        width: 166
+        height: 172
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f502c46122202c949a0b2030d8110738
+      internalID: 1311394015414678030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Timerthisones4ugeorge_6
+      rect:
+        serializedVersion: 2
+        x: 996
+        y: 3924
+        width: 166
+        height: 172
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 011b65304375c9c498662e2a98f00caf
+      internalID: 8210986395939644787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Timerthisones4ugeorge_7
+      rect:
+        serializedVersion: 2
+        x: 1162
+        y: 3924
+        width: 166
+        height: 172
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ebb9bc200f6a304d986c3de05ea0680
+      internalID: -7551219146290063163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Timerthisones4ugeorge_8
+      rect:
+        serializedVersion: 2
+        x: 1328
+        y: 3924
+        width: 166
+        height: 172
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 431e032f900fb17438045a08f15e8284
+      internalID: -5660978520652168791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Timerthisones4ugeorge_9
+      rect:
+        serializedVersion: 2
+        x: 1494
+        y: 3924
+        width: 166
+        height: 172
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 113bea9590c30ae4ea0e09e2095abf9c
+      internalID: -3433347956302688546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Timerthisones4ugeorge_10
+      rect:
+        serializedVersion: 2
+        x: 1660
+        y: 3924
+        width: 166
+        height: 172
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 004a1452f8311b24fbdec6fa5dbd8df9
+      internalID: -4449616371225737149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Timerthisones4ugeorge_11
+      rect:
+        serializedVersion: 2
+        x: 1826
+        y: 3924
+        width: 166
+        height: 172
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3962c2a7131bcd349a35ee5892e44c1e
+      internalID: 109736339870857991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Timerthisones4ugeorge_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3752
+        width: 166
+        height: 172
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d10c58be0e384c146b991895fe85ecf0
+      internalID: -432831611756107990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Timerthisones4ugeorge_13
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 3752
+        width: 166
+        height: 172
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c6f5d8e629d4ed40add67f82d5e52cc
+      internalID: 1850910758404310502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Timerthisones4ugeorge_14
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 3752
+        width: 166
+        height: 172
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 310442d3eaf104941b41fa9cc94f9577
+      internalID: -1824852067071760666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Timerthisones4ugeorge_15
+      rect:
+        serializedVersion: 2
+        x: 498
+        y: 3752
+        width: 166
+        height: 172
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a29718cb81ac9c847b5ef87c08f4745e
+      internalID: -420643515746760880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Timerthisones4ugeorge_16
+      rect:
+        serializedVersion: 2
+        x: 664
+        y: 3752
+        width: 166
+        height: 172
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 058e8ee0fd3e3544f90260f4d2e0af32
+      internalID: -8258227267929032291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Timerthisones4ugeorge_17
+      rect:
+        serializedVersion: 2
+        x: 830
+        y: 3752
+        width: 166
+        height: 172
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1d818ab9d14be446b06f922edbf0aa1
+      internalID: 6537939509381117790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Timerthisones4ugeorge_18
+      rect:
+        serializedVersion: 2
+        x: 996
+        y: 3752
+        width: 166
+        height: 172
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eaeb26a879a5f7b4c822ad2cd98708ea
+      internalID: 8877712151064290268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Timerthisones4ugeorge_19
+      rect:
+        serializedVersion: 2
+        x: 1162
+        y: 3752
+        width: 166
+        height: 172
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06b63cb982989e24d9279b0d89024be1
+      internalID: 7082403677336430741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Timerthisones4ugeorge_20
+      rect:
+        serializedVersion: 2
+        x: 1328
+        y: 3752
+        width: 166
+        height: 172
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: befd038edf481d94da4b546ae49ecd26
+      internalID: 3430834659146341434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Timerthisones4ugeorge_21
+      rect:
+        serializedVersion: 2
+        x: 1494
+        y: 3752
+        width: 166
+        height: 172
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e953933d4663bc94eb51171375137bca
+      internalID: 1852825752820945522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Timerthisones4ugeorge_22
+      rect:
+        serializedVersion: 2
+        x: 1660
+        y: 3752
+        width: 166
+        height: 172
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d6b40c6d92c7954ea73c6246765d31b
+      internalID: 8317031691441299138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Timerthisones4ugeorge_23
+      rect:
+        serializedVersion: 2
+        x: 1826
+        y: 3752
+        width: 166
+        height: 172
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40b79e3bb7955754cb889b6b59f3521b
+      internalID: 5128107143251012904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Timerthisones4ugeorge_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3580
+        width: 166
+        height: 172
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba3e10c672a34d14985cc6f4ad40f0df
+      internalID: -6347642250661069747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Timerthisones4ugeorge_25
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 3580
+        width: 166
+        height: 172
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c718f919a580a642b8931d722770d65
+      internalID: -3928935987222047845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Timerthisones4ugeorge_26
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 3580
+        width: 166
+        height: 172
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90d61a92760dbda4aadb022d9cad05f4
+      internalID: -7827472983274262843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Timerthisones4ugeorge_27
+      rect:
+        serializedVersion: 2
+        x: 498
+        y: 3580
+        width: 166
+        height: 172
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e7480dde7690e745a27b90096e99650
+      internalID: -739227955274583356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Timerthisones4ugeorge_28
+      rect:
+        serializedVersion: 2
+        x: 664
+        y: 3580
+        width: 166
+        height: 172
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff2af74114af36541ae6ac633b272631
+      internalID: -8033219957999609443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Timerthisones4ugeorge_29
+      rect:
+        serializedVersion: 2
+        x: 830
+        y: 3580
+        width: 166
+        height: 172
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 485eabfc2ab0c7548a708dc3eecf63ea
+      internalID: 7204759711047356076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Timerthisones4ugeorge_30
+      rect:
+        serializedVersion: 2
+        x: 996
+        y: 3580
+        width: 166
+        height: 172
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2c952bb186ee594c8214febb4e286cd
+      internalID: -6219341899039429496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Timerthisones4ugeorge_31
+      rect:
+        serializedVersion: 2
+        x: 1162
+        y: 3580
+        width: 166
+        height: 172
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53f4c0ed783672844b24f81e1323cd9b
+      internalID: -2503960542676518136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Timerthisones4ugeorge_32
+      rect:
+        serializedVersion: 2
+        x: 1328
+        y: 3580
+        width: 166
+        height: 172
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6bf228ccb32577c43b5c16d273af78df
+      internalID: 4745746092503330344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Timerthisones4ugeorge_33
+      rect:
+        serializedVersion: 2
+        x: 1494
+        y: 3580
+        width: 166
+        height: 172
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df02ea4b9b5686b46839dfddc7fd41b0
+      internalID: 3266262570945916120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Timerthisones4ugeorge_34
+      rect:
+        serializedVersion: 2
+        x: 1660
+        y: 3580
+        width: 166
+        height: 172
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba378504d0a117f4d8cf61a5f5100f58
+      internalID: 1563972180266025234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Timerthisones4ugeorge_35
+      rect:
+        serializedVersion: 2
+        x: 1826
+        y: 3580
+        width: 166
+        height: 172
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0601f63beb225f54dafabdd436e59c50
+      internalID: 5245639065522802544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Timerthisones4ugeorge_36
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3408
+        width: 166
+        height: 172
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b1bafc195b90e14e83b3b1ddaad91a7
+      internalID: -5563458205158209682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Timerthisones4ugeorge_37
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 3408
+        width: 166
+        height: 172
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1632a8c5dc64634da1a961db9fbd5ec
+      internalID: 127144198620184473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Timerthisones4ugeorge_38
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 3408
+        width: 166
+        height: 172
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad48b74278c2a804a9bb4025bb4ccaf0
+      internalID: -3976077500382824618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Timerthisones4ugeorge_39
+      rect:
+        serializedVersion: 2
+        x: 498
+        y: 3408
+        width: 166
+        height: 172
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 699d28c3b50f7c84da96999fa866fd48
+      internalID: -2828965517810211813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Timerthisones4ugeorge_40
+      rect:
+        serializedVersion: 2
+        x: 664
+        y: 3408
+        width: 166
+        height: 172
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc9d48cf8a7338f49ae81e5311c9123c
+      internalID: -8382213408068494712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Timerthisones4ugeorge_41
+      rect:
+        serializedVersion: 2
+        x: 830
+        y: 3408
+        width: 166
+        height: 172
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9fa899a4142e7a94487a5e03236e69a9
+      internalID: 595946794687543935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Timerthisones4ugeorge_42
+      rect:
+        serializedVersion: 2
+        x: 996
+        y: 3408
+        width: 166
+        height: 172
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba9b2b62f4ef7cd448ac39fb2a26a695
+      internalID: -7398512541963612652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Timerthisones4ugeorge_43
+      rect:
+        serializedVersion: 2
+        x: 1162
+        y: 3408
+        width: 166
+        height: 172
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4eeb7f8037cdba2499fcde3bbc9b57e9
+      internalID: -4762626782547206234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Timerthisones4ugeorge_44
+      rect:
+        serializedVersion: 2
+        x: 1328
+        y: 3408
+        width: 166
+        height: 172
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ec2a6c859996b34a8ac800edd1b4b63
+      internalID: -6251793704822064530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Timerthisones4ugeorge_45
+      rect:
+        serializedVersion: 2
+        x: 1494
+        y: 3408
+        width: 166
+        height: 172
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5db0dd7b4d5a9742b8a5b541cfc79a2
+      internalID: -3077816470782467081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Timerthisones4ugeorge_46
+      rect:
+        serializedVersion: 2
+        x: 1660
+        y: 3408
+        width: 166
+        height: 172
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e1e9ff249c8c824baa3a3077af38d4e
+      internalID: -4883653854017118985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Timerthisones4ugeorge_47
+      rect:
+        serializedVersion: 2
+        x: 1826
+        y: 3408
+        width: 166
+        height: 172
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a24e1ad7ddbe1914583fbc68ffa9f3e9
+      internalID: 3909281543605591651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Timerthisones4ugeorge_48
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3236
+        width: 166
+        height: 172
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e64efb53233255746914e1f804b47e14
+      internalID: 3810060656284495478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Timerthisones4ugeorge_49
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 3236
+        width: 166
+        height: 172
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6cdd8a2ef5ff87040a850e54aec215ad
+      internalID: -7104716647175093999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Timerthisones4ugeorge_50
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 3236
+        width: 166
+        height: 172
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3a94a166a9fdac4cb54a95777645fc5
+      internalID: 9066912552298024786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Timerthisones4ugeorge_51
+      rect:
+        serializedVersion: 2
+        x: 498
+        y: 3236
+        width: 166
+        height: 172
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41eda87f25c488b44b78622b55feb810
+      internalID: -3201466539445569126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Timerthisones4ugeorge_52
+      rect:
+        serializedVersion: 2
+        x: 664
+        y: 3236
+        width: 166
+        height: 172
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 971ebcfa95a064146baf3c620f728db3
+      internalID: 5873306332514265928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Timerthisones4ugeorge_53
+      rect:
+        serializedVersion: 2
+        x: 830
+        y: 3236
+        width: 166
+        height: 172
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10dd03edfce136842ad735af5b6a9001
+      internalID: -5107827167150251238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Timerthisones4ugeorge_54
+      rect:
+        serializedVersion: 2
+        x: 996
+        y: 3236
+        width: 166
+        height: 172
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7c180156274d4944aad2517e633b2c9
+      internalID: -373171680167799923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Timerthisones4ugeorge_55
+      rect:
+        serializedVersion: 2
+        x: 1162
+        y: 3236
+        width: 166
+        height: 172
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: edbaf0c0225ffda428aa85892d0e15e5
+      internalID: 150735372834083240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Timerthisones4ugeorge_56
+      rect:
+        serializedVersion: 2
+        x: 1328
+        y: 3236
+        width: 166
+        height: 172
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c87469c1ce2542c4b87b86493b491588
+      internalID: -6812874597647522354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Timerthisones4ugeorge_57
+      rect:
+        serializedVersion: 2
+        x: 1494
+        y: 3236
+        width: 166
+        height: 172
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb734e730a18b4242bb060a6eebc7f47
+      internalID: -8088951981021335255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Timerthisones4ugeorge_58
+      rect:
+        serializedVersion: 2
+        x: 1660
+        y: 3236
+        width: 166
+        height: 172
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b35a25b6e727dd489a6eaf9c1c806ca
+      internalID: 8545351894124297990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Timerthisones4ugeorge_59
+      rect:
+        serializedVersion: 2
+        x: 1826
+        y: 3236
+        width: 166
+        height: 172
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6bd6611c08ef2144d8537e1e9d8887d9
+      internalID: 5247650169822562172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Timerthisones4ugeorge_60
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3064
+        width: 166
+        height: 172
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b902c8fa7be7fcd4aaf62cc4b3e52722
+      internalID: -4249309992684755329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Timerthisones4ugeorge_61
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 3064
+        width: 166
+        height: 172
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f4ffab15ce687d4299f672d39fd6c6f
+      internalID: -7481615682923443499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Timerthisones4ugeorge_62
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 3064
+        width: 166
+        height: 172
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f508960337f0baf4d9c9a7fe9e4dac40
+      internalID: 6124040422239565707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Timerthisones4ugeorge_63
+      rect:
+        serializedVersion: 2
+        x: 498
+        y: 3064
+        width: 166
+        height: 172
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97631b4d52697d847ac27fe83934977b
+      internalID: 5639514153973985584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Timerthisones4ugeorge_64
+      rect:
+        serializedVersion: 2
+        x: 664
+        y: 3064
+        width: 166
+        height: 172
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b020188863b718468bfd30423a69400
+      internalID: 3892624369612720698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Timerthisones4ugeorge_65
+      rect:
+        serializedVersion: 2
+        x: 830
+        y: 3064
+        width: 166
+        height: 172
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6164ce2b7d50bb48a8df74ab124af02
+      internalID: 6471863009572857419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Timerthisones4ugeorge_66
+      rect:
+        serializedVersion: 2
+        x: 996
+        y: 3064
+        width: 166
+        height: 172
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62e461474a29d5b4c986a80a57b47c12
+      internalID: 7811484378193369504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Timerthisones4ugeorge_67
+      rect:
+        serializedVersion: 2
+        x: 1162
+        y: 3064
+        width: 166
+        height: 172
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56f88ccffb7ee784db8010c4ef922f4c
+      internalID: -2547552175991344167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Timerthisones4ugeorge_68
+      rect:
+        serializedVersion: 2
+        x: 1328
+        y: 3064
+        width: 166
+        height: 172
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3728b9a215edbb2469a0fcf484adddf0
+      internalID: 5790299661565340411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Timerthisones4ugeorge_69
+      rect:
+        serializedVersion: 2
+        x: 1494
+        y: 3064
+        width: 166
+        height: 172
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8884695efdf25c4e8533cc19669acd8
+      internalID: -4353374885323779124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Timerthisones4ugeorge_70
+      rect:
+        serializedVersion: 2
+        x: 1660
+        y: 3064
+        width: 166
+        height: 172
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 060ad35010ab90746ad8c874e322c7d7
+      internalID: -3735832710399718382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Timerthisones4ugeorge_71
+      rect:
+        serializedVersion: 2
+        x: 1826
+        y: 3064
+        width: 166
+        height: 172
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80bebb288674f5a4aa7e192cb8e6f363
+      internalID: -1300143968086504900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Timerthisones4ugeorge_72
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2892
+        width: 166
+        height: 172
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e790d8a8f9a82a343871c97ebdcf279c
+      internalID: 2910681541504043659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Timerthisones4ugeorge_73
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 2892
+        width: 166
+        height: 172
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 775b3670e6942314ab375f4f43809a08
+      internalID: -8146752760172502412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Timerthisones4ugeorge_74
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 2892
+        width: 166
+        height: 172
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e85666467ac4c3b499f6c181ecc65869
+      internalID: 7158926244817801714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Timerthisones4ugeorge_75
+      rect:
+        serializedVersion: 2
+        x: 498
+        y: 2892
+        width: 166
+        height: 172
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be433371c05451644a3541a3449266f8
+      internalID: 7591748438909829892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Timerthisones4ugeorge_76
+      rect:
+        serializedVersion: 2
+        x: 664
+        y: 2892
+        width: 166
+        height: 172
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dad0f4890185df14699f707e8fa1abc2
+      internalID: -350729464633351874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Timerthisones4ugeorge_77
+      rect:
+        serializedVersion: 2
+        x: 830
+        y: 2892
+        width: 166
+        height: 172
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d900e1f568e7554cb3d10c146e05f40
+      internalID: -6851682286030699375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Timerthisones4ugeorge_78
+      rect:
+        serializedVersion: 2
+        x: 996
+        y: 2892
+        width: 166
+        height: 172
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12e9975e5af51b448ab6c29bf73d3aaf
+      internalID: 4525153890097345867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Timerthisones4ugeorge_79
+      rect:
+        serializedVersion: 2
+        x: 1162
+        y: 2892
+        width: 166
+        height: 172
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8008d1efb0c1dab4ba9f3cf9db224dfc
+      internalID: 5175955600048834243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Timerthisones4ugeorge_80
+      rect:
+        serializedVersion: 2
+        x: 1328
+        y: 2892
+        width: 166
+        height: 172
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd7a08c21e3123f40beb742ab47e34d8
+      internalID: 4800647993291123960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Timerthisones4ugeorge_81
+      rect:
+        serializedVersion: 2
+        x: 1494
+        y: 2892
+        width: 166
+        height: 172
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0fa4954e40fd31042a722d95abb6a8ad
+      internalID: 424533401458863573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Timerthisones4ugeorge_82
+      rect:
+        serializedVersion: 2
+        x: 1660
+        y: 2892
+        width: 166
+        height: 172
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e338b70652cad524aaa0a6433173a72d
+      internalID: 4380888855126205964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Timerthisones4ugeorge_83
+      rect:
+        serializedVersion: 2
+        x: 1826
+        y: 2892
+        width: 166
+        height: 172
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08fe428e7a8d9ca439016aede5a81525
+      internalID: -4718421648078842717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Timerthisones4ugeorge_84
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2720
+        width: 166
+        height: 172
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2fd2d70f78b28714084029115a39b72d
+      internalID: 4030254795741228191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Timerthisones4ugeorge_85
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 2720
+        width: 166
+        height: 172
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 167a33c2012b5c840b2b51273c996152
+      internalID: 5175501804294939733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Timerthisones4ugeorge_86
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 2720
+        width: 166
+        height: 172
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48c685d8f574f2248ac26dee59778d59
+      internalID: -6880681931393942172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Timerthisones4ugeorge_87
+      rect:
+        serializedVersion: 2
+        x: 498
+        y: 2720
+        width: 166
+        height: 172
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be076eefd19c8c84fbebddc677f4085a
+      internalID: 3015702926406419300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Timerthisones4ugeorge_88
+      rect:
+        serializedVersion: 2
+        x: 664
+        y: 2720
+        width: 166
+        height: 172
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed47dc80a3507994abfca1e1f6137456
+      internalID: 8351414551094653672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Timerthisones4ugeorge_89
+      rect:
+        serializedVersion: 2
+        x: 830
+        y: 2720
+        width: 166
+        height: 172
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85ef5dfc6042e9648b0a701e6d8545df
+      internalID: 3688227629561464670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Timerthisones4ugeorge_90
+      rect:
+        serializedVersion: 2
+        x: 996
+        y: 2720
+        width: 166
+        height: 172
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48254adc3c0bdd144924691364843b22
+      internalID: 8979071435503509205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Timerthisones4ugeorge_91
+      rect:
+        serializedVersion: 2
+        x: 1162
+        y: 2720
+        width: 166
+        height: 172
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 327bb0f2ff40dc5468d182d5b8700e09
+      internalID: 6897956895013882442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Timerthisones4ugeorge_92
+      rect:
+        serializedVersion: 2
+        x: 1328
+        y: 2720
+        width: 166
+        height: 172
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eabb2421fd9f660478634ff3edb3bf0e
+      internalID: 1340276904177961439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Timerthisones4ugeorge_93
+      rect:
+        serializedVersion: 2
+        x: 1494
+        y: 2720
+        width: 166
+        height: 172
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ea470addfc046346bc02d6623999603
+      internalID: 4532142355566745469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Timerthisones4ugeorge_94
+      rect:
+        serializedVersion: 2
+        x: 1660
+        y: 2720
+        width: 166
+        height: 172
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4a2159144150b843873cadc017c6979
+      internalID: 1174633701848072009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Timerthisones4ugeorge_95
+      rect:
+        serializedVersion: 2
+        x: 1826
+        y: 2720
+        width: 166
+        height: 172
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 980983acc3aa3f0498339d0953f35cad
+      internalID: 6313613305823828820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Timerthisones4ugeorge_96
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2548
+        width: 166
+        height: 172
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3123632c3e63b93479ddd21c1ea51ddb
+      internalID: 3632111197585920928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Timerthisones4ugeorge_97
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 2548
+        width: 166
+        height: 172
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59f023c0b42d79f4baa618f846bf7f43
+      internalID: 4720904535683054888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Timerthisones4ugeorge_98
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 2548
+        width: 166
+        height: 172
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 239172acb7070d84696b62516a15f08f
+      internalID: 5348630720014793143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Timerthisones4ugeorge_99
+      rect:
+        serializedVersion: 2
+        x: 498
+        y: 2548
+        width: 166
+        height: 172
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a9100121c159fa4494c42296d62a54d
+      internalID: -1642891558858801228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Timerthisones4ugeorge_100
+      rect:
+        serializedVersion: 2
+        x: 664
+        y: 2548
+        width: 166
+        height: 172
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6a6a80a5a737614fb4721db58763c11
+      internalID: 7077156019392488570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Timerthisones4ugeorge_101
+      rect:
+        serializedVersion: 2
+        x: 830
+        y: 2548
+        width: 166
+        height: 172
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88e3c3dae8c506d499496f15b2552846
+      internalID: -7629917318784481735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Timerthisones4ugeorge_102
+      rect:
+        serializedVersion: 2
+        x: 996
+        y: 2548
+        width: 166
+        height: 172
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c2331d73067a2443a17261f230292cd
+      internalID: -6282472412027663981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Timerthisones4ugeorge_103
+      rect:
+        serializedVersion: 2
+        x: 1162
+        y: 2548
+        width: 166
+        height: 172
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3c6617bfbfdf504c857734f6afac944
+      internalID: -2819817924319236366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Timerthisones4ugeorge_104
+      rect:
+        serializedVersion: 2
+        x: 1328
+        y: 2548
+        width: 166
+        height: 172
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee98cb2d3ef50d145ab30932c29306eb
+      internalID: 33960914300869069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Timerthisones4ugeorge_105
+      rect:
+        serializedVersion: 2
+        x: 1494
+        y: 2548
+        width: 166
+        height: 172
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4afaaad2fe2b2ff4580b4f077a425aac
+      internalID: -6280348460296641727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Timerthisones4ugeorge_106
+      rect:
+        serializedVersion: 2
+        x: 1660
+        y: 2548
+        width: 166
+        height: 172
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f60f7f4ad578c941bc6dceee4ed8f9e
+      internalID: -6324918451777323174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Timerthisones4ugeorge_107
+      rect:
+        serializedVersion: 2
+        x: 1826
+        y: 2548
+        width: 166
+        height: 172
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa9542d896325bf4ea349c00d6187fc6
+      internalID: 3485305732753144602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Timerthisones4ugeorge_108
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2376
+        width: 166
+        height: 172
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d44bd97a14d93054db103fbeb176739b
+      internalID: -8802801091093082750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Timerthisones4ugeorge_109
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 2376
+        width: 166
+        height: 172
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a0198b801283194e9ef4c52aefa5532
+      internalID: 1248431512251448906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Timerthisones4ugeorge_110
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 2376
+        width: 166
+        height: 172
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa25d158fd962164c8db92f18b4ebeab
+      internalID: 5304047852807942360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Timerthisones4ugeorge_111
+      rect:
+        serializedVersion: 2
+        x: 498
+        y: 2376
+        width: 166
+        height: 172
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d88d0a8daa76bc4ca6752166e97ab0f
+      internalID: -2545475460547711004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Timerthisones4ugeorge_112
+      rect:
+        serializedVersion: 2
+        x: 664
+        y: 2376
+        width: 166
+        height: 172
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a5b53c15161c5940bf62cc1490e0816
+      internalID: 1240246121237681551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Timerthisones4ugeorge_113
+      rect:
+        serializedVersion: 2
+        x: 830
+        y: 2376
+        width: 166
+        height: 172
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 328944036b1a2bc4090ad5fd2d68af3b
+      internalID: 7823117886515901235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Timerthisones4ugeorge_114
+      rect:
+        serializedVersion: 2
+        x: 996
+        y: 2376
+        width: 166
+        height: 172
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95d7be08ff0441d4fafd2ebc2c8a71ee
+      internalID: -6115374354865315584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Timerthisones4ugeorge_115
+      rect:
+        serializedVersion: 2
+        x: 1162
+        y: 2376
+        width: 166
+        height: 172
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a17a3a04aab376a4f83572409b0373a0
+      internalID: 467487489542625613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Timerthisones4ugeorge_116
+      rect:
+        serializedVersion: 2
+        x: 1328
+        y: 2376
+        width: 166
+        height: 172
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd3dfa555bb567f4086033a0c7b5a023
+      internalID: -5266830177175105656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Timerthisones4ugeorge_117
+      rect:
+        serializedVersion: 2
+        x: 1494
+        y: 2376
+        width: 166
+        height: 172
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a718da02a04395648ba9a943929b1517
+      internalID: 3449098859091168062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Timerthisones4ugeorge_118
+      rect:
+        serializedVersion: 2
+        x: 1660
+        y: 2376
+        width: 166
+        height: 172
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbc4bc401680fbd47af3fd98459ea7f2
+      internalID: 2400255847872397124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Timerthisones4ugeorge_119
+      rect:
+        serializedVersion: 2
+        x: 1826
+        y: 2376
+        width: 166
+        height: 172
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 230f17b8ef5c0ad40b4b2e78d8f530e4
+      internalID: -224343389874467503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Timerthisones4ugeorge_120
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2204
+        width: 166
+        height: 172
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12b225d0531af3f4c81adaff362503c5
+      internalID: -505870477526110642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Timerthisones4ugeorge_121
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 2204
+        width: 166
+        height: 172
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d9fe142cf0023c4b8d060bee3ba3ce9
+      internalID: 395236369485255479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Timerthisones4ugeorge_122
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 2204
+        width: 166
+        height: 172
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66492ee6954bc6c4a908f1f87f8185d8
+      internalID: -500273962347857869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Timerthisones4ugeorge_123
+      rect:
+        serializedVersion: 2
+        x: 498
+        y: 2204
+        width: 166
+        height: 172
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f5f4d7003bbcfd4dac127d13167ae66
+      internalID: -9222940018470838642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Timerthisones4ugeorge_124
+      rect:
+        serializedVersion: 2
+        x: 664
+        y: 2204
+        width: 166
+        height: 172
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e86ad9d818c039f48ac45b90dcbb39a8
+      internalID: 6192999491315921426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Timerthisones4ugeorge_125
+      rect:
+        serializedVersion: 2
+        x: 830
+        y: 2204
+        width: 166
+        height: 172
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 046472937c30e1c4ea10de7b9cf107b1
+      internalID: -6421752625776920028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Timerthisones4ugeorge_126
+      rect:
+        serializedVersion: 2
+        x: 996
+        y: 2204
+        width: 166
+        height: 172
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 403713e8cfbb89b45ba182bf42455d43
+      internalID: 4419734128642831233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Timerthisones4ugeorge_127
+      rect:
+        serializedVersion: 2
+        x: 1162
+        y: 2204
+        width: 166
+        height: 172
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8cf5e797bc7a542489a643d6837212b0
+      internalID: -7892192121553149199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Timerthisones4ugeorge_128
+      rect:
+        serializedVersion: 2
+        x: 1328
+        y: 2204
+        width: 166
+        height: 172
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a4ab6da98404454f806a7b0b5d6479e
+      internalID: -8027041319140579077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Timerthisones4ugeorge_129
+      rect:
+        serializedVersion: 2
+        x: 1494
+        y: 2204
+        width: 166
+        height: 172
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1586b7915c517648b916bbf45ab4a2b
+      internalID: -7358929102726298567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Timerthisones4ugeorge_130
+      rect:
+        serializedVersion: 2
+        x: 1660
+        y: 2204
+        width: 166
+        height: 172
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06d97b98273872640ae732fb026f5a21
+      internalID: 6393686778547044897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Timerthisones4ugeorge_131
+      rect:
+        serializedVersion: 2
+        x: 1826
+        y: 2204
+        width: 166
+        height: 172
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a942e6690fe43e3438b9c46dc555d826
+      internalID: 5710978475538582296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Timerthisones4ugeorge_132
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2032
+        width: 166
+        height: 172
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ca814e70d688f542b8e5cee416d214d
+      internalID: -180847812515747725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Timerthisones4ugeorge_133
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 2032
+        width: 166
+        height: 172
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fdd90f413b4060b438d846c7f73bdf97
+      internalID: 1286275952003345949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Timerthisones4ugeorge_134
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 2032
+        width: 166
+        height: 172
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56a66a741cd4d9a4594ed9f155822936
+      internalID: -4809353888880567097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Timerthisones4ugeorge_135
+      rect:
+        serializedVersion: 2
+        x: 498
+        y: 2032
+        width: 166
+        height: 172
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 660512ab79d9b6249bea85fc01404305
+      internalID: 6679233833351953735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Timerthisones4ugeorge_136
+      rect:
+        serializedVersion: 2
+        x: 664
+        y: 2032
+        width: 166
+        height: 172
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d79f041858fbae4d8b92bd6b2d79abb
+      internalID: 2779315888501176394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Timerthisones4ugeorge_137
+      rect:
+        serializedVersion: 2
+        x: 830
+        y: 2032
+        width: 166
+        height: 172
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ee0542db75786c499aedcdf9b1e51a2
+      internalID: 1740754764205948550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Timerthisones4ugeorge_138
+      rect:
+        serializedVersion: 2
+        x: 996
+        y: 2032
+        width: 166
+        height: 172
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f704f1c444a9e60418ef39bab5614e8b
+      internalID: -1081848280499411639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Timerthisones4ugeorge_139
+      rect:
+        serializedVersion: 2
+        x: 1162
+        y: 2032
+        width: 166
+        height: 172
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 249e8266b7829f041ac5d2fad14cd6d6
+      internalID: 7030360172868583576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Timerthisones4ugeorge_140
+      rect:
+        serializedVersion: 2
+        x: 1328
+        y: 2032
+        width: 166
+        height: 172
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33607257598d91b40b4933f84809726c
+      internalID: 612512183426728848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Timerthisones4ugeorge_141
+      rect:
+        serializedVersion: 2
+        x: 1494
+        y: 2032
+        width: 166
+        height: 172
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1970fe2964c970847b1f4ea2d8385288
+      internalID: -451889636666135771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Timerthisones4ugeorge_142
+      rect:
+        serializedVersion: 2
+        x: 1660
+        y: 2032
+        width: 166
+        height: 172
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f788c3d86dfaa74981be63f9681f4f0
+      internalID: 4147140428278731732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Timerthisones4ugeorge_143
+      rect:
+        serializedVersion: 2
+        x: 1826
+        y: 2032
+        width: 166
+        height: 172
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fdc6bfdaadcd2834eb59ab2eea561ee1
+      internalID: -1859231787025910203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Timerthisones4ugeorge_144
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1860
+        width: 166
+        height: 172
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31c698c56d34aec47beca05181e9f84a
+      internalID: 657726899392444187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Timerthisones4ugeorge_145
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 1860
+        width: 166
+        height: 172
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a7de372ec41f02429d822fda577ef7c
+      internalID: -7824464794120195835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Timerthisones4ugeorge_146
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 1860
+        width: 166
+        height: 172
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39a779fde94ad454ea370b74a9a76796
+      internalID: 8289898183291189936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Timerthisones4ugeorge_147
+      rect:
+        serializedVersion: 2
+        x: 498
+        y: 1860
+        width: 166
+        height: 172
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b95829962495dbb4183487cfd436e255
+      internalID: 7503189935849656936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Timerthisones4ugeorge_148
+      rect:
+        serializedVersion: 2
+        x: 664
+        y: 1860
+        width: 166
+        height: 172
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9eab6604abb8d1d43a8d672742778ed5
+      internalID: -7961606987819559787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Timerthisones4ugeorge_149
+      rect:
+        serializedVersion: 2
+        x: 830
+        y: 1860
+        width: 166
+        height: 172
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b3b67735c6179644b7ce8f094d3adeb
+      internalID: 1224814399463439131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Timerthisones4ugeorge_150
+      rect:
+        serializedVersion: 2
+        x: 996
+        y: 1860
+        width: 166
+        height: 172
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59756d6071368c044b77fa787a7d20bb
+      internalID: 138833944856298745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Timerthisones4ugeorge_151
+      rect:
+        serializedVersion: 2
+        x: 1162
+        y: 1860
+        width: 166
+        height: 172
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e405ffb079fb616488dfbc29e9b055b7
+      internalID: -165254117155758220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 4258cf196b2f380458a9090616fb8479
     internalID: 0
     vertices: []
     indices: 
