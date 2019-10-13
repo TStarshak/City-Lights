@@ -13,29 +13,59 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 2
-  lastUpdatedAtString: 2019-10-06T18:35:41.553-04:00
-  initializedAtString: 2019-10-06T18:35:41.490-04:00
+  lastUpdatedAtString: 2019-10-13T17:44:43.975-04:00
+  initializedAtString: 2019-10-13T16:56:28.806-04:00
   localBranches:
+  - name: City
+    tracking: origin/City
+  - name: fireflies
+    tracking: origin/fireflies
   - name: lighting
-    tracking: 
+    tracking: origin/lighting
   - name: master
     tracking: origin/master
+  - name: menu-dev
+    tracking: origin/menu-dev
+  - name: shadow-timer-dev
+    tracking: origin/shadow-timer-dev
+  - name: upgrades
+    tracking: origin/upgrades
+  - name: vaculamp
+    tracking: origin/vaculamp
+  - name: world-generation
+    tracking: origin/world-generation
   remoteBranches:
+  - name: origin/AssetImplementation
+    tracking: '[None]'
+  - name: origin/City
+    tracking: '[None]'
+  - name: origin/enemyEdits
+    tracking: '[None]'
+  - name: origin/fireflies
+    tracking: '[None]'
   - name: origin/HEAD
     tracking: '[None]'
   - name: origin/lighting
     tracking: '[None]'
   - name: origin/master
     tracking: '[None]'
+  - name: origin/menu-dev
+    tracking: '[None]'
   - name: origin/option-menu-attempt
     tracking: '[None]'
+  - name: origin/PostProcessing
+    tracking: '[None]'
   - name: origin/spawnEdits
+    tracking: '[None]'
+  - name: origin/upgrades
+    tracking: '[None]'
+  - name: origin/vaculamp
     tracking: '[None]'
   - name: origin/world-generation
     tracking: '[None]'
   remotes:
   - name: origin
-    url: https://csecode.case.edu/academic/eecs-390/team2
+    url: https://csecode.case.edu/academic/eecs-390/team2.git
     login: 
     user: 
     host: 
@@ -43,65 +73,155 @@ MonoBehaviour:
     token: 
   localConfigBranches:
     keys:
+    - City
+    - fireflies
     - lighting
     - master
+    - menu-dev
+    - shadow-timer-dev
+    - upgrades
+    - vaculamp
+    - world-generation
     values:
+    - name: City
+      remote:
+        name: origin
+        url: https://csecode.case.edu/academic/eecs-390/team2.git
+      trackingBranch: City
+    - name: fireflies
+      remote:
+        name: origin
+        url: https://csecode.case.edu/academic/eecs-390/team2.git
+      trackingBranch: fireflies
     - name: lighting
       remote:
-        name: 
-        url: 
-      trackingBranch: 
+        name: origin
+        url: https://csecode.case.edu/academic/eecs-390/team2.git
+      trackingBranch: lighting
     - name: master
       remote:
         name: origin
-        url: https://csecode.case.edu/academic/eecs-390/team2
+        url: https://csecode.case.edu/academic/eecs-390/team2.git
       trackingBranch: master
+    - name: menu-dev
+      remote:
+        name: origin
+        url: https://csecode.case.edu/academic/eecs-390/team2.git
+      trackingBranch: menu-dev
+    - name: shadow-timer-dev
+      remote:
+        name: origin
+        url: https://csecode.case.edu/academic/eecs-390/team2.git
+      trackingBranch: shadow-timer-dev
+    - name: upgrades
+      remote:
+        name: origin
+        url: https://csecode.case.edu/academic/eecs-390/team2.git
+      trackingBranch: upgrades
+    - name: vaculamp
+      remote:
+        name: origin
+        url: https://csecode.case.edu/academic/eecs-390/team2.git
+      trackingBranch: vaculamp
+    - name: world-generation
+      remote:
+        name: origin
+        url: https://csecode.case.edu/academic/eecs-390/team2.git
+      trackingBranch: world-generation
   remoteConfigBranches:
     keys:
     - origin
     subKeys:
     - Values:
+      - AssetImplementation
+      - City
+      - enemyEdits
+      - fireflies
       - HEAD
       - lighting
       - master
+      - menu-dev
       - option-menu-attempt
+      - PostProcessing
       - spawnEdits
+      - upgrades
+      - vaculamp
       - world-generation
     subKeyValues:
     - Values:
+      - name: AssetImplementation
+        remote:
+          name: origin
+          url: https://csecode.case.edu/academic/eecs-390/team2.git
+        trackingBranch: 
+      - name: City
+        remote:
+          name: origin
+          url: https://csecode.case.edu/academic/eecs-390/team2.git
+        trackingBranch: 
+      - name: enemyEdits
+        remote:
+          name: origin
+          url: https://csecode.case.edu/academic/eecs-390/team2.git
+        trackingBranch: 
+      - name: fireflies
+        remote:
+          name: origin
+          url: https://csecode.case.edu/academic/eecs-390/team2.git
+        trackingBranch: 
       - name: HEAD
         remote:
           name: origin
-          url: https://csecode.case.edu/academic/eecs-390/team2
+          url: https://csecode.case.edu/academic/eecs-390/team2.git
         trackingBranch: 
       - name: lighting
         remote:
           name: origin
-          url: https://csecode.case.edu/academic/eecs-390/team2
+          url: https://csecode.case.edu/academic/eecs-390/team2.git
         trackingBranch: 
       - name: master
         remote:
           name: origin
-          url: https://csecode.case.edu/academic/eecs-390/team2
+          url: https://csecode.case.edu/academic/eecs-390/team2.git
+        trackingBranch: 
+      - name: menu-dev
+        remote:
+          name: origin
+          url: https://csecode.case.edu/academic/eecs-390/team2.git
         trackingBranch: 
       - name: option-menu-attempt
         remote:
           name: origin
-          url: https://csecode.case.edu/academic/eecs-390/team2
+          url: https://csecode.case.edu/academic/eecs-390/team2.git
+        trackingBranch: 
+      - name: PostProcessing
+        remote:
+          name: origin
+          url: https://csecode.case.edu/academic/eecs-390/team2.git
         trackingBranch: 
       - name: spawnEdits
         remote:
           name: origin
-          url: https://csecode.case.edu/academic/eecs-390/team2
+          url: https://csecode.case.edu/academic/eecs-390/team2.git
+        trackingBranch: 
+      - name: upgrades
+        remote:
+          name: origin
+          url: https://csecode.case.edu/academic/eecs-390/team2.git
+        trackingBranch: 
+      - name: vaculamp
+        remote:
+          name: origin
+          url: https://csecode.case.edu/academic/eecs-390/team2.git
         trackingBranch: 
       - name: world-generation
         remote:
           name: origin
-          url: https://csecode.case.edu/academic/eecs-390/team2
+          url: https://csecode.case.edu/academic/eecs-390/team2.git
         trackingBranch: 
   configRemotes:
     keys:
     - origin
     values:
     - name: origin
-      url: https://csecode.case.edu/academic/eecs-390/team2
+      url: https://csecode.case.edu/academic/eecs-390/team2.git
