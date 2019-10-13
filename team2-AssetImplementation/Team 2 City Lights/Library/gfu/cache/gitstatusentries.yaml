@@ -1,0 +1,546 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &1
+MonoBehaviour:
+  m_ObjectHideFlags: 61
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 995438498, guid: 68c7e4565cde54155bb78d8e935f1ddb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cacheType: 6
+  lastUpdatedAtString: 2019-10-07T16:29:26.464-04:00
+  initializedAtString: 2019-10-07T14:59:56.548-04:00
+  entries:
+  - path: Team 2 City Lights\.vs\Team 2 City Lights\v15\.suo
+    fullPath: C:\Users\Three\Desktop\team2\Team 2 City Lights\.vs\Team 2 City Lights\v15\.suo
+    projectPath: .vs\Team 2 City Lights\v15\.suo
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Team 2 City Lights\.vs\Team 2 City Lights\v15\Server\sqlite3\storage.ide
+    fullPath: C:\Users\Three\Desktop\team2\Team 2 City Lights\.vs\Team 2 City Lights\v15\Server\sqlite3\storage.ide
+    projectPath: .vs\Team 2 City Lights\v15\Server\sqlite3\storage.ide
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Team 2 City Lights\.vs\Team 2 City Lights\v15\Server\sqlite3\storage.ide-shm
+    fullPath: C:\Users\Three\Desktop\team2\Team 2 City Lights\.vs\Team 2 City Lights\v15\Server\sqlite3\storage.ide-shm
+    projectPath: .vs\Team 2 City Lights\v15\Server\sqlite3\storage.ide-shm
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Team 2 City Lights\.vs\Team 2 City Lights\v15\Server\sqlite3\storage.ide-wal
+    fullPath: C:\Users\Three\Desktop\team2\Team 2 City Lights\.vs\Team 2 City Lights\v15\Server\sqlite3\storage.ide-wal
+    projectPath: .vs\Team 2 City Lights\v15\Server\sqlite3\storage.ide-wal
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Team 2 City Lights\Assembly-CSharp.csproj
+    fullPath: C:\Users\Three\Desktop\team2\Team 2 City Lights\Assembly-CSharp.csproj
+    projectPath: Assembly-CSharp.csproj
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Team 2 City Lights\Assembly-CSharp-Editor-firstpass.csproj
+    fullPath: C:\Users\Three\Desktop\team2\Team 2 City Lights\Assembly-CSharp-Editor-firstpass.csproj
+    projectPath: Assembly-CSharp-Editor-firstpass.csproj
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Team 2 City Lights\Assets\Prefabs\Player.prefab
+    fullPath: C:\Users\Three\Desktop\team2\Team 2 City Lights\Assets\Prefabs\Player.prefab
+    projectPath: Assets\Prefabs\Player.prefab
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Team 2 City Lights\Assets\Resources.meta
+    fullPath: C:\Users\Three\Desktop\team2\Team 2 City Lights\Assets\Resources.meta
+    projectPath: Assets\Resources.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Team 2 City Lights\Assets\Resources\Char_Front_Walk.png
+    fullPath: C:\Users\Three\Desktop\team2\Team 2 City Lights\Assets\Resources\Char_Front_Walk.png
+    projectPath: Assets\Resources\Char_Front_Walk.png
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Team 2 City Lights\Assets\Resources\Char_Front_Walk.png.meta
+    fullPath: C:\Users\Three\Desktop\team2\Team 2 City Lights\Assets\Resources\Char_Front_Walk.png.meta
+    projectPath: Assets\Resources\Char_Front_Walk.png.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Team 2 City Lights\Assets\Resources\Char_Idle.png
+    fullPath: C:\Users\Three\Desktop\team2\Team 2 City Lights\Assets\Resources\Char_Idle.png
+    projectPath: Assets\Resources\Char_Idle.png
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Team 2 City Lights\Assets\Resources\Char_Idle.png.meta
+    fullPath: C:\Users\Three\Desktop\team2\Team 2 City Lights\Assets\Resources\Char_Idle.png.meta
+    projectPath: Assets\Resources\Char_Idle.png.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Team 2 City Lights\Assets\Resources\CharacterAnimator.controller
+    fullPath: C:\Users\Three\Desktop\team2\Team 2 City Lights\Assets\Resources\CharacterAnimator.controller
+    projectPath: Assets\Resources\CharacterAnimator.controller
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Team 2 City Lights\Assets\Resources\CharacterAnimator.controller.meta
+    fullPath: C:\Users\Three\Desktop\team2\Team 2 City Lights\Assets\Resources\CharacterAnimator.controller.meta
+    projectPath: Assets\Resources\CharacterAnimator.controller.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Team 2 City Lights\Assets\Resources\CharacterWalk.anim
+    fullPath: C:\Users\Three\Desktop\team2\Team 2 City Lights\Assets\Resources\CharacterWalk.anim
+    projectPath: Assets\Resources\CharacterWalk.anim
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Team 2 City Lights\Assets\Resources\CharacterWalk.anim.meta
+    fullPath: C:\Users\Three\Desktop\team2\Team 2 City Lights\Assets\Resources\CharacterWalk.anim.meta
+    projectPath: Assets\Resources\CharacterWalk.anim.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Team 2 City Lights\Assets\Resources\ChararacterIdle.anim
+    fullPath: C:\Users\Three\Desktop\team2\Team 2 City Lights\Assets\Resources\ChararacterIdle.anim
+    projectPath: Assets\Resources\ChararacterIdle.anim
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Team 2 City Lights\Assets\Resources\ChararacterIdle.anim.meta
+    fullPath: C:\Users\Three\Desktop\team2\Team 2 City Lights\Assets\Resources\ChararacterIdle.anim.meta
+    projectPath: Assets\Resources\ChararacterIdle.anim.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Team 2 City Lights\Assets\Resources\Materials.meta
+    fullPath: C:\Users\Three\Desktop\team2\Team 2 City Lights\Assets\Resources\Materials.meta
+    projectPath: Assets\Resources\Materials.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Team 2 City Lights\Assets\Resources\Materials\Player_Char.mat
+    fullPath: C:\Users\Three\Desktop\team2\Team 2 City Lights\Assets\Resources\Materials\Player_Char.mat
+    projectPath: Assets\Resources\Materials\Player_Char.mat
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Team 2 City Lights\Assets\Resources\Materials\Player_Char.mat.meta
+    fullPath: C:\Users\Three\Desktop\team2\Team 2 City Lights\Assets\Resources\Materials\Player_Char.mat.meta
+    projectPath: Assets\Resources\Materials\Player_Char.mat.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Team 2 City Lights\Assets\Resources\Player_Char.png
+    fullPath: C:\Users\Three\Desktop\team2\Team 2 City Lights\Assets\Resources\Player_Char.png
+    projectPath: Assets\Resources\Player_Char.png
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Team 2 City Lights\Assets\Resources\Player_Char.png.meta
+    fullPath: C:\Users\Three\Desktop\team2\Team 2 City Lights\Assets\Resources\Player_Char.png.meta
+    projectPath: Assets\Resources\Player_Char.png.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Team 2 City Lights\Assets\Resources\UI.meta
+    fullPath: C:\Users\Three\Desktop\team2\Team 2 City Lights\Assets\Resources\UI.meta
+    projectPath: Assets\Resources\UI.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Team 2 City Lights\Assets\Resources\UI\CityLightsSlide.png
+    fullPath: C:\Users\Three\Desktop\team2\Team 2 City Lights\Assets\Resources\UI\CityLightsSlide.png
+    projectPath: Assets\Resources\UI\CityLightsSlide.png
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Team 2 City Lights\Assets\Resources\UI\CityLightsSlide.png.meta
+    fullPath: C:\Users\Three\Desktop\team2\Team 2 City Lights\Assets\Resources\UI\CityLightsSlide.png.meta
+    projectPath: Assets\Resources\UI\CityLightsSlide.png.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Team 2 City Lights\Assets\Resources\UI\MainBG.png
+    fullPath: C:\Users\Three\Desktop\team2\Team 2 City Lights\Assets\Resources\UI\MainBG.png
+    projectPath: Assets\Resources\UI\MainBG.png
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Team 2 City Lights\Assets\Resources\UI\MainBG.png.meta
+    fullPath: C:\Users\Three\Desktop\team2\Team 2 City Lights\Assets\Resources\UI\MainBG.png.meta
+    projectPath: Assets\Resources\UI\MainBG.png.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Team 2 City Lights\Assets\Scenes\PrototypeScene.unity
+    fullPath: C:\Users\Three\Desktop\team2\Team 2 City Lights\Assets\Scenes\PrototypeScene.unity
+    projectPath: Assets\Scenes\PrototypeScene.unity
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Team 2 City Lights\Assets\Scripts\PlayerAnimation.cs
+    fullPath: C:\Users\Three\Desktop\team2\Team 2 City Lights\Assets\Scripts\PlayerAnimation.cs
+    projectPath: Assets\Scripts\PlayerAnimation.cs
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Team 2 City Lights\Assets\Scripts\PlayerAnimation.cs.meta
+    fullPath: C:\Users\Three\Desktop\team2\Team 2 City Lights\Assets\Scripts\PlayerAnimation.cs.meta
+    projectPath: Assets\Scripts\PlayerAnimation.cs.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Team 2 City Lights\Assets\Scripts\PlayerColliderScript.cs
+    fullPath: C:\Users\Three\Desktop\team2\Team 2 City Lights\Assets\Scripts\PlayerColliderScript.cs
+    projectPath: Assets\Scripts\PlayerColliderScript.cs
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Team 2 City Lights\Assets\Scripts\PlayerMovement.cs
+    fullPath: C:\Users\Three\Desktop\team2\Team 2 City Lights\Assets\Scripts\PlayerMovement.cs
+    projectPath: Assets\Scripts\PlayerMovement.cs
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Team 2 City Lights\Assets\Scripts\Vacuum.cs
+    fullPath: C:\Users\Three\Desktop\team2\Team 2 City Lights\Assets\Scripts\Vacuum.cs
+    projectPath: Assets\Scripts\Vacuum.cs
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Team 2 City Lights\Assets\Sprites.meta
+    fullPath: C:\Users\Three\Desktop\team2\Team 2 City Lights\Assets\Sprites.meta
+    projectPath: Assets\Sprites.meta
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Team 2 City Lights\Assets\Sprites\Char_Idle.png
+    fullPath: C:\Users\Three\Desktop\team2\Team 2 City Lights\Assets\Sprites\Char_Idle.png
+    projectPath: Assets\Sprites\Char_Idle.png
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Team 2 City Lights\Assets\Sprites\Char_Idle.png.meta
+    fullPath: C:\Users\Three\Desktop\team2\Team 2 City Lights\Assets\Sprites\Char_Idle.png.meta
+    projectPath: Assets\Sprites\Char_Idle.png.meta
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Team 2 City Lights\Assets\Sprites\Materials.meta
+    fullPath: C:\Users\Three\Desktop\team2\Team 2 City Lights\Assets\Sprites\Materials.meta
+    projectPath: Assets\Sprites\Materials.meta
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Team 2 City Lights\Assets\Sprites\Materials\Player_Char.mat
+    fullPath: C:\Users\Three\Desktop\team2\Team 2 City Lights\Assets\Sprites\Materials\Player_Char.mat
+    projectPath: Assets\Sprites\Materials\Player_Char.mat
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Team 2 City Lights\Assets\Sprites\Materials\Player_Char.mat.meta
+    fullPath: C:\Users\Three\Desktop\team2\Team 2 City Lights\Assets\Sprites\Materials\Player_Char.mat.meta
+    projectPath: Assets\Sprites\Materials\Player_Char.mat.meta
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Team 2 City Lights\Assets\Sprites\Player_Char.png
+    fullPath: C:\Users\Three\Desktop\team2\Team 2 City Lights\Assets\Sprites\Player_Char.png
+    projectPath: Assets\Sprites\Player_Char.png
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Team 2 City Lights\Assets\Sprites\Player_Char.png.meta
+    fullPath: C:\Users\Three\Desktop\team2\Team 2 City Lights\Assets\Sprites\Player_Char.png.meta
+    projectPath: Assets\Sprites\Player_Char.png.meta
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Team 2 City Lights\Assets\Sprites\UI.meta
+    fullPath: C:\Users\Three\Desktop\team2\Team 2 City Lights\Assets\Sprites\UI.meta
+    projectPath: Assets\Sprites\UI.meta
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Team 2 City Lights\Assets\Sprites\UI\CityLightsSlide.png
+    fullPath: C:\Users\Three\Desktop\team2\Team 2 City Lights\Assets\Sprites\UI\CityLightsSlide.png
+    projectPath: Assets\Sprites\UI\CityLightsSlide.png
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Team 2 City Lights\Assets\Sprites\UI\CityLightsSlide.png.meta
+    fullPath: C:\Users\Three\Desktop\team2\Team 2 City Lights\Assets\Sprites\UI\CityLightsSlide.png.meta
+    projectPath: Assets\Sprites\UI\CityLightsSlide.png.meta
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Team 2 City Lights\Assets\Sprites\UI\MainBG.png
+    fullPath: C:\Users\Three\Desktop\team2\Team 2 City Lights\Assets\Sprites\UI\MainBG.png
+    projectPath: Assets\Sprites\UI\MainBG.png
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Team 2 City Lights\Assets\Sprites\UI\MainBG.png.meta
+    fullPath: C:\Users\Three\Desktop\team2\Team 2 City Lights\Assets\Sprites\UI\MainBG.png.meta
+    projectPath: Assets\Sprites\UI\MainBG.png.meta
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Team 2 City Lights\Library\assetDatabase3
+    fullPath: C:\Users\Three\Desktop\team2\Team 2 City Lights\Library\assetDatabase3
+    projectPath: Library\assetDatabase3
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Team 2 City Lights\Library\CurrentLayout-default.dwlt
+    fullPath: C:\Users\Three\Desktop\team2\Team 2 City Lights\Library\CurrentLayout-default.dwlt
+    projectPath: Library\CurrentLayout-default.dwlt
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Team 2 City Lights\Library\gfu\cache\branches.yaml
+    fullPath: C:\Users\Three\Desktop\team2\Team 2 City Lights\Library\gfu\cache\branches.yaml
+    projectPath: Library\gfu\cache\branches.yaml
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Team 2 City Lights\Library\gfu\cache\gitlocks.yaml
+    fullPath: C:\Users\Three\Desktop\team2\Team 2 City Lights\Library\gfu\cache\gitlocks.yaml
+    projectPath: Library\gfu\cache\gitlocks.yaml
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Team 2 City Lights\Library\gfu\cache\gitlog.yaml
+    fullPath: C:\Users\Three\Desktop\team2\Team 2 City Lights\Library\gfu\cache\gitlog.yaml
+    projectPath: Library\gfu\cache\gitlog.yaml
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Team 2 City Lights\Library\gfu\cache\gitstatusentries.yaml
+    fullPath: C:\Users\Three\Desktop\team2\Team 2 City Lights\Library\gfu\cache\gitstatusentries.yaml
+    projectPath: Library\gfu\cache\gitstatusentries.yaml
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Team 2 City Lights\Library\gfu\cache\gittrackingstatus.yaml
+    fullPath: C:\Users\Three\Desktop\team2\Team 2 City Lights\Library\gfu\cache\gittrackingstatus.yaml
+    projectPath: Library\gfu\cache\gittrackingstatus.yaml
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Team 2 City Lights\Library\gfu\cache\repoinfo.yaml
+    fullPath: C:\Users\Three\Desktop\team2\Team 2 City Lights\Library\gfu\cache\repoinfo.yaml
+    projectPath: Library\gfu\cache\repoinfo.yaml
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Team 2 City Lights\Library\InspectorExpandedItems.asset
+    fullPath: C:\Users\Three\Desktop\team2\Team 2 City Lights\Library\InspectorExpandedItems.asset
+    projectPath: Library\InspectorExpandedItems.asset
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Team 2 City Lights\Library\metadata\2b\2b9c6f18a9f01a84da3885022acec615
+    fullPath: C:\Users\Three\Desktop\team2\Team 2 City Lights\Library\metadata\2b\2b9c6f18a9f01a84da3885022acec615
+    projectPath: Library\metadata\2b\2b9c6f18a9f01a84da3885022acec615
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Team 2 City Lights\Library\metadata\57\57a58db6cbda31b4d976c87b85e3da03
+    fullPath: C:\Users\Three\Desktop\team2\Team 2 City Lights\Library\metadata\57\57a58db6cbda31b4d976c87b85e3da03
+    projectPath: Library\metadata\57\57a58db6cbda31b4d976c87b85e3da03
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Team 2 City Lights\Library\metadata\73\7318cb11bbae1da4eaa7516780b148e3
+    fullPath: C:\Users\Three\Desktop\team2\Team 2 City Lights\Library\metadata\73\7318cb11bbae1da4eaa7516780b148e3
+    projectPath: Library\metadata\73\7318cb11bbae1da4eaa7516780b148e3
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Team 2 City Lights\Library\metadata\73\7318cb11bbae1da4eaa7516780b148e3.info
+    fullPath: C:\Users\Three\Desktop\team2\Team 2 City Lights\Library\metadata\73\7318cb11bbae1da4eaa7516780b148e3.info
+    projectPath: Library\metadata\73\7318cb11bbae1da4eaa7516780b148e3.info
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Team 2 City Lights\Library\metadata\84\84a5ce5b391fac247bfccd9b6d6fa3eb
+    fullPath: C:\Users\Three\Desktop\team2\Team 2 City Lights\Library\metadata\84\84a5ce5b391fac247bfccd9b6d6fa3eb
+    projectPath: Library\metadata\84\84a5ce5b391fac247bfccd9b6d6fa3eb
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Team 2 City Lights\Library\metadata\8c\8cc0306c0b5830248aca1f82a6134b0c
+    fullPath: C:\Users\Three\Desktop\team2\Team 2 City Lights\Library\metadata\8c\8cc0306c0b5830248aca1f82a6134b0c
+    projectPath: Library\metadata\8c\8cc0306c0b5830248aca1f82a6134b0c
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Team 2 City Lights\Library\metadata\91\91fe7a187507ff144bfb829d1eb666a0
+    fullPath: C:\Users\Three\Desktop\team2\Team 2 City Lights\Library\metadata\91\91fe7a187507ff144bfb829d1eb666a0
+    projectPath: Library\metadata\91\91fe7a187507ff144bfb829d1eb666a0
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Team 2 City Lights\Library\metadata\91\91fe7a187507ff144bfb829d1eb666a0.info
+    fullPath: C:\Users\Three\Desktop\team2\Team 2 City Lights\Library\metadata\91\91fe7a187507ff144bfb829d1eb666a0.info
+    projectPath: Library\metadata\91\91fe7a187507ff144bfb829d1eb666a0.info
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Team 2 City Lights\Library\SceneVisibilityState.asset
+    fullPath: C:\Users\Three\Desktop\team2\Team 2 City Lights\Library\SceneVisibilityState.asset
+    projectPath: Library\SceneVisibilityState.asset
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Team 2 City Lights\Library\ScriptAssemblies\Assembly-CSharp.dll
+    fullPath: C:\Users\Three\Desktop\team2\Team 2 City Lights\Library\ScriptAssemblies\Assembly-CSharp.dll
+    projectPath: Library\ScriptAssemblies\Assembly-CSharp.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Team 2 City Lights\Library\ScriptAssemblies\Assembly-CSharp.pdb
+    fullPath: C:\Users\Three\Desktop\team2\Team 2 City Lights\Library\ScriptAssemblies\Assembly-CSharp.pdb
+    projectPath: Library\ScriptAssemblies\Assembly-CSharp.pdb
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Team 2 City Lights\Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.dll
+    fullPath: C:\Users\Three\Desktop\team2\Team 2 City Lights\Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.dll
+    projectPath: Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Team 2 City Lights\Library\ScriptAssemblies\NavMeshComponents.dll
+    fullPath: C:\Users\Three\Desktop\team2\Team 2 City Lights\Library\ScriptAssemblies\NavMeshComponents.dll
+    projectPath: Library\ScriptAssemblies\NavMeshComponents.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Team 2 City Lights\Library\ScriptAssemblies\NavMeshComponentsEditor.dll
+    fullPath: C:\Users\Three\Desktop\team2\Team 2 City Lights\Library\ScriptAssemblies\NavMeshComponentsEditor.dll
+    projectPath: Library\ScriptAssemblies\NavMeshComponentsEditor.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Team 2 City Lights\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+    fullPath: C:\Users\Three\Desktop\team2\Team 2 City Lights\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+    projectPath: Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Team 2 City Lights\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+    fullPath: C:\Users\Three\Desktop\team2\Team 2 City Lights\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+    projectPath: Library\ScriptAssemblies\Unity.Rider.Editor.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Team 2 City Lights\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+    fullPath: C:\Users\Three\Desktop\team2\Team 2 City Lights\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+    projectPath: Library\ScriptAssemblies\Unity.TextMeshPro.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Team 2 City Lights\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+    fullPath: C:\Users\Three\Desktop\team2\Team 2 City Lights\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+    projectPath: Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Team 2 City Lights\Library\ScriptAssemblies\Unity.Timeline.dll
+    fullPath: C:\Users\Three\Desktop\team2\Team 2 City Lights\Library\ScriptAssemblies\Unity.Timeline.dll
+    projectPath: Library\ScriptAssemblies\Unity.Timeline.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Team 2 City Lights\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+    fullPath: C:\Users\Three\Desktop\team2\Team 2 City Lights\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+    projectPath: Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Team 2 City Lights\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+    fullPath: C:\Users\Three\Desktop\team2\Team 2 City Lights\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+    projectPath: Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Team 2 City Lights\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+    fullPath: C:\Users\Three\Desktop\team2\Team 2 City Lights\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+    projectPath: Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Team 2 City Lights\Library\ScriptAssemblies\UnityEditor.UI.dll
+    fullPath: C:\Users\Three\Desktop\team2\Team 2 City Lights\Library\ScriptAssemblies\UnityEditor.UI.dll
+    projectPath: Library\ScriptAssemblies\UnityEditor.UI.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Team 2 City Lights\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+    fullPath: C:\Users\Three\Desktop\team2\Team 2 City Lights\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+    projectPath: Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Team 2 City Lights\Library\ScriptAssemblies\UnityEngine.UI.dll
+    fullPath: C:\Users\Three\Desktop\team2\Team 2 City Lights\Library\ScriptAssemblies\UnityEngine.UI.dll
+    projectPath: Library\ScriptAssemblies\UnityEngine.UI.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Team 2 City Lights\NavMeshComponents.csproj
+    fullPath: C:\Users\Three\Desktop\team2\Team 2 City Lights\NavMeshComponents.csproj
+    projectPath: NavMeshComponents.csproj
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Team 2 City Lights\NavMeshComponentsEditor.csproj
+    fullPath: C:\Users\Three\Desktop\team2\Team 2 City Lights\NavMeshComponentsEditor.csproj
+    projectPath: NavMeshComponentsEditor.csproj
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Team 2 City Lights\obj\Debug\Assembly-CSharp.csproj.CoreCompileInputs.cache
+    fullPath: C:\Users\Three\Desktop\team2\Team 2 City Lights\obj\Debug\Assembly-CSharp.csproj.CoreCompileInputs.cache
+    projectPath: obj\Debug\Assembly-CSharp.csproj.CoreCompileInputs.cache
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Team 2 City Lights\obj\Debug\Assembly-CSharp.csprojAssemblyReference.cache
+    fullPath: C:\Users\Three\Desktop\team2\Team 2 City Lights\obj\Debug\Assembly-CSharp.csprojAssemblyReference.cache
+    projectPath: obj\Debug\Assembly-CSharp.csprojAssemblyReference.cache
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Team 2 City Lights\obj\Debug\Assembly-CSharp-Editor-firstpass.csproj.CoreCompileInputs.cache
+    fullPath: C:\Users\Three\Desktop\team2\Team 2 City Lights\obj\Debug\Assembly-CSharp-Editor-firstpass.csproj.CoreCompileInputs.cache
+    projectPath: obj\Debug\Assembly-CSharp-Editor-firstpass.csproj.CoreCompileInputs.cache
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Team 2 City Lights\obj\Debug\Assembly-CSharp-Editor-firstpass.csprojAssemblyReference.cache
+    fullPath: C:\Users\Three\Desktop\team2\Team 2 City Lights\obj\Debug\Assembly-CSharp-Editor-firstpass.csprojAssemblyReference.cache
+    projectPath: obj\Debug\Assembly-CSharp-Editor-firstpass.csprojAssemblyReference.cache
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Team 2 City Lights\Packages\manifest.json
+    fullPath: C:\Users\Three\Desktop\team2\Team 2 City Lights\Packages\manifest.json
+    projectPath: Packages\manifest.json
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
