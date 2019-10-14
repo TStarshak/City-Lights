@@ -45,12 +45,6 @@ public class Lighting : MonoBehaviour
         gameLightDistant.GetComponent<Light>().shadows = LightShadows.None;
 
         colliderComp = GetComponent<Collider>();
-        // Set color and position
-
-        for (int i = 0; i < 5; i++)
-        {
-            Instantiate(firefly, new Vector3((float)(i * 2 + i ^ 2 / 4), 0.5f, (float)Mathf.Sqrt((i - 2) * (i - 1)) + 2 * i + i / 2 - 4), new Quaternion(0f, 0f, 0f, 0f));
-        }
     }
     // Update is called once per frame
     void Update()

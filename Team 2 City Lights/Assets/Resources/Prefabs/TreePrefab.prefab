@@ -14,6 +14,34 @@ CapsuleCollider:
   m_Height: 873.5
   m_Direction: 1
   m_Center: {x: 0, y: 200, z: 0}
+--- !u!114 &3454933426854733495
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4656822112644144316}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e3fdca004f2d45fe8abbed571a8abd5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_OverrideArea: 1
+  m_Area: 1
+  m_IgnoreFromBuild: 0
+  m_AffectedAgents: ffffffff
+--- !u!114 &4589485934371230214
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4656822112644144316}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2fdf767d2794641cfb250f68967d8a83, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!136 &6358910621541530885
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -28,6 +56,34 @@ CapsuleCollider:
   m_Height: 873.5
   m_Direction: 1
   m_Center: {x: 0, y: 200, z: 0}
+--- !u!114 &3079063273337468379
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1201354606981839137}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2fdf767d2794641cfb250f68967d8a83, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &8553059160726912009
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1201354606981839137}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e3fdca004f2d45fe8abbed571a8abd5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_OverrideArea: 1
+  m_Area: 1
+  m_IgnoreFromBuild: 0
+  m_AffectedAgents: ffffffff
 --- !u!1001 &3711447815148914101
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -39,6 +95,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: TreePrefab
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: d153a566514ae4dc881faaa012c28e07,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 2534866581884222612, guid: d153a566514ae4dc881faaa012c28e07,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: d153a566514ae4dc881faaa012c28e07,
         type: 3}

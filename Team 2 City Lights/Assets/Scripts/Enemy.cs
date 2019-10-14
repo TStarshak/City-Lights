@@ -7,7 +7,7 @@ public class Enemy : MonoBehaviour
 {
     private NavMeshAgent Shadoow; //Calls the mesh agent that tells our enemy what paths are travesable
     public GameObject Player;
-    public float activationDistance = 17.0f; //This distance determines how close you have to get to make the enemy chase after you
+    public float activationDistance = 25.0f; //This distance determines how close you have to get to make the enemy chase after you
     private Color shadeAlpha;
 
     void Start()
