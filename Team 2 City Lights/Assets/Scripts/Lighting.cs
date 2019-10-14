@@ -52,6 +52,10 @@ public class Lighting : MonoBehaviour
             fly.GetComponent<Animator>().SetFloat("Offset", Random.value * 1.5f);
             fly.GetComponent<Animator>().speed = Random.value * 1.5f + 0.1f;
         }
+        for (int i = 0; i < 5; i++)
+        {
+            Instantiate(enemy, new Vector3((float)Mathf.Sqrt(Mathf.Abs((i - 2)) * (2 * i)) - 2, 1.25f, (float)(-i / 2) + 2 * i), new Quaternion(0f, 0f, 0f, 0f));
+        }
     }
     // Update is called once per frame
     void Update()
