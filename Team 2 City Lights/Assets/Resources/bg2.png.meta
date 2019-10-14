@@ -1,475 +1,475 @@
 fileFormatVersion: 2
-guid: f158a4dbf3475de4bb8ac43d59e7d47f
+guid: 1940e18cf3ae7894d9acb7f307f168ca
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -1641259752620419291
-    second: bg3_0
+      213: -8483731395159641348
+    second: bg2_0
   - first:
-      213: -22002690712543669
-    second: bg3_1
+      213: 3839239679335337371
+    second: bg2_1
   - first:
-      213: -1297506725173582569
-    second: bg3_2
+      213: 8217705482029183300
+    second: bg2_2
   - first:
-      213: -4060666020889712354
-    second: bg3_3
+      213: 6131885923268461649
+    second: bg2_3
   - first:
-      213: 2703291078851596663
-    second: bg3_4
+      213: -8904624122833031844
+    second: bg2_4
   - first:
-      213: -9050486864189689499
-    second: bg3_5
+      213: 5341066985486655788
+    second: bg2_5
   - first:
-      213: 2342286478513764826
-    second: bg3_6
+      213: 6260012586161571859
+    second: bg2_6
   - first:
-      213: 7281275201096094442
-    second: bg3_7
+      213: -6637882259208418666
+    second: bg2_7
   - first:
-      213: -6287086150402386600
-    second: bg3_8
+      213: 928277184802479306
+    second: bg2_8
   - first:
-      213: -2008081379378051602
-    second: bg3_9
+      213: -6360919224288123167
+    second: bg2_9
   - first:
-      213: 5900696615383713510
-    second: bg3_10
+      213: 2662369731298413499
+    second: bg2_10
   - first:
-      213: -3136065164357304874
-    second: bg3_11
+      213: -4474820054503331937
+    second: bg2_11
   - first:
-      213: 3817106917845052083
-    second: bg3_12
+      213: -1255029684901592418
+    second: bg2_12
   - first:
-      213: -3336110300341365298
-    second: bg3_13
+      213: -311712677773913996
+    second: bg2_13
   - first:
-      213: -4340486422887525640
-    second: bg3_14
+      213: -6510771275635547223
+    second: bg2_14
   - first:
-      213: -4721950502537475495
-    second: bg3_15
+      213: 7755095341567006922
+    second: bg2_15
   - first:
-      213: -2385034886370002865
-    second: bg3_16
+      213: -4540445138097393843
+    second: bg2_16
   - first:
-      213: -8246509719916929681
-    second: bg3_17
+      213: 7151570891862609275
+    second: bg2_17
   - first:
-      213: -5460173748025427773
-    second: bg3_18
+      213: 8344411521631302365
+    second: bg2_18
   - first:
-      213: -2398287504587358350
-    second: bg3_19
+      213: -4834082175771489938
+    second: bg2_19
   - first:
-      213: 1479124422921199243
-    second: bg3_20
+      213: -6330106264097747840
+    second: bg2_20
   - first:
-      213: 2066339525368383551
-    second: bg3_21
+      213: -464916434132183222
+    second: bg2_21
   - first:
-      213: 1970086696074851536
-    second: bg3_22
+      213: -2855612225715490382
+    second: bg2_22
   - first:
-      213: 8055695633541413682
-    second: bg3_23
+      213: 712647430630344211
+    second: bg2_23
   - first:
-      213: -2351900187349126176
-    second: bg3_24
+      213: -8584849923319439797
+    second: bg2_24
   - first:
-      213: 1084484091646215970
-    second: bg3_25
+      213: 2016304398668872265
+    second: bg2_25
   - first:
-      213: 7953939264725534200
-    second: bg3_26
+      213: 1467235557013304285
+    second: bg2_26
   - first:
-      213: 6275201348112246003
-    second: bg3_27
+      213: -4900477268141311818
+    second: bg2_27
   - first:
-      213: -7229331942162661434
-    second: bg3_28
+      213: -6901802941877772995
+    second: bg2_28
   - first:
-      213: 2250266941871919425
-    second: bg3_29
+      213: 3217697754015421413
+    second: bg2_29
   - first:
-      213: 8047174980177549896
-    second: bg3_30
+      213: -6954173826333298696
+    second: bg2_30
   - first:
-      213: 5143654720580578681
-    second: bg3_31
+      213: -8248475916353806366
+    second: bg2_31
   - first:
-      213: 1233871372194795865
-    second: bg3_32
+      213: -4700675083234039522
+    second: bg2_32
   - first:
-      213: 99116074060256403
-    second: bg3_33
+      213: -2691386025990500875
+    second: bg2_33
   - first:
-      213: -4292753872607637158
-    second: bg3_34
+      213: -7288971132057063239
+    second: bg2_34
   - first:
-      213: -2920565966068489280
-    second: bg3_35
+      213: -4693702404643551508
+    second: bg2_35
   - first:
-      213: -2194889322054411756
-    second: bg3_36
+      213: 576407094025861533
+    second: bg2_36
   - first:
-      213: 8487526375450264563
-    second: bg3_37
+      213: -6283144531544356479
+    second: bg2_37
   - first:
-      213: 8897953659984169873
-    second: bg3_38
+      213: -1138296635216827952
+    second: bg2_38
   - first:
-      213: 8831597938854327262
-    second: bg3_39
+      213: 3692721780855479946
+    second: bg2_39
   - first:
-      213: -2155579115417151149
-    second: bg3_40
+      213: -3345055431837717723
+    second: bg2_40
   - first:
-      213: -1436648589768559753
-    second: bg3_41
+      213: 106442358508168118
+    second: bg2_41
   - first:
-      213: 7026483373267965177
-    second: bg3_42
+      213: -3308691750323278720
+    second: bg2_42
   - first:
-      213: -8074317900289452237
-    second: bg3_43
+      213: -5276127812968939398
+    second: bg2_43
   - first:
-      213: -4625015555006911530
-    second: bg3_44
+      213: -8674924451452512806
+    second: bg2_44
   - first:
-      213: 8045623964526460437
-    second: bg3_45
+      213: 9145086849920830228
+    second: bg2_45
   - first:
-      213: 9117841438065766965
-    second: bg3_46
+      213: -1072355120160903298
+    second: bg2_46
   - first:
-      213: -3829924359042647325
-    second: bg3_47
+      213: 670188603120223686
+    second: bg2_47
   - first:
-      213: -7880471350707346574
-    second: bg3_48
+      213: -7148051972918433494
+    second: bg2_48
   - first:
-      213: -2055915123955844118
-    second: bg3_49
+      213: 1843275046470476880
+    second: bg2_49
   - first:
-      213: -8691788206305343102
-    second: bg3_50
+      213: 3864031654417009996
+    second: bg2_50
   - first:
-      213: 1878043838387166262
-    second: bg3_51
+      213: 902666552792622803
+    second: bg2_51
   - first:
-      213: -1163644168708115937
-    second: bg3_52
+      213: 8025935425312786950
+    second: bg2_52
   - first:
-      213: 7902178643999537327
-    second: bg3_53
+      213: 744304778476507901
+    second: bg2_53
   - first:
-      213: -2289296878787103297
-    second: bg3_54
+      213: -7685981996845672158
+    second: bg2_54
   - first:
-      213: -1238262073729020335
-    second: bg3_55
+      213: 8035755938577153207
+    second: bg2_55
   - first:
-      213: 3006995478972350522
-    second: bg3_56
+      213: 4572494476060412079
+    second: bg2_56
   - first:
-      213: 7166889322352380757
-    second: bg3_57
+      213: 2153462992937385717
+    second: bg2_57
   - first:
-      213: 302291910982237671
-    second: bg3_58
+      213: 1758598631791352455
+    second: bg2_58
   - first:
-      213: -1797668675721379275
-    second: bg3_59
+      213: -6782562410086461309
+    second: bg2_59
   - first:
-      213: 4180066988672281552
-    second: bg3_60
+      213: -7760541172578982104
+    second: bg2_60
   - first:
-      213: -5927268514159000576
-    second: bg3_61
+      213: -4995823267331646799
+    second: bg2_61
   - first:
-      213: -8469539356167943847
-    second: bg3_62
+      213: -8727782290478315959
+    second: bg2_62
   - first:
-      213: -4641268279688777009
-    second: bg3_63
+      213: 2124746225597899070
+    second: bg2_63
   - first:
-      213: 8464698691556889011
-    second: bg3_64
+      213: -4146119062559154578
+    second: bg2_64
   - first:
-      213: -8099159888941212422
-    second: bg3_65
+      213: 3394289209917248390
+    second: bg2_65
   - first:
-      213: -4481280206452113494
-    second: bg3_66
+      213: 6632035925250488933
+    second: bg2_66
   - first:
-      213: 5089059280531954286
-    second: bg3_67
+      213: 5485660470306527092
+    second: bg2_67
   - first:
-      213: -684537371609792790
-    second: bg3_68
+      213: -8065415833367282298
+    second: bg2_68
   - first:
-      213: -2900604048526981942
-    second: bg3_69
+      213: 368512321691249513
+    second: bg2_69
   - first:
-      213: 1734146215486916663
-    second: bg3_70
+      213: -6872330141357058839
+    second: bg2_70
   - first:
-      213: -7647993197344912876
-    second: bg3_71
+      213: 2198593047860074606
+    second: bg2_71
   - first:
-      213: 8103608719212301668
-    second: bg3_72
+      213: -7635995298131845338
+    second: bg2_72
   - first:
-      213: 1815270808584647720
-    second: bg3_73
+      213: -8673543084227019753
+    second: bg2_73
   - first:
-      213: -6525733438363837895
-    second: bg3_74
+      213: -8385908539792497703
+    second: bg2_74
   - first:
-      213: 8656702847724256002
-    second: bg3_75
+      213: 2320212196377603716
+    second: bg2_75
   - first:
-      213: 3638665859606767219
-    second: bg3_76
+      213: 7016445358693182988
+    second: bg2_76
   - first:
-      213: 1348697071908861103
-    second: bg3_77
+      213: 904508638422592152
+    second: bg2_77
   - first:
-      213: -5364702370679764346
-    second: bg3_78
+      213: -7788615208077816746
+    second: bg2_78
   - first:
-      213: -6052862946138300866
-    second: bg3_79
+      213: -3103829042834789635
+    second: bg2_79
   - first:
-      213: -2985193310007152688
-    second: bg3_80
+      213: 5228012385585587166
+    second: bg2_80
   - first:
-      213: -1558843126123459980
-    second: bg3_81
+      213: -5506760692265673669
+    second: bg2_81
   - first:
-      213: -6065194510758756622
-    second: bg3_82
+      213: -1797434124065844174
+    second: bg2_82
   - first:
-      213: -7486818570197984489
-    second: bg3_83
+      213: 861334647576849619
+    second: bg2_83
   - first:
-      213: 6814637186981173385
-    second: bg3_84
+      213: 1258297071632014281
+    second: bg2_84
   - first:
-      213: -6222510033162882405
-    second: bg3_85
+      213: -1877952522218988459
+    second: bg2_85
   - first:
-      213: 9026965927536250819
-    second: bg3_86
+      213: -924141486483665548
+    second: bg2_86
   - first:
-      213: -4026198060059038572
-    second: bg3_87
+      213: 5971533368634453641
+    second: bg2_87
   - first:
-      213: -2302653462737126471
-    second: bg3_88
+      213: 6769858562081089005
+    second: bg2_88
   - first:
-      213: 2535171415157975605
-    second: bg3_89
+      213: 3374883074176593123
+    second: bg2_89
   - first:
-      213: -4970615937589130208
-    second: bg3_90
+      213: 1441006027763400972
+    second: bg2_90
   - first:
-      213: -168615842619024334
-    second: bg3_91
+      213: -1024651805494336181
+    second: bg2_91
   - first:
-      213: 6275149504264798051
-    second: bg3_92
+      213: 3595388154905943866
+    second: bg2_92
   - first:
-      213: -5538150691152983398
-    second: bg3_93
+      213: 2752014180527263104
+    second: bg2_93
   - first:
-      213: 937998395599459601
-    second: bg3_94
+      213: -2605090333285546578
+    second: bg2_94
   - first:
-      213: 3454715646143822148
-    second: bg3_95
+      213: -1702312191298056518
+    second: bg2_95
   - first:
-      213: -421451296272897318
-    second: bg3_96
+      213: -8951085610256960907
+    second: bg2_96
   - first:
-      213: 8533141965374024301
-    second: bg3_97
+      213: 3924881441583148431
+    second: bg2_97
   - first:
-      213: 4224474783097699558
-    second: bg3_98
+      213: -8281245504562556329
+    second: bg2_98
   - first:
-      213: -1926933582240621514
-    second: bg3_99
+      213: 1418032905842139166
+    second: bg2_99
   - first:
-      213: -5446070663770352377
-    second: bg3_100
+      213: -7105387924487433203
+    second: bg2_100
   - first:
-      213: -3046629598292140485
-    second: bg3_101
+      213: -5158890034515736854
+    second: bg2_101
   - first:
-      213: 4450695968922171620
-    second: bg3_102
+      213: 661744255157517086
+    second: bg2_102
   - first:
-      213: -7627363057666900095
-    second: bg3_103
+      213: -1123149035306167606
+    second: bg2_103
   - first:
-      213: -9088970916366704974
-    second: bg3_104
+      213: 3561576549522646368
+    second: bg2_104
   - first:
-      213: -3718375870543605367
-    second: bg3_105
+      213: 6047761252174007017
+    second: bg2_105
   - first:
-      213: -7725965561741323131
-    second: bg3_106
+      213: -3654986336988731229
+    second: bg2_106
   - first:
-      213: -5512384677475600038
-    second: bg3_107
+      213: 4780440159452174268
+    second: bg2_107
   - first:
-      213: 3591836430940834317
-    second: bg3_108
+      213: 2296548999963703958
+    second: bg2_108
   - first:
-      213: 1945690685603549154
-    second: bg3_109
+      213: -7386737730987843239
+    second: bg2_109
   - first:
-      213: -4468483021345167633
-    second: bg3_110
+      213: -1173970744754667761
+    second: bg2_110
   - first:
-      213: -3491365577305124944
-    second: bg3_111
+      213: -1003574287304458663
+    second: bg2_111
   - first:
-      213: 3822140511977762250
-    second: bg3_112
+      213: 6297585816269129442
+    second: bg2_112
   - first:
-      213: -673375400940760917
-    second: bg3_113
+      213: 6323255085916151802
+    second: bg2_113
   - first:
-      213: -3099330724660921659
-    second: bg3_114
+      213: -6585198188979533087
+    second: bg2_114
   - first:
-      213: -5566254530116367168
-    second: bg3_115
+      213: 3590009869336961075
+    second: bg2_115
   - first:
-      213: -8351624716864490098
-    second: bg3_116
+      213: 7618181452722110580
+    second: bg2_116
   - first:
-      213: -1333668348867371062
-    second: bg3_117
+      213: 1726068917116611698
+    second: bg2_117
   - first:
-      213: 7720118488414571553
-    second: bg3_118
+      213: -6642573674054731829
+    second: bg2_118
   - first:
-      213: 2793737312065278528
-    second: bg3_119
+      213: -5911009488727083879
+    second: bg2_119
   - first:
-      213: 9049242101770727571
-    second: bg3_120
+      213: 28043179793289016
+    second: bg2_120
   - first:
-      213: -5343482881527105776
-    second: bg3_121
+      213: 135539735825570975
+    second: bg2_121
   - first:
-      213: 7418893136709423214
-    second: bg3_122
+      213: 7062669096697526214
+    second: bg2_122
   - first:
-      213: -4033283506048908308
-    second: bg3_123
+      213: 6042669422708606572
+    second: bg2_123
   - first:
-      213: 6343895602419105725
-    second: bg3_124
+      213: -7619323490039996792
+    second: bg2_124
   - first:
-      213: 2772436812546599872
-    second: bg3_125
+      213: -1406881849814315652
+    second: bg2_125
   - first:
-      213: 7339752238626052723
-    second: bg3_126
+      213: -4033536044131887983
+    second: bg2_126
   - first:
-      213: 4652269119629150091
-    second: bg3_127
+      213: 4570946892895954046
+    second: bg2_127
   - first:
-      213: -1821225432899132544
-    second: bg3_128
+      213: 6773937076500019880
+    second: bg2_128
   - first:
-      213: 4237610846768133959
-    second: bg3_129
+      213: -529380617533317924
+    second: bg2_129
   - first:
-      213: 1981453016710863300
-    second: bg3_130
+      213: 258673411352769491
+    second: bg2_130
   - first:
-      213: -8566112538961606085
-    second: bg3_131
+      213: 2257515269588896717
+    second: bg2_131
   - first:
-      213: -104153225181828773
-    second: bg3_132
+      213: 6246177198275000112
+    second: bg2_132
   - first:
-      213: -2771029374747652850
-    second: bg3_133
+      213: 2471304129316251120
+    second: bg2_133
   - first:
-      213: -1679409845013783309
-    second: bg3_134
+      213: -6920880534518796854
+    second: bg2_134
   - first:
-      213: -7257943047436868846
-    second: bg3_135
+      213: 6774355723723661978
+    second: bg2_135
   - first:
-      213: 4418789404027991376
-    second: bg3_136
+      213: 4848976244311530408
+    second: bg2_136
   - first:
-      213: -301986372842552909
-    second: bg3_137
+      213: 8813277155052638232
+    second: bg2_137
   - first:
-      213: -2887229955984677323
-    second: bg3_138
+      213: -6205691682756893762
+    second: bg2_138
   - first:
-      213: 5838147492162749949
-    second: bg3_139
+      213: 3467988453042480517
+    second: bg2_139
   - first:
-      213: -6014760129195072155
-    second: bg3_140
+      213: -8949500910133254858
+    second: bg2_140
   - first:
-      213: -5769820597478021393
-    second: bg3_141
+      213: -5804216552879803083
+    second: bg2_141
   - first:
-      213: 1697833469225434026
-    second: bg3_142
+      213: -2455038496930373078
+    second: bg2_142
   - first:
-      213: 490650179606271804
-    second: bg3_143
+      213: -2249961138644856535
+    second: bg2_143
   - first:
-      213: 143168308654553749
-    second: bg3_144
+      213: -4723419251842781416
+    second: bg2_144
   - first:
-      213: -3976659017365585787
-    second: bg3_145
+      213: 7444026441969028453
+    second: bg2_145
   - first:
-      213: -6961823443321115941
-    second: bg3_146
+      213: 6163925981466289543
+    second: bg2_146
   - first:
-      213: -3820641547009723654
-    second: bg3_147
+      213: 1642437784492844853
+    second: bg2_147
   - first:
-      213: 6150299562108386240
-    second: bg3_148
+      213: 233495664922468740
+    second: bg2_148
   - first:
-      213: 1896107873345282047
-    second: bg3_149
+      213: 3314314148086867044
+    second: bg2_149
   - first:
-      213: 942265643261766021
-    second: bg3_150
+      213: -1826622673653784214
+    second: bg2_150
   - first:
-      213: -5690137344575930667
-    second: bg3_151
+      213: 7063345940700814944
+    second: bg2_151
   - first:
-      213: -7075713336359741778
-    second: bg3_152
+      213: -2756181423701842855
+    second: bg2_152
   - first:
-      213: -9047444320235978907
-    second: bg3_153
+      213: -5487115408545716025
+    second: bg2_153
   - first:
-      213: 4387760754822402732
-    second: bg3_154
+      213: -1040031035921591362
+    second: bg2_154
   - first:
-      213: -694598498366767058
-    second: bg3_155
+      213: -5760823539262818093
+    second: bg2_155
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -499,7 +499,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 0
+    filterMode: -1
     aniso: -1
     mipBias: -100
     wrapU: 1
@@ -528,10 +528,10 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 8192
+    maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 0
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -540,10 +540,10 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: Standalone
-    maxTextureSize: 8192
+    maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 0
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -554,7 +554,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: bg3_0
+      name: bg2_0
       rect:
         serializedVersion: 2
         x: 0
@@ -568,14 +568,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 659e52ae27a49fe4aa0bd2c3a3064256
-      internalID: -1641259752620419291
+      spriteID: d382c2bda93ab8b459d4b1cd6026e077
+      internalID: -8483731395159641348
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bg3_1
+      name: bg2_1
       rect:
         serializedVersion: 2
         x: 615
@@ -589,14 +589,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9301f9b097d8bfb45bfdcc1d24ee482d
-      internalID: -22002690712543669
+      spriteID: 558ddfc1a1b8cfd46b20ad725d8492d3
+      internalID: 3839239679335337371
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bg3_2
+      name: bg2_2
       rect:
         serializedVersion: 2
         x: 1230
@@ -610,14 +610,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a2d00df9f5a760b418f64b0a7b25ec52
-      internalID: -1297506725173582569
+      spriteID: c72e1025ed636ec46b729aa0a5c575ad
+      internalID: 8217705482029183300
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bg3_3
+      name: bg2_3
       rect:
         serializedVersion: 2
         x: 1845
@@ -631,14 +631,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e99873c032013eb4ebcd2c49e21d7617
-      internalID: -4060666020889712354
+      spriteID: 9b243da21d61dfe4f9f868dd459e953f
+      internalID: 6131885923268461649
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bg3_4
+      name: bg2_4
       rect:
         serializedVersion: 2
         x: 2460
@@ -652,14 +652,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 986ca1954bd75884e8c5e62b5e001db9
-      internalID: 2703291078851596663
+      spriteID: e62051450babe2446bbc8af923493a63
+      internalID: -8904624122833031844
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bg3_5
+      name: bg2_5
       rect:
         serializedVersion: 2
         x: 3075
@@ -673,14 +673,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a6af78735e6da604a89d094d6fa77149
-      internalID: -9050486864189689499
+      spriteID: 6f6ea375320291543b4fb42abee5707b
+      internalID: 5341066985486655788
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bg3_6
+      name: bg2_6
       rect:
         serializedVersion: 2
         x: 3690
@@ -694,14 +694,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 87feb3df75658be4e90904337377f2e8
-      internalID: 2342286478513764826
+      spriteID: 60cde732a112a274083b369eed6bd977
+      internalID: 6260012586161571859
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bg3_7
+      name: bg2_7
       rect:
         serializedVersion: 2
         x: 4305
@@ -715,14 +715,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4c5273b05c659244db1a0e23a93d59ed
-      internalID: 7281275201096094442
+      spriteID: 46acf87c2a665fc4f916840ea5006b15
+      internalID: -6637882259208418666
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bg3_8
+      name: bg2_8
       rect:
         serializedVersion: 2
         x: 4920
@@ -736,14 +736,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: da88cab0c916bbe45b83f33b678a5259
-      internalID: -6287086150402386600
+      spriteID: 9c1912ea31540bd47b55806739c022a0
+      internalID: 928277184802479306
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bg3_9
+      name: bg2_9
       rect:
         serializedVersion: 2
         x: 5535
@@ -757,14 +757,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7759662df87a60b4caa9cb525c0a9062
-      internalID: -2008081379378051602
+      spriteID: 8f55ecbaccc7ea845bda4bb20fdcc802
+      internalID: -6360919224288123167
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bg3_10
+      name: bg2_10
       rect:
         serializedVersion: 2
         x: 6150
@@ -778,14 +778,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e5f8661c704785d4f9f6e52c69476f8c
-      internalID: 5900696615383713510
+      spriteID: 8c0c8a6e81084414c95e266730102325
+      internalID: 2662369731298413499
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bg3_11
+      name: bg2_11
       rect:
         serializedVersion: 2
         x: 6765
@@ -799,14 +799,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 20e114c770dd1dc449077ab86e536591
-      internalID: -3136065164357304874
+      spriteID: b888b5d0104f89f4fa8e9cf984418b74
+      internalID: -4474820054503331937
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bg3_12
+      name: bg2_12
       rect:
         serializedVersion: 2
         x: 7380
@@ -820,14 +820,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 19a6960ec23085e499595b286d9af2ad
-      internalID: 3817106917845052083
+      spriteID: d392b8eba91a08945ac2771195e8cde5
+      internalID: -1255029684901592418
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bg3_13
+      name: bg2_13
       rect:
         serializedVersion: 2
         x: 0
@@ -841,14 +841,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cb7be7b3e44c1d3449241af4397d5c96
-      internalID: -3336110300341365298
+      spriteID: ac4e13a1edd2917459dca32f14b47ed4
+      internalID: -311712677773913996
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bg3_14
+      name: bg2_14
       rect:
         serializedVersion: 2
         x: 615
@@ -862,14 +862,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e4310cc21d9233a4da3a67e1f87cab88
-      internalID: -4340486422887525640
+      spriteID: cb63e57f9067b864eae682b9b5501f36
+      internalID: -6510771275635547223
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bg3_15
+      name: bg2_15
       rect:
         serializedVersion: 2
         x: 1230
@@ -883,14 +883,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b043f039a7a52b24db7b85b937780f95
-      internalID: -4721950502537475495
+      spriteID: ea8e5d6550c85db4e8ba83655cde9e45
+      internalID: 7755095341567006922
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bg3_16
+      name: bg2_16
       rect:
         serializedVersion: 2
         x: 1845
@@ -904,14 +904,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2e58048de9943634589eca41ec555623
-      internalID: -2385034886370002865
+      spriteID: fd954a6afaf303c43ac2f998e3666c65
+      internalID: -4540445138097393843
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bg3_17
+      name: bg2_17
       rect:
         serializedVersion: 2
         x: 2460
@@ -925,14 +925,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 004416d15791a3340aa2e888154ee340
-      internalID: -8246509719916929681
+      spriteID: 4e1e7abfa0960314ea1f96f9b4713af6
+      internalID: 7151570891862609275
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bg3_18
+      name: bg2_18
       rect:
         serializedVersion: 2
         x: 3075
@@ -946,14 +946,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 82bf8a12988f9404fab6de36ddfd2c60
-      internalID: -5460173748025427773
+      spriteID: aef05742087c4e344a90b152b4b6154e
+      internalID: 8344411521631302365
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bg3_19
+      name: bg2_19
       rect:
         serializedVersion: 2
         x: 3690
@@ -967,14 +967,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 892713beacbf5b94290d22ab8d669bb6
-      internalID: -2398287504587358350
+      spriteID: 21d857e907141f649ba2e21176ea7f4d
+      internalID: -4834082175771489938
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bg3_20
+      name: bg2_20
       rect:
         serializedVersion: 2
         x: 4305
@@ -988,14 +988,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0698ae4f1b1e9d447a57fa201fb98d22
-      internalID: 1479124422921199243
+      spriteID: 8db2082672480864d86047ec7588f488
+      internalID: -6330106264097747840
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bg3_21
+      name: bg2_21
       rect:
         serializedVersion: 2
         x: 4920
@@ -1009,14 +1009,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 09893ade62434774c980f3e34e21727f
-      internalID: 2066339525368383551
+      spriteID: 3d5b904c0c4992e4aa27e9a0a689ac85
+      internalID: -464916434132183222
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bg3_22
+      name: bg2_22
       rect:
         serializedVersion: 2
         x: 5535
@@ -1030,14 +1030,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d61ad87e9832ddd46af09aff8b42f699
-      internalID: 1970086696074851536
+      spriteID: f941533b2c116144a8ef6edc100a9ec0
+      internalID: -2855612225715490382
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bg3_23
+      name: bg2_23
       rect:
         serializedVersion: 2
         x: 6150
@@ -1051,14 +1051,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9c8a76403603a914e91074d84e0c84d7
-      internalID: 8055695633541413682
+      spriteID: e1f5926e9dc50ed40994940d800ac17b
+      internalID: 712647430630344211
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bg3_24
+      name: bg2_24
       rect:
         serializedVersion: 2
         x: 6765
@@ -1072,14 +1072,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 069cc5d863a7e7f408f866f936d0ee3e
-      internalID: -2351900187349126176
+      spriteID: 7d60a567bb79944418d502bfd1b52298
+      internalID: -8584849923319439797
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bg3_25
+      name: bg2_25
       rect:
         serializedVersion: 2
         x: 7380
@@ -1093,14 +1093,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 417762fa811ceae459b885058af3caee
-      internalID: 1084484091646215970
+      spriteID: ec92dd0d02059034fb108ad712cb85c1
+      internalID: 2016304398668872265
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bg3_26
+      name: bg2_26
       rect:
         serializedVersion: 2
         x: 0
@@ -1114,14 +1114,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f0d6c7cac737e4149a787de9cd748cf5
-      internalID: 7953939264725534200
+      spriteID: 525942a30ac2d164b8be12616c2c533d
+      internalID: 1467235557013304285
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bg3_27
+      name: bg2_27
       rect:
         serializedVersion: 2
         x: 615
@@ -1135,14 +1135,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 020020590e2e0a544aab87427d6af67d
-      internalID: 6275201348112246003
+      spriteID: e467849c29fad124fbe277f48eea3faa
+      internalID: -4900477268141311818
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bg3_28
+      name: bg2_28
       rect:
         serializedVersion: 2
         x: 1230
@@ -1156,14 +1156,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ba6746405c6e4154595044a94250479c
-      internalID: -7229331942162661434
+      spriteID: cc639dff05b18de4aa9bd3cee2d37d2d
+      internalID: -6901802941877772995
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bg3_29
+      name: bg2_29
       rect:
         serializedVersion: 2
         x: 1845
@@ -1177,14 +1177,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ec7d5934ff0c314418acd69df67763fe
-      internalID: 2250266941871919425
+      spriteID: 929b88634e5db6d44a066dd095744582
+      internalID: 3217697754015421413
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bg3_30
+      name: bg2_30
       rect:
         serializedVersion: 2
         x: 2460
@@ -1198,14 +1198,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 404db6dd65de9d24a8bec06b0c9b82ae
-      internalID: 8047174980177549896
+      spriteID: 2fcb7525aa3fe6a4788e042a7c4eb9a8
+      internalID: -6954173826333298696
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bg3_31
+      name: bg2_31
       rect:
         serializedVersion: 2
         x: 3075
@@ -1219,14 +1219,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b08e0e5325c0eea459ac9985ffc8a4a1
-      internalID: 5143654720580578681
+      spriteID: fc452fce4a5e869498ded1d998962290
+      internalID: -8248475916353806366
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bg3_32
+      name: bg2_32
       rect:
         serializedVersion: 2
         x: 3690
@@ -1240,14 +1240,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 32760db7a038c1749acd517b238bc67d
-      internalID: 1233871372194795865
+      spriteID: c2c207f5966ece944b32b55c27a42dee
+      internalID: -4700675083234039522
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bg3_33
+      name: bg2_33
       rect:
         serializedVersion: 2
         x: 4305
@@ -1261,14 +1261,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 88d0015a07ba63243a195dbb502c439f
-      internalID: 99116074060256403
+      spriteID: 79680998f638b4f468afb296f7f2a312
+      internalID: -2691386025990500875
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bg3_34
+      name: bg2_34
       rect:
         serializedVersion: 2
         x: 4920
@@ -1282,14 +1282,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1abc5074b5675664fa17889fe84b10a7
-      internalID: -4292753872607637158
+      spriteID: ad10ff62c44938d45b0427c6504ddacd
+      internalID: -7288971132057063239
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bg3_35
+      name: bg2_35
       rect:
         serializedVersion: 2
         x: 5535
@@ -1303,14 +1303,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 38fd689608b454d44809486e9050f467
-      internalID: -2920565966068489280
+      spriteID: 471c46fc39bd7a0488fcab7d26b1ce73
+      internalID: -4693702404643551508
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bg3_36
+      name: bg2_36
       rect:
         serializedVersion: 2
         x: 6150
@@ -1324,14 +1324,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 43d11a564dcf28a48ab5b70e421dfa85
-      internalID: -2194889322054411756
+      spriteID: 865e676d777679340b35e7a2136c8c49
+      internalID: 576407094025861533
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bg3_37
+      name: bg2_37
       rect:
         serializedVersion: 2
         x: 6765
@@ -1345,14 +1345,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d2e43acff4063a84d8b6416961828e25
-      internalID: 8487526375450264563
+      spriteID: 704bfa383e17d114f9981d7992aea606
+      internalID: -6283144531544356479
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bg3_38
+      name: bg2_38
       rect:
         serializedVersion: 2
         x: 7380
@@ -1366,14 +1366,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4dec4c5bf975568449e130fc2867c08b
-      internalID: 8897953659984169873
+      spriteID: 89bb242e7a51e2c4cbf88ed9a776fcaa
+      internalID: -1138296635216827952
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bg3_39
+      name: bg2_39
       rect:
         serializedVersion: 2
         x: 0
@@ -1387,14 +1387,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ca6e509072120a14c89bbcd3b3f7d1d6
-      internalID: 8831597938854327262
+      spriteID: 5fd508bc5640eb24ead6fe98f559f944
+      internalID: 3692721780855479946
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bg3_40
+      name: bg2_40
       rect:
         serializedVersion: 2
         x: 615
@@ -1408,14 +1408,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c6100eb857f5e2140a7e4606da058ae6
-      internalID: -2155579115417151149
+      spriteID: 4aa0676ccd3efc241b9516c487300920
+      internalID: -3345055431837717723
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bg3_41
+      name: bg2_41
       rect:
         serializedVersion: 2
         x: 1230
@@ -1429,14 +1429,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f2c516a9d085edf41b5b92681962750a
-      internalID: -1436648589768559753
+      spriteID: 31eec5b21822e3f4d96750624859499c
+      internalID: 106442358508168118
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bg3_42
+      name: bg2_42
       rect:
         serializedVersion: 2
         x: 1845
@@ -1450,14 +1450,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 74c658a78a9fd304dad1111aba043363
-      internalID: 7026483373267965177
+      spriteID: 870f0ef5cab9ea2499ffb5e1ce0f8b53
+      internalID: -3308691750323278720
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bg3_43
+      name: bg2_43
       rect:
         serializedVersion: 2
         x: 2460
@@ -1471,14 +1471,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a735a0c6130d6874695d2066b74ad669
-      internalID: -8074317900289452237
+      spriteID: 45ce6b7630db0b542b4affb9dab333fd
+      internalID: -5276127812968939398
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bg3_44
+      name: bg2_44
       rect:
         serializedVersion: 2
         x: 3075
@@ -1492,14 +1492,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e9383a008c0a56c41a7f199e71045dd0
-      internalID: -4625015555006911530
+      spriteID: a473df99ea0f69b4e87175a22b0d13e2
+      internalID: -8674924451452512806
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bg3_45
+      name: bg2_45
       rect:
         serializedVersion: 2
         x: 3690
@@ -1513,14 +1513,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 60c22532b64336240a55cadcac94dc40
-      internalID: 8045623964526460437
+      spriteID: 20ad824e52c0a30449f7038e7ddc1d1a
+      internalID: 9145086849920830228
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bg3_46
+      name: bg2_46
       rect:
         serializedVersion: 2
         x: 4305
@@ -1534,14 +1534,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7ae34173e15e8ea47ac60fbb7b42e8ac
-      internalID: 9117841438065766965
+      spriteID: 5a2975d835fcc844697344b8c8711e3f
+      internalID: -1072355120160903298
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bg3_47
+      name: bg2_47
       rect:
         serializedVersion: 2
         x: 4920
@@ -1555,14 +1555,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ec0b6f9685936cc48837d9d468878f3b
-      internalID: -3829924359042647325
+      spriteID: 9d12bb2f6a5a4bf49befb7534ea50f3b
+      internalID: 670188603120223686
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bg3_48
+      name: bg2_48
       rect:
         serializedVersion: 2
         x: 5535
@@ -1576,14 +1576,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 53407cc0fd402324da1fead929fa085c
-      internalID: -7880471350707346574
+      spriteID: ddbbd4bd7d132524db1e8450e54db49e
+      internalID: -7148051972918433494
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bg3_49
+      name: bg2_49
       rect:
         serializedVersion: 2
         x: 6150
@@ -1597,14 +1597,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fd1794ea81691ee449db7acfc0f641e1
-      internalID: -2055915123955844118
+      spriteID: 65cbc760e2ccf844cba58aaf6fe6298c
+      internalID: 1843275046470476880
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bg3_50
+      name: bg2_50
       rect:
         serializedVersion: 2
         x: 6765
@@ -1618,14 +1618,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f1badd02a3fd6c54bb1e5e67649da99b
-      internalID: -8691788206305343102
+      spriteID: eabf8f4d85b3d554ca1625b50fd076dd
+      internalID: 3864031654417009996
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bg3_51
+      name: bg2_51
       rect:
         serializedVersion: 2
         x: 7380
@@ -1639,14 +1639,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8320d8f15983bfb47ba36f559380588f
-      internalID: 1878043838387166262
+      spriteID: 091063b01ace55c4e904cda262d0e39d
+      internalID: 902666552792622803
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bg3_52
+      name: bg2_52
       rect:
         serializedVersion: 2
         x: 0
@@ -1660,14 +1660,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 15c679e686f6032479e693b09f0c525c
-      internalID: -1163644168708115937
+      spriteID: ad21a27c4bed0d549bafef231d9f9998
+      internalID: 8025935425312786950
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bg3_53
+      name: bg2_53
       rect:
         serializedVersion: 2
         x: 615
@@ -1681,14 +1681,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: dc5fb9fc20d4aeb47bf57105be3cb7c8
-      internalID: 7902178643999537327
+      spriteID: 3556767c58d668f43970b8548c0d0cfa
+      internalID: 744304778476507901
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bg3_54
+      name: bg2_54
       rect:
         serializedVersion: 2
         x: 1230
@@ -1702,14 +1702,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f644cdc629bc74244984ba0744eed7de
-      internalID: -2289296878787103297
+      spriteID: 2544105a5dc120840b6108ea2a592da8
+      internalID: -7685981996845672158
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bg3_55
+      name: bg2_55
       rect:
         serializedVersion: 2
         x: 1845
@@ -1723,14 +1723,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: da05b2aebddab8140bef946fc8a11b41
-      internalID: -1238262073729020335
+      spriteID: a0f2cf5ade7cde74db2f00c0ecad5f73
+      internalID: 8035755938577153207
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bg3_56
+      name: bg2_56
       rect:
         serializedVersion: 2
         x: 2460
@@ -1744,14 +1744,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d8987d370db2d984ba13b48bb38417d9
-      internalID: 3006995478972350522
+      spriteID: 629c15e28fa951d47b514584eb6eb998
+      internalID: 4572494476060412079
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bg3_57
+      name: bg2_57
       rect:
         serializedVersion: 2
         x: 3075
@@ -1765,14 +1765,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4a5eabdb851a7284ca40493c0ea47d74
-      internalID: 7166889322352380757
+      spriteID: 16bfd69b8b3c2694e9509593c64b0cad
+      internalID: 2153462992937385717
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bg3_58
+      name: bg2_58
       rect:
         serializedVersion: 2
         x: 3690
@@ -1786,14 +1786,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7a8930e00c5b7db45b082aca271826c4
-      internalID: 302291910982237671
+      spriteID: 9fe4ffb6393a0194888589f35ca85e2a
+      internalID: 1758598631791352455
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bg3_59
+      name: bg2_59
       rect:
         serializedVersion: 2
         x: 4305
@@ -1807,14 +1807,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a80aed297c73db547b6e37b7a643458c
-      internalID: -1797668675721379275
+      spriteID: b744ea6c35660e544889466f508761e4
+      internalID: -6782562410086461309
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bg3_60
+      name: bg2_60
       rect:
         serializedVersion: 2
         x: 4920
@@ -1828,14 +1828,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 42babb407518a714dbec6d6b2ee8fcd7
-      internalID: 4180066988672281552
+      spriteID: fea0d47859138fc41b35edae9924e9bc
+      internalID: -7760541172578982104
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bg3_61
+      name: bg2_61
       rect:
         serializedVersion: 2
         x: 5535
@@ -1849,14 +1849,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4dcbf512c7169684bb56257de8b6a02b
-      internalID: -5927268514159000576
+      spriteID: f31045763c4d4584d924b667bfb1427d
+      internalID: -4995823267331646799
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bg3_62
+      name: bg2_62
       rect:
         serializedVersion: 2
         x: 6150
@@ -1870,14 +1870,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c9abf0ca247656d489d18e1848b2c22b
-      internalID: -8469539356167943847
+      spriteID: 4244af0260617d743a2e352a2d3fbf98
+      internalID: -8727782290478315959
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bg3_63
+      name: bg2_63
       rect:
         serializedVersion: 2
         x: 6765
@@ -1891,14 +1891,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d54ec785b92bd3e4484e193c8c2ef5e2
-      internalID: -4641268279688777009
+      spriteID: 84ae3956a837b22459b4320ec4f2cc9b
+      internalID: 2124746225597899070
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bg3_64
+      name: bg2_64
       rect:
         serializedVersion: 2
         x: 7380
@@ -1912,14 +1912,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 75634f4e0959c8849a3afd54846ea2b9
-      internalID: 8464698691556889011
+      spriteID: 4890a521ee086a4458c0ff5e32f1920b
+      internalID: -4146119062559154578
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bg3_65
+      name: bg2_65
       rect:
         serializedVersion: 2
         x: 0
@@ -1933,14 +1933,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1c09460788fe5734088563a88f800841
-      internalID: -8099159888941212422
+      spriteID: 88c2b3036c70a2e4daae5116ce552099
+      internalID: 3394289209917248390
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bg3_66
+      name: bg2_66
       rect:
         serializedVersion: 2
         x: 615
@@ -1954,14 +1954,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6df8239b36f74c04f9041e286a890b88
-      internalID: -4481280206452113494
+      spriteID: 8cc7b545d378ffd45900d30f850fe520
+      internalID: 6632035925250488933
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bg3_67
+      name: bg2_67
       rect:
         serializedVersion: 2
         x: 1230
@@ -1975,14 +1975,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7340b8915f1f0b14b9557e96e887c317
-      internalID: 5089059280531954286
+      spriteID: 61cd7b2a08f513b4b90fe59d92c49bf9
+      internalID: 5485660470306527092
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bg3_68
+      name: bg2_68
       rect:
         serializedVersion: 2
         x: 1845
@@ -1996,14 +1996,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fe4cef61a5a2349468461a311011c372
-      internalID: -684537371609792790
+      spriteID: 26c3b91d2a31d18478f389e0a7102157
+      internalID: -8065415833367282298
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bg3_69
+      name: bg2_69
       rect:
         serializedVersion: 2
         x: 2460
@@ -2017,14 +2017,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ba8a0e7f08996bc4da084a997e997a17
-      internalID: -2900604048526981942
+      spriteID: d55e200d439683f44abaa54276fcc53e
+      internalID: 368512321691249513
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bg3_70
+      name: bg2_70
       rect:
         serializedVersion: 2
         x: 3075
@@ -2038,14 +2038,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9b9b922282339124bb0d183d6534851b
-      internalID: 1734146215486916663
+      spriteID: 3c512c3d5e6bafd47806eaa7b54df96c
+      internalID: -6872330141357058839
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bg3_71
+      name: bg2_71
       rect:
         serializedVersion: 2
         x: 3690
@@ -2059,14 +2059,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4cd4ba03745ed3548a85175a3141d552
-      internalID: -7647993197344912876
+      spriteID: 72de42fe60d25fa44b48e325ad53e7e0
+      internalID: 2198593047860074606
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bg3_72
+      name: bg2_72
       rect:
         serializedVersion: 2
         x: 4305
@@ -2080,14 +2080,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ca2b38a482c645941872904ad9e2d4c1
-      internalID: 8103608719212301668
+      spriteID: 2d2bac37a1a384045aba5c0e05842222
+      internalID: -7635995298131845338
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bg3_73
+      name: bg2_73
       rect:
         serializedVersion: 2
         x: 4920
@@ -2101,14 +2101,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d9cdb5327de02aa438651a969b67b71b
-      internalID: 1815270808584647720
+      spriteID: 574990efef18ce1439e2d90e4bb874e3
+      internalID: -8673543084227019753
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bg3_74
+      name: bg2_74
       rect:
         serializedVersion: 2
         x: 5535
@@ -2122,14 +2122,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 26faa73aac156d247a3cfd6428e7560b
-      internalID: -6525733438363837895
+      spriteID: e22e7850f44261a4a94e29cf7cd436b1
+      internalID: -8385908539792497703
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bg3_75
+      name: bg2_75
       rect:
         serializedVersion: 2
         x: 6150
@@ -2143,14 +2143,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2e20f6d1a08615b4da6b1cdc6c1f035e
-      internalID: 8656702847724256002
+      spriteID: 96b41b62485fc5a4e9298c06868f1810
+      internalID: 2320212196377603716
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bg3_76
+      name: bg2_76
       rect:
         serializedVersion: 2
         x: 6765
@@ -2164,14 +2164,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6bc136c207e85fc42bf03cb4a8c1f5e8
-      internalID: 3638665859606767219
+      spriteID: 6f2bae88b8af553469b227a6a252445e
+      internalID: 7016445358693182988
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bg3_77
+      name: bg2_77
       rect:
         serializedVersion: 2
         x: 7380
@@ -2185,14 +2185,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c7c1bace3f6c07940a88f1bd08d4baa1
-      internalID: 1348697071908861103
+      spriteID: 37f7c23d10454e94abb1281f530ceb6a
+      internalID: 904508638422592152
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bg3_78
+      name: bg2_78
       rect:
         serializedVersion: 2
         x: 0
@@ -2206,14 +2206,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ac72698cf838a9549b972c8a71893dba
-      internalID: -5364702370679764346
+      spriteID: 54810ecb958e1064ab93d7e3d020fc71
+      internalID: -7788615208077816746
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bg3_79
+      name: bg2_79
       rect:
         serializedVersion: 2
         x: 615
@@ -2227,14 +2227,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5216c5fd132ce6e43a91035fb5f3bc1f
-      internalID: -6052862946138300866
+      spriteID: dc82f1e3470f13f428e94159555ab9aa
+      internalID: -3103829042834789635
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bg3_80
+      name: bg2_80
       rect:
         serializedVersion: 2
         x: 1230
@@ -2248,14 +2248,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3d8f31cef5045414796006bda99047d0
-      internalID: -2985193310007152688
+      spriteID: 4c99735d6bd47724eae7f3a08b42dc9e
+      internalID: 5228012385585587166
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bg3_81
+      name: bg2_81
       rect:
         serializedVersion: 2
         x: 1845
@@ -2269,14 +2269,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 86aee8a749aeb8240a3c6a948db6011c
-      internalID: -1558843126123459980
+      spriteID: b52dec311456a64419a7cb93ce2eec96
+      internalID: -5506760692265673669
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bg3_82
+      name: bg2_82
       rect:
         serializedVersion: 2
         x: 2460
@@ -2290,14 +2290,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bcb35e9b327f165428ed0dfd9a75266c
-      internalID: -6065194510758756622
+      spriteID: df71db2d51a5f8740a8ad9983e717974
+      internalID: -1797434124065844174
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bg3_83
+      name: bg2_83
       rect:
         serializedVersion: 2
         x: 3075
@@ -2311,14 +2311,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 62ed10f4f8b40104f8ec2a064e3b4aa5
-      internalID: -7486818570197984489
+      spriteID: f092979abe284aa4ba802a2946cd91d2
+      internalID: 861334647576849619
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bg3_84
+      name: bg2_84
       rect:
         serializedVersion: 2
         x: 3690
@@ -2332,14 +2332,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c1e6360f4feb03542826554a752d5146
-      internalID: 6814637186981173385
+      spriteID: 58fda219ef0a72e47887d40c26386f13
+      internalID: 1258297071632014281
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bg3_85
+      name: bg2_85
       rect:
         serializedVersion: 2
         x: 4305
@@ -2353,14 +2353,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8d820916997c6e84e84405f5ea99d696
-      internalID: -6222510033162882405
+      spriteID: fc43588584145d24ba2248365885e043
+      internalID: -1877952522218988459
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bg3_86
+      name: bg2_86
       rect:
         serializedVersion: 2
         x: 4920
@@ -2374,14 +2374,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c24667d32ce15dc47b546e431038cc02
-      internalID: 9026965927536250819
+      spriteID: 3f3c76b6bd3abb944bbaccb0f994eb85
+      internalID: -924141486483665548
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bg3_87
+      name: bg2_87
       rect:
         serializedVersion: 2
         x: 5535
@@ -2395,14 +2395,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 31b79f999733d2b45955bc8c222548fc
-      internalID: -4026198060059038572
+      spriteID: 005be506aaa1cd7439937615c84c7578
+      internalID: 5971533368634453641
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bg3_88
+      name: bg2_88
       rect:
         serializedVersion: 2
         x: 6150
@@ -2416,14 +2416,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 48359d3a432bb0444ba405a40ccc3b61
-      internalID: -2302653462737126471
+      spriteID: dd94b942d8564fb428202bc4acbfc49b
+      internalID: 6769858562081089005
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bg3_89
+      name: bg2_89
       rect:
         serializedVersion: 2
         x: 6765
@@ -2437,14 +2437,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 72ddf0008a13a9a4c9151386126ae81d
-      internalID: 2535171415157975605
+      spriteID: c2ff50add7a3bef4cad7745eb508522d
+      internalID: 3374883074176593123
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bg3_90
+      name: bg2_90
       rect:
         serializedVersion: 2
         x: 7380
@@ -2458,14 +2458,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7eeef6ac568d44946a2dd93571a5cc0e
-      internalID: -4970615937589130208
+      spriteID: 3d0e5520fbd9ebf458077444ac5d37aa
+      internalID: 1441006027763400972
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bg3_91
+      name: bg2_91
       rect:
         serializedVersion: 2
         x: 0
@@ -2479,14 +2479,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ad8559bc127d8524c8e15f0bc729569e
-      internalID: -168615842619024334
+      spriteID: 18a9efff973327d46b473de1dae4d634
+      internalID: -1024651805494336181
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bg3_92
+      name: bg2_92
       rect:
         serializedVersion: 2
         x: 615
@@ -2500,14 +2500,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 701bcc5e4164d7249afda023c9153b60
-      internalID: 6275149504264798051
+      spriteID: aaddffc6a730cc444815c6508f7f34b5
+      internalID: 3595388154905943866
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bg3_93
+      name: bg2_93
       rect:
         serializedVersion: 2
         x: 1230
@@ -2521,14 +2521,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b3f5ef4db1f3621418ebc875b207ae93
-      internalID: -5538150691152983398
+      spriteID: e37a3ed6bc3dfaa4f8a14af3c170ac78
+      internalID: 2752014180527263104
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bg3_94
+      name: bg2_94
       rect:
         serializedVersion: 2
         x: 1845
@@ -2542,14 +2542,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 21cc9a01e5584934a9a0d8e8dfad3a2c
-      internalID: 937998395599459601
+      spriteID: 17bf6dafef35b694c8a5f89291f60980
+      internalID: -2605090333285546578
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bg3_95
+      name: bg2_95
       rect:
         serializedVersion: 2
         x: 2460
@@ -2563,14 +2563,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a6a9a028a468f1a489c2ccaa8fe10ee0
-      internalID: 3454715646143822148
+      spriteID: b8215c1a30529f94a887ad858a3e8545
+      internalID: -1702312191298056518
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bg3_96
+      name: bg2_96
       rect:
         serializedVersion: 2
         x: 3075
@@ -2584,14 +2584,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 025cb4c18ea7bf54fb28b87490471d68
-      internalID: -421451296272897318
+      spriteID: 2430b782d2ef7914fa09441657cf2478
+      internalID: -8951085610256960907
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bg3_97
+      name: bg2_97
       rect:
         serializedVersion: 2
         x: 3690
@@ -2605,14 +2605,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5e99f79ea802ffa48895126597b0f21e
-      internalID: 8533141965374024301
+      spriteID: 98ddddcf0ac44b9478d1b257892c7b4d
+      internalID: 3924881441583148431
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bg3_98
+      name: bg2_98
       rect:
         serializedVersion: 2
         x: 4305
@@ -2626,14 +2626,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: efe6e261212af154db6fcbdb14af19d2
-      internalID: 4224474783097699558
+      spriteID: 15369270b477dc147a05be3f2b6b087a
+      internalID: -8281245504562556329
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bg3_99
+      name: bg2_99
       rect:
         serializedVersion: 2
         x: 4920
@@ -2647,14 +2647,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 23f3cae3951054a40b44c0f47acb71f3
-      internalID: -1926933582240621514
+      spriteID: d5e29c63c3a52af47931bd0d6848a977
+      internalID: 1418032905842139166
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bg3_100
+      name: bg2_100
       rect:
         serializedVersion: 2
         x: 5535
@@ -2668,14 +2668,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e356d24cddbe18548aec0f685ce1a760
-      internalID: -5446070663770352377
+      spriteID: ccacf7d8f81e25748b90a51a27f4c509
+      internalID: -7105387924487433203
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bg3_101
+      name: bg2_101
       rect:
         serializedVersion: 2
         x: 6150
@@ -2689,14 +2689,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0514fed9eb2e243409c6f41d7de511cb
-      internalID: -3046629598292140485
+      spriteID: 1d1f39a8610047d4f8a2b1428a7695b2
+      internalID: -5158890034515736854
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bg3_102
+      name: bg2_102
       rect:
         serializedVersion: 2
         x: 6765
@@ -2710,14 +2710,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e454551db56f56441addb6bddf6fd0a3
-      internalID: 4450695968922171620
+      spriteID: 30910342dd9f6304fbe171f98242a81f
+      internalID: 661744255157517086
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bg3_103
+      name: bg2_103
       rect:
         serializedVersion: 2
         x: 7380
@@ -2731,14 +2731,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ee681b5d1b547524290450a2a339b02c
-      internalID: -7627363057666900095
+      spriteID: 3ae38c1c214d6be49940054f732c9cd3
+      internalID: -1123149035306167606
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bg3_104
+      name: bg2_104
       rect:
         serializedVersion: 2
         x: 0
@@ -2752,14 +2752,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 32e64a4352400c542ab61f4d569684d4
-      internalID: -9088970916366704974
+      spriteID: 040632ac96ee99540931c34ca379d04a
+      internalID: 3561576549522646368
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bg3_105
+      name: bg2_105
       rect:
         serializedVersion: 2
         x: 615
@@ -2773,14 +2773,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9d10bee3c9293d64cb6e897f68467580
-      internalID: -3718375870543605367
+      spriteID: cf47ebfe536355c428b2be46fc7eb8c4
+      internalID: 6047761252174007017
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bg3_106
+      name: bg2_106
       rect:
         serializedVersion: 2
         x: 1230
@@ -2794,14 +2794,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 747dc60fe5d8a9a4e9b8aedc17ecc2e2
-      internalID: -7725965561741323131
+      spriteID: f7ea18f9f559a334bbbdfa6c1545053b
+      internalID: -3654986336988731229
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bg3_107
+      name: bg2_107
       rect:
         serializedVersion: 2
         x: 1845
@@ -2815,14 +2815,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bf4f5132d8fb31a4585a8281e1b2bf65
-      internalID: -5512384677475600038
+      spriteID: b9b20a1d0576b614fa54b9cb044bc6fb
+      internalID: 4780440159452174268
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bg3_108
+      name: bg2_108
       rect:
         serializedVersion: 2
         x: 2460
@@ -2836,14 +2836,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b03653ca43310574ab3e2b47fdaba0c4
-      internalID: 3591836430940834317
+      spriteID: 2f8d160d659bf2c469bca443b035a1ae
+      internalID: 2296548999963703958
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bg3_109
+      name: bg2_109
       rect:
         serializedVersion: 2
         x: 3075
@@ -2857,14 +2857,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 755df9174449ad4418dea9b8638c10de
-      internalID: 1945690685603549154
+      spriteID: 54befed03073a054fa3149d51f11ff3e
+      internalID: -7386737730987843239
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bg3_110
+      name: bg2_110
       rect:
         serializedVersion: 2
         x: 3690
@@ -2878,14 +2878,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1ebb3da35b4f60442892984de3b6783a
-      internalID: -4468483021345167633
+      spriteID: a4e359e8b3fc9884491add644d408d0c
+      internalID: -1173970744754667761
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bg3_111
+      name: bg2_111
       rect:
         serializedVersion: 2
         x: 4305
@@ -2899,14 +2899,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d3917fe1cc2a19f46a40a30cbbcff79e
-      internalID: -3491365577305124944
+      spriteID: 2c6d04e472bd2d642bb02eaa78459a51
+      internalID: -1003574287304458663
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bg3_112
+      name: bg2_112
       rect:
         serializedVersion: 2
         x: 4920
@@ -2920,14 +2920,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7b75af0af9f3d3f419ea44ceadcd826c
-      internalID: 3822140511977762250
+      spriteID: d31230fe5ad82eb4ea69aac159e14d5c
+      internalID: 6297585816269129442
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bg3_113
+      name: bg2_113
       rect:
         serializedVersion: 2
         x: 5535
@@ -2941,14 +2941,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 40c1472658ddcd94988041c0d1251f6d
-      internalID: -673375400940760917
+      spriteID: 4776f91d880e2a24289be9084a918577
+      internalID: 6323255085916151802
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bg3_114
+      name: bg2_114
       rect:
         serializedVersion: 2
         x: 6150
@@ -2962,14 +2962,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ac53143ff9db6af458ef8093e0c5dee7
-      internalID: -3099330724660921659
+      spriteID: 91e039a6bf2cbf2478c37fb44150f57e
+      internalID: -6585198188979533087
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bg3_115
+      name: bg2_115
       rect:
         serializedVersion: 2
         x: 6765
@@ -2983,14 +2983,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9b0e4ea4000236843ab4ff3bb6acb1d8
-      internalID: -5566254530116367168
+      spriteID: 91542bdfb697b2949a03184c3fe853f7
+      internalID: 3590009869336961075
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bg3_116
+      name: bg2_116
       rect:
         serializedVersion: 2
         x: 7380
@@ -3004,14 +3004,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 777b7f4e82a7a51408bb67856f02992b
-      internalID: -8351624716864490098
+      spriteID: 9b104ef990617f141bc1342d31c73196
+      internalID: 7618181452722110580
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bg3_117
+      name: bg2_117
       rect:
         serializedVersion: 2
         x: 0
@@ -3025,14 +3025,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2c46d82c44a5be94cbffd1025506f9b9
-      internalID: -1333668348867371062
+      spriteID: 0e8e07a0706351c4a8e7fa06fc8a1741
+      internalID: 1726068917116611698
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bg3_118
+      name: bg2_118
       rect:
         serializedVersion: 2
         x: 615
@@ -3046,14 +3046,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 88fc0ed51f21c454987926177d32caf3
-      internalID: 7720118488414571553
+      spriteID: 6bc4dbd35f95b3a4080d624fc96ef26c
+      internalID: -6642573674054731829
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bg3_119
+      name: bg2_119
       rect:
         serializedVersion: 2
         x: 1230
@@ -3067,14 +3067,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: dadb0fdad778dc84f8bcf083265d51e6
-      internalID: 2793737312065278528
+      spriteID: ed6c02890541e7742bc7720bb26c4911
+      internalID: -5911009488727083879
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bg3_120
+      name: bg2_120
       rect:
         serializedVersion: 2
         x: 1845
@@ -3088,14 +3088,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ae30d348d21089f4099e75eea4ec8be9
-      internalID: 9049242101770727571
+      spriteID: 66d04255d563f1f4eb1528b73650f9ed
+      internalID: 28043179793289016
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bg3_121
+      name: bg2_121
       rect:
         serializedVersion: 2
         x: 2460
@@ -3109,14 +3109,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c48f4eb31dc28b846b55da1b197a2034
-      internalID: -5343482881527105776
+      spriteID: ca41080a9692c404eb505ab2f05d3727
+      internalID: 135539735825570975
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bg3_122
+      name: bg2_122
       rect:
         serializedVersion: 2
         x: 3075
@@ -3130,14 +3130,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ac99002fb730d0045a81f6478d0fa8b6
-      internalID: 7418893136709423214
+      spriteID: a65433f0f46bcc049a4697c651b566ca
+      internalID: 7062669096697526214
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bg3_123
+      name: bg2_123
       rect:
         serializedVersion: 2
         x: 3690
@@ -3151,14 +3151,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7642f9b2ace27824fa809364ca2dc16d
-      internalID: -4033283506048908308
+      spriteID: 231fe183050a73f4dba72b215ca13ea5
+      internalID: 6042669422708606572
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bg3_124
+      name: bg2_124
       rect:
         serializedVersion: 2
         x: 4305
@@ -3172,14 +3172,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2ec214b2375a01941b012ae3de33e8c0
-      internalID: 6343895602419105725
+      spriteID: 0d4460c1c94c66b49881c339b2bf9d09
+      internalID: -7619323490039996792
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bg3_125
+      name: bg2_125
       rect:
         serializedVersion: 2
         x: 4920
@@ -3193,14 +3193,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 33d5d7893c8c21944a860b14d052f895
-      internalID: 2772436812546599872
+      spriteID: eb2154fa720f9114f8f84851904d33d4
+      internalID: -1406881849814315652
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bg3_126
+      name: bg2_126
       rect:
         serializedVersion: 2
         x: 5535
@@ -3214,14 +3214,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f2d97b244bc2e454bac97b9cfd4cc5f4
-      internalID: 7339752238626052723
+      spriteID: 1bb7654687ace734e9c8b2d6b2faaeb4
+      internalID: -4033536044131887983
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bg3_127
+      name: bg2_127
       rect:
         serializedVersion: 2
         x: 6150
@@ -3235,14 +3235,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a0a2336cab2dd4b44b7f5b53f8f3b4eb
-      internalID: 4652269119629150091
+      spriteID: 73961a68dd6ea2b469c5808ed1a45b0c
+      internalID: 4570946892895954046
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bg3_128
+      name: bg2_128
       rect:
         serializedVersion: 2
         x: 6765
@@ -3256,14 +3256,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 82ddf6f440e6b1744b579e820eeb7f3d
-      internalID: -1821225432899132544
+      spriteID: 8a6477af07d7545438572b9219efa655
+      internalID: 6773937076500019880
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bg3_129
+      name: bg2_129
       rect:
         serializedVersion: 2
         x: 7380
@@ -3277,14 +3277,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9b6e41646ae33a446a904077d5d36dfb
-      internalID: 4237610846768133959
+      spriteID: 05104db8b49a61740aa89c38b76cfc49
+      internalID: -529380617533317924
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bg3_130
+      name: bg2_130
       rect:
         serializedVersion: 2
         x: 0
@@ -3298,14 +3298,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 962afa2a66325214099237560a72601e
-      internalID: 1981453016710863300
+      spriteID: f5b0ea011085c2c4089851cc7ff2d5a0
+      internalID: 258673411352769491
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bg3_131
+      name: bg2_131
       rect:
         serializedVersion: 2
         x: 615
@@ -3319,14 +3319,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 22abcad4c6bba464086c2d819ff39673
-      internalID: -8566112538961606085
+      spriteID: 523fb5d175f8fe143abb68572219dbf3
+      internalID: 2257515269588896717
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bg3_132
+      name: bg2_132
       rect:
         serializedVersion: 2
         x: 1230
@@ -3340,14 +3340,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2136c4cb607186b4c9cbcee600003487
-      internalID: -104153225181828773
+      spriteID: a2f4225156206224b8a24ed88a445e0c
+      internalID: 6246177198275000112
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bg3_133
+      name: bg2_133
       rect:
         serializedVersion: 2
         x: 1845
@@ -3361,14 +3361,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 074c6719ba634954d9ee978da9885b4e
-      internalID: -2771029374747652850
+      spriteID: cb9c5f620e2c1a044ab95fd826af1c75
+      internalID: 2471304129316251120
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bg3_134
+      name: bg2_134
       rect:
         serializedVersion: 2
         x: 2460
@@ -3382,14 +3382,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b930f0e77ea27844b8579352230e7106
-      internalID: -1679409845013783309
+      spriteID: d28c9c1cafe5f3c4dab6aed376a028f0
+      internalID: -6920880534518796854
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bg3_135
+      name: bg2_135
       rect:
         serializedVersion: 2
         x: 3075
@@ -3403,14 +3403,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0670f68c36c30fa47a865d43f3060e1f
-      internalID: -7257943047436868846
+      spriteID: b829cdaa5abb6e94c8baa0a6a41cf9ee
+      internalID: 6774355723723661978
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bg3_136
+      name: bg2_136
       rect:
         serializedVersion: 2
         x: 3690
@@ -3424,14 +3424,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4b98b353192feaa4e8b7177adfef088f
-      internalID: 4418789404027991376
+      spriteID: 2fd18aecef0fa4d41b44ac42991b02f0
+      internalID: 4848976244311530408
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bg3_137
+      name: bg2_137
       rect:
         serializedVersion: 2
         x: 4305
@@ -3445,14 +3445,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b1712971a51041c4380cbb67904156be
-      internalID: -301986372842552909
+      spriteID: 0112b687f1ff2fc458472741c9aaba3d
+      internalID: 8813277155052638232
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bg3_138
+      name: bg2_138
       rect:
         serializedVersion: 2
         x: 4920
@@ -3466,14 +3466,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7b465f445a8e4504aaf80e32effd3d88
-      internalID: -2887229955984677323
+      spriteID: 242172db54ada3944b32ccc26b81785f
+      internalID: -6205691682756893762
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bg3_139
+      name: bg2_139
       rect:
         serializedVersion: 2
         x: 5535
@@ -3487,14 +3487,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7bb3e8fee0141d14897455d5b084cde5
-      internalID: 5838147492162749949
+      spriteID: 5aa45ee1d73eadb4685c0e686d6e1391
+      internalID: 3467988453042480517
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bg3_140
+      name: bg2_140
       rect:
         serializedVersion: 2
         x: 6150
@@ -3508,14 +3508,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 62541482fa328754091cd41f6c9de7ce
-      internalID: -6014760129195072155
+      spriteID: 2e8862ad5f9fbda468f8b6b1b725ac9d
+      internalID: -8949500910133254858
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bg3_141
+      name: bg2_141
       rect:
         serializedVersion: 2
         x: 6765
@@ -3529,14 +3529,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 934a5922e341145438158857e70abefa
-      internalID: -5769820597478021393
+      spriteID: e33c9e8e2f5145448a4ffae0a3862c1d
+      internalID: -5804216552879803083
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bg3_142
+      name: bg2_142
       rect:
         serializedVersion: 2
         x: 7380
@@ -3550,14 +3550,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1a2ab01b45d37eb43839814903f0967b
-      internalID: 1697833469225434026
+      spriteID: 3ffc7a12a9aa0fe459965ea82aa57df2
+      internalID: -2455038496930373078
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bg3_143
+      name: bg2_143
       rect:
         serializedVersion: 2
         x: 0
@@ -3571,14 +3571,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 194f0076d8abbc641b3b956f768bf145
-      internalID: 490650179606271804
+      spriteID: 922092fed136ffd4aa0292b37cbc08c9
+      internalID: -2249961138644856535
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bg3_144
+      name: bg2_144
       rect:
         serializedVersion: 2
         x: 615
@@ -3592,14 +3592,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ee6ce5b7235fe8a489ce8708b7057ead
-      internalID: 143168308654553749
+      spriteID: 98466fddd76d09146ab3fee361c9d5ea
+      internalID: -4723419251842781416
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bg3_145
+      name: bg2_145
       rect:
         serializedVersion: 2
         x: 1230
@@ -3613,14 +3613,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4f6dc2b4b2a131c438b35a914fd3f5eb
-      internalID: -3976659017365585787
+      spriteID: 06d68f00127da1f468c43d9c4fd2a656
+      internalID: 7444026441969028453
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bg3_146
+      name: bg2_146
       rect:
         serializedVersion: 2
         x: 1845
@@ -3634,14 +3634,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5c569db4ea6347542a6aea3be6bbec20
-      internalID: -6961823443321115941
+      spriteID: ab1572bb3287ce6479885a32bc4842fe
+      internalID: 6163925981466289543
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bg3_147
+      name: bg2_147
       rect:
         serializedVersion: 2
         x: 2460
@@ -3655,14 +3655,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ba6df5733196d584e8ee77eb15a90f19
-      internalID: -3820641547009723654
+      spriteID: 6ba721b8af0def44ea36088e7723f69e
+      internalID: 1642437784492844853
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bg3_148
+      name: bg2_148
       rect:
         serializedVersion: 2
         x: 3075
@@ -3676,14 +3676,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b01c3f8002070fa4098038ad8323988c
-      internalID: 6150299562108386240
+      spriteID: 3f43424c6bd52644298ea8113e63f40e
+      internalID: 233495664922468740
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bg3_149
+      name: bg2_149
       rect:
         serializedVersion: 2
         x: 3690
@@ -3697,14 +3697,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3b64ca6ee3e6da24f9275192b79261a8
-      internalID: 1896107873345282047
+      spriteID: a3ebf2c55963f3e4095199820a73f9c0
+      internalID: 3314314148086867044
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bg3_150
+      name: bg2_150
       rect:
         serializedVersion: 2
         x: 4305
@@ -3718,14 +3718,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5abcbd9de2e70e34cb0612419cb78c35
-      internalID: 942265643261766021
+      spriteID: c3c9633d74200f046879c505f8315261
+      internalID: -1826622673653784214
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bg3_151
+      name: bg2_151
       rect:
         serializedVersion: 2
         x: 4920
@@ -3739,14 +3739,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8fa4aaa7ca1c25244948d84dbecbfb3d
-      internalID: -5690137344575930667
+      spriteID: 4a6bac29ecdfe9d4f98b9140acb13a27
+      internalID: 7063345940700814944
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bg3_152
+      name: bg2_152
       rect:
         serializedVersion: 2
         x: 5535
@@ -3760,14 +3760,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 83beea1e7af2fab45a551403c5af0c5f
-      internalID: -7075713336359741778
+      spriteID: da3b419e369792e48a98f0db636ca18d
+      internalID: -2756181423701842855
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bg3_153
+      name: bg2_153
       rect:
         serializedVersion: 2
         x: 6150
@@ -3781,14 +3781,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 329ab09b2581e0544ae68e1b2386b286
-      internalID: -9047444320235978907
+      spriteID: c9df933536252684f960d4d785b94876
+      internalID: -5487115408545716025
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bg3_154
+      name: bg2_154
       rect:
         serializedVersion: 2
         x: 6765
@@ -3802,14 +3802,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9444f27b8a8b7874386393fda8f5a999
-      internalID: 4387760754822402732
+      spriteID: 864311d4dd324e848bea790bfd5b064f
+      internalID: -1040031035921591362
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bg3_155
+      name: bg2_155
       rect:
         serializedVersion: 2
         x: 7380
@@ -3823,8 +3823,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 34ea898cb0ecdb846bb55721f3d195bc
-      internalID: -694598498366767058
+      spriteID: b0bafe851a781f34bae75cf557d63733
+      internalID: -5760823539262818093
       vertices: []
       indices: 
       edges: []
@@ -3832,7 +3832,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 0298683a75cbb9640ba27ccba7e16b1c
+    spriteID: 23847b941cc338b429403dd815cee240
     internalID: 0
     vertices: []
     indices: 

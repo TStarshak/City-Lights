@@ -42,5 +42,6 @@ public class sceneController : MonoBehaviour
     {
         string text = "Fireflies Collected: "+FCollected;
         GUI.Box(new Rect(0, 0, Screen.width, Screen.height), text);
+
     }
 }

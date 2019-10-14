@@ -60,6 +60,10 @@ public class Lighting : MonoBehaviour
                 lightComp.transform.Translate(new Vector3(0, -0.4f, 0));
                 }
                 Destroy(other.gameObject);
+                if (sceneController.FCollected > 0)
+                {
+                    sceneController.FCollected--;
+                }
             }
         }
     }

@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 6
-  lastUpdatedAtString: 2019-10-13T16:42:20.401-05:00
-  initializedAtString: 2019-10-13T14:44:48.082-05:00
+  lastUpdatedAtString: 2019-10-13T19:07:00.523-05:00
+  initializedAtString: 2019-10-13T17:09:59.835-05:00
   entries:
   - path: Team 2 City Lights\.vs\Team 2 City Lights\v15\.suo
     fullPath: C:\Users\George\team2\Team 2 City Lights\.vs\Team 2 City Lights\v15\.suo
@@ -22,21 +22,27 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: Team 2 City Lights\Assets\option_control.cs
-    fullPath: C:\Users\George\team2\Team 2 City Lights\Assets\option_control.cs
-    projectPath: Assets\option_control.cs
+  - path: Team 2 City Lights\Assets\Resources\bg1.png
+    fullPath: C:\Users\George\team2\Team 2 City Lights\Assets\Resources\bg1.png
+    projectPath: Assets\Resources\bg1.png
     originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Team 2 City Lights\Assets\option_control.cs.meta
-    fullPath: C:\Users\George\team2\Team 2 City Lights\Assets\option_control.cs.meta
-    projectPath: Assets\option_control.cs.meta
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Team 2 City Lights\Assets\Resources\bg1.png.meta
+    fullPath: C:\Users\George\team2\Team 2 City Lights\Assets\Resources\bg1.png.meta
+    projectPath: Assets\Resources\bg1.png.meta
     originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Team 2 City Lights\Assets\Resources.meta
-    fullPath: C:\Users\George\team2\Team 2 City Lights\Assets\Resources.meta
-    projectPath: Assets\Resources.meta
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Team 2 City Lights\Assets\Resources\bg2.png
+    fullPath: C:\Users\George\team2\Team 2 City Lights\Assets\Resources\bg2.png
+    projectPath: Assets\Resources\bg2.png
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Team 2 City Lights\Assets\Resources\bg2.png.meta
+    fullPath: C:\Users\George\team2\Team 2 City Lights\Assets\Resources\bg2.png.meta
+    projectPath: Assets\Resources\bg2.png.meta
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
@@ -44,71 +50,53 @@ MonoBehaviour:
     fullPath: C:\Users\George\team2\Team 2 City Lights\Assets\Resources\bg3.controller
     projectPath: Assets\Resources\bg3.controller
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Team 2 City Lights\Assets\Resources\bg3.controller.meta
-    fullPath: C:\Users\George\team2\Team 2 City Lights\Assets\Resources\bg3.controller.meta
-    projectPath: Assets\Resources\bg3.controller.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Team 2 City Lights\Assets\Resources\bg3.png
-    fullPath: C:\Users\George\team2\Team 2 City Lights\Assets\Resources\bg3.png
-    projectPath: Assets\Resources\bg3.png
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 3
   - path: Team 2 City Lights\Assets\Resources\bg3.png.meta
     fullPath: C:\Users\George\team2\Team 2 City Lights\Assets\Resources\bg3.png.meta
     projectPath: Assets\Resources\bg3.png.meta
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Team 2 City Lights\Assets\Resources\bg6.png
-    fullPath: C:\Users\George\team2\Team 2 City Lights\Assets\Resources\bg6.png
-    projectPath: Assets\Resources\bg6.png
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Team 2 City Lights\Assets\Resources\bg6.png.meta
-    fullPath: C:\Users\George\team2\Team 2 City Lights\Assets\Resources\bg6.png.meta
-    projectPath: Assets\Resources\bg6.png.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Team 2 City Lights\Assets\Resources\timer1.anim
-    fullPath: C:\Users\George\team2\Team 2 City Lights\Assets\Resources\timer1.anim
-    projectPath: Assets\Resources\timer1.anim
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Team 2 City Lights\Assets\Resources\timer1.anim.meta
-    fullPath: C:\Users\George\team2\Team 2 City Lights\Assets\Resources\timer1.anim.meta
-    projectPath: Assets\Resources\timer1.anim.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Team 2 City Lights\Assets\sceneController.cs
-    fullPath: C:\Users\George\team2\Team 2 City Lights\Assets\sceneController.cs
-    projectPath: Assets\sceneController.cs
-    originalPath: 
     indexStatus: 0
-    workTreeStatus: 5
-  - path: Team 2 City Lights\Assets\sceneController.cs.meta
-    fullPath: C:\Users\George\team2\Team 2 City Lights\Assets\sceneController.cs.meta
-    projectPath: Assets\sceneController.cs.meta
+    workTreeStatus: 3
+  - path: Team 2 City Lights\Assets\Resources\bg4.png
+    fullPath: C:\Users\George\team2\Team 2 City Lights\Assets\Resources\bg4.png
+    projectPath: Assets\Resources\bg4.png
     originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Team 2 City Lights\Assets\Resources\bg4.png.meta
+    fullPath: C:\Users\George\team2\Team 2 City Lights\Assets\Resources\bg4.png.meta
+    projectPath: Assets\Resources\bg4.png.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Team 2 City Lights\Assets\Resources\bg5.png
+    fullPath: C:\Users\George\team2\Team 2 City Lights\Assets\Resources\bg5.png
+    projectPath: Assets\Resources\bg5.png
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Team 2 City Lights\Assets\Resources\bg5.png.meta
+    fullPath: C:\Users\George\team2\Team 2 City Lights\Assets\Resources\bg5.png.meta
+    projectPath: Assets\Resources\bg5.png.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Team 2 City Lights\Assets\Resources\bg7.png
+    fullPath: C:\Users\George\team2\Team 2 City Lights\Assets\Resources\bg7.png
+    projectPath: Assets\Resources\bg7.png
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Team 2 City Lights\Assets\Resources\bg7.png.meta
+    fullPath: C:\Users\George\team2\Team 2 City Lights\Assets\Resources\bg7.png.meta
+    projectPath: Assets\Resources\bg7.png.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
   - path: Team 2 City Lights\Assets\Scenes\PrototypeScene.unity
     fullPath: C:\Users\George\team2\Team 2 City Lights\Assets\Scenes\PrototypeScene.unity
     projectPath: Assets\Scenes\PrototypeScene.unity
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Team 2 City Lights\Assets\Scripts\Enemy.cs
-    fullPath: C:\Users\George\team2\Team 2 City Lights\Assets\Scripts\Enemy.cs
-    projectPath: Assets\Scripts\Enemy.cs
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
@@ -118,123 +106,27 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: Team 2 City Lights\Assets\Scripts\PlayerMovement.cs
-    fullPath: C:\Users\George\team2\Team 2 City Lights\Assets\Scripts\PlayerMovement.cs
-    projectPath: Assets\Scripts\PlayerMovement.cs
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Team 2 City Lights\Assets\Scripts\UI\option_control.cs
-    fullPath: C:\Users\George\team2\Team 2 City Lights\Assets\Scripts\UI\option_control.cs
-    projectPath: Assets\Scripts\UI\option_control.cs
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Team 2 City Lights\Assets\Scripts\UI\option_control.cs.meta
-    fullPath: C:\Users\George\team2\Team 2 City Lights\Assets\Scripts\UI\option_control.cs.meta
-    projectPath: Assets\Scripts\UI\option_control.cs.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
   - path: Team 2 City Lights\Assets\Scripts\UI\sceneController.cs
     fullPath: C:\Users\George\team2\Team 2 City Lights\Assets\Scripts\UI\sceneController.cs
     projectPath: Assets\Scripts\UI\sceneController.cs
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Team 2 City Lights\Assets\Scripts\UI\sceneController.cs.meta
-    fullPath: C:\Users\George\team2\Team 2 City Lights\Assets\Scripts\UI\sceneController.cs.meta
-    projectPath: Assets\Scripts\UI\sceneController.cs.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 3
   - path: Team 2 City Lights\Assets\Scripts\UI\timerBackgroundController.cs
     fullPath: C:\Users\George\team2\Team 2 City Lights\Assets\Scripts\UI\timerBackgroundController.cs
     projectPath: Assets\Scripts\UI\timerBackgroundController.cs
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Team 2 City Lights\Assets\Scripts\UI\timerBackgroundController.cs.meta
-    fullPath: C:\Users\George\team2\Team 2 City Lights\Assets\Scripts\UI\timerBackgroundController.cs.meta
-    projectPath: Assets\Scripts\UI\timerBackgroundController.cs.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Team 2 City Lights\Assets\Scripts\UI\timercontroller.cs
-    fullPath: C:\Users\George\team2\Team 2 City Lights\Assets\Scripts\UI\timercontroller.cs
-    projectPath: Assets\Scripts\UI\timercontroller.cs
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Team 2 City Lights\Assets\Scripts\UI\timercontroller.cs.meta
-    fullPath: C:\Users\George\team2\Team 2 City Lights\Assets\Scripts\UI\timercontroller.cs.meta
-    projectPath: Assets\Scripts\UI\timercontroller.cs.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Team 2 City Lights\Assets\Sprites\UI\backgroundanimation.anim
-    fullPath: C:\Users\George\team2\Team 2 City Lights\Assets\Sprites\UI\backgroundanimation.anim
-    projectPath: Assets\Sprites\UI\backgroundanimation.anim
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Team 2 City Lights\Assets\Sprites\UI\backgroundanimation.anim.meta
-    fullPath: C:\Users\George\team2\Team 2 City Lights\Assets\Sprites\UI\backgroundanimation.anim.meta
-    projectPath: Assets\Sprites\UI\backgroundanimation.anim.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Team 2 City Lights\Assets\Sprites\UI\bg3.controller
-    fullPath: C:\Users\George\team2\Team 2 City Lights\Assets\Sprites\UI\bg3.controller
-    projectPath: Assets\Sprites\UI\bg3.controller
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Team 2 City Lights\Assets\Sprites\UI\bg3.controller.meta
-    fullPath: C:\Users\George\team2\Team 2 City Lights\Assets\Sprites\UI\bg3.controller.meta
-    projectPath: Assets\Sprites\UI\bg3.controller.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Team 2 City Lights\Assets\Sprites\UI\bg3.png
-    fullPath: C:\Users\George\team2\Team 2 City Lights\Assets\Sprites\UI\bg3.png
-    projectPath: Assets\Sprites\UI\bg3.png
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Team 2 City Lights\Assets\Sprites\UI\bg3.png.meta
-    fullPath: C:\Users\George\team2\Team 2 City Lights\Assets\Sprites\UI\bg3.png.meta
-    projectPath: Assets\Sprites\UI\bg3.png.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Team 2 City Lights\Assets\Sprites\UI\Timerthisones4ugeorge.png.meta
-    fullPath: C:\Users\George\team2\Team 2 City Lights\Assets\Sprites\UI\Timerthisones4ugeorge.png.meta
-    projectPath: Assets\Sprites\UI\Timerthisones4ugeorge.png.meta
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Team 2 City Lights\Assets\Sprites\UI\Spinny.png.meta
+    fullPath: C:\Users\George\team2\Team 2 City Lights\Assets\Sprites\UI\Spinny.png.meta
+    projectPath: Assets\Sprites\UI\Spinny.png.meta
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: Team 2 City Lights\Assets\timercontroller.cs
-    fullPath: C:\Users\George\team2\Team 2 City Lights\Assets\timercontroller.cs
-    projectPath: Assets\timercontroller.cs
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Team 2 City Lights\Assets\timercontroller.cs.meta
-    fullPath: C:\Users\George\team2\Team 2 City Lights\Assets\timercontroller.cs.meta
-    projectPath: Assets\timercontroller.cs.meta
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
   - path: Team 2 City Lights\Library\assetDatabase3
     fullPath: C:\Users\George\team2\Team 2 City Lights\Library\assetDatabase3
     projectPath: Library\assetDatabase3
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Team 2 City Lights\Library\CurrentLayout-default.dwlt
-    fullPath: C:\Users\George\team2\Team 2 City Lights\Library\CurrentLayout-default.dwlt
-    projectPath: Library\CurrentLayout-default.dwlt
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
@@ -268,27 +160,9 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: Team 2 City Lights\Library\InspectorExpandedItems.asset
-    fullPath: C:\Users\George\team2\Team 2 City Lights\Library\InspectorExpandedItems.asset
-    projectPath: Library\InspectorExpandedItems.asset
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Team 2 City Lights\Library\metadata\2b\2b9c6f18a9f01a84da3885022acec615
-    fullPath: C:\Users\George\team2\Team 2 City Lights\Library\metadata\2b\2b9c6f18a9f01a84da3885022acec615
-    projectPath: Library\metadata\2b\2b9c6f18a9f01a84da3885022acec615
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
   - path: Team 2 City Lights\Library\metadata\57\57a58db6cbda31b4d976c87b85e3da03
     fullPath: C:\Users\George\team2\Team 2 City Lights\Library\metadata\57\57a58db6cbda31b4d976c87b85e3da03
     projectPath: Library\metadata\57\57a58db6cbda31b4d976c87b85e3da03
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Team 2 City Lights\Library\metadata\e1\e13e5b2347053344199a01505c098da5
-    fullPath: C:\Users\George\team2\Team 2 City Lights\Library\metadata\e1\e13e5b2347053344199a01505c098da5
-    projectPath: Library\metadata\e1\e13e5b2347053344199a01505c098da5
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
@@ -304,117 +178,15 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: Team 2 City Lights\Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.dll
-    fullPath: C:\Users\George\team2\Team 2 City Lights\Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.dll
-    projectPath: Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.dll
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Team 2 City Lights\Library\ScriptAssemblies\NavMeshComponents.dll
-    fullPath: C:\Users\George\team2\Team 2 City Lights\Library\ScriptAssemblies\NavMeshComponents.dll
-    projectPath: Library\ScriptAssemblies\NavMeshComponents.dll
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Team 2 City Lights\Library\ScriptAssemblies\NavMeshComponentsEditor.dll
-    fullPath: C:\Users\George\team2\Team 2 City Lights\Library\ScriptAssemblies\NavMeshComponentsEditor.dll
-    projectPath: Library\ScriptAssemblies\NavMeshComponentsEditor.dll
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Team 2 City Lights\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-    fullPath: C:\Users\George\team2\Team 2 City Lights\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-    projectPath: Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Team 2 City Lights\Library\ScriptAssemblies\Unity.Rider.Editor.dll
-    fullPath: C:\Users\George\team2\Team 2 City Lights\Library\ScriptAssemblies\Unity.Rider.Editor.dll
-    projectPath: Library\ScriptAssemblies\Unity.Rider.Editor.dll
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Team 2 City Lights\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-    fullPath: C:\Users\George\team2\Team 2 City Lights\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-    projectPath: Library\ScriptAssemblies\Unity.TextMeshPro.dll
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Team 2 City Lights\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-    fullPath: C:\Users\George\team2\Team 2 City Lights\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-    projectPath: Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Team 2 City Lights\Library\ScriptAssemblies\Unity.Timeline.dll
-    fullPath: C:\Users\George\team2\Team 2 City Lights\Library\ScriptAssemblies\Unity.Timeline.dll
-    projectPath: Library\ScriptAssemblies\Unity.Timeline.dll
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Team 2 City Lights\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-    fullPath: C:\Users\George\team2\Team 2 City Lights\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-    projectPath: Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Team 2 City Lights\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-    fullPath: C:\Users\George\team2\Team 2 City Lights\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-    projectPath: Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Team 2 City Lights\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
-    fullPath: C:\Users\George\team2\Team 2 City Lights\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
-    projectPath: Library\ScriptAssemblies\UnityEditor.TestRunner.dll
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Team 2 City Lights\Library\ScriptAssemblies\UnityEditor.UI.dll
-    fullPath: C:\Users\George\team2\Team 2 City Lights\Library\ScriptAssemblies\UnityEditor.UI.dll
-    projectPath: Library\ScriptAssemblies\UnityEditor.UI.dll
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Team 2 City Lights\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
-    fullPath: C:\Users\George\team2\Team 2 City Lights\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
-    projectPath: Library\ScriptAssemblies\UnityEngine.TestRunner.dll
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Team 2 City Lights\Library\ScriptAssemblies\UnityEngine.UI.dll
-    fullPath: C:\Users\George\team2\Team 2 City Lights\Library\ScriptAssemblies\UnityEngine.UI.dll
-    projectPath: Library\ScriptAssemblies\UnityEngine.UI.dll
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Team 2 City Lights\Library\ShaderCache\EditorEncounteredVariants
-    fullPath: C:\Users\George\team2\Team 2 City Lights\Library\ShaderCache\EditorEncounteredVariants
-    projectPath: Library\ShaderCache\EditorEncounteredVariants
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
   - path: Team 2 City Lights\Library\shadercompiler-UnityShaderCompiler.exe0.log
     fullPath: C:\Users\George\team2\Team 2 City Lights\Library\shadercompiler-UnityShaderCompiler.exe0.log
     projectPath: Library\shadercompiler-UnityShaderCompiler.exe0.log
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: Team 2 City Lights\Library\shadercompiler-UnityShaderCompiler.exe1.log
-    fullPath: C:\Users\George\team2\Team 2 City Lights\Library\shadercompiler-UnityShaderCompiler.exe1.log
-    projectPath: Library\shadercompiler-UnityShaderCompiler.exe1.log
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Team 2 City Lights\Library\shadercompiler-UnityShaderCompiler.exe2.log
-    fullPath: C:\Users\George\team2\Team 2 City Lights\Library\shadercompiler-UnityShaderCompiler.exe2.log
-    projectPath: Library\shadercompiler-UnityShaderCompiler.exe2.log
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Team 2 City Lights\Packages\manifest.json
-    fullPath: C:\Users\George\team2\Team 2 City Lights\Packages\manifest.json
-    projectPath: Packages\manifest.json
+  - path: Team 2 City Lights\ProjectSettings\QualitySettings.asset
+    fullPath: C:\Users\George\team2\Team 2 City Lights\ProjectSettings\QualitySettings.asset
+    projectPath: ProjectSettings\QualitySettings.asset
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
