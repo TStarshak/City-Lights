@@ -17,7 +17,7 @@ MonoBehaviour:
   initializedAtString: 2019-10-13T20:04:10.005-04:00
   currentGitRemote:
     name: origin
-    url: https://csecode.case.edu/academic/eecs-390/team2
+    url: https://csecode.case.edu/academic/eecs-390/team2.git
     login: 
     user: 
     host: 
@@ -29,10 +29,10 @@ MonoBehaviour:
   currentConfigBranch:
     name: PostProcessing
     remote:
-      name: 
-      url: 
-    trackingBranch: 
+      name: origin
+      url: https://csecode.case.edu/academic/eecs-390/team2.git
+    trackingBranch: City
   currentConfigRemote:
     name: origin
-    url: https://csecode.case.edu/academic/eecs-390/team2
+    url: https://csecode.case.edu/academic/eecs-390/team2.git
   currentHead: 
