@@ -63,10 +63,6 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\option_control.cs" />
-    <Compile Include="Assets\Resources\NavMeshComponents\Scripts\NavMeshLink.cs" />
-    <Compile Include="Assets\Resources\NavMeshComponents\Scripts\NavMeshModifier.cs" />
-    <Compile Include="Assets\Resources\NavMeshComponents\Scripts\NavMeshModifierVolume.cs" />
-    <Compile Include="Assets\Resources\NavMeshComponents\Scripts\NavMeshSurface.cs" />
     <Compile Include="Assets\sceneController.cs" />
     <Compile Include="Assets\Scripts\CameraFollow.cs" />
     <Compile Include="Assets\Scripts\Enemy.cs" />
@@ -79,7 +75,6 @@
     <Compile Include="Assets\Scripts\UI\ShadowTimer.cs" />
     <Compile Include="Assets\Scripts\Vacuum.cs" />
     <Compile Include="Assets\Scripts\ZoneFeaturePlanning.cs" />
-    <None Include="Assets\Resources\NavMeshComponents\Scripts\NavMeshComponents.asmdef" />
     <Reference Include="Unity.Timeline.Editor">
       <HintPath>C:/Users/Three/Desktop/team2/Team 2 City Lights/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
     </Reference>
