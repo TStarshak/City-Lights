@@ -10,6 +10,7 @@ public class PlayerAnimation : MonoBehaviour
     void Start()
     {
         anim = this.GetComponent<Animator>();
+        anim.SetBool("isWalking", false);
         render = this.GetComponent<SpriteRenderer>();
         render.sprite = Resources.Load<Sprite>("Player_Char");
     }

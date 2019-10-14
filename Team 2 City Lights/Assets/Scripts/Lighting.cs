@@ -11,7 +11,7 @@ public class Lighting : MonoBehaviour
     public static int capacity;
     public static int numFireflies;
 
-    private static float lightRange = 0.03f;
+    private static float lightRange = 0.05f;
     private float lightTrans = lightRange / 5;
 
     // Start is called before the first frame update
@@ -69,9 +69,12 @@ public class Lighting : MonoBehaviour
         Light lInner = gameLightInner.GetComponent<Light>();
         Light lOuter = gameLightOuter.GetComponent<Light>();
         Light lPlayer = gameLightPlayer.GetComponent<Light>();
+        if ((lPlayer.intensity > 1 && range < 0) || (lPlayer.intensity < 2.4 && range > 0))
+            if (range > 0)
+                lPlayer.intensity += 0.2f;
+            else
+                lPlayer.intensity -= 0.2f;
         float time = Time.time;
-        if((lPlayer.intensity > 1 && range < 0) || (lPlayer.intensity > 3 && range > 0))
-            lPlayer.intensity += (0.2f * Mathf.Abs(range) / range);
         while (Time.time - time < 0.5f)
         {
             lInner.range += range;
