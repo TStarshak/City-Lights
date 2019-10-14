@@ -14,6 +14,7 @@ public class Enemy : MonoBehaviour
     private Light eyes;
     private Animator anim;
     private Color shadeAlpha;
+    public GameObject pauseMenu;
 
     void Start()
     {
@@ -29,25 +30,34 @@ public class Enemy : MonoBehaviour
     {
         float distance=Vector3.Distance(transform.position, Player.transform.position);
         Shadoow.transform.rotation = rot;
-        if (distance < activationDistance)
+        if (pauseMenu.activeInHierarchy == false)
         {
-            eyes.intensity = 1;
-            Vector3 dirToPlayer = transform.position - Player.transform.position;
-            Vector3 newPos = transform.position - dirToPlayer;
-            Shadoow.SetDestination(newPos);
-            float xPos = dirToPlayer.x;
-            if (xPos > 0 && lookRight)
+            if (distance < activationDistance)
             {
-                lookRight = false;
-                rend.flipX = true;
+                eyes.intensity = 1;
+                Vector3 dirToPlayer = transform.position - Player.transform.position;
+                Vector3 newPos = transform.position - dirToPlayer;
+                Shadoow.SetDestination(newPos);
+                float xPos = dirToPlayer.x;
+                if (xPos > 0 && lookRight)
+                {
+                    lookRight = false;
+                    rend.flipX = true;
+                }
+                else if (xPos < 0 && !lookRight)
+                {
+                    lookRight = true;
+                    rend.flipX = false;
+                }
             }
-            else if (xPos < 0 && !lookRight)
+            else
             {
-                lookRight = true;
-                rend.flipX = false;
+                eyes.intensity = 0;
             }
         }
         else
-            eyes.intensity = 0;
+        {
+            Shadoow.SetDestination(this.gameObject.transform.position);
+        }
     }
 }

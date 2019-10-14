@@ -52,6 +52,7 @@ public class Lighting : MonoBehaviour
     {
         Debug.Log(Lighting.numFireflies);
         numFireflies++;
+        sceneController.FCollected++;
         StartCoroutine(SmoothLight(lightRange));
     }
 
@@ -59,7 +60,10 @@ public class Lighting : MonoBehaviour
     {
         Debug.Log(Lighting.numFireflies);
         if (numFireflies > 0)
+        {
             numFireflies--;
+            sceneController.FCollected--;
+        }
         if(gameLightInner.GetComponent<Light>().range > 3)
          StartCoroutine(SmoothLight(-lightRange));
     }
