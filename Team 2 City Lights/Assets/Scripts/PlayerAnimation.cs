@@ -11,6 +11,7 @@ public class PlayerAnimation : MonoBehaviour
     {
         anim = this.GetComponent<Animator>();
         render = this.GetComponent<SpriteRenderer>();
+        render.sprite = Resources.Load<Sprite>("Player_Char");
     }
 
     // Update is called once per frame

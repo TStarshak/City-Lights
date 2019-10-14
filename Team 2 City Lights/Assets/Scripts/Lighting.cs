@@ -7,15 +7,11 @@ public class Lighting : MonoBehaviour
     [SerializeField] private GameObject gameLightInner;
     [SerializeField] private GameObject gameLightOuter;
     [SerializeField] private GameObject gameLightPlayer;
-    private Collider colliderComp;
-    
-    [SerializeField] private GameObject firefly;
-    [SerializeField] private GameObject enemy;
 
     public static int capacity;
     public static int numFireflies;
 
-    private static float lightRange = 0.02f;
+    private static float lightRange = 0.03f;
     private float lightTrans = lightRange / 5;
 
     // Start is called before the first frame update
@@ -27,11 +23,11 @@ public class Lighting : MonoBehaviour
         gameLightInner.transform.SetPositionAndRotation(new Vector3(0, 4, 0), new Quaternion(0, 0, 0, 0));
         gameLightOuter.transform.SetPositionAndRotation(new Vector3(0, 4, 0), new Quaternion(0, 0, 0, 0));
 
-        gameLightInner.GetComponent<Light>().range = 4;
+        gameLightInner.GetComponent<Light>().range = 5;
         gameLightOuter.GetComponent<Light>().range = 7;
 
         gameLightInner.GetComponent<Light>().intensity = 1.5f;
-        gameLightOuter.GetComponent<Light>().intensity = 0.8f;
+        gameLightOuter.GetComponent<Light>().intensity = 1f;
         gameLightPlayer.GetComponent<Light>().intensity = 1f;
 
         gameLightInner.GetComponent<Light>().color = new Color(0.9921569f, 0.9254902f, 0.2941177f);
@@ -41,8 +37,7 @@ public class Lighting : MonoBehaviour
         gameLightInner.GetComponent<Light>().shadows = LightShadows.Soft;
         gameLightOuter.GetComponent<Light>().shadows = LightShadows.Soft;
         gameLightPlayer.GetComponent<Light>().shadows = LightShadows.Soft;
-
-        colliderComp = GetComponent<Collider>();
+        
     }
     // Update is called once per frame
     void Update()
