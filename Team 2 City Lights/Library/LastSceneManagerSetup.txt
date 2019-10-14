@@ -1,5 +1,9 @@
 sceneSetups:
+<<<<<<< HEAD
 - path: Assets/Resources/Scenes/City.unity
+=======
+- path: Assets/Resources/Scenes/PrototypeScene.unity
+>>>>>>> world-generation
   isLoaded: 1
   isActive: 1
   isSubScene: 0
