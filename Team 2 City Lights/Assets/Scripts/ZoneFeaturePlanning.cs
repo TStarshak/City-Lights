@@ -125,7 +125,7 @@ public class ZoneFeaturePlanning : MonoBehaviour
                 }
                 else if (map[i, q].Substring(0, 1).Equals("0"))
                 {
-                    mapPiece.GetComponent<MeshRenderer>().material.color = new Color(0, 0, 0);
+                    mapPiece.GetComponent<MeshRenderer>().material.color = new Color(0.3f, 0.3f, 0.3f);
                 }
                 else if (map[i, q].Substring(0, 1).Equals("C"))
                 {

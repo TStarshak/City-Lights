@@ -17,7 +17,7 @@ public class CameraFollow : MonoBehaviour
 
     void Update()
     {
-        float interpolation = speed * Time.deltaTime;
+        float interpolation = speed * Time.deltaTime * 2;
 
         Vector3 position = this.transform.position;
         position.z = Mathf.Lerp(this.transform.position.z, player.transform.position.z-10, interpolation);
