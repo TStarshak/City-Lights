@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.AI;
 using UnityEngine.SceneManagement;
 
 public class ZoneFeaturePlanning : MonoBehaviour
@@ -14,6 +15,7 @@ public class ZoneFeaturePlanning : MonoBehaviour
 
     [SerializeField] GameObject playerCharacter;
     [SerializeField] GameObject shadeExample;
+    [SerializeField] GameObject fireflyExample;
 
 
 
@@ -25,13 +27,14 @@ public class ZoneFeaturePlanning : MonoBehaviour
 
     int mapSize;
     string ringLocation = "0";
-    bool spawningShade = true;
 
     string[,] map;
     List<GameObject> cubes = new List<GameObject>();
     string[] zone1Tiles = { "1-1", "1-2", "1-3", "1-4"};
     string[] zone2Tiles = { "2-1", "2-2", "2-3", "2-4" };
     string[] zone3Tiles = { "3-1", "3-2", "3-3", "3-4" };
+    List<Vector3> treePositions = new List<Vector3>();
+    List<Vector3> fireflyPositions = new List<Vector3>();
 
     //alters the map 2D array to include the city and the city zone at the center of the map
     private void generateCity()
@@ -172,10 +175,106 @@ public class ZoneFeaturePlanning : MonoBehaviour
         }
     }
 
+    private void generateTrees()
+    {
+        int treeNum = 450;
+        int newPosAttempt;
+        float randomX;
+        float randomZ;
+
+        while (treeNum > 0)
+        {
+            randomX = Random.Range(-184, 182);
+            randomZ = Random.Range(-184, 182);
+            newPosAttempt = 0;
+
+            for (int i = 0; i < treePositions.Count; i++)
+            {
+                if (Vector3.Distance(new Vector3(randomX, -0.1f, randomZ), treePositions[i]) < 15f)
+                {
+                    randomX = Random.Range(-184, 182);
+                    randomZ = Random.Range(-184, 182);
+                    i = 0;
+                    newPosAttempt++;
+                }
+                if (newPosAttempt == 50)
+                {
+                    break;
+                }
+            }
+            if (newPosAttempt != 50)
+            {
+                treePositions.Add(new Vector3(randomX, -0.1f, randomZ));
+            }
+            treeNum--;
+        }
+
+        foreach (Vector3 pos in treePositions)
+        {
+            Instantiate(Resources.Load("Prefabs/TreePrefab"), pos, new Quaternion(0f, 0f, 0f, 0f));
+        }
+    }
+
+    private void generateFireflies()
+    {
+        int fireflyNum = 450;
+        int newPosAttempt;
+        float randomX;
+        float randomZ;
+
+        while (fireflyNum > 0)
+        {
+            randomX = Random.Range(-184, 182);
+            randomZ = Random.Range(-184, 182);
+            newPosAttempt = 0;
+
+            for (int i = 0; i < fireflyPositions.Count; i++)
+            {
+                if (Vector3.Distance(new Vector3(randomX, -0.1f, randomZ), fireflyPositions[i]) < 5f)
+                {
+                    randomX = Random.Range(-184, 182);
+                    randomZ = Random.Range(-184, 182);
+                    i = 0;
+                    newPosAttempt++;
+                    for (int q = 0; q < treePositions.Count; q++)
+                    {
+                        if (Vector3.Distance(new Vector3(randomX, -0.1f, randomZ), treePositions[q]) < 2f)
+                        {
+                            randomX = Random.Range(-184, 182);
+                            randomZ = Random.Range(-184, 182);
+                            i = 0;
+                            break;
+                        }
+                    }
+                }
+
+                if (newPosAttempt == 50)
+                {
+                    break;
+                }
+            }
+            if (newPosAttempt != 50)
+            {
+                fireflyPositions.Add(new Vector3(randomX, 0.5f, randomZ));
+            }
+            fireflyNum--;
+        }
+
+        GameObject firefly;
+        foreach (Vector3 pos in fireflyPositions)
+        {
+            firefly = Instantiate(fireflyExample, pos, new Quaternion(0f, 0f, 0f, 0f));
+            firefly.GetComponent<Animator>().SetFloat("Offset", Random.value * 1.5f);
+            firefly.GetComponent<Animator>().speed = Random.value * 1.5f + 0.1f;
+        }
+    }
+
     public void Start()
     {
         layoutWorld();
         StartCoroutine(shadeSpawn());
+        generateTrees();
+        generateFireflies();
     }
 
     public void Update()
@@ -227,12 +326,21 @@ public class ZoneFeaturePlanning : MonoBehaviour
                     randomAngle = Random.Range(0, 360);
                     RaycastHit hit;
                     Physics.Raycast(new Vector3(playerCharacter.transform.position.x + (7 * Mathf.Cos(randomAngle)), 0.5f, playerCharacter.transform.position.z + (7 * Mathf.Sin(randomAngle))), -Vector3.up, out hit);
-                    while (!hit.collider.gameObject.name.Substring(0, 1).Equals("1"))
+                    searchAgain1:
+                    while (hit.collider == null || !hit.collider.gameObject.name.Substring(0, 1).Equals("1"))
                     {
                         randomAngle = Random.Range(0, 360);
                         Physics.Raycast(new Vector3(playerCharacter.transform.position.x + (7 * Mathf.Cos(randomAngle)), 0.5f, playerCharacter.transform.position.z + (7 * Mathf.Sin(randomAngle))), -Vector3.up, out hit);
                     }
-                    Instantiate(shadeExample, new Vector3(playerCharacter.transform.position.x + (7 * Mathf.Cos(randomAngle)), 0.5f, playerCharacter.transform.position.z + (7 * Mathf.Sin(randomAngle))), new Quaternion(0f, 0f, 0f, 0f));
+                    foreach (Vector3 pos in treePositions)
+                    {
+                        if (Vector3.Distance(new Vector3(playerCharacter.transform.position.x + (7 * Mathf.Cos(randomAngle)), 0.5f, playerCharacter.transform.position.z + (7 * Mathf.Sin(randomAngle))), pos) < 3f)
+                        {
+                            randomAngle = Random.Range(0, 360);
+                            goto searchAgain1;
+                        }
+                    }
+                    Instantiate(shadeExample, new Vector3(playerCharacter.transform.position.x + (7 * Mathf.Cos(randomAngle)), -1.5f, playerCharacter.transform.position.z + (7 * Mathf.Sin(randomAngle))), new Quaternion(0f, 0f, 0f, 0f));
                 }
             }
             else if (ringLocation.Equals("2"))
@@ -243,12 +351,21 @@ public class ZoneFeaturePlanning : MonoBehaviour
                     randomAngle = Random.Range(0, 360);
                     RaycastHit hit;
                     Physics.Raycast(new Vector3(playerCharacter.transform.position.x + (7 * Mathf.Cos(randomAngle)), 0.5f, playerCharacter.transform.position.z + (7 * Mathf.Sin(randomAngle))), -Vector3.up, out hit);
-                    while (!hit.collider.gameObject.name.Substring(0, 1).Equals("2"))
+                    searchAgain2:
+                    while (hit.collider == null || !hit.collider.gameObject.name.Substring(0, 1).Equals("2"))
                     {
                         randomAngle = Random.Range(0, 360);
                         Physics.Raycast(new Vector3(playerCharacter.transform.position.x + (7 * Mathf.Cos(randomAngle)), 0.5f, playerCharacter.transform.position.z + (7 * Mathf.Sin(randomAngle))), -Vector3.up, out hit);
                     }
-                    Instantiate(shadeExample, new Vector3(playerCharacter.transform.position.x + (7 * Mathf.Cos(randomAngle)), 0.5f, playerCharacter.transform.position.z + (7 * Mathf.Sin(randomAngle))), new Quaternion(0f, 0f, 0f, 0f));
+                    foreach (Vector3 pos in treePositions)
+                    {
+                        if (Vector3.Distance(new Vector3(playerCharacter.transform.position.x + (7 * Mathf.Cos(randomAngle)), 0.5f, playerCharacter.transform.position.z + (7 * Mathf.Sin(randomAngle))), pos) < 3f)
+                        {
+                            randomAngle = Random.Range(0, 360);
+                            goto searchAgain2;
+                        }
+                    }
+                    Instantiate(shadeExample, new Vector3(playerCharacter.transform.position.x + (7 * Mathf.Cos(randomAngle)), -1.5f, playerCharacter.transform.position.z + (7 * Mathf.Sin(randomAngle))), new Quaternion(0f, 0f, 0f, 0f));
                 }
             }
             else if (ringLocation.Equals("3"))
@@ -259,15 +376,21 @@ public class ZoneFeaturePlanning : MonoBehaviour
                     randomAngle = Random.Range(0, 360);
                     RaycastHit hit;
                     Physics.Raycast(new Vector3(playerCharacter.transform.position.x + (7 * Mathf.Cos(randomAngle)), 0.5f, playerCharacter.transform.position.z + (7 * Mathf.Sin(randomAngle))), -Vector3.up, out hit);
-                    if (hit.collider != null)
+                    searchAgain3:
+                    while (hit.collider == null || !hit.collider.gameObject.name.Substring(0, 1).Equals("3"))
                     {
-                        while (!hit.collider.gameObject.name.Substring(0, 1).Equals("3"))
+                        randomAngle = Random.Range(0, 360);
+                        Physics.Raycast(new Vector3(playerCharacter.transform.position.x + (7 * Mathf.Cos(randomAngle)), 0.5f, playerCharacter.transform.position.z + (7 * Mathf.Sin(randomAngle))), -Vector3.up, out hit);
+                    }
+                    foreach (Vector3 pos in treePositions)
+                    {
+                        if (Vector3.Distance(new Vector3(playerCharacter.transform.position.x + (7 * Mathf.Cos(randomAngle)), 0.5f, playerCharacter.transform.position.z + (7 * Mathf.Sin(randomAngle))), pos) < 3f)
                         {
                             randomAngle = Random.Range(0, 360);
-                            Physics.Raycast(new Vector3(playerCharacter.transform.position.x + (7 * Mathf.Cos(randomAngle)), 0.5f, playerCharacter.transform.position.z + (7 * Mathf.Sin(randomAngle))), -Vector3.up, out hit);
+                            goto searchAgain3;
                         }
-                        Instantiate(shadeExample, new Vector3(playerCharacter.transform.position.x + (7 * Mathf.Cos(randomAngle)), 0.5f, playerCharacter.transform.position.z + (7 * Mathf.Sin(randomAngle))), new Quaternion(0f, 0f, 0f, 0f));
                     }
+                    Instantiate(shadeExample, new Vector3(playerCharacter.transform.position.x + (7 * Mathf.Cos(randomAngle)), -1.5f, playerCharacter.transform.position.z + (7 * Mathf.Sin(randomAngle))), new Quaternion(0f, 0f, 0f, 0f));
                 }
             } else
             {

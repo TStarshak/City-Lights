@@ -62,6 +62,8 @@
     <Compile Include="Assets\Scripts\FireflyMovement.cs" />
     <Compile Include="Assets\Scripts\Lighting.cs" />
     <Compile Include="Assets\Scripts\PlayerAnimation.cs" />
+    <Compile Include="Assets\Scripts\LocalNavMeshBuilder.cs" />
+    <Compile Include="Assets\Scripts\NavMeshSourceTag.cs" />
     <Compile Include="Assets\Scripts\PlayerColliderScript.cs" />
     <Compile Include="Assets\Scripts\PlayerMovement.cs" />
     <Compile Include="Assets\Scripts\UI\MenuButtonController.cs" />
