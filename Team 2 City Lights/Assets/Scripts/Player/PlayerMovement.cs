@@ -7,25 +7,24 @@ using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour
 {
-    [SerializeField] private Camera cam;
     [SerializeField] private GameObject player;
     public float movementSpeed;
     private CharacterController _charController;
-    private float sprintMultiplier;
-    private bool sprinting;
-    public int stamina = 100;
+   // private float sprintMultiplier;
+   // private bool sprinting;
+   // public int stamina = 100;
 
     void Start()
     {
-        sprinting = false;
+       // sprinting = false;
         _charController = GetComponent<CharacterController>();
         movementSpeed = 10.0f;
-        sprintMultiplier = 2.0f;
+        //sprintMultiplier = 2.0f;
     }
 
     void Update()
     {
-        if (Input.GetKey(KeyCode.LeftShift))
+       /* if (Input.GetKey(KeyCode.LeftShift))
         {
             StartCoroutine(Sprint());
         }
@@ -36,7 +35,7 @@ public class PlayerMovement : MonoBehaviour
         }
 
         if(Input.GetKeyUp(KeyCode.LeftShift) || stamina == 0)
-            StartCoroutine(RecoverStamina());
+            StartCoroutine(RecoverStamina()); */
 
         float deltaX = Input.GetAxis("Horizontal") * movementSpeed;
         float deltaZ = Input.GetAxis("Vertical") * movementSpeed;
@@ -51,7 +50,7 @@ public class PlayerMovement : MonoBehaviour
     }
 
     
-    IEnumerator Sprint()
+/*IEnumerator Sprint()
     {
         if (stamina > 0)
         {
@@ -83,6 +82,6 @@ public class PlayerMovement : MonoBehaviour
         }
 
         yield return null;
-    }
+    } */
 
 }

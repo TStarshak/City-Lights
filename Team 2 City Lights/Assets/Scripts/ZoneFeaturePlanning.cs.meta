@@ -3,7 +3,13 @@ guid: 599c9eed309a945649b3a15ad61030ff
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2
-  defaultReferences: []
+  defaultReferences:
+  - playerCharacter: {fileID: 102886255569621853, guid: 7318cb11bbae1da4eaa7516780b148e3,
+      type: 3}
+  - shadeExample: {fileID: 1301353855854334405, guid: 07dee3f8cae365741a10f70c0fa39bc5,
+      type: 3}
+  - fireflyExample: {fileID: 814175958765867702, guid: 884671600b90fdb4da41f97ec1228001,
+      type: 3}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 
