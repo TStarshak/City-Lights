@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.AI;
 using UnityEngine.SceneManagement;
 
 public class ZoneFeaturePlanning : MonoBehaviour
@@ -12,15 +13,28 @@ public class ZoneFeaturePlanning : MonoBehaviour
      * Down arrow key: decrease ringSize by one
      */
 
+    [SerializeField] GameObject playerCharacter;
+    [SerializeField] GameObject shadeExample;
+    [SerializeField] GameObject fireflyExample;
+
+
+
     //change the ringSize variable here to change the thickness of a single zone's ring
-    int ringSize = 5;
+    //chnage the tileSize variable here to change the size of each tile
+    int ringSize = 20;
+    int tileSize = 3;
+
+
     int mapSize;
+    string ringLocation = "0";
 
     string[,] map;
     List<GameObject> cubes = new List<GameObject>();
     string[] zone1Tiles = { "1-1", "1-2", "1-3", "1-4"};
     string[] zone2Tiles = { "2-1", "2-2", "2-3", "2-4" };
     string[] zone3Tiles = { "3-1", "3-2", "3-3", "3-4" };
+    List<Vector3> treePositions = new List<Vector3>();
+    List<Vector3> fireflyPositions = new List<Vector3>();
 
     //alters the map 2D array to include the city and the city zone at the center of the map
     private void generateCity()
@@ -76,8 +90,9 @@ public class ZoneFeaturePlanning : MonoBehaviour
             {
                 GameObject mapPiece = GameObject.CreatePrimitive(PrimitiveType.Cube);
                 cubes.Add(mapPiece);
-                mapPiece.transform.localScale = new Vector3(5, 5, 5);
-                mapPiece.transform.position = new Vector3(5 * i, -2.5f, 5 * q);
+                mapPiece.name = map[i, q];
+                mapPiece.transform.localScale = new Vector3(tileSize, tileSize, tileSize);
+                mapPiece.transform.position = new Vector3(tileSize * i, -0.5f * tileSize, tileSize * q);
                 if (map[i, q].Substring(0, 1).Equals("3"))
                 {
                     if(map[i, q].Substring(2, 1).Equals("1"))
@@ -112,15 +127,30 @@ public class ZoneFeaturePlanning : MonoBehaviour
                 {
                     if (map[i, q].Substring(2, 1).Equals("1"))
                     {
-                        mapPiece.GetComponent<MeshRenderer>().material.color = new Color(0.848f, 0.405f, 0.870f);
+                        Sprite sprite = (Sprite)Resources.LoadAll("Sprites/Zone1Tiles")[5];
+                        Texture2D tex =  new Texture2D((int)sprite.textureRect.width, (int)sprite.textureRect.height);
+                        Color[] pixels = sprite.texture.GetPixels((int)sprite.textureRect.x, (int)sprite.textureRect.y, (int)sprite.textureRect.width, (int)sprite.textureRect.height);
+                        tex.SetPixels(pixels);
+                        tex.Apply();
+                        mapPiece.GetComponent<MeshRenderer>().material.SetTexture("_MainTex", tex);
                     }
                     else if (map[i, q].Substring(2, 1).Equals("2"))
                     {
-                        mapPiece.GetComponent<MeshRenderer>().material.color = new Color(0.669f, 0.092f, 0.585f);
+                        Sprite sprite = (Sprite)Resources.LoadAll("Sprites/Zone1Tiles")[14];
+                        Texture2D tex = new Texture2D((int)sprite.textureRect.width, (int)sprite.textureRect.height);
+                        Color[] pixels = sprite.texture.GetPixels((int)sprite.textureRect.x, (int)sprite.textureRect.y, (int)sprite.textureRect.width, (int)sprite.textureRect.height);
+                        tex.SetPixels(pixels);
+                        tex.Apply();
+                        mapPiece.GetComponent<MeshRenderer>().material.SetTexture("_MainTex", tex);
                     }
                     else
                     {
-                        mapPiece.GetComponent<MeshRenderer>().material.color = new Color(0.406f, 0.013f, 0.309f);
+                        Sprite sprite = (Sprite)Resources.LoadAll("Sprites/Zone1Tiles")[23];
+                        Texture2D tex = new Texture2D((int)sprite.textureRect.width, (int)sprite.textureRect.height);
+                        Color[] pixels = sprite.texture.GetPixels((int)sprite.textureRect.x, (int)sprite.textureRect.y, (int)sprite.textureRect.width, (int)sprite.textureRect.height);
+                        tex.SetPixels(pixels);
+                        tex.Apply();
+                        mapPiece.GetComponent<MeshRenderer>().material.SetTexture("_MainTex", tex);
                     }
                 }
                 else if (map[i, q].Substring(0, 1).Equals("0"))
@@ -134,20 +164,117 @@ public class ZoneFeaturePlanning : MonoBehaviour
                 else if (map[i, q].Substring(0, 1).Equals("5"))
                 {
                     mapPiece.GetComponent<MeshRenderer>().material.color = new Color(0.5f, 0.2450981f, 0);
-                    mapPiece.transform.localScale = new Vector3(5, 20, 5);
+                    mapPiece.transform.localScale = new Vector3(tileSize, 20, tileSize);
                 }
             }
         }
 
         foreach (GameObject go in cubes){
-            go.transform.Translate(new Vector3(-2.5f * map.GetLength(0), 0, -2.5f * map.GetLength(0)));
+            go.transform.Translate(new Vector3((tileSize / -2f) * map.GetLength(0), 0, (tileSize / -2f) * map.GetLength(0)));
+            go.transform.Rotate(new Vector3(0, 180, 0), Space.Self);
+        }
+    }
+
+    private void generateTrees()
+    {
+        int treeNum = 450;
+        int newPosAttempt;
+        float randomX;
+        float randomZ;
+
+        while (treeNum > 0)
+        {
+            randomX = Random.Range(-184, 182);
+            randomZ = Random.Range(-184, 182);
+            newPosAttempt = 0;
+
+            for (int i = 0; i < treePositions.Count; i++)
+            {
+                if (Vector3.Distance(new Vector3(randomX, -0.1f, randomZ), treePositions[i]) < 15f)
+                {
+                    randomX = Random.Range(-184, 182);
+                    randomZ = Random.Range(-184, 182);
+                    i = 0;
+                    newPosAttempt++;
+                }
+                if (newPosAttempt == 50)
+                {
+                    break;
+                }
+            }
+            if (newPosAttempt != 50)
+            {
+                treePositions.Add(new Vector3(randomX, -0.1f, randomZ));
+            }
+            treeNum--;
         }
 
+        foreach (Vector3 pos in treePositions)
+        {
+            Instantiate(Resources.Load("Prefabs/TreePrefab"), pos, new Quaternion(0f, 0f, 0f, 0f));
+        }
+    }
+
+    private void generateFireflies()
+    {
+        int fireflyNum = 450;
+        int newPosAttempt;
+        float randomX;
+        float randomZ;
+
+        while (fireflyNum > 0)
+        {
+            randomX = Random.Range(-184, 182);
+            randomZ = Random.Range(-184, 182);
+            newPosAttempt = 0;
+
+            for (int i = 0; i < fireflyPositions.Count; i++)
+            {
+                if (Vector3.Distance(new Vector3(randomX, -0.1f, randomZ), fireflyPositions[i]) < 5f)
+                {
+                    randomX = Random.Range(-184, 182);
+                    randomZ = Random.Range(-184, 182);
+                    i = 0;
+                    newPosAttempt++;
+                    for (int q = 0; q < treePositions.Count; q++)
+                    {
+                        if (Vector3.Distance(new Vector3(randomX, -0.1f, randomZ), treePositions[q]) < 2f)
+                        {
+                            randomX = Random.Range(-184, 182);
+                            randomZ = Random.Range(-184, 182);
+                            i = 0;
+                            break;
+                        }
+                    }
+                }
+
+                if (newPosAttempt == 50)
+                {
+                    break;
+                }
+            }
+            if (newPosAttempt != 50)
+            {
+                fireflyPositions.Add(new Vector3(randomX, 0.5f, randomZ));
+            }
+            fireflyNum--;
+        }
+
+        GameObject firefly;
+        foreach (Vector3 pos in fireflyPositions)
+        {
+            firefly = Instantiate(fireflyExample, pos, new Quaternion(0f, 0f, 0f, 0f));
+            firefly.GetComponent<Animator>().SetFloat("Offset", Random.value * 1.5f);
+            firefly.GetComponent<Animator>().speed = Random.value * 1.5f + 0.1f;
+        }
     }
 
     public void Start()
     {
         layoutWorld();
+        StartCoroutine(shadeSpawn());
+        generateTrees();
+        generateFireflies();
     }
 
     public void Update()
@@ -179,6 +306,96 @@ public class ZoneFeaturePlanning : MonoBehaviour
                 Destroy(g);
             }
             layoutWorld();
+        }
+
+        RaycastHit hit;
+        Physics.Raycast(playerCharacter.transform.position, -Vector3.up, out hit);
+        ringLocation = hit.collider.gameObject.name.Substring(0, 1);
+    }
+
+    private IEnumerator shadeSpawn()
+    {
+        float randomAngle;
+        while (true)
+        {
+            if (ringLocation.Equals("1"))
+            {
+                yield return new WaitForSeconds(6);
+                if (ringLocation.Equals("1"))
+                {
+                    randomAngle = Random.Range(0, 360);
+                    RaycastHit hit;
+                    Physics.Raycast(new Vector3(playerCharacter.transform.position.x + (7 * Mathf.Cos(randomAngle)), 0.5f, playerCharacter.transform.position.z + (7 * Mathf.Sin(randomAngle))), -Vector3.up, out hit);
+                    searchAgain1:
+                    while (hit.collider == null || !hit.collider.gameObject.name.Substring(0, 1).Equals("1"))
+                    {
+                        randomAngle = Random.Range(0, 360);
+                        Physics.Raycast(new Vector3(playerCharacter.transform.position.x + (7 * Mathf.Cos(randomAngle)), 0.5f, playerCharacter.transform.position.z + (7 * Mathf.Sin(randomAngle))), -Vector3.up, out hit);
+                    }
+                    foreach (Vector3 pos in treePositions)
+                    {
+                        if (Vector3.Distance(new Vector3(playerCharacter.transform.position.x + (7 * Mathf.Cos(randomAngle)), 0.5f, playerCharacter.transform.position.z + (7 * Mathf.Sin(randomAngle))), pos) < 3f)
+                        {
+                            randomAngle = Random.Range(0, 360);
+                            goto searchAgain1;
+                        }
+                    }
+                    Instantiate(shadeExample, new Vector3(playerCharacter.transform.position.x + (7 * Mathf.Cos(randomAngle)), -1.5f, playerCharacter.transform.position.z + (7 * Mathf.Sin(randomAngle))), new Quaternion(0f, 0f, 0f, 0f));
+                }
+            }
+            else if (ringLocation.Equals("2"))
+            {
+                yield return new WaitForSeconds(3);
+                if (ringLocation.Equals("2"))
+                {
+                    randomAngle = Random.Range(0, 360);
+                    RaycastHit hit;
+                    Physics.Raycast(new Vector3(playerCharacter.transform.position.x + (7 * Mathf.Cos(randomAngle)), 0.5f, playerCharacter.transform.position.z + (7 * Mathf.Sin(randomAngle))), -Vector3.up, out hit);
+                    searchAgain2:
+                    while (hit.collider == null || !hit.collider.gameObject.name.Substring(0, 1).Equals("2"))
+                    {
+                        randomAngle = Random.Range(0, 360);
+                        Physics.Raycast(new Vector3(playerCharacter.transform.position.x + (7 * Mathf.Cos(randomAngle)), 0.5f, playerCharacter.transform.position.z + (7 * Mathf.Sin(randomAngle))), -Vector3.up, out hit);
+                    }
+                    foreach (Vector3 pos in treePositions)
+                    {
+                        if (Vector3.Distance(new Vector3(playerCharacter.transform.position.x + (7 * Mathf.Cos(randomAngle)), 0.5f, playerCharacter.transform.position.z + (7 * Mathf.Sin(randomAngle))), pos) < 3f)
+                        {
+                            randomAngle = Random.Range(0, 360);
+                            goto searchAgain2;
+                        }
+                    }
+                    Instantiate(shadeExample, new Vector3(playerCharacter.transform.position.x + (7 * Mathf.Cos(randomAngle)), -1.5f, playerCharacter.transform.position.z + (7 * Mathf.Sin(randomAngle))), new Quaternion(0f, 0f, 0f, 0f));
+                }
+            }
+            else if (ringLocation.Equals("3"))
+            {
+                yield return new WaitForSeconds(2);
+                if (ringLocation.Equals("3"))
+                {
+                    randomAngle = Random.Range(0, 360);
+                    RaycastHit hit;
+                    Physics.Raycast(new Vector3(playerCharacter.transform.position.x + (7 * Mathf.Cos(randomAngle)), 0.5f, playerCharacter.transform.position.z + (7 * Mathf.Sin(randomAngle))), -Vector3.up, out hit);
+                    searchAgain3:
+                    while (hit.collider == null || !hit.collider.gameObject.name.Substring(0, 1).Equals("3"))
+                    {
+                        randomAngle = Random.Range(0, 360);
+                        Physics.Raycast(new Vector3(playerCharacter.transform.position.x + (7 * Mathf.Cos(randomAngle)), 0.5f, playerCharacter.transform.position.z + (7 * Mathf.Sin(randomAngle))), -Vector3.up, out hit);
+                    }
+                    foreach (Vector3 pos in treePositions)
+                    {
+                        if (Vector3.Distance(new Vector3(playerCharacter.transform.position.x + (7 * Mathf.Cos(randomAngle)), 0.5f, playerCharacter.transform.position.z + (7 * Mathf.Sin(randomAngle))), pos) < 3f)
+                        {
+                            randomAngle = Random.Range(0, 360);
+                            goto searchAgain3;
+                        }
+                    }
+                    Instantiate(shadeExample, new Vector3(playerCharacter.transform.position.x + (7 * Mathf.Cos(randomAngle)), -1.5f, playerCharacter.transform.position.z + (7 * Mathf.Sin(randomAngle))), new Quaternion(0f, 0f, 0f, 0f));
+                }
+            } else
+            {
+                yield return new WaitForSeconds(0);
+            }
         }
     }
 }
