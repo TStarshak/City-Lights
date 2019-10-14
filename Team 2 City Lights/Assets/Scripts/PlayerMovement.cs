@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using UnityEngine;
 [RequireComponent(typeof(CharacterController))]
 [AddComponentMenu("Control Script/Movement Input")]
+
+
 public class PlayerMovement : MonoBehaviour
 {
     [SerializeField] private Camera cam;
@@ -11,6 +13,7 @@ public class PlayerMovement : MonoBehaviour
     private CharacterController _charController;
     private float sprintMultiplier;
     private bool sprinting;
+    public int stamina = 100;
 
     void Start()
     {
@@ -24,16 +27,16 @@ public class PlayerMovement : MonoBehaviour
     {
         if (Input.GetKey(KeyCode.LeftShift))
         {
-            if(!sprinting) 
-                movementSpeed *= sprintMultiplier;
-            sprinting = true;
-            CameraFollow.speed = 4.0f;
+            StartCoroutine(Sprint());
         }
         else
         {
             movementSpeed = 10f;
             sprinting = false;
         }
+
+        if(Input.GetKeyUp(KeyCode.LeftShift) || stamina == 0)
+            StartCoroutine(RecoverStamina());
 
         float deltaX = Input.GetAxis("Horizontal") * movementSpeed;
         float deltaZ = Input.GetAxis("Vertical") * movementSpeed;
@@ -46,6 +49,40 @@ public class PlayerMovement : MonoBehaviour
 		movement = transform.TransformDirection(movement);
 		_charController.Move(movement);
     }
+
     
+    IEnumerator Sprint()
+    {
+        if (stamina > 0)
+        {
+            stamina--;
+            if (!sprinting) { 
+                sprinting = true;
+                movementSpeed *= sprintMultiplier;
+            }
+            CameraFollow.speed = 4.0f;
+        }
+        else
+        {
+            movementSpeed = 10f;
+            sprinting = false;
+        }
+
+        yield return null;
+    }
+
+    IEnumerator RecoverStamina()
+    {
+        if (stamina == 0)
+            yield return new WaitForSeconds(1.0f);
+        while (!Input.GetKey(KeyCode.LeftShift) || stamina == 0)
+        {
+            if(stamina < 100)
+                stamina++;
+           yield return new WaitForSeconds(0.1f);
+        }
+
+        yield return null;
+    }
 
 }
