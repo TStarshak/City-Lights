@@ -1,0 +1,3847 @@
+fileFormatVersion: 2
+guid: 5653834731a1a884cbcc51e182f57fb9
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1641259752620419291
+    second: bg3_0
+  - first:
+      213: -22002690712543669
+    second: bg3_1
+  - first:
+      213: -1297506725173582569
+    second: bg3_2
+  - first:
+      213: -4060666020889712354
+    second: bg3_3
+  - first:
+      213: 2703291078851596663
+    second: bg3_4
+  - first:
+      213: -9050486864189689499
+    second: bg3_5
+  - first:
+      213: 2342286478513764826
+    second: bg3_6
+  - first:
+      213: 7281275201096094442
+    second: bg3_7
+  - first:
+      213: -6287086150402386600
+    second: bg3_8
+  - first:
+      213: -2008081379378051602
+    second: bg3_9
+  - first:
+      213: 5900696615383713510
+    second: bg3_10
+  - first:
+      213: -3136065164357304874
+    second: bg3_11
+  - first:
+      213: 3817106917845052083
+    second: bg3_12
+  - first:
+      213: -3336110300341365298
+    second: bg3_13
+  - first:
+      213: -4340486422887525640
+    second: bg3_14
+  - first:
+      213: -4721950502537475495
+    second: bg3_15
+  - first:
+      213: -2385034886370002865
+    second: bg3_16
+  - first:
+      213: -8246509719916929681
+    second: bg3_17
+  - first:
+      213: -5460173748025427773
+    second: bg3_18
+  - first:
+      213: -2398287504587358350
+    second: bg3_19
+  - first:
+      213: 1479124422921199243
+    second: bg3_20
+  - first:
+      213: 2066339525368383551
+    second: bg3_21
+  - first:
+      213: 1970086696074851536
+    second: bg3_22
+  - first:
+      213: 8055695633541413682
+    second: bg3_23
+  - first:
+      213: -2351900187349126176
+    second: bg3_24
+  - first:
+      213: 1084484091646215970
+    second: bg3_25
+  - first:
+      213: 7953939264725534200
+    second: bg3_26
+  - first:
+      213: 6275201348112246003
+    second: bg3_27
+  - first:
+      213: -7229331942162661434
+    second: bg3_28
+  - first:
+      213: 2250266941871919425
+    second: bg3_29
+  - first:
+      213: 8047174980177549896
+    second: bg3_30
+  - first:
+      213: 5143654720580578681
+    second: bg3_31
+  - first:
+      213: 1233871372194795865
+    second: bg3_32
+  - first:
+      213: 99116074060256403
+    second: bg3_33
+  - first:
+      213: -4292753872607637158
+    second: bg3_34
+  - first:
+      213: -2920565966068489280
+    second: bg3_35
+  - first:
+      213: -2194889322054411756
+    second: bg3_36
+  - first:
+      213: 8487526375450264563
+    second: bg3_37
+  - first:
+      213: 8897953659984169873
+    second: bg3_38
+  - first:
+      213: 8831597938854327262
+    second: bg3_39
+  - first:
+      213: -2155579115417151149
+    second: bg3_40
+  - first:
+      213: -1436648589768559753
+    second: bg3_41
+  - first:
+      213: 7026483373267965177
+    second: bg3_42
+  - first:
+      213: -8074317900289452237
+    second: bg3_43
+  - first:
+      213: -4625015555006911530
+    second: bg3_44
+  - first:
+      213: 8045623964526460437
+    second: bg3_45
+  - first:
+      213: 9117841438065766965
+    second: bg3_46
+  - first:
+      213: -3829924359042647325
+    second: bg3_47
+  - first:
+      213: -7880471350707346574
+    second: bg3_48
+  - first:
+      213: -2055915123955844118
+    second: bg3_49
+  - first:
+      213: -8691788206305343102
+    second: bg3_50
+  - first:
+      213: 1878043838387166262
+    second: bg3_51
+  - first:
+      213: -1163644168708115937
+    second: bg3_52
+  - first:
+      213: 7902178643999537327
+    second: bg3_53
+  - first:
+      213: -2289296878787103297
+    second: bg3_54
+  - first:
+      213: -1238262073729020335
+    second: bg3_55
+  - first:
+      213: 3006995478972350522
+    second: bg3_56
+  - first:
+      213: 7166889322352380757
+    second: bg3_57
+  - first:
+      213: 302291910982237671
+    second: bg3_58
+  - first:
+      213: -1797668675721379275
+    second: bg3_59
+  - first:
+      213: 4180066988672281552
+    second: bg3_60
+  - first:
+      213: -5927268514159000576
+    second: bg3_61
+  - first:
+      213: -8469539356167943847
+    second: bg3_62
+  - first:
+      213: -4641268279688777009
+    second: bg3_63
+  - first:
+      213: 8464698691556889011
+    second: bg3_64
+  - first:
+      213: -8099159888941212422
+    second: bg3_65
+  - first:
+      213: -4481280206452113494
+    second: bg3_66
+  - first:
+      213: 5089059280531954286
+    second: bg3_67
+  - first:
+      213: -684537371609792790
+    second: bg3_68
+  - first:
+      213: -2900604048526981942
+    second: bg3_69
+  - first:
+      213: 1734146215486916663
+    second: bg3_70
+  - first:
+      213: -7647993197344912876
+    second: bg3_71
+  - first:
+      213: 8103608719212301668
+    second: bg3_72
+  - first:
+      213: 1815270808584647720
+    second: bg3_73
+  - first:
+      213: -6525733438363837895
+    second: bg3_74
+  - first:
+      213: 8656702847724256002
+    second: bg3_75
+  - first:
+      213: 3638665859606767219
+    second: bg3_76
+  - first:
+      213: 1348697071908861103
+    second: bg3_77
+  - first:
+      213: -5364702370679764346
+    second: bg3_78
+  - first:
+      213: -6052862946138300866
+    second: bg3_79
+  - first:
+      213: -2985193310007152688
+    second: bg3_80
+  - first:
+      213: -1558843126123459980
+    second: bg3_81
+  - first:
+      213: -6065194510758756622
+    second: bg3_82
+  - first:
+      213: -7486818570197984489
+    second: bg3_83
+  - first:
+      213: 6814637186981173385
+    second: bg3_84
+  - first:
+      213: -6222510033162882405
+    second: bg3_85
+  - first:
+      213: 9026965927536250819
+    second: bg3_86
+  - first:
+      213: -4026198060059038572
+    second: bg3_87
+  - first:
+      213: -2302653462737126471
+    second: bg3_88
+  - first:
+      213: 2535171415157975605
+    second: bg3_89
+  - first:
+      213: -4970615937589130208
+    second: bg3_90
+  - first:
+      213: -168615842619024334
+    second: bg3_91
+  - first:
+      213: 6275149504264798051
+    second: bg3_92
+  - first:
+      213: -5538150691152983398
+    second: bg3_93
+  - first:
+      213: 937998395599459601
+    second: bg3_94
+  - first:
+      213: 3454715646143822148
+    second: bg3_95
+  - first:
+      213: -421451296272897318
+    second: bg3_96
+  - first:
+      213: 8533141965374024301
+    second: bg3_97
+  - first:
+      213: 4224474783097699558
+    second: bg3_98
+  - first:
+      213: -1926933582240621514
+    second: bg3_99
+  - first:
+      213: -5446070663770352377
+    second: bg3_100
+  - first:
+      213: -3046629598292140485
+    second: bg3_101
+  - first:
+      213: 4450695968922171620
+    second: bg3_102
+  - first:
+      213: -7627363057666900095
+    second: bg3_103
+  - first:
+      213: -9088970916366704974
+    second: bg3_104
+  - first:
+      213: -3718375870543605367
+    second: bg3_105
+  - first:
+      213: -7725965561741323131
+    second: bg3_106
+  - first:
+      213: -5512384677475600038
+    second: bg3_107
+  - first:
+      213: 3591836430940834317
+    second: bg3_108
+  - first:
+      213: 1945690685603549154
+    second: bg3_109
+  - first:
+      213: -4468483021345167633
+    second: bg3_110
+  - first:
+      213: -3491365577305124944
+    second: bg3_111
+  - first:
+      213: 3822140511977762250
+    second: bg3_112
+  - first:
+      213: -673375400940760917
+    second: bg3_113
+  - first:
+      213: -3099330724660921659
+    second: bg3_114
+  - first:
+      213: -5566254530116367168
+    second: bg3_115
+  - first:
+      213: -8351624716864490098
+    second: bg3_116
+  - first:
+      213: -1333668348867371062
+    second: bg3_117
+  - first:
+      213: 7720118488414571553
+    second: bg3_118
+  - first:
+      213: 2793737312065278528
+    second: bg3_119
+  - first:
+      213: 9049242101770727571
+    second: bg3_120
+  - first:
+      213: -5343482881527105776
+    second: bg3_121
+  - first:
+      213: 7418893136709423214
+    second: bg3_122
+  - first:
+      213: -4033283506048908308
+    second: bg3_123
+  - first:
+      213: 6343895602419105725
+    second: bg3_124
+  - first:
+      213: 2772436812546599872
+    second: bg3_125
+  - first:
+      213: 7339752238626052723
+    second: bg3_126
+  - first:
+      213: 4652269119629150091
+    second: bg3_127
+  - first:
+      213: -1821225432899132544
+    second: bg3_128
+  - first:
+      213: 4237610846768133959
+    second: bg3_129
+  - first:
+      213: 1981453016710863300
+    second: bg3_130
+  - first:
+      213: -8566112538961606085
+    second: bg3_131
+  - first:
+      213: -104153225181828773
+    second: bg3_132
+  - first:
+      213: -2771029374747652850
+    second: bg3_133
+  - first:
+      213: -1679409845013783309
+    second: bg3_134
+  - first:
+      213: -7257943047436868846
+    second: bg3_135
+  - first:
+      213: 4418789404027991376
+    second: bg3_136
+  - first:
+      213: -301986372842552909
+    second: bg3_137
+  - first:
+      213: -2887229955984677323
+    second: bg3_138
+  - first:
+      213: 5838147492162749949
+    second: bg3_139
+  - first:
+      213: -6014760129195072155
+    second: bg3_140
+  - first:
+      213: -5769820597478021393
+    second: bg3_141
+  - first:
+      213: 1697833469225434026
+    second: bg3_142
+  - first:
+      213: 490650179606271804
+    second: bg3_143
+  - first:
+      213: 143168308654553749
+    second: bg3_144
+  - first:
+      213: -3976659017365585787
+    second: bg3_145
+  - first:
+      213: -6961823443321115941
+    second: bg3_146
+  - first:
+      213: -3820641547009723654
+    second: bg3_147
+  - first:
+      213: 6150299562108386240
+    second: bg3_148
+  - first:
+      213: 1896107873345282047
+    second: bg3_149
+  - first:
+      213: 942265643261766021
+    second: bg3_150
+  - first:
+      213: -5690137344575930667
+    second: bg3_151
+  - first:
+      213: -7075713336359741778
+    second: bg3_152
+  - first:
+      213: -9047444320235978907
+    second: bg3_153
+  - first:
+      213: 4387760754822402732
+    second: bg3_154
+  - first:
+      213: -694598498366767058
+    second: bg3_155
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: -1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: bg3_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 7552
+        width: 615
+        height: 640
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a1450626539b584d82d037906141d55
+      internalID: -1641259752620419291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg3_1
+      rect:
+        serializedVersion: 2
+        x: 615
+        y: 7552
+        width: 615
+        height: 640
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a573bf10a0e2f8488ab7c4ac3ad57d3
+      internalID: -22002690712543669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg3_2
+      rect:
+        serializedVersion: 2
+        x: 1230
+        y: 7552
+        width: 615
+        height: 640
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c147573678b4b264d8c4f6271d5aaa30
+      internalID: -1297506725173582569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg3_3
+      rect:
+        serializedVersion: 2
+        x: 1845
+        y: 7552
+        width: 615
+        height: 640
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab347103ada4869449763697784d2a5b
+      internalID: -4060666020889712354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg3_4
+      rect:
+        serializedVersion: 2
+        x: 2460
+        y: 7552
+        width: 615
+        height: 640
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68cc1b5e787a84f4cbdf50e247c9abd9
+      internalID: 2703291078851596663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg3_5
+      rect:
+        serializedVersion: 2
+        x: 3075
+        y: 7552
+        width: 615
+        height: 640
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2318a1d7c9d58e141880d5db83161bc4
+      internalID: -9050486864189689499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg3_6
+      rect:
+        serializedVersion: 2
+        x: 3690
+        y: 7552
+        width: 615
+        height: 640
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51c4c97a196278e4891d535f41b9ee79
+      internalID: 2342286478513764826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg3_7
+      rect:
+        serializedVersion: 2
+        x: 4305
+        y: 7552
+        width: 615
+        height: 640
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ab9e4ab03dcb194cacd6feefd5de56d
+      internalID: 7281275201096094442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg3_8
+      rect:
+        serializedVersion: 2
+        x: 4920
+        y: 7552
+        width: 615
+        height: 640
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 698a05efd8f760943a79294662e4d255
+      internalID: -6287086150402386600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg3_9
+      rect:
+        serializedVersion: 2
+        x: 5535
+        y: 7552
+        width: 615
+        height: 640
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d9df1eb5ecd87240b3065fed5c24d88
+      internalID: -2008081379378051602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg3_10
+      rect:
+        serializedVersion: 2
+        x: 6150
+        y: 7552
+        width: 615
+        height: 640
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9318096277abcac49bb515e128bc6ef3
+      internalID: 5900696615383713510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg3_11
+      rect:
+        serializedVersion: 2
+        x: 6765
+        y: 7552
+        width: 615
+        height: 640
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2dd4094d9df8fd142bc730c48bfd237a
+      internalID: -3136065164357304874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg3_12
+      rect:
+        serializedVersion: 2
+        x: 7380
+        y: 7552
+        width: 615
+        height: 640
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbb84d7e4f9af4845887549cdf5d9f96
+      internalID: 3817106917845052083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg3_13
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 6912
+        width: 615
+        height: 640
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 262fe9e363c6b194fa4dbe5ce9470805
+      internalID: -3336110300341365298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg3_14
+      rect:
+        serializedVersion: 2
+        x: 615
+        y: 6912
+        width: 615
+        height: 640
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4504a43780056b84790b5928fc0798e4
+      internalID: -4340486422887525640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg3_15
+      rect:
+        serializedVersion: 2
+        x: 1230
+        y: 6912
+        width: 615
+        height: 640
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52c4bfc49d59c434d9cc085aab61d195
+      internalID: -4721950502537475495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg3_16
+      rect:
+        serializedVersion: 2
+        x: 1845
+        y: 6912
+        width: 615
+        height: 640
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a67ed63dd4ad8ed4fbb960678c543461
+      internalID: -2385034886370002865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg3_17
+      rect:
+        serializedVersion: 2
+        x: 2460
+        y: 6912
+        width: 615
+        height: 640
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a4f668c9b37e674d90bffbd873ec2d4
+      internalID: -8246509719916929681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg3_18
+      rect:
+        serializedVersion: 2
+        x: 3075
+        y: 6912
+        width: 615
+        height: 640
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1df957c00369ffb45815192668ea0a40
+      internalID: -5460173748025427773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg3_19
+      rect:
+        serializedVersion: 2
+        x: 3690
+        y: 6912
+        width: 615
+        height: 640
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef467d67c7714d9438c1b73b087ec58f
+      internalID: -2398287504587358350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg3_20
+      rect:
+        serializedVersion: 2
+        x: 4305
+        y: 6912
+        width: 615
+        height: 640
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 639193e76362e5f4989b45465f6c80e7
+      internalID: 1479124422921199243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg3_21
+      rect:
+        serializedVersion: 2
+        x: 4920
+        y: 6912
+        width: 615
+        height: 640
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03610b4537f6d484f9e1bcc5f840cc8a
+      internalID: 2066339525368383551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg3_22
+      rect:
+        serializedVersion: 2
+        x: 5535
+        y: 6912
+        width: 615
+        height: 640
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06518656c2b3e37488334ec68bf5c438
+      internalID: 1970086696074851536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg3_23
+      rect:
+        serializedVersion: 2
+        x: 6150
+        y: 6912
+        width: 615
+        height: 640
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b643244ff55d3a4590f18c824d354ef
+      internalID: 8055695633541413682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg3_24
+      rect:
+        serializedVersion: 2
+        x: 6765
+        y: 6912
+        width: 615
+        height: 640
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62677c9d1cb7cb54ea723dbc5d11c568
+      internalID: -2351900187349126176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg3_25
+      rect:
+        serializedVersion: 2
+        x: 7380
+        y: 6912
+        width: 615
+        height: 640
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90381c546162aab4bab0f24129b443bf
+      internalID: 1084484091646215970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg3_26
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 6272
+        width: 615
+        height: 640
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3790d5a80e5a374fa2f16d4149e210d
+      internalID: 7953939264725534200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg3_27
+      rect:
+        serializedVersion: 2
+        x: 615
+        y: 6272
+        width: 615
+        height: 640
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c2bdf56d189ae64984d15378e62f749
+      internalID: 6275201348112246003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg3_28
+      rect:
+        serializedVersion: 2
+        x: 1230
+        y: 6272
+        width: 615
+        height: 640
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86403389e0ce7064fb454419c237f84a
+      internalID: -7229331942162661434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg3_29
+      rect:
+        serializedVersion: 2
+        x: 1845
+        y: 6272
+        width: 615
+        height: 640
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2b3f536a4b0d5b4c9ba338bfea36269
+      internalID: 2250266941871919425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg3_30
+      rect:
+        serializedVersion: 2
+        x: 2460
+        y: 6272
+        width: 615
+        height: 640
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 132c4c0ea3f0e9f46b04b41d3fe0cd35
+      internalID: 8047174980177549896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg3_31
+      rect:
+        serializedVersion: 2
+        x: 3075
+        y: 6272
+        width: 615
+        height: 640
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e0e6289c3adb7d408f8eff91691850b
+      internalID: 5143654720580578681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg3_32
+      rect:
+        serializedVersion: 2
+        x: 3690
+        y: 6272
+        width: 615
+        height: 640
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 709baafb7b6270a47a2a2c381f0a0179
+      internalID: 1233871372194795865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg3_33
+      rect:
+        serializedVersion: 2
+        x: 4305
+        y: 6272
+        width: 615
+        height: 640
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a427fef98d1f1b94982487d6837ec913
+      internalID: 99116074060256403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg3_34
+      rect:
+        serializedVersion: 2
+        x: 4920
+        y: 6272
+        width: 615
+        height: 640
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91374a200e783fe4faab1b366e1562e7
+      internalID: -4292753872607637158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg3_35
+      rect:
+        serializedVersion: 2
+        x: 5535
+        y: 6272
+        width: 615
+        height: 640
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42fb04c696f77104b8ad3134e2059f4c
+      internalID: -2920565966068489280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg3_36
+      rect:
+        serializedVersion: 2
+        x: 6150
+        y: 6272
+        width: 615
+        height: 640
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9774726c350fb834eb2bb709515f628f
+      internalID: -2194889322054411756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg3_37
+      rect:
+        serializedVersion: 2
+        x: 6765
+        y: 6272
+        width: 615
+        height: 640
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3be6600e27904e499a2b2ee208d0f71
+      internalID: 8487526375450264563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg3_38
+      rect:
+        serializedVersion: 2
+        x: 7380
+        y: 6272
+        width: 615
+        height: 640
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2960aa4a99d6ec40a5dfe596c5e1269
+      internalID: 8897953659984169873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg3_39
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 5632
+        width: 615
+        height: 640
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57d4b6d5aff502140bd1a676ac1b18ee
+      internalID: 8831597938854327262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg3_40
+      rect:
+        serializedVersion: 2
+        x: 615
+        y: 5632
+        width: 615
+        height: 640
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d768bdbaccf5aec4e9f9b99cd51815ba
+      internalID: -2155579115417151149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg3_41
+      rect:
+        serializedVersion: 2
+        x: 1230
+        y: 5632
+        width: 615
+        height: 640
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51e9a73c1e99078479c9e94cc5a542ea
+      internalID: -1436648589768559753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg3_42
+      rect:
+        serializedVersion: 2
+        x: 1845
+        y: 5632
+        width: 615
+        height: 640
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb591e99ca5a8ec4fac2de6ebd69d8a3
+      internalID: 7026483373267965177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg3_43
+      rect:
+        serializedVersion: 2
+        x: 2460
+        y: 5632
+        width: 615
+        height: 640
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b88c3d06197298143b573a806ed9b3d0
+      internalID: -8074317900289452237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg3_44
+      rect:
+        serializedVersion: 2
+        x: 3075
+        y: 5632
+        width: 615
+        height: 640
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 642c0b1ad3d57a4478f4e91665c738d3
+      internalID: -4625015555006911530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg3_45
+      rect:
+        serializedVersion: 2
+        x: 3690
+        y: 5632
+        width: 615
+        height: 640
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62013f81580643c49a1e6e186c863927
+      internalID: 8045623964526460437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg3_46
+      rect:
+        serializedVersion: 2
+        x: 4305
+        y: 5632
+        width: 615
+        height: 640
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec4bfe2ea7808f8439debf6305039735
+      internalID: 9117841438065766965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg3_47
+      rect:
+        serializedVersion: 2
+        x: 4920
+        y: 5632
+        width: 615
+        height: 640
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a9857e209d32734daa961296a7c305c
+      internalID: -3829924359042647325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg3_48
+      rect:
+        serializedVersion: 2
+        x: 5535
+        y: 5632
+        width: 615
+        height: 640
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec94d3604cf2bba41b89167f4e71d837
+      internalID: -7880471350707346574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg3_49
+      rect:
+        serializedVersion: 2
+        x: 6150
+        y: 5632
+        width: 615
+        height: 640
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2dcf1b467962bd64a91161917cdaea94
+      internalID: -2055915123955844118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg3_50
+      rect:
+        serializedVersion: 2
+        x: 6765
+        y: 5632
+        width: 615
+        height: 640
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dda4683080d2b0d44bb38b05e853810b
+      internalID: -8691788206305343102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg3_51
+      rect:
+        serializedVersion: 2
+        x: 7380
+        y: 5632
+        width: 615
+        height: 640
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4961efc455c37ab4dae07f98eb1517bf
+      internalID: 1878043838387166262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg3_52
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4992
+        width: 615
+        height: 640
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad346f95765722a4ca9a38fc4ba79515
+      internalID: -1163644168708115937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg3_53
+      rect:
+        serializedVersion: 2
+        x: 615
+        y: 4992
+        width: 615
+        height: 640
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6cb1ee8b4d65cb4da4ef31d65a71237
+      internalID: 7902178643999537327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg3_54
+      rect:
+        serializedVersion: 2
+        x: 1230
+        y: 4992
+        width: 615
+        height: 640
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebb9a122eae81c547b17c3094613be51
+      internalID: -2289296878787103297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg3_55
+      rect:
+        serializedVersion: 2
+        x: 1845
+        y: 4992
+        width: 615
+        height: 640
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f5419fa707a2684ba4441fd6a153d49
+      internalID: -1238262073729020335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg3_56
+      rect:
+        serializedVersion: 2
+        x: 2460
+        y: 4992
+        width: 615
+        height: 640
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8829e97c639290d40a7dfcc3cf5ef153
+      internalID: 3006995478972350522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg3_57
+      rect:
+        serializedVersion: 2
+        x: 3075
+        y: 4992
+        width: 615
+        height: 640
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1144fd8c2f438ff49805fa21ed9add99
+      internalID: 7166889322352380757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg3_58
+      rect:
+        serializedVersion: 2
+        x: 3690
+        y: 4992
+        width: 615
+        height: 640
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03973cabbffd2954f9dbeb0db2643f65
+      internalID: 302291910982237671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg3_59
+      rect:
+        serializedVersion: 2
+        x: 4305
+        y: 4992
+        width: 615
+        height: 640
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 422fd5fd70a032341a0d54ab3ab8573a
+      internalID: -1797668675721379275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg3_60
+      rect:
+        serializedVersion: 2
+        x: 4920
+        y: 4992
+        width: 615
+        height: 640
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f72c96031908dfc428ab739f498a44d4
+      internalID: 4180066988672281552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg3_61
+      rect:
+        serializedVersion: 2
+        x: 5535
+        y: 4992
+        width: 615
+        height: 640
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2daea03b74ff5ac4e80d4d5b92555999
+      internalID: -5927268514159000576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg3_62
+      rect:
+        serializedVersion: 2
+        x: 6150
+        y: 4992
+        width: 615
+        height: 640
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9905500c1aa40594692b1f33e679fa62
+      internalID: -8469539356167943847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg3_63
+      rect:
+        serializedVersion: 2
+        x: 6765
+        y: 4992
+        width: 615
+        height: 640
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44476b702e060774f9d547e13afe9237
+      internalID: -4641268279688777009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg3_64
+      rect:
+        serializedVersion: 2
+        x: 7380
+        y: 4992
+        width: 615
+        height: 640
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16c3b565a30b9e14390a8b556f10d6c3
+      internalID: 8464698691556889011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg3_65
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4352
+        width: 615
+        height: 640
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 888b181b577099b4aab552dc7d931e3f
+      internalID: -8099159888941212422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg3_66
+      rect:
+        serializedVersion: 2
+        x: 615
+        y: 4352
+        width: 615
+        height: 640
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61ae7d4186e04eb4daa4a0fa0e512014
+      internalID: -4481280206452113494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg3_67
+      rect:
+        serializedVersion: 2
+        x: 1230
+        y: 4352
+        width: 615
+        height: 640
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 218b6f65318d3424e803bfbfd2a021f2
+      internalID: 5089059280531954286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg3_68
+      rect:
+        serializedVersion: 2
+        x: 1845
+        y: 4352
+        width: 615
+        height: 640
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d975d15dd7bd27946a6745fa4ae6c9f7
+      internalID: -684537371609792790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg3_69
+      rect:
+        serializedVersion: 2
+        x: 2460
+        y: 4352
+        width: 615
+        height: 640
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a61d47d7a18828644a6577c9103bd4ca
+      internalID: -2900604048526981942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg3_70
+      rect:
+        serializedVersion: 2
+        x: 3075
+        y: 4352
+        width: 615
+        height: 640
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1766edeb880e684285a0812b5921a79
+      internalID: 1734146215486916663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg3_71
+      rect:
+        serializedVersion: 2
+        x: 3690
+        y: 4352
+        width: 615
+        height: 640
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e01ce75d85325148b9635e80ed089cc
+      internalID: -7647993197344912876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg3_72
+      rect:
+        serializedVersion: 2
+        x: 4305
+        y: 4352
+        width: 615
+        height: 640
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e103a5624fa5f184a810eda89fefa976
+      internalID: 8103608719212301668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg3_73
+      rect:
+        serializedVersion: 2
+        x: 4920
+        y: 4352
+        width: 615
+        height: 640
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76aad1a8d3e3c1744b0794e2614803ef
+      internalID: 1815270808584647720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg3_74
+      rect:
+        serializedVersion: 2
+        x: 5535
+        y: 4352
+        width: 615
+        height: 640
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 837ce96777580c44db663b6995191c31
+      internalID: -6525733438363837895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg3_75
+      rect:
+        serializedVersion: 2
+        x: 6150
+        y: 4352
+        width: 615
+        height: 640
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07a3f27ce2fa0154ab3e6a2703f48789
+      internalID: 8656702847724256002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg3_76
+      rect:
+        serializedVersion: 2
+        x: 6765
+        y: 4352
+        width: 615
+        height: 640
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: adcd7cb00e93872469eeb813b7467a6a
+      internalID: 3638665859606767219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg3_77
+      rect:
+        serializedVersion: 2
+        x: 7380
+        y: 4352
+        width: 615
+        height: 640
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58376e6d05c76b44aaf1ebc584ff9505
+      internalID: 1348697071908861103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg3_78
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3712
+        width: 615
+        height: 640
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34f792d2bd0c40c48820c7e3947a81ee
+      internalID: -5364702370679764346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg3_79
+      rect:
+        serializedVersion: 2
+        x: 615
+        y: 3712
+        width: 615
+        height: 640
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 384805bff26661d428321e17e78f751b
+      internalID: -6052862946138300866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg3_80
+      rect:
+        serializedVersion: 2
+        x: 1230
+        y: 3712
+        width: 615
+        height: 640
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8a998aefb76d4d4393d5a8c0fa01a9d
+      internalID: -2985193310007152688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg3_81
+      rect:
+        serializedVersion: 2
+        x: 1845
+        y: 3712
+        width: 615
+        height: 640
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ad7414456e8b52499c61bb39722c06d
+      internalID: -1558843126123459980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg3_82
+      rect:
+        serializedVersion: 2
+        x: 2460
+        y: 3712
+        width: 615
+        height: 640
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 515df942d320cb640b771266bc1f5501
+      internalID: -6065194510758756622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg3_83
+      rect:
+        serializedVersion: 2
+        x: 3075
+        y: 3712
+        width: 615
+        height: 640
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e34fb0e040f4f3140ba85f47c06e0dd8
+      internalID: -7486818570197984489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg3_84
+      rect:
+        serializedVersion: 2
+        x: 3690
+        y: 3712
+        width: 615
+        height: 640
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae4b332784b5d1a4dbedf84af3181943
+      internalID: 6814637186981173385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg3_85
+      rect:
+        serializedVersion: 2
+        x: 4305
+        y: 3712
+        width: 615
+        height: 640
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9df233e7b9e3b8d4fb368b41abf27d94
+      internalID: -6222510033162882405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg3_86
+      rect:
+        serializedVersion: 2
+        x: 4920
+        y: 3712
+        width: 615
+        height: 640
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca6678676246aae46a073305213a3ae7
+      internalID: 9026965927536250819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg3_87
+      rect:
+        serializedVersion: 2
+        x: 5535
+        y: 3712
+        width: 615
+        height: 640
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2210fdf4e05436d47b467b71c1549468
+      internalID: -4026198060059038572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg3_88
+      rect:
+        serializedVersion: 2
+        x: 6150
+        y: 3712
+        width: 615
+        height: 640
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7ec92a2d06161c40abd4123bf5b3a97
+      internalID: -2302653462737126471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg3_89
+      rect:
+        serializedVersion: 2
+        x: 6765
+        y: 3712
+        width: 615
+        height: 640
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fcb4970be7559f040a249094e72ef6bb
+      internalID: 2535171415157975605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg3_90
+      rect:
+        serializedVersion: 2
+        x: 7380
+        y: 3712
+        width: 615
+        height: 640
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e5667382d5267049b647ab39030400b
+      internalID: -4970615937589130208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg3_91
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3072
+        width: 615
+        height: 640
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8613f1be031cb1743a005b64bf7f010b
+      internalID: -168615842619024334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg3_92
+      rect:
+        serializedVersion: 2
+        x: 615
+        y: 3072
+        width: 615
+        height: 640
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06dc4755efdd0074194e497c38d5c024
+      internalID: 6275149504264798051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg3_93
+      rect:
+        serializedVersion: 2
+        x: 1230
+        y: 3072
+        width: 615
+        height: 640
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b4e396c087d69741a6b46c35222432f
+      internalID: -5538150691152983398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg3_94
+      rect:
+        serializedVersion: 2
+        x: 1845
+        y: 3072
+        width: 615
+        height: 640
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85076732b1943e548bbcae52fa80443a
+      internalID: 937998395599459601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg3_95
+      rect:
+        serializedVersion: 2
+        x: 2460
+        y: 3072
+        width: 615
+        height: 640
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db7516e905838024a8567446ff4ce4bd
+      internalID: 3454715646143822148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg3_96
+      rect:
+        serializedVersion: 2
+        x: 3075
+        y: 3072
+        width: 615
+        height: 640
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6dfa32366e73d3545bd0efae60c075c0
+      internalID: -421451296272897318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg3_97
+      rect:
+        serializedVersion: 2
+        x: 3690
+        y: 3072
+        width: 615
+        height: 640
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ab6c01bedebf584293434287cc12839
+      internalID: 8533141965374024301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg3_98
+      rect:
+        serializedVersion: 2
+        x: 4305
+        y: 3072
+        width: 615
+        height: 640
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad682eb83acc98b40942acf4c78bdd5f
+      internalID: 4224474783097699558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg3_99
+      rect:
+        serializedVersion: 2
+        x: 4920
+        y: 3072
+        width: 615
+        height: 640
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06737b57622d0ca449a486c145843923
+      internalID: -1926933582240621514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg3_100
+      rect:
+        serializedVersion: 2
+        x: 5535
+        y: 3072
+        width: 615
+        height: 640
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f754f49a3940424db7186642ea02406
+      internalID: -5446070663770352377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg3_101
+      rect:
+        serializedVersion: 2
+        x: 6150
+        y: 3072
+        width: 615
+        height: 640
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 838d45589e5bf7e4fbf45b0d1b9ce5ed
+      internalID: -3046629598292140485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg3_102
+      rect:
+        serializedVersion: 2
+        x: 6765
+        y: 3072
+        width: 615
+        height: 640
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30ef90254c20ca64e8cdee74b1a79c16
+      internalID: 4450695968922171620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg3_103
+      rect:
+        serializedVersion: 2
+        x: 7380
+        y: 3072
+        width: 615
+        height: 640
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 916545b1cf6369941a68f6878b5f3b6a
+      internalID: -7627363057666900095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg3_104
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2432
+        width: 615
+        height: 640
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95fab3e8ad5e164459631149c02b347a
+      internalID: -9088970916366704974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg3_105
+      rect:
+        serializedVersion: 2
+        x: 615
+        y: 2432
+        width: 615
+        height: 640
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49b5948222114cd4690f1702b958f825
+      internalID: -3718375870543605367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg3_106
+      rect:
+        serializedVersion: 2
+        x: 1230
+        y: 2432
+        width: 615
+        height: 640
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc7809e4460b2d843aac07b0abfcaa9f
+      internalID: -7725965561741323131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg3_107
+      rect:
+        serializedVersion: 2
+        x: 1845
+        y: 2432
+        width: 615
+        height: 640
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23a557b43b4192843875755c1f89512c
+      internalID: -5512384677475600038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg3_108
+      rect:
+        serializedVersion: 2
+        x: 2460
+        y: 2432
+        width: 615
+        height: 640
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2aab96ce03af1d4b82894169a9be401
+      internalID: 3591836430940834317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg3_109
+      rect:
+        serializedVersion: 2
+        x: 3075
+        y: 2432
+        width: 615
+        height: 640
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 654190a659cf05844bd04ea1a8878f78
+      internalID: 1945690685603549154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg3_110
+      rect:
+        serializedVersion: 2
+        x: 3690
+        y: 2432
+        width: 615
+        height: 640
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf8803aa9b0feab43adb1a9b149433ee
+      internalID: -4468483021345167633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg3_111
+      rect:
+        serializedVersion: 2
+        x: 4305
+        y: 2432
+        width: 615
+        height: 640
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff98f6903ca31714eaf0eeb9fb0221ec
+      internalID: -3491365577305124944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg3_112
+      rect:
+        serializedVersion: 2
+        x: 4920
+        y: 2432
+        width: 615
+        height: 640
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 483f62386dcaaea47989d3590ff919e4
+      internalID: 3822140511977762250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg3_113
+      rect:
+        serializedVersion: 2
+        x: 5535
+        y: 2432
+        width: 615
+        height: 640
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66e62504f959a0b4ba3c2ccc02c098b0
+      internalID: -673375400940760917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg3_114
+      rect:
+        serializedVersion: 2
+        x: 6150
+        y: 2432
+        width: 615
+        height: 640
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e349434f4512a4e469c0dbb39aa81724
+      internalID: -3099330724660921659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg3_115
+      rect:
+        serializedVersion: 2
+        x: 6765
+        y: 2432
+        width: 615
+        height: 640
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d3a82cef8241fb44be2604700604261
+      internalID: -5566254530116367168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg3_116
+      rect:
+        serializedVersion: 2
+        x: 7380
+        y: 2432
+        width: 615
+        height: 640
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0a1e02b05dd5024ab538d54487080f6
+      internalID: -8351624716864490098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg3_117
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1792
+        width: 615
+        height: 640
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd2f73cd5c51710459f60308f225f61d
+      internalID: -1333668348867371062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg3_118
+      rect:
+        serializedVersion: 2
+        x: 615
+        y: 1792
+        width: 615
+        height: 640
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7136d62d9d7b694ea987448a5bc482b
+      internalID: 7720118488414571553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg3_119
+      rect:
+        serializedVersion: 2
+        x: 1230
+        y: 1792
+        width: 615
+        height: 640
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e13388a58699a04c9b35a2ae616e27e
+      internalID: 2793737312065278528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg3_120
+      rect:
+        serializedVersion: 2
+        x: 1845
+        y: 1792
+        width: 615
+        height: 640
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fabe3ada170299847adee10e186fafec
+      internalID: 9049242101770727571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg3_121
+      rect:
+        serializedVersion: 2
+        x: 2460
+        y: 1792
+        width: 615
+        height: 640
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76735a8ed39ffb84ab5893e95a0916de
+      internalID: -5343482881527105776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg3_122
+      rect:
+        serializedVersion: 2
+        x: 3075
+        y: 1792
+        width: 615
+        height: 640
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a226c5de15449c346a67fb545a7a25db
+      internalID: 7418893136709423214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg3_123
+      rect:
+        serializedVersion: 2
+        x: 3690
+        y: 1792
+        width: 615
+        height: 640
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6804a2e3cac3384db29a2519b9b286c
+      internalID: -4033283506048908308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg3_124
+      rect:
+        serializedVersion: 2
+        x: 4305
+        y: 1792
+        width: 615
+        height: 640
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd704072aa0a32545ad59d80bf9bec56
+      internalID: 6343895602419105725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg3_125
+      rect:
+        serializedVersion: 2
+        x: 4920
+        y: 1792
+        width: 615
+        height: 640
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0f7c43eb58505d4bb6a63c714b1ad76
+      internalID: 2772436812546599872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg3_126
+      rect:
+        serializedVersion: 2
+        x: 5535
+        y: 1792
+        width: 615
+        height: 640
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb75f0383de490345866ce31d5eeca05
+      internalID: 7339752238626052723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg3_127
+      rect:
+        serializedVersion: 2
+        x: 6150
+        y: 1792
+        width: 615
+        height: 640
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c35b85eb79ba8e34f8fe26a3a3d78519
+      internalID: 4652269119629150091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg3_128
+      rect:
+        serializedVersion: 2
+        x: 6765
+        y: 1792
+        width: 615
+        height: 640
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c448bec6941c2044b78250456989b27
+      internalID: -1821225432899132544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg3_129
+      rect:
+        serializedVersion: 2
+        x: 7380
+        y: 1792
+        width: 615
+        height: 640
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4fdcd1afb4826fe459339449f0344d02
+      internalID: 4237610846768133959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg3_130
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1152
+        width: 615
+        height: 640
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4091364e1a45fe945a08c7d52ca57b5e
+      internalID: 1981453016710863300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg3_131
+      rect:
+        serializedVersion: 2
+        x: 615
+        y: 1152
+        width: 615
+        height: 640
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfc3e8b04b4a9354b8726658f62dda1c
+      internalID: -8566112538961606085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg3_132
+      rect:
+        serializedVersion: 2
+        x: 1230
+        y: 1152
+        width: 615
+        height: 640
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ea3c51e816691f44aa82e4bf2ba680f
+      internalID: -104153225181828773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg3_133
+      rect:
+        serializedVersion: 2
+        x: 1845
+        y: 1152
+        width: 615
+        height: 640
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c6ca348027a97a4aa32036c3c168439
+      internalID: -2771029374747652850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg3_134
+      rect:
+        serializedVersion: 2
+        x: 2460
+        y: 1152
+        width: 615
+        height: 640
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9945ea3587cf0942a9b8ce9f267af0c
+      internalID: -1679409845013783309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg3_135
+      rect:
+        serializedVersion: 2
+        x: 3075
+        y: 1152
+        width: 615
+        height: 640
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75d53a99577e0d24eaf72f74afd754a9
+      internalID: -7257943047436868846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg3_136
+      rect:
+        serializedVersion: 2
+        x: 3690
+        y: 1152
+        width: 615
+        height: 640
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b23ea5002d622549bb5e96e5d0e9b8d
+      internalID: 4418789404027991376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg3_137
+      rect:
+        serializedVersion: 2
+        x: 4305
+        y: 1152
+        width: 615
+        height: 640
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2da732d10870fcf4db03806377d27ac4
+      internalID: -301986372842552909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg3_138
+      rect:
+        serializedVersion: 2
+        x: 4920
+        y: 1152
+        width: 615
+        height: 640
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 116e44637d6fa7644b0a3b12a86a9b35
+      internalID: -2887229955984677323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg3_139
+      rect:
+        serializedVersion: 2
+        x: 5535
+        y: 1152
+        width: 615
+        height: 640
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a29efe80df93e0c4f9973cbbdd0bc03e
+      internalID: 5838147492162749949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg3_140
+      rect:
+        serializedVersion: 2
+        x: 6150
+        y: 1152
+        width: 615
+        height: 640
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5fd022f9aaf754c4b839af2ecc444a4f
+      internalID: -6014760129195072155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg3_141
+      rect:
+        serializedVersion: 2
+        x: 6765
+        y: 1152
+        width: 615
+        height: 640
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8c55811b8f63064cabc7e43f097c7bb
+      internalID: -5769820597478021393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg3_142
+      rect:
+        serializedVersion: 2
+        x: 7380
+        y: 1152
+        width: 615
+        height: 640
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb62c204e68d49249b7eda19124f3eb5
+      internalID: 1697833469225434026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg3_143
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 512
+        width: 615
+        height: 640
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 007fcfd814d594b4fa3e482cb5782001
+      internalID: 490650179606271804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg3_144
+      rect:
+        serializedVersion: 2
+        x: 615
+        y: 512
+        width: 615
+        height: 640
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ecb2a027547c604cbf51f045fae5854
+      internalID: 143168308654553749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg3_145
+      rect:
+        serializedVersion: 2
+        x: 1230
+        y: 512
+        width: 615
+        height: 640
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4cf69e6370a7fe4b8c26ed524dda7ec
+      internalID: -3976659017365585787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg3_146
+      rect:
+        serializedVersion: 2
+        x: 1845
+        y: 512
+        width: 615
+        height: 640
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4efc3b457fc932a47802e7ecbad9630b
+      internalID: -6961823443321115941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg3_147
+      rect:
+        serializedVersion: 2
+        x: 2460
+        y: 512
+        width: 615
+        height: 640
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 224e2e541521b6446b246950d8db0c33
+      internalID: -3820641547009723654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg3_148
+      rect:
+        serializedVersion: 2
+        x: 3075
+        y: 512
+        width: 615
+        height: 640
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a4f51a3133156a479d4f1bdfb34c914
+      internalID: 6150299562108386240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg3_149
+      rect:
+        serializedVersion: 2
+        x: 3690
+        y: 512
+        width: 615
+        height: 640
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6187a0eee7b537c45aa6c1cb23bfc8ef
+      internalID: 1896107873345282047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg3_150
+      rect:
+        serializedVersion: 2
+        x: 4305
+        y: 512
+        width: 615
+        height: 640
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36be548169b60b84a90b0e2a49d0fdb9
+      internalID: 942265643261766021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg3_151
+      rect:
+        serializedVersion: 2
+        x: 4920
+        y: 512
+        width: 615
+        height: 640
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e75b2da7a982a9c479a96c49acff6a77
+      internalID: -5690137344575930667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg3_152
+      rect:
+        serializedVersion: 2
+        x: 5535
+        y: 512
+        width: 615
+        height: 640
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc8e8b04e1becdd4786318dffb8fe6fd
+      internalID: -7075713336359741778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg3_153
+      rect:
+        serializedVersion: 2
+        x: 6150
+        y: 512
+        width: 615
+        height: 640
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24407374eb6c5c54f84c5ad5d0fd08ed
+      internalID: -9047444320235978907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg3_154
+      rect:
+        serializedVersion: 2
+        x: 6765
+        y: 512
+        width: 615
+        height: 640
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77b3a570a659fa24080a4a34429bb16b
+      internalID: 4387760754822402732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg3_155
+      rect:
+        serializedVersion: 2
+        x: 7380
+        y: 512
+        width: 615
+        height: 640
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd6225dfa5b34ba41aea4f15a3c995bd
+      internalID: -694598498366767058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: d2407f99fafb62f42a4d52e59ee9ed8e
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

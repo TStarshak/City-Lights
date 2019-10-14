@@ -14,6 +14,7 @@ public class PlayerMovement : MonoBehaviour
     private float sprintMultiplier;
     private bool sprinting;
     public int stamina = 100;
+    public GameObject pauseMenu;
 
     void Start()
     {
@@ -25,29 +26,32 @@ public class PlayerMovement : MonoBehaviour
 
     void Update()
     {
-        if (Input.GetKey(KeyCode.LeftShift))
+        if (pauseMenu.activeInHierarchy == false)
         {
-            StartCoroutine(Sprint());
-        }
-        else
-        {
-            movementSpeed = 10f;
-            sprinting = false;
-        }
+            if (Input.GetKey(KeyCode.LeftShift))
+            {
+                StartCoroutine(Sprint());
+            }
+            else
+            {
+                movementSpeed = 10f;
+                sprinting = false;
+            }
 
-        if(Input.GetKeyUp(KeyCode.LeftShift) || stamina == 0)
-            StartCoroutine(RecoverStamina());
+            if (Input.GetKeyUp(KeyCode.LeftShift) || stamina == 0)
+                StartCoroutine(RecoverStamina());
 
-        float deltaX = Input.GetAxis("Horizontal") * movementSpeed;
-        float deltaZ = Input.GetAxis("Vertical") * movementSpeed;
-        Vector3 movement = new Vector3(deltaX, 0, deltaZ);
-        movement = Vector3.ClampMagnitude(movement, movementSpeed);
-		movement.y = 0f;
-        
-        //Move the character
-		movement *= Time.deltaTime;
-		movement = transform.TransformDirection(movement);
-		_charController.Move(movement);
+            float deltaX = Input.GetAxis("Horizontal") * movementSpeed;
+            float deltaZ = Input.GetAxis("Vertical") * movementSpeed;
+            Vector3 movement = new Vector3(deltaX, 0, deltaZ);
+            movement = Vector3.ClampMagnitude(movement, movementSpeed);
+            movement.y = 0f;
+
+            //Move the character
+            movement *= Time.deltaTime;
+            movement = transform.TransformDirection(movement);
+            _charController.Move(movement);
+        }
     }
 
     
