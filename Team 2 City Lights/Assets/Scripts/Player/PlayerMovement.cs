@@ -10,6 +10,7 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] private GameObject player;
     public float movementSpeed;
     private CharacterController _charController;
+    public GameObject pauseMenu;
    // private float sprintMultiplier;
    // private bool sprinting;
    // public int stamina = 100;
@@ -24,29 +25,31 @@ public class PlayerMovement : MonoBehaviour
 
     void Update()
     {
-       /* if (Input.GetKey(KeyCode.LeftShift))
-        {
-            StartCoroutine(Sprint());
-        }
-        else
-        {
-            movementSpeed = 10f;
-            sprinting = false;
-        }
+        /* if (Input.GetKey(KeyCode.LeftShift))
+         {
+             StartCoroutine(Sprint());
+         }
+         else
+         {
+             movementSpeed = 10f;
+             sprinting = false;
+         }
 
-        if(Input.GetKeyUp(KeyCode.LeftShift) || stamina == 0)
-            StartCoroutine(RecoverStamina()); */
+         if(Input.GetKeyUp(KeyCode.LeftShift) || stamina == 0)
+             StartCoroutine(RecoverStamina()); */
+        if (pauseMenu.activeInHierarchy == false)
+        {
+            float deltaX = Input.GetAxis("Horizontal") * movementSpeed;
+            float deltaZ = Input.GetAxis("Vertical") * movementSpeed;
+            Vector3 movement = new Vector3(deltaX, 0, deltaZ);
+            movement = Vector3.ClampMagnitude(movement, movementSpeed);
+            movement.y = 0f;
 
-        float deltaX = Input.GetAxis("Horizontal") * movementSpeed;
-        float deltaZ = Input.GetAxis("Vertical") * movementSpeed;
-        Vector3 movement = new Vector3(deltaX, 0, deltaZ);
-        movement = Vector3.ClampMagnitude(movement, movementSpeed);
-		movement.y = 0f;
-        
-        //Move the character
-		movement *= Time.deltaTime;
-		movement = transform.TransformDirection(movement);
-		_charController.Move(movement);
+            //Move the character
+            movement *= Time.deltaTime;
+            movement = transform.TransformDirection(movement);
+            _charController.Move(movement);
+        }
     }
 
     
