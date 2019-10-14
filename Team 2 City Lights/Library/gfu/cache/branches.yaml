@@ -9,18 +9,30 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 1666186674, guid: 68c7e4565cde54155bb78d8e935f1ddb, type: 3}
+  m_Script: {fileID: 1666186674, guid: dab95a0f649b42c4a8765e8d45a1d114, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 2
-  lastUpdatedAtString: 2019-10-06T18:56:07.403-04:00
-  initializedAtString: 2019-10-06T18:35:41.490-04:00
+  lastUpdatedAtString: 2019-10-13T20:08:01.452-04:00
+  initializedAtString: 2019-10-13T20:08:01.362-04:00
   localBranches:
+  - name: AssetImplementation
+    tracking: 
   - name: lighting
     tracking: 
   - name: master
     tracking: origin/master
+  - name: PostProcessing
+    tracking: 
   remoteBranches:
+  - name: origin/AssetImplementation
+    tracking: '[None]'
+  - name: origin/City
+    tracking: '[None]'
+  - name: origin/enemyEdits
+    tracking: '[None]'
+  - name: origin/fireflies
+    tracking: '[None]'
   - name: origin/HEAD
     tracking: '[None]'
   - name: origin/lighting
@@ -28,6 +40,8 @@ MonoBehaviour:
   - name: origin/master
     tracking: '[None]'
   - name: origin/option-menu-attempt
+    tracking: '[None]'
+  - name: origin/PostProcessing
     tracking: '[None]'
   - name: origin/spawnEdits
     tracking: '[None]'
@@ -43,9 +57,16 @@ MonoBehaviour:
     token: 
   localConfigBranches:
     keys:
+    - AssetImplementation
     - lighting
     - master
+    - PostProcessing
     values:
+    - name: AssetImplementation
+      remote:
+        name: 
+        url: 
+      trackingBranch: 
     - name: lighting
       remote:
         name: 
@@ -56,19 +77,49 @@ MonoBehaviour:
         name: origin
         url: https://csecode.case.edu/academic/eecs-390/team2
       trackingBranch: master
+    - name: PostProcessing
+      remote:
+        name: 
+        url: 
+      trackingBranch: 
   remoteConfigBranches:
     keys:
     - origin
     subKeys:
     - Values:
+      - AssetImplementation
+      - City
+      - enemyEdits
+      - fireflies
       - HEAD
       - lighting
       - master
       - option-menu-attempt
+      - PostProcessing
       - spawnEdits
       - world-generation
     subKeyValues:
     - Values:
+      - name: AssetImplementation
+        remote:
+          name: origin
+          url: https://csecode.case.edu/academic/eecs-390/team2
+        trackingBranch: 
+      - name: City
+        remote:
+          name: origin
+          url: https://csecode.case.edu/academic/eecs-390/team2
+        trackingBranch: 
+      - name: enemyEdits
+        remote:
+          name: origin
+          url: https://csecode.case.edu/academic/eecs-390/team2
+        trackingBranch: 
+      - name: fireflies
+        remote:
+          name: origin
+          url: https://csecode.case.edu/academic/eecs-390/team2
+        trackingBranch: 
       - name: HEAD
         remote:
           name: origin
@@ -85,6 +136,11 @@ MonoBehaviour:
           url: https://csecode.case.edu/academic/eecs-390/team2
         trackingBranch: 
       - name: option-menu-attempt
+        remote:
+          name: origin
+          url: https://csecode.case.edu/academic/eecs-390/team2
+        trackingBranch: 
+      - name: PostProcessing
         remote:
           name: origin
           url: https://csecode.case.edu/academic/eecs-390/team2
