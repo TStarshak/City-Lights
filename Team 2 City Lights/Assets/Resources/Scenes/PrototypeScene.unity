@@ -17,7 +17,7 @@ RenderSettings:
   m_Fog: 1
   m_FogColor: {r: 0.6226415, g: 0.6226415, b: 0.6226415, a: 1}
   m_FogMode: 3
-  m_FogDensity: 0.0001
+  m_FogDensity: 0.005
   m_LinearFogStart: 0
   m_LinearFogEnd: 300
   m_AmbientSkyColor: {r: 0.08393055, g: 0.060074758, b: 0.16981131, a: 1}
@@ -28,7 +28,7 @@ RenderSettings:
   m_SubtractiveShadowColor: {r: 0.42, g: 0.478, b: 0.627, a: 1}
   m_SkyboxMaterial: {fileID: 10304, guid: 0000000000000000f000000000000000, type: 0}
   m_HaloStrength: 0.33
-  m_FlareStrength: 1
+  m_FlareStrength: 0.784
   m_FlareFadeSpeed: 5
   m_HaloTexture: {fileID: 0}
   m_SpotCookie: {fileID: 10001, guid: 0000000000000000e000000000000000, type: 0}
@@ -842,7 +842,7 @@ MonoBehaviour:
     m_Bits: 512
   stopNaNPropagation: 1
   finalBlitToCameraTarget: 0
-  antialiasingMode: 0
+  antialiasingMode: 3
   temporalAntialiasing:
     jitterSpread: 0.75
     sharpness: 0.25
@@ -6822,7 +6822,7 @@ MonoBehaviour:
   sharedProfile: {fileID: 11400000, guid: a2cb7b14784e6384291d20e3876a3d82, type: 2}
   isGlobal: 1
   blendDistance: 0
-  weight: 1
+  weight: 0.753
   priority: 0
 --- !u!4 &2104219273
 Transform:
