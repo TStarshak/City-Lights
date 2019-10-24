@@ -1,0 +1,3751 @@
+fileFormatVersion: 2
+guid: dc71c8bc3c4364740a7704660399cbf7
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 9165134874196855349
+    second: collectionbar_0
+  - first:
+      213: -2600712770353556010
+    second: collectionbar_1
+  - first:
+      213: 8330786081328115315
+    second: collectionbar_2
+  - first:
+      213: 3538541837767012348
+    second: collectionbar_3
+  - first:
+      213: 5179274300428267337
+    second: collectionbar_4
+  - first:
+      213: -8756911094259862630
+    second: collectionbar_5
+  - first:
+      213: 6225748769626862058
+    second: collectionbar_6
+  - first:
+      213: -7134535793501318763
+    second: collectionbar_7
+  - first:
+      213: 2367015867899786540
+    second: collectionbar_8
+  - first:
+      213: 4695968750566385296
+    second: collectionbar_9
+  - first:
+      213: -910972181410561314
+    second: collectionbar_10
+  - first:
+      213: -950020421062218892
+    second: collectionbar_11
+  - first:
+      213: 1759316816831663579
+    second: collectionbar_12
+  - first:
+      213: -4409656949963171788
+    second: collectionbar_13
+  - first:
+      213: -6896646031554982543
+    second: collectionbar_14
+  - first:
+      213: -3136470121920205806
+    second: collectionbar_15
+  - first:
+      213: 6510261644259785729
+    second: collectionbar_16
+  - first:
+      213: -6796778601246169914
+    second: collectionbar_17
+  - first:
+      213: -4199312565477471644
+    second: collectionbar_18
+  - first:
+      213: 5087886166916933510
+    second: collectionbar_19
+  - first:
+      213: 1576141628937057674
+    second: collectionbar_20
+  - first:
+      213: 5850467207134831510
+    second: collectionbar_21
+  - first:
+      213: 4809071428241334237
+    second: collectionbar_22
+  - first:
+      213: -8796473317195953949
+    second: collectionbar_23
+  - first:
+      213: -8547416161254303770
+    second: collectionbar_24
+  - first:
+      213: 6765969003459092616
+    second: collectionbar_25
+  - first:
+      213: -4964139590122039631
+    second: collectionbar_26
+  - first:
+      213: -6213919972363797703
+    second: collectionbar_27
+  - first:
+      213: -8305311706215633253
+    second: collectionbar_28
+  - first:
+      213: 7556006016623419478
+    second: collectionbar_29
+  - first:
+      213: 3564283449381868955
+    second: collectionbar_30
+  - first:
+      213: -4158832964579959230
+    second: collectionbar_31
+  - first:
+      213: -212887479584712459
+    second: collectionbar_32
+  - first:
+      213: 1649796839250546834
+    second: collectionbar_33
+  - first:
+      213: -2409451662340735825
+    second: collectionbar_34
+  - first:
+      213: -2686492564393311844
+    second: collectionbar_35
+  - first:
+      213: -7036100798074167092
+    second: collectionbar_36
+  - first:
+      213: -6867127051946651014
+    second: collectionbar_37
+  - first:
+      213: -1697716176003326061
+    second: collectionbar_38
+  - first:
+      213: -2510631291686823973
+    second: collectionbar_39
+  - first:
+      213: 7542252032838511993
+    second: collectionbar_40
+  - first:
+      213: 3858969024289810311
+    second: collectionbar_41
+  - first:
+      213: -7549998003426505269
+    second: collectionbar_42
+  - first:
+      213: 6695624047109933873
+    second: collectionbar_43
+  - first:
+      213: 1295127955224642980
+    second: collectionbar_44
+  - first:
+      213: 280728756599589594
+    second: collectionbar_45
+  - first:
+      213: 4975258702782358229
+    second: collectionbar_46
+  - first:
+      213: 8973436380962498790
+    second: collectionbar_47
+  - first:
+      213: 9096069459116200289
+    second: collectionbar_48
+  - first:
+      213: -4750344639262331575
+    second: collectionbar_49
+  - first:
+      213: 6063341534128398736
+    second: collectionbar_50
+  - first:
+      213: 2251743658863602882
+    second: collectionbar_51
+  - first:
+      213: 3505822286903750312
+    second: collectionbar_52
+  - first:
+      213: 8458681391058805859
+    second: collectionbar_53
+  - first:
+      213: -905972956854794781
+    second: collectionbar_54
+  - first:
+      213: -8346404035571086988
+    second: collectionbar_55
+  - first:
+      213: 2710505586839476047
+    second: collectionbar_56
+  - first:
+      213: -2620523009142619428
+    second: collectionbar_57
+  - first:
+      213: 2867131367565117308
+    second: collectionbar_58
+  - first:
+      213: -5417207654922744993
+    second: collectionbar_59
+  - first:
+      213: 2188152483296575531
+    second: collectionbar_60
+  - first:
+      213: -9170538437997498343
+    second: collectionbar_61
+  - first:
+      213: -5312840841837376623
+    second: collectionbar_62
+  - first:
+      213: 3036261709549190556
+    second: collectionbar_63
+  - first:
+      213: 794384656621997745
+    second: collectionbar_64
+  - first:
+      213: 7473778105112545501
+    second: collectionbar_65
+  - first:
+      213: 662427332984526260
+    second: collectionbar_66
+  - first:
+      213: -8504998822658680200
+    second: collectionbar_67
+  - first:
+      213: 6952717837970428775
+    second: collectionbar_68
+  - first:
+      213: -1404224453978182322
+    second: collectionbar_69
+  - first:
+      213: 6826383668598271155
+    second: collectionbar_70
+  - first:
+      213: -3344374354132782786
+    second: collectionbar_71
+  - first:
+      213: 1242705548508153625
+    second: collectionbar_72
+  - first:
+      213: 8009722786993920615
+    second: collectionbar_73
+  - first:
+      213: -8808095305423073195
+    second: collectionbar_74
+  - first:
+      213: 5679177435531635690
+    second: collectionbar_75
+  - first:
+      213: 5193894410979672273
+    second: collectionbar_76
+  - first:
+      213: 1605233629326907300
+    second: collectionbar_77
+  - first:
+      213: -8517481755616157746
+    second: collectionbar_78
+  - first:
+      213: -6408344102480313984
+    second: collectionbar_79
+  - first:
+      213: 3017991214258431524
+    second: collectionbar_80
+  - first:
+      213: -7155564331079617787
+    second: collectionbar_81
+  - first:
+      213: -7708307746196762116
+    second: collectionbar_82
+  - first:
+      213: 3068724670706087993
+    second: collectionbar_83
+  - first:
+      213: 1367978720272075472
+    second: collectionbar_84
+  - first:
+      213: 5957720911624180955
+    second: collectionbar_85
+  - first:
+      213: -4340316821278290020
+    second: collectionbar_86
+  - first:
+      213: 7298923288547927048
+    second: collectionbar_87
+  - first:
+      213: -8664968766472349440
+    second: collectionbar_88
+  - first:
+      213: 4225546754736389389
+    second: collectionbar_89
+  - first:
+      213: 5000891097418953343
+    second: collectionbar_90
+  - first:
+      213: -8234347664496909273
+    second: collectionbar_91
+  - first:
+      213: -4501809740352379056
+    second: collectionbar_92
+  - first:
+      213: -3742974262605171699
+    second: collectionbar_93
+  - first:
+      213: 34066513728664545
+    second: collectionbar_94
+  - first:
+      213: -3884096072928403537
+    second: collectionbar_95
+  - first:
+      213: -4305682061963472761
+    second: collectionbar_96
+  - first:
+      213: -1783183928155120201
+    second: collectionbar_97
+  - first:
+      213: -7824320701723482906
+    second: collectionbar_98
+  - first:
+      213: 5870390991022187528
+    second: collectionbar_99
+  - first:
+      213: 487011832562080038
+    second: collectionbar_100
+  - first:
+      213: 5616898495981732584
+    second: collectionbar_101
+  - first:
+      213: -2441854254007469144
+    second: collectionbar_102
+  - first:
+      213: 6637022400892140411
+    second: collectionbar_103
+  - first:
+      213: 6015285772715259124
+    second: collectionbar_104
+  - first:
+      213: 1563789026494280048
+    second: collectionbar_105
+  - first:
+      213: 3015105826432373088
+    second: collectionbar_106
+  - first:
+      213: 7658392574961459990
+    second: collectionbar_107
+  - first:
+      213: -6752966379760398025
+    second: collectionbar_108
+  - first:
+      213: -1158570568149093292
+    second: collectionbar_109
+  - first:
+      213: 4302909384633413765
+    second: collectionbar_110
+  - first:
+      213: 5794475349978178372
+    second: collectionbar_111
+  - first:
+      213: 488799703221575115
+    second: collectionbar_112
+  - first:
+      213: -4253174480638999994
+    second: collectionbar_113
+  - first:
+      213: -6324414241876566228
+    second: collectionbar_114
+  - first:
+      213: -3507003367146522463
+    second: collectionbar_115
+  - first:
+      213: -2261634627174193189
+    second: collectionbar_116
+  - first:
+      213: 11607922044360457
+    second: collectionbar_117
+  - first:
+      213: 5328762085710668344
+    second: collectionbar_118
+  - first:
+      213: -2747535619734831337
+    second: collectionbar_119
+  - first:
+      213: 5418505212148558021
+    second: collectionbar_120
+  - first:
+      213: 4255910106444393062
+    second: collectionbar_121
+  - first:
+      213: -4925808147041228766
+    second: collectionbar_122
+  - first:
+      213: -8572560198896447844
+    second: collectionbar_123
+  - first:
+      213: -1780627623727470543
+    second: collectionbar_124
+  - first:
+      213: -725712043142555021
+    second: collectionbar_125
+  - first:
+      213: 4374646793374116759
+    second: collectionbar_126
+  - first:
+      213: -812521952742645754
+    second: collectionbar_127
+  - first:
+      213: 4716091963615029813
+    second: collectionbar_128
+  - first:
+      213: 8821221026648668872
+    second: collectionbar_129
+  - first:
+      213: 1094093867541681620
+    second: collectionbar_130
+  - first:
+      213: 282203082747219415
+    second: collectionbar_131
+  - first:
+      213: -6513075340848825751
+    second: collectionbar_132
+  - first:
+      213: 4901249224036431860
+    second: collectionbar_133
+  - first:
+      213: -2707763120102538477
+    second: collectionbar_134
+  - first:
+      213: -2045631903012136718
+    second: collectionbar_135
+  - first:
+      213: 5920299471570028670
+    second: collectionbar_136
+  - first:
+      213: 2533357711683353205
+    second: collectionbar_137
+  - first:
+      213: -8450354089266168148
+    second: collectionbar_138
+  - first:
+      213: 5494569948737190
+    second: collectionbar_139
+  - first:
+      213: 2733324941440884145
+    second: collectionbar_140
+  - first:
+      213: 6385537311262154632
+    second: collectionbar_141
+  - first:
+      213: 919800239638044951
+    second: collectionbar_142
+  - first:
+      213: -1938011890002891968
+    second: collectionbar_143
+  - first:
+      213: -1653431910910180684
+    second: collectionbar_144
+  - first:
+      213: -206913471081003599
+    second: collectionbar_145
+  - first:
+      213: 549091172641465058
+    second: collectionbar_146
+  - first:
+      213: 923597056382533957
+    second: collectionbar_147
+  - first:
+      213: -2199159919385422086
+    second: collectionbar_148
+  - first:
+      213: -9063511818896800478
+    second: collectionbar_149
+  - first:
+      213: 4801906685208412293
+    second: collectionbar_150
+  - first:
+      213: -3733032335517555764
+    second: collectionbar_151
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: -1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: collectionbar_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 7990
+        width: 988
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6cfdcf0321f1a2c4f928db4c0c6f3dec
+      internalID: 9165134874196855349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: collectionbar_1
+      rect:
+        serializedVersion: 2
+        x: 988
+        y: 7990
+        width: 988
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c876b1137f3e094fa3b65184b6b2f26
+      internalID: -2600712770353556010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: collectionbar_2
+      rect:
+        serializedVersion: 2
+        x: 1976
+        y: 7990
+        width: 988
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a54924a0a86bace4aa1480ebecfe0a46
+      internalID: 8330786081328115315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: collectionbar_3
+      rect:
+        serializedVersion: 2
+        x: 2964
+        y: 7990
+        width: 988
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d8c736629ee2df479f36b32ece0f6a0
+      internalID: 3538541837767012348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: collectionbar_4
+      rect:
+        serializedVersion: 2
+        x: 3952
+        y: 7990
+        width: 988
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc2d7a22ed3fbc445a8f47da91639d9c
+      internalID: 5179274300428267337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: collectionbar_5
+      rect:
+        serializedVersion: 2
+        x: 4940
+        y: 7990
+        width: 988
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d95d090d935e2464caabe23e2edbb547
+      internalID: -8756911094259862630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: collectionbar_6
+      rect:
+        serializedVersion: 2
+        x: 5928
+        y: 7990
+        width: 988
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f124dd80aef070f4dbc51deb9c08b384
+      internalID: 6225748769626862058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: collectionbar_7
+      rect:
+        serializedVersion: 2
+        x: 6916
+        y: 7990
+        width: 988
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 350212e5f3ce5c049b012f58ccd6ecd4
+      internalID: -7134535793501318763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: collectionbar_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 7788
+        width: 988
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ccd2c670cf5ab4a4199610f7a92cd917
+      internalID: 2367015867899786540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: collectionbar_9
+      rect:
+        serializedVersion: 2
+        x: 988
+        y: 7788
+        width: 988
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52f43b371d1012c468d0635ecd9abba6
+      internalID: 4695968750566385296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: collectionbar_10
+      rect:
+        serializedVersion: 2
+        x: 1976
+        y: 7788
+        width: 988
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56bb2aef7fd13b7479c0ccb36f1e4337
+      internalID: -910972181410561314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: collectionbar_11
+      rect:
+        serializedVersion: 2
+        x: 2964
+        y: 7788
+        width: 988
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f890373affbc51a4d9d4a2c9c5a7b61f
+      internalID: -950020421062218892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: collectionbar_12
+      rect:
+        serializedVersion: 2
+        x: 3952
+        y: 7788
+        width: 988
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f740dda0a35b5c6498bec3f0c1ca8fcd
+      internalID: 1759316816831663579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: collectionbar_13
+      rect:
+        serializedVersion: 2
+        x: 4940
+        y: 7788
+        width: 988
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a9010320a15b1a499be3a7faa9f2155
+      internalID: -4409656949963171788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: collectionbar_14
+      rect:
+        serializedVersion: 2
+        x: 5928
+        y: 7788
+        width: 988
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7e683dea4b11a94c994827c28c45016
+      internalID: -6896646031554982543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: collectionbar_15
+      rect:
+        serializedVersion: 2
+        x: 6916
+        y: 7788
+        width: 988
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60a1ead8eefb04e469511d5f046a14ce
+      internalID: -3136470121920205806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: collectionbar_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 7586
+        width: 988
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03448742516fae64bace81049953fee3
+      internalID: 6510261644259785729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: collectionbar_17
+      rect:
+        serializedVersion: 2
+        x: 988
+        y: 7586
+        width: 988
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d04e79e62ff87d40be6eb2f42844f05
+      internalID: -6796778601246169914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: collectionbar_18
+      rect:
+        serializedVersion: 2
+        x: 1976
+        y: 7586
+        width: 988
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ff7fe96cbbdb2c4087a4156a88e8ac6
+      internalID: -4199312565477471644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: collectionbar_19
+      rect:
+        serializedVersion: 2
+        x: 2964
+        y: 7586
+        width: 988
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d98f26989ae40440b1e8a55938e0fef
+      internalID: 5087886166916933510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: collectionbar_20
+      rect:
+        serializedVersion: 2
+        x: 3952
+        y: 7586
+        width: 988
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04c0f6a06020e8a429f2a5133c863f7c
+      internalID: 1576141628937057674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: collectionbar_21
+      rect:
+        serializedVersion: 2
+        x: 4940
+        y: 7586
+        width: 988
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5494fcc6c5b393c4d818656cef9d05ae
+      internalID: 5850467207134831510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: collectionbar_22
+      rect:
+        serializedVersion: 2
+        x: 5928
+        y: 7586
+        width: 988
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3203e7974e756084bab19336297ad707
+      internalID: 4809071428241334237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: collectionbar_23
+      rect:
+        serializedVersion: 2
+        x: 6916
+        y: 7586
+        width: 988
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 843aba4e0f1f8f34db81276b2c9d956c
+      internalID: -8796473317195953949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: collectionbar_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 7384
+        width: 988
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ae168e9cfd6d3c4caba565f241abbcc
+      internalID: -8547416161254303770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: collectionbar_25
+      rect:
+        serializedVersion: 2
+        x: 988
+        y: 7384
+        width: 988
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb50bcf2e25f55f46bdfcea8e106e299
+      internalID: 6765969003459092616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: collectionbar_26
+      rect:
+        serializedVersion: 2
+        x: 1976
+        y: 7384
+        width: 988
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da4274a9b4767d34cae0719cd0423331
+      internalID: -4964139590122039631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: collectionbar_27
+      rect:
+        serializedVersion: 2
+        x: 2964
+        y: 7384
+        width: 988
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ead27c79a0748a469a00724cf71375b
+      internalID: -6213919972363797703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: collectionbar_28
+      rect:
+        serializedVersion: 2
+        x: 3952
+        y: 7384
+        width: 988
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ee893d29bf9c5446a92abbbbc5ba2b8
+      internalID: -8305311706215633253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: collectionbar_29
+      rect:
+        serializedVersion: 2
+        x: 4940
+        y: 7384
+        width: 988
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5865b6253abe10945812d8069bfa2c0a
+      internalID: 7556006016623419478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: collectionbar_30
+      rect:
+        serializedVersion: 2
+        x: 5928
+        y: 7384
+        width: 988
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae56b59659f6c3347ae5e15d85447310
+      internalID: 3564283449381868955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: collectionbar_31
+      rect:
+        serializedVersion: 2
+        x: 6916
+        y: 7384
+        width: 988
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 722549b440448564790a870c5d1bf482
+      internalID: -4158832964579959230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: collectionbar_32
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 7182
+        width: 988
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b42801d50f8d74c4ba1731a89e44dee6
+      internalID: -212887479584712459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: collectionbar_33
+      rect:
+        serializedVersion: 2
+        x: 988
+        y: 7182
+        width: 988
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2472f352d920964c909427e3eee69bd
+      internalID: 1649796839250546834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: collectionbar_34
+      rect:
+        serializedVersion: 2
+        x: 1976
+        y: 7182
+        width: 988
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f92101254e20ec74688ddffad8f0a049
+      internalID: -2409451662340735825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: collectionbar_35
+      rect:
+        serializedVersion: 2
+        x: 2964
+        y: 7182
+        width: 988
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 527ba218e93c8974d9e102ccc81b990e
+      internalID: -2686492564393311844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: collectionbar_36
+      rect:
+        serializedVersion: 2
+        x: 3952
+        y: 7182
+        width: 988
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b048c2a6443bc2b4c8c7773564301bd1
+      internalID: -7036100798074167092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: collectionbar_37
+      rect:
+        serializedVersion: 2
+        x: 4940
+        y: 7182
+        width: 988
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6843d66e2542f06418d1085611c28216
+      internalID: -6867127051946651014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: collectionbar_38
+      rect:
+        serializedVersion: 2
+        x: 5928
+        y: 7182
+        width: 988
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68fc778b14ff05448ae8c93b30a76298
+      internalID: -1697716176003326061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: collectionbar_39
+      rect:
+        serializedVersion: 2
+        x: 6916
+        y: 7182
+        width: 988
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abd4fd662fbcc1c4cb96ef3b06bb4717
+      internalID: -2510631291686823973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: collectionbar_40
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 6980
+        width: 988
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eaaf7b5f545cb4c468906c7bc16e9a30
+      internalID: 7542252032838511993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: collectionbar_41
+      rect:
+        serializedVersion: 2
+        x: 988
+        y: 6980
+        width: 988
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a1c9f12eddf357458f89334e98b384e
+      internalID: 3858969024289810311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: collectionbar_42
+      rect:
+        serializedVersion: 2
+        x: 1976
+        y: 6980
+        width: 988
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b874a02a22f74db469abb65165d7234b
+      internalID: -7549998003426505269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: collectionbar_43
+      rect:
+        serializedVersion: 2
+        x: 2964
+        y: 6980
+        width: 988
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 301749e37c411984d9d5ef456637dba2
+      internalID: 6695624047109933873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: collectionbar_44
+      rect:
+        serializedVersion: 2
+        x: 3952
+        y: 6980
+        width: 988
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47d88796b9c7e1b46928ceb86ae189ef
+      internalID: 1295127955224642980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: collectionbar_45
+      rect:
+        serializedVersion: 2
+        x: 4940
+        y: 6980
+        width: 988
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79c51e3637b9f6c4790b5ed1a2518551
+      internalID: 280728756599589594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: collectionbar_46
+      rect:
+        serializedVersion: 2
+        x: 5928
+        y: 6980
+        width: 988
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 873d0243c20fad140a5dee22ec42219c
+      internalID: 4975258702782358229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: collectionbar_47
+      rect:
+        serializedVersion: 2
+        x: 6916
+        y: 6980
+        width: 988
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7fd97cc1066e3dc4daffa378a9887f70
+      internalID: 8973436380962498790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: collectionbar_48
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 6778
+        width: 988
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 092ef328e4098db4097887e76ae3f5e5
+      internalID: 9096069459116200289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: collectionbar_49
+      rect:
+        serializedVersion: 2
+        x: 988
+        y: 6778
+        width: 988
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f89ba2c83dc8de6479d3a8c655988007
+      internalID: -4750344639262331575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: collectionbar_50
+      rect:
+        serializedVersion: 2
+        x: 1976
+        y: 6778
+        width: 988
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d4b74d942edd93408023d51ada63e4e
+      internalID: 6063341534128398736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: collectionbar_51
+      rect:
+        serializedVersion: 2
+        x: 2964
+        y: 6778
+        width: 988
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f57196c6a9a551849a1dbb743ccdaeb5
+      internalID: 2251743658863602882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: collectionbar_52
+      rect:
+        serializedVersion: 2
+        x: 3952
+        y: 6778
+        width: 988
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9888ffc3e04315d46a7ae8a414ba4885
+      internalID: 3505822286903750312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: collectionbar_53
+      rect:
+        serializedVersion: 2
+        x: 4940
+        y: 6778
+        width: 988
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a89c9691b3f6934caf6458c3a2202b5
+      internalID: 8458681391058805859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: collectionbar_54
+      rect:
+        serializedVersion: 2
+        x: 5928
+        y: 6778
+        width: 988
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61c4f29cc218c1e4b9c58e7a149c09c3
+      internalID: -905972956854794781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: collectionbar_55
+      rect:
+        serializedVersion: 2
+        x: 6916
+        y: 6778
+        width: 988
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33fbfb83bcb300040b6880d2a15e19cc
+      internalID: -8346404035571086988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: collectionbar_56
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 6576
+        width: 988
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5832f26a7907f2d49b5619ecea0b228e
+      internalID: 2710505586839476047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: collectionbar_57
+      rect:
+        serializedVersion: 2
+        x: 988
+        y: 6576
+        width: 988
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af3c6874cd3aff44ebe66cfc9d46f78e
+      internalID: -2620523009142619428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: collectionbar_58
+      rect:
+        serializedVersion: 2
+        x: 1976
+        y: 6576
+        width: 988
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2b0cfc5e2ba1f34aa21df29345ffb52
+      internalID: 2867131367565117308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: collectionbar_59
+      rect:
+        serializedVersion: 2
+        x: 2964
+        y: 6576
+        width: 988
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a82d209ae782f864885ca990404abdb5
+      internalID: -5417207654922744993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: collectionbar_60
+      rect:
+        serializedVersion: 2
+        x: 3952
+        y: 6576
+        width: 988
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e56c6b1ba1fc02c479a1a21c31484d01
+      internalID: 2188152483296575531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: collectionbar_61
+      rect:
+        serializedVersion: 2
+        x: 4940
+        y: 6576
+        width: 988
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15d853de569948a45b9de0d2c43d354d
+      internalID: -9170538437997498343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: collectionbar_62
+      rect:
+        serializedVersion: 2
+        x: 5928
+        y: 6576
+        width: 988
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 958812fa59078174e8600b9afb5c46af
+      internalID: -5312840841837376623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: collectionbar_63
+      rect:
+        serializedVersion: 2
+        x: 6916
+        y: 6576
+        width: 988
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 385888d5c51ccbd4d8a442e83819edcb
+      internalID: 3036261709549190556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: collectionbar_64
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 6374
+        width: 988
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0cbe854e0bf55e342a493fbba4662d54
+      internalID: 794384656621997745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: collectionbar_65
+      rect:
+        serializedVersion: 2
+        x: 988
+        y: 6374
+        width: 988
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee2e917c0e4c9be4382edffcdcdfcfcf
+      internalID: 7473778105112545501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: collectionbar_66
+      rect:
+        serializedVersion: 2
+        x: 1976
+        y: 6374
+        width: 988
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f958a9563d2d1dc4992a5aded0f14ea7
+      internalID: 662427332984526260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: collectionbar_67
+      rect:
+        serializedVersion: 2
+        x: 2964
+        y: 6374
+        width: 988
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e11ae158775585418dfbeedb67a172a
+      internalID: -8504998822658680200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: collectionbar_68
+      rect:
+        serializedVersion: 2
+        x: 3952
+        y: 6374
+        width: 988
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 205d19ffaece6df4794b895856403fd1
+      internalID: 6952717837970428775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: collectionbar_69
+      rect:
+        serializedVersion: 2
+        x: 4940
+        y: 6374
+        width: 988
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b3f79f91fe5d774b9790314708deead
+      internalID: -1404224453978182322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: collectionbar_70
+      rect:
+        serializedVersion: 2
+        x: 5928
+        y: 6374
+        width: 988
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c66497dd2810944458bd68e8d0212bbf
+      internalID: 6826383668598271155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: collectionbar_71
+      rect:
+        serializedVersion: 2
+        x: 6916
+        y: 6374
+        width: 988
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 128d3d97a6c2fec46b78f94d72261557
+      internalID: -3344374354132782786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: collectionbar_72
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 6172
+        width: 988
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf19b2c04d51c9a479599252a34b3a5b
+      internalID: 1242705548508153625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: collectionbar_73
+      rect:
+        serializedVersion: 2
+        x: 988
+        y: 6172
+        width: 988
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f20fb79393552984fae322729ae014d1
+      internalID: 8009722786993920615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: collectionbar_74
+      rect:
+        serializedVersion: 2
+        x: 1976
+        y: 6172
+        width: 988
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c032f46885df57d44be67f984642abfe
+      internalID: -8808095305423073195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: collectionbar_75
+      rect:
+        serializedVersion: 2
+        x: 2964
+        y: 6172
+        width: 988
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de5fee9cbd94375469bfe1ac19c9d924
+      internalID: 5679177435531635690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: collectionbar_76
+      rect:
+        serializedVersion: 2
+        x: 3952
+        y: 6172
+        width: 988
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eee5bcaa1a13bdf40a15cceb5802d3cd
+      internalID: 5193894410979672273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: collectionbar_77
+      rect:
+        serializedVersion: 2
+        x: 4940
+        y: 6172
+        width: 988
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e92d132c0c09cf4098c8e6fd4015088
+      internalID: 1605233629326907300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: collectionbar_78
+      rect:
+        serializedVersion: 2
+        x: 5928
+        y: 6172
+        width: 988
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec1272bb46911a04bacbd37404a0e5a4
+      internalID: -8517481755616157746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: collectionbar_79
+      rect:
+        serializedVersion: 2
+        x: 6916
+        y: 6172
+        width: 988
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd5fffe03c99f8f44ab8ae830c83477e
+      internalID: -6408344102480313984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: collectionbar_80
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 5970
+        width: 988
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb03e6c6e003b8d4aab39a71cfc8a031
+      internalID: 3017991214258431524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: collectionbar_81
+      rect:
+        serializedVersion: 2
+        x: 988
+        y: 5970
+        width: 988
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18b561f38c13fa84fa8d4d4d942ecd89
+      internalID: -7155564331079617787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: collectionbar_82
+      rect:
+        serializedVersion: 2
+        x: 1976
+        y: 5970
+        width: 988
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29e3c4b94dd406944b06bd3ee171f301
+      internalID: -7708307746196762116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: collectionbar_83
+      rect:
+        serializedVersion: 2
+        x: 2964
+        y: 5970
+        width: 988
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f352b4ef0650f74aa423aa292fb6ee0
+      internalID: 3068724670706087993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: collectionbar_84
+      rect:
+        serializedVersion: 2
+        x: 3952
+        y: 5970
+        width: 988
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1fa6aa5d1d8b4534290ae4b2d770cde9
+      internalID: 1367978720272075472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: collectionbar_85
+      rect:
+        serializedVersion: 2
+        x: 4940
+        y: 5970
+        width: 988
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 337f9528ef27905498778d906379f16a
+      internalID: 5957720911624180955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: collectionbar_86
+      rect:
+        serializedVersion: 2
+        x: 5928
+        y: 5970
+        width: 988
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea6403932a56ae742a794aad2e324dbd
+      internalID: -4340316821278290020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: collectionbar_87
+      rect:
+        serializedVersion: 2
+        x: 6916
+        y: 5970
+        width: 988
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5b31d6a760391d40b4c9c950aa9e3d2
+      internalID: 7298923288547927048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: collectionbar_88
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 5768
+        width: 988
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78ba9c880d21e5e4d8d3f4e7c4cafcbd
+      internalID: -8664968766472349440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: collectionbar_89
+      rect:
+        serializedVersion: 2
+        x: 988
+        y: 5768
+        width: 988
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ec1c2d39f6e8254da953bc62a930cc5
+      internalID: 4225546754736389389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: collectionbar_90
+      rect:
+        serializedVersion: 2
+        x: 1976
+        y: 5768
+        width: 988
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82baaa1248b6a2e47876f6ec6f582599
+      internalID: 5000891097418953343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: collectionbar_91
+      rect:
+        serializedVersion: 2
+        x: 2964
+        y: 5768
+        width: 988
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 621a61e969b702447b9a00bc56b45e88
+      internalID: -8234347664496909273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: collectionbar_92
+      rect:
+        serializedVersion: 2
+        x: 3952
+        y: 5768
+        width: 988
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c773ae5f701cb8340b61d757b6a126f1
+      internalID: -4501809740352379056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: collectionbar_93
+      rect:
+        serializedVersion: 2
+        x: 4940
+        y: 5768
+        width: 988
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27e626140354b3741876ab8ab6d1a5e9
+      internalID: -3742974262605171699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: collectionbar_94
+      rect:
+        serializedVersion: 2
+        x: 5928
+        y: 5768
+        width: 988
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 801b411ad660c0c44a4b7396459b2ccd
+      internalID: 34066513728664545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: collectionbar_95
+      rect:
+        serializedVersion: 2
+        x: 6916
+        y: 5768
+        width: 988
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c31563bf6a6d2545abd9bfae21be0ef
+      internalID: -3884096072928403537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: collectionbar_96
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 5566
+        width: 988
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c2f160dc41150c43bb8f01cca765c45
+      internalID: -4305682061963472761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: collectionbar_97
+      rect:
+        serializedVersion: 2
+        x: 988
+        y: 5566
+        width: 988
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d95c2784fb5f95645b388d3fa1d6c73a
+      internalID: -1783183928155120201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: collectionbar_98
+      rect:
+        serializedVersion: 2
+        x: 1976
+        y: 5566
+        width: 988
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f8453530b0f5a948a7efcd78c43e035
+      internalID: -7824320701723482906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: collectionbar_99
+      rect:
+        serializedVersion: 2
+        x: 2964
+        y: 5566
+        width: 988
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e81ef670cb0fe9408019da9b6bb8c5d
+      internalID: 5870390991022187528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: collectionbar_100
+      rect:
+        serializedVersion: 2
+        x: 3952
+        y: 5566
+        width: 988
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f179df29a8c44c4ebb6d461da509d33
+      internalID: 487011832562080038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: collectionbar_101
+      rect:
+        serializedVersion: 2
+        x: 4940
+        y: 5566
+        width: 988
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 612df23e631ed074aa14e5afa1219eb7
+      internalID: 5616898495981732584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: collectionbar_102
+      rect:
+        serializedVersion: 2
+        x: 5928
+        y: 5566
+        width: 988
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 216ae768d1c455948a0c725f3e377e42
+      internalID: -2441854254007469144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: collectionbar_103
+      rect:
+        serializedVersion: 2
+        x: 6916
+        y: 5566
+        width: 988
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62d9ae0a13c87d140a0d85fa546cc00b
+      internalID: 6637022400892140411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: collectionbar_104
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 5364
+        width: 988
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 581fec430fafb4e4ab831b293319089d
+      internalID: 6015285772715259124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: collectionbar_105
+      rect:
+        serializedVersion: 2
+        x: 988
+        y: 5364
+        width: 988
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a2fa33162a4ec7458465ed1e0540b48
+      internalID: 1563789026494280048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: collectionbar_106
+      rect:
+        serializedVersion: 2
+        x: 1976
+        y: 5364
+        width: 988
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72c58270c8714b84c8ae3333596e6dcc
+      internalID: 3015105826432373088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: collectionbar_107
+      rect:
+        serializedVersion: 2
+        x: 2964
+        y: 5364
+        width: 988
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89b70a6df951931449653bd5fac95bfb
+      internalID: 7658392574961459990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: collectionbar_108
+      rect:
+        serializedVersion: 2
+        x: 3952
+        y: 5364
+        width: 988
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4719ef7c363fc1b4eb7964d3d1df08ea
+      internalID: -6752966379760398025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: collectionbar_109
+      rect:
+        serializedVersion: 2
+        x: 4940
+        y: 5364
+        width: 988
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d520e619d4e71e049a4446504ee49024
+      internalID: -1158570568149093292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: collectionbar_110
+      rect:
+        serializedVersion: 2
+        x: 5928
+        y: 5364
+        width: 988
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea296fc712061e9499105c746e042c58
+      internalID: 4302909384633413765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: collectionbar_111
+      rect:
+        serializedVersion: 2
+        x: 6916
+        y: 5364
+        width: 988
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 318130bc837df9d4696e04c8ff38c938
+      internalID: 5794475349978178372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: collectionbar_112
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 5162
+        width: 988
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5eda719dd078e484e899641513b04851
+      internalID: 488799703221575115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: collectionbar_113
+      rect:
+        serializedVersion: 2
+        x: 988
+        y: 5162
+        width: 988
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 030b904be6633df4ab8e15b83817fc08
+      internalID: -4253174480638999994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: collectionbar_114
+      rect:
+        serializedVersion: 2
+        x: 1976
+        y: 5162
+        width: 988
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1dc69b535b8641644a584b3c6034ff78
+      internalID: -6324414241876566228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: collectionbar_115
+      rect:
+        serializedVersion: 2
+        x: 2964
+        y: 5162
+        width: 988
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afcc951305917e54bbc3fa238aaed29d
+      internalID: -3507003367146522463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: collectionbar_116
+      rect:
+        serializedVersion: 2
+        x: 3952
+        y: 5162
+        width: 988
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0db36659e02051840b2a80a1e87128ae
+      internalID: -2261634627174193189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: collectionbar_117
+      rect:
+        serializedVersion: 2
+        x: 4940
+        y: 5162
+        width: 988
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5923c424f5c01344da75133938832471
+      internalID: 11607922044360457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: collectionbar_118
+      rect:
+        serializedVersion: 2
+        x: 5928
+        y: 5162
+        width: 988
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 257efee3393d0034697fdd35da47206b
+      internalID: 5328762085710668344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: collectionbar_119
+      rect:
+        serializedVersion: 2
+        x: 6916
+        y: 5162
+        width: 988
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04fa7f295e76a9f4c884c496a96a7edc
+      internalID: -2747535619734831337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: collectionbar_120
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4960
+        width: 988
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9d589f059afc9442b0d0fda07e5ecaf
+      internalID: 5418505212148558021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: collectionbar_121
+      rect:
+        serializedVersion: 2
+        x: 988
+        y: 4960
+        width: 988
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c473d7cdae5b97948a3ac44ff3348607
+      internalID: 4255910106444393062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: collectionbar_122
+      rect:
+        serializedVersion: 2
+        x: 1976
+        y: 4960
+        width: 988
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0feb003a4ac782e49bbee60b2a6b01e8
+      internalID: -4925808147041228766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: collectionbar_123
+      rect:
+        serializedVersion: 2
+        x: 2964
+        y: 4960
+        width: 988
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8296852d3e00e3e41abc67a63944dee6
+      internalID: -8572560198896447844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: collectionbar_124
+      rect:
+        serializedVersion: 2
+        x: 3952
+        y: 4960
+        width: 988
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4b269ab2e5cbc6449ede654a534610d
+      internalID: -1780627623727470543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: collectionbar_125
+      rect:
+        serializedVersion: 2
+        x: 4940
+        y: 4960
+        width: 988
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6f2b84834ab53b449b44b7b08754f45
+      internalID: -725712043142555021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: collectionbar_126
+      rect:
+        serializedVersion: 2
+        x: 5928
+        y: 4960
+        width: 988
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee469085d68abf04bb34becaba7a08db
+      internalID: 4374646793374116759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: collectionbar_127
+      rect:
+        serializedVersion: 2
+        x: 6916
+        y: 4960
+        width: 988
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b89e1c724d4e39e4e8311073f29952a1
+      internalID: -812521952742645754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: collectionbar_128
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4758
+        width: 988
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4375e340eebc1cb43bfab61b3b94f95b
+      internalID: 4716091963615029813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: collectionbar_129
+      rect:
+        serializedVersion: 2
+        x: 988
+        y: 4758
+        width: 988
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6f4bec46300db14bbe59ca8b07e28b2
+      internalID: 8821221026648668872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: collectionbar_130
+      rect:
+        serializedVersion: 2
+        x: 1976
+        y: 4758
+        width: 988
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c33dabcff38a47049893dcccaa2560cb
+      internalID: 1094093867541681620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: collectionbar_131
+      rect:
+        serializedVersion: 2
+        x: 2964
+        y: 4758
+        width: 988
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bdb7dff8f0b376b4fba5ac0ee25642c5
+      internalID: 282203082747219415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: collectionbar_132
+      rect:
+        serializedVersion: 2
+        x: 3952
+        y: 4758
+        width: 988
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24af032c5699ff14a9f46697de9cd1ae
+      internalID: -6513075340848825751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: collectionbar_133
+      rect:
+        serializedVersion: 2
+        x: 4940
+        y: 4758
+        width: 988
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b09d859f9d882744a85c5084c5b5c6f
+      internalID: 4901249224036431860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: collectionbar_134
+      rect:
+        serializedVersion: 2
+        x: 5928
+        y: 4758
+        width: 988
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ac28c34d87577a4398e1d885a10d616
+      internalID: -2707763120102538477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: collectionbar_135
+      rect:
+        serializedVersion: 2
+        x: 6916
+        y: 4758
+        width: 988
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f126cdde5f9481a4ea49d900981f1a0a
+      internalID: -2045631903012136718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: collectionbar_136
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4556
+        width: 988
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9fdd095a3625a7d4da737481ae161e7e
+      internalID: 5920299471570028670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: collectionbar_137
+      rect:
+        serializedVersion: 2
+        x: 988
+        y: 4556
+        width: 988
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2cd481689687c324bb32a4207d64081c
+      internalID: 2533357711683353205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: collectionbar_138
+      rect:
+        serializedVersion: 2
+        x: 1976
+        y: 4556
+        width: 988
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 801afff7243bfde4eaf82ded39d67780
+      internalID: -8450354089266168148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: collectionbar_139
+      rect:
+        serializedVersion: 2
+        x: 2964
+        y: 4556
+        width: 988
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f4cbd2b5034a7b42bbbb6f73f26a475
+      internalID: 5494569948737190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: collectionbar_140
+      rect:
+        serializedVersion: 2
+        x: 3952
+        y: 4556
+        width: 988
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53ca73a0b77c4244f95ade3abfebb979
+      internalID: 2733324941440884145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: collectionbar_141
+      rect:
+        serializedVersion: 2
+        x: 4940
+        y: 4556
+        width: 988
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a39a7eed6ebddae41bd2b8cc61cebb40
+      internalID: 6385537311262154632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: collectionbar_142
+      rect:
+        serializedVersion: 2
+        x: 5928
+        y: 4556
+        width: 988
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05033feebd0fb6e4398870feef0f8e67
+      internalID: 919800239638044951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: collectionbar_143
+      rect:
+        serializedVersion: 2
+        x: 6916
+        y: 4556
+        width: 988
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db7e3d2494ab38546a190428fb74150c
+      internalID: -1938011890002891968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: collectionbar_144
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4354
+        width: 988
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2094e38631c887e4f8f72d09a29492ed
+      internalID: -1653431910910180684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: collectionbar_145
+      rect:
+        serializedVersion: 2
+        x: 988
+        y: 4354
+        width: 988
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ddafe00dbb126045bfc0bf80c1eed7a
+      internalID: -206913471081003599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: collectionbar_146
+      rect:
+        serializedVersion: 2
+        x: 1976
+        y: 4354
+        width: 988
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73de6d742bcf5414f83ea3b731e44223
+      internalID: 549091172641465058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: collectionbar_147
+      rect:
+        serializedVersion: 2
+        x: 2964
+        y: 4354
+        width: 988
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ae51d78af84da9439230c381e7209a7
+      internalID: 923597056382533957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: collectionbar_148
+      rect:
+        serializedVersion: 2
+        x: 3952
+        y: 4354
+        width: 988
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 750f77523198e8e4597a492a370c5a60
+      internalID: -2199159919385422086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: collectionbar_149
+      rect:
+        serializedVersion: 2
+        x: 4940
+        y: 4354
+        width: 988
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68aa6a61fa434fc4b9717cb841fcf0ef
+      internalID: -9063511818896800478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: collectionbar_150
+      rect:
+        serializedVersion: 2
+        x: 5928
+        y: 4354
+        width: 988
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86cc62f59d838d7408cf21d038492db0
+      internalID: 4801906685208412293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: collectionbar_151
+      rect:
+        serializedVersion: 2
+        x: 6916
+        y: 4354
+        width: 988
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0f6d9bc80507fb4fa2be85eb6c59cc4
+      internalID: -3733032335517555764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 7adb8c0c7a9a4144c94898a53e56dcc7
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
