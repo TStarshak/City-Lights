@@ -7086,6 +7086,11 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 4914273226450994577, guid: 7318cb11bbae1da4eaa7516780b148e3,
+        type: 3}
+      propertyPath: m_Name
+      value: PlayerLight
+      objectReference: {fileID: 0}
     - target: {fileID: 102886255569621850, guid: 7318cb11bbae1da4eaa7516780b148e3,
         type: 3}
       propertyPath: m_Radius
@@ -7304,17 +7309,12 @@ PrefabInstance:
     - target: {fileID: 4225079514918279000, guid: 7318cb11bbae1da4eaa7516780b148e3,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -1
+      value: 0.2
       objectReference: {fileID: 0}
     - target: {fileID: 980467069538566337, guid: 7318cb11bbae1da4eaa7516780b148e3,
         type: 3}
       propertyPath: m_IsActive
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4914273226450994577, guid: 7318cb11bbae1da4eaa7516780b148e3,
-        type: 3}
-      propertyPath: m_Name
-      value: PlayerLight
       objectReference: {fileID: 0}
     - target: {fileID: 102886256556719387, guid: 7318cb11bbae1da4eaa7516780b148e3,
         type: 3}
