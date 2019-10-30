@@ -62,11 +62,10 @@ public class GenerateChunk : MonoBehaviour {
     private int chunkSizeX = 28;
     private int chunkSizeY = 28;
     private List<int[][]> chunkData = new List<int[][]>();
+    private List<GameObject[,,]> worldData = new List<GameObject[,,]>();
 
     //hacky, i don't like this var
     private int numberOfFeatures = 4;
-
-    public GameObject[,,] chunkSpace = new GameObject[28, 28, 5];
 
     //helpful edge guide from below
     // 	[0, 1, 2, 3]  <- top of map
@@ -489,8 +488,9 @@ public class GenerateChunk : MonoBehaviour {
 	//
 	//yStart:
 	// y posiiton where the placement of blocks starts
-	public void buildChunk(int[][] chunkMap, float xStart, float yStart, int xCurrent = 0, int yCurrent = 0) {
+	public void buildChunk(GameObject[,,] chunkSpace, int[][] chunkMap, float xStart, float yStart, int index, int xCurrent = 0, int yCurrent = 0) {
 		int newX = xCurrent, newY = yCurrent, workingZ = 0, blockNum;
+
 		if(yCurrent == chunkMap[0].Length) {
 			if(xCurrent == (chunkMap.Length - 1)) {
 				return;
@@ -505,33 +505,39 @@ public class GenerateChunk : MonoBehaviour {
 		blockNum = chunkMap[newX][newY];
 		
 		if(blockNum == 4) {
-			buildChunk(chunkMap, xStart, yStart, newX, (newY + 1));
+			buildChunk(chunkSpace, chunkMap, xStart, yStart, index, newX, (newY + 1));
 			return;
 		}
 		
 		chunkSpace[newX, newY, workingZ] = Instantiate(regularCube, new Vector3((xStart + (float)newX),  workingZ, (yStart + (float)newY)), Quaternion.identity);
+		//chunkSpace[newX, newY, workingZ].name = ('I' + index.ToString() + 'X' + newX.ToString() + 'Y' + newY.ToString() + 'Z' + workingZ.ToString());
 		
 		if(blockNum == 0) {
-			buildChunk(chunkMap, xStart, yStart, newX, (newY + 1));
+			buildChunk(chunkSpace, chunkMap, xStart, yStart, index, newX, (newY + 1));
             return;
 		}
 
 		if(blockNum < 4 || blockNum > 8) {
 			workingZ++;
 			chunkSpace[newX, newY, workingZ] = Instantiate(regularCube, new Vector3((xStart + (float)newX),  workingZ, (yStart + (float)newY)), Quaternion.identity);
-			
-			if(blockNum == 2) {
+			//chunkSpace[newX, newY, workingZ].name = ('I' + index.ToString() + 'X' + newX.ToString() + 'Y' + newY.ToString() + 'Z' + workingZ.ToString());
+
+            if (blockNum == 2) {
+                chunkSpace[newX, newY, workingZ + 1] = Instantiate(regularCube, new Vector3((xStart + (float)newX), (workingZ + 1), (yStart + (float)newY)), Quaternion.identity);
+                chunkSpace[newX, newY, workingZ + 1].name = ('I' + index.ToString() + 'X' + newX.ToString() + 'Y' + newY.ToString() + 'Z' + (workingZ + 1).ToString());
+            }
+
+            if (blockNum == 3) {
 				chunkSpace[newX, newY, workingZ + 1] = Instantiate(regularCube, new Vector3((xStart + (float)newX), (workingZ + 1), (yStart + (float)newY)), Quaternion.identity);
-			}
-			
-			if(blockNum == 3) {
-				chunkSpace[newX, newY, workingZ + 1] = Instantiate(regularCube, new Vector3((xStart + (float)newX), (workingZ + 1), (yStart + (float)newY)), Quaternion.identity);
+				//chunkSpace[newX, newY, workingZ + 1].name = (string)('I' + index.ToString() + 'X' + newX.ToString() + 'Y' + newY.ToString() + 'Z' + (workingZ + 1).ToString());
 				chunkSpace[newX, newY, workingZ + 2] = Instantiate(regularCube, new Vector3((xStart + (float)newX), (workingZ + 2), (yStart + (float)newY)), Quaternion.identity);
-				chunkSpace[newX, newY, workingZ + 3] = Instantiate(regularCube, new Vector3((xStart + (float)newX), (workingZ + 3), (yStart + (float)newY)), Quaternion.identity);
-			}
+				//chunkSpace[newX, newY, workingZ + 2].name = (string)('I' + index.ToString() + 'X' + newX.ToString() + 'Y' + newY.ToString() + 'Z' + (workingZ + 2).ToString());
+                chunkSpace[newX, newY, workingZ + 3] = Instantiate(regularCube, new Vector3((xStart + (float)newX), (workingZ + 3), (yStart + (float)newY)), Quaternion.identity);
+                //chunkSpace[newX, newY, workingZ + 3].name = (string)('I' + index.ToString() + 'X' + newX.ToString() + 'Y' + newY.ToString() + 'Z' + (workingZ + 3).ToString());
+            }
 			
 			if(blockNum < 4) {
-				buildChunk(chunkMap, xStart, yStart, newX, (newY + 1));
+				buildChunk(chunkSpace, chunkMap, xStart, yStart, index, newX, (newY + 1));
 				return;
 			}
 			
@@ -542,14 +548,16 @@ public class GenerateChunk : MonoBehaviour {
 		workingZ++; 
 		
 		chunkSpace[newX, newY, workingZ] = Instantiate(tiltedCube, new Vector3((xStart + (float)newX),  workingZ, (yStart + (float)newY)), Quaternion.identity);
+		//chunkSpace[newX, newY, workingZ].name = (string)('I' + index.ToString() + 'X' + newX.ToString() + 'Y' + newY.ToString() + 'Z' + workingZ.ToString() + 'T');
 		chunkSpace[newX, newY, workingZ].transform.Rotate((blockNum * 90), 0, 0);
 
-        buildChunk(chunkMap, xStart, yStart, newX, (newY + 1));
+        buildChunk(chunkSpace, chunkMap, xStart, yStart, index, newX, (newY + 1));
 		return;
 	}
 
     //Map initiation at game start.
     void Start() {
+        int index = 0;
         MapData worldMap;
 
         if (sizeX % 2 == 0) {
@@ -570,12 +578,25 @@ public class GenerateChunk : MonoBehaviour {
 
         for(int x = 0; x < sizeX; x++) {
             for(int y = 0; y < sizeY; y++) {
-                buildChunk(chunkData[(x * sizeX) + y], x * chunkSizeX, y * chunkSizeY);
+                worldData.Add(new GameObject[28, 28, 5]);
+                buildChunk(worldData[(x * sizeX) + y], chunkData[(x * sizeX) + y], x * chunkSizeX, y * chunkSizeY, index);
             }
         }
 
         //tile all nine loaded chunks
         //load relevent shades/fireflies
+        //wump wump couldn't name cubes during instantiation
+        for(int numChunks = 0; numChunks < (sizeX * sizeY); numChunks++) {
+            for(int x = 0; x < chunkSizeX; x++) {
+                for(int y = 0; y < chunkSizeY; y++) {
+                    for(int z = 0; z < 5; z++) {
+                        if(worldData[numChunks][x, y, z]) {
+                            worldData[numChunks][x, y, z].name = (string)('I' + numChunks.ToString() + 'X' + x.ToString() + 'Y' + y.ToString() + 'Z' + z.ToString());
+                        }
+                    }
+                }
+            }
+        }
     }
 
     //Called on frame update, used to update what chunks are being rendered and their tiling.
