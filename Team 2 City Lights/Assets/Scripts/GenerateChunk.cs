@@ -510,7 +510,6 @@ public class GenerateChunk : MonoBehaviour {
 		}
 		
 		chunkSpace[newX, newY, workingZ] = Instantiate(regularCube, new Vector3((xStart + (float)newX),  workingZ, (yStart + (float)newY)), Quaternion.identity);
-		//chunkSpace[newX, newY, workingZ].name = ('I' + index.ToString() + 'X' + newX.ToString() + 'Y' + newY.ToString() + 'Z' + workingZ.ToString());
 		
 		if(blockNum == 0) {
 			buildChunk(chunkSpace, chunkMap, xStart, yStart, index, newX, (newY + 1));
@@ -520,20 +519,15 @@ public class GenerateChunk : MonoBehaviour {
 		if(blockNum < 4 || blockNum > 8) {
 			workingZ++;
 			chunkSpace[newX, newY, workingZ] = Instantiate(regularCube, new Vector3((xStart + (float)newX),  workingZ, (yStart + (float)newY)), Quaternion.identity);
-			//chunkSpace[newX, newY, workingZ].name = ('I' + index.ToString() + 'X' + newX.ToString() + 'Y' + newY.ToString() + 'Z' + workingZ.ToString());
+
+            if (blockNum == 3) {
+                chunkSpace[newX, newY, workingZ + 2] = Instantiate(regularCube, new Vector3((xStart + (float)newX), (workingZ + 2), (yStart + (float)newY)), Quaternion.identity);
+                chunkSpace[newX, newY, workingZ + 3] = Instantiate(regularCube, new Vector3((xStart + (float)newX), (workingZ + 3), (yStart + (float)newY)), Quaternion.identity);
+                blockNum--;
+            }
 
             if (blockNum == 2) {
                 chunkSpace[newX, newY, workingZ + 1] = Instantiate(regularCube, new Vector3((xStart + (float)newX), (workingZ + 1), (yStart + (float)newY)), Quaternion.identity);
-                chunkSpace[newX, newY, workingZ + 1].name = ('I' + index.ToString() + 'X' + newX.ToString() + 'Y' + newY.ToString() + 'Z' + (workingZ + 1).ToString());
-            }
-
-            if (blockNum == 3) {
-				chunkSpace[newX, newY, workingZ + 1] = Instantiate(regularCube, new Vector3((xStart + (float)newX), (workingZ + 1), (yStart + (float)newY)), Quaternion.identity);
-				//chunkSpace[newX, newY, workingZ + 1].name = (string)('I' + index.ToString() + 'X' + newX.ToString() + 'Y' + newY.ToString() + 'Z' + (workingZ + 1).ToString());
-				chunkSpace[newX, newY, workingZ + 2] = Instantiate(regularCube, new Vector3((xStart + (float)newX), (workingZ + 2), (yStart + (float)newY)), Quaternion.identity);
-				//chunkSpace[newX, newY, workingZ + 2].name = (string)('I' + index.ToString() + 'X' + newX.ToString() + 'Y' + newY.ToString() + 'Z' + (workingZ + 2).ToString());
-                chunkSpace[newX, newY, workingZ + 3] = Instantiate(regularCube, new Vector3((xStart + (float)newX), (workingZ + 3), (yStart + (float)newY)), Quaternion.identity);
-                //chunkSpace[newX, newY, workingZ + 3].name = (string)('I' + index.ToString() + 'X' + newX.ToString() + 'Y' + newY.ToString() + 'Z' + (workingZ + 3).ToString());
             }
 			
 			if(blockNum < 4) {
