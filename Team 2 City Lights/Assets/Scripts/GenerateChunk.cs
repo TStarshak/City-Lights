@@ -62,7 +62,7 @@ public class GenerateChunk : MonoBehaviour {
     private int chunkSizeX = 28;
     private int chunkSizeY = 28;
     private List<int[][]> chunkData = new List<int[][]>();
-    private List<GameObject[,,]> worldData = new List<GameObject[,,]>();
+    public List<GameObject[,,]> worldData = new List<GameObject[,,]>();
 
     //hacky, i don't like this var
     private int numberOfFeatures = 4;
@@ -420,7 +420,7 @@ public class GenerateChunk : MonoBehaviour {
             //Debug.Log(toGo);
 			int currentFeature = hotBlocks[growBlock][2];
 			List<int[]> possibleFeatures = new List<int[]>();
-            Debug.Log(currentFeature);
+            //Debug.Log(currentFeature);
 			if(features[currentFeature] > 0) {
 			
 				//leftside and topside represent if a block is at the x or y edge of the chunk
@@ -591,6 +591,8 @@ public class GenerateChunk : MonoBehaviour {
                 }
             }
         }
+
+        this.gameObject.GetComponent<MapFeatureGeneration>().beginGeneration(worldData);
     }
 
     //Called on frame update, used to update what chunks are being rendered and their tiling.
