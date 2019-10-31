@@ -1,12 +1,12 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.UIElements;
+using UnityEngine.UI;
 
 public class ShadowTimer : MonoBehaviour
 {
     public bool shadowHour = false;     // Whether the timer has expired. Shades come out when true.
-  //  public Text countDisplay;           // Text object to show the countdown in the UI
+    public Text countDisplay;           // Text object to show the countdown in the UI
 
     [SerializeField]
     private int timerStart = 180;

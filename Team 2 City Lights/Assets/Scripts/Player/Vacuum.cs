@@ -24,12 +24,14 @@ public class Vacuum : MonoBehaviour
         {
             particles.Play();
             isOn = true;
+            this.GetComponent<PlayerMovement>().movementSpeed = 3f;
         }
         if (Input.GetMouseButtonUp(0))
         {
             particles.Pause();
             particles.Clear();
             isOn = false;
+            this.GetComponent<PlayerMovement>().movementSpeed = 10f;
         }
         Plane playerPlane = new Plane(Vector3.up, transform.position);
         Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
@@ -48,6 +50,8 @@ public class Vacuum : MonoBehaviour
 
     IEnumerator moveFirefly(GameObject firefly)
     {
+        firefly.GetComponent<FireflyMovement>().inVac = true;
+        firefly.transform.SetPositionAndRotation(firefly.transform.position, firefly.GetComponent<FireflyMovement>().init);
         float xComp = 0;
         float zComp = 0;
         if (firefly.transform.position.x > this.transform.position.x)
@@ -60,6 +64,7 @@ public class Vacuum : MonoBehaviour
             zComp = 0.1f;
 
         firefly.transform.Translate(xComp, 0, zComp);
+        firefly.GetComponent<FireflyMovement>().inVac = false;
         yield return null;
     }
 

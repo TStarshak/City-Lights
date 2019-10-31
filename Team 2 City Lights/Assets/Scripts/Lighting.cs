@@ -23,11 +23,11 @@ public class Lighting : MonoBehaviour
         gameLightInner.transform.SetPositionAndRotation(new Vector3(0, 4, 0), new Quaternion(0, 0, 0, 0));
         gameLightOuter.transform.SetPositionAndRotation(new Vector3(0, 4, 0), new Quaternion(0, 0, 0, 0));
 
-        gameLightInner.GetComponent<Light>().range = 6;
-        gameLightOuter.GetComponent<Light>().range = 8;
+        gameLightInner.GetComponent<Light>().range = 5;
+        gameLightOuter.GetComponent<Light>().range = 7;
 
-        gameLightInner.GetComponent<Light>().intensity = 1.6f;
-        gameLightOuter.GetComponent<Light>().intensity = 1.1f;
+        gameLightInner.GetComponent<Light>().intensity = 1.5f;
+        gameLightOuter.GetComponent<Light>().intensity = 1f;
         gameLightPlayer.GetComponent<Light>().intensity = 1f;
 
         gameLightInner.GetComponent<Light>().color = new Color(0.9921569f, 0.9254902f, 0.2941177f);

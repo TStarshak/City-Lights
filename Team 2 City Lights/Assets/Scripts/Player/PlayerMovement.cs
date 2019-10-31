@@ -19,7 +19,7 @@ public class PlayerMovement : MonoBehaviour
     {
        // sprinting = false;
         _charController = GetComponent<CharacterController>();
-        movementSpeed = 10.0f;
+        movementSpeed = 8.0f;
         //sprintMultiplier = 2.0f;
     }
 
@@ -37,6 +37,8 @@ public class PlayerMovement : MonoBehaviour
 
          if(Input.GetKeyUp(KeyCode.LeftShift) || stamina == 0)
              StartCoroutine(RecoverStamina()); */
+           
+
         if (pauseMenu.activeInHierarchy == false)
         {
             float deltaX = Input.GetAxis("Horizontal") * movementSpeed;
