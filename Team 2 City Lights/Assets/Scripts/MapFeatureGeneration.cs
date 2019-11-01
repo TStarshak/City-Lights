@@ -55,6 +55,7 @@ public class MapFeatureGeneration : MonoBehaviour
         }
 
         generateTrees();
+        applyTextures();
     }
 
     private void generateTrees()
@@ -73,8 +74,8 @@ public class MapFeatureGeneration : MonoBehaviour
             for (int i = 0; i < treePositions.Count; i++)
             {
                 RaycastHit hit;
-                Physics.Raycast(new Vector3(randomX, 10f, randomZ), -Vector3.up, out hit);
-                if (hit.collider == null || Vector3.Distance(new Vector3(randomX, 0.5f, randomZ), treePositions[i]) < 5f)
+                Physics.Raycast(new Vector3(randomX, 20f, randomZ), -Vector3.up, out hit);
+                if (hit.collider == null || Physics.CheckSphere(new Vector3(randomX, hit.collider.gameObject.transform.position.y + 1.8f, randomZ), 1.2f) || Vector3.Distance(new Vector3(randomX, 0.5f, randomZ), treePositions[i]) < 5f)
                 {
                     randomX = Mathf.Floor(Random.Range(minX, maxX)) + 0.05f;
                     randomZ = Mathf.Floor(Random.Range(minZ, maxZ)) + 0.05f;
@@ -97,15 +98,58 @@ public class MapFeatureGeneration : MonoBehaviour
 
         foreach (Vector3 pos in treePositions)
         {
-            if (!Physics.CheckSphere(new Vector3(pos.x, pos.y + 1.4f, pos.z), 1.2f))
-            {
-                Instantiate(pinetree, pos, new Quaternion(0f, 0f, 0f, 0f));
-            }
+            Instantiate(pinetree, pos, new Quaternion(0f, 0f, 0f, 0f));
         }
     }
 
-    void Update()
+    private void applyTextures()
     {
-        
+        foreach (GameObject[,,] cubeList in worldData)
+        {
+            foreach (GameObject cube in cubeList)
+            {
+                if (cube != null)
+                {
+                    cube.GetComponent<MeshRenderer>().material = (Material)Resources.Load("ZoneMaterial", typeof(Material));
+
+                    Mesh mesh = cube.GetComponent<MeshFilter>().mesh;
+                    if (mesh.vertices.Length > 0)
+                    {
+                        Vector2[] UVs = new Vector2[mesh.vertices.Length];
+                        // Front
+                        UVs[0] = new Vector2(0.0f, 0.0f);
+                        UVs[1] = new Vector2(0.333f, 0.0f);
+                        UVs[2] = new Vector2(0.0f, 0.333f);
+                        UVs[3] = new Vector2(0.333f, 0.333f);
+                        // Top
+                        UVs[4] = new Vector2(0.334f, 0.333f);
+                        UVs[5] = new Vector2(0.666f, 0.333f);
+                        UVs[8] = new Vector2(0.334f, 0.0f);
+                        UVs[9] = new Vector2(0.666f, 0.0f);
+                        // Back
+                        UVs[6] = new Vector2(1.0f, 0.0f);
+                        UVs[7] = new Vector2(0.667f, 0.0f);
+                        UVs[10] = new Vector2(1.0f, 0.333f);
+                        UVs[11] = new Vector2(0.667f, 0.333f);
+                        // Bottom
+                        UVs[12] = new Vector2(0.0f, 0.334f);
+                        UVs[13] = new Vector2(0.0f, 0.666f);
+                        UVs[14] = new Vector2(0.333f, 0.666f);
+                        UVs[15] = new Vector2(0.333f, 0.334f);
+                        // Left
+                        UVs[16] = new Vector2(0.334f, 0.334f);
+                        UVs[17] = new Vector2(0.334f, 0.666f);
+                        UVs[18] = new Vector2(0.666f, 0.666f);
+                        UVs[19] = new Vector2(0.666f, 0.334f);
+                        // Right        
+                        UVs[20] = new Vector2(0.667f, 0.334f);
+                        UVs[21] = new Vector2(0.667f, 0.666f);
+                        UVs[22] = new Vector2(1.0f, 0.666f);
+                        UVs[23] = new Vector2(1.0f, 0.334f);
+                        mesh.uv = UVs;
+                    }
+                }
+            }
+        }
     }
 }
