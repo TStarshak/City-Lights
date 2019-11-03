@@ -1,0 +1,4243 @@
+fileFormatVersion: 2
+guid: e95088c3da48b4a4aab66932540f9aeb
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2144367083018973990
+    second: Glowingspider_movement_0
+  - first:
+      213: 1865780933432501558
+    second: Glowingspider_movement_1
+  - first:
+      213: -8930403220731370604
+    second: Glowingspider_movement_2
+  - first:
+      213: 1497038732548812350
+    second: Glowingspider_movement_3
+  - first:
+      213: -4716185034599275267
+    second: Glowingspider_movement_4
+  - first:
+      213: 2056422464537117378
+    second: Glowingspider_movement_5
+  - first:
+      213: 8161772312858315537
+    second: Glowingspider_movement_6
+  - first:
+      213: 2181157775268740840
+    second: Glowingspider_movement_7
+  - first:
+      213: 7803610256075915118
+    second: Glowingspider_movement_8
+  - first:
+      213: -8732523650451367423
+    second: Glowingspider_movement_9
+  - first:
+      213: -708777275471793574
+    second: Glowingspider_movement_10
+  - first:
+      213: -7027382843568282986
+    second: Glowingspider_movement_11
+  - first:
+      213: 6336822784404527196
+    second: Glowingspider_movement_12
+  - first:
+      213: -8220940251062991882
+    second: Glowingspider_movement_13
+  - first:
+      213: 8888719388490246437
+    second: Glowingspider_movement_14
+  - first:
+      213: -5779285722548156337
+    second: Glowingspider_movement_15
+  - first:
+      213: 2640125050940363829
+    second: Glowingspider_movement_16
+  - first:
+      213: -7515923890070841488
+    second: Glowingspider_movement_17
+  - first:
+      213: -7254764595871613531
+    second: Glowingspider_movement_18
+  - first:
+      213: 5183445713160291531
+    second: Glowingspider_movement_19
+  - first:
+      213: -4130322388678868928
+    second: Glowingspider_movement_20
+  - first:
+      213: -2563647232730784278
+    second: Glowingspider_movement_21
+  - first:
+      213: -7591879730116012034
+    second: Glowingspider_movement_22
+  - first:
+      213: -8203065057907756895
+    second: Glowingspider_movement_23
+  - first:
+      213: 7511488202305141462
+    second: Glowingspider_movement_24
+  - first:
+      213: -875332027226464060
+    second: Glowingspider_movement_25
+  - first:
+      213: 2090170953247021283
+    second: Glowingspider_movement_26
+  - first:
+      213: 5913364943767592228
+    second: Glowingspider_movement_27
+  - first:
+      213: -5033944214665813717
+    second: Glowingspider_movement_28
+  - first:
+      213: -8136804307510581513
+    second: Glowingspider_movement_29
+  - first:
+      213: -131734714651759748
+    second: Glowingspider_movement_30
+  - first:
+      213: 2815292362979750344
+    second: Glowingspider_movement_31
+  - first:
+      213: -678553234683504039
+    second: Glowingspider_movement_32
+  - first:
+      213: -8461011099008154416
+    second: Glowingspider_movement_33
+  - first:
+      213: 7809794142167694787
+    second: Glowingspider_movement_34
+  - first:
+      213: -8288560653227220204
+    second: Glowingspider_movement_35
+  - first:
+      213: 7303372129252186710
+    second: Glowingspider_movement_36
+  - first:
+      213: 1283476430959302618
+    second: Glowingspider_movement_37
+  - first:
+      213: 6151661913844343089
+    second: Glowingspider_movement_38
+  - first:
+      213: -7027767390012484102
+    second: Glowingspider_movement_39
+  - first:
+      213: 4231491039426280448
+    second: Glowingspider_movement_40
+  - first:
+      213: 2626904978491395305
+    second: Glowingspider_movement_41
+  - first:
+      213: -9125436176432072650
+    second: Glowingspider_movement_42
+  - first:
+      213: -5863292906031154873
+    second: Glowingspider_movement_43
+  - first:
+      213: -2165781790535385996
+    second: Glowingspider_movement_44
+  - first:
+      213: -8412985503292916529
+    second: Glowingspider_movement_45
+  - first:
+      213: 6739450973159735688
+    second: Glowingspider_movement_46
+  - first:
+      213: -671127251501393426
+    second: Glowingspider_movement_47
+  - first:
+      213: -4662057916512636050
+    second: Glowingspider_movement_48
+  - first:
+      213: 6926625731615967117
+    second: Glowingspider_movement_49
+  - first:
+      213: 2863345941510896180
+    second: Glowingspider_movement_50
+  - first:
+      213: -3338693301541928048
+    second: Glowingspider_movement_51
+  - first:
+      213: 3487960113670918024
+    second: Glowingspider_movement_52
+  - first:
+      213: -7866747599677053420
+    second: Glowingspider_movement_53
+  - first:
+      213: -6993230427953231063
+    second: Glowingspider_movement_54
+  - first:
+      213: 2829777250209211010
+    second: Glowingspider_movement_55
+  - first:
+      213: -3823214043315748955
+    second: Glowingspider_movement_56
+  - first:
+      213: -3661762359186545487
+    second: Glowingspider_movement_57
+  - first:
+      213: 6257387032322484804
+    second: Glowingspider_movement_58
+  - first:
+      213: 4141608337130054966
+    second: Glowingspider_movement_59
+  - first:
+      213: 8058433098128268102
+    second: Glowingspider_movement_60
+  - first:
+      213: 6255327830187034180
+    second: Glowingspider_movement_61
+  - first:
+      213: 864478042610030867
+    second: Glowingspider_movement_62
+  - first:
+      213: -8868087116832353898
+    second: Glowingspider_movement_63
+  - first:
+      213: 8753933993935583162
+    second: Glowingspider_movement_64
+  - first:
+      213: -2728350440685395621
+    second: Glowingspider_movement_65
+  - first:
+      213: -2997551675697351287
+    second: Glowingspider_movement_66
+  - first:
+      213: 8910093257631575523
+    second: Glowingspider_movement_67
+  - first:
+      213: -3597018081081456787
+    second: Glowingspider_movement_68
+  - first:
+      213: -5405221889001741369
+    second: Glowingspider_movement_69
+  - first:
+      213: 7025453697273094867
+    second: Glowingspider_movement_70
+  - first:
+      213: 1660706799224016436
+    second: Glowingspider_movement_71
+  - first:
+      213: 7196328572391474867
+    second: Glowingspider_movement_72
+  - first:
+      213: -1586295874277008266
+    second: Glowingspider_movement_73
+  - first:
+      213: -7217360351299629292
+    second: Glowingspider_movement_74
+  - first:
+      213: -1692258442632307917
+    second: Glowingspider_movement_75
+  - first:
+      213: 4630653359035604315
+    second: Glowingspider_movement_76
+  - first:
+      213: 660648272273640222
+    second: Glowingspider_movement_77
+  - first:
+      213: -4828687316633893415
+    second: Glowingspider_movement_78
+  - first:
+      213: 9014512231919703001
+    second: Glowingspider_movement_79
+  - first:
+      213: -7337835695156061096
+    second: Glowingspider_movement_80
+  - first:
+      213: -1501902544914948609
+    second: Glowingspider_movement_81
+  - first:
+      213: 3683707616095088773
+    second: Glowingspider_movement_82
+  - first:
+      213: 6948951935150757404
+    second: Glowingspider_movement_83
+  - first:
+      213: 7542306271461166087
+    second: Glowingspider_movement_84
+  - first:
+      213: -7328854048411175465
+    second: Glowingspider_movement_85
+  - first:
+      213: -5837586102004075738
+    second: Glowingspider_movement_86
+  - first:
+      213: 2542246897430202457
+    second: Glowingspider_movement_87
+  - first:
+      213: -840519875230262814
+    second: Glowingspider_movement_88
+  - first:
+      213: 5259484413485743875
+    second: Glowingspider_movement_89
+  - first:
+      213: 31859633633187735
+    second: Glowingspider_movement_90
+  - first:
+      213: 5928878343241570876
+    second: Glowingspider_movement_91
+  - first:
+      213: 53331275690084003
+    second: Glowingspider_movement_92
+  - first:
+      213: 6152011132553271120
+    second: Glowingspider_movement_93
+  - first:
+      213: -68656691757189985
+    second: Glowingspider_movement_94
+  - first:
+      213: 814051445503049462
+    second: Glowingspider_movement_95
+  - first:
+      213: 6974964151886439026
+    second: Glowingspider_movement_96
+  - first:
+      213: 3553743349508147432
+    second: Glowingspider_movement_97
+  - first:
+      213: -3661364403490944022
+    second: Glowingspider_movement_98
+  - first:
+      213: -7842229686610499319
+    second: Glowingspider_movement_99
+  - first:
+      213: -2421482138533744153
+    second: Glowingspider_movement_100
+  - first:
+      213: -1001988664623980290
+    second: Glowingspider_movement_101
+  - first:
+      213: 4511950171281152732
+    second: Glowingspider_movement_102
+  - first:
+      213: 3954739201401768048
+    second: Glowingspider_movement_103
+  - first:
+      213: -6904667797464543015
+    second: Glowingspider_movement_104
+  - first:
+      213: -3993652201731537273
+    second: Glowingspider_movement_105
+  - first:
+      213: 1214668098913160622
+    second: Glowingspider_movement_106
+  - first:
+      213: 8458310485017767120
+    second: Glowingspider_movement_107
+  - first:
+      213: 2090236510056672248
+    second: Glowingspider_movement_108
+  - first:
+      213: 8112511147206080927
+    second: Glowingspider_movement_109
+  - first:
+      213: -385205799159697529
+    second: Glowingspider_movement_110
+  - first:
+      213: 4789981143459652261
+    second: Glowingspider_movement_111
+  - first:
+      213: -4833479610060392304
+    second: Glowingspider_movement_112
+  - first:
+      213: 5645718058754264509
+    second: Glowingspider_movement_113
+  - first:
+      213: 6514307504301140681
+    second: Glowingspider_movement_114
+  - first:
+      213: -402293862749188779
+    second: Glowingspider_movement_115
+  - first:
+      213: 1608769274041756804
+    second: Glowingspider_movement_116
+  - first:
+      213: -3708780876606443515
+    second: Glowingspider_movement_117
+  - first:
+      213: 200060894925994793
+    second: Glowingspider_movement_118
+  - first:
+      213: 3444059943249967291
+    second: Glowingspider_movement_119
+  - first:
+      213: -7910516099269860314
+    second: Glowingspider_movement_120
+  - first:
+      213: -2861744906518915321
+    second: Glowingspider_movement_121
+  - first:
+      213: 1319439956277395457
+    second: Glowingspider_movement_122
+  - first:
+      213: 3314609653225162811
+    second: Glowingspider_movement_123
+  - first:
+      213: 4017944682713045260
+    second: Glowingspider_movement_124
+  - first:
+      213: 3214411825730661220
+    second: Glowingspider_movement_125
+  - first:
+      213: -7977045807216350161
+    second: Glowingspider_movement_126
+  - first:
+      213: -3035880653147156851
+    second: Glowingspider_movement_127
+  - first:
+      213: 6772048289471900742
+    second: Glowingspider_movement_128
+  - first:
+      213: -4396937866444959065
+    second: Glowingspider_movement_129
+  - first:
+      213: -4485687176546876391
+    second: Glowingspider_movement_130
+  - first:
+      213: 7760099638453504061
+    second: Glowingspider_movement_131
+  - first:
+      213: 5515811736462452216
+    second: Glowingspider_movement_132
+  - first:
+      213: -200785382878520825
+    second: Glowingspider_movement_133
+  - first:
+      213: 1327005903478940660
+    second: Glowingspider_movement_134
+  - first:
+      213: -5352766635205564889
+    second: Glowingspider_movement_135
+  - first:
+      213: 4257007958805645925
+    second: Glowingspider_movement_136
+  - first:
+      213: -5744961073497334932
+    second: Glowingspider_movement_137
+  - first:
+      213: -1022799019183037435
+    second: Glowingspider_movement_138
+  - first:
+      213: 8956895576967634524
+    second: Glowingspider_movement_139
+  - first:
+      213: -2477483117461765410
+    second: Glowingspider_movement_140
+  - first:
+      213: -1054977971728261919
+    second: Glowingspider_movement_141
+  - first:
+      213: 5029606947529270586
+    second: Glowingspider_movement_142
+  - first:
+      213: -6887600556876681040
+    second: Glowingspider_movement_143
+  - first:
+      213: -5274823674083227036
+    second: Glowingspider_movement_144
+  - first:
+      213: 4025053717257097290
+    second: Glowingspider_movement_145
+  - first:
+      213: -1705382475759415228
+    second: Glowingspider_movement_146
+  - first:
+      213: 6253200365418362572
+    second: Glowingspider_movement_147
+  - first:
+      213: -5185774742207279180
+    second: Glowingspider_movement_148
+  - first:
+      213: 4608303859943572080
+    second: Glowingspider_movement_149
+  - first:
+      213: 4785367186774658381
+    second: Glowingspider_movement_150
+  - first:
+      213: -6871431332495362116
+    second: Glowingspider_movement_151
+  - first:
+      213: 5906214108342423914
+    second: Glowingspider_movement_152
+  - first:
+      213: -2982850978461139216
+    second: Glowingspider_movement_153
+  - first:
+      213: -5440338554645266934
+    second: Glowingspider_movement_154
+  - first:
+      213: -7425396293604996513
+    second: Glowingspider_movement_155
+  - first:
+      213: -8274328933140348313
+    second: Glowingspider_movement_156
+  - first:
+      213: 5768636134096696438
+    second: Glowingspider_movement_157
+  - first:
+      213: -1841801693363992461
+    second: Glowingspider_movement_158
+  - first:
+      213: 117771530775521708
+    second: Glowingspider_movement_159
+  - first:
+      213: -8003501287849268081
+    second: Glowingspider_movement_160
+  - first:
+      213: 7252251575691189041
+    second: Glowingspider_movement_161
+  - first:
+      213: 5210255512492606652
+    second: Glowingspider_movement_162
+  - first:
+      213: -7397690225463065848
+    second: Glowingspider_movement_163
+  - first:
+      213: 8828387936711816547
+    second: Glowingspider_movement_164
+  - first:
+      213: 2979402155462893867
+    second: Glowingspider_movement_165
+  - first:
+      213: 3750629787954730708
+    second: Glowingspider_movement_166
+  - first:
+      213: 4128980103450176695
+    second: Glowingspider_movement_167
+  - first:
+      213: -2320857086054454867
+    second: Glowingspider_movement_168
+  - first:
+      213: 5660852971978551114
+    second: Glowingspider_movement_169
+  - first:
+      213: 8335646301942461709
+    second: Glowingspider_movement_170
+  - first:
+      213: 6831940129421289345
+    second: Glowingspider_movement_171
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: -1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Glowingspider_movement_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1771
+        width: 246
+        height: 188
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2814d28d756d58c40b2940673067d936
+      internalID: -2144367083018973990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glowingspider_movement_1
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 1771
+        width: 250
+        height: 188
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 096024c5cf2cbc6499079959c4258c32
+      internalID: 1865780933432501558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glowingspider_movement_2
+      rect:
+        serializedVersion: 2
+        x: 506
+        y: 1771
+        width: 250
+        height: 188
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5553b50a9b02bf44b90f38bcc30bfe89
+      internalID: -8930403220731370604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glowingspider_movement_3
+      rect:
+        serializedVersion: 2
+        x: 764
+        y: 1771
+        width: 250
+        height: 188
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3bda77ce8235e654a910f171912b1039
+      internalID: 1497038732548812350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glowingspider_movement_4
+      rect:
+        serializedVersion: 2
+        x: 1020
+        y: 1771
+        width: 249
+        height: 188
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a32976bfc3eb51642a9392feaaefde8d
+      internalID: -4716185034599275267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glowingspider_movement_5
+      rect:
+        serializedVersion: 2
+        x: 1282
+        y: 1765
+        width: 239
+        height: 186
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05246ff53c19ae54e861141f371783d5
+      internalID: 2056422464537117378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glowingspider_movement_6
+      rect:
+        serializedVersion: 2
+        x: 1530
+        y: 1764
+        width: 246
+        height: 187
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34716dceb9358864abf39faa48c5a43f
+      internalID: 8161772312858315537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glowingspider_movement_7
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 1765
+        width: 242
+        height: 186
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ef525780218f594d98d6d524f1eba8a
+      internalID: 2181157775268740840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glowingspider_movement_8
+      rect:
+        serializedVersion: 2
+        x: 2036
+        y: 1766
+        width: 253
+        height: 185
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 278e0462155eb4a439317534515cebd6
+      internalID: 7803610256075915118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glowingspider_movement_9
+      rect:
+        serializedVersion: 2
+        x: 2291
+        y: 1765
+        width: 253
+        height: 186
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2fcb7aeb0fb1f154386840099936fd1f
+      internalID: -8732523650451367423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glowingspider_movement_10
+      rect:
+        serializedVersion: 2
+        x: 2554
+        y: 1768
+        width: 245
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5822f21366e49241b54cc6b97b249dc
+      internalID: -708777275471793574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glowingspider_movement_11
+      rect:
+        serializedVersion: 2
+        x: 2812
+        y: 1768
+        width: 242
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a027535593056da48baac6af74d08c3c
+      internalID: -7027382843568282986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glowingspider_movement_12
+      rect:
+        serializedVersion: 2
+        x: 3068
+        y: 1768
+        width: 245
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9b5a78548bb9424da98e2109cfd3fcb
+      internalID: 6336822784404527196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glowingspider_movement_13
+      rect:
+        serializedVersion: 2
+        x: 3323
+        y: 1768
+        width: 245
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4c5adb955ef23c48a0af7e3d63ad645
+      internalID: -8220940251062991882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glowingspider_movement_14
+      rect:
+        serializedVersion: 2
+        x: 3578
+        y: 1768
+        width: 245
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54ffa502e743840438009b2e829f8d5b
+      internalID: 8888719388490246437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glowingspider_movement_15
+      rect:
+        serializedVersion: 2
+        x: 3829
+        y: 1782
+        width: 256
+        height: 165
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2be64b92a70edb942900b9ecd62cac1e
+      internalID: -5779285722548156337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glowingspider_movement_16
+      rect:
+        serializedVersion: 2
+        x: 4095
+        y: 1782
+        width: 246
+        height: 165
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 169a87a54723b0942863177e5ceaf4f4
+      internalID: 2640125050940363829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glowingspider_movement_17
+      rect:
+        serializedVersion: 2
+        x: 4343
+        y: 1782
+        width: 253
+        height: 165
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b6cafdeb3d0f5a4cb068c294486a2d5
+      internalID: -7515923890070841488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glowingspider_movement_18
+      rect:
+        serializedVersion: 2
+        x: 4600
+        y: 1782
+        width: 251
+        height: 165
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b82db008227fd934aa03de38774ddc22
+      internalID: -7254764595871613531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glowingspider_movement_19
+      rect:
+        serializedVersion: 2
+        x: 4860
+        y: 1782
+        width: 249
+        height: 165
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 946c4d832007f9342a5d072bb83872a5
+      internalID: 5183445713160291531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glowingspider_movement_20
+      rect:
+        serializedVersion: 2
+        x: 5111
+        y: 1786
+        width: 257
+        height: 173
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3fe446e5c1505d24b858a5d83c335048
+      internalID: -4130322388678868928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glowingspider_movement_21
+      rect:
+        serializedVersion: 2
+        x: 5374
+        y: 1786
+        width: 249
+        height: 173
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f21c50926f8841f418ab1b08df958f28
+      internalID: -2563647232730784278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glowingspider_movement_22
+      rect:
+        serializedVersion: 2
+        x: 5628
+        y: 1786
+        width: 764
+        height: 173
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17b74987e42809f4f9b1c8d20720f43c
+      internalID: -7591879730116012034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glowingspider_movement_23
+      rect:
+        serializedVersion: 2
+        x: 6394
+        y: 1771
+        width: 1286
+        height: 191
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0601647cb432b54bbed6f5ed2032967
+      internalID: -8203065057907756895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glowingspider_movement_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1528
+        width: 245
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f36511de8c19fa64eb45725ba2f0c0f9
+      internalID: 7511488202305141462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glowingspider_movement_25
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 1528
+        width: 233
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59678c199eea6884ea756d50d4ebf2c5
+      internalID: -875332027226464060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glowingspider_movement_26
+      rect:
+        serializedVersion: 2
+        x: 523
+        y: 1528
+        width: 233
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19fd7c667587d034daa23bf26ac59d1f
+      internalID: 2090170953247021283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glowingspider_movement_27
+      rect:
+        serializedVersion: 2
+        x: 778
+        y: 1528
+        width: 233
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf2984543b4d03742af7e0b3f7e5710d
+      internalID: 5913364943767592228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glowingspider_movement_28
+      rect:
+        serializedVersion: 2
+        x: 1033
+        y: 1528
+        width: 236
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fecedca00b733394eb3d16bf185a8884
+      internalID: -5033944214665813717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glowingspider_movement_29
+      rect:
+        serializedVersion: 2
+        x: 1283
+        y: 1531
+        width: 249
+        height: 158
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 711c5ad8032f587449b7f5dcce16b633
+      internalID: -8136804307510581513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glowingspider_movement_30
+      rect:
+        serializedVersion: 2
+        x: 1539
+        y: 1531
+        width: 248
+        height: 158
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b27317ed3febfea49a18e7a23e6d82b7
+      internalID: -131734714651759748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glowingspider_movement_31
+      rect:
+        serializedVersion: 2
+        x: 1794
+        y: 1531
+        width: 251
+        height: 158
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19373aa66ce71384082fe85ef5e5a544
+      internalID: 2815292362979750344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glowingspider_movement_32
+      rect:
+        serializedVersion: 2
+        x: 2050
+        y: 1531
+        width: 251
+        height: 158
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eda44f4daca9cff4a8fed42ba38550b0
+      internalID: -678553234683504039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glowingspider_movement_33
+      rect:
+        serializedVersion: 2
+        x: 2308
+        y: 1531
+        width: 248
+        height: 158
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f45c58e2e48819c4fa04c4ca9c4b0cc2
+      internalID: -8461011099008154416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glowingspider_movement_34
+      rect:
+        serializedVersion: 2
+        x: 2560
+        y: 1530
+        width: 254
+        height: 161
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95359acbae288274fa13905dd35a7e8c
+      internalID: 7809794142167694787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glowingspider_movement_35
+      rect:
+        serializedVersion: 2
+        x: 2818
+        y: 1524
+        width: 251
+        height: 161
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eebe7192ddaac124b9c8629ddf905dc5
+      internalID: -8288560653227220204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glowingspider_movement_36
+      rect:
+        serializedVersion: 2
+        x: 3073
+        y: 1524
+        width: 251
+        height: 161
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3bd2c8fbf2159f4e83fe9ee1dedbeda
+      internalID: 7303372129252186710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glowingspider_movement_37
+      rect:
+        serializedVersion: 2
+        x: 3328
+        y: 1524
+        width: 255
+        height: 161
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 529dbd65251b11c4b83b817c7cbeaea3
+      internalID: 1283476430959302618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glowingspider_movement_38
+      rect:
+        serializedVersion: 2
+        x: 3584
+        y: 1524
+        width: 254
+        height: 161
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fb63199587cc9d4cac74cd3cefe1855
+      internalID: 6151661913844343089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glowingspider_movement_39
+      rect:
+        serializedVersion: 2
+        x: 3850
+        y: 1533
+        width: 235
+        height: 167
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3277edcad1e38aa46a4eb2649c69cca6
+      internalID: -7027767390012484102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glowingspider_movement_40
+      rect:
+        serializedVersion: 2
+        x: 4108
+        y: 1533
+        width: 233
+        height: 167
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e607925428518b141b5395024c6fac63
+      internalID: 4231491039426280448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glowingspider_movement_41
+      rect:
+        serializedVersion: 2
+        x: 4363
+        y: 1535
+        width: 233
+        height: 165
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7013a50f3aff55b40bfa43775c85b38e
+      internalID: 2626904978491395305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glowingspider_movement_42
+      rect:
+        serializedVersion: 2
+        x: 4618
+        y: 1533
+        width: 233
+        height: 167
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17b83b9fba9b54c44b8ec23a41b6ff99
+      internalID: -9125436176432072650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glowingspider_movement_43
+      rect:
+        serializedVersion: 2
+        x: 4873
+        y: 1533
+        width: 236
+        height: 167
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c525ce880acde3e43904278047a6cc92
+      internalID: -5863292906031154873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glowingspider_movement_44
+      rect:
+        serializedVersion: 2
+        x: 5124
+        y: 1520
+        width: 248
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3517dd5e796578547af8b97c65302892
+      internalID: -2165781790535385996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glowingspider_movement_45
+      rect:
+        serializedVersion: 2
+        x: 5380
+        y: 1520
+        width: 247
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1d9417e4bb355649972eb20eeb97533
+      internalID: -8412985503292916529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glowingspider_movement_46
+      rect:
+        serializedVersion: 2
+        x: 5638
+        y: 1520
+        width: 244
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02536ce01603c9f4482bba14ba24df18
+      internalID: 6739450973159735688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glowingspider_movement_47
+      rect:
+        serializedVersion: 2
+        x: 5893
+        y: 1520
+        width: 244
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf0adaee60684444b8ee73590219528d
+      internalID: -671127251501393426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glowingspider_movement_48
+      rect:
+        serializedVersion: 2
+        x: 6148
+        y: 1520
+        width: 247
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d2c076471c13cb4f8df283dfb2eb510
+      internalID: -4662057916512636050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glowingspider_movement_49
+      rect:
+        serializedVersion: 2
+        x: 6396
+        y: 1517
+        width: 1284
+        height: 179
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f675b3c81f760b45816911b1e563672
+      internalID: 6926625731615967117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glowingspider_movement_50
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 1258
+        width: 232
+        height: 189
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e11861dd78b548c4d9df08b3e252f8f4
+      internalID: 2863345941510896180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glowingspider_movement_51
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 1258
+        width: 232
+        height: 189
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79250d418a0f9a8419d4591ade19f8a8
+      internalID: -3338693301541928048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glowingspider_movement_52
+      rect:
+        serializedVersion: 2
+        x: 527
+        y: 1258
+        width: 232
+        height: 189
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92587f4e1a265d24eb6b19f95aa2d570
+      internalID: 3487960113670918024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glowingspider_movement_53
+      rect:
+        serializedVersion: 2
+        x: 782
+        y: 1258
+        width: 232
+        height: 189
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8f1796ba98851440a411b81e2863e5c
+      internalID: -7866747599677053420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glowingspider_movement_54
+      rect:
+        serializedVersion: 2
+        x: 1039
+        y: 1258
+        width: 232
+        height: 189
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32e943e46d55574459f44c945aa37dec
+      internalID: -6993230427953231063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glowingspider_movement_55
+      rect:
+        serializedVersion: 2
+        x: 1303
+        y: 1261
+        width: 217
+        height: 173
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d56729b06a202b840a0d275968019d98
+      internalID: 2829777250209211010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glowingspider_movement_56
+      rect:
+        serializedVersion: 2
+        x: 1558
+        y: 1261
+        width: 218
+        height: 175
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f112f845d6076b47b1a271d15bed244
+      internalID: -3823214043315748955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glowingspider_movement_57
+      rect:
+        serializedVersion: 2
+        x: 1814
+        y: 1261
+        width: 217
+        height: 173
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07e0d5c50ba0fae4b9c1f0e5bfa90ebd
+      internalID: -3661762359186545487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glowingspider_movement_58
+      rect:
+        serializedVersion: 2
+        x: 2072
+        y: 1261
+        width: 214
+        height: 173
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95b7ab9e340674c45a51d1910c194c0a
+      internalID: 6257387032322484804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glowingspider_movement_59
+      rect:
+        serializedVersion: 2
+        x: 2327
+        y: 1261
+        width: 217
+        height: 173
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c65c8dd8c8f79364b84cffe039c4dd6e
+      internalID: 4141608337130054966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glowingspider_movement_60
+      rect:
+        serializedVersion: 2
+        x: 2571
+        y: 1265
+        width: 240
+        height: 178
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1a937153ca62f7458f504c87a228a58
+      internalID: 8058433098128268102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glowingspider_movement_61
+      rect:
+        serializedVersion: 2
+        x: 2826
+        y: 1265
+        width: 240
+        height: 174
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb9d418663a239a49b6e6a10f42772c9
+      internalID: 6255327830187034180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glowingspider_movement_62
+      rect:
+        serializedVersion: 2
+        x: 3084
+        y: 1265
+        width: 240
+        height: 179
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f99e0bd0a5fb3704f92ee8e2e5c74185
+      internalID: 864478042610030867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glowingspider_movement_63
+      rect:
+        serializedVersion: 2
+        x: 3339
+        y: 1265
+        width: 240
+        height: 174
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a180193e58f93d047a4dfa4e77d59fc6
+      internalID: -8868087116832353898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glowingspider_movement_64
+      rect:
+        serializedVersion: 2
+        x: 3594
+        y: 1265
+        width: 240
+        height: 189
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99692ad68e7d0dc49ace650304765f38
+      internalID: 8753933993935583162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glowingspider_movement_65
+      rect:
+        serializedVersion: 2
+        x: 3864
+        y: 1275
+        width: 214
+        height: 170
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3660bffddd86064bb3ab6d2b2b06cf8
+      internalID: -2728350440685395621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glowingspider_movement_66
+      rect:
+        serializedVersion: 2
+        x: 4119
+        y: 1275
+        width: 214
+        height: 170
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52cbdb394b3da774f884e0d1edade2fd
+      internalID: -2997551675697351287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glowingspider_movement_67
+      rect:
+        serializedVersion: 2
+        x: 4374
+        y: 1275
+        width: 218
+        height: 170
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 161db48ac686a544eaa666cc0c982a6b
+      internalID: 8910093257631575523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glowingspider_movement_68
+      rect:
+        serializedVersion: 2
+        x: 4631
+        y: 1275
+        width: 216
+        height: 170
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 840e6819fa59aa741a972c1a8d64ae7a
+      internalID: -3597018081081456787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glowingspider_movement_69
+      rect:
+        serializedVersion: 2
+        x: 4888
+        y: 1275
+        width: 214
+        height: 183
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28f11849d715d76469f69ba334574e46
+      internalID: -5405221889001741369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glowingspider_movement_70
+      rect:
+        serializedVersion: 2
+        x: 5136
+        y: 1284
+        width: 232
+        height: 161
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb199d91a2e78e546bcdbc76ac4dd885
+      internalID: 7025453697273094867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glowingspider_movement_71
+      rect:
+        serializedVersion: 2
+        x: 5391
+        y: 1284
+        width: 232
+        height: 161
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dedc3924f91282e4da6924461269f26a
+      internalID: 1660706799224016436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glowingspider_movement_72
+      rect:
+        serializedVersion: 2
+        x: 5646
+        y: 1284
+        width: 232
+        height: 161
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b8877b6731542f47ac0ea9dd7df5b92
+      internalID: 7196328572391474867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glowingspider_movement_73
+      rect:
+        serializedVersion: 2
+        x: 5904
+        y: 1284
+        width: 232
+        height: 161
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 001f6807f285cce4d8f28cad41b4b145
+      internalID: -1586295874277008266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glowingspider_movement_74
+      rect:
+        serializedVersion: 2
+        x: 6159
+        y: 1284
+        width: 233
+        height: 161
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06579302a86cbc744b215a7fbb1beedf
+      internalID: -7217360351299629292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glowingspider_movement_75
+      rect:
+        serializedVersion: 2
+        x: 6405
+        y: 1258
+        width: 249
+        height: 183
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4772f35e14a1dc84db92c00f617df16b
+      internalID: -1692258442632307917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glowingspider_movement_76
+      rect:
+        serializedVersion: 2
+        x: 6662
+        y: 1258
+        width: 251
+        height: 183
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39be7b214ad126a498b8e70f2b6e4761
+      internalID: 4630653359035604315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glowingspider_movement_77
+      rect:
+        serializedVersion: 2
+        x: 6917
+        y: 1258
+        width: 251
+        height: 183
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 156f3994f67a5c1439f419d6d2faf0c9
+      internalID: 660648272273640222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glowingspider_movement_78
+      rect:
+        serializedVersion: 2
+        x: 7172
+        y: 1258
+        width: 251
+        height: 183
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a04e74830432f984096131eb2a0230b4
+      internalID: -4828687316633893415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glowingspider_movement_79
+      rect:
+        serializedVersion: 2
+        x: 7431
+        y: 1258
+        width: 249
+        height: 183
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ceafc1b22bb92d4bb36bdeb262442ab
+      internalID: 9014512231919703001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glowingspider_movement_80
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 984
+        width: 7680
+        height: 210
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a376c3592fbfa704183ac5e864b335d2
+      internalID: -7337835695156061096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glowingspider_movement_81
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 748
+        width: 247
+        height: 191
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a476c69d27d3b334f87847feca4e539c
+      internalID: -1501902544914948609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glowingspider_movement_82
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 748
+        width: 253
+        height: 191
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92116263083756440b2ba1484bc8e504
+      internalID: 3683707616095088773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glowingspider_movement_83
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 748
+        width: 253
+        height: 191
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb84353bc8f61e141be5baf7ae3df615
+      internalID: 6948951935150757404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glowingspider_movement_84
+      rect:
+        serializedVersion: 2
+        x: 759
+        y: 748
+        width: 253
+        height: 191
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9834e8d5f695a654b9aa42e6156d2c64
+      internalID: 7542306271461166087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glowingspider_movement_85
+      rect:
+        serializedVersion: 2
+        x: 1016
+        y: 748
+        width: 256
+        height: 191
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02d261024ef02004dbc0a76aef56832b
+      internalID: -7328854048411175465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glowingspider_movement_86
+      rect:
+        serializedVersion: 2
+        x: 1281
+        y: 763
+        width: 245
+        height: 172
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13f3929822c309d478ba1adc773bffd1
+      internalID: -5837586102004075738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glowingspider_movement_87
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 763
+        width: 245
+        height: 172
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec35d7de31130694990fbd8dbe029305
+      internalID: 2542246897430202457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glowingspider_movement_88
+      rect:
+        serializedVersion: 2
+        x: 1791
+        y: 763
+        width: 249
+        height: 172
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b08be1aa09d9fd54f9e37c73d146dd15
+      internalID: -840519875230262814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glowingspider_movement_89
+      rect:
+        serializedVersion: 2
+        x: 2046
+        y: 763
+        width: 249
+        height: 172
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 875a7e2a561687940ab48730caad1b74
+      internalID: 5259484413485743875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glowingspider_movement_90
+      rect:
+        serializedVersion: 2
+        x: 2304
+        y: 763
+        width: 235
+        height: 172
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e028c52c6ec071449596964a4f52458
+      internalID: 31859633633187735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glowingspider_movement_91
+      rect:
+        serializedVersion: 2
+        x: 2563
+        y: 756
+        width: 249
+        height: 164
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a02e10f393354a4c8ee474165a6b0cd
+      internalID: 5928878343241570876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glowingspider_movement_92
+      rect:
+        serializedVersion: 2
+        x: 2822
+        y: 755
+        width: 253
+        height: 165
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f9384883bb4fae4e84e96452cbb6b2d
+      internalID: 53331275690084003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glowingspider_movement_93
+      rect:
+        serializedVersion: 2
+        x: 3077
+        y: 755
+        width: 238
+        height: 165
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3e7abb5da0ef184eb763222891b2e4d
+      internalID: 6152011132553271120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glowingspider_movement_94
+      rect:
+        serializedVersion: 2
+        x: 3332
+        y: 756
+        width: 238
+        height: 164
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbc92a0652a47074db8d1ddf3c0e6f5d
+      internalID: -68656691757189985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glowingspider_movement_95
+      rect:
+        serializedVersion: 2
+        x: 3587
+        y: 756
+        width: 239
+        height: 164
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a8d1f37854a12b40a598617e5f3969c
+      internalID: 814051445503049462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glowingspider_movement_96
+      rect:
+        serializedVersion: 2
+        x: 3849
+        y: 744
+        width: 239
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 715be03b18967cd4f928e4d9060b0e9b
+      internalID: 6974964151886439026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glowingspider_movement_97
+      rect:
+        serializedVersion: 2
+        x: 4104
+        y: 744
+        width: 242
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11a88e6d28d48a041a02e916fd278bb8
+      internalID: 3553743349508147432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glowingspider_movement_98
+      rect:
+        serializedVersion: 2
+        x: 4359
+        y: 744
+        width: 247
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef171050be4472341a3ed32b5f44af2c
+      internalID: -3661364403490944022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glowingspider_movement_99
+      rect:
+        serializedVersion: 2
+        x: 4615
+        y: 744
+        width: 237
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27ddf351ea87124418b2643ec97a4a0d
+      internalID: -7842229686610499319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glowingspider_movement_100
+      rect:
+        serializedVersion: 2
+        x: 4873
+        y: 744
+        width: 242
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca7f4566b57f0b94dbc5871069713441
+      internalID: -2421482138533744153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glowingspider_movement_101
+      rect:
+        serializedVersion: 2
+        x: 5128
+        y: 740
+        width: 242
+        height: 188
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d3430fa2e05e6b43ad48083dd85c279
+      internalID: -1001988664623980290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glowingspider_movement_102
+      rect:
+        serializedVersion: 2
+        x: 5383
+        y: 740
+        width: 231
+        height: 188
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2cffc30f10dbc80449d2e765216ac574
+      internalID: 4511950171281152732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glowingspider_movement_103
+      rect:
+        serializedVersion: 2
+        x: 5638
+        y: 740
+        width: 253
+        height: 188
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55bb7dd7dfe13f548805d0c37ed0f996
+      internalID: 3954739201401768048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glowingspider_movement_104
+      rect:
+        serializedVersion: 2
+        x: 5895
+        y: 740
+        width: 244
+        height: 188
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9376653a616e3954082d401d8c33368f
+      internalID: -6904667797464543015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glowingspider_movement_105
+      rect:
+        serializedVersion: 2
+        x: 6152
+        y: 740
+        width: 221
+        height: 188
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6a89a4d6e9467246be2fc0b9e472719
+      internalID: -3993652201731537273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glowingspider_movement_106
+      rect:
+        serializedVersion: 2
+        x: 6403
+        y: 744
+        width: 249
+        height: 191
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c350da849c674d14eaab3532c2220823
+      internalID: 1214668098913160622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glowingspider_movement_107
+      rect:
+        serializedVersion: 2
+        x: 6658
+        y: 744
+        width: 249
+        height: 191
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f3764d3454b3bc47baa6e58a9118cb6
+      internalID: 8458310485017767120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glowingspider_movement_108
+      rect:
+        serializedVersion: 2
+        x: 6917
+        y: 744
+        width: 250
+        height: 191
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6007d7e230c425846b99990ecdcc83a9
+      internalID: 2090236510056672248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glowingspider_movement_109
+      rect:
+        serializedVersion: 2
+        x: 7172
+        y: 744
+        width: 245
+        height: 191
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17809fcae661b8f4d85162939fb8ba43
+      internalID: 8112511147206080927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glowingspider_movement_110
+      rect:
+        serializedVersion: 2
+        x: 7427
+        y: 744
+        width: 253
+        height: 191
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ee0f769cbf1df843806f3651e16ad4f
+      internalID: -385205799159697529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glowingspider_movement_111
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 488
+        width: 7680
+        height: 207
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59b32571960d2e345995901c08fa55ff
+      internalID: 4789981143459652261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glowingspider_movement_112
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 287
+        width: 239
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27393f464d95de34b9a7eb7d9c04a0ce
+      internalID: -4833479610060392304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glowingspider_movement_113
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 285
+        width: 240
+        height: 178
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 011a01693eb94f54e9b4068078fd77a3
+      internalID: 5645718058754264509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glowingspider_movement_114
+      rect:
+        serializedVersion: 2
+        x: 531
+        y: 285
+        width: 236
+        height: 178
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63a26e60e708d8248b2e5bc3bd5c4666
+      internalID: 6514307504301140681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glowingspider_movement_115
+      rect:
+        serializedVersion: 2
+        x: 786
+        y: 287
+        width: 236
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a41431c2e735d1746b966da828cbc961
+      internalID: -402293862749188779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glowingspider_movement_116
+      rect:
+        serializedVersion: 2
+        x: 1041
+        y: 287
+        width: 239
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0200ceab2d06a9044997024b86609554
+      internalID: 1608769274041756804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glowingspider_movement_117
+      rect:
+        serializedVersion: 2
+        x: 1296
+        y: 289
+        width: 236
+        height: 166
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc4a90bedc2908c439c75831027fde1b
+      internalID: -3708780876606443515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glowingspider_movement_118
+      rect:
+        serializedVersion: 2
+        x: 1554
+        y: 288
+        width: 236
+        height: 167
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 138fd0963d5575c43ada45023e4eff46
+      internalID: 200060894925994793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glowingspider_movement_119
+      rect:
+        serializedVersion: 2
+        x: 1809
+        y: 288
+        width: 237
+        height: 167
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e5f20576598bff4fa06e20fbf9afa26
+      internalID: 3444059943249967291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glowingspider_movement_120
+      rect:
+        serializedVersion: 2
+        x: 2064
+        y: 289
+        width: 237
+        height: 166
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 536dcfb9481c99d488f15cc67cbf0c11
+      internalID: -7910516099269860314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glowingspider_movement_121
+      rect:
+        serializedVersion: 2
+        x: 2321
+        y: 289
+        width: 235
+        height: 166
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a110ea19d34eed46b2008deb6be01fd
+      internalID: -2861744906518915321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glowingspider_movement_122
+      rect:
+        serializedVersion: 2
+        x: 2578
+        y: 268
+        width: 221
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 590f4c0c2c9f1c648829452ce4ff1d37
+      internalID: 1319439956277395457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glowingspider_movement_123
+      rect:
+        serializedVersion: 2
+        x: 2833
+        y: 268
+        width: 221
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b30225e9fd8c6e24d91b23f9c500563e
+      internalID: 3314609653225162811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glowingspider_movement_124
+      rect:
+        serializedVersion: 2
+        x: 3088
+        y: 268
+        width: 221
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 378b4544c19b3c94e9f9358d9b05e3b3
+      internalID: 4017944682713045260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glowingspider_movement_125
+      rect:
+        serializedVersion: 2
+        x: 3347
+        y: 268
+        width: 221
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 710b782b092fce445bde29839a446ab5
+      internalID: 3214411825730661220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glowingspider_movement_126
+      rect:
+        serializedVersion: 2
+        x: 3602
+        y: 268
+        width: 221
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5f9c7ce9db01c341b77dd3ace1dfbbf
+      internalID: -7977045807216350161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glowingspider_movement_127
+      rect:
+        serializedVersion: 2
+        x: 3857
+        y: 264
+        width: 210
+        height: 187
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2d9bd52fb890124ea7e48ccabd8b560
+      internalID: -3035880653147156851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glowingspider_movement_128
+      rect:
+        serializedVersion: 2
+        x: 4112
+        y: 264
+        width: 210
+        height: 187
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd62a21565df39048a91cb12fbf8033b
+      internalID: 6772048289471900742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glowingspider_movement_129
+      rect:
+        serializedVersion: 2
+        x: 4371
+        y: 264
+        width: 210
+        height: 187
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76844f16707499f47a971d6facb6a062
+      internalID: -4396937866444959065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glowingspider_movement_130
+      rect:
+        serializedVersion: 2
+        x: 4626
+        y: 264
+        width: 210
+        height: 187
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ccea97e41f90d6443b8e953c8546cbd9
+      internalID: -4485687176546876391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glowingspider_movement_131
+      rect:
+        serializedVersion: 2
+        x: 4881
+        y: 264
+        width: 210
+        height: 187
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2572240a20e7b91489c92a3d98a9035e
+      internalID: 7760099638453504061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glowingspider_movement_132
+      rect:
+        serializedVersion: 2
+        x: 5136
+        y: 264
+        width: 217
+        height: 199
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04836ab28fc4a2743a16af120645a0b6
+      internalID: 5515811736462452216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glowingspider_movement_133
+      rect:
+        serializedVersion: 2
+        x: 5394
+        y: 264
+        width: 214
+        height: 199
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a423ca628f1d7614ca8de8a6d4a39159
+      internalID: -200785382878520825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glowingspider_movement_134
+      rect:
+        serializedVersion: 2
+        x: 5649
+        y: 264
+        width: 214
+        height: 199
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6564a82b82fff0848b47185a0653c324
+      internalID: 1327005903478940660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glowingspider_movement_135
+      rect:
+        serializedVersion: 2
+        x: 5904
+        y: 264
+        width: 218
+        height: 199
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4abc7da8fc3d974e865cf1c0f5ad43c
+      internalID: -5352766635205564889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glowingspider_movement_136
+      rect:
+        serializedVersion: 2
+        x: 6162
+        y: 264
+        width: 215
+        height: 199
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f1bd1136df8b014d8bc30e3221b696e
+      internalID: 4257007958805645925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glowingspider_movement_137
+      rect:
+        serializedVersion: 2
+        x: 6418
+        y: 268
+        width: 221
+        height: 199
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a303db635911e394fb1415f29c19674b
+      internalID: -5744961073497334932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glowingspider_movement_138
+      rect:
+        serializedVersion: 2
+        x: 6673
+        y: 268
+        width: 221
+        height: 199
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7e4c5daff488cb459110f6bd071882a
+      internalID: -1022799019183037435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glowingspider_movement_139
+      rect:
+        serializedVersion: 2
+        x: 6928
+        y: 268
+        width: 221
+        height: 199
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7de55a2bcd2a0d04787cd5262671e56f
+      internalID: 8956895576967634524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glowingspider_movement_140
+      rect:
+        serializedVersion: 2
+        x: 7187
+        y: 268
+        width: 221
+        height: 199
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a87be020ebf7cf24bb356f6560bfeb3d
+      internalID: -2477483117461765410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glowingspider_movement_141
+      rect:
+        serializedVersion: 2
+        x: 7442
+        y: 268
+        width: 221
+        height: 199
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27aa5351b387a934990b96acbf94ee6f
+      internalID: -1054977971728261919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glowingspider_movement_142
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 39
+        width: 221
+        height: 195
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23bd5baf9591ddd408b0d1046df6404f
+      internalID: 5029606947529270586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glowingspider_movement_143
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 39
+        width: 221
+        height: 195
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 067d68842f2b88d4a93c7c0efb151a78
+      internalID: -6887600556876681040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glowingspider_movement_144
+      rect:
+        serializedVersion: 2
+        x: 527
+        y: 39
+        width: 221
+        height: 195
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3b593bf2ffa08f40afea472342edccd
+      internalID: -5274823674083227036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glowingspider_movement_145
+      rect:
+        serializedVersion: 2
+        x: 786
+        y: 39
+        width: 221
+        height: 195
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e50455623fe354d42bed41bb2ada5f54
+      internalID: 4025053717257097290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glowingspider_movement_146
+      rect:
+        serializedVersion: 2
+        x: 1041
+        y: 39
+        width: 221
+        height: 195
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2516b860672aba4abc7c29a5da9c7c6
+      internalID: -1705382475759415228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glowingspider_movement_147
+      rect:
+        serializedVersion: 2
+        x: 1303
+        y: 36
+        width: 214
+        height: 195
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c627bf87815293d45bc59cb206bb9b38
+      internalID: 6253200365418362572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glowingspider_movement_148
+      rect:
+        serializedVersion: 2
+        x: 1558
+        y: 36
+        width: 217
+        height: 195
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ebffdbef9e2ac644a480f80f8059aa2
+      internalID: -5185774742207279180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glowingspider_movement_149
+      rect:
+        serializedVersion: 2
+        x: 1813
+        y: 36
+        width: 218
+        height: 195
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb80b2d8bac359e49bb935ae01ab0562
+      internalID: 4608303859943572080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glowingspider_movement_150
+      rect:
+        serializedVersion: 2
+        x: 2072
+        y: 36
+        width: 214
+        height: 195
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8869b6fa91ac224499618f1ee77676c3
+      internalID: 4785367186774658381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glowingspider_movement_151
+      rect:
+        serializedVersion: 2
+        x: 2327
+        y: 36
+        width: 214
+        height: 195
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75bf3b7034ae47a4fbc12da3c7055efe
+      internalID: -6871431332495362116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glowingspider_movement_152
+      rect:
+        serializedVersion: 2
+        x: 2586
+        y: 32
+        width: 213
+        height: 187
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b73c846731843c448aeb2094d28daa6c
+      internalID: 5906214108342423914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glowingspider_movement_153
+      rect:
+        serializedVersion: 2
+        x: 2844
+        y: 32
+        width: 210
+        height: 187
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f60e84e70e54f04c8110bc5b82c0cea
+      internalID: -2982850978461139216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glowingspider_movement_154
+      rect:
+        serializedVersion: 2
+        x: 3099
+        y: 32
+        width: 210
+        height: 187
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2e346556ea53c14694d97a9d5aa0ae5
+      internalID: -5440338554645266934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glowingspider_movement_155
+      rect:
+        serializedVersion: 2
+        x: 3354
+        y: 32
+        width: 210
+        height: 187
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 783126d2d040b8b4da237cd863803cfb
+      internalID: -7425396293604996513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glowingspider_movement_156
+      rect:
+        serializedVersion: 2
+        x: 3613
+        y: 32
+        width: 210
+        height: 187
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b079e22ad202d046b8b37b827d1812e
+      internalID: -8274328933140348313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glowingspider_movement_157
+      rect:
+        serializedVersion: 2
+        x: 3857
+        y: 39
+        width: 221
+        height: 177
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d28e60881c2924c458101fbd69774420
+      internalID: 5768636134096696438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glowingspider_movement_158
+      rect:
+        serializedVersion: 2
+        x: 4112
+        y: 39
+        width: 221
+        height: 177
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78c58a06ba895f1459425e7ac8bcc0f7
+      internalID: -1841801693363992461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glowingspider_movement_159
+      rect:
+        serializedVersion: 2
+        x: 4367
+        y: 39
+        width: 221
+        height: 177
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a3d4426cd1ba184f9557432873edd0c
+      internalID: 117771530775521708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glowingspider_movement_160
+      rect:
+        serializedVersion: 2
+        x: 4626
+        y: 39
+        width: 221
+        height: 177
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29d0764afa9853f418bdaa048c20f40d
+      internalID: -8003501287849268081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glowingspider_movement_161
+      rect:
+        serializedVersion: 2
+        x: 4881
+        y: 39
+        width: 221
+        height: 177
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4985861af94ab944a34a709ed86af46
+      internalID: 7252251575691189041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glowingspider_movement_162
+      rect:
+        serializedVersion: 2
+        x: 5121
+        y: 58
+        width: 236
+        height: 167
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13a73914c8541a949b937324cb8cc902
+      internalID: 5210255512492606652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glowingspider_movement_163
+      rect:
+        serializedVersion: 2
+        x: 5379
+        y: 58
+        width: 236
+        height: 167
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c4fb7a377381ab489809fc00e950788
+      internalID: -7397690225463065848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glowingspider_movement_164
+      rect:
+        serializedVersion: 2
+        x: 5634
+        y: 58
+        width: 237
+        height: 167
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a80d699022c1bfc4ba669dcc62e314da
+      internalID: 8828387936711816547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glowingspider_movement_165
+      rect:
+        serializedVersion: 2
+        x: 5889
+        y: 58
+        width: 237
+        height: 167
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40021499b36f83240b8fb6b16b9a8eb8
+      internalID: 2979402155462893867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glowingspider_movement_166
+      rect:
+        serializedVersion: 2
+        x: 6145
+        y: 58
+        width: 236
+        height: 167
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06c1ee2892f82204ea81299a35b1c3ff
+      internalID: 3750629787954730708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glowingspider_movement_167
+      rect:
+        serializedVersion: 2
+        x: 6399
+        y: 54
+        width: 240
+        height: 177
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 017444338cb261b46817d258acfca45e
+      internalID: 4128980103450176695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glowingspider_movement_168
+      rect:
+        serializedVersion: 2
+        x: 6655
+        y: 54
+        width: 239
+        height: 177
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1644e8ddfbde8e44d8d2ef7090d950fa
+      internalID: -2320857086054454867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glowingspider_movement_169
+      rect:
+        serializedVersion: 2
+        x: 6913
+        y: 54
+        width: 236
+        height: 177
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 180b74ed58c1adf49baa491bd0ece789
+      internalID: 5660852971978551114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glowingspider_movement_170
+      rect:
+        serializedVersion: 2
+        x: 7168
+        y: 54
+        width: 236
+        height: 177
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02998cf4b8edc64408edc1e87fab8250
+      internalID: 8335646301942461709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glowingspider_movement_171
+      rect:
+        serializedVersion: 2
+        x: 7423
+        y: 54
+        width: 240
+        height: 177
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8738f1e01ffd8a42b7f4c72df63a13e
+      internalID: 6831940129421289345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: b1dbe7583d0ef0442a291ad07db00eef
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
