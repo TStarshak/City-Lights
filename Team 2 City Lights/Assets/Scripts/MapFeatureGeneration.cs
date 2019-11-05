@@ -5,9 +5,11 @@ using UnityEngine;
 public class MapFeatureGeneration : MonoBehaviour
 {
     [SerializeField] GameObject pinetree;
+    [SerializeField] GameObject fireflyExample;
 
-	private List<GameObject[,,]> worldData;
+    private List<GameObject[,,]> worldData;
     List<Vector3> treePositions = new List<Vector3>();
+    List<Vector3> fireflyPositions = new List<Vector3>();
     float minX, maxX, minZ, maxZ, minY;
 
 	void Start()
@@ -54,8 +56,9 @@ public class MapFeatureGeneration : MonoBehaviour
             }
         }
 
-        generateTrees();
+	    generateTrees();
         applyTextures();
+        generateFireflies();
     }
 
     private void generateTrees()
@@ -91,7 +94,10 @@ public class MapFeatureGeneration : MonoBehaviour
             {
                 RaycastHit hit;
                 Physics.Raycast(new Vector3(randomX, 20f, randomZ), -Vector3.up, out hit);
-                treePositions.Add(new Vector3(randomX, hit.collider.gameObject.transform.position.y + 0.4f, randomZ));
+                if (hit.collider != null)
+                {
+                    treePositions.Add(new Vector3(randomX, hit.collider.gameObject.transform.position.y + 0.4f, randomZ));
+                }
             }
             treeNum--;
         }
@@ -150,6 +156,56 @@ public class MapFeatureGeneration : MonoBehaviour
                     }
                 }
             }
+        }
+    }
+
+    private void generateFireflies()
+    {
+        int fireflyNum = 500;
+        int newPosAttempt;
+        float randomX;
+        float randomZ;
+        while (fireflyNum > 0)
+        {
+            randomX = Mathf.Floor(Random.Range(minX, maxX));
+            randomZ = Mathf.Floor(Random.Range(minZ, maxZ));
+            newPosAttempt = 0;
+
+            for (int i = 0; i < fireflyPositions.Count; i++)
+            {
+		  	    RaycastHit hit;
+                Physics.Raycast(new Vector3(randomX, 20f, randomZ), -Vector3.up, out hit);
+                if (hit.collider == null || Physics.CheckSphere(new Vector3(randomX, hit.collider.gameObject.transform.position.y + 1.2f, randomZ), 0.6f) || Vector3.Distance(new Vector3(randomX, 1.2f, randomZ), fireflyPositions[i]) < 2f)
+                {
+                    randomX = Mathf.Floor(Random.Range(minX, maxX));
+            		randomZ = Mathf.Floor(Random.Range(minZ, maxZ));
+                    i = 0;
+                    newPosAttempt++;
+                }
+
+                if (newPosAttempt == 100)
+                {
+                    break;
+                }
+            }
+            if (newPosAttempt != 100)
+            {
+                RaycastHit hit;
+                Physics.Raycast(new Vector3(randomX, 20f, randomZ), -Vector3.up, out hit);
+                if (hit.collider != null)
+                {
+                    fireflyPositions.Add(new Vector3(randomX, hit.collider.gameObject.transform.position.y + 1.2f, randomZ));
+                }
+            }
+            fireflyNum--;
+        }
+
+        GameObject firefly;
+        foreach (Vector3 pos in fireflyPositions)
+        {
+            firefly = Instantiate(fireflyExample, pos, new Quaternion(0f, 0f, 0f, 0f));
+            //firefly.GetComponent<Animator>().SetFloat("Offset", Random.value * 1.5f);
+            //firefly.GetComponent<Animator>().speed = Random.value * 1.5f + 0.1f;
         }
     }
 }

@@ -326,3 +326,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   pinetree: {fileID: 4067930696414570323, guid: a003c8f95b97d4f8ca51e8362e09f8db,
     type: 3}
+  fireflyExample: {fileID: 5705764000689712277, guid: 0a4891de2d9504a468dc23ad45a676c0,
+    type: 3}
