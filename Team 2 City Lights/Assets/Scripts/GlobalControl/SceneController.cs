@@ -8,8 +8,8 @@ public class SceneController : MonoBehaviour
 
     public static SceneController Instance;
 
-    public GameObject overlay;
-    public GameObject overlaySuper;
+    public GameObject pauseMenu;
+    public GameObject optionsMenu;
     public static bool isPaused = false;
 
     // Called upon object creation
@@ -31,20 +31,20 @@ public class SceneController : MonoBehaviour
     {
         if (Input.GetButtonDown("Pause"))
         {
-            if (overlaySuper.activeInHierarchy)
+            if (optionsMenu.activeInHierarchy)
             {
-                overlaySuper.SetActive(false);
+                optionsMenu.SetActive(false);
             }
             else
             {
-                if (overlay.activeInHierarchy)
+                if (pauseMenu.activeInHierarchy)
                 {
-                    overlay.SetActive(false);
+                    pauseMenu.SetActive(false);
                     isPaused = true;
                 }
                 else
                 {
-                    overlay.SetActive(true);
+                    pauseMenu.SetActive(true);
                     isPaused = false;
                 }
             }
