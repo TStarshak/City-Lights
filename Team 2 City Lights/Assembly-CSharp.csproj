@@ -59,6 +59,7 @@
      <Compile Include="Assets\Scripts\FireflyMovement.cs" />
      <Compile Include="Assets\Scripts\GlobalControl\PlayerProgress.cs" />
      <Compile Include="Assets\Scripts\GlobalControl\PlayerStatistics.cs" />
+     <Compile Include="Assets\Scripts\GlobalControl\SceneController.cs" />
      <Compile Include="Assets\Scripts\Lighting.cs" />
      <Compile Include="Assets\Scripts\LocalNavMeshBuilder.cs" />
      <Compile Include="Assets\Scripts\NavMeshSourceTag.cs" />
@@ -74,7 +75,6 @@
      <Compile Include="Assets\Scripts\SpiderWeb.cs" />
      <Compile Include="Assets\Scripts\UI\MenuButtonController.cs" />
      <Compile Include="Assets\Scripts\UI\option_control.cs" />
-     <Compile Include="Assets\Scripts\UI\sceneController.cs" />
      <Compile Include="Assets\Scripts\UI\ShadowTimer.cs" />
      <Compile Include="Assets\Scripts\UI\timerBackgroundController.cs" />
      <Compile Include="Assets\Scripts\UI\timercontroller.cs" />

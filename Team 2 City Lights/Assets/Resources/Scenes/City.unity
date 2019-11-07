@@ -326,6 +326,7 @@ GameObject:
   m_Component:
   - component: {fileID: 430962828}
   - component: {fileID: 430962827}
+  - component: {fileID: 430962829}
   m_Layer: 0
   m_Name: GameManagement
   m_TagString: Untagged
@@ -359,6 +360,21 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &430962829
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 430962826}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fab25b2677ce97a4c9da1af2dfc3085c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  overlay: {fileID: 8068381861751756996, guid: cda8f3b9649688948b66afdfee07caaf, type: 3}
+  overlaySuper: {fileID: 7933163115145744043, guid: 37436cc2c61e9ac439058dec49369d2f,
+    type: 3}
 --- !u!1 &651356723
 GameObject:
   m_ObjectHideFlags: 0
