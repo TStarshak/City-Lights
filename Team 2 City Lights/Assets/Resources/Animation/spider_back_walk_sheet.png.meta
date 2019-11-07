@@ -159,7 +159,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 2
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -171,7 +171,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 2
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -183,7 +183,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 2
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -197,10 +197,10 @@ TextureImporter:
       name: spider_back_walk_sheet_0
       rect:
         serializedVersion: 2
-        x: 10
-        y: 59
-        width: 233
-        height: 174
+        x: 8
+        y: 46
+        width: 255
+        height: 190
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -208,7 +208,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c8372cadfe6b21a4eb0b97b420c01f61
+      spriteID: fa1d92a88f1ff3541a42dcebf803ed92
       internalID: 7154867977597605239
       vertices: []
       indices: 
@@ -218,10 +218,10 @@ TextureImporter:
       name: spider_back_walk_sheet_1
       rect:
         serializedVersion: 2
-        x: 270
-        y: 58
-        width: 233
-        height: 174
+        x: 263
+        y: 46
+        width: 255
+        height: 190
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -229,7 +229,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9e1d976c6b423fc4b885dcea7921c1ce
+      spriteID: 9e0f5be48e834e445a3dcbff8465ec45
       internalID: -3176298367403636960
       vertices: []
       indices: 
@@ -239,10 +239,10 @@ TextureImporter:
       name: spider_back_walk_sheet_2
       rect:
         serializedVersion: 2
-        x: 525
-        y: 61
-        width: 233
-        height: 174
+        x: 518
+        y: 46
+        width: 255
+        height: 190
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -250,7 +250,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 22bbe8d307edaa144b121f710241f9e5
+      spriteID: 3ec4a6e2c86f35446a010afcb9053e88
       internalID: 6023216773074580404
       vertices: []
       indices: 
@@ -260,10 +260,10 @@ TextureImporter:
       name: spider_back_walk_sheet_3
       rect:
         serializedVersion: 2
-        x: 779
-        y: 59
-        width: 233
-        height: 174
+        x: 773
+        y: 46
+        width: 255
+        height: 190
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -271,7 +271,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fcefdccf78dc43b43a64138ad919385b
+      spriteID: 514b856075f2205488e9f2edeca8fa83
       internalID: -283874238831020125
       vertices: []
       indices: 
@@ -281,10 +281,10 @@ TextureImporter:
       name: spider_back_walk_sheet_4
       rect:
         serializedVersion: 2
-        x: 1037
-        y: 58
-        width: 233
-        height: 174
+        x: 1028
+        y: 46
+        width: 255
+        height: 190
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -292,7 +292,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5b8be5c34b0fb4d4c9bf5ed8e1dbd7e1
+      spriteID: 2cf38b61149d4b04290bf6d4003a251d
       internalID: -3526251892307476185
       vertices: []
       indices: 
@@ -302,10 +302,10 @@ TextureImporter:
       name: spider_back_walk_sheet_5
       rect:
         serializedVersion: 2
-        x: 1165
-        y: 82
-        width: 233
-        height: 174
+        x: 1283
+        y: 46
+        width: 255
+        height: 190
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -313,7 +313,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5cc5f71d38f9458409a7aca8bff19ac7
+      spriteID: 2d684c1d36214ec40a0968e4ca712f93
       internalID: 426996031868338737
       vertices: []
       indices: 
@@ -323,10 +323,10 @@ TextureImporter:
       name: spider_back_walk_sheet_6
       rect:
         serializedVersion: 2
-        x: 1398
-        y: 82
-        width: 233
-        height: 174
+        x: 1538
+        y: 46
+        width: 255
+        height: 190
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -334,7 +334,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8d0d0a7861d231149bb7715c0ee61399
+      spriteID: 77b4e2622a80cb04c86565417bf99c0c
       internalID: -518140045364022623
       vertices: []
       indices: 
@@ -344,10 +344,10 @@ TextureImporter:
       name: spider_back_walk_sheet_7
       rect:
         serializedVersion: 2
-        x: 1631
-        y: 82
-        width: 233
-        height: 174
+        x: 1793
+        y: 46
+        width: 255
+        height: 190
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -355,7 +355,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 597ccda884ebda14794aa93b484d2445
+      spriteID: f03fabc4874e96847977aa8796a039a4
       internalID: 2830544088892640996
       vertices: []
       indices: 
@@ -365,10 +365,10 @@ TextureImporter:
       name: spider_back_walk_sheet_8
       rect:
         serializedVersion: 2
-        x: 1864
-        y: 82
-        width: 233
-        height: 174
+        x: 2048
+        y: 46
+        width: 255
+        height: 190
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -376,7 +376,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e676fc9892e86c1449458a72d64a645b
+      spriteID: 9a67a2e44924db94bbed6463cbcfa6ed
       internalID: -4956781722666769955
       vertices: []
       indices: 
@@ -386,10 +386,10 @@ TextureImporter:
       name: spider_back_walk_sheet_9
       rect:
         serializedVersion: 2
-        x: 2097
-        y: 82
-        width: 233
-        height: 174
+        x: 2303
+        y: 46
+        width: 255
+        height: 190
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -397,7 +397,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0c5f7af6cf010bb45a6cfb322b76755c
+      spriteID: 25ca180a019edb240b86e398c8a454a4
       internalID: -1388343613449634276
       vertices: []
       indices: 
@@ -407,10 +407,10 @@ TextureImporter:
       name: spider_back_walk_sheet_10
       rect:
         serializedVersion: 2
-        x: 2330
-        y: 82
-        width: 233
-        height: 174
+        x: 2558
+        y: 46
+        width: 255
+        height: 190
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -418,7 +418,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7b3ad90ad76623e418b484f58aaadaa2
+      spriteID: 6a0edc224062db74bb7016db09db3028
       internalID: -6980817787325296384
       vertices: []
       indices: 
@@ -428,10 +428,10 @@ TextureImporter:
       name: spider_back_walk_sheet_11
       rect:
         serializedVersion: 2
-        x: 2563
-        y: 82
-        width: 233
-        height: 174
+        x: 2813
+        y: 46
+        width: 255
+        height: 190
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -439,7 +439,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a3619a9be2018564ba692e3c86da6df9
+      spriteID: f699ce6727403694ab84d17af24097e1
       internalID: -1597103672119842763
       vertices: []
       indices: 
@@ -449,10 +449,10 @@ TextureImporter:
       name: spider_back_walk_sheet_12
       rect:
         serializedVersion: 2
-        x: 2796
-        y: 82
-        width: 233
-        height: 174
+        x: 3068
+        y: 46
+        width: 255
+        height: 190
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -460,7 +460,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6e6102439bf658740a2a72416254a841
+      spriteID: e1bd8bee779ef534c9f558998a288552
       internalID: -8341126273690574113
       vertices: []
       indices: 
@@ -470,10 +470,10 @@ TextureImporter:
       name: spider_back_walk_sheet_13
       rect:
         serializedVersion: 2
-        x: 3029
-        y: 82
-        width: 233
-        height: 174
+        x: 3323
+        y: 46
+        width: 255
+        height: 190
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -481,7 +481,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 04b85dbec73850a49acf881ad5741d4b
+      spriteID: 255a71ccc7b616548aa1b89f3f5e3435
       internalID: -4474058848120244875
       vertices: []
       indices: 
@@ -491,10 +491,10 @@ TextureImporter:
       name: spider_back_walk_sheet_14
       rect:
         serializedVersion: 2
-        x: 3262
-        y: 82
-        width: 233
-        height: 174
+        x: 3581
+        y: 46
+        width: 255
+        height: 190
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -502,7 +502,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ac7ed9588930ee540bc7f91277e1f552
+      spriteID: 73bcfad3311bd9147aefd4460ce41acc
       internalID: -4972881485690499768
       vertices: []
       indices: 
@@ -512,10 +512,10 @@ TextureImporter:
       name: spider_back_walk_sheet_15
       rect:
         serializedVersion: 2
-        x: 3495
-        y: 82
-        width: 233
-        height: 174
+        x: 3833
+        y: 46
+        width: 255
+        height: 190
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -523,7 +523,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6f7588dece65b4a439dee86a52c95cae
+      spriteID: aa96977fa95125246a6431b85d964863
       internalID: -3844408519689599913
       vertices: []
       indices: 
@@ -533,10 +533,10 @@ TextureImporter:
       name: spider_back_walk_sheet_16
       rect:
         serializedVersion: 2
-        x: 3728
-        y: 82
-        width: 233
-        height: 174
+        x: 4088
+        y: 46
+        width: 255
+        height: 190
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -544,7 +544,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2dff83529d30edb48b5aa048fa389400
+      spriteID: a4c328b20ab35f5428149d1e08eb101f
       internalID: -1324586438053673123
       vertices: []
       indices: 
@@ -554,10 +554,10 @@ TextureImporter:
       name: spider_back_walk_sheet_17
       rect:
         serializedVersion: 2
-        x: 3961
-        y: 82
-        width: 233
-        height: 174
+        x: 4343
+        y: 46
+        width: 255
+        height: 190
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -565,7 +565,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d2a5c6536e9c4a74d8aed084b68f1148
+      spriteID: 6c4d236a442c0fb4da364507ca220118
       internalID: -2951892679114733383
       vertices: []
       indices: 
@@ -575,10 +575,10 @@ TextureImporter:
       name: spider_back_walk_sheet_18
       rect:
         serializedVersion: 2
-        x: 4194
-        y: 82
-        width: 233
-        height: 174
+        x: 4598
+        y: 46
+        width: 255
+        height: 190
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -586,7 +586,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 575e34120204c834ba096f2229bbd2d1
+      spriteID: f6c55c0c1f887e940bb8de3b91232721
       internalID: -4164178799245107764
       vertices: []
       indices: 
@@ -596,10 +596,10 @@ TextureImporter:
       name: spider_back_walk_sheet_19
       rect:
         serializedVersion: 2
-        x: 4427
-        y: 82
-        width: 233
-        height: 174
+        x: 4853
+        y: 46
+        width: 255
+        height: 190
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -607,7 +607,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 04da93a2b94f23d40af26de33d82cfba
+      spriteID: c95b269b3fe17ff4ba09e36d8d99b198
       internalID: 4881479909364222434
       vertices: []
       indices: 
@@ -617,10 +617,10 @@ TextureImporter:
       name: spider_back_walk_sheet_20
       rect:
         serializedVersion: 2
-        x: 4660
-        y: 82
-        width: 233
-        height: 174
+        x: 5116
+        y: 48
+        width: 255
+        height: 190
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -628,7 +628,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: befc9cd20c6c33b40ae093db9b6527fe
+      spriteID: 7367bf6a180c2cb409f119e62acf5be0
       internalID: 8213146465548661956
       vertices: []
       indices: 
@@ -638,10 +638,10 @@ TextureImporter:
       name: spider_back_walk_sheet_21
       rect:
         serializedVersion: 2
-        x: 4893
-        y: 82
-        width: 233
-        height: 174
+        x: 5368
+        y: 48
+        width: 255
+        height: 190
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -649,7 +649,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7c73c4b8a1e2028498bc96c282259108
+      spriteID: 059e127ed468f2841b54133e75368677
       internalID: 7543626988216998404
       vertices: []
       indices: 
@@ -659,10 +659,10 @@ TextureImporter:
       name: spider_back_walk_sheet_22
       rect:
         serializedVersion: 2
-        x: 5126
-        y: 82
-        width: 233
-        height: 174
+        x: 5627
+        y: 46
+        width: 255
+        height: 190
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -670,7 +670,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f52d6b02b93f5eb45b2595247c3e3a1a
+      spriteID: 37c2033adef87924bb0bd1863f8a97dc
       internalID: 4019875777543611734
       vertices: []
       indices: 
@@ -680,10 +680,10 @@ TextureImporter:
       name: spider_back_walk_sheet_23
       rect:
         serializedVersion: 2
-        x: 5359
-        y: 82
-        width: 233
-        height: 174
+        x: 5882
+        y: 46
+        width: 255
+        height: 190
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -691,7 +691,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: be8c31890062c214a9218e9c77697ffa
+      spriteID: 2fb8bf9323c4c9a4ea526d4a0d50b930
       internalID: 8089980672192680307
       vertices: []
       indices: 
@@ -701,10 +701,10 @@ TextureImporter:
       name: spider_back_walk_sheet_24
       rect:
         serializedVersion: 2
-        x: 5592
-        y: 82
-        width: 233
-        height: 174
+        x: 6139
+        y: 46
+        width: 255
+        height: 190
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -712,7 +712,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: beaa4ae47f622804493e88e6ab972bf0
+      spriteID: e603f5d725a2b4243b2d3efd6c2da695
       internalID: -4821287594441088232
       vertices: []
       indices: 
@@ -722,10 +722,10 @@ TextureImporter:
       name: spider_back_walk_sheet_25
       rect:
         serializedVersion: 2
-        x: 5825
-        y: 82
-        width: 233
-        height: 174
+        x: 6400
+        y: 46
+        width: 255
+        height: 190
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -733,7 +733,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 91d02d1da043994448a2e3385f1d2353
+      spriteID: 7e3b90b14734228458e22565d5214ff3
       internalID: -6786582690150509730
       vertices: []
       indices: 
@@ -743,10 +743,10 @@ TextureImporter:
       name: spider_back_walk_sheet_26
       rect:
         serializedVersion: 2
-        x: 6058
-        y: 82
-        width: 233
-        height: 174
+        x: 6655
+        y: 46
+        width: 255
+        height: 190
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -754,7 +754,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d6f317e7cb2060340aec7b870199f52d
+      spriteID: dcea5426c633f5541b12f9e436c58caf
       internalID: -8374339122753388483
       vertices: []
       indices: 
@@ -764,10 +764,10 @@ TextureImporter:
       name: spider_back_walk_sheet_27
       rect:
         serializedVersion: 2
-        x: 6291
-        y: 82
-        width: 233
-        height: 174
+        x: 6910
+        y: 52
+        width: 255
+        height: 190
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -775,7 +775,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a7c5d3a28c2a40244bc2bba51378dc93
+      spriteID: 3ffa5d98e73cea74bb863bb49630f708
       internalID: -7594402620422748862
       vertices: []
       indices: 
@@ -785,10 +785,10 @@ TextureImporter:
       name: spider_back_walk_sheet_28
       rect:
         serializedVersion: 2
-        x: 6524
-        y: 82
-        width: 233
-        height: 174
+        x: 7165
+        y: 52
+        width: 255
+        height: 190
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -796,7 +796,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4a6cce6a14a62984b8e5a7de2c818a33
+      spriteID: fdeddc55c92be2143bf0dd7a7b851d0b
       internalID: 33798775775084767
       vertices: []
       indices: 
@@ -806,10 +806,10 @@ TextureImporter:
       name: spider_back_walk_sheet_29
       rect:
         serializedVersion: 2
-        x: 6757
-        y: 82
-        width: 233
-        height: 174
+        x: 7421
+        y: 51
+        width: 259
+        height: 190
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -817,50 +817,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 729f93ecfc5bcac45b9a72ccf72af8e0
+      spriteID: 46524836672788c43b1be37afc7cf67f
       internalID: 7537039392943485116
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: spider_back_walk_sheet_30
-      rect:
-        serializedVersion: 2
-        x: 6990
-        y: 82
-        width: 233
-        height: 174
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a9ea526975b4eac448f33a6939c914f4
-      internalID: -6974586836850710864
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: spider_back_walk_sheet_31
-      rect:
-        serializedVersion: 2
-        x: 7223
-        y: 82
-        width: 233
-        height: 174
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 8142ea326fd63cd478125db1e9fa78ba
-      internalID: 6512416749661011670
       vertices: []
       indices: 
       edges: []
