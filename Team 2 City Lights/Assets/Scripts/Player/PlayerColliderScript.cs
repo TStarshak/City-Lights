@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class PlayerColliderScript : MonoBehaviour
 {
@@ -10,6 +11,7 @@ public class PlayerColliderScript : MonoBehaviour
     void Start()
     {
         player = GameObject.FindGameObjectWithTag("Player");
+        // TODO: Consolidate PlayerMovementCity script to one script so that this isn't null when in the city
         pMove = player.GetComponent<PlayerMovement>();
     }
 

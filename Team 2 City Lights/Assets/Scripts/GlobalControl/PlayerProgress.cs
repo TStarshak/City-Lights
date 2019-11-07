@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+/*Stores the Global Progress of the Player Across Scenes */
 public class PlayerProgress : MonoBehaviour
 {
     /*
@@ -12,10 +13,13 @@ public class PlayerProgress : MonoBehaviour
     // The instance of this progress script
     public static PlayerProgress Instance;
 
-    // Called upon scene awake
+    // References global progress of player statsistics
+    public PlayerStatistics savedPlayerData = new PlayerStatistics();
+
+    // Called upon object creation
     void Awake()
     {
-        // Instantiate this tracker if none exists yet
+        // Instantiate this tracker if none exists yet and keep game object alive
         if (Instance == null){
             DontDestroyOnLoad(gameObject);
             Instance = this;
@@ -24,6 +28,11 @@ public class PlayerProgress : MonoBehaviour
         else if (Instance != this){
             Destroy(gameObject);
         }
+        setDefaultAttributes();
+    }
+
+    private void setDefaultAttributes(){
+        savedPlayerData.movementSpeed = 8.0f;
     }
 
 }

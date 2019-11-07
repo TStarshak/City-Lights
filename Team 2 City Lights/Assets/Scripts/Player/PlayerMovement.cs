@@ -8,18 +8,18 @@ using UnityEngine;
 public class PlayerMovement : MonoBehaviour
 {
     [SerializeField] private GameObject player;
-    public float movementSpeed;
     private CharacterController _charController;
     public GameObject pauseMenu;
+    public float movementSpeed;
    // private float sprintMultiplier;
    // private bool sprinting;
    // public int stamina = 100;
 
     void Start()
     {
+        movementSpeed = PlayerState.localPlayerData.movementSpeed;
        // sprinting = false;
         _charController = GetComponent<CharacterController>();
-        movementSpeed = 8.0f;
         //sprintMultiplier = 2.0f;
     }
 

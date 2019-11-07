@@ -58,6 +58,7 @@
      <Compile Include="Assets\Scripts\Enemy.cs" />
      <Compile Include="Assets\Scripts\FireflyMovement.cs" />
      <Compile Include="Assets\Scripts\GlobalControl\PlayerProgress.cs" />
+     <Compile Include="Assets\Scripts\GlobalControl\PlayerStatistics.cs" />
      <Compile Include="Assets\Scripts\Lighting.cs" />
      <Compile Include="Assets\Scripts\LocalNavMeshBuilder.cs" />
      <Compile Include="Assets\Scripts\NavMeshSourceTag.cs" />
@@ -65,6 +66,7 @@
      <Compile Include="Assets\Scripts\Player\PlayerColliderScript.cs" />
      <Compile Include="Assets\Scripts\Player\PlayerMovement.cs" />
      <Compile Include="Assets\Scripts\Player\PlayerMovementCity.cs" />
+     <Compile Include="Assets\Scripts\Player\PlayerState.cs" />
      <Compile Include="Assets\Scripts\Player\Vacuum.cs" />
      <Compile Include="Assets\Scripts\PlayerAnimation.cs" />
      <Compile Include="Assets\Scripts\Projectile.cs" />

@@ -7,7 +7,6 @@ public class sceneController : MonoBehaviour
     public GameObject overlay;
     public GameObject overlaySuper;
     public static bool isPaused = false;
-    public static int collectedFireflies = 0;
     // Start is called before the first frame update
     void Start()
     {
@@ -37,12 +36,5 @@ public class sceneController : MonoBehaviour
                 }
             }
         }
-    }
-
-    void OnGUI()
-    {
-        // string text = "Fireflies Collected: " + FCollected;
-        // GUI.Box(new Rect(0, 0, Screen.width, Screen.height), text);
-
     }
 }
