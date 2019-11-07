@@ -56,7 +56,7 @@ public class timercontroller : MonoBehaviour
             if (pauseM.activeInHierarchy == false)
             {
                 timeUntilShadowHour--;
-                this.transform.Rotate(0, 0, 2, Space.Self);
+                this.transform.Rotate(0, 0, -2, Space.Self);
             }
         }
         // Enable Shadow Hour when the time has reached 0
