@@ -7,7 +7,7 @@ public class sceneController : MonoBehaviour
     public GameObject overlay;
     public GameObject overlaySuper;
     public static bool isPaused = false;
-    public static int FCollected = 0;
+    public static int collectedFireflies = 0;
     // Start is called before the first frame update
     void Start()
     {
@@ -17,7 +17,7 @@ public class sceneController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown("escape"))
+        if (Input.GetButtonDown("Pause"))
         {
             if (overlaySuper.activeInHierarchy)
             {
