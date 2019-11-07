@@ -9,7 +9,6 @@ public class PlayerMovement : MonoBehaviour
 {
     [SerializeField] private GameObject player;
     private CharacterController _charController;
-    public GameObject pauseMenu;
     public float movementSpeed;
    // private float sprintMultiplier;
    // private bool sprinting;
@@ -39,7 +38,7 @@ public class PlayerMovement : MonoBehaviour
              StartCoroutine(RecoverStamina()); */
            
 
-        if (pauseMenu.activeInHierarchy == false)
+        if (PauseController.isPaused == false)
         {
             float deltaX = Input.GetAxis("Horizontal") * movementSpeed;
             float deltaZ = Input.GetAxis("Vertical") * movementSpeed;

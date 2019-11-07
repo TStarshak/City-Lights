@@ -14,8 +14,6 @@ public class Enemy : MonoBehaviour
     private Light eyes;
     private Animator anim;
     private Color shadeAlpha;
-    public GameObject pauseMenu;
-
     void Start()
     {
         rot = transform.rotation;
@@ -30,7 +28,7 @@ public class Enemy : MonoBehaviour
     {
         float distance=Vector3.Distance(transform.position, Player.transform.position);
         Shadoow.transform.rotation = rot;
-        if (pauseMenu.activeInHierarchy == false)
+        if (PauseController.isPaused == false)
         {
             if (distance < activationDistance)
             {

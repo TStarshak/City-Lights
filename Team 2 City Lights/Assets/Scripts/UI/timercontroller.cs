@@ -9,7 +9,6 @@ public class timercontroller : MonoBehaviour
     [SerializeField]
     private int timerStart = 180;
     private int timeUntilShadowHour;
-    public GameObject pauseM;
     public GameObject shadowIcon;
     // Start is called before the first frame update
     void Start()
@@ -53,7 +52,7 @@ public class timercontroller : MonoBehaviour
         while (timeUntilShadowHour > 0)
         {
             yield return new WaitForSeconds(1);
-            if (pauseM.activeInHierarchy == false)
+            if (PauseController.isPaused == false)
             {
                 timeUntilShadowHour--;
                 this.transform.Rotate(0, 0, 2, Space.Self);

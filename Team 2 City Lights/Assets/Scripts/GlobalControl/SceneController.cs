@@ -1,16 +1,13 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 /* Global Script for Scene Management and Navigation */
 public class SceneController : MonoBehaviour
 {
 
     public static SceneController Instance;
-
-    public GameObject overlay;
-    public GameObject overlaySuper;
-    public static bool isPaused = false;
 
     // Called upon object creation
     void Awake()
@@ -29,25 +26,10 @@ public class SceneController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetButtonDown("Pause"))
-        {
-            if (overlaySuper.activeInHierarchy)
-            {
-                overlaySuper.SetActive(false);
-            }
-            else
-            {
-                if (overlay.activeInHierarchy)
-                {
-                    overlay.SetActive(false);
-                    isPaused = true;
-                }
-                else
-                {
-                    overlay.SetActive(true);
-                    isPaused = false;
-                }
-            }
-        }
+
+    }
+
+    public static void LoadScene(string scene){
+        SceneManager.LoadScene(scene);
     }
 }

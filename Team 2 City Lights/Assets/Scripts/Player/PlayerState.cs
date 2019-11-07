@@ -19,8 +19,10 @@ public class PlayerState : MonoBehaviour
     }
     void OnGUI()
     {
-        string text = "Fireflies Collected: " + localPlayerData.firefliesCollected;
-        GUI.Box(new Rect(0, 0, Screen.width, Screen.height), text);
+        //Displays a string denoting fireflies
+        string fireflyCounter = "Fireflies Collected: " + localPlayerData.firefliesCollected;
+        // GUI.Box(new Rect(0, 0, Screen.width, Screen.height), fireflyCounter);
+        // GUI.Box.GetComponent
 
     }
 }

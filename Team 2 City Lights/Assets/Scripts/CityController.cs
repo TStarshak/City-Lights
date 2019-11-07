@@ -30,7 +30,7 @@ public class CityController : MonoBehaviour
 
         if (Input.GetButtonDown("Action")){
             if (isNearCityEdge()){
-                SceneManager.LoadScene(forestScene);
+                SceneController.LoadScene(forestScene);
             }
         }
 
