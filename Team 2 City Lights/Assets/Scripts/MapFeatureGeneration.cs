@@ -12,13 +12,13 @@ public class MapFeatureGeneration : MonoBehaviour
     List<Vector3> fireflyPositions = new List<Vector3>();
     float minX, maxX, minZ, maxZ, minY;
 
-	void Start()
+    void Start()
     {
-		worldData = new List<GameObject[,,]>();
-	}
+        worldData = new List<GameObject[,,]>();
+    }
 
-	public void beginGeneration(List<GameObject[,,]>  wd)
-	{
+    public void beginGeneration(List<GameObject[,,]> wd)
+    {
         worldData = wd;
         minX = worldData[0][0, 0, 0].transform.position.x;
         minY = worldData[0][0, 0, 0].transform.position.y;
@@ -56,7 +56,7 @@ public class MapFeatureGeneration : MonoBehaviour
             }
         }
 
-	    generateTrees();
+        generateTrees();
         applyTextures();
         generateFireflies();
     }
@@ -161,24 +161,38 @@ public class MapFeatureGeneration : MonoBehaviour
 
     private void generateFireflies()
     {
-        int fireflyNum = 500;
+        int fireflyNum1 = 50;
+        int fireflyNum2 = 200;
+        int fireflyNum3 = 600;
         int newPosAttempt;
+        float zoneWidth = (maxX - minX) / 7;
         float randomX;
         float randomZ;
-        while (fireflyNum > 0)
+
+        while (fireflyNum3 > 0)
         {
             randomX = Mathf.Floor(Random.Range(minX, maxX));
             randomZ = Mathf.Floor(Random.Range(minZ, maxZ));
+
             newPosAttempt = 0;
 
             for (int i = 0; i < fireflyPositions.Count; i++)
             {
-		  	    RaycastHit hit;
+                RaycastHit hit;
                 Physics.Raycast(new Vector3(randomX, 20f, randomZ), -Vector3.up, out hit);
-                if (hit.collider == null || Physics.CheckSphere(new Vector3(randomX, hit.collider.gameObject.transform.position.y + 1.2f, randomZ), 0.6f) || Vector3.Distance(new Vector3(randomX, 1.2f, randomZ), fireflyPositions[i]) < 2f)
+                if (randomX > zoneWidth && randomX < (zoneWidth * 6) && randomZ > zoneWidth && randomZ < (zoneWidth * 6))
                 {
                     randomX = Mathf.Floor(Random.Range(minX, maxX));
-            		randomZ = Mathf.Floor(Random.Range(minZ, maxZ));
+                    randomZ = Mathf.Floor(Random.Range(minZ, maxZ));
+
+                    i = 0;
+                    newPosAttempt++;
+                }
+                else if (hit.collider == null || Physics.CheckSphere(new Vector3(randomX, hit.collider.gameObject.transform.position.y + 1.2f, randomZ), 0.6f) || Vector3.Distance(new Vector3(randomX, 1.2f, randomZ), fireflyPositions[i]) < 2f)
+                {
+                    randomX = Mathf.Floor(Random.Range(minX, maxX));
+                    randomZ = Mathf.Floor(Random.Range(minZ, maxZ));
+
                     i = 0;
                     newPosAttempt++;
                 }
@@ -188,7 +202,7 @@ public class MapFeatureGeneration : MonoBehaviour
                     break;
                 }
             }
-            if (newPosAttempt != 100)
+            if (newPosAttempt < 100)
             {
                 RaycastHit hit;
                 Physics.Raycast(new Vector3(randomX, 20f, randomZ), -Vector3.up, out hit);
@@ -197,13 +211,104 @@ public class MapFeatureGeneration : MonoBehaviour
                     fireflyPositions.Add(new Vector3(randomX, hit.collider.gameObject.transform.position.y + 1.2f, randomZ));
                 }
             }
-            fireflyNum--;
+            fireflyNum3--;
+        }
+
+        while (fireflyNum2 > 0)
+        {
+            randomX = Mathf.Floor(Random.Range(minX + zoneWidth, maxX - zoneWidth));
+            randomZ = Mathf.Floor(Random.Range(minZ + zoneWidth, maxZ - zoneWidth));
+
+            newPosAttempt = 0;
+
+            for (int i = 0; i < fireflyPositions.Count; i++)
+            {
+                RaycastHit hit;
+                Physics.Raycast(new Vector3(randomX, 20f, randomZ), -Vector3.up, out hit);
+                if (randomX > (zoneWidth * 2) && randomX < (zoneWidth * 5) && randomZ > (zoneWidth * 2) && randomZ < (zoneWidth * 5))
+                {
+                    randomX = Mathf.Floor(Random.Range(minX + zoneWidth, maxX - zoneWidth));
+                    randomZ = Mathf.Floor(Random.Range(minZ + zoneWidth, maxZ - zoneWidth));
+
+                    i = 0;
+                    newPosAttempt++;
+                }
+                else if (hit.collider == null || Physics.CheckSphere(new Vector3(randomX, hit.collider.gameObject.transform.position.y + 1.2f, randomZ), 0.6f) || Vector3.Distance(new Vector3(randomX, 1.2f, randomZ), fireflyPositions[i]) < 2f)
+                {
+                    randomX = Mathf.Floor(Random.Range(minX + zoneWidth, maxX - zoneWidth));
+                    randomZ = Mathf.Floor(Random.Range(minZ + zoneWidth, maxZ - zoneWidth));
+
+                    i = 0;
+                    newPosAttempt++;
+                }
+
+                if (newPosAttempt == 100)
+                {
+                    break;
+                }
+            }
+            if (newPosAttempt < 100)
+            {
+                RaycastHit hit;
+                Physics.Raycast(new Vector3(randomX, 20f, randomZ), -Vector3.up, out hit);
+                if (hit.collider != null)
+                {
+                    fireflyPositions.Add(new Vector3(randomX, hit.collider.gameObject.transform.position.y + 1.2f, randomZ));
+                }
+            }
+            fireflyNum2--;
+        }
+
+        while (fireflyNum1 > 0)
+        {
+            randomX = Mathf.Floor(Random.Range(minX + (zoneWidth * 2), maxX - (zoneWidth * 2)));
+            randomZ = Mathf.Floor(Random.Range(minZ + (zoneWidth * 2), maxZ - (zoneWidth * 2)));
+
+            newPosAttempt = 0;
+
+            for (int i = 0; i < fireflyPositions.Count; i++)
+            {
+                RaycastHit hit;
+                Physics.Raycast(new Vector3(randomX, 20f, randomZ), -Vector3.up, out hit);
+                if (randomX > (zoneWidth * 3) && randomX < (zoneWidth * 4) && randomZ > (zoneWidth * 3) && randomZ < (zoneWidth * 4))
+                {
+                    randomX = Mathf.Floor(Random.Range(minX + (zoneWidth * 2), maxX - (zoneWidth * 2)));
+                    randomZ = Mathf.Floor(Random.Range(minZ + (zoneWidth * 2), maxZ - (zoneWidth * 2)));
+
+                    i = 0;
+                    newPosAttempt++;
+                }
+                else if (hit.collider == null || Physics.CheckSphere(new Vector3(randomX, hit.collider.gameObject.transform.position.y + 1.2f, randomZ), 0.6f) || Vector3.Distance(new Vector3(randomX, 1.2f, randomZ), fireflyPositions[i]) < 2f)
+                {
+                    randomX = Mathf.Floor(Random.Range(minX + (zoneWidth * 2), maxX - (zoneWidth * 2)));
+                    randomZ = Mathf.Floor(Random.Range(minZ + (zoneWidth * 2), maxZ - (zoneWidth * 2)));
+
+                    i = 0;
+                    newPosAttempt++;
+                }
+
+                if (newPosAttempt == 100)
+                {
+                    break;
+                }
+            }
+            if (newPosAttempt < 100)
+            {
+                RaycastHit hit;
+                Physics.Raycast(new Vector3(randomX, 20f, randomZ), -Vector3.up, out hit);
+                if (hit.collider != null)
+                {
+                    fireflyPositions.Add(new Vector3(randomX, hit.collider.gameObject.transform.position.y + 1.2f, randomZ));
+                }
+            }
+            fireflyNum1--;
         }
 
         GameObject firefly;
-        foreach (Vector3 pos in fireflyPositions)
+        for (int i = 0; i < fireflyPositions.Count; i++)
         {
-            firefly = Instantiate(fireflyExample, pos, new Quaternion(0f, 0f, 0f, 0f));
+            firefly = Instantiate(fireflyExample, fireflyPositions[i], new Quaternion(0f, 0f, 0f, 0f));
+            firefly.name = "Firefly " + i;
             //firefly.GetComponent<Animator>().SetFloat("Offset", Random.value * 1.5f);
             //firefly.GetComponent<Animator>().speed = Random.value * 1.5f + 0.1f;
         }
