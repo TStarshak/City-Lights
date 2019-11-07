@@ -3,7 +3,10 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Firefly
+  - Enemy
+  - Web
   layers:
   - Default
   - TransparentFX
@@ -13,8 +16,8 @@ TagManager:
   - UI
   - 
   - 
-  - 
-  - 
+  - overlay
+  - PostProcessing
   - 
   - 
   - 
@@ -38,6 +41,9 @@ TagManager:
   - 
   - 
   m_SortingLayers:
+  - name: Overlay Menu
+    uniqueID: 2084010207
+    locked: 0
   - name: Default
     uniqueID: 0
     locked: 0

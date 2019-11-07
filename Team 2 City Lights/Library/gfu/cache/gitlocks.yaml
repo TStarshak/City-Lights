@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &1
+MonoBehaviour:
+  m_ObjectHideFlags: 61
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1265399648, guid: dab95a0f649b42c4a8765e8d45a1d114, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cacheType: 7
+  lastUpdatedAtString: 2019-11-06T22:22:21.140-05:00
+  initializedAtString: 2019-11-06T20:35:11.237-05:00
+  gitLocks: []

@@ -1,0 +1,406 @@
+fileFormatVersion: 2
+guid: 1a6986d59077d4d40a1fdc84bdc375a0
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2729247855250964605
+    second: fireflyterchiefidle_0
+  - first:
+      213: -6203070000804533933
+    second: fireflyterchiefidle_1
+  - first:
+      213: 1701346998127595668
+    second: fireflyterchiefidle_2
+  - first:
+      213: -8518963856922351355
+    second: fireflyterchiefidle_3
+  - first:
+      213: 8665082546930557626
+    second: fireflyterchiefidle_4
+  - first:
+      213: -2830686034660545404
+    second: fireflyterchiefidle_5
+  - first:
+      213: 4228990674386962188
+    second: fireflyterchiefidle_6
+  - first:
+      213: 9153354731584201861
+    second: fireflyterchiefidle_7
+  - first:
+      213: 3956416737922253202
+    second: fireflyterchiefidle_8
+  - first:
+      213: -982789978053958553
+    second: broke
+  - first:
+      213: 6352341030405362803
+    second: fireflyterchiefidle_10
+  - first:
+      213: 4730292570444588796
+    second: fireflyterchiefidle_11
+  - first:
+      213: 3141061556900322928
+    second: fireflyterchiefidle_12
+  - first:
+      213: -74954317563873565
+    second: fireflyterchiefidle_13
+  - first:
+      213: 8509708696175709351
+    second: fireflyterchiefidle_14
+  - first:
+      213: -389834604067637694
+    second: fireflyterchiefidle_15
+  - first:
+      213: 6704222903768077067
+    second: fireflyterchiefidle_16
+  - first:
+      213: -2816684419595797979
+    second: fireflyterchiefidle_17
+  - first:
+      213: -3875089623801230810
+    second: fireflyterchiefidle_18
+  - first:
+      213: -982789978053958553
+    second: fireflyterchiefidle_9
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: -1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: fireflyterchiefidle_0
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 767
+        width: 190
+        height: 257
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fced78e828014b143ba20d77c41703b4
+      internalID: 2729247855250964605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fireflyterchiefidle_1
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 767
+        width: 190
+        height: 257
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86ef1750f6b9853438cca82234355170
+      internalID: -6203070000804533933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fireflyterchiefidle_2
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 767
+        width: 190
+        height: 257
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f42217c08644df4d911673625c60305
+      internalID: 1701346998127595668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fireflyterchiefidle_3
+      rect:
+        serializedVersion: 2
+        x: 622
+        y: 767
+        width: 190
+        height: 257
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 704acdd1d0489e64a985fe6d95c559a6
+      internalID: -8518963856922351355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fireflyterchiefidle_5
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 510
+        width: 190
+        height: 257
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82c5979bae9006f499d8f125fc36bf72
+      internalID: -2830686034660545404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fireflyterchiefidle_6
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 509
+        width: 190
+        height: 257
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08029cb6a4062264e818218f5b91da45
+      internalID: 4228990674386962188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fireflyterchiefidle_7
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 510
+        width: 190
+        height: 257
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba43c1f7dd3c69d4aa4294dd855ffb2d
+      internalID: 9153354731584201861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fireflyterchiefidle_8
+      rect:
+        serializedVersion: 2
+        x: 639
+        y: 511
+        width: 190
+        height: 257
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26b3f4c5834d8484a932bb68feb1c21c
+      internalID: 3956416737922253202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fireflyterchiefidle_10
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 253
+        width: 190
+        height: 257
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 620d90b8351d7554797f4ce86c1810ef
+      internalID: 6352341030405362803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fireflyterchiefidle_11
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 249
+        width: 190
+        height: 257
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55f94e183d0e5c840940be45a8bfadde
+      internalID: 4730292570444588796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fireflyterchiefidle_12
+      rect:
+        serializedVersion: 2
+        x: 422
+        y: 249
+        width: 190
+        height: 257
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d51f7877d8239e4c80da813862164bd
+      internalID: 3141061556900322928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 723ad81b04d690f4194aaa7b35476593
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,4 +1,0 @@
-I can commit
-I use Git
-This rhyme is a bit
-inappropriate
