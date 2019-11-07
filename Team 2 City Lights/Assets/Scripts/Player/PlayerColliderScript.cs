@@ -4,10 +4,13 @@ using UnityEngine;
 
 public class PlayerColliderScript : MonoBehaviour
 {
+    GameObject player;
+    PlayerMovement pMove;
     // Start is called before the first frame update
     void Start()
     {
-        
+        player = GameObject.FindGameObjectWithTag("Player");
+        pMove = player.GetComponent<PlayerMovement>();
     }
 
     // Update is called once per frame
@@ -38,6 +41,20 @@ public class PlayerColliderScript : MonoBehaviour
                 SendMessageUpwards("onEnemyEnter");
             }
 
+        }
+        else if (other.gameObject.tag.Equals("Web"))
+        {
+            pMove.movementSpeed = 5;
+        }
+
+
+    }
+
+    private void OnTriggerExit(Collider other)
+    {
+        if (other.gameObject.tag == "Web")
+        {
+            pMove.movementSpeed = 8;
         }
     }
 
