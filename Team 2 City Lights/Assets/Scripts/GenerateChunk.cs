@@ -53,7 +53,7 @@ public class GenerateChunk : MonoBehaviour {
     // 8 <- down tilted tile	[12 on top of small hill]
 
 
-    public static int seed = 21;
+    public static int seed = 482;
     public System.Random rand = new System.Random(seed);
     [SerializeField] private GameObject regularCube;
     [SerializeField] private GameObject tiltedCube;
@@ -420,7 +420,7 @@ public class GenerateChunk : MonoBehaviour {
             //Debug.Log(toGo);
 			int currentFeature = hotBlocks[growBlock][2];
 			List<int[]> possibleFeatures = new List<int[]>();
-            Debug.Log(currentFeature);
+            //Debug.Log(currentFeature);
 			if(features[currentFeature] > 0) {
 			
 				//leftside and topside represent if a block is at the x or y edge of the chunk
@@ -580,18 +580,47 @@ public class GenerateChunk : MonoBehaviour {
         //tile all nine loaded chunks
         //load relevent shades/fireflies
         //wump wump couldn't name cubes during instantiation
-        for(int numChunks = 0; numChunks < (sizeX * sizeY); numChunks++) {
-            for(int x = 0; x < chunkSizeX; x++) {
-                for(int y = 0; y < chunkSizeY; y++) {
-                    for(int z = 0; z < 5; z++) {
-                        if(worldData[numChunks][x, y, z]) {
-                            worldData[numChunks][x, y, z].name = (string)('I' + numChunks.ToString() + 'X' + x.ToString() + 'Y' + y.ToString() + 'Z' + z.ToString());
-                        }
-                    }
-                }
+		//for...each?
+		int numChunks = 0;
+        for(int numChunksX = 0; numChunks < sizeY; numChunksX++) {
+			for(int numChunksY = 0; numChunks < sizeX; numChunksY++) {
+				for(int x = 0; x < chunkSizeX; x++) {
+					for(int y = 0; y < chunkSizeY; y++) {
+						for(int z = 0; z < 5; z++) {
+							if(worldData[numChunks][x, y, z]) {
+								worldData[numChunks][x, y, z].name = (string)('I' + numChunks.ToString() + 'X' + x.ToString() + 'Y' + y.ToString() + 'Z' + z.ToString() + 'R' + currentRing(numChunksX, numChunksY, sizeX - 1, sizeY - 1);
+							}
+						}
+					}
+				}
+				numChunks++;
             }
         }
     }
+
+	public int currentRing(int cX, int cY, int mX, int mY) {
+		int careAbout;
+		
+		if(cX > mX) {
+			cX - (mX % ((mX / 2) + 1));
+		}
+		
+		if(cY > mY) {
+			cY - (mY % ((mY / 2) + 1));
+		}
+		
+		if(cX > cY) {
+			careAbout = cY;
+		}
+		
+		if(cX <= cY) {
+			careAbout = cX;
+		}
+		
+		int ringSize = mX / 6;
+		
+		return 4 - int(careAbout / ringSize);
+	}
 
     //Called on frame update, used to update what chunks are being rendered and their tiling.
     void Update() {
