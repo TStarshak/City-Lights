@@ -619,7 +619,7 @@ public class GenerateChunk : MonoBehaviour {
 		
 		int ringSize = mX / 6;
 		
-		return 4 - int(careAbout / ringSize);
+		return 4 - (int)(careAbout / ringSize);
 	}
 
     //Called on frame update, used to update what chunks are being rendered and their tiling.
