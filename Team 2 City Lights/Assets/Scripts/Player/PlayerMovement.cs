@@ -9,16 +9,20 @@ public class PlayerMovement : MonoBehaviour
 {
     [SerializeField] private GameObject player;
     private CharacterController _charController;
-    public float movementSpeed;
+    private float movementSpeed;
    // private float sprintMultiplier;
    // private bool sprinting;
    // public int stamina = 100;
 
     void Start()
     {
-        movementSpeed = PlayerState.localPlayerData.movementSpeed;
+        // Retrieve the current movement speed according to level
+        movementSpeed = PlayerProgress.Instance.savedPlayerData.movementSpeed;
+         _charController = GetComponent<CharacterController>();
+         //Error in retrieving movement speed
+        Debug.Log(movementSpeed);
+        Debug.Log("I made it here!");
        // sprinting = false;
-        _charController = GetComponent<CharacterController>();
         //sprintMultiplier = 2.0f;
     }
 
@@ -42,6 +46,7 @@ public class PlayerMovement : MonoBehaviour
         {
             float deltaX = Input.GetAxis("Horizontal") * movementSpeed;
             float deltaZ = Input.GetAxis("Vertical") * movementSpeed;
+
             Vector3 movement = new Vector3(deltaX, 0, deltaZ);
             movement = Vector3.ClampMagnitude(movement, movementSpeed);
             movement.y = 0f;

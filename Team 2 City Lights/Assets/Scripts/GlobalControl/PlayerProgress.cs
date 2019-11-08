@@ -32,7 +32,7 @@ public class PlayerProgress : MonoBehaviour
     }
 
     private void setDefaultAttributes(){
-        savedPlayerData.movementSpeed = 8.0f;
+        savedPlayerData.movementSpeed = 10.0f;
     }
 
 }

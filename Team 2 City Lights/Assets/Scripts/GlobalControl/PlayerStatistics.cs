@@ -9,10 +9,17 @@ public class PlayerStatistics
     public float firefliesInWallet;     // Firelies in wallet (not deposited and for upgrade use)
     public float movementSpeed;         // The player's movement speed
 
-    // Copies values from another instance of player data
-    public void retrieveDataFrom(PlayerStatistics otherStats){
-        firefliesCollected = otherStats.firefliesCollected;
-        firefliesInWallet = otherStats.firefliesInWallet;
-        movementSpeed = otherStats.movementSpeed;
+    // Creates new stats with default values
+    public PlayerStatistics(){
+        firefliesCollected = 0;
+        firefliesInWallet = 0;
+        movementSpeed = 10.0f;
+    }
+
+    // Creates new stats from a copy of other stats
+    public PlayerStatistics(PlayerStatistics oldStatistics){
+        firefliesCollected = oldStatistics.firefliesCollected;
+        firefliesInWallet = oldStatistics.firefliesInWallet;
+        movementSpeed = oldStatistics.movementSpeed;
     }
 }

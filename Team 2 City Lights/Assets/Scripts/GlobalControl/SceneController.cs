@@ -8,10 +8,14 @@ public class SceneController : MonoBehaviour
 {
 
     public static SceneController Instance;
+    public static Scene currentScene; //The Current Loaded Scene
 
     // Called upon object creation
     void Awake()
     {
+        // Retrieve the currently active scene as the initial scene
+        currentScene = SceneManager.GetActiveScene();
+
         // Instantiate this tracker if none exists yet and keep game object alive
         if (Instance == null){
             DontDestroyOnLoad(gameObject);
@@ -23,13 +27,8 @@ public class SceneController : MonoBehaviour
         }
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-
-    }
-
     public static void LoadScene(string scene){
         SceneManager.LoadScene(scene);
+        currentScene = SceneManager.GetSceneByName(scene);
     }
 }

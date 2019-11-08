@@ -15,7 +15,7 @@ public class PlayerMovementCity : MonoBehaviour
     {
         sprinting = false;
         _charController = GetComponent<CharacterController>();
-        movementSpeed = 10.0f;
+        movementSpeed = PlayerState.localPlayerData.movementSpeed;
         sprintMultiplier = 2.0f;
         playerTransform = gameObject.transform;
     }
@@ -49,7 +49,7 @@ public class PlayerMovementCity : MonoBehaviour
         if (newPosX > 25.0f || newPosX < -25.0f){
             deltaX = 0.0f;
         }
-
+        
         Vector3 movement = new Vector3(deltaX, 0, deltaZ);
         movement = Vector3.ClampMagnitude(movement, movementSpeed);
 		movement.y = 0f;

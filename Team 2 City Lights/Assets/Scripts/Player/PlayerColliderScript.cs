@@ -6,19 +6,10 @@ using UnityEngine.SceneManagement;
 public class PlayerColliderScript : MonoBehaviour
 {
     GameObject player;
-    PlayerMovement pMove;
     // Start is called before the first frame update
     void Start()
     {
         player = GameObject.FindGameObjectWithTag("Player");
-        // TODO: Consolidate PlayerMovementCity script to one script so that this isn't null when in the city
-        pMove = player.GetComponent<PlayerMovement>();
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
     }
 
     private void OnTriggerEnter(Collider other)
@@ -46,7 +37,7 @@ public class PlayerColliderScript : MonoBehaviour
         }
         else if (other.gameObject.tag.Equals("Web"))
         {
-            pMove.movementSpeed = 5;
+            PlayerState.localPlayerData.movementSpeed = 5;
         }
 
 
@@ -56,7 +47,7 @@ public class PlayerColliderScript : MonoBehaviour
     {
         if (other.gameObject.tag == "Web")
         {
-            pMove.movementSpeed = 8;
+            PlayerState.localPlayerData.movementSpeed = 8;
         }
     }
 
