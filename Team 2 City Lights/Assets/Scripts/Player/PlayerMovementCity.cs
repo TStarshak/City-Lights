@@ -3,41 +3,26 @@ using System.Collections.Generic;
 using UnityEngine;
 [RequireComponent(typeof(CharacterController))]
 [AddComponentMenu("Control Script/Movement Input")]
+
+// Variation of PlayerMovement that clamps the vertical movement of the player
 public class PlayerMovementCity : MonoBehaviour
 {
-    public float movementSpeed;
-    private CharacterController _charController;
-    private float sprintMultiplier;
-    private bool sprinting;
     private Transform playerTransform;
-    // Variation of PlayerMovement that clamps the vertical movement of the player
+    private PlayerStatistics playerData;
+    private CharacterController _charController;
+
     void Start()
     {
-        sprinting = false;
         _charController = GetComponent<CharacterController>();
-        movementSpeed = PlayerState.localPlayerData.movementSpeed;
-        sprintMultiplier = 2.0f;
         playerTransform = gameObject.transform;
     }
 
     void Update()
     {
+        playerData = PlayerState.localPlayerData;
 
-        if (Input.GetKey(KeyCode.LeftShift))
-        {
-            if(!sprinting) 
-                movementSpeed *= sprintMultiplier;
-            sprinting = true;
-            CameraFollow.speed = 4.0f;
-        }
-        else
-        {
-            movementSpeed = 10f;
-            sprinting = false;
-        }
-
-        float deltaX = Input.GetAxis("Horizontal") * movementSpeed * Time.deltaTime;
-        float deltaZ = Input.GetAxis("Vertical") * movementSpeed * Time.deltaTime;
+        float deltaX = Input.GetAxis("Horizontal") * playerData.movementSpeed * Time.deltaTime;
+        float deltaZ = Input.GetAxis("Vertical") * playerData.movementSpeed * Time.deltaTime;
 
         //Bound the vertical movement of the player
         float newPosZ = deltaZ + playerTransform.position.z;
@@ -51,7 +36,7 @@ public class PlayerMovementCity : MonoBehaviour
         }
         
         Vector3 movement = new Vector3(deltaX, 0, deltaZ);
-        movement = Vector3.ClampMagnitude(movement, movementSpeed);
+        movement = Vector3.ClampMagnitude(movement, playerData.movementSpeed);
 		movement.y = 0f;
 
         //Move the character
