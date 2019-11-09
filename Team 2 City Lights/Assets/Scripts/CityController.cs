@@ -1,6 +1,5 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
-using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 using UnityEngine;
 
@@ -21,19 +20,18 @@ public class CityController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (isNearCityEdge()){
+        if (isNearCityEdge() && !PauseController.isPaused){
             enableCityExitPrompt();
         }
         else {
             disableCityExitPrompt();
         }
 
-        if (Input.GetButtonDown("Action")){
-            if (isNearCityEdge()){
+        if (Input.GetButtonDown("Action") && isNearCityEdge()){
+            if (!PauseController.isPaused){
                 SceneController.LoadScene(forestScene);
             }
         }
-
         
     }
 

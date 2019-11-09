@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class timerBackgroundController : MonoBehaviour
+public class TimerBackgroundController : MonoBehaviour
 {
     private SpriteRenderer spr;
     private Sprite[] sprites;
@@ -14,7 +14,7 @@ public class timerBackgroundController : MonoBehaviour
         //spr = GetComponent<SpriteRenderer>();
         //Sprite img = this.gameObject.GetComponent<Image>();
         sprites = Resources.LoadAll<Sprite>("bg3");
-        this.gameObject.GetComponent<Image>().sprite = sprites[1];
+        this.gameObject.GetComponent<Image>().sprite = sprites[0];
     }
 
     // Update is called once per frame
