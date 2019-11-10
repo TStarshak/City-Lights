@@ -28,11 +28,5 @@ public class PlayerProgress : MonoBehaviour
         else if (Instance != this){
             Destroy(gameObject);
         }
-        setDefaultAttributes();
     }
-
-    private void setDefaultAttributes(){
-        savedPlayerData.movementSpeed = 10.0f;
-    }
-
 }

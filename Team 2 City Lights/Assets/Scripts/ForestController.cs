@@ -54,7 +54,7 @@ public class ForestController : MonoBehaviour
     }
 
     private bool canEnterCity(){
-        return isNearCityEdge() && !PauseController.isPaused && ShadowTimerController.shadowHour;
+        return isNearCityEdge() && !PauseController.isPaused;
     }
 }
 

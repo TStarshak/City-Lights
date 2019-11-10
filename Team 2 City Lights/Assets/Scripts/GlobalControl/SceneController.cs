@@ -28,6 +28,7 @@ public class SceneController : MonoBehaviour
     }
 
     public static void LoadScene(string scene){
+        PlayerState.SavePlayer();
         SceneManager.LoadScene(scene);
         currentScene = SceneManager.GetSceneByName(scene);
     }

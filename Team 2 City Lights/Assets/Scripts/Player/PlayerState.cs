@@ -9,20 +9,15 @@ public class PlayerState : MonoBehaviour
     public static PlayerStatistics localPlayerData;
 
     // At start, load data from PlayerProgress
-    void Start(){
+    void Awake(){
         localPlayerData = new PlayerStatistics(PlayerProgress.Instance.savedPlayerData);
+        Debug.Log("Collected Fireflies: " + localPlayerData.firefliesCollected);
+        Debug.Log("Fireflies in Wallet: " + localPlayerData.firefliesInWallet);
     }
 
     // Save Data to Global Player Progress
     public static void SavePlayer(){
+        Economy.DepositFireFlies(localPlayerData);
         PlayerProgress.Instance.savedPlayerData = new PlayerStatistics(localPlayerData);
-    }
-    void OnGUI()
-    {
-        //Displays a string denoting fireflies
-        // string fireflyCounter = "Fireflies Collected: " + localPlayerData.firefliesCollected;
-        // GUI.Box(new Rect(0, 0, Screen.width, Screen.height), fireflyCounter);
-        // GUI.Box.GetComponent
-
     }
 }

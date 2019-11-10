@@ -14,7 +14,7 @@ public class TimerBackgroundController : MonoBehaviour
         //spr = GetComponent<SpriteRenderer>();
         //Sprite img = this.gameObject.GetComponent<Image>();
         sprites = Resources.LoadAll<Sprite>("bg3");
-        this.gameObject.GetComponent<Image>().sprite = sprites[0];
+        this.gameObject.GetComponent<Image>().sprite = sprites[1];
     }
 
     // Update is called once per frame

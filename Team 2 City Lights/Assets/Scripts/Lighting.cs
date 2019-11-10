@@ -8,16 +8,17 @@ public class Lighting : MonoBehaviour
     [SerializeField] private GameObject gameLightOuter;
     [SerializeField] private GameObject gameLightPlayer;
 
-    public static int capacity;
     public static int numFireflies;
 
     private static float lightRange = 0.05f;
     private float lightTrans = lightRange / 5;
+    public static int capacity;
+
 
     // Start is called before the first frame update
     void Start()
     {
-        capacity = 10;
+        capacity = PlayerProgress.Instance.savedPlayerData.vacuLampCapacity;
         numFireflies = 0;
        
         gameLightInner.transform.SetPositionAndRotation(new Vector3(0, 4, 0), new Quaternion(0, 0, 0, 0));
@@ -50,7 +51,6 @@ public class Lighting : MonoBehaviour
 
     void onFireflyEnter()
     {
-        Debug.Log(Lighting.numFireflies);
         numFireflies++;
         PlayerState.localPlayerData.firefliesCollected++;
         StartCoroutine(SmoothLight(lightRange));
