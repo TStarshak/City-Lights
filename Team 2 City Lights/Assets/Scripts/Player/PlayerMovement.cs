@@ -8,18 +8,19 @@ using UnityEngine;
 public class PlayerMovement : MonoBehaviour
 {
     [SerializeField] private GameObject player;
-    public float movementSpeed;
     private CharacterController _charController;
-    public GameObject pauseMenu;
+    
+    // Retrieve the current movement speed according to level
+    private PlayerStatistics playerData; 
    // private float sprintMultiplier;
    // private bool sprinting;
    // public int stamina = 100;
 
     void Start()
     {
-       // sprinting = false;
-        _charController = GetComponent<CharacterController>();
-        movementSpeed = 8.0f;
+         playerData = PlayerState.localPlayerData;
+         _charController = GetComponent<CharacterController>();
+        // sprinting = false;
         //sprintMultiplier = 2.0f;
     }
 
@@ -39,12 +40,13 @@ public class PlayerMovement : MonoBehaviour
              StartCoroutine(RecoverStamina()); */
            
 
-        if (pauseMenu.activeInHierarchy == false)
+        if (PauseController.isPaused == false)
         {
-            float deltaX = Input.GetAxis("Horizontal") * movementSpeed;
-            float deltaZ = Input.GetAxis("Vertical") * movementSpeed;
+            float deltaX = Input.GetAxis("Horizontal") * playerData.movementSpeed;
+            float deltaZ = Input.GetAxis("Vertical") * playerData.movementSpeed;
+
             Vector3 movement = new Vector3(deltaX, 0, deltaZ);
-            movement = Vector3.ClampMagnitude(movement, movementSpeed);
+            movement = Vector3.ClampMagnitude(movement, playerData.movementSpeed);
             movement.y = 0f;
 
             //Move the character

@@ -10,7 +10,6 @@ GameObject:
   m_Component:
   - component: {fileID: 8200335187170367813}
   - component: {fileID: 102886255569621850}
-  - component: {fileID: 102886255569621851}
   - component: {fileID: 102886255569621860}
   - component: {fileID: 8881765602609508371}
   - component: {fileID: 30554191436111974}
@@ -67,22 +66,6 @@ CharacterController:
   m_SkinWidth: 0.08
   m_MinMoveDistance: 0
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &102886255569621851
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 102886255569621853}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2b9c6f18a9f01a84da3885022acec615, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  cam: {fileID: 0}
-  player: {fileID: 102886255569621853}
-  movementSpeed: 10
-  stamina: 100
 --- !u!114 &102886255569621860
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -13,11 +13,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 1
-  lastUpdatedAtString: 2019-11-07T06:00:47.114-06:00
-  initializedAtString: 2019-11-07T06:00:47.114-06:00
+  lastUpdatedAtString: 2019-11-11T12:43:03.576-05:00
+  initializedAtString: 2019-11-11T12:43:03.576-05:00
   currentGitRemote:
     name: origin
-    url: git@csecode.case.edu:academic/eecs-390/team2.git
+    url: https://csecode.case.edu/academic/eecs-390/team2.git
     login: 
     user: 
     host: 
@@ -27,12 +27,12 @@ MonoBehaviour:
     name: master
     tracking: 
   currentConfigBranch:
-    name: master
+    name: upgrades
     remote:
       name: 
       url: 
     trackingBranch: 
   currentConfigRemote:
     name: origin
-    url: git@csecode.case.edu:academic/eecs-390/team2.git
+    url: https://csecode.case.edu/academic/eecs-390/team2.git
   currentHead: 

@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class timerBackgroundController : MonoBehaviour
+public class TimerBackgroundController : MonoBehaviour
 {
     private SpriteRenderer spr;
     private Sprite[] sprites;

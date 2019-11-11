@@ -1,6 +1,5 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
-using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 using UnityEngine;
 
@@ -10,30 +9,41 @@ public class CityController : MonoBehaviour
     [SerializeField] private GameObject player;
     [SerializeField] private Text buttonPrompt;
     [SerializeField] private string forestScene;
+    [SerializeField] private GameObject gameIntroduction;
+    [SerializeField] private GameObject missionResults;
+
     private Transform playerTransform;
     private float playerPosX;
     // Start is called before the first frame update
     void Start()
     {
+        if (PlayerProgress.Instance.firstTimeInCity()) {
+            gameIntroduction.SetActive(true);
+        }
+        else {
+            missionResults.SetActive(true);
+        }
+
         playerTransform = player.transform;
     }
 
     // Update is called once per frame
     void Update()
     {
-        if (isNearCityEdge()){
+        if (isNearCityEdge() && !PauseController.isPaused){
             enableCityExitPrompt();
         }
         else {
             disableCityExitPrompt();
         }
 
-        if (Input.GetButtonDown("Action")){
-            if (isNearCityEdge()){
-                SceneManager.LoadScene(forestScene);
+        if (Input.GetButtonDown("Action") && isNearCityEdge()){
+            if (!PauseController.isPaused){
+                // Reset for next collection phase
+                PlayerState.localPlayerData.firefliesCollected = 0;
+                SceneController.LoadScene(forestScene);
             }
         }
-
         
     }
 
