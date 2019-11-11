@@ -12,6 +12,7 @@ public class PlayerProgress : MonoBehaviour
     */
     // The instance of this progress script
     public static PlayerProgress Instance;
+    public bool HasVisitedCity; // Tracks whether the player has visited the city for the first time
 
     // References global progress of player statsistics
     public PlayerStatistics savedPlayerData = new PlayerStatistics();
@@ -28,5 +29,12 @@ public class PlayerProgress : MonoBehaviour
         else if (Instance != this){
             Destroy(gameObject);
         }
+
+        HasVisitedCity = false;
+    }
+
+    // Tells whether this is the player's first time in the city
+    public bool firstTimeInCity(){
+        return !HasVisitedCity;
     }
 }

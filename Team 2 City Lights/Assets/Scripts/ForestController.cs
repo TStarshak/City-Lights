@@ -54,7 +54,11 @@ public class ForestController : MonoBehaviour
     }
 
     private bool canEnterCity(){
-        return isNearCityEdge() && !PauseController.isPaused;
+        return isNearCityEdge() && !PauseController.isPaused && hasFinishedCollection();
+    }
+
+    private bool hasFinishedCollection(){
+        return ShadowTimerController.shadowHour || MissionHandler.Instance.currentMission.hasMetGoal;
     }
 }
 

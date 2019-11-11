@@ -16,6 +16,6 @@ public class FireflyCounterCity : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        display.text = "Fireflies in Wallet: " + PlayerState.localPlayerData.firefliesInWallet;
+        display.text = $"Fireflies in Wallet: {PlayerState.localPlayerData.firefliesInWallet}";
     }
 }

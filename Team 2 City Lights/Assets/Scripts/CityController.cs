@@ -9,11 +9,17 @@ public class CityController : MonoBehaviour
     [SerializeField] private GameObject player;
     [SerializeField] private Text buttonPrompt;
     [SerializeField] private string forestScene;
+    [SerializeField]private GameObject gameIntroduction;
+
     private Transform playerTransform;
     private float playerPosX;
     // Start is called before the first frame update
     void Start()
     {
+        if (PlayerProgress.Instance.firstTimeInCity()){
+            gameIntroduction.SetActive(true);
+        }
+
         playerTransform = player.transform;
     }
 

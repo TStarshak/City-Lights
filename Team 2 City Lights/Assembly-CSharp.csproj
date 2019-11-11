@@ -80,6 +80,7 @@
      <Compile Include="Assets\Scripts\SpiderWeb.cs" />
      <Compile Include="Assets\Scripts\UI\FireflyCounterCity.cs" />
      <Compile Include="Assets\Scripts\UI\FireflyCounterForest.cs" />
+     <Compile Include="Assets\Scripts\UI\GameIntroduction.cs" />
      <Compile Include="Assets\Scripts\UI\MenuButtonController.cs" />
      <Compile Include="Assets\Scripts\UI\PauseController.cs" />
      <Compile Include="Assets\Scripts\UI\ShadowTimer.cs" />

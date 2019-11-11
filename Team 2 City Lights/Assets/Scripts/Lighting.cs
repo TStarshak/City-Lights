@@ -58,7 +58,6 @@ public class Lighting : MonoBehaviour
 
     void onEnemyEnter()
     {
-        Debug.Log(Lighting.numFireflies);
         if (numFireflies > 0)
         {
             numFireflies--;
