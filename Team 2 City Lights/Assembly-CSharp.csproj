@@ -2,6 +2,8 @@
 <Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
     <LangVersion>latest</LangVersion>
+    <CscToolPath>C:\Program Files\Unity\Editor\2019.2.4f1\Editor\Data\Tools\RoslynScripts</CscToolPath>
+    <CscToolExe>unity_csc.bat</CscToolExe>
   </PropertyGroup>
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
@@ -85,7 +87,7 @@
      <Compile Include="Assets\Scripts\UI\PauseController.cs" />
      <Compile Include="Assets\Scripts\UI\ShadowTimer.cs" />
      <Compile Include="Assets\Scripts\UI\ShadowTimerController.cs" />
-     <Compile Include="Assets\Scripts\UI\TimerBackgroundController.cs" />
+     <Compile Include="Assets\Scripts\UI\timerBackgroundController.cs" />
      <Compile Include="Assets\Scripts\upgradeFramework.cs" />
      <Compile Include="Assets\Scripts\ZoneFeaturePlanning.cs" />
  <Reference Include="Unity.Timeline.Editor">
