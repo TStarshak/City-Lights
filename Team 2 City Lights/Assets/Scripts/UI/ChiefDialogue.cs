@@ -11,7 +11,6 @@ public class ChiefDialogue : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        setupDialogue();
         hideDialogue();
     }
 
@@ -29,11 +28,11 @@ public class ChiefDialogue : MonoBehaviour
     }
 
     void setupDialogue(){
-        dialogue.text = $"We need you to collect <color=#FBE92B><size=20><b><i> {MissionHandler.Instance.currentMission.fireflyGoal}</i></b></size></color> fireflies! Good luck out there, kid!";
     }
 
     void displayDialogue(){
         dialogueCanvas.SetActive(true);
+        dialogue.text = $"We need you to collect <color=#FBE92B><size=20><b><i> {MissionHandler.Instance.currentMission.fireflyGoal}</i></b></size></color> fireflies! Good luck out there, kid!";
     }
 
     void hideDialogue(){
