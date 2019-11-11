@@ -17,7 +17,7 @@ public class PlayerState : MonoBehaviour
     }
 
     void Update(){
-        // Check the plkayer's status in accomplishing their mission
+        // Check the player's status in accomplishing their mission
         if (localPlayerData.firefliesCollected >= currentMission.fireflyGoal){
             MissionHandler.Instance.updateMissionStatus(true);
         }

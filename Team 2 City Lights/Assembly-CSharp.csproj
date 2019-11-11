@@ -1,20 +1,21 @@
-﻿W<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
     <LangVersion>latest</LangVersion>
+    <CscToolPath>C:\Program Files\Unity\Editor\2019.2.4f1\Editor\Data\Tools\RoslynScripts</CscToolPath>
+    <CscToolExe>unity_csc.bat</CscToolExe>
   </PropertyGroup>
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <RootNamespace>
-    </RootNamespace>
+    <RootNamespace></RootNamespace>
     <ProjectGuid>{36DDDCD3-82F9-B14B-DBE9-FA51F23129F6}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
-    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <BaseDirectory>.</BaseDirectory>
   </PropertyGroup>
@@ -78,6 +79,7 @@
      <Compile Include="Assets\Scripts\Spider.cs" />
      <Compile Include="Assets\Scripts\SpiderWeb.cs" />
      <Compile Include="Assets\Scripts\UI\ChiefDialogue.cs" />
+     <Compile Include="Assets\Scripts\UI\collectionBarController.cs" />
      <Compile Include="Assets\Scripts\UI\FireflyCounterCity.cs" />
      <Compile Include="Assets\Scripts\UI\FireflyCounterForest.cs" />
      <Compile Include="Assets\Scripts\UI\GameIntroduction.cs" />
@@ -86,7 +88,7 @@
      <Compile Include="Assets\Scripts\UI\PauseController.cs" />
      <Compile Include="Assets\Scripts\UI\ShadowTimer.cs" />
      <Compile Include="Assets\Scripts\UI\ShadowTimerController.cs" />
-     <Compile Include="Assets\Scripts\UI\TimerBackgroundController.cs" />
+     <Compile Include="Assets\Scripts\UI\timerBackgroundController.cs" />
      <Compile Include="Assets\Scripts\upgradeFramework.cs" />
      <Compile Include="Assets\Scripts\ZoneFeaturePlanning.cs" />
  <Reference Include="Unity.Timeline.Editor">
@@ -664,6 +666,10 @@
     <ProjectReference Include="NavMeshComponentsEditor.csproj">
       <Project>{1D6E922D-39C7-8296-4929-4998C11DCEBD}</Project>
       <Name>NavMeshComponentsEditor</Name>
+    </ProjectReference>
+    <ProjectReference Include="NavMeshComponents.csproj">
+      <Project>{4247ADF5-B202-8703-5A74-D81CFC4A22A0}</Project>
+      <Name>NavMeshComponents</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

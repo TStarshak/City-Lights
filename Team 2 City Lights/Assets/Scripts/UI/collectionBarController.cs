@@ -16,7 +16,7 @@ public class collectionBarController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        x = s.x * 0.1f * sceneController.FCollected;
+        x = s.x * 0.1f * PlayerState.localPlayerData.firefliesCollected;
         if (x > s.x)
         {
             x = s.x;
