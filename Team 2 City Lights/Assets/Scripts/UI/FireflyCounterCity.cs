@@ -16,6 +16,8 @@ public class FireflyCounterCity : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        display.text = $"Fireflies in Wallet: {PlayerState.localPlayerData.firefliesInWallet}";
+        if(PauseController.pauseIsEnabled()){
+            display.text = $"Fireflies in Wallet: {PlayerState.localPlayerData.firefliesInWallet}";
+        }
     }
 }

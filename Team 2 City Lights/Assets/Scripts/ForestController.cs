@@ -29,6 +29,8 @@ public class ForestController : MonoBehaviour
         }
 
         if (Input.GetButtonDown("Action") && canEnterCity()){
+            // Deposit collected fireflies
+            Economy.DepositFireFlies(PlayerState.localPlayerData);
             SceneController.LoadScene(cityScene);
         }
         

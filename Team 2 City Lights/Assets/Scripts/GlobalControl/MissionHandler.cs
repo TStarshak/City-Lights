@@ -54,5 +54,11 @@ public class MissionHandler : MonoBehaviour
         currentMission = new Mission(currentMission.fireflyGoal);
     }
 
+    // Early iteration of mission updates. Next iteration will call from an array of pre-created Missions
+    // with attached buildings assets to them to represent which will be lit up
+    public void assignNextMission(){
+        currentMission = new Mission(currentMission.fireflyGoal + 5);
+    }
+
 
 }

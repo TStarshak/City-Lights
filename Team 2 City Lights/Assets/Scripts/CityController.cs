@@ -9,15 +9,19 @@ public class CityController : MonoBehaviour
     [SerializeField] private GameObject player;
     [SerializeField] private Text buttonPrompt;
     [SerializeField] private string forestScene;
-    [SerializeField]private GameObject gameIntroduction;
+    [SerializeField] private GameObject gameIntroduction;
+    [SerializeField] private GameObject missionResults;
 
     private Transform playerTransform;
     private float playerPosX;
     // Start is called before the first frame update
     void Start()
     {
-        if (PlayerProgress.Instance.firstTimeInCity()){
+        if (PlayerProgress.Instance.firstTimeInCity()) {
             gameIntroduction.SetActive(true);
+        }
+        else {
+            missionResults.SetActive(true);
         }
 
         playerTransform = player.transform;
@@ -35,6 +39,8 @@ public class CityController : MonoBehaviour
 
         if (Input.GetButtonDown("Action") && isNearCityEdge()){
             if (!PauseController.isPaused){
+                // Reset for next collection phase
+                PlayerState.localPlayerData.firefliesCollected = 0;
                 SceneController.LoadScene(forestScene);
             }
         }

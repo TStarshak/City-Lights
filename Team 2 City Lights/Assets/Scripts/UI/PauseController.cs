@@ -55,10 +55,6 @@ public class PauseController : MonoBehaviour
         }
     }
 
-    bool pauseIsEnabled(){
-        return canPause;
-    }
-
     public void resumeGame(){
         isPaused = false;
     }
@@ -67,6 +63,10 @@ public class PauseController : MonoBehaviour
         isPaused = true;
     }
 
+    public static bool pauseIsEnabled(){
+        return canPause;
+    }
+    
     public static void disablePauseFunctionality(){
         canPause = false;
         isPaused = true;

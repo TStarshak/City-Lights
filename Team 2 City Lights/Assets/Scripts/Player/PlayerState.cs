@@ -28,7 +28,6 @@ public class PlayerState : MonoBehaviour
 
     // Save Data to Global Player Progress
     public static void SavePlayer(){
-        Economy.DepositFireFlies(localPlayerData);
         PlayerProgress.Instance.savedPlayerData = new PlayerStatistics(localPlayerData);
     }
 }

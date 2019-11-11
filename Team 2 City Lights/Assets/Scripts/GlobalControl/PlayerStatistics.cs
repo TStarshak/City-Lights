@@ -21,7 +21,7 @@ public class PlayerStatistics
     // Creates new stats from a copy of other stats
     public PlayerStatistics(PlayerStatistics oldStatistics){
         firefliesInWallet += oldStatistics.firefliesInWallet;
-        firefliesCollected = 0; //Reset to prepare for next collection phase
+        firefliesCollected = oldStatistics.firefliesCollected; //Reset to prepare for next collection phase
         movementSpeed = oldStatistics.movementSpeed;
         vacuLampCapacity = oldStatistics.vacuLampCapacity;
     }
