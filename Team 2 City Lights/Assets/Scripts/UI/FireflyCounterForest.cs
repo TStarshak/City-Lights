@@ -18,6 +18,12 @@ public class FireflyCounterForest : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        display.text = $"Fireflies Collected: {PlayerState.localPlayerData.firefliesCollected} / {currentMission.fireflyGoal}";
+        //Change to Gold if mission goal has been met
+        if (currentMission.hasMetGoal){
+            display.text = $"<color=#FBE92B>Fireflies Collected: {PlayerState.localPlayerData.firefliesCollected} / {currentMission.fireflyGoal}</color>";
+        }
+        else{
+            display.text = $"Fireflies Collected: {PlayerState.localPlayerData.firefliesCollected} / {currentMission.fireflyGoal}";
+        }
     }
 }
