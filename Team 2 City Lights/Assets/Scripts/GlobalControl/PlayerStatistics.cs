@@ -14,7 +14,7 @@ public class PlayerStatistics
     public PlayerStatistics(){
         firefliesCollected = 0;
         firefliesInWallet = 0;
-        movementSpeed = 10.0f;
+        movementSpeed = 6.0f;
         vacuLampCapacity = 20;
     }
 

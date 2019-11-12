@@ -10,6 +10,7 @@ public class PlayerMovementCity : MonoBehaviour
     private Transform playerTransform;
     private PlayerStatistics playerData;
     private CharacterController _charController;
+    private float cityMovementSpeed = 10.0f;
 
     void Start()
     {
@@ -20,10 +21,9 @@ public class PlayerMovementCity : MonoBehaviour
     void Update()
     {
         if (PauseController.isPaused == false){
-            playerData = PlayerState.localPlayerData;
 
-            float deltaX = Input.GetAxis("Horizontal") * playerData.movementSpeed * Time.deltaTime;
-            float deltaZ = Input.GetAxis("Vertical") * playerData.movementSpeed * Time.deltaTime;
+            float deltaX = Input.GetAxis("Horizontal") * cityMovementSpeed * Time.deltaTime;
+            float deltaZ = Input.GetAxis("Vertical") * cityMovementSpeed * Time.deltaTime;
 
             // Bound the vertical movement of the player
             float newPosZ = deltaZ + playerTransform.position.z;
@@ -37,7 +37,7 @@ public class PlayerMovementCity : MonoBehaviour
             }
             
             Vector3 movement = new Vector3(deltaX, 0, deltaZ);
-            movement = Vector3.ClampMagnitude(movement, playerData.movementSpeed);
+            movement = Vector3.ClampMagnitude(movement, cityMovementSpeed);
             movement.y = 0f;
 
             //Move the character

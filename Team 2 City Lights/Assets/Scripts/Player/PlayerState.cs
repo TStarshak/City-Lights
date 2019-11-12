@@ -13,6 +13,9 @@ public class PlayerState : MonoBehaviour
     // At start, load data from PlayerProgress
     void Awake(){
         localPlayerData = new PlayerStatistics(PlayerProgress.Instance.savedPlayerData);
+    }
+
+    void Start(){
         currentMission = MissionHandler.Instance.currentMission;
     }
 
