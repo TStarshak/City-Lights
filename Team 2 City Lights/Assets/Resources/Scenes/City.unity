@@ -785,7 +785,7 @@ GameObject:
   - component: {fileID: 862046667}
   - component: {fileID: 862046666}
   m_Layer: 5
-  m_Name: Start Button
+  m_Name: Continue Button
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3178,6 +3178,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: PauseMenu
       objectReference: {fileID: 0}
+    - target: {fileID: 8256943435691270752, guid: 37436cc2c61e9ac439058dec49369d2f,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8406800613396419179, guid: 37436cc2c61e9ac439058dec49369d2f,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8256943435691270763, guid: 37436cc2c61e9ac439058dec49369d2f,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -3246,32 +3256,32 @@ PrefabInstance:
     - target: {fileID: 8256943435691270763, guid: 37436cc2c61e9ac439058dec49369d2f,
         type: 3}
       propertyPath: m_SizeDelta.x
-      value: 1193
+      value: 2048
       objectReference: {fileID: 0}
     - target: {fileID: 8256943435691270763, guid: 37436cc2c61e9ac439058dec49369d2f,
         type: 3}
       propertyPath: m_SizeDelta.y
-      value: 671.16504
+      value: 1152
       objectReference: {fileID: 0}
     - target: {fileID: 8256943435691270763, guid: 37436cc2c61e9ac439058dec49369d2f,
         type: 3}
       propertyPath: m_AnchorMin.x
-      value: 0
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 8256943435691270763, guid: 37436cc2c61e9ac439058dec49369d2f,
         type: 3}
       propertyPath: m_AnchorMin.y
-      value: 0
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 8256943435691270763, guid: 37436cc2c61e9ac439058dec49369d2f,
         type: 3}
       propertyPath: m_AnchorMax.x
-      value: 1
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 8256943435691270763, guid: 37436cc2c61e9ac439058dec49369d2f,
         type: 3}
       propertyPath: m_AnchorMax.y
-      value: 1
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 8256943435691270763, guid: 37436cc2c61e9ac439058dec49369d2f,
         type: 3}
@@ -3283,25 +3293,9 @@ PrefabInstance:
       propertyPath: m_Pivot.y
       value: 0.5
       objectReference: {fileID: 0}
-    - target: {fileID: 5477617663788492757, guid: 37436cc2c61e9ac439058dec49369d2f,
-        type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
+    - target: {fileID: 246506598, guid: 37436cc2c61e9ac439058dec49369d2f, type: 3}
+      propertyPath: m_IsActive
       value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 5477617663788492757, guid: 37436cc2c61e9ac439058dec49369d2f,
-        type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 5477617663788492757, guid: 37436cc2c61e9ac439058dec49369d2f,
-        type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 5477617663788492757, guid: 37436cc2c61e9ac439058dec49369d2f,
-        type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
-      value: 
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 37436cc2c61e9ac439058dec49369d2f, type: 3}
