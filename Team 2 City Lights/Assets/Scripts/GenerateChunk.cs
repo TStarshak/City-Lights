@@ -62,7 +62,7 @@ public class GenerateChunk : MonoBehaviour {
     private int chunkSizeX = 28;
     private int chunkSizeY = 28;
     private List<int[][]> chunkData = new List<int[][]>();
-    private List<GameObject[,,]> worldData = new List<GameObject[,,]>();
+    public List<GameObject[,,]> worldData = new List<GameObject[,,]>();
 
     //hacky, i don't like this var
     private int numberOfFeatures = 4;
@@ -596,17 +596,19 @@ public class GenerateChunk : MonoBehaviour {
 				numChunks++;
             }
         }
+
+        this.gameObject.GetComponent<MapFeatureGeneration>().beginGeneration(worldData);
     }
 
 	public int currentRing(int cX, int cY, int mX, int mY) {
 		int careAbout;
 		
-		if(cX > mX) {
-			cX - (mX % ((mX / 2) + 1));
+		if(cX >= (mX / 2)) {
+			cX - (cX % ((mX / 2) + 1));
 		}
 		
-		if(cY > mY) {
-			cY - (mY % ((mY / 2) + 1));
+		if(cY >= (mY / 2)) {
+			cY - (cY % ((mY / 2) + 1));
 		}
 		
 		if(cX > cY) {
