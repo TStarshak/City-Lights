@@ -1,9 +1,5 @@
 sceneSetups:
-<<<<<<< HEAD
-- path: Assets/Resources/Scenes/City.unity
-=======
 - path: Assets/Resources/Scenes/PrototypeScene.unity
->>>>>>> dec45109ee1d07d51f8b5cc7490be2f6c0a152cb
   isLoaded: 1
   isActive: 1
   isSubScene: 0
