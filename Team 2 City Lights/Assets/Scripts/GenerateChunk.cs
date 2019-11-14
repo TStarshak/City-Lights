@@ -588,7 +588,7 @@ public class GenerateChunk : MonoBehaviour {
 					for(int y = 0; y < chunkSizeY; y++) {
 						for(int z = 0; z < 5; z++) {
 							if(worldData[numChunks][x, y, z]) {
-								worldData[numChunks][x, y, z].name = (string)('I' + numChunks.ToString() + 'X' + x.ToString() + 'Y' + y.ToString() + 'Z' + z.ToString() + 'R' + currentRing(numChunksX, numChunksY, sizeX - 1, sizeY - 1);
+								worldData[numChunks][x, y, z].name = (string)('I' + numChunks.ToString() + 'X' + x.ToString() + 'Y' + y.ToString() + 'Z' + z.ToString() + 'R' + currentRing(numChunksX, numChunksY, sizeX - 1, sizeY - 1));
 							}
 						}
 					}
@@ -601,14 +601,14 @@ public class GenerateChunk : MonoBehaviour {
     }
 
 	public int currentRing(int cX, int cY, int mX, int mY) {
-		int careAbout;
+		int careAbout = 0;
 		
 		if(cX >= (mX / 2)) {
-			cX - (cX % ((mX / 2) + 1));
+			cX = (cX % ((mX / 2) + 1));
 		}
 		
 		if(cY >= (mY / 2)) {
-			cY - (cY % ((mY / 2) + 1));
+			cY = (cY % ((mY / 2) + 1));
 		}
 		
 		if(cX > cY) {

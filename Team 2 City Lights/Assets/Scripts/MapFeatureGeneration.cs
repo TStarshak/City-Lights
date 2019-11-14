@@ -10,6 +10,8 @@ public class MapFeatureGeneration : MonoBehaviour
     private List<GameObject[,,]> worldData;
     List<Vector3> treePositions = new List<Vector3>();
     List<Vector3> fireflyPositions = new List<Vector3>();
+    List<GameObject> trees = new List<GameObject>();
+    List<GameObject> fireflies = new List<GameObject>();
     float minX, maxX, minZ, maxZ, minY;
 
     void Start()
@@ -59,6 +61,31 @@ public class MapFeatureGeneration : MonoBehaviour
         generateTrees();
         applyTextures();
         generateFireflies();
+        centerMap();
+    }
+
+    private void centerMap()
+    {
+        foreach (GameObject[,,] cubeList in worldData)
+        {
+            foreach (GameObject cube in cubeList)
+            {
+                if (cube != null)
+                {
+                    cube.transform.position = new Vector3(cube.transform.position.x - (maxX / 2), cube.transform.position.y, cube.transform.position.z - (maxX / 2));
+                }
+            }
+        }
+
+        foreach (GameObject tree in trees)
+        {
+            tree.transform.position = new Vector3(tree.transform.position.x - (maxX / 2), tree.transform.position.y, tree.transform.position.z - (maxX / 2));
+        }
+
+        foreach (GameObject firefly in fireflies)
+        {
+            firefly.transform.position = new Vector3(firefly.transform.position.x - (maxX / 2), firefly.transform.position.y, firefly.transform.position.z - (maxX / 2));
+        }
     }
 
     private void generateTrees()
@@ -102,9 +129,11 @@ public class MapFeatureGeneration : MonoBehaviour
             treeNum--;
         }
 
+        GameObject tree;
         foreach (Vector3 pos in treePositions)
         {
-            Instantiate(pinetree, pos, new Quaternion(0f, 0f, 0f, 0f));
+            tree = Instantiate(pinetree, pos, new Quaternion(0f, 0f, 0f, 0f));
+            trees.Add(tree);
         }
     }
 
@@ -309,6 +338,7 @@ public class MapFeatureGeneration : MonoBehaviour
         {
             firefly = Instantiate(fireflyExample, fireflyPositions[i], new Quaternion(0f, 0f, 0f, 0f));
             firefly.name = "Firefly " + i;
+            fireflies.Add(firefly);
             //firefly.GetComponent<Animator>().SetFloat("Offset", Random.value * 1.5f);
             //firefly.GetComponent<Animator>().speed = Random.value * 1.5f + 0.1f;
         }
