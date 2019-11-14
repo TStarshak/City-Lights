@@ -14,4 +14,10 @@ public class MenuButtonController : MonoBehaviour
     {
         SceneManager.LoadScene(sceneName);
     }
+
+    //Quit to main menu and reset progress
+    public void QuitAndReset(){
+        SceneController.Instance.ResetGame();
+        LoadScene("MainMenu");
+    }
 }

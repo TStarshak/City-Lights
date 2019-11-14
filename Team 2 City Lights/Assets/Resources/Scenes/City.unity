@@ -468,6 +468,11 @@ PrefabInstance:
       propertyPath: m_Center.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 102886255569621851, guid: 7318cb11bbae1da4eaa7516780b148e3,
+        type: 3}
+      propertyPath: cam
+      value: 
+      objectReference: {fileID: 1110933290}
     - target: {fileID: 2747383276574168564, guid: 7318cb11bbae1da4eaa7516780b148e3,
         type: 3}
       propertyPath: m_ApplyRootMotion
@@ -478,11 +483,6 @@ PrefabInstance:
       propertyPath: m_Controller
       value: 
       objectReference: {fileID: 9100000, guid: 8d7285833f1c33047a554d732a605ccc, type: 2}
-    - target: {fileID: 102886255569621851, guid: 7318cb11bbae1da4eaa7516780b148e3,
-        type: 3}
-      propertyPath: cam
-      value: 
-      objectReference: {fileID: 1110933290}
     m_RemovedComponents:
     - {fileID: 102886255569621860, guid: 7318cb11bbae1da4eaa7516780b148e3, type: 3}
     - {fileID: 102886255569621851, guid: 7318cb11bbae1da4eaa7516780b148e3, type: 3}
@@ -3166,6 +3166,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   pauseMenu: {fileID: 894057906}
   optionsMenu: {fileID: 894057907}
+  quitButton: {fileID: 0}
 --- !u!1001 &8256943434830782418
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3297,7 +3298,16 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    - target: {fileID: 246506601, guid: 37436cc2c61e9ac439058dec49369d2f, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: QuitAndReset
+      objectReference: {fileID: 0}
+    - target: {fileID: 246506601, guid: 37436cc2c61e9ac439058dec49369d2f, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 8406800613712833656, guid: 37436cc2c61e9ac439058dec49369d2f, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 37436cc2c61e9ac439058dec49369d2f, type: 3}
 --- !u!1001 &8259127795942078593
 PrefabInstance:
@@ -3366,6 +3376,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8259127795511279626, guid: b2b1810b881170740b9f09cfd59e6e1b,
+        type: 3}
+      propertyPath: gameIntroduction
+      value: 
+      objectReference: {fileID: 655563037}
     - target: {fileID: 8259127795511279628, guid: b2b1810b881170740b9f09cfd59e6e1b,
         type: 3}
       propertyPath: overlay
@@ -3376,11 +3391,6 @@ PrefabInstance:
       propertyPath: overlaySuper
       value: 
       objectReference: {fileID: 0}
-    - target: {fileID: 8259127795511279626, guid: b2b1810b881170740b9f09cfd59e6e1b,
-        type: 3}
-      propertyPath: gameIntroduction
-      value: 
-      objectReference: {fileID: 655563037}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b2b1810b881170740b9f09cfd59e6e1b, type: 3}
 --- !u!1 &8259127795942078594 stripped

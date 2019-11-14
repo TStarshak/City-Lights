@@ -10,6 +10,7 @@ public class PauseController : MonoBehaviour
 
     public GameObject pauseMenu;
     public GameObject optionsMenu;
+    public GameObject quitButton;
 
     // Start is called before the first frame update
     void Awake()

@@ -31,5 +31,13 @@ public class SceneController : MonoBehaviour
         PlayerState.SavePlayer();
         SceneManager.LoadScene(scene);
         currentScene = SceneManager.GetSceneByName(scene);
+        if (scene == "MainMenu"){
+            Instance.ResetGame();
+        }
+    }
+
+    // Destroy the game manager and reset the player's current progress
+    public void ResetGame(){
+        GameObject.Destroy(gameObject);
     }
 }
