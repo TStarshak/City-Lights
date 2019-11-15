@@ -11,9 +11,15 @@ public class CityController : MonoBehaviour
     [SerializeField] private string forestScene;
     [SerializeField] private GameObject gameIntroduction;
     [SerializeField] private GameObject missionResults;
+    [SerializeField] private GameObject upgradeShopMenu;
 
     private Transform playerTransform;
     private float playerPosX;
+    private float playerPosZ;
+
+    private string cityExitPrompt = "enter the forest!";
+    private string upgradeShopPrompt = "access the Upgrade Shop!";
+
     // Start is called before the first frame update
     void Start()
     {
@@ -30,37 +36,75 @@ public class CityController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (isNearCityEdge() && !PauseController.isPaused){
-            enableCityExitPrompt();
+        // Check whether player is eligible to perform an action
+        checkforEligibleAction();
+    }
+
+    void checkforEligibleAction(){
+        if (!PauseController.isPaused){
+            // Check for city exit
+            if (isNearUpgradeShop()){
+                enableButtonPrompt(upgradeShopPrompt);
+                enableShopMenuOnAction();
+            }
+            // Check for upgrade prompt
+            else if (isNearCityEdge()){
+                enableButtonPrompt(cityExitPrompt);
+                exitCityOnAction();
+            }
+            else{
+                // Disable otherwise
+               disableButtonPrompt(); 
+            }
         }
         else {
-            disableCityExitPrompt();
+            // Disable otherwise
+            disableButtonPrompt();
         }
+    }
 
-        if (Input.GetButtonDown("Action") && isNearCityEdge()){
+    // Exit the city and load the forest scene
+    void exitCityOnAction(){
+        if (Input.GetButtonDown("Action")){
             if (!PauseController.isPaused){
                 // Reset for next collection phase
                 PlayerState.localPlayerData.firefliesCollected = 0;
                 SceneController.LoadScene(forestScene);
             }
         }
-        
+    }
+
+    // Enable the Upgrade Shop menu
+    void enableShopMenuOnAction(){
+        if (Input.GetButtonDown("Action")){
+            if (!PauseController.isPaused){
+                PauseController.disablePauseFunctionality();
+                upgradeShopMenu.SetActive(true);
+            }
+        }
+    }
+
+    // Displays the button prompt with the action message
+    void enableButtonPrompt(string promptMessage){
+        buttonPrompt.text = $"Press <color=#FBE92B><i><b>E</b></i></color> to {promptMessage}";
+        buttonPrompt.gameObject.SetActive(true);
+    }
+
+    void disableButtonPrompt(){
+        buttonPrompt.text = "";
+        buttonPrompt.gameObject.SetActive(false);
+    }
+    
+    // Determines if the given position is near the upgrade shop
+    bool isNearUpgradeShop(){
+        playerPosX = playerTransform.position.x;
+        playerPosZ = playerTransform.position.z;
+        return (playerPosZ > 2.0f) && (playerPosX > -6.0f && playerPosX < 3.5f);
     }
 
     // Determines if the given position is near edge of city
     bool isNearCityEdge(){
         playerPosX = playerTransform.position.x;
         return playerPosX > 24.0f || playerPosX < -24.0f;
-    }
-    
-    // Toggles the display and functionality of city exit
-    void enableCityExitPrompt(){
-        //Display Prompt and eligible to exit city
-            buttonPrompt.gameObject.SetActive(true);
-            buttonPrompt.text = "Press 'E' to enter the forest!";
-    }
-    void disableCityExitPrompt(){
-        buttonPrompt.text = "";
-        buttonPrompt.gameObject.SetActive(false);
     }
 }
