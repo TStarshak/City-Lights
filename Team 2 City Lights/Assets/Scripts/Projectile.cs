@@ -26,7 +26,7 @@ public class Projectile : MonoBehaviour
     {
         if (other.gameObject.tag != "Enemy")
         {
-            if (other.gameObject.tag == "Player") ;
+            if (other.gameObject.tag == "Player")
             {
                 Destroy(this.gameObject);
 

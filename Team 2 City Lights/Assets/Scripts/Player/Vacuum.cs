@@ -24,14 +24,14 @@ public class Vacuum : MonoBehaviour
         {
             particles.Play();
             isOn = true;
-            this.GetComponent<PlayerMovement>().movementSpeed = 3f;
+            PlayerState.localPlayerData.movementSpeed /= 2;
         }
         if (Input.GetMouseButtonUp(0))
         {
             particles.Pause();
             particles.Clear();
             isOn = false;
-            this.GetComponent<PlayerMovement>().movementSpeed = 10f;
+            PlayerState.localPlayerData.movementSpeed *= 2;
         }
         Plane playerPlane = new Plane(Vector3.up, transform.position);
         Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);

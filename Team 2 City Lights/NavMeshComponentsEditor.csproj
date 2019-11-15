@@ -70,6 +70,7 @@
     <Compile Include="Assets\Resources\NavMeshComponents\Editor\NavMeshSurfaceEditor.cs" />
     <None Include="Assets\Resources\NavMeshComponents\Editor\NavMeshComponentsEditor.asmdef" />
     <Reference Include="UnityEditor.UI">
+<<<<<<< HEAD
       <HintPath>C:/Users/Three/Desktop/team2/Team 2 City Lights/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.Tilemap.Editor">
@@ -83,6 +84,21 @@
     </Reference>
     <Reference Include="UnityEngine.TestRunner">
       <HintPath>C:/Users/Three/Desktop/team2/Team 2 City Lights/Library/ScriptAssemblies/UnityEngine.TestRunner.dll</HintPath>
+=======
+      <HintPath>D:/Program Files/Game Design/team2/Team 2 City Lights/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.2D.Tilemap.Editor">
+      <HintPath>D:/Program Files/Game Design/team2/Team 2 City Lights/Library/ScriptAssemblies/Unity.2D.Tilemap.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UI">
+      <HintPath>D:/Program Files/Game Design/team2/Team 2 City Lights/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.TestRunner">
+      <HintPath>D:/Program Files/Game Design/team2/Team 2 City Lights/Library/ScriptAssemblies/UnityEditor.TestRunner.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TestRunner">
+      <HintPath>D:/Program Files/Game Design/team2/Team 2 City Lights/Library/ScriptAssemblies/UnityEngine.TestRunner.dll</HintPath>
+>>>>>>> 6d4f7454be3044dc72def3e7abc9eb5eb77fb4f7
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2019.2.4f1/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
@@ -269,6 +285,7 @@
     </Reference>
     <Reference Include="UnityEditor.WindowsStandalone.Extensions">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2019.2.4f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll</HintPath>
+<<<<<<< HEAD
     </Reference>
     <Reference Include="UnityEditor.OSXStandalone.Extensions">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2019.2.4f1/Editor/Data/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll</HintPath>
@@ -278,11 +295,14 @@
     </Reference>
     <Reference Include="UnityEditor.UWP.Extensions">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2019.2.4f1/Editor/Data/PlaybackEngines/MetroSupport/UnityEditor.UWP.Extensions.dll</HintPath>
+=======
+>>>>>>> 6d4f7454be3044dc72def3e7abc9eb5eb77fb4f7
     </Reference>
     <Reference Include="SyntaxTree.VisualStudio.Unity.Bridge">
       <HintPath>C:/Program Files (x86)/Microsoft Visual Studio Tools for Unity/15.0/Editor/SyntaxTree.VisualStudio.Unity.Bridge.dll</HintPath>
     </Reference>
     <Reference Include="GitHub.Api.45">
+<<<<<<< HEAD
       <HintPath>C:/Users/Three/Desktop/team2/Team 2 City Lights/Assets/Resources/Plugins/GitHub/Editor/GitHub.Api.45.dll</HintPath>
     </Reference>
     <Reference Include="GitHub.Logging">
@@ -299,6 +319,24 @@
     </Reference>
     <Reference Include="nunit.framework">
       <HintPath>C:/Users/Three/Desktop/team2/Team 2 City Lights/Library/PackageCache/com.unity.ext.nunit@1.0.0/net35/unity-custom/nunit.framework.dll</HintPath>
+=======
+      <HintPath>D:/Program Files/Game Design/team2/Team 2 City Lights/Assets/Resources/Plugins/GitHub/Editor/GitHub.Api.45.dll</HintPath>
+    </Reference>
+    <Reference Include="GitHub.Logging">
+      <HintPath>D:/Program Files/Game Design/team2/Team 2 City Lights/Assets/Resources/Plugins/GitHub/Editor/GitHub.Logging.dll</HintPath>
+    </Reference>
+    <Reference Include="GitHub.Unity.45">
+      <HintPath>D:/Program Files/Game Design/team2/Team 2 City Lights/Assets/Resources/Plugins/GitHub/Editor/GitHub.Unity.45.dll</HintPath>
+    </Reference>
+    <Reference Include="GitHub.UnityShim">
+      <HintPath>D:/Program Files/Game Design/team2/Team 2 City Lights/Assets/Resources/Plugins/GitHub/Editor/GitHub.UnityShim.dll</HintPath>
+    </Reference>
+    <Reference Include="sfw.net">
+      <HintPath>D:/Program Files/Game Design/team2/Team 2 City Lights/Assets/Resources/Plugins/GitHub/Editor/sfw.net.dll</HintPath>
+    </Reference>
+    <Reference Include="nunit.framework">
+      <HintPath>D:/Program Files/Game Design/team2/Team 2 City Lights/Library/PackageCache/com.unity.ext.nunit@1.0.0/net35/unity-custom/nunit.framework.dll</HintPath>
+>>>>>>> 6d4f7454be3044dc72def3e7abc9eb5eb77fb4f7
     </Reference>
     <Reference Include="mscorlib">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2019.2.4f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/mscorlib.dll</HintPath>

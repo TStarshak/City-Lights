@@ -13,26 +13,43 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 1
+<<<<<<< HEAD
   lastUpdatedAtString: 2019-11-14T08:36:43.619-05:00
   initializedAtString: 2019-11-14T08:36:43.619-05:00
   currentGitRemote:
     name: origin
     url: https://csecode.case.edu/academic/eecs-390/team2
+=======
+  lastUpdatedAtString: 2019-11-14T18:43:23.663-05:00
+  initializedAtString: 2019-11-14T18:43:23.663-05:00
+  currentGitRemote:
+    name: origin
+    url: https://csecode.case.edu/academic/eecs-390/team2.git
+>>>>>>> 6d4f7454be3044dc72def3e7abc9eb5eb77fb4f7
     login: 
     user: 
     host: 
     function: 0
     token: 
   currentGitBranch:
+<<<<<<< HEAD
     name: PostProcessing
     tracking: 
+=======
+    name: master
+    tracking: origin/master
+>>>>>>> 6d4f7454be3044dc72def3e7abc9eb5eb77fb4f7
   currentConfigBranch:
     name: PostProcessing
     remote:
-      name: 
-      url: 
-    trackingBranch: 
+      name: origin
+      url: https://csecode.case.edu/academic/eecs-390/team2.git
+    trackingBranch: master
   currentConfigRemote:
     name: origin
+<<<<<<< HEAD
     url: https://csecode.case.edu/academic/eecs-390/team2
+=======
+    url: https://csecode.case.edu/academic/eecs-390/team2.git
+>>>>>>> 6d4f7454be3044dc72def3e7abc9eb5eb77fb4f7
   currentHead: 
