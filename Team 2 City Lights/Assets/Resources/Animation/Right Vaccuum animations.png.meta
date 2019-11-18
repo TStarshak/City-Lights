@@ -1,0 +1,697 @@
+fileFormatVersion: 2
+guid: 7d571e07862e92d4d882cf94ddacb8f8
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1934373764942384859
+    second: Right Vaccuum animations_0
+  - first:
+      213: -4079994559011979088
+    second: Right Vaccuum animations_1
+  - first:
+      213: -61426954249364468
+    second: Right Vaccuum animations_2
+  - first:
+      213: 4391882728975099995
+    second: Right Vaccuum animations_3
+  - first:
+      213: 1299049570682427330
+    second: Right Vaccuum animations_4
+  - first:
+      213: 5978062186915212837
+    second: Right Vaccuum animations_5
+  - first:
+      213: -8357335332807994352
+    second: Right Vaccuum animations_6
+  - first:
+      213: -1766413896496038450
+    second: Right Vaccuum animations_7
+  - first:
+      213: -716987247349590885
+    second: Right Vaccuum animations_8
+  - first:
+      213: 21137625538893400
+    second: Right Vaccuum animations_9
+  - first:
+      213: 2671863211141276025
+    second: Right Vaccuum animations_10
+  - first:
+      213: 880101731107337073
+    second: Right Vaccuum animations_11
+  - first:
+      213: 7305757077202562248
+    second: Right Vaccuum animations_12
+  - first:
+      213: -456563307260173229
+    second: Right Vaccuum animations_13
+  - first:
+      213: -8430235464597368702
+    second: Right Vaccuum animations_14
+  - first:
+      213: 1544431645954675742
+    second: Right Vaccuum animations_15
+  - first:
+      213: 6835590257646666689
+    second: Right Vaccuum animations_16
+  - first:
+      213: 7367742788250806397
+    second: Right Vaccuum animations_17
+  - first:
+      213: -3540426953580428
+    second: Right Vaccuum animations_18
+  - first:
+      213: 1057852612019359971
+    second: Right Vaccuum animations_19
+  - first:
+      213: 1317914915155415779
+    second: Right Vaccuum animations_20
+  - first:
+      213: 6536187641626720318
+    second: Right Vaccuum animations_21
+  - first:
+      213: -8218911280183241159
+    second: Right Vaccuum animations_22
+  - first:
+      213: -5323884359609487328
+    second: Right Vaccuum animations_23
+  - first:
+      213: 922810052417636171
+    second: Right Vaccuum animations_24
+  - first:
+      213: -1868477733110862577
+    second: Right Vaccuum animations_25
+  - first:
+      213: 3946203418186734165
+    second: Right Vaccuum animations_26
+  - first:
+      213: 3332185488982525858
+    second: Right Vaccuum animations_27
+  - first:
+      213: -928033956735167927
+    second: Right Vaccuum animations_28
+  - first:
+      213: -913942260765407837
+    second: Right Vaccuum animations_29
+  - first:
+      213: -7879754223617342457
+    second: Right Vaccuum animations_30
+  - first:
+      213: -2270121351607924330
+    second: Right Vaccuum animations_31
+  - first:
+      213: -4105382850530759271
+    second: Right Vaccuum animations_32
+  - first:
+      213: 8770678847213501873
+    second: Right Vaccuum animations_33
+  - first:
+      213: 3423249492243910945
+    second: Right Vaccuum animations_34
+  - first:
+      213: -7768717705092163711
+    second: Right Vaccuum animations_35
+  - first:
+      213: -2661189183940129480
+    second: Right Vaccuum animations_36
+  - first:
+      213: -5550571205689357492
+    second: Right Vaccuum animations_37
+  - first:
+      213: -3184382347565600828
+    second: Right Vaccuum animations_38
+  - first:
+      213: -6066531002279631012
+    second: Right Vaccuum animations_39
+  - first:
+      213: 5948067377781637534
+    second: Right Vaccuum animations_40
+  - first:
+      213: -5731923895350952511
+    second: Right Vaccuum animations_41
+  - first:
+      213: -3157087496049396957
+    second: Right Vaccuum animations_42
+  - first:
+      213: 5585390296847570265
+    second: Right Vaccuum animations_43
+  - first:
+      213: -3825807048319477808
+    second: Right Vaccuum animations_44
+  - first:
+      213: -722539236041046736
+    second: Right Vaccuum animations_45
+  - first:
+      213: -4109421872289342107
+    second: Right Vaccuum animations_46
+  - first:
+      213: -1300028254402192362
+    second: Right Vaccuum animations_47
+  - first:
+      213: 1610370134912678065
+    second: Right Vaccuum animations_48
+  - first:
+      213: 8273437701792581158
+    second: Right Vaccuum animations_49
+  - first:
+      213: -4629257029459491210
+    second: Right Vaccuum animations_50
+  - first:
+      213: -4903389518962871765
+    second: Right Vaccuum animations_51
+  - first:
+      213: -2103839597795070841
+    second: Right Vaccuum animations_52
+  - first:
+      213: -2020380590975743526
+    second: Right Vaccuum animations_53
+  - first:
+      213: 3073804703431550235
+    second: Right Vaccuum animations_54
+  - first:
+      213: 691848154612320105
+    second: Right Vaccuum animations_55
+  - first:
+      213: 739374816563254677
+    second: Right Vaccuum animations_56
+  - first:
+      213: 3011933602086007782
+    second: Right Vaccuum animations_57
+  - first:
+      213: 5379903699572363675
+    second: Right Vaccuum animations_58
+  - first:
+      213: 8416760585536888983
+    second: Right Vaccuum animations_59
+  - first:
+      213: 2779142816291443732
+    second: Right Vaccuum animations_60
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: -1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Right Vaccuum animations_1
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 837
+        width: 241
+        height: 271
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99c17aa3e0c536c429a0a785586efaa5
+      internalID: -4079994559011979088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Right Vaccuum animations_3
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 839
+        width: 239
+        height: 270
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 658515acdf418d24cbb639cdd3cdb9c8
+      internalID: 4391882728975099995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Right Vaccuum animations_4
+      rect:
+        serializedVersion: 2
+        x: 563
+        y: 840
+        width: 240
+        height: 269
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21338055f055be44c940308a54b8b4a3
+      internalID: 1299049570682427330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Right Vaccuum animations_5
+      rect:
+        serializedVersion: 2
+        x: 834
+        y: 841
+        width: 237
+        height: 269
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35ab73233f099cc4d8d846b6acc09a9a
+      internalID: 5978062186915212837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Right Vaccuum animations_6
+      rect:
+        serializedVersion: 2
+        x: 1103
+        y: 843
+        width: 236
+        height: 267
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d246c4381512fcc4d9e03d17375c96b3
+      internalID: -8357335332807994352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Right Vaccuum animations_7
+      rect:
+        serializedVersion: 2
+        x: 1370
+        y: 844
+        width: 235
+        height: 265
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d0c0c9412cffeb479f5f4c37769f850
+      internalID: -1766413896496038450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Right Vaccuum animations_8
+      rect:
+        serializedVersion: 2
+        x: 1636
+        y: 846
+        width: 233
+        height: 264
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1d33d6d75de45c4594955602812c212
+      internalID: -716987247349590885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Right Vaccuum animations_27
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 567
+        width: 232
+        height: 263
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e5c4f7a071bd3b44b2f9e69eaa1f4b8
+      internalID: 3332185488982525858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Right Vaccuum animations_29
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 569
+        width: 234
+        height: 262
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4aa99b8d73707f4d98ec4113b03d3d4
+      internalID: -913942260765407837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Right Vaccuum animations_31
+      rect:
+        serializedVersion: 2
+        x: 533
+        y: 571
+        width: 229
+        height: 260
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb73fffef34b03a4da9beff8ab4952ea
+      internalID: -2270121351607924330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Right Vaccuum animations_33
+      rect:
+        serializedVersion: 2
+        x: 793
+        y: 572
+        width: 227
+        height: 259
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ca4b23c6b085fe489a8c916b3c21e64
+      internalID: 8770678847213501873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Right Vaccuum animations_35
+      rect:
+        serializedVersion: 2
+        x: 1053
+        y: 573
+        width: 225
+        height: 258
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe291daf08454b94c9c75be2e495572a
+      internalID: -7768717705092163711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Right Vaccuum animations_38
+      rect:
+        serializedVersion: 2
+        x: 1312
+        y: 574
+        width: 224
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfbb09dfbff513543b43cd8f6e2c60f9
+      internalID: -3184382347565600828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Right Vaccuum animations_41
+      rect:
+        serializedVersion: 2
+        x: 1573
+        y: 571
+        width: 220
+        height: 258
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d70417f3088a6024eba792c94ca8337f
+      internalID: -5731923895350952511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Right Vaccuum animations_48
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 302
+        width: 220
+        height: 258
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a027025eb67bed4f9edbc6e5b2a0cf5
+      internalID: 1610370134912678065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Right Vaccuum animations_51
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 298
+        width: 220
+        height: 259
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 463d4b45369a6294985aa57e857b93fc
+      internalID: -4903389518962871765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Right Vaccuum animations_54
+      rect:
+        serializedVersion: 2
+        x: 535
+        y: 295
+        width: 218
+        height: 258
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0693bb43063d401429248fe85918b9b9
+      internalID: 3073804703431550235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Right Vaccuum animations_57
+      rect:
+        serializedVersion: 2
+        x: 794
+        y: 290
+        width: 219
+        height: 259
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b2f338d09a3aac47b643ceb99737113
+      internalID: 3011933602086007782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Right Vaccuum animations_60
+      rect:
+        serializedVersion: 2
+        x: 1058
+        y: 287
+        width: 215
+        height: 260
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbee72179a8b61e4fa583bba8ec9d83d
+      internalID: 2779142816291443732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 036f37aa084da2647a53e1f4a4335acc
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -22,6 +22,15 @@ public class Enemy : MonoBehaviour
         anim = GetComponent<Animator>();
         eyes = GetComponentInChildren<Light>();
         lookRight = true;
+
+        if (!this.name.Equals("Shadoow"))
+        {
+            shadeAlpha = this.GetComponent<SpriteRenderer>().material.color;
+            this.GetComponent<SpriteRenderer>().material.color = new Color(shadeAlpha.r, shadeAlpha.g, shadeAlpha.b, 0);
+            Shadoow.enabled = false;
+            StartCoroutine(shadeSpawn());
+        }
+
     }
 
     void Update() //this all just tells the enemy to chase the player
@@ -58,4 +67,17 @@ public class Enemy : MonoBehaviour
             Shadoow.SetDestination(this.gameObject.transform.position);
         }
     }
+    private IEnumerator shadeSpawn()
+    {
+        for (int i = 0; i < 40; i++)
+        {
+            shadeAlpha = this.GetComponent<SpriteRenderer>().material.color;
+            this.GetComponent<SpriteRenderer>().material.color = new Color(shadeAlpha.r, shadeAlpha.g, shadeAlpha.b, shadeAlpha.a + 0.025f);
+            this.transform.position = new Vector3(this.transform.position.x, this.transform.position.y + 0.05f, this.transform.position.z);
+            yield return new WaitForSeconds(0.01f);
+        }
+        Shadoow.enabled = true;
+    }
+
+
 }

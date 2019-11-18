@@ -1,0 +1,928 @@
+fileFormatVersion: 2
+guid: d3f704c2bdf3df243b49074f8b9a506f
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1213151289613814172
+    second: spider_Back-Left_Movement_0
+  - first:
+      213: 3670923749535337363
+    second: spider_Back-Left_Movement_1
+  - first:
+      213: -1439160992832760667
+    second: spider_Back-Left_Movement_2
+  - first:
+      213: 6138959002484976962
+    second: spider_Back-Left_Movement_3
+  - first:
+      213: -5184742199614142078
+    second: spider_Back-Left_Movement_4
+  - first:
+      213: -6961589034539329184
+    second: spider_Back-Left_Movement_5
+  - first:
+      213: 949893882419740145
+    second: spider_Back-Left_Movement_6
+  - first:
+      213: 5358700329501203890
+    second: spider_Back-Left_Movement_9
+  - first:
+      213: -883221142224941921
+    second: spider_Back-Left_Movement_10
+  - first:
+      213: 327099031901119119
+    second: spider_Back-Left_Movement_12
+  - first:
+      213: 1068115283365318419
+    second: spider_Back-Left_Movement_13
+  - first:
+      213: -1961207765879442699
+    second: spider_Back-Left_Movement_14
+  - first:
+      213: -582433507734821474
+    second: spider_Back-Left_Movement_15
+  - first:
+      213: 4514862895064388632
+    second: spider_Back-Left_Movement_16
+  - first:
+      213: 5270321342958784517
+    second: spider_Back-Left_Movement_17
+  - first:
+      213: 5703070610618710988
+    second: spider_Back-Left_Movement_18
+  - first:
+      213: -1009335156234831330
+    second: spider_Back-Left_Movement_19
+  - first:
+      213: -6703692563433097385
+    second: spider_Back-Left_Movement_20
+  - first:
+      213: -4606313351143828612
+    second: spider_Back-Left_Movement_21
+  - first:
+      213: 4693034039104939384
+    second: spider_Back-Left_Movement_22
+  - first:
+      213: 1675588353375873430
+    second: spider_Back-Left_Movement_23
+  - first:
+      213: -2004609267307671946
+    second: spider_Back-Left_Movement_24
+  - first:
+      213: 515300743580833067
+    second: spider_Back-Left_Movement_25
+  - first:
+      213: -6354019595963853569
+    second: spider_Back-Left_Movement_26
+  - first:
+      213: -8208127593134122202
+    second: spider_Back-Left_Movement_27
+  - first:
+      213: -301519493147942696
+    second: spider_Back-Left_Movement_28
+  - first:
+      213: -9214077215957815437
+    second: spider_Back-Left_Movement_29
+  - first:
+      213: -2220267282042890750
+    second: spider_Back-Left_Movement_30
+  - first:
+      213: -8386278722205349851
+    second: spider_Back-Left_Movement_31
+  - first:
+      213: 5444803003660301300
+    second: spider_Back-Left_Movement_32
+  - first:
+      213: -1984948100695927173
+    second: spider_Back-Left_Movement_33
+  - first:
+      213: 6789108546706863002
+    second: spider_Back-Left_Movement_34
+  - first:
+      213: -2126437652769376909
+    second: spider_Back-Left_Movement_35
+  - first:
+      213: 4068408773583130069
+    second: spider_Back-Left_Movement_36
+  - first:
+      213: -8249004872960103226
+    second: spider_Back-Left_Movement_37
+  - first:
+      213: 5068905960889864763
+    second: spider_Back-Left_Movement_38
+  - first:
+      213: 2324761945358795911
+    second: spider_Back-Left_Movement_39
+  - first:
+      213: -4062386309144916966
+    second: spider_Back-Left_Movement_40
+  - first:
+      213: 2629562635919222652
+    second: spider_Back-Left_Movement_41
+  - first:
+      213: 9152870665878614268
+    second: spider_Back-Left_Movement_42
+  - first:
+      213: -810749274989321239
+    second: spider_Back-Left_Movement_43
+  - first:
+      213: -504107547055704131
+    second: spider_Back-Left_Movement_44
+  - first:
+      213: 1371064175102961349
+    second: spider_Back-Left_Movement_45
+  - first:
+      213: -7107467581532821791
+    second: spider_Back-Left_Movement_46
+  - first:
+      213: -5937873487866787262
+    second: spider_Back-Left_Movement_47
+  - first:
+      213: -7499095077639507187
+    second: spider_Back-Left_Movement_49
+  - first:
+      213: -8828319705783146261
+    second: spider_Back-Left_Movement_50
+  - first:
+      213: 6077926172036885162
+    second: spider_Back-Left_Movement_51
+  - first:
+      213: -2051904000881103809
+    second: spider_Back-Left_Movement_53
+  - first:
+      213: 664137777077830730
+    second: spider_Back-Left_Movement_54
+  - first:
+      213: -2396794769456104965
+    second: spider_Back-Left_Movement_55
+  - first:
+      213: -6030329332615227472
+    second: spider_Back-Left_Movement_56
+  - first:
+      213: -2616287539520418294
+    second: spider_Back-Left_Movement_57
+  - first:
+      213: -4446797200592554270
+    second: spider_Back-Left_Movement_58
+  - first:
+      213: -6899939977060084861
+    second: spider_Back-Left_Movement_59
+  - first:
+      213: 1181127973543173676
+    second: spider_Back-Left_Movement_60
+  - first:
+      213: 4416925887584486293
+    second: spider_Back-Left_Movement_61
+  - first:
+      213: -3546678748335220837
+    second: spider_Back-Left_Movement_62
+  - first:
+      213: 5494263312879440903
+    second: spider_Back-Left_Movement_63
+  - first:
+      213: -4362602091937427037
+    second: spider_Back-Left_Movement_64
+  - first:
+      213: -7175387500606071873
+    second: spider_Back-Left_Movement_65
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: -1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: spider_Back-Left_Movement_0
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 55
+        width: 242
+        height: 187
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3669590cb8cc0104bab161a2c7eaea17
+      internalID: 1213151289613814172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spider_Back-Left_Movement_2
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 55
+        width: 236
+        height: 177
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f669b36c6c19814babdda8e402ff851
+      internalID: -1439160992832760667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spider_Back-Left_Movement_3
+      rect:
+        serializedVersion: 2
+        x: 524
+        y: 55
+        width: 236
+        height: 187
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc52ddc4b00e33f4b8164eba4b957f6c
+      internalID: 6138959002484976962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spider_Back-Left_Movement_4
+      rect:
+        serializedVersion: 2
+        x: 786
+        y: 55
+        width: 236
+        height: 187
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c40a714a5e47c0b4795734814239778e
+      internalID: -5184742199614142078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spider_Back-Left_Movement_6
+      rect:
+        serializedVersion: 2
+        x: 1044
+        y: 55
+        width: 242
+        height: 187
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9887a7ce99a57a848a4ffa7a44945ea7
+      internalID: 949893882419740145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spider_Back-Left_Movement_13
+      rect:
+        serializedVersion: 2
+        x: 3851
+        y: 32
+        width: 216
+        height: 201
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01b621d54ce6b834883382b9c1820559
+      internalID: 1068115283365318419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spider_Back-Left_Movement_14
+      rect:
+        serializedVersion: 2
+        x: 4106
+        y: 32
+        width: 216
+        height: 201
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3784ddd843a370542a0656afbf7ea9df
+      internalID: -1961207765879442699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spider_Back-Left_Movement_16
+      rect:
+        serializedVersion: 2
+        x: 4371
+        y: 32
+        width: 210
+        height: 201
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05d3e5dd5b13c6f45bd2028facd6922b
+      internalID: 4514862895064388632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spider_Back-Left_Movement_18
+      rect:
+        serializedVersion: 2
+        x: 4629
+        y: 32
+        width: 207
+        height: 201
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be16311dcb502b0489caa9d45e6be28e
+      internalID: 5703070610618710988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spider_Back-Left_Movement_19
+      rect:
+        serializedVersion: 2
+        x: 4879
+        y: 32
+        width: 212
+        height: 202
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a4205ab8c5af714ba204a4264cd0719
+      internalID: -1009335156234831330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spider_Back-Left_Movement_21
+      rect:
+        serializedVersion: 2
+        x: 5139
+        y: 36
+        width: 214
+        height: 202
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b687fd5c41a630f44b2ae639c0600df4
+      internalID: -4606313351143828612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spider_Back-Left_Movement_22
+      rect:
+        serializedVersion: 2
+        x: 5373
+        y: 36
+        width: 235
+        height: 202
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08101e4c271749744b05798c68dafe4b
+      internalID: 4693034039104939384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spider_Back-Left_Movement_23
+      rect:
+        serializedVersion: 2
+        x: 5631
+        y: 36
+        width: 232
+        height: 202
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cad44071b5501914ba5d21f6e958227d
+      internalID: 1675588353375873430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spider_Back-Left_Movement_24
+      rect:
+        serializedVersion: 2
+        x: 5886
+        y: 36
+        width: 235
+        height: 202
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb819ef706d55ad48b61dad88baed73b
+      internalID: -2004609267307671946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spider_Back-Left_Movement_25
+      rect:
+        serializedVersion: 2
+        x: 6141
+        y: 36
+        width: 236
+        height: 202
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 793f59578e63cba478dd5dd8659e355b
+      internalID: 515300743580833067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spider_Back-Left_Movement_27
+      rect:
+        serializedVersion: 2
+        x: 6422
+        y: 40
+        width: 217
+        height: 195
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa334627a5de57148a11a0916455c207
+      internalID: -8208127593134122202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spider_Back-Left_Movement_28
+      rect:
+        serializedVersion: 2
+        x: 6668
+        y: 40
+        width: 226
+        height: 213
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2710c9ad610bede4d8ed7bbd137f2fef
+      internalID: -301519493147942696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spider_Back-Left_Movement_29
+      rect:
+        serializedVersion: 2
+        x: 6919
+        y: 40
+        width: 230
+        height: 213
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3cc2c0f426d0fd4eb78aa6aa78e9c98
+      internalID: -9214077215957815437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spider_Back-Left_Movement_30
+      rect:
+        serializedVersion: 2
+        x: 7187
+        y: 40
+        width: 217
+        height: 213
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0282454c9191e7746ae6014dafe7c7d2
+      internalID: -2220267282042890750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spider_Back-Left_Movement_31
+      rect:
+        serializedVersion: 2
+        x: 7442
+        y: 40
+        width: 221
+        height: 195
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3eb0ba4cb31dfc44bee8632803b915c
+      internalID: -8386278722205349851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spider_Back-Left_Movement_36
+      rect:
+        serializedVersion: 2
+        x: 1300
+        y: 58
+        width: 232
+        height: 166
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fee6ba19f19c7c543983ff6cd15461b5
+      internalID: 4068408773583130069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spider_Back-Left_Movement_37
+      rect:
+        serializedVersion: 2
+        x: 1554
+        y: 58
+        width: 236
+        height: 166
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 937a0ccf5231ecc40802063edb540433
+      internalID: -8249004872960103226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spider_Back-Left_Movement_39
+      rect:
+        serializedVersion: 2
+        x: 1809
+        y: 58
+        width: 237
+        height: 166
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2a74b8eff12e7e4f8984831f22daead
+      internalID: 2324761945358795911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spider_Back-Left_Movement_40
+      rect:
+        serializedVersion: 2
+        x: 2068
+        y: 58
+        width: 233
+        height: 166
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 543b6b4cf641d6543934b7b9fcd8f2bd
+      internalID: -4062386309144916966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spider_Back-Left_Movement_42
+      rect:
+        serializedVersion: 2
+        x: 2322
+        y: 58
+        width: 233
+        height: 166
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8274c3d8d44af14cb13e4345fba4129
+      internalID: 9152870665878614268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spider_Back-Left_Movement_43
+      rect:
+        serializedVersion: 2
+        x: 2569
+        y: 40
+        width: 251
+        height: 187
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f93b60d627560c4981f30779d22f6ae
+      internalID: -810749274989321239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spider_Back-Left_Movement_44
+      rect:
+        serializedVersion: 2
+        x: 2837
+        y: 40
+        width: 217
+        height: 186
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87a5d27695a14f74eb66e18eca0465f8
+      internalID: -504107547055704131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spider_Back-Left_Movement_45
+      rect:
+        serializedVersion: 2
+        x: 3070
+        y: 40
+        width: 239
+        height: 187
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b833f50eaac9f724882d0da8e0261f89
+      internalID: 1371064175102961349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spider_Back-Left_Movement_47
+      rect:
+        serializedVersion: 2
+        x: 3347
+        y: 40
+        width: 217
+        height: 187
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 189c09993fc1fe44990ddff833efe376
+      internalID: -5937873487866787262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spider_Back-Left_Movement_49
+      rect:
+        serializedVersion: 2
+        x: 3606
+        y: 40
+        width: 217
+        height: 186
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b4d1afced98ea9488025be8080dd812
+      internalID: -7499095077639507187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

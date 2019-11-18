@@ -11,18 +11,30 @@ public class Spider : MonoBehaviour
     [SerializeField] private GameObject web;
     private float numWebs = 0;
     private Vector3 spawn;
+    private Quaternion rot;
+    private SpriteRenderer rend;
+    private bool lookRight;
+    private bool lookFront;
+    private Animator anim;
+
     // Start is called before the first frame update
     void Start()
     {
+        rot = this.transform.rotation;
         spiderMesh = GetComponent<NavMeshAgent>();
         spawn = transform.position;
+
+        rend = GetComponent<SpriteRenderer>();
+        anim = GetComponent<Animator>();
+        lookRight = true;
+        lookFront = true;
     }
 
     // Update is called once per frame
     void Update()
     {
         elapsedTime += Time.deltaTime;
-
+        this.transform.rotation = rot;
         if (elapsedTime > secondsBetweenSpawn)
         {
             spiderMesh.SetDestination(RandomNavSphere(spawn, 18, -1));
@@ -33,6 +45,18 @@ public class Spider : MonoBehaviour
                 numWebs++;
             }
         }
+        if (transform.forward.x > 0 && lookRight)
+        {
+            lookRight = false;
+            rend.flipX = true;
+        }
+        else if (transform.forward.x < 0 && !lookRight)
+        {
+            lookRight = true;
+            rend.flipX = false;
+        }
+        anim.SetFloat("X", transform.forward.x);
+        anim.SetFloat("Y", transform.forward.z);
     }
 
     public static Vector3 RandomNavSphere(Vector3 origin, float distance, int layermask)

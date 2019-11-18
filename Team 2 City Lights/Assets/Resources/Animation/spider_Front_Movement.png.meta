@@ -1,0 +1,835 @@
+fileFormatVersion: 2
+guid: 3f8892b35f589db4dafe63a1ee7fe0c9
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3772883216691057673
+    second: spider_Front_Movement_0
+  - first:
+      213: 5982185541358766820
+    second: spider_Front_Movement_1
+  - first:
+      213: -30284139949128454
+    second: spider_Front_Movement_2
+  - first:
+      213: -7333991134583283819
+    second: spider_Front_Movement_3
+  - first:
+      213: 3577163093551235060
+    second: spider_Front_Movement_4
+  - first:
+      213: -789077059186724906
+    second: spider_Front_Movement_5
+  - first:
+      213: -9140195612128518744
+    second: spider_Front_Movement_6
+  - first:
+      213: 3723950222190833050
+    second: spider_Front_Movement_7
+  - first:
+      213: 2096660507144406287
+    second: spider_Front_Movement_8
+  - first:
+      213: -8168103623605668926
+    second: spider_Front_Movement_9
+  - first:
+      213: 8183315966654894126
+    second: spider_Front_Movement_10
+  - first:
+      213: 4984386554914828727
+    second: spider_Front_Movement_11
+  - first:
+      213: -2043111999360429831
+    second: spider_Front_Movement_12
+  - first:
+      213: 4662265935314241367
+    second: spider_Front_Movement_13
+  - first:
+      213: 8840435074997009667
+    second: spider_Front_Movement_14
+  - first:
+      213: -2631076526762064727
+    second: spider_Front_Movement_15
+  - first:
+      213: 6849672059936896805
+    second: spider_Front_Movement_16
+  - first:
+      213: -9198185305584244351
+    second: spider_Front_Movement_17
+  - first:
+      213: 4789332185630427244
+    second: spider_Front_Movement_18
+  - first:
+      213: -1506069115478158705
+    second: spider_Front_Movement_19
+  - first:
+      213: -6836153154165197373
+    second: spider_Front_Movement_20
+  - first:
+      213: 1341540107375372489
+    second: spider_Front_Movement_21
+  - first:
+      213: -5539241841191460085
+    second: spider_Front_Movement_22
+  - first:
+      213: 1348950995248356543
+    second: spider_Front_Movement_23
+  - first:
+      213: -3862348216366879667
+    second: spider_Front_Movement_24
+  - first:
+      213: 7914565521419447137
+    second: spider_Front_Movement_25
+  - first:
+      213: -8610652866448036732
+    second: spider_Front_Movement_26
+  - first:
+      213: -7172518881036422740
+    second: spider_Front_Movement_27
+  - first:
+      213: 8763426862173095260
+    second: spider_Front_Movement_28
+  - first:
+      213: 3618311951999063333
+    second: spider_Front_Movement_29
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: -1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: spider_Front_Movement_0
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 43
+        width: 232
+        height: 189
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a10f3368d4595c4395764a6004cdcbd
+      internalID: -3772883216691057673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spider_Front_Movement_1
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 43
+        width: 229
+        height: 189
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: edda475b61ce9434ab3064aa78b55f1e
+      internalID: 5982185541358766820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spider_Front_Movement_2
+      rect:
+        serializedVersion: 2
+        x: 527
+        y: 43
+        width: 232
+        height: 189
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 543fa76654df8a245a166e4eae1eab91
+      internalID: -30284139949128454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spider_Front_Movement_3
+      rect:
+        serializedVersion: 2
+        x: 786
+        y: 43
+        width: 228
+        height: 189
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25455dd864d89ba4d91d7f383ad4190a
+      internalID: -7333991134583283819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spider_Front_Movement_4
+      rect:
+        serializedVersion: 2
+        x: 1041
+        y: 43
+        width: 228
+        height: 189
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c485a05e8beb7fb46969e3780a830e29
+      internalID: 3577163093551235060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spider_Front_Movement_5
+      rect:
+        serializedVersion: 2
+        x: 1303
+        y: 47
+        width: 217
+        height: 175
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04f4f073d58be344185702e975308fde
+      internalID: -789077059186724906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spider_Front_Movement_6
+      rect:
+        serializedVersion: 2
+        x: 1558
+        y: 47
+        width: 218
+        height: 175
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91189dd8ff6fe5c47af3e3aa5f7d0a99
+      internalID: -9140195612128518744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spider_Front_Movement_7
+      rect:
+        serializedVersion: 2
+        x: 1817
+        y: 47
+        width: 214
+        height: 175
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17d1eef100250114591c6e9497b869bd
+      internalID: 3723950222190833050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spider_Front_Movement_8
+      rect:
+        serializedVersion: 2
+        x: 2072
+        y: 47
+        width: 214
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d36f7f1727eec7d47a4c5b78b889ac8f
+      internalID: 2096660507144406287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spider_Front_Movement_9
+      rect:
+        serializedVersion: 2
+        x: 2327
+        y: 47
+        width: 214
+        height: 172
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fdc11535daf8694418b5281fb18480f6
+      internalID: -8168103623605668926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spider_Front_Movement_10
+      rect:
+        serializedVersion: 2
+        x: 2571
+        y: 51
+        width: 240
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f945dce0ab0716458e6bc98a4c0e04f
+      internalID: 8183315966654894126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spider_Front_Movement_11
+      rect:
+        serializedVersion: 2
+        x: 2829
+        y: 51
+        width: 237
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24c0aa18cff256644b9bf1088206e109
+      internalID: 4984386554914828727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spider_Front_Movement_12
+      rect:
+        serializedVersion: 2
+        x: 3084
+        y: 51
+        width: 237
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9dfe2866af6ece248b6042146bdd0c44
+      internalID: -2043111999360429831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spider_Front_Movement_13
+      rect:
+        serializedVersion: 2
+        x: 3339
+        y: 51
+        width: 240
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27dce290104edb945904811545d7b772
+      internalID: 4662265935314241367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spider_Front_Movement_14
+      rect:
+        serializedVersion: 2
+        x: 3594
+        y: 51
+        width: 240
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21e071d4d555401458ad70ddd8e3c736
+      internalID: 8840435074997009667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spider_Front_Movement_15
+      rect:
+        serializedVersion: 2
+        x: 3864
+        y: 62
+        width: 214
+        height: 166
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb1a9ff6bc3bf22469cb448bd986f1cc
+      internalID: -2631076526762064727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spider_Front_Movement_16
+      rect:
+        serializedVersion: 2
+        x: 4119
+        y: 62
+        width: 214
+        height: 166
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 277d20f43e95e1a46a77bbd9c678038e
+      internalID: 6849672059936896805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spider_Front_Movement_17
+      rect:
+        serializedVersion: 2
+        x: 4374
+        y: 62
+        width: 214
+        height: 166
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6bd660056bf6a0f448382056a2467cc5
+      internalID: -9198185305584244351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spider_Front_Movement_18
+      rect:
+        serializedVersion: 2
+        x: 4631
+        y: 62
+        width: 216
+        height: 166
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b592d89a07448434da6a9562d77ed75d
+      internalID: 4789332185630427244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spider_Front_Movement_19
+      rect:
+        serializedVersion: 2
+        x: 4888
+        y: 62
+        width: 214
+        height: 166
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3da0b180104c6434887d9fa753400c6d
+      internalID: -1506069115478158705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spider_Front_Movement_20
+      rect:
+        serializedVersion: 2
+        x: 5136
+        y: 70
+        width: 228
+        height: 158
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bba52fb755594b94c8138a8450fda652
+      internalID: -6836153154165197373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spider_Front_Movement_21
+      rect:
+        serializedVersion: 2
+        x: 5391
+        y: 70
+        width: 232
+        height: 158
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 331999d8a0c0cdf43961be19549a1e84
+      internalID: 1341540107375372489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spider_Front_Movement_22
+      rect:
+        serializedVersion: 2
+        x: 5649
+        y: 70
+        width: 229
+        height: 158
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cba57f250a47dab47a2986f7a0e6760d
+      internalID: -5539241841191460085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spider_Front_Movement_23
+      rect:
+        serializedVersion: 2
+        x: 5904
+        y: 70
+        width: 232
+        height: 158
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f57eec6312a8d6f46a0d4ca08a95074d
+      internalID: 1348950995248356543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spider_Front_Movement_24
+      rect:
+        serializedVersion: 2
+        x: 6159
+        y: 70
+        width: 233
+        height: 158
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a4e67bd73e82a54a88a65bdcdaf6ec5
+      internalID: -3862348216366879667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spider_Front_Movement_25
+      rect:
+        serializedVersion: 2
+        x: 6407
+        y: 47
+        width: 247
+        height: 181
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2188d15f16f73e94882317ed932313ca
+      internalID: 7914565521419447137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spider_Front_Movement_26
+      rect:
+        serializedVersion: 2
+        x: 6662
+        y: 47
+        width: 247
+        height: 181
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 866356b5369b7164ca7c84b096336825
+      internalID: -8610652866448036732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spider_Front_Movement_27
+      rect:
+        serializedVersion: 2
+        x: 6917
+        y: 47
+        width: 251
+        height: 181
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62d42071af21a54408276b1082ca52eb
+      internalID: -7172518881036422740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spider_Front_Movement_28
+      rect:
+        serializedVersion: 2
+        x: 7176
+        y: 47
+        width: 247
+        height: 181
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0c7cd08c50bc7645955f3df21c928f8
+      internalID: 8763426862173095260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spider_Front_Movement_29
+      rect:
+        serializedVersion: 2
+        x: 7431
+        y: 47
+        width: 247
+        height: 181
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd569a99ff16d82448ed27d8f121a923
+      internalID: 3618311951999063333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 600668a9bbd8acb479d4096c1db1fce9
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
