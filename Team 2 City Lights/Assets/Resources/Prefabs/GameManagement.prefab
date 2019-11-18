@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 8259127795511279629}
   - component: {fileID: 8259127795511279626}
   - component: {fileID: 8259127795511279628}
+  - component: {fileID: 8259127795942078595}
   m_Layer: 0
   m_Name: GameManagement
   m_TagString: Untagged
@@ -44,6 +45,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7e2174f6520add643b3313acea15607c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  HasVisitedCity: 0
 --- !u!114 &8259127795511279628
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -56,5 +58,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fab25b2677ce97a4c9da1af2dfc3085c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  overlay: {fileID: 0}
-  overlaySuper: {fileID: 0}
+--- !u!114 &8259127795942078595
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8259127795511279627}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 44e7e86570b0173499624631a88a56a6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

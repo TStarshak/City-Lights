@@ -8,7 +8,7 @@ using UnityEngine;
 public class PlayerMovementCity : MonoBehaviour
 {
     private Transform playerTransform;
-    private PlayerStatistics playerData;
+    private PlayerData playerData;
     private CharacterController _charController;
     private float cityMovementSpeed = 10.0f;
 
