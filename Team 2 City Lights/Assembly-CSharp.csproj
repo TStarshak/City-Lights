@@ -87,15 +87,11 @@
     <Compile Include="Assets\Scripts\Projectile.cs" />
     <Compile Include="Assets\Scripts\Spider.cs" />
     <Compile Include="Assets\Scripts\SpiderWeb.cs" />
-<<<<<<< HEAD
-    <Compile Include="Assets\Scripts\UI\collectionBarController.cs" />
-=======
     <Compile Include="Assets\Scripts\UI\ChiefDialogue.cs" />
     <Compile Include="Assets\Scripts\UI\collectionBarController.cs" />
     <Compile Include="Assets\Scripts\UI\FireflyCounterCity.cs" />
     <Compile Include="Assets\Scripts\UI\FireflyCounterForest.cs" />
     <Compile Include="Assets\Scripts\UI\GameIntroduction.cs" />
->>>>>>> 6d4f7454be3044dc72def3e7abc9eb5eb77fb4f7
     <Compile Include="Assets\Scripts\UI\MenuButtonController.cs" />
     <Compile Include="Assets\Scripts\UI\MissionResults.cs" />
     <Compile Include="Assets\Scripts\UI\PauseController.cs" />
@@ -105,7 +101,6 @@
     <Compile Include="Assets\Scripts\upgradeFramework.cs" />
     <Compile Include="Assets\Scripts\ZoneFeaturePlanning.cs" />
     <Reference Include="Unity.Timeline.Editor">
-<<<<<<< HEAD
       <HintPath>C:/Users/Three/Desktop/team2/Team 2 City Lights/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VSCode.Editor">
@@ -143,45 +138,6 @@
     </Reference>
     <Reference Include="UnityEditor.UI">
       <HintPath>C:/Users/Three/Desktop/team2/Team 2 City Lights/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
-=======
-      <HintPath>D:/Program Files/Game Design/team2/Team 2 City Lights/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.VSCode.Editor">
-      <HintPath>D:/Program Files/Game Design/team2/Team 2 City Lights/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.TextMeshPro.Editor">
-      <HintPath>D:/Program Files/Game Design/team2/Team 2 City Lights/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.UI">
-      <HintPath>D:/Program Files/Game Design/team2/Team 2 City Lights/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Timeline">
-      <HintPath>D:/Program Files/Game Design/team2/Team 2 City Lights/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.CollabProxy.Editor">
-      <HintPath>D:/Program Files/Game Design/team2/Team 2 City Lights/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Postprocessing.Editor">
-      <HintPath>D:/Program Files/Game Design/team2/Team 2 City Lights/Library/ScriptAssemblies/Unity.Postprocessing.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Rider.Editor">
-      <HintPath>D:/Program Files/Game Design/team2/Team 2 City Lights/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.2D.Sprite.Editor">
-      <HintPath>D:/Program Files/Game Design/team2/Team 2 City Lights/Library/ScriptAssemblies/Unity.2D.Sprite.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Postprocessing.Runtime">
-      <HintPath>D:/Program Files/Game Design/team2/Team 2 City Lights/Library/ScriptAssemblies/Unity.Postprocessing.Runtime.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.2D.Tilemap.Editor">
-      <HintPath>D:/Program Files/Game Design/team2/Team 2 City Lights/Library/ScriptAssemblies/Unity.2D.Tilemap.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.TextMeshPro">
-      <HintPath>D:/Program Files/Game Design/team2/Team 2 City Lights/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEditor.UI">
-      <HintPath>D:/Program Files/Game Design/team2/Team 2 City Lights/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
->>>>>>> 6d4f7454be3044dc72def3e7abc9eb5eb77fb4f7
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2019.2.4f1/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
