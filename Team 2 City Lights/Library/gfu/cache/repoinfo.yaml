@@ -13,8 +13,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 1
+<<<<<<< HEAD
   lastUpdatedAtString: 2019-11-14T20:27:51.827-05:00
   initializedAtString: 2019-11-14T20:27:51.827-05:00
+=======
+  lastUpdatedAtString: 2019-11-18T01:22:34.712-05:00
+  initializedAtString: 2019-11-18T01:22:34.712-05:00
+>>>>>>> 7935de94930b320a74da778b4201d670fc4eaf74
   currentGitRemote:
     name: origin
     url: https://csecode.case.edu/academic/eecs-390/team2

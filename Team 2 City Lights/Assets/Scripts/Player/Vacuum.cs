@@ -11,7 +11,7 @@ public class Vacuum : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        particles = this.transform.GetChild(transform.childCount - 1).GetComponent<ParticleSystem>();
+        particles = this.transform.GetChild(transform.childCount - 2).GetComponent<ParticleSystem>();
         isOn = false;
         lookRight = true;
         //transform.GetChild(transform.childCount - 1).transform.Rotate(new Vector3(0, 1, 0), 90);

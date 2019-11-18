@@ -11,7 +11,7 @@ public class PlayerMovement : MonoBehaviour
     private CharacterController _charController;
     
     // Retrieve the current movement speed according to level
-    private PlayerStatistics playerData; 
+    private PlayerData playerData; 
    // private float sprintMultiplier;
    // private bool sprinting;
    // public int stamina = 100;

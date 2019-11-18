@@ -13,7 +13,7 @@ public class MissionResults : MonoBehaviour
     [SerializeField] private Text depositedFireflies;
     [SerializeField] private Text chiefDialogue;
     private MissionHandler.Mission currentMission;
-    private PlayerStatistics playerData;
+    private PlayerData playerData;
 
     // Start is called before the first frame update
     void Start()

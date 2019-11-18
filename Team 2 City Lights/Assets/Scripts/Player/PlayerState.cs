@@ -6,13 +6,16 @@ using UnityEngine;
 public class PlayerState : MonoBehaviour
 {
     // References local progress of player statistics
-    public static PlayerStatistics localPlayerData;
+    public static PlayerData localPlayerData;
+
+    // References global status of player upgrades
+    public static PlayerUpgrades currentUpgrades = new PlayerUpgrades();
 
     private MissionHandler.Mission currentMission;
 
     // At start, load data from PlayerProgress
     void Awake(){
-        localPlayerData = new PlayerStatistics(PlayerProgress.Instance.savedPlayerData);
+        localPlayerData = new PlayerData(PlayerProgress.Instance.savedPlayerData);
     }
 
     void Start(){
@@ -31,6 +34,12 @@ public class PlayerState : MonoBehaviour
 
     // Save Data to Global Player Progress
     public static void SavePlayer(){
-        PlayerProgress.Instance.savedPlayerData = new PlayerStatistics(localPlayerData);
+        PlayerProgress.Instance.savedPlayerData = new PlayerData(localPlayerData);
+        PlayerProgress.Instance.currentUpgrades = currentUpgrades;
+    }
+
+    public static void applyMultipliers(){
+        localPlayerData.movementSpeed *= currentUpgrades.skillByName("speed").getMultiplier();
+        localPlayerData.vacuLampCapacity *= currentUpgrades.skillByName("vlcapacity").getMultiplier();
     }
 }

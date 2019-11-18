@@ -13,9 +13,12 @@ public class PlayerProgress : MonoBehaviour
     // The instance of this progress script
     public static PlayerProgress Instance;
     public bool HasVisitedCity; // Tracks whether the player has visited the city for the first time
+    
+    // References global status of player upgrades
+    public PlayerUpgrades currentUpgrades = new PlayerUpgrades();
 
-    // References global progress of player statsistics
-    public PlayerStatistics savedPlayerData = new PlayerStatistics();
+    // References global progress of player statistics
+    public PlayerData savedPlayerData = new PlayerData();
 
     // Called upon object creation
     void Awake()

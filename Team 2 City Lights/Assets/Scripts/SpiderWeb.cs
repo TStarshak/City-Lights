@@ -16,7 +16,7 @@ public class SpiderWeb : MonoBehaviour
     {
         if (collision.gameObject.tag == "Player")
         {
-            PlayerState.localPlayerData.movementSpeed *= .5f;
+            PlayerState.localPlayerData.movementSpeed /= 2f;
         }
 
     }

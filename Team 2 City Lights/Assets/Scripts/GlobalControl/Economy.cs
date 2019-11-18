@@ -8,14 +8,22 @@ public static class Economy
     /*
     Deposits the collected fireflies into the designated wallet
     */
-    public static void DepositFireFlies(PlayerStatistics playerData){
+    public static void DepositFireFlies(PlayerData player){
         if(MissionHandler.Instance.currentMission.hasMetGoal){
-            playerData.firefliesInWallet += playerData.firefliesCollected - MissionHandler.Instance.currentMission.fireflyGoal;
+            player.firefliesInWallet += player.firefliesCollected - MissionHandler.Instance.currentMission.fireflyGoal;
         }
         else {
-            playerData.firefliesInWallet += playerData.firefliesCollected;
+            player.firefliesInWallet += player.firefliesCollected;
         }
-        Debug.Log("Deposited " + playerData.firefliesInWallet);
+    }
+
+    public static void PurchaseSkill(PlayerData player, PlayerUpgrades.Skill skill){
+        player.firefliesInWallet -= skill.getUpgradeCost();
+        skill.upgradeLevel();
+    }
+
+    public static bool CanAffordSkill(PlayerData playerData, PlayerUpgrades.Skill skill){
+        return playerData.firefliesInWallet >= skill.getUpgradeCost();
     }
 
 }
