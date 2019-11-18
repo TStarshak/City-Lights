@@ -12,15 +12,24 @@ public class PlayerColliderScript : MonoBehaviour
         player = GameObject.FindGameObjectWithTag("Player");
     }
 
-    private void OnTriggerEnter(Collider other)
+    private void OnTriggerExit(Collider other)
+    {
+        if (other.gameObject.tag == "Web")
+        {
+            PlayerState.localPlayerData.movementSpeed = 8;
+        }
+    }
+
+    private void OnTriggerStay(Collider other)
     {
         if (other.gameObject.tag.Equals("Firefly"))
         {
             if (Lighting.numFireflies < Lighting.capacity && Vacuum.isOn)
             {
+                Destroy(other.gameObject);
                 SendMessageUpwards("onFireflyEnter");
             }
-            if(Vacuum.isOn)
+            else if(Vacuum.isOn)
                 Destroy(other.gameObject);
         }
         else if (other.gameObject.tag.Equals("Enemy"))
@@ -38,16 +47,6 @@ public class PlayerColliderScript : MonoBehaviour
         else if (other.gameObject.tag.Equals("Web"))
         {
             PlayerState.localPlayerData.movementSpeed = 5;
-        }
-
-
-    }
-
-    private void OnTriggerExit(Collider other)
-    {
-        if (other.gameObject.tag == "Web")
-        {
-            PlayerState.localPlayerData.movementSpeed = 8;
         }
     }
 

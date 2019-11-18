@@ -14,7 +14,7 @@ public class Vacuum : MonoBehaviour
         particles = this.transform.GetChild(transform.childCount - 2).GetComponent<ParticleSystem>();
         isOn = false;
         lookRight = true;
-        //transform.GetChild(transform.childCount - 1).transform.Rotate(new Vector3(0, 1, 0), 90);
+        transform.GetChild(transform.childCount - 2).transform.Rotate(new Vector3(0, 1, 0), 90);
     }
 
     // Update is called once per frame
@@ -39,11 +39,11 @@ public class Vacuum : MonoBehaviour
         if (playerPlane.Raycast(ray, out hitdist))
         {
             Vector3 targetPoint = ray.GetPoint(hitdist);
-            targetPoint.y = transform.GetChild(transform.childCount - 1).transform.position.y;
-            Quaternion targetRotation = Quaternion.LookRotation(targetPoint - transform.GetChild(transform.childCount - 1).transform.position);
-            Vector3 rot = transform.GetChild(transform.childCount - 1).transform.rotation.eulerAngles - new Vector3(0, 90, 0);
-            transform.GetChild(transform.childCount - 1).transform.rotation = Quaternion.Lerp(transform.GetChild(transform.childCount - 1).transform.rotation, targetRotation, 72.0f * Time.deltaTime);
-            transform.GetChild(transform.childCount - 1).transform.Rotate(new Vector3(0, -90, 0));
+            targetPoint.y = transform.GetChild(transform.childCount - 2).transform.position.y;
+            Quaternion targetRotation = Quaternion.LookRotation(targetPoint - transform.GetChild(transform.childCount - 2).transform.position);
+            Vector3 rot = transform.GetChild(transform.childCount - 2).transform.rotation.eulerAngles - new Vector3(0, 90, 0);
+            transform.GetChild(transform.childCount - 2).transform.rotation = Quaternion.Lerp(transform.GetChild(transform.childCount - 2).transform.rotation, targetRotation, 72.0f * Time.deltaTime);
+            transform.GetChild(transform.childCount - 2).transform.Rotate(new Vector3(0, -90, 0));
         }
 
     }
@@ -64,7 +64,6 @@ public class Vacuum : MonoBehaviour
             zComp = 0.1f;
 
         firefly.transform.Translate(xComp, 0, zComp);
-        firefly.GetComponent<FireflyMovement>().inVac = false;
         yield return null;
     }
 
@@ -78,6 +77,11 @@ public class Vacuum : MonoBehaviour
     {
         if (other.gameObject.tag.Equals("Firefly") && isOn)
             StartCoroutine(moveFirefly(other.gameObject));
+    }
+    private void OnTriggerExit(Collider other)
+    {
+        if(other.gameObject.tag.Equals("Firefly"))
+            other.gameObject.GetComponent<FireflyMovement>().inVac = false;
     }
 }
 
