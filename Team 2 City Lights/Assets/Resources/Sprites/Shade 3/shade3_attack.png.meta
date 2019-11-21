@@ -1,0 +1,1147 @@
+fileFormatVersion: 2
+guid: f3f2c3b1b1b06d6458a8095f93cb5ace
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3941802008725189958
+    second: shade3_attack_0
+  - first:
+      213: -4081709200823283819
+    second: shade3_attack_1
+  - first:
+      213: 7334894943783429020
+    second: shade3_attack_2
+  - first:
+      213: 3567170696274268102
+    second: shade3_attack_3
+  - first:
+      213: -946584150345714660
+    second: shade3_attack_4
+  - first:
+      213: 2003252189110076007
+    second: shade3_attack_5
+  - first:
+      213: 8786488840376738518
+    second: shade3_attack_6
+  - first:
+      213: 4791865888786084506
+    second: shade3_attack_7
+  - first:
+      213: 8263432020260343785
+    second: shade3_attack_8
+  - first:
+      213: -8567024540390652265
+    second: shade3_attack_9
+  - first:
+      213: 5523644474370063613
+    second: shade3_attack_10
+  - first:
+      213: 7888891451473590505
+    second: shade3_attack_11
+  - first:
+      213: 6247660069656011050
+    second: shade3_attack_12
+  - first:
+      213: -8636752865926273824
+    second: shade3_attack_506
+  - first:
+      213: -24181720312167996
+    second: shade3_attack_507
+  - first:
+      213: -7643245620989175024
+    second: shade3_attack_508
+  - first:
+      213: -2904085127436875035
+    second: shade3_attack_509
+  - first:
+      213: 6644619045659878292
+    second: shade3_attack_510
+  - first:
+      213: -3830674240519154072
+    second: shade3_attack_505
+  - first:
+      213: -5496710711079810541
+    second: shade3_attack_500
+  - first:
+      213: 5121486473757444685
+    second: shade3_attack_501
+  - first:
+      213: -5222316896519379530
+    second: shade3_attack_502
+  - first:
+      213: 1325527682471205338
+    second: shade3_attack_503
+  - first:
+      213: 2239639823659628803
+    second: shade3_attack_504
+  - first:
+      213: 7006338982676053607
+    second: shade3_attack_523
+  - first:
+      213: 5066275678769828737
+    second: shade3_attack_524
+  - first:
+      213: 3815321175243913243
+    second: shade3_attack_525
+  - first:
+      213: 1852657824762982377
+    second: shade3_attack_526
+  - first:
+      213: 98178057086012499
+    second: shade3_attack_527
+  - first:
+      213: -6523959457376512604
+    second: shade3_attack_528
+  - first:
+      213: 7675664874243131001
+    second: shade3_attack_529
+  - first:
+      213: -5141409121397512769
+    second: shade3_attack_513
+  - first:
+      213: 3576542131756569382
+    second: shade3_attack_512
+  - first:
+      213: 4471397622432297038
+    second: shade3_attack_511
+  - first:
+      213: 7794080908332264133
+    second: shade3_attack_514
+  - first:
+      213: -4884624780309185854
+    second: shade3_attack_515
+  - first:
+      213: -8158596599628536427
+    second: shade3_attack_516
+  - first:
+      213: -4183125043474935671
+    second: shade3_attack_517
+  - first:
+      213: 3149199643917443333
+    second: shade3_attack_518
+  - first:
+      213: 5035765190073058400
+    second: shade3_attack_519
+  - first:
+      213: -404419058843940614
+    second: shade3_attack_520
+  - first:
+      213: -7567741739799384186
+    second: shade3_attack_521
+  - first:
+      213: 9058948553882108423
+    second: shade3_attack_522
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: -1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: shade3_attack_0
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 3766
+        width: 250
+        height: 262
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f369cfd5675c0f94b8455bed8ad2efd5
+      internalID: 3941802008725189958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shade3_attack_1
+      rect:
+        serializedVersion: 2
+        x: 856
+        y: 3760
+        width: 244
+        height: 268
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3ffe8ef1b3a1264ba58e9e47e563b21
+      internalID: -4081709200823283819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shade3_attack_2
+      rect:
+        serializedVersion: 2
+        x: 1463
+        y: 3760
+        width: 310
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81dc8a628bc5b714e8ee5dfafeaf4776
+      internalID: 7334894943783429020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shade3_attack_3
+      rect:
+        serializedVersion: 2
+        x: 2089
+        y: 3760
+        width: 298
+        height: 262
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02a0f96da0f68e14fb6f7ae7aee0f853
+      internalID: 3567170696274268102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shade3_attack_4
+      rect:
+        serializedVersion: 2
+        x: 2702
+        y: 3760
+        width: 310
+        height: 244
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70323bb9789303346a689a2fac9ad13a
+      internalID: -946584150345714660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shade3_attack_5
+      rect:
+        serializedVersion: 2
+        x: 3316
+        y: 3760
+        width: 310
+        height: 262
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 477f929808ccb2b4aa653750f549ee30
+      internalID: 2003252189110076007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shade3_attack_6
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 3411
+        width: 478
+        height: 324
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0d26bd2caf3e8542ad72d6c7576ba97
+      internalID: 8786488840376738518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shade3_attack_7
+      rect:
+        serializedVersion: 2
+        x: 634
+        y: 3406
+        width: 413
+        height: 319
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f1f3ffad1d4695479a3374c988018c7
+      internalID: 4791865888786084506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shade3_attack_8
+      rect:
+        serializedVersion: 2
+        x: 1256
+        y: 3406
+        width: 419
+        height: 279
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aec646e09986af641a7a6131c5ff00e6
+      internalID: 8263432020260343785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shade3_attack_9
+      rect:
+        serializedVersion: 2
+        x: 1874
+        y: 3406
+        width: 418
+        height: 219
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b72d4a31cf3b024392004ce495ba9a5
+      internalID: -8567024540390652265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shade3_attack_10
+      rect:
+        serializedVersion: 2
+        x: 2516
+        y: 3406
+        width: 399
+        height: 159
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9675d8df93a09e54397c2f7a28dd0ea4
+      internalID: 5523644474370063613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shade3_attack_11
+      rect:
+        serializedVersion: 2
+        x: 3169
+        y: 3406
+        width: 363
+        height: 179
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90cf1d6ee4e47864e99d021696bfda0f
+      internalID: 7888891451473590505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shade3_attack_12
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 3058
+        width: 339
+        height: 214
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a41a1fc95dc4efa40b3d0228c617f064
+      internalID: 6247660069656011050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shade3_attack_506
+      rect:
+        serializedVersion: 2
+        x: 843
+        y: 2704
+        width: 239
+        height: 294
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4116ffbceea83940bcc97aeb462d9d9
+      internalID: -8636752865926273824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shade3_attack_507
+      rect:
+        serializedVersion: 2
+        x: 1461
+        y: 2704
+        width: 249
+        height: 279
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21016b1e6e2a1e94ebe69b5682748301
+      internalID: -24181720312167996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shade3_attack_508
+      rect:
+        serializedVersion: 2
+        x: 2088
+        y: 2704
+        width: 249
+        height: 279
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72f268b940ce8004b8cfafec4d3efbb1
+      internalID: -7643245620989175024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shade3_attack_509
+      rect:
+        serializedVersion: 2
+        x: 2700
+        y: 2699
+        width: 339
+        height: 229
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3181653daf44eb74690ea59dd742edb8
+      internalID: -2904085127436875035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shade3_attack_510
+      rect:
+        serializedVersion: 2
+        x: 3303
+        y: 2699
+        width: 388
+        height: 199
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43fcf02c05e376d4caa41a1f91ca045e
+      internalID: 6644619045659878292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shade3_attack_505
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 2689
+        width: 229
+        height: 304
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93d24e0f4e382a243a09889235e05958
+      internalID: -3830674240519154072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shade3_attack_500
+      rect:
+        serializedVersion: 2
+        x: 753
+        y: 3053
+        width: 334
+        height: 239
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea3d3d516953da14eb05d5abc0c0a7e5
+      internalID: -5496710711079810541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shade3_attack_501
+      rect:
+        serializedVersion: 2
+        x: 1381
+        y: 3053
+        width: 319
+        height: 254
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8ce1a162eb70304b87e39a1848e455b
+      internalID: 5121486473757444685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shade3_attack_502
+      rect:
+        serializedVersion: 2
+        x: 2008
+        y: 3053
+        width: 309
+        height: 249
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4476ec03d9d2b1642b4345d45e878754
+      internalID: -5222316896519379530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shade3_attack_503
+      rect:
+        serializedVersion: 2
+        x: 2646
+        y: 3058
+        width: 289
+        height: 250
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fead2607df12ff941be7a02b04f31762
+      internalID: 1325527682471205338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shade3_attack_504
+      rect:
+        serializedVersion: 2
+        x: 3278
+        y: 3058
+        width: 269
+        height: 254
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f7f32fd8b39f2c4285c3c3099f2c735
+      internalID: 2239639823659628803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shade3_attack_523
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 1633
+        width: 264
+        height: 284
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9727bd3fc4ca1df438fe985b9095288f
+      internalID: 7006338982676053607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shade3_attack_524
+      rect:
+        serializedVersion: 2
+        x: 843
+        y: 1638
+        width: 249
+        height: 269
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b470e9c5d132c649a08c52ffe1f5714
+      internalID: 5066275678769828737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shade3_attack_525
+      rect:
+        serializedVersion: 2
+        x: 1446
+        y: 1628
+        width: 259
+        height: 269
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d8846b9a5102ec43bd5576e64c8cc33
+      internalID: 3815321175243913243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shade3_attack_526
+      rect:
+        serializedVersion: 2
+        x: 2063
+        y: 1633
+        width: 269
+        height: 264
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 920b9f54c39133d4c9280cabb0898b67
+      internalID: 1852657824762982377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shade3_attack_527
+      rect:
+        serializedVersion: 2
+        x: 2661
+        y: 1633
+        width: 288
+        height: 269
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1710ac3033d31044b24e6316e018672
+      internalID: 98178057086012499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shade3_attack_528
+      rect:
+        serializedVersion: 2
+        x: 3278
+        y: 1633
+        width: 279
+        height: 264
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b99a6616a243b242a065f044dd77013
+      internalID: -6523959457376512604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shade3_attack_529
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 1284
+        width: 269
+        height: 252
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1ccc905df27b5447b8b77d9cac769c9
+      internalID: 7675664874243131001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shade3_attack_513
+      rect:
+        serializedVersion: 2
+        x: 1456
+        y: 2341
+        width: 363
+        height: 209
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 756764d446991c9428edff6581e96961
+      internalID: -5141409121397512769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shade3_attack_512
+      rect:
+        serializedVersion: 2
+        x: 833
+        y: 2336
+        width: 364
+        height: 174
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1730ea4a1db81284a8dc5fdcd480c9d8
+      internalID: 3576542131756569382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shade3_attack_511
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 2321
+        width: 378
+        height: 169
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7701ab87f38059d4e850884c65991324
+      internalID: 4471397622432297038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shade3_attack_514
+      rect:
+        serializedVersion: 2
+        x: 2068
+        y: 2355
+        width: 344
+        height: 205
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32080bf40bc0d8c459e41d0d17f17a5e
+      internalID: 7794080908332264133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shade3_attack_515
+      rect:
+        serializedVersion: 2
+        x: 2686
+        y: 2350
+        width: 328
+        height: 230
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbfef928c56b5f24fa41e4d9d5e5afb1
+      internalID: -4884624780309185854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shade3_attack_516
+      rect:
+        serializedVersion: 2
+        x: 3308
+        y: 2346
+        width: 314
+        height: 229
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c50b044690b7694796fc4474d28581f
+      internalID: -8158596599628536427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shade3_attack_517
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 1992
+        width: 267
+        height: 286
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 134b335512b42994bbbbaaa221ffd57a
+      internalID: -4183125043474935671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shade3_attack_518
+      rect:
+        serializedVersion: 2
+        x: 851
+        y: 1990
+        width: 230
+        height: 326
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03f260a0ffeb5de46b32f2128889eb4f
+      internalID: 3149199643917443333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shade3_attack_519
+      rect:
+        serializedVersion: 2
+        x: 1458
+        y: 1997
+        width: 232
+        height: 305
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28477c1964479c34db03cb05109dde80
+      internalID: 5035765190073058400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shade3_attack_520
+      rect:
+        serializedVersion: 2
+        x: 2060
+        y: 1990
+        width: 250
+        height: 306
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ec0b9d2a9a36c340985b16b29597c40
+      internalID: -404419058843940614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shade3_attack_521
+      rect:
+        serializedVersion: 2
+        x: 2695
+        y: 1995
+        width: 225
+        height: 283
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce0c621657f51be44847d2c30e9a01fb
+      internalID: -7567741739799384186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shade3_attack_522
+      rect:
+        serializedVersion: 2
+        x: 3307
+        y: 1995
+        width: 229
+        height: 276
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81827b8d31ac0fe41b45b8b07068a13e
+      internalID: 9058948553882108423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: f38b96f9ff71d1a4e914bd8c9e8e5d9d
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

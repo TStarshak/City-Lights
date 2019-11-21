@@ -1,0 +1,451 @@
+fileFormatVersion: 2
+guid: d0be8c2fe481ad145a23971ec8cad17a
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2486405092213997552
+    second: shade3_hidetowalk_0
+  - first:
+      213: 8560923496850910011
+    second: shade3_hidetowalk_1
+  - first:
+      213: -840020557661346072
+    second: shade3_hidetowalk_2
+  - first:
+      213: 4803114680896647490
+    second: shade3_hidetowalk_3
+  - first:
+      213: -5161828999334375311
+    second: shade3_hidetowalk_4
+  - first:
+      213: -5439559258160763474
+    second: shade3_hidetowalk_5
+  - first:
+      213: 4538902906402476546
+    second: shade3_hidetowalk_7
+  - first:
+      213: 5449372476060330727
+    second: shade3_hidetowalk_10
+  - first:
+      213: -3474260700846680496
+    second: shade3_hidetowalk_12
+  - first:
+      213: -6006495734079238105
+    second: shade3_hidetowalk_14
+  - first:
+      213: -1348601258373169107
+    second: shade3_hidetowalk_15
+  - first:
+      213: -5824438911219356532
+    second: shade3_hidetowalk_16
+  - first:
+      213: -202518048878372064
+    second: shade3_hidetowalk_17
+  - first:
+      213: 3706356929554217497
+    second: shade3_hidetowalk_5
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: -1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: shade3_hidetowalk_0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1778
+        width: 271
+        height: 269
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d2a35d4fcf4a2948b19d9cf919260b4
+      internalID: -2486405092213997552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shade3_hidetowalk_1
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 1778
+        width: 271
+        height: 269
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca65bd030921fad4abbe7ccc7130bcf3
+      internalID: 8560923496850910011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shade3_hidetowalk_2
+      rect:
+        serializedVersion: 2
+        x: 545
+        y: 1778
+        width: 271
+        height: 269
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c0ee1ae68c1c8d4f975a8550e4b7d83
+      internalID: -840020557661346072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shade3_hidetowalk_3
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1508
+        width: 271
+        height: 269
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9f1af10ff955c5469ebe33e3eb1fea7
+      internalID: 4803114680896647490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shade3_hidetowalk_4
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 1508
+        width: 274
+        height: 269
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8e8259627c539e43a3d4d3da6705f24
+      internalID: -5161828999334375311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shade3_hidetowalk_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1238
+        width: 273
+        height: 270
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd7fffac4c24f7948a1303213c8c21db
+      internalID: -5439559258160763474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shade3_hidetowalk_7
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 1238
+        width: 271
+        height: 270
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dce2ce8b95207de4598206894bb524e2
+      internalID: 4538902906402476546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shade3_hidetowalk_10
+      rect:
+        serializedVersion: 2
+        x: 553
+        y: 1243
+        width: 267
+        height: 265
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d666c241013f97469aaa4d7ce0a8e8c
+      internalID: 5449372476060330727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shade3_hidetowalk_12
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 968
+        width: 271
+        height: 269
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2774e7ccfc9a3284d87edace49a73f95
+      internalID: -3474260700846680496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shade3_hidetowalk_14
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 968
+        width: 271
+        height: 269
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab8b9ccaf6460564aaab40f22c38c7b0
+      internalID: -6006495734079238105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shade3_hidetowalk_15
+      rect:
+        serializedVersion: 2
+        x: 549
+        y: 968
+        width: 271
+        height: 269
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32539ffcff6485146872a5f55a84aa62
+      internalID: -1348601258373169107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shade3_hidetowalk_16
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 701
+        width: 271
+        height: 269
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c952877c70be9264594488cae5514270
+      internalID: -5824438911219356532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shade3_hidetowalk_17
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 698
+        width: 271
+        height: 269
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a2f4cad49ce69d498f4e12d7f6b264b
+      internalID: -202518048878372064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shade3_hidetowalk_5
+      rect:
+        serializedVersion: 2
+        x: 545
+        y: 1509
+        width: 274
+        height: 269
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0a9c32ee65a7094ebdc05829a405d2d
+      internalID: 3706356929554217497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: f831115d5859b5943aea9a2aac44a839
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
