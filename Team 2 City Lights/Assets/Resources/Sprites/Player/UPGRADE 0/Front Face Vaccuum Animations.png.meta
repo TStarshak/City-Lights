@@ -1,0 +1,1195 @@
+fileFormatVersion: 2
+guid: c2076e0de6b0a384c9c9dc939058a92d
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1659076816960707935
+    second: Front Face Vaccuum Animations_0
+  - first:
+      213: 3036742424190922447
+    second: Front Face Vaccuum Animations_1
+  - first:
+      213: 1285017284416807335
+    second: Front Face Vaccuum Animations_2
+  - first:
+      213: 6642757027102804598
+    second: Front Face Vaccuum Animations_3
+  - first:
+      213: 5818794166161601497
+    second: Front Face Vaccuum Animations_4
+  - first:
+      213: 6880228048566411143
+    second: Front Face Vaccuum Animations_5
+  - first:
+      213: -4394809881848557794
+    second: Front Face Vaccuum Animations_6
+  - first:
+      213: -564061503028742066
+    second: Front Face Vaccuum Animations_7
+  - first:
+      213: -5622816726234290825
+    second: Front Face Vaccuum Animations_8
+  - first:
+      213: 765756788343151304
+    second: Front Face Vaccuum Animations_9
+  - first:
+      213: 7410466276793381696
+    second: Front Face Vaccuum Animations_10
+  - first:
+      213: -153551476117660346
+    second: Front Face Vaccuum Animations_11
+  - first:
+      213: -1576315195281433847
+    second: Front Face Vaccuum Animations_12
+  - first:
+      213: 3572478050379984560
+    second: Front Face Vaccuum Animations_13
+  - first:
+      213: -1303505811491536317
+    second: Front Face Vaccuum Animations_14
+  - first:
+      213: 7243477817223193405
+    second: Front Face Vaccuum Animations_15
+  - first:
+      213: 6695162105783888632
+    second: Front Face Vaccuum Animations_16
+  - first:
+      213: -1700422446255939124
+    second: Front Face Vaccuum Animations_17
+  - first:
+      213: -8701898851717160601
+    second: Front Face Vaccuum Animations_18
+  - first:
+      213: 5605420942014684125
+    second: Front Face Vaccuum Animations_19
+  - first:
+      213: -6020085592723544432
+    second: Front Face Vaccuum Animations_20
+  - first:
+      213: -2491850696744737328
+    second: Front Face Vaccuum Animations_21
+  - first:
+      213: -338083680188240975
+    second: Front Face Vaccuum Animations_22
+  - first:
+      213: -375594673449057405
+    second: Front Face Vaccuum Animations_23
+  - first:
+      213: -9218521835665681825
+    second: Front Face Vaccuum Animations_24
+  - first:
+      213: -4162203759327020138
+    second: Front Face Vaccuum Animations_25
+  - first:
+      213: -7357581009131076773
+    second: Front Face Vaccuum Animations_26
+  - first:
+      213: -7322291249179031132
+    second: Front Face Vaccuum Animations_27
+  - first:
+      213: 7535523690094937535
+    second: Front Face Vaccuum Animations_28
+  - first:
+      213: -2830982911973390025
+    second: Front Face Vaccuum Animations_29
+  - first:
+      213: 898572155027751346
+    second: Front Face Vaccuum Animations_30
+  - first:
+      213: -6776145346976049621
+    second: Front Face Vaccuum Animations_31
+  - first:
+      213: 347554703268539829
+    second: Front Face Vaccuum Animations_32
+  - first:
+      213: -8629282237127939121
+    second: Front Face Vaccuum Animations_33
+  - first:
+      213: 2288562077776709437
+    second: Front Face Vaccuum Animations_34
+  - first:
+      213: 7733509529451559306
+    second: Front Face Vaccuum Animations_35
+  - first:
+      213: -7741919657640503724
+    second: Front Face Vaccuum Animations_36
+  - first:
+      213: -803783021240239191
+    second: Front Face Vaccuum Animations_37
+  - first:
+      213: 5578884475433287350
+    second: Front Face Vaccuum Animations_38
+  - first:
+      213: -8483881661465673067
+    second: Front Face Vaccuum Animations_39
+  - first:
+      213: -7941617093464989236
+    second: Front Face Vaccuum Animations_40
+  - first:
+      213: -7801626149442554177
+    second: Front Face Vaccuum Animations_41
+  - first:
+      213: -580082357493106711
+    second: Front Face Vaccuum Animations_42
+  - first:
+      213: 6174949798444782991
+    second: Front Face Vaccuum Animations_43
+  - first:
+      213: 4291005509609506448
+    second: Front Face Vaccuum Animations_44
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: -1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Front Face Vaccuum Animations_0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1849
+        width: 248
+        height: 273
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13e7f1e1acb34374baff21335a6fd21b
+      internalID: -1659076816960707935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Front Face Vaccuum Animations_1
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 1859
+        width: 252
+        height: 265
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ba010cc3f2e3834a95cd282b7e6ef68
+      internalID: 3036742424190922447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Front Face Vaccuum Animations_2
+      rect:
+        serializedVersion: 2
+        x: 522
+        y: 1863
+        width: 253
+        height: 262
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ede7480c735b8144f835e3568cccf011
+      internalID: 1285017284416807335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Front Face Vaccuum Animations_3
+      rect:
+        serializedVersion: 2
+        x: 782
+        y: 1865
+        width: 253
+        height: 261
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c456828e0561114aa0f5f3c73042961
+      internalID: 6642757027102804598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Front Face Vaccuum Animations_4
+      rect:
+        serializedVersion: 2
+        x: 1043
+        y: 1866
+        width: 252
+        height: 260
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 410386bfb0f9dd847ac500e3b47b56ee
+      internalID: 5818794166161601497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Front Face Vaccuum Animations_5
+      rect:
+        serializedVersion: 2
+        x: 1310
+        y: 1866
+        width: 249
+        height: 260
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65691c9688ee41542a5a7cc9eda31a8b
+      internalID: 6880228048566411143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Front Face Vaccuum Animations_6
+      rect:
+        serializedVersion: 2
+        x: 1582
+        y: 1866
+        width: 253
+        height: 258
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d598a86f03d23343817e085ab7fd298
+      internalID: -4394809881848557794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Front Face Vaccuum Animations_7
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 1581
+        width: 253
+        height: 258
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 244867d1328051a4d9f943bfe00979c1
+      internalID: -564061503028742066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Front Face Vaccuum Animations_8
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 1580
+        width: 254
+        height: 259
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d591cd2964b99941992027d6080d972
+      internalID: -5622816726234290825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Front Face Vaccuum Animations_9
+      rect:
+        serializedVersion: 2
+        x: 564
+        y: 1580
+        width: 254
+        height: 258
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8089db9339d9b394b91db9a1383a0ac6
+      internalID: 765756788343151304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Front Face Vaccuum Animations_10
+      rect:
+        serializedVersion: 2
+        x: 845
+        y: 1578
+        width: 254
+        height: 259
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3fc6afa062d05a4f86b0762a623d7b6
+      internalID: 7410466276793381696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Front Face Vaccuum Animations_11
+      rect:
+        serializedVersion: 2
+        x: 1127
+        y: 1577
+        width: 254
+        height: 258
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2dd5d610a4c2a44c97e9261cc351339
+      internalID: -153551476117660346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Front Face Vaccuum Animations_12
+      rect:
+        serializedVersion: 2
+        x: 1410
+        y: 1575
+        width: 255
+        height: 258
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e16d059f8e751b841b8c7eec3c0b652c
+      internalID: -1576315195281433847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Front Face Vaccuum Animations_13
+      rect:
+        serializedVersion: 2
+        x: 1692
+        y: 1574
+        width: 257
+        height: 255
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 627c2477d0d958e478f5ed9f1f058182
+      internalID: 3572478050379984560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Front Face Vaccuum Animations_14
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 1295
+        width: 259
+        height: 254
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7810ffc18d3b13a4a9f77de2462f33b9
+      internalID: -1303505811491536317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Front Face Vaccuum Animations_15
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 1294
+        width: 260
+        height: 251
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03648e1a42f3bf64a92fb8b5c7849194
+      internalID: 7243477817223193405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Front Face Vaccuum Animations_16
+      rect:
+        serializedVersion: 2
+        x: 572
+        y: 1293
+        width: 260
+        height: 248
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7912483f2f03b748b5b38ef619b829c
+      internalID: 6695162105783888632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Front Face Vaccuum Animations_17
+      rect:
+        serializedVersion: 2
+        x: 858
+        y: 1290
+        width: 259
+        height: 248
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf34bc5ba81ad94489a4a150ebb1492d
+      internalID: -1700422446255939124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Front Face Vaccuum Animations_18
+      rect:
+        serializedVersion: 2
+        x: 1140
+        y: 1292
+        width: 259
+        height: 248
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c135d1df7ab4c04f91e80b2d6917462
+      internalID: -8701898851717160601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Front Face Vaccuum Animations_19
+      rect:
+        serializedVersion: 2
+        x: 1420
+        y: 1293
+        width: 260
+        height: 248
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 120d70701434a68428ad4b3cf950f1e9
+      internalID: 5605420942014684125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Front Face Vaccuum Animations_20
+      rect:
+        serializedVersion: 2
+        x: 1699
+        y: 1293
+        width: 260
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1a1f14c567ca8944a55636aefec995a
+      internalID: -6020085592723544432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Front Face Vaccuum Animations_21
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 1012
+        width: 259
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ba4abf30b1aee84eb314756860d7da3
+      internalID: -2491850696744737328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Front Face Vaccuum Animations_22
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 1012
+        width: 259
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c41ccc36a0037b54e866749311c3088f
+      internalID: -338083680188240975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Front Face Vaccuum Animations_23
+      rect:
+        serializedVersion: 2
+        x: 572
+        y: 1011
+        width: 258
+        height: 251
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57302aa02eb452142ac8ae87bca5f0f9
+      internalID: -375594673449057405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Front Face Vaccuum Animations_24
+      rect:
+        serializedVersion: 2
+        x: 855
+        y: 1014
+        width: 258
+        height: 254
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c953769056b60ac4397083e54d28feab
+      internalID: -9218521835665681825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Front Face Vaccuum Animations_25
+      rect:
+        serializedVersion: 2
+        x: 1138
+        y: 1018
+        width: 258
+        height: 257
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d827ad06c25d8ea408d312f63f06f8aa
+      internalID: -4162203759327020138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Front Face Vaccuum Animations_26
+      rect:
+        serializedVersion: 2
+        x: 1422
+        y: 1020
+        width: 257
+        height: 261
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55c76f59b044c2c4ca1f507e153ef013
+      internalID: -7357581009131076773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Front Face Vaccuum Animations_27
+      rect:
+        serializedVersion: 2
+        x: 1706
+        y: 1020
+        width: 255
+        height: 263
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 827508c77589eaa419c05b1266df9f2c
+      internalID: -7322291249179031132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Front Face Vaccuum Animations_28
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 741
+        width: 254
+        height: 263
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfa49dcc9a6ba584a99ba8d6620a3a2f
+      internalID: 7535523690094937535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Front Face Vaccuum Animations_29
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 741
+        width: 254
+        height: 262
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 742e28c883af26548810cd94b85322db
+      internalID: -2830982911973390025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Front Face Vaccuum Animations_30
+      rect:
+        serializedVersion: 2
+        x: 570
+        y: 742
+        width: 254
+        height: 261
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b47b572f2f332234390ad6c926edbcb2
+      internalID: 898572155027751346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Front Face Vaccuum Animations_31
+      rect:
+        serializedVersion: 2
+        x: 849
+        y: 742
+        width: 254
+        height: 261
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 918670870f71f7647ad478f717c245f4
+      internalID: -6776145346976049621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Front Face Vaccuum Animations_32
+      rect:
+        serializedVersion: 2
+        x: 1129
+        y: 743
+        width: 253
+        height: 260
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38826e750c5db7a46b8040467d354f4d
+      internalID: 347554703268539829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Front Face Vaccuum Animations_33
+      rect:
+        serializedVersion: 2
+        x: 1406
+        y: 743
+        width: 254
+        height: 260
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2bb63798e9f85a343b3dde5e5ed7ff0f
+      internalID: -8629282237127939121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Front Face Vaccuum Animations_34
+      rect:
+        serializedVersion: 2
+        x: 1683
+        y: 744
+        width: 253
+        height: 258
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a8094333e3f15447910a7e240fe0852
+      internalID: 2288562077776709437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Front Face Vaccuum Animations_35
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 473
+        width: 249
+        height: 260
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3769e927b50bc0546988332acefc0850
+      internalID: 7733509529451559306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Front Face Vaccuum Animations_36
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 473
+        width: 252
+        height: 261
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d332df1c03742e24ba424dc82f8b77c8
+      internalID: -7741919657640503724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Front Face Vaccuum Animations_37
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 472
+        width: 253
+        height: 262
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebff80b7ddf159b479855fbbe46ef915
+      internalID: -803783021240239191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Front Face Vaccuum Animations_38
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 470
+        width: 253
+        height: 262
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1059224bf6ffad348a0bce5f5fd3713b
+      internalID: 5578884475433287350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Front Face Vaccuum Animations_39
+      rect:
+        serializedVersion: 2
+        x: 1059
+        y: 466
+        width: 252
+        height: 265
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8775ac93fb759254fa791e339912ecce
+      internalID: -8483881661465673067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Front Face Vaccuum Animations_40
+      rect:
+        serializedVersion: 2
+        x: 1319
+        y: 456
+        width: 248
+        height: 273
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd6130a8482f62b45a5f7308ab6a7dcf
+      internalID: -7941617093464989236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Front Face Vaccuum Animations_41
+      rect:
+        serializedVersion: 2
+        x: 1579
+        y: 456
+        width: 248
+        height: 273
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c6f21c4ae0ad384f9335b1415d4773c
+      internalID: -7801626149442554177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Front Face Vaccuum Animations_42
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 171
+        width: 248
+        height: 273
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc8502b93930b0e41b2c0a849fa8cfe4
+      internalID: -580082357493106711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Front Face Vaccuum Animations_43
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 171
+        width: 249
+        height: 273
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c6422fa7ff99cd4ba530b9e8052eba6
+      internalID: 6174949798444782991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Front Face Vaccuum Animations_44
+      rect:
+        serializedVersion: 2
+        x: 521
+        y: 171
+        width: 248
+        height: 273
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28e5b89c0bf851245b6c4e1f743effc9
+      internalID: 4291005509609506448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 526de6003a1cfd44ca38ea29ce9c279d
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
