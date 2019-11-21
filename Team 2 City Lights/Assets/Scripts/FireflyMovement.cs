@@ -45,6 +45,7 @@ public class FireflyMovement : MonoBehaviour
         // gameObject.transform.Translate(0, 0, flightSpeed * Time.deltaTime);
         if (canMove && !inVac)
             StartCoroutine(Move());
+        this.transform.rotation = init;
     }
 
     IEnumerator Move()
@@ -56,8 +57,8 @@ public class FireflyMovement : MonoBehaviour
         {
             if (!inVac)
             {
-                transform.Translate(transform.forward * Time.deltaTime * 2 * offset);
-                transform.Rotate(transform.up, -0.5f);
+                transform.Rotate(transform.up, 3f * offset);
+                transform.Translate(transform.forward * Time.deltaTime * 3);
             }
             yield return new WaitForSeconds(0.05f);
         }

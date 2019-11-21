@@ -1,0 +1,1003 @@
+fileFormatVersion: 2
+guid: b729df8b326738b44a46dfc83de12c3d
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3206645648782687204
+    second: shade2_walk_0
+  - first:
+      213: 1832646934599470022
+    second: shade2_walk_1
+  - first:
+      213: 1436512895713806439
+    second: shade2_walk_2
+  - first:
+      213: 6943073512722217392
+    second: shade2_walk_3
+  - first:
+      213: -5392341987139586854
+    second: shade2_walk_4
+  - first:
+      213: 5181540827233034425
+    second: shade2_walk_5
+  - first:
+      213: 8332592363430587005
+    second: shade2_walk_6
+  - first:
+      213: -7855043563165447191
+    second: shade2_walk_7
+  - first:
+      213: 3695947677115860537
+    second: shade2_walk_8
+  - first:
+      213: 82950852456174609
+    second: shade2_walk_9
+  - first:
+      213: 6239244399957257230
+    second: shade2_walk_10
+  - first:
+      213: 8115024370301288724
+    second: shade2_walk_11
+  - first:
+      213: -8079597185201708972
+    second: shade2_walk_12
+  - first:
+      213: -5939686084675466867
+    second: shade2_walk_13
+  - first:
+      213: 2951330946472409449
+    second: shade2_walk_14
+  - first:
+      213: 7591324395911163044
+    second: shade2_walk_15
+  - first:
+      213: 3487026472152353944
+    second: shade2_walk_16
+  - first:
+      213: -6600335224249723562
+    second: shade2_walk_17
+  - first:
+      213: -5733022468810164651
+    second: shade2_walk_18
+  - first:
+      213: 7691158230150790259
+    second: shade2_walk_19
+  - first:
+      213: -5101316491074127576
+    second: shade2_walk_20
+  - first:
+      213: 6554345967688494714
+    second: shade2_walk_21
+  - first:
+      213: 2267490472051134605
+    second: shade2_walk_22
+  - first:
+      213: 8286820396137329818
+    second: shade2_walk_23
+  - first:
+      213: 3525729288076692461
+    second: shade2_walk_24
+  - first:
+      213: -443024447294310703
+    second: shade2_walk_25
+  - first:
+      213: -1206219631242026350
+    second: shade2_walk_26
+  - first:
+      213: -4088447294704129654
+    second: shade2_walk_27
+  - first:
+      213: -2480904056501397665
+    second: shade2_walk_28
+  - first:
+      213: -2496516671253239758
+    second: shade2_walk_29
+  - first:
+      213: -2415595419177424066
+    second: shade2_walk_30
+  - first:
+      213: -6305043560166620497
+    second: shade2_walk_31
+  - first:
+      213: -3795169020343726710
+    second: shade2_walk_32
+  - first:
+      213: -4500246652670755018
+    second: shade2_walk_33
+  - first:
+      213: 2534639124614740840
+    second: shade2_walk_34
+  - first:
+      213: 7807144007632955353
+    second: shade2_walk_35
+  - first:
+      213: 3014603754398181533
+    second: shade2_walk_36
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: -1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: shade2_walk_0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1769
+        width: 229
+        height: 278
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a42fa260785fecb44a45dd7463168102
+      internalID: -3206645648782687204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shade2_walk_1
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 1769
+        width: 229
+        height: 278
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 582a4838b3049544980e08c3540887eb
+      internalID: 1832646934599470022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shade2_walk_2
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 1769
+        width: 229
+        height: 278
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a79d5918f726c704c9dcddd2f6321755
+      internalID: 1436512895713806439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shade2_walk_3
+      rect:
+        serializedVersion: 2
+        x: 694
+        y: 1769
+        width: 229
+        height: 278
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c37af41093c18da4baa6c0ed10d64222
+      internalID: 6943073512722217392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shade2_walk_4
+      rect:
+        serializedVersion: 2
+        x: 925
+        y: 1769
+        width: 229
+        height: 278
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34522919ecde68240bc061edab249a38
+      internalID: -5392341987139586854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shade2_walk_5
+      rect:
+        serializedVersion: 2
+        x: 1156
+        y: 1769
+        width: 229
+        height: 278
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b089bce51852ae24aa81f22dbb7aada4
+      internalID: 5181540827233034425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shade2_walk_6
+      rect:
+        serializedVersion: 2
+        x: 1387
+        y: 1769
+        width: 229
+        height: 278
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77f9e763d7d193e44bceeda136e5659a
+      internalID: 8332592363430587005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shade2_walk_7
+      rect:
+        serializedVersion: 2
+        x: 1618
+        y: 1769
+        width: 229
+        height: 278
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0dea09299f2a3314daad624955ab2084
+      internalID: -7855043563165447191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shade2_walk_8
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1489
+        width: 229
+        height: 278
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27513bd8c263f3343a49bb9175b66c85
+      internalID: 3695947677115860537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shade2_walk_9
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 1489
+        width: 229
+        height: 278
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea1bb9c8e61de1c44b7a0caf4a22e96b
+      internalID: 82950852456174609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shade2_walk_10
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 1489
+        width: 229
+        height: 278
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d44b44b92dd2d8d439eeab09fd31b3c8
+      internalID: 6239244399957257230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shade2_walk_11
+      rect:
+        serializedVersion: 2
+        x: 694
+        y: 1489
+        width: 229
+        height: 278
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 232a9287a400f0442a90f5d476bab0fd
+      internalID: 8115024370301288724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shade2_walk_12
+      rect:
+        serializedVersion: 2
+        x: 925
+        y: 1489
+        width: 229
+        height: 278
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7ef2bb27f8b9a44a993b64a61f81ca4
+      internalID: -8079597185201708972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shade2_walk_13
+      rect:
+        serializedVersion: 2
+        x: 1156
+        y: 1489
+        width: 229
+        height: 278
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 742457e90b3ac4b4cbf691b057d1dcc4
+      internalID: -5939686084675466867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shade2_walk_14
+      rect:
+        serializedVersion: 2
+        x: 1387
+        y: 1489
+        width: 229
+        height: 278
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 754862b93fae6e44f86399ff27689648
+      internalID: 2951330946472409449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shade2_walk_15
+      rect:
+        serializedVersion: 2
+        x: 1618
+        y: 1489
+        width: 229
+        height: 278
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1f43a6a429864f45a09a906599e526a
+      internalID: 7591324395911163044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shade2_walk_16
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1209
+        width: 229
+        height: 278
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3d885e601a41224aa4e1d23b620b8fb
+      internalID: 3487026472152353944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shade2_walk_17
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 1209
+        width: 229
+        height: 278
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cba9db1658e167940b1dea8bdfb695be
+      internalID: -6600335224249723562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shade2_walk_18
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 1209
+        width: 229
+        height: 278
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d31cea00682550744b6874b071d9a97c
+      internalID: -5733022468810164651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shade2_walk_19
+      rect:
+        serializedVersion: 2
+        x: 694
+        y: 1209
+        width: 229
+        height: 278
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc02c02c86980104b95c509eef77d5e6
+      internalID: 7691158230150790259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shade2_walk_20
+      rect:
+        serializedVersion: 2
+        x: 925
+        y: 1209
+        width: 229
+        height: 278
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33b668ceac713f7498cf23e0ee0691a6
+      internalID: -5101316491074127576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shade2_walk_21
+      rect:
+        serializedVersion: 2
+        x: 1156
+        y: 1209
+        width: 229
+        height: 278
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e2f56297f185df40890ee7ec0aeaaa5
+      internalID: 6554345967688494714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shade2_walk_22
+      rect:
+        serializedVersion: 2
+        x: 1387
+        y: 1209
+        width: 229
+        height: 278
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eea8ec443b9024c40bf3a8a5dde42794
+      internalID: 2267490472051134605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shade2_walk_23
+      rect:
+        serializedVersion: 2
+        x: 1618
+        y: 1209
+        width: 229
+        height: 278
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fff56c21c6b6fd64ba8f65cc7aee4eaf
+      internalID: 8286820396137329818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shade2_walk_24
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 929
+        width: 229
+        height: 278
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4bdce83ae59e9b4990996255c8b86bc
+      internalID: 3525729288076692461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shade2_walk_25
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 929
+        width: 229
+        height: 278
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1092aa243d34504a9e5142977ed4371
+      internalID: -443024447294310703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shade2_walk_26
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 929
+        width: 229
+        height: 278
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77659505bbebc4948a15fe0f8465cfa8
+      internalID: -1206219631242026350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shade2_walk_27
+      rect:
+        serializedVersion: 2
+        x: 694
+        y: 929
+        width: 229
+        height: 278
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 445ae7d7e587c9942bb0842eadde5bd6
+      internalID: -4088447294704129654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shade2_walk_28
+      rect:
+        serializedVersion: 2
+        x: 925
+        y: 929
+        width: 229
+        height: 278
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36124f0af030fd849bcb3a3b9206c296
+      internalID: -2480904056501397665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shade2_walk_29
+      rect:
+        serializedVersion: 2
+        x: 1156
+        y: 929
+        width: 229
+        height: 278
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d6cb26f2392eaa4b8668b88c5b8dfe0
+      internalID: -2496516671253239758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shade2_walk_30
+      rect:
+        serializedVersion: 2
+        x: 1387
+        y: 929
+        width: 229
+        height: 278
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eeca45ff2c93282438c7cd76a33e8a33
+      internalID: -2415595419177424066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shade2_walk_31
+      rect:
+        serializedVersion: 2
+        x: 1618
+        y: 929
+        width: 229
+        height: 278
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 814bb90fdfc630242b83ca93047a012a
+      internalID: -6305043560166620497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shade2_walk_32
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 649
+        width: 229
+        height: 278
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89847537c842dcd48aea2b543d19195b
+      internalID: -3795169020343726710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shade2_walk_33
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 649
+        width: 229
+        height: 278
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7af9d8ebe5eafc9419dcb260661b0af1
+      internalID: -4500246652670755018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shade2_walk_34
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 649
+        width: 229
+        height: 278
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2fe086f8389af844be0f02ced8987bf
+      internalID: 2534639124614740840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shade2_walk_35
+      rect:
+        serializedVersion: 2
+        x: 694
+        y: 649
+        width: 229
+        height: 278
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77fe0619b452d2840b8f3073a49e562a
+      internalID: 7807144007632955353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shade2_walk_36
+      rect:
+        serializedVersion: 2
+        x: 925
+        y: 649
+        width: 229
+        height: 278
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a5e25ffca888204ba6bc4ad78c2e41b
+      internalID: 3014603754398181533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 90244b042a53a9b4f9051cbf5e278239
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
