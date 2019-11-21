@@ -76,8 +76,8 @@
      <Compile Include="Assets\Scripts\Player\PlayerMovement.cs" />
      <Compile Include="Assets\Scripts\Player\PlayerMovementCity.cs" />
      <Compile Include="Assets\Scripts\Player\PlayerState.cs" />
+     <Compile Include="Assets\Scripts\Player\PlayerUpgrades.cs" />
      <Compile Include="Assets\Scripts\Player\Vacuum.cs" />
-     <Compile Include="Assets\Scripts\PlayerUpgrades.cs" />
      <Compile Include="Assets\Scripts\Projectile.cs" />
      <Compile Include="Assets\Scripts\Spider.cs" />
      <Compile Include="Assets\Scripts\SpiderWeb.cs" />

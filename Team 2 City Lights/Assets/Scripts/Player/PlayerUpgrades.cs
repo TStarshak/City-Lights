@@ -24,7 +24,7 @@ public class PlayerUpgrades
             this.name = name;
             this.multiplier = 1.0f;
             this.costToUpgrade = 10;
-            this.currentLevel = 1;
+            this.currentLevel = 0;
             this.maxLevel = 3;
             this.isMaxed = false;
         }
