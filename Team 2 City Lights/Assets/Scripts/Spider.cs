@@ -11,6 +11,7 @@ public class Spider : MonoBehaviour
     [SerializeField] private GameObject web;
     private float numWebs = 0;
     private Vector3 spawn;
+    public GameObject pauseMenu;
     // Start is called before the first frame update
     void Start()
     {
@@ -21,17 +22,24 @@ public class Spider : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        elapsedTime += Time.deltaTime;
-
-        if (elapsedTime > secondsBetweenSpawn)
+        if (pauseMenu.activeInHierarchy == false)
         {
-            spiderMesh.SetDestination(RandomNavSphere(spawn, 18, -1));
-            elapsedTime = 0;
-            if (numWebs <= 5)
+            elapsedTime += Time.deltaTime;
+
+            if (elapsedTime > secondsBetweenSpawn)
             {
-                Instantiate(web, transform.position, transform.rotation);
-                numWebs++;
+                spiderMesh.SetDestination(RandomNavSphere(spawn, 18, -1));
+                elapsedTime = 0;
+                if (numWebs <= 5)
+                {
+                    Instantiate(web, transform.position, transform.rotation);
+                    numWebs++;
+                }
             }
+        }
+        else
+        {
+            spiderMesh.SetDestination(this.gameObject.transform.position);
         }
     }
 

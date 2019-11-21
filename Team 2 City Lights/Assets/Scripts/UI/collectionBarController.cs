@@ -7,6 +7,7 @@ public class collectionBarController : MonoBehaviour
     public float x = 1.0f;
     //public float w = this.gameObject.rect.width;
     public Vector3 s = new Vector3();
+    public float goal = 10.0f;
     // Start is called before the first frame update
     void Start()
     {
@@ -16,7 +17,7 @@ public class collectionBarController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        x = s.x * 0.1f * sceneController.FCollected;
+        x = s.x * (1.0f/goal) * sceneController.FCollected;
         if (x > s.x)
         {
             x = s.x;

@@ -1,0 +1,1303 @@
+fileFormatVersion: 2
+guid: 6483003e56363174e9fbd75a81e9bca3
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2296850836840954102
+    second: shadowhour looop_0
+  - first:
+      213: -4723564762015961679
+    second: shadowhour looop_1
+  - first:
+      213: 4100051303050595002
+    second: shadowhour looop_2
+  - first:
+      213: -7900116409401726541
+    second: shadowhour looop_3
+  - first:
+      213: -6917612294831701677
+    second: shadowhour looop_4
+  - first:
+      213: -1293742178669193751
+    second: shadowhour looop_5
+  - first:
+      213: -2080317217975384770
+    second: shadowhour looop_6
+  - first:
+      213: 8048813984736406040
+    second: shadowhour looop_7
+  - first:
+      213: -5019563130691744850
+    second: shadowhour looop_8
+  - first:
+      213: 2036879444555608002
+    second: shadowhour looop_9
+  - first:
+      213: -2104852118396613750
+    second: shadowhour looop_10
+  - first:
+      213: 7461113284310830798
+    second: shadowhour looop_11
+  - first:
+      213: 7640723265997797647
+    second: shadowhour looop_12
+  - first:
+      213: -6614612770230164693
+    second: shadowhour looop_13
+  - first:
+      213: 1093731621802069536
+    second: shadowhour looop_14
+  - first:
+      213: -7594580588007517067
+    second: shadowhour looop_15
+  - first:
+      213: -7625223733451359393
+    second: shadowhour looop_16
+  - first:
+      213: 6718302543270767753
+    second: shadowhour looop_17
+  - first:
+      213: 3026284924143163592
+    second: shadowhour looop_18
+  - first:
+      213: 8860586245320165827
+    second: shadowhour looop_19
+  - first:
+      213: 8028245420520035635
+    second: shadowhour looop_20
+  - first:
+      213: -5114713798168186770
+    second: shadowhour looop_21
+  - first:
+      213: -8563140382206730785
+    second: shadowhour looop_22
+  - first:
+      213: -4306784905094372234
+    second: shadowhour looop_23
+  - first:
+      213: -8045081347687250761
+    second: shadowhour looop_24
+  - first:
+      213: -7554702596856144413
+    second: shadowhour looop_25
+  - first:
+      213: 8596420489663627691
+    second: shadowhour looop_26
+  - first:
+      213: -9068636868797438259
+    second: shadowhour looop_27
+  - first:
+      213: 5478491184701345426
+    second: shadowhour looop_28
+  - first:
+      213: 5788556127824655510
+    second: shadowhour looop_29
+  - first:
+      213: 585907250765068798
+    second: shadowhour looop_30
+  - first:
+      213: 6458945832857926697
+    second: shadowhour looop_31
+  - first:
+      213: 2045796547960279778
+    second: shadowhour looop_32
+  - first:
+      213: 1121192853286526249
+    second: shadowhour looop_33
+  - first:
+      213: 5983315534141691585
+    second: shadowhour looop_34
+  - first:
+      213: 7728407981449459400
+    second: shadowhour looop_35
+  - first:
+      213: 8513551349543499214
+    second: shadowhour looop_36
+  - first:
+      213: -1766078212179038381
+    second: shadowhour looop_37
+  - first:
+      213: -8170453467319176539
+    second: shadowhour looop_38
+  - first:
+      213: 2193253665493644109
+    second: shadowhour looop_39
+  - first:
+      213: 7140659842575394726
+    second: shadowhour looop_40
+  - first:
+      213: -6691999178687465038
+    second: shadowhour looop_41
+  - first:
+      213: -1491607096626330870
+    second: shadowhour looop_42
+  - first:
+      213: -6372841289932330984
+    second: shadowhour looop_43
+  - first:
+      213: 1632011377193340616
+    second: shadowhour looop_44
+  - first:
+      213: -293818105618132817
+    second: shadowhour looop_45
+  - first:
+      213: -2199160154785534600
+    second: shadowhour looop_46
+  - first:
+      213: 4869409593829042298
+    second: shadowhour looop_47
+  - first:
+      213: 7750306035884720905
+    second: shadowhour looop_48
+  - first:
+      213: -5978176249252256520
+    second: shadowhour looop_49
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: -1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: shadowhour looop_0
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 2913
+        width: 477
+        height: 479
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f48673dd857f594f85d4ef0d5a08eac
+      internalID: 2296850836840954102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shadowhour looop_1
+      rect:
+        serializedVersion: 2
+        x: 488
+        y: 2913
+        width: 477
+        height: 479
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e5cf28ec2f4f524ea939dd521a84b67
+      internalID: -4723564762015961679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shadowhour looop_2
+      rect:
+        serializedVersion: 2
+        x: 973
+        y: 2913
+        width: 477
+        height: 479
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ea4a002a1737e2478d44dc2ef2caae4
+      internalID: 4100051303050595002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shadowhour looop_3
+      rect:
+        serializedVersion: 2
+        x: 1458
+        y: 2913
+        width: 477
+        height: 479
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c16ed56258bc48469fdbe4fc8d8ed70
+      internalID: -7900116409401726541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shadowhour looop_4
+      rect:
+        serializedVersion: 2
+        x: 1943
+        y: 2913
+        width: 477
+        height: 479
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e2f38a97a970f9468f3467cdf8471fe
+      internalID: -6917612294831701677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shadowhour looop_5
+      rect:
+        serializedVersion: 2
+        x: 2428
+        y: 2913
+        width: 477
+        height: 479
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3438923f70509234c88b8c578026044d
+      internalID: -1293742178669193751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shadowhour looop_6
+      rect:
+        serializedVersion: 2
+        x: 2913
+        y: 2913
+        width: 477
+        height: 479
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba8d8064ebfb7124b85ff5cb25764584
+      internalID: -2080317217975384770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shadowhour looop_7
+      rect:
+        serializedVersion: 2
+        x: 3398
+        y: 2913
+        width: 477
+        height: 479
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60fef3572286a4949baa6c94383f442e
+      internalID: 8048813984736406040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shadowhour looop_8
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 2428
+        width: 477
+        height: 479
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f1a86c329f44654997ce593648956ba
+      internalID: -5019563130691744850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shadowhour looop_9
+      rect:
+        serializedVersion: 2
+        x: 488
+        y: 2428
+        width: 477
+        height: 479
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e27b31aa908cd74da8ff1ba2e0852eb
+      internalID: 2036879444555608002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shadowhour looop_10
+      rect:
+        serializedVersion: 2
+        x: 973
+        y: 2428
+        width: 477
+        height: 479
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3c9250c497da6c44b693d17861e4b6b
+      internalID: -2104852118396613750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shadowhour looop_11
+      rect:
+        serializedVersion: 2
+        x: 1458
+        y: 2428
+        width: 477
+        height: 479
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd4c0e6aab2dfb64c92adaf34ec5afdc
+      internalID: 7461113284310830798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shadowhour looop_12
+      rect:
+        serializedVersion: 2
+        x: 1943
+        y: 2428
+        width: 477
+        height: 479
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e070a7c19b775844b8ada1e09f40c4ea
+      internalID: 7640723265997797647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shadowhour looop_13
+      rect:
+        serializedVersion: 2
+        x: 2428
+        y: 2428
+        width: 477
+        height: 479
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1eded2032243de4b8584b97b5368597
+      internalID: -6614612770230164693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shadowhour looop_14
+      rect:
+        serializedVersion: 2
+        x: 2913
+        y: 2428
+        width: 477
+        height: 479
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11700d7c22d8c8f4ea54982572b71c49
+      internalID: 1093731621802069536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shadowhour looop_15
+      rect:
+        serializedVersion: 2
+        x: 3398
+        y: 2428
+        width: 477
+        height: 479
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c150787d7c59d6e479e86a65a9a7da74
+      internalID: -7594580588007517067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shadowhour looop_16
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 1943
+        width: 477
+        height: 479
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63fb6c48b8f2e5f49b9dbd1c5c8ebc05
+      internalID: -7625223733451359393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shadowhour looop_17
+      rect:
+        serializedVersion: 2
+        x: 488
+        y: 1943
+        width: 477
+        height: 479
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44f6bbdd19ed1ab47a111184ac7795bd
+      internalID: 6718302543270767753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shadowhour looop_18
+      rect:
+        serializedVersion: 2
+        x: 973
+        y: 1943
+        width: 477
+        height: 479
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61c67f4c811161045895d52b53196207
+      internalID: 3026284924143163592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shadowhour looop_19
+      rect:
+        serializedVersion: 2
+        x: 1458
+        y: 1943
+        width: 477
+        height: 479
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 244502afd0cd33f43b5f8bf5c0f6a47b
+      internalID: 8860586245320165827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shadowhour looop_20
+      rect:
+        serializedVersion: 2
+        x: 1943
+        y: 1943
+        width: 477
+        height: 479
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dba4737e0b504a24093ffce9617e6f59
+      internalID: 8028245420520035635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shadowhour looop_21
+      rect:
+        serializedVersion: 2
+        x: 2428
+        y: 1943
+        width: 477
+        height: 479
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a9f0849a6dd3fa4cbf48f029967891e
+      internalID: -5114713798168186770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shadowhour looop_22
+      rect:
+        serializedVersion: 2
+        x: 2913
+        y: 1943
+        width: 477
+        height: 479
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48feaf735ad070e418a2a9fe307e4d98
+      internalID: -8563140382206730785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shadowhour looop_23
+      rect:
+        serializedVersion: 2
+        x: 3398
+        y: 1943
+        width: 477
+        height: 479
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5edd109547c76942a6b983abb5c7de6
+      internalID: -4306784905094372234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shadowhour looop_24
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 1458
+        width: 477
+        height: 479
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26c62b5352ce28540ad99f3e30858aa8
+      internalID: -8045081347687250761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shadowhour looop_25
+      rect:
+        serializedVersion: 2
+        x: 488
+        y: 1458
+        width: 477
+        height: 479
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d777fa41ee3cc7c48ab95c06fc11ff6f
+      internalID: -7554702596856144413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shadowhour looop_26
+      rect:
+        serializedVersion: 2
+        x: 973
+        y: 1458
+        width: 477
+        height: 479
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0fde58480114419409741689e84f0fc1
+      internalID: 8596420489663627691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shadowhour looop_27
+      rect:
+        serializedVersion: 2
+        x: 1458
+        y: 1458
+        width: 477
+        height: 479
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c19b0c9547962464b855e85413fe6e3f
+      internalID: -9068636868797438259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shadowhour looop_28
+      rect:
+        serializedVersion: 2
+        x: 1943
+        y: 1458
+        width: 477
+        height: 479
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09acbdd20e3c94e4d997fd359493c841
+      internalID: 5478491184701345426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shadowhour looop_29
+      rect:
+        serializedVersion: 2
+        x: 2428
+        y: 1458
+        width: 477
+        height: 479
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5128a00fa98d4f4fac1857fca265562
+      internalID: 5788556127824655510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shadowhour looop_30
+      rect:
+        serializedVersion: 2
+        x: 2913
+        y: 1458
+        width: 477
+        height: 479
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7745e828fecd324e9c8902874ba74f5
+      internalID: 585907250765068798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shadowhour looop_31
+      rect:
+        serializedVersion: 2
+        x: 3398
+        y: 1458
+        width: 477
+        height: 479
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c91bb41425de7e4ea78bbfaf7d1932a
+      internalID: 6458945832857926697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shadowhour looop_32
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 973
+        width: 477
+        height: 479
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38758215c9af21e44a0fee3bb4d58eaa
+      internalID: 2045796547960279778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shadowhour looop_33
+      rect:
+        serializedVersion: 2
+        x: 488
+        y: 973
+        width: 477
+        height: 479
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0bb1d3ca961733846ba8f9a67a40b770
+      internalID: 1121192853286526249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shadowhour looop_34
+      rect:
+        serializedVersion: 2
+        x: 973
+        y: 973
+        width: 477
+        height: 479
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7fe8f55853094564fbb63d5a4c33bddb
+      internalID: 5983315534141691585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shadowhour looop_35
+      rect:
+        serializedVersion: 2
+        x: 1458
+        y: 973
+        width: 477
+        height: 479
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab5009e7f0af55d468584448c35a49e1
+      internalID: 7728407981449459400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shadowhour looop_36
+      rect:
+        serializedVersion: 2
+        x: 1943
+        y: 973
+        width: 477
+        height: 479
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92f820c4744d4fc47a1ae572c7bbce8a
+      internalID: 8513551349543499214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shadowhour looop_37
+      rect:
+        serializedVersion: 2
+        x: 2428
+        y: 973
+        width: 477
+        height: 479
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b33eb0ae9a1cd9428b9321f75048018
+      internalID: -1766078212179038381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shadowhour looop_38
+      rect:
+        serializedVersion: 2
+        x: 2913
+        y: 973
+        width: 477
+        height: 479
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ba330d1f83342443bb5749b6eefad6b
+      internalID: -8170453467319176539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shadowhour looop_39
+      rect:
+        serializedVersion: 2
+        x: 3398
+        y: 973
+        width: 477
+        height: 479
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c628975a5b89bbf4ca0834bd8eae8ccd
+      internalID: 2193253665493644109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shadowhour looop_40
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 488
+        width: 477
+        height: 479
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c350a609803d8ba4d8a31da3bb95d402
+      internalID: 7140659842575394726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shadowhour looop_41
+      rect:
+        serializedVersion: 2
+        x: 488
+        y: 488
+        width: 477
+        height: 479
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5632fa767ca333e419b5e95a4302199b
+      internalID: -6691999178687465038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shadowhour looop_42
+      rect:
+        serializedVersion: 2
+        x: 973
+        y: 488
+        width: 477
+        height: 479
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f2af8a3c09542940a7fea991cd97dc5
+      internalID: -1491607096626330870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shadowhour looop_43
+      rect:
+        serializedVersion: 2
+        x: 1458
+        y: 488
+        width: 477
+        height: 479
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f99d25b37176bb43a77ec063d34e13a
+      internalID: -6372841289932330984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shadowhour looop_44
+      rect:
+        serializedVersion: 2
+        x: 1943
+        y: 488
+        width: 477
+        height: 479
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0de99d593afc20b468a8b0726ce306d2
+      internalID: 1632011377193340616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shadowhour looop_45
+      rect:
+        serializedVersion: 2
+        x: 2428
+        y: 488
+        width: 477
+        height: 479
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d769ca1d46ae65a4d82cd09925840b86
+      internalID: -293818105618132817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shadowhour looop_46
+      rect:
+        serializedVersion: 2
+        x: 2913
+        y: 488
+        width: 477
+        height: 479
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fff58e3735d9b8d4bb91ce296f491ec4
+      internalID: -2199160154785534600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shadowhour looop_47
+      rect:
+        serializedVersion: 2
+        x: 3398
+        y: 488
+        width: 477
+        height: 479
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 204dcbd74c72d2346b950cc2ab681a7e
+      internalID: 4869409593829042298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shadowhour looop_48
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 3
+        width: 477
+        height: 479
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08f8976ddd1cc304d88f7b9aea44a556
+      internalID: 7750306035884720905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shadowhour looop_49
+      rect:
+        serializedVersion: 2
+        x: 488
+        y: 3
+        width: 477
+        height: 479
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3fba6e139c6e894899e5d7eaaf1ed2a
+      internalID: -5978176249252256520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: fc4b2a1ed9b237644ad0e6fcf462f08e
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

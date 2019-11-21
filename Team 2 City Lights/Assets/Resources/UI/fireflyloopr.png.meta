@@ -1,0 +1,1174 @@
+fileFormatVersion: 2
+guid: 994c537780803d6478c425f1a12dd534
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7921400972485738534
+    second: fireflyloopr_0
+  - first:
+      213: -4769623077698216958
+    second: fireflyloopr_1
+  - first:
+      213: -4466157300884002701
+    second: fireflyloopr_2
+  - first:
+      213: 1417032627347318658
+    second: fireflyloopr_3
+  - first:
+      213: -4231808621037816918
+    second: fireflyloopr_4
+  - first:
+      213: 4133577091371628218
+    second: fireflyloopr_5
+  - first:
+      213: 4640054929527165185
+    second: fireflyloopr_6
+  - first:
+      213: -5149819346994748433
+    second: fireflyloopr_7
+  - first:
+      213: 3881391860209591722
+    second: fireflyloopr_8
+  - first:
+      213: -7798975454619848276
+    second: fireflyloopr_9
+  - first:
+      213: 1722121956687890130
+    second: fireflyloopr_10
+  - first:
+      213: 3957594677962073678
+    second: fireflyloopr_11
+  - first:
+      213: 4985895078738380537
+    second: fireflyloopr_12
+  - first:
+      213: 1701145602875552248
+    second: fireflyloopr_13
+  - first:
+      213: -5423061556469761219
+    second: fireflyloopr_14
+  - first:
+      213: -186180519254630834
+    second: fireflyloopr_15
+  - first:
+      213: -2068848083202228209
+    second: fireflyloopr_16
+  - first:
+      213: 6273641425066283952
+    second: fireflyloopr_17
+  - first:
+      213: 3544206977531607340
+    second: fireflyloopr_18
+  - first:
+      213: 2297065938227434435
+    second: fireflyloopr_19
+  - first:
+      213: 501854530072686409
+    second: fireflyloopr_20
+  - first:
+      213: -425796285947169691
+    second: fireflyloopr_21
+  - first:
+      213: -4627286838393878722
+    second: fireflyloopr_22
+  - first:
+      213: -7245339490632598445
+    second: fireflyloopr_23
+  - first:
+      213: -8178441929423984375
+    second: fireflyloopr_24
+  - first:
+      213: 9007958168230836520
+    second: fireflyloopr_25
+  - first:
+      213: 1863849824865289641
+    second: fireflyloopr_26
+  - first:
+      213: -4971340850526547969
+    second: fireflyloopr_27
+  - first:
+      213: 7654296821216023915
+    second: fireflyloopr_28
+  - first:
+      213: 5918030724258337022
+    second: fireflyloopr_29
+  - first:
+      213: -5434468320017728527
+    second: fireflyloopr_30
+  - first:
+      213: 8292205149710307191
+    second: fireflyloopr_31
+  - first:
+      213: 5462293915371167235
+    second: fireflyloopr_32
+  - first:
+      213: 7468792883920843577
+    second: fireflyloopr_33
+  - first:
+      213: 3348058452809879954
+    second: fireflyloopr_34
+  - first:
+      213: 220211612887701135
+    second: fireflyloopr_35
+  - first:
+      213: -3054188946312494700
+    second: fireflyloopr_36
+  - first:
+      213: -1062867100637700525
+    second: fireflyloopr_37
+  - first:
+      213: -2358993326793437092
+    second: fireflyloopr_38
+  - first:
+      213: 7019034290510529233
+    second: fireflyloopr_39
+  - first:
+      213: -5980639021109115110
+    second: fireflyloopr_40
+  - first:
+      213: -7476126004602415532
+    second: fireflyloopr_41
+  - first:
+      213: 1983335947313391851
+    second: fireflyloopr_42
+  - first:
+      213: 4474279168995189790
+    second: fireflyloopr_43
+  - first:
+      213: -1467914772039399277
+    second: fireflyloopr_44
+  - first:
+      213: -442475349005397704
+    second: fireflyloopr_45
+  - first:
+      213: -310001086507276403
+    second: fireflyloopr_46
+  - first:
+      213: 824714104574416396
+    second: fireflyloopr_47
+  - first:
+      213: 2358638575970968420
+    second: fireflyloopr_48
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: -1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: fireflyloopr_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2915
+        width: 500
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c3aa978c94a27f40ad8aac0eac15ad4
+      internalID: -7921400972485738534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fireflyloopr_1
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 2915
+        width: 500
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76052ec0bf097ae46bacf45ec5ea3e62
+      internalID: -4769623077698216958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fireflyloopr_2
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 2915
+        width: 500
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6e987740f69d14488ab7ba0a5ed6ba7
+      internalID: -4466157300884002701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fireflyloopr_3
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 2915
+        width: 500
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9df0c893e2e19c443a89fe246a5724e3
+      internalID: 1417032627347318658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fireflyloopr_4
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 2915
+        width: 500
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57323efdd9e50ed4d89b1b693436377a
+      internalID: -4231808621037816918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fireflyloopr_5
+      rect:
+        serializedVersion: 2
+        x: 2500
+        y: 2915
+        width: 500
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1cee4fc151a05b4fb97a5a198a78a2b
+      internalID: 4133577091371628218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fireflyloopr_6
+      rect:
+        serializedVersion: 2
+        x: 3000
+        y: 2915
+        width: 500
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c36e1f2253d3dc45b8774e9682f4b5d
+      internalID: 4640054929527165185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fireflyloopr_7
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2435
+        width: 500
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 852f5690032e6d44bbbaba00445b8747
+      internalID: -5149819346994748433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fireflyloopr_8
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 2435
+        width: 500
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d84355c8e547b749916fb344189cede
+      internalID: 3881391860209591722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fireflyloopr_9
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 2435
+        width: 500
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e25c86a414771bd4084df224d4491094
+      internalID: -7798975454619848276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fireflyloopr_10
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 2435
+        width: 500
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: decc1e77d4625ee4e9e89b1ac6dee46c
+      internalID: 1722121956687890130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fireflyloopr_11
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 2435
+        width: 500
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e66e1b44aba804d44a34aae725ce8976
+      internalID: 3957594677962073678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fireflyloopr_12
+      rect:
+        serializedVersion: 2
+        x: 2500
+        y: 2435
+        width: 500
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e9551b7e66cb274a9b34e69267b4660
+      internalID: 4985895078738380537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fireflyloopr_13
+      rect:
+        serializedVersion: 2
+        x: 3000
+        y: 2435
+        width: 500
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e196e3de69e3de48ab178ebbf729430
+      internalID: 1701145602875552248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fireflyloopr_14
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1955
+        width: 500
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5760e6a791757ad46b36c85198d7b077
+      internalID: -5423061556469761219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fireflyloopr_15
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 1955
+        width: 500
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6f5ed7f7c3662a41b12eb56caad3e90
+      internalID: -186180519254630834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fireflyloopr_16
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 1955
+        width: 500
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c560e01344a927541b98177c5bcb2bc7
+      internalID: -2068848083202228209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fireflyloopr_17
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 1955
+        width: 500
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1acb019f85479ca478546db6625ac2f3
+      internalID: 6273641425066283952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fireflyloopr_18
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 1955
+        width: 500
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0f70fa6ca56a7c40acc5bfc2d830d39
+      internalID: 3544206977531607340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fireflyloopr_19
+      rect:
+        serializedVersion: 2
+        x: 2500
+        y: 1955
+        width: 500
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f1ca5e0665f428439fa58168c476cb0
+      internalID: 2297065938227434435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fireflyloopr_20
+      rect:
+        serializedVersion: 2
+        x: 3000
+        y: 1955
+        width: 500
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 666c54a450422ef40b25fdcff908286e
+      internalID: 501854530072686409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fireflyloopr_21
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1475
+        width: 500
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96c358b14e8fad444ae29825c59a9440
+      internalID: -425796285947169691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fireflyloopr_22
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 1475
+        width: 500
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfba599c386dccc429727c43cc5f469b
+      internalID: -4627286838393878722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fireflyloopr_23
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 1475
+        width: 500
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 151ccdb0dd2c7ce429b7c6e6e095b5cb
+      internalID: -7245339490632598445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fireflyloopr_24
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 1475
+        width: 500
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56c46bc1367ee374d8cc3d5e1c9a7960
+      internalID: -8178441929423984375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fireflyloopr_25
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 1475
+        width: 500
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e451b73c5cc42284698434059faaf8cc
+      internalID: 9007958168230836520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fireflyloopr_26
+      rect:
+        serializedVersion: 2
+        x: 2500
+        y: 1475
+        width: 500
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ac44678296c952409fef173345deb38
+      internalID: 1863849824865289641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fireflyloopr_27
+      rect:
+        serializedVersion: 2
+        x: 3000
+        y: 1475
+        width: 500
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed1c14c0832fbca4ab7122a65df5195f
+      internalID: -4971340850526547969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fireflyloopr_28
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 995
+        width: 500
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0fe5021cdd8e12643ab108b7f28deb34
+      internalID: 7654296821216023915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fireflyloopr_29
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 995
+        width: 500
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2416550ea91eec3409b0dff604f726f8
+      internalID: 5918030724258337022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fireflyloopr_30
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 995
+        width: 500
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 771196a4cc00e344ea0b6d987659be53
+      internalID: -5434468320017728527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fireflyloopr_31
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 995
+        width: 500
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 440e8e5fe4de0974695bbc1e1ccec160
+      internalID: 8292205149710307191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fireflyloopr_32
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 995
+        width: 500
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c487c970879859f45863665468152dff
+      internalID: 5462293915371167235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fireflyloopr_33
+      rect:
+        serializedVersion: 2
+        x: 2500
+        y: 995
+        width: 500
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7d5b8c9ecd223c4f9c77585c6481fd8
+      internalID: 7468792883920843577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fireflyloopr_34
+      rect:
+        serializedVersion: 2
+        x: 3000
+        y: 995
+        width: 500
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6674b634bdd5f24aa8d55d160587abd
+      internalID: 3348058452809879954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fireflyloopr_35
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 515
+        width: 500
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59e6f7c28b629a24389eceb5dd0c7c5b
+      internalID: 220211612887701135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fireflyloopr_36
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 515
+        width: 500
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 465ac8ef34a4f8d42a3f4e43887e5b07
+      internalID: -3054188946312494700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fireflyloopr_37
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 515
+        width: 500
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c2282bf56ccedf4895b1af36a4f2918
+      internalID: -1062867100637700525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fireflyloopr_38
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 515
+        width: 500
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d63418f7b52dbb94cafe84126e24909f
+      internalID: -2358993326793437092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fireflyloopr_39
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 515
+        width: 500
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6e4a76a5df061d4b829515fe5582434
+      internalID: 7019034290510529233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fireflyloopr_40
+      rect:
+        serializedVersion: 2
+        x: 2500
+        y: 515
+        width: 500
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de33d75c94aea5d4689cbec1e05ff427
+      internalID: -5980639021109115110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fireflyloopr_41
+      rect:
+        serializedVersion: 2
+        x: 3000
+        y: 515
+        width: 500
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc93ac369e5e17e438f97a0f4c732dc9
+      internalID: -7476126004602415532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fireflyloopr_42
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 35
+        width: 500
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7b566846fdfcc248bb68e53e06ce381
+      internalID: 1983335947313391851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fireflyloopr_43
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 35
+        width: 500
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87132ef949976804e84467af642b7c4e
+      internalID: 4474279168995189790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: edcfe6904d468f249a65b03a28fc9cb1
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

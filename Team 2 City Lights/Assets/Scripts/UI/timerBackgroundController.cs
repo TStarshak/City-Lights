@@ -6,15 +6,17 @@ using UnityEngine.UI;
 public class timerBackgroundController : MonoBehaviour
 {
     private SpriteRenderer spr;
-    private Sprite[] sprites;
+    private Sprite[] colorSprites;
+    int x = 0;
+    int spacer = 0;
 
     // Start is called before the first frame update
     void Start()
     {
         //spr = GetComponent<SpriteRenderer>();
         //Sprite img = this.gameObject.GetComponent<Image>();
-        sprites = Resources.LoadAll<Sprite>("bg3");
-        this.gameObject.GetComponent<Image>().sprite = sprites[1];
+        colorSprites = Resources.LoadAll<Sprite>("UI/colour");
+        this.gameObject.GetComponent<Image>().sprite = colorSprites[0];
     }
 
     // Update is called once per frame
@@ -23,6 +25,16 @@ public class timerBackgroundController : MonoBehaviour
         //int x = 0;
         //spr.sprite = sprites[x];
         //x++;
+        this.gameObject.GetComponent<Image>().sprite = colorSprites[x];
+        spacer++;
+        if (spacer==2) {
+            spacer = 0;
+            x++;
+            if (x == 50)
+            {
+                x = 49;
+            }
+        }
     }
 /*
     IEnumerator timer()

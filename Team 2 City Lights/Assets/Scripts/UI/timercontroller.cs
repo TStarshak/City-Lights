@@ -7,10 +7,11 @@ public class timercontroller : MonoBehaviour
     public bool shadowHour = false;     // Whether the timer has expired. Shades come out when true.
 
     [SerializeField]
-    private int timerStart = 180;
+    public int timerStart = 180;
     private int timeUntilShadowHour;
     public GameObject pauseM;
     public GameObject shadowIcon;
+    public GameObject fireflyAnimation;
     // Start is called before the first frame update
     void Start()
     {
@@ -31,7 +32,8 @@ public class timercontroller : MonoBehaviour
         if (shadowHour)
         {
             this.gameObject.SetActive(false);
-            shadowIcon.SetActive(false);
+            shadowIcon.SetActive(true);
+            fireflyAnimation.SetActive(false);
         }
     }
     /*
@@ -56,7 +58,7 @@ public class timercontroller : MonoBehaviour
             if (pauseM.activeInHierarchy == false)
             {
                 timeUntilShadowHour--;
-                this.transform.Rotate(0, 0, -2, Space.Self);
+                this.transform.Rotate(0, 0, -(360/timerStart), Space.Self);
             }
         }
         // Enable Shadow Hour when the time has reached 0
