@@ -2030,12 +2030,13 @@ AudioSource:
   m_GameObject: {fileID: 1230822118}
   m_Enabled: 1
   serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 0}
+  OutputAudioMixerGroup: {fileID: 8232858746866544801, guid: bb35c5c637302484bb1b7d7d53a9161a,
+    type: 2}
   m_audioClip: {fileID: 8300000, guid: 29d95f157a4d80b4d8e31fface0fd2a0, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 0.2
   m_Pitch: 1
-  Loop: 0
+  Loop: 1
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
@@ -4326,6 +4327,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: PauseMenu
       objectReference: {fileID: 0}
+    - target: {fileID: 8256943435691270752, guid: 37436cc2c61e9ac439058dec49369d2f,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8406800613396419179, guid: 37436cc2c61e9ac439058dec49369d2f,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8256943435691270763, guid: 37436cc2c61e9ac439058dec49369d2f,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -4430,6 +4441,79 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Pivot.y
       value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8406800613291800169, guid: 37436cc2c61e9ac439058dec49369d2f,
+        type: 3}
+      propertyPath: m_FontData.m_FontSize
+      value: 48
+      objectReference: {fileID: 0}
+    - target: {fileID: 4724340592177202630, guid: 37436cc2c61e9ac439058dec49369d2f,
+        type: 3}
+      propertyPath: m_Interactable
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1996320761, guid: 37436cc2c61e9ac439058dec49369d2f, type: 3}
+      propertyPath: m_FontData.m_MaxSize
+      value: 64
+      objectReference: {fileID: 0}
+    - target: {fileID: 3896118846911248875, guid: 37436cc2c61e9ac439058dec49369d2f,
+        type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3896118846911248875, guid: 37436cc2c61e9ac439058dec49369d2f,
+        type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3896118845693067324, guid: 37436cc2c61e9ac439058dec49369d2f,
+        type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3896118845693067324, guid: 37436cc2c61e9ac439058dec49369d2f,
+        type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3896118845693067324, guid: 37436cc2c61e9ac439058dec49369d2f,
+        type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3896118846730320353, guid: 37436cc2c61e9ac439058dec49369d2f,
+        type: 3}
+      propertyPath: m_Interactable
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 903047470, guid: 37436cc2c61e9ac439058dec49369d2f, type: 3}
+      propertyPath: volumeGroup
+      value: MusicVol
+      objectReference: {fileID: 0}
+    - target: {fileID: 3896118846869947981, guid: 37436cc2c61e9ac439058dec49369d2f,
+        type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3896118846869947981, guid: 37436cc2c61e9ac439058dec49369d2f,
+        type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3896118845932814234, guid: 37436cc2c61e9ac439058dec49369d2f,
+        type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3896118845932814234, guid: 37436cc2c61e9ac439058dec49369d2f,
+        type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3896118845932814234, guid: 37436cc2c61e9ac439058dec49369d2f,
+        type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 37436cc2c61e9ac439058dec49369d2f, type: 3}
