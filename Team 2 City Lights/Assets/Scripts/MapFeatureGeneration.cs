@@ -11,8 +11,10 @@ public class MapFeatureGeneration : MonoBehaviour
     private List<GameObject[,,]> worldData;
     List<Vector3> treePositions = new List<Vector3>();
     List<Vector3> fireflyPositions = new List<Vector3>();
+    List<Vector3> groundItemPositions = new List<Vector3>();
     List<GameObject> trees = new List<GameObject>();
     List<GameObject> fireflies = new List<GameObject>();
+    List<GameObject> groundItems = new List<GameObject>();
     float minX, maxX, minZ, maxZ, minY;
     string ringLocation = "0";
 
@@ -63,6 +65,7 @@ public class MapFeatureGeneration : MonoBehaviour
         generateTrees();
         applyTextures();
         generateFireflies();
+        generateGroundItems();
         centerMap();
         StartCoroutine(shadeSpawn());
     }
@@ -96,6 +99,11 @@ public class MapFeatureGeneration : MonoBehaviour
         foreach (GameObject firefly in fireflies)
         {
             firefly.transform.position = new Vector3(firefly.transform.position.x - (maxX / 2), firefly.transform.position.y - 1f, firefly.transform.position.z - (maxX / 2));
+        }
+
+        foreach (GameObject groundItem in groundItems)
+        {
+            groundItem.transform.position = new Vector3(groundItem.transform.position.x - (maxX / 2), groundItem.transform.position.y, groundItem.transform.position.z - (maxX / 2));
         }
     }
 
@@ -141,10 +149,93 @@ public class MapFeatureGeneration : MonoBehaviour
         }
 
         GameObject tree;
+        float randScale;
         foreach (Vector3 pos in treePositions)
         {
             tree = Instantiate((GameObject)Resources.Load("Prefabs/TreePrefab", typeof(GameObject)), pos, new Quaternion(0f, 0f, 0f, 0f));
+            randScale = Random.Range(0.007f, 0.013f);
+            tree.transform.localScale = new Vector3(randScale, randScale, randScale);
             trees.Add(tree);
+        }
+    }
+
+    private void generateGroundItems()
+    {
+        int groundNum = 400;
+        int newPosAttempt;
+        float randomX;
+        float randomZ;
+
+        while (groundNum > 0)
+        {
+            randomX = Mathf.Floor(Random.Range(minX, maxX)) + 0.05f;
+            randomZ = Mathf.Floor(Random.Range(minZ, maxZ)) + 0.05f;
+            newPosAttempt = 0;
+
+            for (int i = 0; i < treePositions.Count; i++)
+            {
+                RaycastHit hit;
+                Physics.Raycast(new Vector3(randomX, 20f, randomZ), -Vector3.up, out hit);
+                if (hit.collider == null || Vector3.Distance(new Vector3(randomX, 0.5f, randomZ), treePositions[i]) < 5f)
+                {
+                    randomX = Mathf.Floor(Random.Range(minX, maxX)) + 0.05f;
+                    randomZ = Mathf.Floor(Random.Range(minZ, maxZ)) + 0.05f;
+                    i = 0;
+                    newPosAttempt++;
+                }
+                for (int q = 0; q < groundItemPositions.Count; q++)
+                {
+                    if (Vector3.Distance(new Vector3(randomX, 0.5f, randomZ), groundItemPositions[q]) < 5f)
+                    {
+                        randomX = Mathf.Floor(Random.Range(minX, maxX)) + 0.05f;
+                        randomZ = Mathf.Floor(Random.Range(minZ, maxZ)) + 0.05f;
+                        i = 0;
+                        newPosAttempt++;
+                    }
+                }
+                if (newPosAttempt == 100)
+                {
+                    break;
+                }
+            }
+            if (newPosAttempt != 100)
+            {
+                RaycastHit hit;
+                Physics.Raycast(new Vector3(randomX, 20f, randomZ), -Vector3.up, out hit);
+                if (hit.collider != null)
+                {
+                    groundItemPositions.Add(new Vector3(randomX, 0, randomZ));
+                }
+            }
+            groundNum--;
+        }
+
+        GameObject groundItem;
+        float randScale;
+        int randChoice;
+        foreach (Vector3 pos in groundItemPositions)
+        {
+            randChoice = Random.Range(1, 4);
+            if (randChoice == 1)
+            {
+                groundItem = Instantiate((GameObject)Resources.Load("Prefabs/rock1", typeof(GameObject)), new Vector3(pos.x, -0.1f, pos.z), new Quaternion(0f, 0f, 0f, 0f));
+                randScale = Random.Range(0.5f, 1f);
+                groundItem.transform.localScale = new Vector3(randScale, randScale, randScale);
+            } else if (randChoice == 2)
+            {
+                groundItem = Instantiate((GameObject)Resources.Load("Prefabs/rock2", typeof(GameObject)), new Vector3(pos.x, -0.1f, pos.z), new Quaternion(0f, 0f, 0f, 0f));
+                randScale = Random.Range(0.5f, 1f);
+                groundItem.transform.localScale = new Vector3(randScale, randScale, randScale);
+            } else
+            {
+                RaycastHit hit;
+                Physics.Raycast(new Vector3(pos.x, 20f, pos.z), -Vector3.up, out hit);
+                groundItem = Instantiate((GameObject)Resources.Load("Prefabs/mushroom", typeof(GameObject)), new Vector3(pos.x, hit.collider.gameObject.transform.position.y - 0.51f, pos.z), new Quaternion(0f, 0f, 0f, 0f));
+                randScale = Random.Range(0.3f, 0.9f);
+                groundItem.transform.localScale = new Vector3(0.2f, randScale, 0.2f);
+            }
+            
+            groundItems.Add(groundItem);
         }
     }
 

@@ -13,6 +13,7 @@ public class CameraFollow : MonoBehaviour
     private void Start()
     {
         cam = GetComponent<Camera>();
+        cam.layerCullSpherical = true;
     }
 
     void Update()
@@ -20,7 +21,7 @@ public class CameraFollow : MonoBehaviour
         float interpolation = speed * Time.deltaTime * 2;
 
         Vector3 position = this.transform.position;
-        position.z = Mathf.Lerp(this.transform.position.z, player.transform.position.z-10, interpolation);
+        position.z = Mathf.Lerp(this.transform.position.z, player.transform.position.z-6, interpolation);
         position.x = Mathf.Lerp(this.transform.position.x, player.transform.position.x, interpolation);
 
         this.transform.position = position;
