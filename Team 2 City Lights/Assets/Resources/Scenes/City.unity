@@ -4314,7 +4314,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   pauseMenu: {fileID: 894057906}
   optionsMenu: {fileID: 894057907}
-  quitButton: {fileID: 0}
+  quitButton: {fileID: 8256943434830782419}
 --- !u!1001 &8256943434830782418
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4434,6 +4434,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 37436cc2c61e9ac439058dec49369d2f, type: 3}
+--- !u!1 &8256943434830782419 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 246506598, guid: 37436cc2c61e9ac439058dec49369d2f,
+    type: 3}
+  m_PrefabInstance: {fileID: 8256943434830782418}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &8259127795942078593
 PrefabInstance:
   m_ObjectHideFlags: 0
