@@ -108,8 +108,8 @@ NavMeshSettings:
     agentTypeID: 0
     agentRadius: 1
     agentHeight: 0.5
-    agentSlope: 45
-    agentClimb: 0.4
+    agentSlope: 0
+    agentClimb: 0
     ledgeDropHeight: 0
     maxJumpAcrossDistance: 0
     minRegionArea: 0.05
@@ -385,7 +385,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2834e95718911497f8d5726c18252d46, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerCharacter: {fileID: 53711742}
+  playerCharacter: {fileID: 102886256711652808}
   shadeExample: {fileID: 2110043826}
   fireflyExample: {fileID: 1675658404}
 --- !u!114 &53711750
@@ -700,7 +700,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 184437415}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: -0.49, z: 0}
   m_LocalScale: {x: 37.8, y: 1, z: 37.8}
   m_Children: []
   m_Father: {fileID: 0}
@@ -11762,11 +11762,6 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 2
       objectReference: {fileID: 0}
-    - target: {fileID: 4914273226450994577, guid: 7318cb11bbae1da4eaa7516780b148e3,
-        type: 3}
-      propertyPath: m_Name
-      value: PlayerLight
-      objectReference: {fileID: 0}
     - target: {fileID: 102886255569621850, guid: 7318cb11bbae1da4eaa7516780b148e3,
         type: 3}
       propertyPath: m_Radius
@@ -11881,6 +11876,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Height
       value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 5933566812472383604, guid: 7318cb11bbae1da4eaa7516780b148e3,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 102886255569621851, guid: 7318cb11bbae1da4eaa7516780b148e3,
         type: 3}
@@ -12037,6 +12037,11 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 356e098c08b3c19409e70e1c63a5ca52, type: 2}
+    - target: {fileID: 4914273226450994577, guid: 7318cb11bbae1da4eaa7516780b148e3,
+        type: 3}
+      propertyPath: m_Name
+      value: PlayerLight
+      objectReference: {fileID: 0}
     - target: {fileID: 102886256556719387, guid: 7318cb11bbae1da4eaa7516780b148e3,
         type: 3}
       propertyPath: m_UseGravity
@@ -12374,6 +12379,12 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 102886256711652804}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &102886256711652808 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1860045034195276905, guid: 7318cb11bbae1da4eaa7516780b148e3,
+    type: 3}
+  m_PrefabInstance: {fileID: 102886256711652804}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1301353854701201271
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -12559,6 +12570,11 @@ PrefabInstance:
     - target: {fileID: 4528093572688694513, guid: 07dee3f8cae365741a10f70c0fa39bc5,
         type: 3}
       propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1301353855854334404, guid: 07dee3f8cae365741a10f70c0fa39bc5,
+        type: 3}
+      propertyPath: m_Enabled
       value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents:

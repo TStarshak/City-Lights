@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using System.Diagnostics;
 
 public class MapFeatureGeneration : MonoBehaviour
 {
@@ -15,6 +16,7 @@ public class MapFeatureGeneration : MonoBehaviour
     List<GameObject> trees = new List<GameObject>();
     List<GameObject> fireflies = new List<GameObject>();
     List<GameObject> groundItems = new List<GameObject>();
+    List<GameObject> snails = new List<GameObject>();
     float minX, maxX, minZ, maxZ, minY;
     string ringLocation = "0";
 
@@ -25,6 +27,8 @@ public class MapFeatureGeneration : MonoBehaviour
 
     public void beginGeneration(List<GameObject[,,]> wd)
     {
+        Stopwatch sw = new Stopwatch();
+        sw.Start();
         worldData = wd;
         minX = worldData[0][0, 0, 0].transform.position.x;
         minY = worldData[0][0, 0, 0].transform.position.y;
@@ -63,11 +67,14 @@ public class MapFeatureGeneration : MonoBehaviour
         }
 
         generateTrees();
+        generateGroundItems();
         applyTextures();
         generateFireflies();
-        generateGroundItems();
+        spawnSnails();
         centerMap();
         StartCoroutine(shadeSpawn());
+        sw.Stop();
+        UnityEngine.Debug.Log("Time Taken: " + sw.ElapsedMilliseconds);
     }
 
     public void Update()
@@ -75,7 +82,46 @@ public class MapFeatureGeneration : MonoBehaviour
         //RaycastHit hit;
         //Physics.Raycast(playerCharacter.transform.position, -Vector3.up, out hit);
         //ringLocation = hit.collider.gameObject.name.Substring(0, 1);
-        ringLocation = "0";
+        ringLocation = "1";
+    }
+
+    private void spawnSnails()
+    {
+        float randomAngle;
+        int attemptCount;
+        int randomChance;
+        foreach (GameObject groundItem in groundItems)
+        {
+            if (groundItem.name.Equals("mushroom(Clone)"))
+            {
+                randomChance = Random.Range(0, 100);
+                if (randomChance < 20)
+                {
+                    attemptCount = 100;
+                    randomAngle = Random.Range(0, 360);
+                    RaycastHit hit;
+                    Physics.Raycast(new Vector3(groundItem.transform.position.x + (0.9f * Mathf.Cos(randomAngle)), 20f, groundItem.transform.position.z + (0.9f * Mathf.Sin(randomAngle))), -Vector3.up, out hit);
+                    while (hit.collider == null || (hit.collider != null && hit.collider.transform.position.y == (groundItem.transform.position.y + 0.49f)))
+                    {
+                        randomAngle = Random.Range(0, 360);
+                        Physics.Raycast(new Vector3(groundItem.transform.position.x + (0.9f * Mathf.Cos(randomAngle)), 20f, groundItem.transform.position.z + (0.9f * Mathf.Sin(randomAngle))), -Vector3.up, out hit);
+                        attemptCount--;
+                        if (attemptCount == 0)
+                        {
+                            break;
+                        }
+                    }
+                    if (attemptCount != 0)
+                    {
+                        Physics.Raycast(new Vector3(groundItem.transform.position.x + (0.9f * Mathf.Cos(randomAngle)), 20f, groundItem.transform.position.z + (0.9f * Mathf.Sin(randomAngle))), -Vector3.up, out hit);
+                        GameObject snail;
+                        snail = Instantiate((GameObject)Resources.Load("Prefabs/snail", typeof(GameObject)), new Vector3(groundItem.transform.position.x + (0.9f * Mathf.Cos(randomAngle)), groundItem.transform.position.y + 0.01f, groundItem.transform.position.z + (0.9f * Mathf.Sin(randomAngle))), new Quaternion(0f, 0f, 0f, 0f));
+                        snail.transform.RotateAround(snail.transform.position, Vector3.up, Random.Range(0, 360));
+                        snails.Add(snail);
+                    }
+                }
+            }
+        }
     }
 
     private void centerMap()
@@ -101,9 +147,60 @@ public class MapFeatureGeneration : MonoBehaviour
             firefly.transform.position = new Vector3(firefly.transform.position.x - (maxX / 2), firefly.transform.position.y - 1f, firefly.transform.position.z - (maxX / 2));
         }
 
+        List<GameObject> TBD = new List<GameObject>();
         foreach (GameObject groundItem in groundItems)
         {
             groundItem.transform.position = new Vector3(groundItem.transform.position.x - (maxX / 2), groundItem.transform.position.y, groundItem.transform.position.z - (maxX / 2));
+            foreach (GameObject groundItem2 in groundItems)
+            {
+                if (groundItem != groundItem2)
+                {
+                    if (groundItem.name.Equals("mushroom(Clone)"))
+                    {
+                        if (groundItem2.name.Equals("mushroom(Clone)"))
+                        {
+                            if (Vector3.Distance(new Vector3(groundItem.transform.position.x, 20f, groundItem.transform.position.z), new Vector3(groundItem2.transform.position.x, 20f, groundItem2.transform.position.z)) < 0.6f)
+                            {
+                                TBD.Add(groundItem);
+                            }
+                        }
+                        else
+                        {
+                            if (Vector3.Distance(new Vector3(groundItem.transform.position.x, 20f, groundItem.transform.position.z), new Vector3(groundItem2.transform.position.x, 20f, groundItem2.transform.position.z)) < 1.3f)
+                            {
+                                TBD.Add(groundItem);
+                            }
+                        }
+                    }
+                    else
+                    {
+                        if (groundItem2.name.Equals("mushroom(Clone)"))
+                        {
+                            if (Vector3.Distance(new Vector3(groundItem.transform.position.x, 20f, groundItem.transform.position.z), new Vector3(groundItem2.transform.position.x, 20f, groundItem2.transform.position.z)) < 1.3f)
+                            {
+                                TBD.Add(groundItem);
+                            }
+                        }
+                        else
+                        {
+                            if (Vector3.Distance(new Vector3(groundItem.transform.position.x, 20f, groundItem.transform.position.z), new Vector3(groundItem2.transform.position.x, 20f, groundItem2.transform.position.z)) < 1.8f)
+                            {
+                                TBD.Add(groundItem);
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        foreach (GameObject tbd in TBD)
+        {
+            Destroy(tbd);
+        }
+
+        foreach (GameObject snail in snails)
+        {
+            snail.transform.position = new Vector3(snail.transform.position.x - (maxX / 2), snail.transform.position.y, snail.transform.position.z - (maxX / 2));
         }
     }
 
@@ -155,52 +252,58 @@ public class MapFeatureGeneration : MonoBehaviour
             tree = Instantiate((GameObject)Resources.Load("Prefabs/TreePrefab", typeof(GameObject)), pos, new Quaternion(0f, 0f, 0f, 0f));
             randScale = Random.Range(0.007f, 0.013f);
             tree.transform.localScale = new Vector3(randScale, randScale, randScale);
+            tree.transform.RotateAround(tree.transform.position, Vector3.up, Random.Range(0, 360));
             trees.Add(tree);
         }
     }
 
     private void generateGroundItems()
     {
-        int groundNum = 400;
+        int groundNum = 1000;
         int newPosAttempt;
         float randomX;
         float randomZ;
+        RaycastHit hit;
+
+        foreach (GameObject tree in trees)
+        {
+            tree.GetComponent<CapsuleCollider>().enabled = false;
+            tree.GetComponent<MeshCollider>().enabled = true;
+        }
 
         while (groundNum > 0)
         {
-            randomX = Mathf.Floor(Random.Range(minX, maxX)) + 0.05f;
-            randomZ = Mathf.Floor(Random.Range(minZ, maxZ)) + 0.05f;
+            randomX = Mathf.Floor(Random.Range(minX, maxX));
+            randomZ = Mathf.Floor(Random.Range(minZ, maxZ));
             newPosAttempt = 0;
 
-            for (int i = 0; i < treePositions.Count; i++)
+            Physics.Raycast(new Vector3(randomX, 20f, randomZ), -Vector3.up, out hit);
+            while (hit.collider == null)
             {
-                RaycastHit hit;
+                randomX = Mathf.Floor(Random.Range(minX, maxX));
+                randomZ = Mathf.Floor(Random.Range(minZ, maxZ));
                 Physics.Raycast(new Vector3(randomX, 20f, randomZ), -Vector3.up, out hit);
-                if (hit.collider == null || Vector3.Distance(new Vector3(randomX, 0.5f, randomZ), treePositions[i]) < 5f)
+            }
+            Physics.Raycast(new Vector3(randomX, 20f, randomZ), -Vector3.up, out hit);
+            while (true)
+            {
+                randomX = Mathf.Floor(Random.Range(minX, maxX));
+                randomZ = Mathf.Floor(Random.Range(minZ, maxZ));
+                Physics.Raycast(new Vector3(randomX, 20f, randomZ), -Vector3.up, out hit);
+                newPosAttempt++;
+                while (hit.collider == null)
                 {
-                    randomX = Mathf.Floor(Random.Range(minX, maxX)) + 0.05f;
-                    randomZ = Mathf.Floor(Random.Range(minZ, maxZ)) + 0.05f;
-                    i = 0;
-                    newPosAttempt++;
+                    randomX = Mathf.Floor(Random.Range(minX, maxX));
+                    randomZ = Mathf.Floor(Random.Range(minZ, maxZ));
+                    Physics.Raycast(new Vector3(randomX, 20f, randomZ), -Vector3.up, out hit);
                 }
-                for (int q = 0; q < groundItemPositions.Count; q++)
-                {
-                    if (Vector3.Distance(new Vector3(randomX, 0.5f, randomZ), groundItemPositions[q]) < 5f)
-                    {
-                        randomX = Mathf.Floor(Random.Range(minX, maxX)) + 0.05f;
-                        randomZ = Mathf.Floor(Random.Range(minZ, maxZ)) + 0.05f;
-                        i = 0;
-                        newPosAttempt++;
-                    }
-                }
-                if (newPosAttempt == 100)
+                if (newPosAttempt == 100 || !Physics.CheckBox(new Vector3(randomX - 0.15f, hit.collider.gameObject.transform.position.y + 1.54f, randomZ + 0.44f), new Vector3(2.35f, 0.695f, 2.35f), new Quaternion(0f, 0f, 0f, 0f)))
                 {
                     break;
                 }
             }
             if (newPosAttempt != 100)
             {
-                RaycastHit hit;
                 Physics.Raycast(new Vector3(randomX, 20f, randomZ), -Vector3.up, out hit);
                 if (hit.collider != null)
                 {
@@ -210,32 +313,44 @@ public class MapFeatureGeneration : MonoBehaviour
             groundNum--;
         }
 
+        foreach (GameObject tree in trees)
+        {
+            tree.GetComponent<MeshCollider>().enabled = false;
+        }
+
         GameObject groundItem;
         float randScale;
         int randChoice;
         foreach (Vector3 pos in groundItemPositions)
         {
+            Physics.Raycast(new Vector3(pos.x, 20f, pos.z), -Vector3.up, out hit);
             randChoice = Random.Range(1, 4);
             if (randChoice == 1)
             {
-                groundItem = Instantiate((GameObject)Resources.Load("Prefabs/rock1", typeof(GameObject)), new Vector3(pos.x, -0.1f, pos.z), new Quaternion(0f, 0f, 0f, 0f));
-                randScale = Random.Range(0.5f, 1f);
+                groundItem = Instantiate((GameObject)Resources.Load("Prefabs/rock1", typeof(GameObject)), new Vector3(pos.x, hit.collider.gameObject.transform.position.y - 0.52f, pos.z), new Quaternion(0f, 0f, 0f, 0f));
+                randScale = Random.Range(0.1f, 0.4f);
                 groundItem.transform.localScale = new Vector3(randScale, randScale, randScale);
+                groundItem.transform.RotateAround(groundItem.transform.position, Vector3.up, Random.Range(0, 360));
             } else if (randChoice == 2)
             {
-                groundItem = Instantiate((GameObject)Resources.Load("Prefabs/rock2", typeof(GameObject)), new Vector3(pos.x, -0.1f, pos.z), new Quaternion(0f, 0f, 0f, 0f));
-                randScale = Random.Range(0.5f, 1f);
+                groundItem = Instantiate((GameObject)Resources.Load("Prefabs/rock2", typeof(GameObject)), new Vector3(pos.x, hit.collider.gameObject.transform.position.y - 0.52f, pos.z), new Quaternion(0f, 0f, 0f, 0f));
+                randScale = Random.Range(0.1f, 0.4f);
                 groundItem.transform.localScale = new Vector3(randScale, randScale, randScale);
+                groundItem.transform.RotateAround(groundItem.transform.position, Vector3.up, Random.Range(0, 360));
             } else
             {
-                RaycastHit hit;
-                Physics.Raycast(new Vector3(pos.x, 20f, pos.z), -Vector3.up, out hit);
                 groundItem = Instantiate((GameObject)Resources.Load("Prefabs/mushroom", typeof(GameObject)), new Vector3(pos.x, hit.collider.gameObject.transform.position.y - 0.51f, pos.z), new Quaternion(0f, 0f, 0f, 0f));
                 randScale = Random.Range(0.3f, 0.9f);
                 groundItem.transform.localScale = new Vector3(0.2f, randScale, 0.2f);
+                groundItem.transform.RotateAround(groundItem.transform.position, Vector3.up, Random.Range(0, 360));
             }
             
             groundItems.Add(groundItem);
+        }
+
+        foreach (GameObject tree in trees)
+        {
+            tree.GetComponent<CapsuleCollider>().enabled = true;
         }
     }
 
@@ -458,20 +573,11 @@ public class MapFeatureGeneration : MonoBehaviour
                 {
                     randomAngle = Random.Range(0, 360);
                     RaycastHit hit;
-                    Physics.Raycast(new Vector3(playerCharacter.transform.position.x + (7 * Mathf.Cos(randomAngle)), 0.5f, playerCharacter.transform.position.z + (7 * Mathf.Sin(randomAngle))), -Vector3.up, out hit);
-                searchAgain1:
-                    while (hit.collider == null || !hit.collider.gameObject.name.Substring(0, 1).Equals("1"))
+                    Physics.Raycast(new Vector3(playerCharacter.transform.position.x + (7 * Mathf.Cos(randomAngle)), 20f, playerCharacter.transform.position.z + (7 * Mathf.Sin(randomAngle))), -Vector3.up, out hit);
+                    while (hit.collider == null || (hit.collider != null && hit.collider.transform.position.y != -1f))
                     {
                         randomAngle = Random.Range(0, 360);
-                        Physics.Raycast(new Vector3(playerCharacter.transform.position.x + (7 * Mathf.Cos(randomAngle)), 0.5f, playerCharacter.transform.position.z + (7 * Mathf.Sin(randomAngle))), -Vector3.up, out hit);
-                    }
-                    foreach (Vector3 pos in treePositions)
-                    {
-                        if (Vector3.Distance(new Vector3(playerCharacter.transform.position.x + (7 * Mathf.Cos(randomAngle)), 0.5f, playerCharacter.transform.position.z + (7 * Mathf.Sin(randomAngle))), pos) < 3f)
-                        {
-                            randomAngle = Random.Range(0, 360);
-                            goto searchAgain1;
-                        }
+                        Physics.Raycast(new Vector3(playerCharacter.transform.position.x + (7 * Mathf.Cos(randomAngle)), 20f, playerCharacter.transform.position.z + (7 * Mathf.Sin(randomAngle))), -Vector3.up, out hit);
                     }
                     Instantiate(shadeExample, new Vector3(playerCharacter.transform.position.x + (7 * Mathf.Cos(randomAngle)), -1.5f, playerCharacter.transform.position.z + (7 * Mathf.Sin(randomAngle))), new Quaternion(0f, 0f, 0f, 0f));
                 }
@@ -483,20 +589,11 @@ public class MapFeatureGeneration : MonoBehaviour
                 {
                     randomAngle = Random.Range(0, 360);
                     RaycastHit hit;
-                    Physics.Raycast(new Vector3(playerCharacter.transform.position.x + (7 * Mathf.Cos(randomAngle)), 0.5f, playerCharacter.transform.position.z + (7 * Mathf.Sin(randomAngle))), -Vector3.up, out hit);
-                searchAgain2:
-                    while (hit.collider == null || !hit.collider.gameObject.name.Substring(0, 1).Equals("2"))
+                    Physics.Raycast(new Vector3(playerCharacter.transform.position.x + (7 * Mathf.Cos(randomAngle)), 20f, playerCharacter.transform.position.z + (7 * Mathf.Sin(randomAngle))), -Vector3.up, out hit);
+                    while (hit.collider == null || (hit.collider != null && hit.collider.transform.position.y != -1f))
                     {
                         randomAngle = Random.Range(0, 360);
-                        Physics.Raycast(new Vector3(playerCharacter.transform.position.x + (7 * Mathf.Cos(randomAngle)), 0.5f, playerCharacter.transform.position.z + (7 * Mathf.Sin(randomAngle))), -Vector3.up, out hit);
-                    }
-                    foreach (Vector3 pos in treePositions)
-                    {
-                        if (Vector3.Distance(new Vector3(playerCharacter.transform.position.x + (7 * Mathf.Cos(randomAngle)), 0.5f, playerCharacter.transform.position.z + (7 * Mathf.Sin(randomAngle))), pos) < 3f)
-                        {
-                            randomAngle = Random.Range(0, 360);
-                            goto searchAgain2;
-                        }
+                        Physics.Raycast(new Vector3(playerCharacter.transform.position.x + (7 * Mathf.Cos(randomAngle)), 20f, playerCharacter.transform.position.z + (7 * Mathf.Sin(randomAngle))), -Vector3.up, out hit);
                     }
                     Instantiate(shadeExample, new Vector3(playerCharacter.transform.position.x + (7 * Mathf.Cos(randomAngle)), -1.5f, playerCharacter.transform.position.z + (7 * Mathf.Sin(randomAngle))), new Quaternion(0f, 0f, 0f, 0f));
                 }
@@ -508,20 +605,11 @@ public class MapFeatureGeneration : MonoBehaviour
                 {
                     randomAngle = Random.Range(0, 360);
                     RaycastHit hit;
-                    Physics.Raycast(new Vector3(playerCharacter.transform.position.x + (7 * Mathf.Cos(randomAngle)), 0.5f, playerCharacter.transform.position.z + (7 * Mathf.Sin(randomAngle))), -Vector3.up, out hit);
-                searchAgain3:
-                    while (hit.collider == null || !hit.collider.gameObject.name.Substring(0, 1).Equals("3"))
+                    Physics.Raycast(new Vector3(playerCharacter.transform.position.x + (7 * Mathf.Cos(randomAngle)), 20f, playerCharacter.transform.position.z + (7 * Mathf.Sin(randomAngle))), -Vector3.up, out hit);
+                    while (hit.collider == null || (hit.collider != null && hit.collider.transform.position.y != -1f))
                     {
                         randomAngle = Random.Range(0, 360);
-                        Physics.Raycast(new Vector3(playerCharacter.transform.position.x + (7 * Mathf.Cos(randomAngle)), 0.5f, playerCharacter.transform.position.z + (7 * Mathf.Sin(randomAngle))), -Vector3.up, out hit);
-                    }
-                    foreach (Vector3 pos in treePositions)
-                    {
-                        if (Vector3.Distance(new Vector3(playerCharacter.transform.position.x + (7 * Mathf.Cos(randomAngle)), 0.5f, playerCharacter.transform.position.z + (7 * Mathf.Sin(randomAngle))), pos) < 3f)
-                        {
-                            randomAngle = Random.Range(0, 360);
-                            goto searchAgain3;
-                        }
+                        Physics.Raycast(new Vector3(playerCharacter.transform.position.x + (7 * Mathf.Cos(randomAngle)), 20f, playerCharacter.transform.position.z + (7 * Mathf.Sin(randomAngle))), -Vector3.up, out hit);
                     }
                     Instantiate(shadeExample, new Vector3(playerCharacter.transform.position.x + (7 * Mathf.Cos(randomAngle)), -1.5f, playerCharacter.transform.position.z + (7 * Mathf.Sin(randomAngle))), new Quaternion(0f, 0f, 0f, 0f));
                 }
