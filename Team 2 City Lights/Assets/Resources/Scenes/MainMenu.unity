@@ -1498,8 +1498,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1413768143}
-        m_MethodName: LoadScene
-        m_Mode: 5
+        m_MethodName: StartGame
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -1560,6 +1560,75 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2747550894ee1fd41ba0a6c850ea772b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1001 &1694456564
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 8259127795511279627, guid: b2b1810b881170740b9f09cfd59e6e1b,
+        type: 3}
+      propertyPath: m_Name
+      value: GameManagement
+      objectReference: {fileID: 0}
+    - target: {fileID: 8259127795511279629, guid: b2b1810b881170740b9f09cfd59e6e1b,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -49.305637
+      objectReference: {fileID: 0}
+    - target: {fileID: 8259127795511279629, guid: b2b1810b881170740b9f09cfd59e6e1b,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -38.50263
+      objectReference: {fileID: 0}
+    - target: {fileID: 8259127795511279629, guid: b2b1810b881170740b9f09cfd59e6e1b,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 457.25687
+      objectReference: {fileID: 0}
+    - target: {fileID: 8259127795511279629, guid: b2b1810b881170740b9f09cfd59e6e1b,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8259127795511279629, guid: b2b1810b881170740b9f09cfd59e6e1b,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8259127795511279629, guid: b2b1810b881170740b9f09cfd59e6e1b,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8259127795511279629, guid: b2b1810b881170740b9f09cfd59e6e1b,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8259127795511279629, guid: b2b1810b881170740b9f09cfd59e6e1b,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8259127795511279629, guid: b2b1810b881170740b9f09cfd59e6e1b,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8259127795511279629, guid: b2b1810b881170740b9f09cfd59e6e1b,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8259127795511279629, guid: b2b1810b881170740b9f09cfd59e6e1b,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: b2b1810b881170740b9f09cfd59e6e1b, type: 3}
 --- !u!1 &1746484006
 GameObject:
   m_ObjectHideFlags: 0
@@ -1975,6 +2044,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Music Slider
       objectReference: {fileID: 0}
+    - target: {fileID: 5411081617618141859, guid: 0c2d7f621b24aee4e95e26aa1f406b0a,
+        type: 3}
+      propertyPath: m_OnValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: setMusicVolume
+      objectReference: {fileID: 0}
     - target: {fileID: 5411081617618141858, guid: 0c2d7f621b24aee4e95e26aa1f406b0a,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -2079,11 +2153,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Pivot.y
       value: 0.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 5411081617618141859, guid: 0c2d7f621b24aee4e95e26aa1f406b0a,
-        type: 3}
-      propertyPath: m_OnValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: setMusicVolume
       objectReference: {fileID: 0}
     - target: {fileID: 5411081617618141868, guid: 0c2d7f621b24aee4e95e26aa1f406b0a,
         type: 3}
