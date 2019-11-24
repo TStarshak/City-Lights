@@ -582,13 +582,15 @@ public class GenerateChunk : MonoBehaviour {
         //wump wump couldn't name cubes during instantiation
 		//for...each?
 		int numChunks = 0;
-        for(int numChunksX = 0; numChunks < sizeY; numChunksX++) {
-			for(int numChunksY = 0; numChunks < sizeX; numChunksY++) {
+        int rVal = 0;
+        for(int numChunksX = 0; numChunksX < sizeY; numChunksX++) {
+			for(int numChunksY = 0; numChunksY < sizeX; numChunksY++) {
+                rVal = currentRing(numChunksX, numChunksY, sizeX - 1, sizeY - 1);
 				for(int x = 0; x < chunkSizeX; x++) {
 					for(int y = 0; y < chunkSizeY; y++) {
 						for(int z = 0; z < 5; z++) {
 							if(worldData[numChunks][x, y, z]) {
-								worldData[numChunks][x, y, z].name = (string)('I' + numChunks.ToString() + 'X' + x.ToString() + 'Y' + y.ToString() + 'Z' + z.ToString() + 'R' + currentRing(numChunksX, numChunksY, sizeX - 1, sizeY - 1));
+								worldData[numChunks][x, y, z].name = (string)('I' + numChunks.ToString() + 'X' + x.ToString() + 'Y' + y.ToString() + 'Z' + z.ToString() + 'R' + rVal);
 							}
 						}
 					}
@@ -603,12 +605,12 @@ public class GenerateChunk : MonoBehaviour {
 	public int currentRing(int cX, int cY, int mX, int mY) {
 		int careAbout = 0;
 		
-		if(cX >= (mX / 2)) {
-			cX = (cX % ((mX / 2) + 1));
+		if(cX > (mX / 2)) {
+			cX = mX - cX;
 		}
 		
-		if(cY >= (mY / 2)) {
-			cY = (cY % ((mY / 2) + 1));
+		if(cY > (mY / 2)) {
+			cY = mY - cY;
 		}
 		
 		if(cX > cY) {
@@ -621,7 +623,7 @@ public class GenerateChunk : MonoBehaviour {
 		
 		int ringSize = mX / 6;
 		
-		return 4 - (int)(careAbout / ringSize);
+		return 3 - (int)(careAbout / ringSize);
 	}
 
     //Called on frame update, used to update what chunks are being rendered and their tiling.
