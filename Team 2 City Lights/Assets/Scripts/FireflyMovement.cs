@@ -57,8 +57,15 @@ public class FireflyMovement : MonoBehaviour
         {
             if (!inVac)
             {
-                transform.Rotate(transform.up, 3f * offset);
-                transform.Translate(transform.forward * Time.deltaTime * 3);
+                int r = (int)(Random.Range(0, 3) + 0.5f);
+                if(r == 0)
+                    transform.Translate(transform.forward * Time.deltaTime * 1.5f);
+                if(r == 1)
+                    transform.Translate(transform.right * Time.deltaTime * 1.5f);
+                if (r == 2)
+                    transform.Translate(-transform.forward * Time.deltaTime * 1.5f);
+                if (r == 3)
+                    transform.Translate(-transform.right * Time.deltaTime * 1.5f);
             }
             yield return new WaitForSeconds(0.05f);
         }
