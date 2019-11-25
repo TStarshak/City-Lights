@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using System.Text.RegularExpressions;
 using System.Diagnostics;
 
 public class MapFeatureGeneration : MonoBehaviour
@@ -79,10 +80,14 @@ public class MapFeatureGeneration : MonoBehaviour
 
     public void Update()
     {
-        //RaycastHit hit;
-        //Physics.Raycast(playerCharacter.transform.position, -Vector3.up, out hit);
-        //ringLocation = hit.collider.gameObject.name.Substring(0, 1);
-        ringLocation = "1";
+        RaycastHit hit;
+        Physics.Raycast(playerCharacter.transform.position, -Vector3.up, out hit);
+        if (PauseController.isPaused){
+            ringLocation = "0";
+        }
+        else if (hit.collider != null && Regex.IsMatch(hit.collider.gameObject.name.Substring(hit.collider.gameObject.name.Length-1, 1), "[0-9]")){
+            ringLocation = hit.collider.gameObject.name.Substring(hit.collider.gameObject.name.Length-1, 1);
+        }
     }
 
     private void spawnSnails()

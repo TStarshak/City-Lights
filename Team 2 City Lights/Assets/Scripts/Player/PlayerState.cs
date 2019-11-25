@@ -16,9 +16,6 @@ public class PlayerState : MonoBehaviour
     // At start, load data from PlayerProgress
     void Awake(){
         localPlayerData = new PlayerData(PlayerProgress.Instance.savedPlayerData);
-        Debug.Log(localPlayerData.vacuLampRange);
-        Debug.Log(localPlayerData.vacuLampCapacity);
-        Debug.Log(localPlayerData.movementSpeed);
     }
 
     void Start(){

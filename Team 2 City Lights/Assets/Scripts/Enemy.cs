@@ -83,12 +83,15 @@ public class Enemy : MonoBehaviour
     private IEnumerator shadeDeath()
     {
         yield return new WaitForSeconds(10f);
-        for (int i = 0; i < 20; i++)
-        {
-            shadeAlpha = GetComponent<SpriteRenderer>().material.color;
-            GetComponent<SpriteRenderer>().material.color = new Color(shadeAlpha.r, shadeAlpha.g, shadeAlpha.b, shadeAlpha.a - 0.05f);
-            yield return new WaitForSeconds(0.001f);
+        // If it's shadow hour, the Shades are immortal
+        if (!ShadowTimerController.shadowHour){
+            for (int i = 0; i < 20; i++)
+            {
+                shadeAlpha = GetComponent<SpriteRenderer>().material.color;
+                GetComponent<SpriteRenderer>().material.color = new Color(shadeAlpha.r, shadeAlpha.g, shadeAlpha.b, shadeAlpha.a - 0.05f);
+                yield return new WaitForSeconds(0.001f);
+            }
+            Destroy(this.gameObject);
         }
-        Destroy(this.gameObject);
     }
 }
