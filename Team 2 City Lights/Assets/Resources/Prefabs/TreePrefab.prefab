@@ -11,7 +11,6 @@ GameObject:
   - component: {fileID: 1647327321697601054}
   - component: {fileID: 2061729383811388109}
   - component: {fileID: 7331324980997488189}
-  - component: {fileID: 4307711153536974392}
   - component: {fileID: 4307711153536974393}
   - component: {fileID: 4307711153536974398}
   m_Layer: 0
@@ -81,20 +80,6 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!136 &4307711153536974392
-CapsuleCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1794042067672400552}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  m_Radius: 157.7
-  m_Height: 873.5
-  m_Direction: 1
-  m_Center: {x: 0, y: 200, z: 0}
 --- !u!114 &4307711153536974393
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -135,6 +120,7 @@ GameObject:
   - component: {fileID: 4307711153536974372}
   - component: {fileID: 4307711153536974394}
   - component: {fileID: 4307711153536974373}
+  - component: {fileID: 6203728236534002070}
   m_Layer: 0
   m_Name: TreePrefab
   m_TagString: Untagged
@@ -199,3 +185,17 @@ MonoBehaviour:
   m_Area: 1
   m_IgnoreFromBuild: 0
   m_AffectedAgents: ffffffff
+--- !u!64 &6203728236534002070
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5254009093009467189}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 0
+  serializedVersion: 3
+  m_Convex: 0
+  m_CookingOptions: 14
+  m_Mesh: {fileID: -2432090755550338912, guid: 9ea6153cb9a0ccb41bd366a423734e89, type: 3}

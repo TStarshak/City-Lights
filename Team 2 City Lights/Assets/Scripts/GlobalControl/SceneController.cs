@@ -6,7 +6,6 @@ using UnityEngine.SceneManagement;
 /* Global Script for Scene Management and Navigation */
 public class SceneController : MonoBehaviour
 {
-
     public static SceneController Instance;
     public static Scene currentScene; //The Current Loaded Scene
 
@@ -27,17 +26,46 @@ public class SceneController : MonoBehaviour
         }
     }
 
+    public static void LoadFirstScene(){
+        Instance.InitLoadingScene("City");
+        currentScene = SceneManager.GetSceneByName("City");
+    }
+
+    public static void LoadMainMenu(){
+        Instance.InitLoadingScene("MainMenu");
+        currentScene = SceneManager.GetSceneByName("MainMenu");
+    }
+
     public static void LoadScene(string scene){
         PlayerState.SavePlayer();
-        SceneManager.LoadScene(scene);
+        Instance.InitLoadingScene(scene);
         currentScene = SceneManager.GetSceneByName(scene);
-        if (scene == "MainMenu"){
-            Instance.ResetGame();
-        }
     }
 
     // Destroy the game manager and reset the player's current progress
     public void ResetGame(){
-        GameObject.Destroy(gameObject);
+        PlayerProgress.Instance = new PlayerProgress();
+    }
+
+    // Displays the loading screen and begins loading the next scene in the background
+    void InitLoadingScene(string nextScene){
+        //Start asyncOperation
+        StartCoroutine(LoadAsyncScene(nextScene));
+    }
+
+    IEnumerator LoadAsyncScene(string nextScene){
+        AsyncOperation displayLoadingScreen = SceneManager.LoadSceneAsync("LoadingScreen", LoadSceneMode.Single);
+        // SceneManager.UnloadSceneAsync(currentScene);
+        yield return new WaitForSeconds(3.0f);  //Buffer for short load times
+        // Create an async operation
+        AsyncOperation loadingLevel = SceneManager.LoadSceneAsync(nextScene, LoadSceneMode.Additive);
+        // loadingLevel.allowSceneActivation = false;
+        while (loadingLevel.progress <= 0.9f){
+            yield return null;
+        }
+        SceneManager.UnloadSceneAsync("LoadingScreen");
+        // loadingLevel.allowSceneActivation = true;
+        // When finished, load the game scene
+        yield return new WaitForEndOfFrame();
     }
 }

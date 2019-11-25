@@ -68,6 +68,7 @@
     <Compile Include="Assets\Scripts\FireflyMovement.cs" />
     <Compile Include="Assets\Scripts\ForestController.cs" />
     <Compile Include="Assets\Scripts\GenerateChunk.cs" />
+    <Compile Include="Assets\Scripts\GlobalControl\AudioController.cs" />
     <Compile Include="Assets\Scripts\GlobalControl\Economy.cs" />
     <Compile Include="Assets\Scripts\GlobalControl\MissionHandler.cs" />
     <Compile Include="Assets\Scripts\GlobalControl\PlayerData.cs" />
@@ -83,12 +84,14 @@
     <Compile Include="Assets\Scripts\Player\PlayerMovement.cs" />
     <Compile Include="Assets\Scripts\Player\PlayerMovementCity.cs" />
     <Compile Include="Assets\Scripts\Player\PlayerState.cs" />
+    <Compile Include="Assets\Scripts\Player\PlayerUpgrades.cs" />
     <Compile Include="Assets\Scripts\Player\Vacuum.cs" />
-    <Compile Include="Assets\Scripts\PlayerUpgrades.cs" />
     <Compile Include="Assets\Scripts\Projectile.cs" />
+    <Compile Include="Assets\Scripts\snailWalk.cs" />
     <Compile Include="Assets\Scripts\Spider.cs" />
     <Compile Include="Assets\Scripts\SpiderWeb.cs" />
     <Compile Include="Assets\Scripts\UI\ChiefDialogue.cs" />
+    <Compile Include="Assets\Scripts\UI\CollectionBarAnimator.cs" />
     <Compile Include="Assets\Scripts\UI\collectionBarController.cs" />
     <Compile Include="Assets\Scripts\UI\FireflyCounterCity.cs" />
     <Compile Include="Assets\Scripts\UI\FireflyCounterForest.cs" />
@@ -99,6 +102,9 @@
     <Compile Include="Assets\Scripts\UI\ShadowTimer.cs" />
     <Compile Include="Assets\Scripts\UI\ShadowTimerController.cs" />
     <Compile Include="Assets\Scripts\UI\timerBackgroundController.cs" />
+    <Compile Include="Assets\Scripts\UI\timercontroller.cs" />
+    <Compile Include="Assets\Scripts\UI\timerFlireflyController.cs" />
+    <Compile Include="Assets\Scripts\UI\timerShadowController.cs" />
     <Compile Include="Assets\Scripts\UI\UpgradeMenuController.cs" />
     <Compile Include="Assets\Scripts\ZoneFeaturePlanning.cs" />
     <Reference Include="Unity.Timeline.Editor">
