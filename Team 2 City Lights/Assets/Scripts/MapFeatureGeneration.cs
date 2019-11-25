@@ -115,8 +115,11 @@ public class MapFeatureGeneration : MonoBehaviour
                     {
                         Physics.Raycast(new Vector3(groundItem.transform.position.x + (0.9f * Mathf.Cos(randomAngle)), 20f, groundItem.transform.position.z + (0.9f * Mathf.Sin(randomAngle))), -Vector3.up, out hit);
                         GameObject snail;
+                        float randAngle = Random.Range(0, 360);
                         snail = Instantiate((GameObject)Resources.Load("Prefabs/snail", typeof(GameObject)), new Vector3(groundItem.transform.position.x + (0.9f * Mathf.Cos(randomAngle)), groundItem.transform.position.y + 0.01f, groundItem.transform.position.z + (0.9f * Mathf.Sin(randomAngle))), new Quaternion(0f, 0f, 0f, 0f));
-                        snail.transform.RotateAround(snail.transform.position, Vector3.up, Random.Range(0, 360));
+                        snail.transform.RotateAround(snail.transform.position, Vector3.up, randAngle);
+                        snail.GetComponent<snailWalk>().mushroom = groundItem;
+                        snail.GetComponent<snailWalk>().currentAngle = randAngle;
                         snails.Add(snail);
                     }
                 }
@@ -210,6 +213,8 @@ public class MapFeatureGeneration : MonoBehaviour
         int newPosAttempt;
         float randomX;
         float randomZ;
+        GameObject tree;
+        float randScale;
 
         while (treeNum > 0)
         {
@@ -233,6 +238,7 @@ public class MapFeatureGeneration : MonoBehaviour
                     break;
                 }
             }
+
             if (newPosAttempt != 100)
             {
                 RaycastHit hit;
@@ -245,8 +251,7 @@ public class MapFeatureGeneration : MonoBehaviour
             treeNum--;
         }
 
-        GameObject tree;
-        float randScale;
+
         foreach (Vector3 pos in treePositions)
         {
             tree = Instantiate((GameObject)Resources.Load("Prefabs/TreePrefab", typeof(GameObject)), pos, new Quaternion(0f, 0f, 0f, 0f));

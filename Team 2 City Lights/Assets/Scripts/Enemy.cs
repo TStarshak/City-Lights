@@ -70,11 +70,11 @@ public class Enemy : MonoBehaviour
     }
     private IEnumerator shadeSpawn()
     {
-        for (int i = 0; i < 20; i++)
+        for (int i = 0; i < 40; i++)
         {
             shadeAlpha = GetComponent<SpriteRenderer>().material.color;
-            GetComponent<SpriteRenderer>().material.color = new Color(shadeAlpha.r, shadeAlpha.g, shadeAlpha.b, shadeAlpha.a + 0.05f);
-            transform.position = new Vector3(transform.position.x, transform.position.y + 0.1f, transform.position.z);
+            GetComponent<SpriteRenderer>().material.color = new Color(shadeAlpha.r, shadeAlpha.g, shadeAlpha.b, shadeAlpha.a + 0.025f);
+            transform.position = new Vector3(transform.position.x, transform.position.y + 0.05f, transform.position.z);
             yield return new WaitForSeconds(0.001f);
         }
         Shadoow.enabled = true;
