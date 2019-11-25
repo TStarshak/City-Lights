@@ -31,18 +31,20 @@ public class SceneController : MonoBehaviour
         currentScene = SceneManager.GetSceneByName("City");
     }
 
+    public static void LoadMainMenu(){
+        Instance.InitLoadingScene("MainMenu");
+        currentScene = SceneManager.GetSceneByName("MainMenu");
+    }
+
     public static void LoadScene(string scene){
         PlayerState.SavePlayer();
         Instance.InitLoadingScene(scene);
         currentScene = SceneManager.GetSceneByName(scene);
-        if (scene == "MainMenu"){
-            Instance.ResetGame();
-        }
     }
 
     // Destroy the game manager and reset the player's current progress
     public void ResetGame(){
-        GameObject.Destroy(gameObject);
+        PlayerProgress.Instance = new PlayerProgress();
     }
 
     // Displays the loading screen and begins loading the next scene in the background
@@ -56,11 +58,11 @@ public class SceneController : MonoBehaviour
         yield return new WaitForSeconds(3.0f);  //Buffer for short load times
         // Create an async operation
         AsyncOperation loadingLevel = SceneManager.LoadSceneAsync(nextScene);
-        loadingLevel.allowSceneActivation = false;
+        // loadingLevel.allowSceneActivation = false;
         while (loadingLevel.progress < 0.9f){
             yield return null;
         }
-        loadingLevel.allowSceneActivation = true;
+        // loadingLevel.allowSceneActivation = true;
         // When finished, load the game scene
         yield return new WaitForEndOfFrame();
     }
