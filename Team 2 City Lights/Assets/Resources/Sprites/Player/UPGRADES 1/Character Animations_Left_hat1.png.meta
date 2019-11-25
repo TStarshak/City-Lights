@@ -1,0 +1,1051 @@
+fileFormatVersion: 2
+guid: 246d9cc187a73df478a8b212e910e55a
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5020796879778749467
+    second: Character Animations_Left_hat1_0
+  - first:
+      213: -7864399770424069356
+    second: Character Animations_Left_hat1_1
+  - first:
+      213: -2957856206130225701
+    second: Character Animations_Left_hat1_2
+  - first:
+      213: -4195447199702360520
+    second: Character Animations_Left_hat1_3
+  - first:
+      213: -8571610342277618269
+    second: Character Animations_Left_hat1_4
+  - first:
+      213: -8617583968756739541
+    second: Character Animations_Left_hat1_5
+  - first:
+      213: -6757495546466699726
+    second: Character Animations_Left_hat1_6
+  - first:
+      213: -62072193834322024
+    second: Character Animations_Left_hat1_7
+  - first:
+      213: 165954312918909329
+    second: Character Animations_Left_hat1_8
+  - first:
+      213: 8809032756921448390
+    second: Character Animations_Left_hat1_9
+  - first:
+      213: 2101905424632712583
+    second: Character Animations_Left_hat1_10
+  - first:
+      213: 1231509718370906509
+    second: Character Animations_Left_hat1_11
+  - first:
+      213: 8530292083323108493
+    second: Character Animations_Left_hat1_12
+  - first:
+      213: -3466026889240167265
+    second: Character Animations_Left_hat1_13
+  - first:
+      213: 6263464162168328450
+    second: Character Animations_Left_hat1_14
+  - first:
+      213: -3132001920541343816
+    second: Character Animations_Left_hat1_15
+  - first:
+      213: 4795961451742742734
+    second: Character Animations_Left_hat1_16
+  - first:
+      213: 7171913613463661675
+    second: Character Animations_Left_hat1_17
+  - first:
+      213: 3466474583410701385
+    second: Character Animations_Left_hat1_18
+  - first:
+      213: 4217566509899247009
+    second: Character Animations_Left_hat1_19
+  - first:
+      213: -5299065029040279413
+    second: Character Animations_Left_hat1_20
+  - first:
+      213: 5909256026291219932
+    second: Character Animations_Left_hat1_21
+  - first:
+      213: 7165879814158821894
+    second: Character Animations_Left_hat1_22
+  - first:
+      213: -7467594630448440981
+    second: Character Animations_Left_hat1_23
+  - first:
+      213: -6440594161107903538
+    second: Character Animations_Left_hat1_24
+  - first:
+      213: 1267162002672812153
+    second: Character Animations_Left_hat1_25
+  - first:
+      213: 5485931138078452421
+    second: Character Animations_Left_hat1_26
+  - first:
+      213: -9099827501473337412
+    second: Character Animations_Left_hat1_27
+  - first:
+      213: 2625489998191495681
+    second: Character Animations_Left_hat1_28
+  - first:
+      213: -1331967247741585217
+    second: Character Animations_Left_hat1_29
+  - first:
+      213: 1798463954143806044
+    second: Character Animations_Left_hat1_30
+  - first:
+      213: -8009060138131468971
+    second: Character Animations_Left_hat1_31
+  - first:
+      213: -1167196501999832262
+    second: Character Animations_Left_hat1_32
+  - first:
+      213: -5385387234928511261
+    second: Character Animations_Left_hat1_33
+  - first:
+      213: 4480375598194616624
+    second: Character Animations_Left_hat1_34
+  - first:
+      213: -4012354796898799493
+    second: Character Animations_Left_hat1_35
+  - first:
+      213: -2480746314533517939
+    second: Character Animations_Left_hat1_36
+  - first:
+      213: 1418597023887656230
+    second: Character Animations_Left_hat1_37
+  - first:
+      213: -5732813416602404492
+    second: Character Animations_Left_hat1_38
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: -1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Character Animations_Left_hat1_0
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 1563
+        width: 231
+        height: 260
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbc84174dc0c65e47917aa57a09774bf
+      internalID: -5020796879778749467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character Animations_Left_hat1_1
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 1565
+        width: 231
+        height: 258
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c602637738878a4184eb6e834c26b56
+      internalID: -7864399770424069356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character Animations_Left_hat1_2
+      rect:
+        serializedVersion: 2
+        x: 561
+        y: 1566
+        width: 234
+        height: 257
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3bb9970aa82ebf48b684a9dbad4d7a7
+      internalID: -2957856206130225701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character Animations_Left_hat1_3
+      rect:
+        serializedVersion: 2
+        x: 828
+        y: 1567
+        width: 237
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9fed922cdfa554841945b46969e6b3c4
+      internalID: -4195447199702360520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character Animations_Left_hat1_4
+      rect:
+        serializedVersion: 2
+        x: 1097
+        y: 1566
+        width: 236
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b8385076fa606b4b8c0551b5bd2f485
+      internalID: -8571610342277618269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character Animations_Left_hat1_5
+      rect:
+        serializedVersion: 2
+        x: 1365
+        y: 1565
+        width: 236
+        height: 257
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6cb327b1c9b895c46a3a7eea807c5a09
+      internalID: -8617583968756739541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character Animations_Left_hat1_6
+      rect:
+        serializedVersion: 2
+        x: 1634
+        y: 1564
+        width: 236
+        height: 258
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31f5b2cf0dcc35e46a861b48cc60d1a4
+      internalID: -6757495546466699726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character Animations_Left_hat1_7
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 1287
+        width: 236
+        height: 259
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b71a87112634b2b47b51955705e32d8a
+      internalID: -62072193834322024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character Animations_Left_hat1_8
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 1287
+        width: 236
+        height: 259
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aca79e1f075731742a17ea31ac553084
+      internalID: 165954312918909329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character Animations_Left_hat1_9
+      rect:
+        serializedVersion: 2
+        x: 562
+        y: 1286
+        width: 237
+        height: 260
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fdc6be08f632a3f4b82013124184cca8
+      internalID: 8809032756921448390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character Animations_Left_hat1_10
+      rect:
+        serializedVersion: 2
+        x: 830
+        y: 1287
+        width: 236
+        height: 260
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed212d9a7342d0c478cfa0c467479b43
+      internalID: 2101905424632712583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character Animations_Left_hat1_11
+      rect:
+        serializedVersion: 2
+        x: 1098
+        y: 1287
+        width: 235
+        height: 260
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a02e83b778f7a74fb55be2dc9dad0bd
+      internalID: 1231509718370906509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character Animations_Left_hat1_12
+      rect:
+        serializedVersion: 2
+        x: 1366
+        y: 1287
+        width: 234
+        height: 261
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8344e66bb02e0a74eae1529707fe5dce
+      internalID: 8530292083323108493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character Animations_Left_hat1_13
+      rect:
+        serializedVersion: 2
+        x: 1633
+        y: 1287
+        width: 234
+        height: 261
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09a4403fdee70b747950015e432b6e0c
+      internalID: -3466026889240167265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character Animations_Left_hat1_14
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 1011
+        width: 233
+        height: 261
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dadac442acf628c47a39f0ed9c8f04bd
+      internalID: 6263464162168328450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character Animations_Left_hat1_15
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 1011
+        width: 232
+        height: 261
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 982a0524c35f13743a3a8b767e5189d9
+      internalID: -3132001920541343816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character Animations_Left_hat1_16
+      rect:
+        serializedVersion: 2
+        x: 561
+        y: 1010
+        width: 232
+        height: 262
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68e256131fdf5a94f84d936613a78e1b
+      internalID: 4795961451742742734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character Animations_Left_hat1_17
+      rect:
+        serializedVersion: 2
+        x: 829
+        y: 1009
+        width: 233
+        height: 263
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73d18fb7c9e47844bb81ccf2c44f4da5
+      internalID: 7171913613463661675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character Animations_Left_hat1_18
+      rect:
+        serializedVersion: 2
+        x: 1098
+        y: 1008
+        width: 232
+        height: 264
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7fa9a77041338ad40823d790886b1db7
+      internalID: 3466474583410701385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character Animations_Left_hat1_19
+      rect:
+        serializedVersion: 2
+        x: 1366
+        y: 1007
+        width: 232
+        height: 265
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa695b73a025d93459cd7e53d985df64
+      internalID: 4217566509899247009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character Animations_Left_hat1_20
+      rect:
+        serializedVersion: 2
+        x: 1634
+        y: 1007
+        width: 233
+        height: 265
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4fd90f1d09ded1c49a8a784a54ae4946
+      internalID: -5299065029040279413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character Animations_Left_hat1_21
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 730
+        width: 232
+        height: 266
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 671d6ca098d20e84db19797602863b1c
+      internalID: 5909256026291219932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character Animations_Left_hat1_22
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 730
+        width: 233
+        height: 266
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba34dfc02fe498741a4873fdbfc8c20d
+      internalID: 7165879814158821894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character Animations_Left_hat1_23
+      rect:
+        serializedVersion: 2
+        x: 561
+        y: 731
+        width: 235
+        height: 265
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 670a785797ad5394e8ce286a206b56d6
+      internalID: -7467594630448440981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character Animations_Left_hat1_24
+      rect:
+        serializedVersion: 2
+        x: 828
+        y: 731
+        width: 237
+        height: 265
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77bd92bac2a86af4a93d8955b45df8d4
+      internalID: -6440594161107903538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character Animations_Left_hat1_25
+      rect:
+        serializedVersion: 2
+        x: 1095
+        y: 731
+        width: 238
+        height: 264
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7cabe5bd0276ec48863e54852e2884e
+      internalID: 1267162002672812153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character Animations_Left_hat1_26
+      rect:
+        serializedVersion: 2
+        x: 1362
+        y: 732
+        width: 240
+        height: 263
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e9ef5088ae9281408ba2770d114457e
+      internalID: 5485931138078452421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character Animations_Left_hat1_27
+      rect:
+        serializedVersion: 2
+        x: 1629
+        y: 732
+        width: 242
+        height: 263
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d82bb288fe882054dbb4e33e4a075be7
+      internalID: -9099827501473337412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character Animations_Left_hat1_28
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 455
+        width: 241
+        height: 264
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f138d58bcae0fcf4d9b00120368f13db
+      internalID: 2625489998191495681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character Animations_Left_hat1_29
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 455
+        width: 239
+        height: 264
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b79492fe625bf5248a60436f3203018c
+      internalID: -1331967247741585217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character Animations_Left_hat1_30
+      rect:
+        serializedVersion: 2
+        x: 559
+        y: 455
+        width: 237
+        height: 265
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea8568266bcc5844783da61d9354d054
+      internalID: 1798463954143806044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character Animations_Left_hat1_31
+      rect:
+        serializedVersion: 2
+        x: 827
+        y: 455
+        width: 236
+        height: 265
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7979ca27357f24d4eb4472a13c6f84b2
+      internalID: -8009060138131468971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character Animations_Left_hat1_32
+      rect:
+        serializedVersion: 2
+        x: 1096
+        y: 454
+        width: 234
+        height: 266
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 487c57897ccceb54faebc4dba986aef7
+      internalID: -1167196501999832262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character Animations_Left_hat1_33
+      rect:
+        serializedVersion: 2
+        x: 1365
+        y: 454
+        width: 232
+        height: 266
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2676a6fa14373e4c94533350a5f8778
+      internalID: -5385387234928511261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character Animations_Left_hat1_34
+      rect:
+        serializedVersion: 2
+        x: 1633
+        y: 455
+        width: 232
+        height: 265
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd6971f9f37b61847b05e24bc7905bd2
+      internalID: 4480375598194616624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character Animations_Left_hat1_35
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 180
+        width: 231
+        height: 264
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 718832c509163e040aa9966476709ad2
+      internalID: -4012354796898799493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character Animations_Left_hat1_36
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 181
+        width: 231
+        height: 263
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0905e5406a093b24e905216a8df5f40c
+      internalID: -2480746314533517939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character Animations_Left_hat1_37
+      rect:
+        serializedVersion: 2
+        x: 563
+        y: 182
+        width: 230
+        height: 262
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c879f0dc673172448be3b85a1c5d65bc
+      internalID: 1418597023887656230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character Animations_Left_hat1_38
+      rect:
+        serializedVersion: 2
+        x: 831
+        y: 183
+        width: 231
+        height: 260
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c59f90fc2f73ea4c9a910cb37f49782
+      internalID: -5732813416602404492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 069c1dc6395418f4a8ca655d86b1c311
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
