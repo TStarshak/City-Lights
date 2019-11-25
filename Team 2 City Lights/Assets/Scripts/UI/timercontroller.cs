@@ -2,17 +2,16 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class ShadowTimerController : MonoBehaviour
+public class timercontroller : MonoBehaviour
 {
-    public static bool shadowHour = false;     // Whether the timer has expired. Shades come out when true.
+    public bool shadowHour = false;     // Whether the timer has expired. Shades come out when true.
 
     [SerializeField]
-    private int timerStart = 180;
+    public int timerStart = 180;
     private int timeUntilShadowHour;
+    public GameObject pauseM;
     public GameObject shadowIcon;
     public GameObject fireflyAnimation;
-    public GameObject ring1;
-    public GameObject ring2;
     // Start is called before the first frame update
     void Start()
     {
@@ -35,8 +34,6 @@ public class ShadowTimerController : MonoBehaviour
             this.gameObject.SetActive(false);
             shadowIcon.SetActive(true);
             fireflyAnimation.SetActive(false);
-            ring1.SetActive(false);
-            ring2.SetActive(true);
         }
     }
     /*
@@ -58,10 +55,10 @@ public class ShadowTimerController : MonoBehaviour
         while (timeUntilShadowHour > 0)
         {
             yield return new WaitForSeconds(1);
-            if (PauseController.isPaused == false)
+            if (pauseM.activeInHierarchy == false)
             {
                 timeUntilShadowHour--;
-                this.transform.Rotate(0, 0, -2, Space.Self);
+                this.transform.Rotate(0, 0, -(360/timerStart), Space.Self);
             }
         }
         // Enable Shadow Hour when the time has reached 0
