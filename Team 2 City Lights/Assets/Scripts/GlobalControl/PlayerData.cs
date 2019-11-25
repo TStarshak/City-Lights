@@ -17,7 +17,7 @@ public class PlayerData
         firefliesInWallet = 0;
         movementSpeed = 6.0f;
         vacuLampCapacity = 20;
-        vacuLampRange = 0.0f;   //Insert default range value
+        vacuLampRange = 1.0f;   //Insert default range value
     }
 
     // Creates new stats from a copy of other stats

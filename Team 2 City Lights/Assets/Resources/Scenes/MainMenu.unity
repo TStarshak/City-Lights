@@ -290,18 +290,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
---- !u!114 &161062143 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 5411081617618141859, guid: 0c2d7f621b24aee4e95e26aa1f406b0a,
-    type: 3}
-  m_PrefabInstance: {fileID: 5411081617291556756}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 67db9e8f0e2ae9c40bc1e2b64352a6b4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &169550255
 GameObject:
   m_ObjectHideFlags: 0
@@ -763,7 +751,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: 48ec019eb52b33446b13d41f1bb231b1, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 72dbb556dd5f25e45af875126b75f50b, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1665,7 +1653,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
-  m_AnchoredPosition: {x: 0, y: 100}
+  m_AnchoredPosition: {x: 651, y: 100}
   m_SizeDelta: {x: 238.6875, y: 96.9375}
   m_Pivot: {x: 0.5, y: 0}
 --- !u!114 &1746484008
@@ -1803,7 +1791,7 @@ AudioSource:
     type: 2}
   m_audioClip: {fileID: 8300000, guid: 5184596de011da745ba38d6eb7aad46a, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 1
+  m_Volume: 0.5
   m_Pitch: 1
   Loop: 1
   Mute: 0
@@ -1920,11 +1908,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 7971056022816803307}
     m_Modifications:
-    - target: {fileID: 4937991642185912093, guid: c6e207224b35e284fb649f3bf141eb94,
-        type: 3}
-      propertyPath: m_Name
-      value: SFX Slider
-      objectReference: {fileID: 0}
     - target: {fileID: 4937991642185912094, guid: c6e207224b35e284fb649f3bf141eb94,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1988,12 +1971,12 @@ PrefabInstance:
     - target: {fileID: 4937991642185912094, guid: c6e207224b35e284fb649f3bf141eb94,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 164
+      value: 95
       objectReference: {fileID: 0}
     - target: {fileID: 4937991642185912094, guid: c6e207224b35e284fb649f3bf141eb94,
         type: 3}
       propertyPath: m_SizeDelta.x
-      value: 320
+      value: 640
       objectReference: {fileID: 0}
     - target: {fileID: 4937991642185912094, guid: c6e207224b35e284fb649f3bf141eb94,
         type: 3}
@@ -2030,6 +2013,36 @@ PrefabInstance:
       propertyPath: m_Pivot.y
       value: 0.5
       objectReference: {fileID: 0}
+    - target: {fileID: 4937991642185912093, guid: c6e207224b35e284fb649f3bf141eb94,
+        type: 3}
+      propertyPath: m_Name
+      value: SFX Slider
+      objectReference: {fileID: 0}
+    - target: {fileID: 4937991640850745700, guid: c6e207224b35e284fb649f3bf141eb94,
+        type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4937991640850745700, guid: c6e207224b35e284fb649f3bf141eb94,
+        type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4937991640850745700, guid: c6e207224b35e284fb649f3bf141eb94,
+        type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4937991642048442547, guid: c6e207224b35e284fb649f3bf141eb94,
+        type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4937991642048442547, guid: c6e207224b35e284fb649f3bf141eb94,
+        type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c6e207224b35e284fb649f3bf141eb94, type: 3}
 --- !u!1001 &5411081617291556756
@@ -2043,11 +2056,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Music Slider
-      objectReference: {fileID: 0}
-    - target: {fileID: 5411081617618141859, guid: 0c2d7f621b24aee4e95e26aa1f406b0a,
-        type: 3}
-      propertyPath: m_OnValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: setMusicVolume
       objectReference: {fileID: 0}
     - target: {fileID: 5411081617618141858, guid: 0c2d7f621b24aee4e95e26aa1f406b0a,
         type: 3}
@@ -2112,12 +2120,12 @@ PrefabInstance:
     - target: {fileID: 5411081617618141858, guid: 0c2d7f621b24aee4e95e26aa1f406b0a,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 80
+      value: -45
       objectReference: {fileID: 0}
     - target: {fileID: 5411081617618141858, guid: 0c2d7f621b24aee4e95e26aa1f406b0a,
         type: 3}
       propertyPath: m_SizeDelta.x
-      value: 320
+      value: 640
       objectReference: {fileID: 0}
     - target: {fileID: 5411081617618141858, guid: 0c2d7f621b24aee4e95e26aa1f406b0a,
         type: 3}
@@ -2154,27 +2162,31 @@ PrefabInstance:
       propertyPath: m_Pivot.y
       value: 0.5
       objectReference: {fileID: 0}
-    - target: {fileID: 5411081617618141868, guid: 0c2d7f621b24aee4e95e26aa1f406b0a,
+    - target: {fileID: 5411081616221119940, guid: 0c2d7f621b24aee4e95e26aa1f406b0a,
         type: 3}
-      propertyPath: volumeGroup
-      value: MusicVol
+      propertyPath: m_AnchorMax.x
+      value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 5411081617618141868, guid: 0c2d7f621b24aee4e95e26aa1f406b0a,
+    - target: {fileID: 5411081616221119940, guid: 0c2d7f621b24aee4e95e26aa1f406b0a,
         type: 3}
-      propertyPath: m_Enabled
-      value: 1
+      propertyPath: m_AnchorMax.y
+      value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 5411081617618141868, guid: 0c2d7f621b24aee4e95e26aa1f406b0a,
+    - target: {fileID: 5411081615990757540, guid: 0c2d7f621b24aee4e95e26aa1f406b0a,
         type: 3}
-      propertyPath: slider
-      value: 
-      objectReference: {fileID: 161062143}
-    - target: {fileID: 5411081617618141868, guid: 0c2d7f621b24aee4e95e26aa1f406b0a,
+      propertyPath: m_AnchorMin.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5411081615990757540, guid: 0c2d7f621b24aee4e95e26aa1f406b0a,
         type: 3}
-      propertyPath: mixer
-      value: 
-      objectReference: {fileID: 24100000, guid: bb35c5c637302484bb1b7d7d53a9161a,
-        type: 2}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5411081615990757540, guid: 0c2d7f621b24aee4e95e26aa1f406b0a,
+        type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0c2d7f621b24aee4e95e26aa1f406b0a, type: 3}
 --- !u!1001 &7971056022816803306
@@ -2252,7 +2264,7 @@ PrefabInstance:
     - target: {fileID: 6301339207866659431, guid: cda8f3b9649688948b66afdfee07caaf,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 0
+      value: 38
       objectReference: {fileID: 0}
     - target: {fileID: 6301339207866659431, guid: cda8f3b9649688948b66afdfee07caaf,
         type: 3}
@@ -2298,6 +2310,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Pivot.y
       value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6301339207866659431, guid: cda8f3b9649688948b66afdfee07caaf,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1.0375
+      objectReference: {fileID: 0}
+    - target: {fileID: 6301339207866659431, guid: cda8f3b9649688948b66afdfee07caaf,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1.05
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cda8f3b9649688948b66afdfee07caaf, type: 3}
