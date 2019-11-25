@@ -8,14 +8,9 @@ public class snailWalk : MonoBehaviour
     public float currentAngle;
     private Vector3 nextPos;
     private bool direction = true;
-    public float rotateAngle = 0.8f;
 
     void Start()
     {
-        if (mushroom == null)
-        {
-            Destroy(this);
-        }
         StartCoroutine(walk());
     }
 
@@ -38,6 +33,9 @@ public class snailWalk : MonoBehaviour
 
     private IEnumerator walk()
     {
+        if(mushroom == null){
+            Destroy(this);
+        }
         while (true)
         {
             if (direction && currentAngle > 360f)
@@ -57,17 +55,17 @@ public class snailWalk : MonoBehaviour
 
             nextPos = new Vector3(mushroom.transform.position.x + (0.9f * Mathf.Cos(currentAngle)), transform.position.y, mushroom.transform.position.z + (0.9f * Mathf.Sin(currentAngle)));
             transform.position = nextPos;
-            transform.eulerAngles = new Vector3(transform.rotation.x, currentAngle, transform.rotation.z);
+            //transform.eulerAngles = new Vector3(0f, Vector3.Angle(transform.position, mushroom.transform.position), 0f);
 
 
             RaycastHit hit;
             if (direction)
             {
-                Physics.Raycast(new Vector3(mushroom.transform.position.x + (0.9f * Mathf.Cos(currentAngle + 0.3f)), transform.position.y + 0.5f, mushroom.transform.position.z + (0.9f * Mathf.Sin(currentAngle + 0.3f))), -Vector3.up, out hit);
+                Physics.Raycast(new Vector3(mushroom.transform.position.x + (0.9f * Mathf.Cos(currentAngle + 0.5f)), transform.position.y + 0.5f, mushroom.transform.position.z + (0.9f * Mathf.Sin(currentAngle + 0.5f))), -Vector3.up, out hit);
             }
             else
             {
-                Physics.Raycast(new Vector3(mushroom.transform.position.x + (0.9f * Mathf.Cos(currentAngle - 0.3f)), transform.position.y + 0.5f, mushroom.transform.position.z + (0.9f * Mathf.Sin(currentAngle - 0.3f))), -Vector3.up, out hit);
+                Physics.Raycast(new Vector3(mushroom.transform.position.x + (0.9f * Mathf.Cos(currentAngle - 0.5f)), transform.position.y + 0.5f, mushroom.transform.position.z + (0.9f * Mathf.Sin(currentAngle - 0.5f))), -Vector3.up, out hit);
             }
 
             if (hit.collider == null)

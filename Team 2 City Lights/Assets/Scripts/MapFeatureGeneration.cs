@@ -143,17 +143,26 @@ public class MapFeatureGeneration : MonoBehaviour
         foreach (GameObject tree in trees)
         {
             tree.transform.position = new Vector3(tree.transform.position.x - (maxX / 2), tree.transform.position.y - 1f, tree.transform.position.z - (maxX / 2));
+            if(Vector3.Distance(tree.transform.position, new Vector3(0, tree.transform.position.y, 0)) < 7f){
+                Destroy(tree);
+            }
         }
 
         foreach (GameObject firefly in fireflies)
         {
             firefly.transform.position = new Vector3(firefly.transform.position.x - (maxX / 2), firefly.transform.position.y - 1f, firefly.transform.position.z - (maxX / 2));
+            if(Vector3.Distance(firefly.transform.position, new Vector3(0, firefly.transform.position.y, 0)) < 7f){
+                Destroy(firefly);
+            }
         }
 
         List<GameObject> TBD = new List<GameObject>();
         foreach (GameObject groundItem in groundItems)
         {
             groundItem.transform.position = new Vector3(groundItem.transform.position.x - (maxX / 2), groundItem.transform.position.y, groundItem.transform.position.z - (maxX / 2));
+            if(Vector3.Distance(groundItem.transform.position, new Vector3(0, groundItem.transform.position.y, 0)) < 7f){
+                Destroy(groundItem);
+            }
             foreach (GameObject groundItem2 in groundItems)
             {
                 if (groundItem != groundItem2)
@@ -204,6 +213,9 @@ public class MapFeatureGeneration : MonoBehaviour
         foreach (GameObject snail in snails)
         {
             snail.transform.position = new Vector3(snail.transform.position.x - (maxX / 2), snail.transform.position.y, snail.transform.position.z - (maxX / 2));
+            if(Vector3.Distance(snail.transform.position, new Vector3(0, snail.transform.position.y, 0)) < 7f){
+                Destroy(snail);
+            }
         }
     }
 
