@@ -24,14 +24,14 @@ MonoBehaviour:
     function: 0
     token: 
   currentGitBranch:
-    name: master
-    tracking: 
+    name: upgrades
+    tracking: origin/upgrades
   currentConfigBranch:
-    name: master
+    name: upgrades
     remote:
-      name: 
-      url: 
-    trackingBranch: 
+      name: origin
+      url: https://csecode.case.edu/academic/eecs-390/team2.git
+    trackingBranch: upgrades
   currentConfigRemote:
     name: origin
     url: git@csecode.case.edu:academic/eecs-390/team2.git

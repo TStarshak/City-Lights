@@ -16,6 +16,9 @@ public class PlayerState : MonoBehaviour
     // At start, load data from PlayerProgress
     void Awake(){
         localPlayerData = new PlayerData(PlayerProgress.Instance.savedPlayerData);
+        Debug.Log(localPlayerData.vacuLampRange);
+        Debug.Log(localPlayerData.vacuLampCapacity);
+        Debug.Log(localPlayerData.movementSpeed);
     }
 
     void Start(){
@@ -41,5 +44,6 @@ public class PlayerState : MonoBehaviour
     public static void applyMultipliers(){
         localPlayerData.movementSpeed *= currentUpgrades.skillByName("speed").getMultiplier();
         localPlayerData.vacuLampCapacity *= currentUpgrades.skillByName("vlcapacity").getMultiplier();
+        localPlayerData.vacuLampRange = currentUpgrades.skillByName("vlrange").getMultiplier();
     }
 }

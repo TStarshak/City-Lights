@@ -103,6 +103,16 @@ public class PlayerUpgrades
         return targetSkill;
     }
 
+    /* Retrieve the average skill level of the player
+    */
+    public int averageSkillLevel(){
+        int averageLevel = 0;
+        foreach(Skill skill in skills){
+           averageLevel += skill.getCurrentLevel(); 
+        }
+        return (averageLevel / 3);
+    }
+
     // }
 }
 

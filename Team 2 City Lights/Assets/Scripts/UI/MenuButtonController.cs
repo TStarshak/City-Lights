@@ -21,7 +21,7 @@ public class MenuButtonController : MonoBehaviour
 
     //Quit to main menu and reset progress
     public void QuitAndReset(){
+        SceneController.LoadMainMenu();
         SceneController.Instance.ResetGame();
-        LoadScene("MainMenu");
     }
 }

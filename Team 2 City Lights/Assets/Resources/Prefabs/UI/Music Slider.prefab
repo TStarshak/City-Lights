@@ -27,14 +27,14 @@ RectTransform:
   m_GameObject: {fileID: 5411081615990757563}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 1.221875, y: 0.661701, z: 1}
   m_Children: []
   m_Father: {fileID: 5411081617596913693}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 0, y: 22}
+  m_AnchorMin: {x: 1, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 14}
   m_SizeDelta: {x: 61, y: 40}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &5411081615990757542
@@ -108,7 +108,7 @@ RectTransform:
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 1}
+  m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 10, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -388,7 +388,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 5411081617618141868}
-        m_MethodName: setVolume
+        m_MethodName: setMusicVolume
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -412,4 +412,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec5c2e6291346bb41bba6f45648d97d7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  slider: {fileID: 5411081617618141859}
   mixer: {fileID: 24100000, guid: bb35c5c637302484bb1b7d7d53a9161a, type: 2}
+  volumeGroup: MusicVol
