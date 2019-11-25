@@ -26,6 +26,11 @@ public class SceneController : MonoBehaviour
         }
     }
 
+    public static void LoadFirstScene(){
+        Instance.InitLoadingScene("City");
+        currentScene = SceneManager.GetSceneByName("City");
+    }
+
     public static void LoadScene(string scene){
         PlayerState.SavePlayer();
         Instance.InitLoadingScene(scene);
@@ -33,11 +38,6 @@ public class SceneController : MonoBehaviour
         if (scene == "MainMenu"){
             Instance.ResetGame();
         }
-    }
-
-    public static void LoadFirstScene(){
-        Instance.InitLoadingScene("City");
-        currentScene = SceneManager.GetSceneByName("City");
     }
 
     // Destroy the game manager and reset the player's current progress
@@ -53,10 +53,14 @@ public class SceneController : MonoBehaviour
     }
 
     IEnumerator LoadAsyncScene(string nextScene){
+        yield return new WaitForSeconds(3.0f);  //Buffer for short load times
         // Create an async operation
-        yield return new WaitForSeconds(3.0f);
-        AsyncOperation gameLevel = SceneManager.LoadSceneAsync(nextScene);
-        // Begin firefly animation
+        AsyncOperation loadingLevel = SceneManager.LoadSceneAsync(nextScene);
+        loadingLevel.allowSceneActivation = false;
+        while (loadingLevel.progress < 0.9f){
+            yield return null;
+        }
+        loadingLevel.allowSceneActivation = true;
         // When finished, load the game scene
         yield return new WaitForEndOfFrame();
     }

@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 1
-  lastUpdatedAtString: 2019-11-23T19:06:23.331-05:00
-  initializedAtString: 2019-11-23T19:06:23.331-05:00
+  lastUpdatedAtString: 2019-11-24T16:08:34.930-05:00
+  initializedAtString: 2019-11-24T16:08:34.930-05:00
   currentGitRemote:
     name: origin
     url: https://csecode.case.edu/academic/eecs-390/team2.git
@@ -24,14 +24,14 @@ MonoBehaviour:
     function: 0
     token: 
   currentGitBranch:
-    name: menu-dev
-    tracking: origin/menu-dev
+    name: upgrades
+    tracking: origin/upgrades
   currentConfigBranch:
-    name: menu-dev
+    name: upgrades
     remote:
       name: origin
       url: https://csecode.case.edu/academic/eecs-390/team2.git
-    trackingBranch: menu-dev
+    trackingBranch: upgrades
   currentConfigRemote:
     name: origin
     url: https://csecode.case.edu/academic/eecs-390/team2.git
