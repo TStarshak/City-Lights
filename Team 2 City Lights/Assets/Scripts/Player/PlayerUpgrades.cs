@@ -105,12 +105,12 @@ public class PlayerUpgrades
 
     /* Retrieve the average skill level of the player
     */
-    public int averageSkillLevel(){
-        int averageLevel = 0;
+    public int highestSkillLevel(){
+        int highestLevel = skills[0].getCurrentLevel();
         foreach(Skill skill in skills){
-           averageLevel += skill.getCurrentLevel(); 
+           if (skill.getCurrentLevel() > highestLevel) { highestLevel = skill.getCurrentLevel();}
         }
-        return (averageLevel / 3);
+        return highestLevel;
     }
 
     // }

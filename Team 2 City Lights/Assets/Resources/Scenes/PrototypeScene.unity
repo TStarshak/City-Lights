@@ -12293,11 +12293,6 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 0.65
       objectReference: {fileID: 0}
-    - target: {fileID: 4914273226450994577, guid: 7318cb11bbae1da4eaa7516780b148e3,
-        type: 3}
-      propertyPath: m_Name
-      value: PlayerLight
-      objectReference: {fileID: 0}
     - target: {fileID: 102886255569621850, guid: 7318cb11bbae1da4eaa7516780b148e3,
         type: 3}
       propertyPath: m_Radius
@@ -12593,6 +12588,11 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 356e098c08b3c19409e70e1c63a5ca52, type: 2}
+    - target: {fileID: 4914273226450994577, guid: 7318cb11bbae1da4eaa7516780b148e3,
+        type: 3}
+      propertyPath: m_Name
+      value: PlayerLight
+      objectReference: {fileID: 0}
     - target: {fileID: 102886256556719387, guid: 7318cb11bbae1da4eaa7516780b148e3,
         type: 3}
       propertyPath: m_UseGravity
