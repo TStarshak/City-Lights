@@ -20,5 +20,8 @@ public class FireflyCounterCity : MonoBehaviour
         if(PauseController.pauseIsEnabled() || upgradeMenu.activeInHierarchy){
             display.text = $"Fireflies in Wallet: {PlayerState.localPlayerData.firefliesInWallet}";
         }
+        else {
+            display.text = "";
+        }
     }
 }

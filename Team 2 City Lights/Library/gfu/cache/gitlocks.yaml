@@ -13,11 +13,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 7
-<<<<<<< HEAD
   lastUpdatedAtString: 2019-11-25T17:56:52.089-05:00
   initializedAtString: 2019-11-25T16:50:59.395-05:00
-=======
-  lastUpdatedAtString: 2019-11-21T21:03:42.297-05:00
-  initializedAtString: 2019-11-21T20:18:27.521-05:00
->>>>>>> parent of f3fe21b... merge with master
   gitLocks: []

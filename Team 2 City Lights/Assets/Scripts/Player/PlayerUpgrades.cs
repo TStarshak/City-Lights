@@ -24,7 +24,7 @@ public class PlayerUpgrades
             this.name = name;
             this.multiplier = 1.0f;
             this.costToUpgrade = 10;
-            this.currentLevel = 1;
+            this.currentLevel = 0;
             this.maxLevel = 3;
             this.isMaxed = false;
         }
@@ -101,6 +101,16 @@ public class PlayerUpgrades
             if(skill.getName() == skillName) targetSkill = skill; 
         });
         return targetSkill;
+    }
+
+    /* Retrieve the average skill level of the player
+    */
+    public int averageSkillLevel(){
+        int averageLevel = 0;
+        foreach(Skill skill in skills){
+           averageLevel += skill.getCurrentLevel(); 
+        }
+        return (averageLevel / 3);
     }
 
     // }

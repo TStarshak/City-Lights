@@ -9,7 +9,7 @@ public class ShadowTimer : MonoBehaviour
     public Text countDisplay;           // Text object to show the countdown in the UI
 
     [SerializeField]
-    private int timerStart = 180;
+    private int timerStart = 90;
     private int timeUntilShadowHour;         // The amount of time left in seconds
 
     // Start is called before the first frame update
