@@ -37,7 +37,7 @@ public class Spider : MonoBehaviour
         this.transform.rotation = rot;
         if (elapsedTime > secondsBetweenSpawn)
         {
-            spiderMesh.SetDestination(RandomNavSphere(spawn, 18, -1));
+            spiderMesh.SetDestination(RandomNavSphere(spawn, 18, -1, this));
             elapsedTime = 0;
             if (numWebs <= 5)
             {
@@ -55,11 +55,9 @@ public class Spider : MonoBehaviour
             lookRight = true;
             rend.flipX = false;
         }
-        anim.SetFloat("X", transform.forward.x);
-        anim.SetFloat("Y", transform.forward.z);
     }
 
-    public static Vector3 RandomNavSphere(Vector3 origin, float distance, int layermask)
+    public static Vector3 RandomNavSphere(Vector3 origin, float distance, int layermask, Spider spdr)
     {
         Vector3 randomDirection = UnityEngine.Random.insideUnitSphere * distance;
 
@@ -68,6 +66,11 @@ public class Spider : MonoBehaviour
         NavMeshHit navHit;
 
         NavMesh.SamplePosition(randomDirection, out navHit, distance, layermask);
+
+
+        spdr.anim.SetFloat("X", randomDirection.x);
+        spdr.anim.SetFloat("Y", randomDirection.y);
+        spdr.anim.SetFloat("Z", randomDirection.z);
 
         return navHit.position;
     }
