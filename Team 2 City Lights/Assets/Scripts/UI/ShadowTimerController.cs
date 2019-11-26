@@ -10,9 +10,6 @@ public class ShadowTimerController : MonoBehaviour
     private int timerStart = 180;
     private int timeUntilShadowHour;
     public GameObject shadowIcon;
-    public GameObject fireflyAnimation;
-    public GameObject ring1;
-    public GameObject ring2;
     // Start is called before the first frame update
     void Start()
     {
@@ -33,10 +30,7 @@ public class ShadowTimerController : MonoBehaviour
         if (shadowHour)
         {
             this.gameObject.SetActive(false);
-            shadowIcon.SetActive(true);
-            fireflyAnimation.SetActive(false);
-            ring1.SetActive(false);
-            ring2.SetActive(true);
+            shadowIcon.SetActive(false);
         }
     }
     /*

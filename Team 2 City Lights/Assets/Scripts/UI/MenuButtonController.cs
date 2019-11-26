@@ -12,16 +12,12 @@ public class MenuButtonController : MonoBehaviour
 
     public void LoadScene(string sceneName)
     {
-        SceneController.LoadScene(sceneName);
-    }
-
-    public void StartGame(){
-        SceneController.LoadFirstScene();
+        SceneManager.LoadScene(sceneName);
     }
 
     //Quit to main menu and reset progress
     public void QuitAndReset(){
-        SceneController.LoadMainMenu();
         SceneController.Instance.ResetGame();
+        LoadScene("MainMenu");
     }
 }

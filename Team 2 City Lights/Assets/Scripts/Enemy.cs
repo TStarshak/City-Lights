@@ -17,7 +17,7 @@ public class Enemy : MonoBehaviour
     void Start()
     {
         rot = transform.rotation;
-        Shadoow = GetComponent<NavMeshAgent>(); //applies the agent to our lovely enemy
+        Shadoow=GetComponent<NavMeshAgent>(); //applies the agent to our lovely enemy
         rend = GetComponent<SpriteRenderer>();
         anim = GetComponent<Animator>();
         eyes = GetComponentInChildren<Light>();
@@ -25,11 +25,10 @@ public class Enemy : MonoBehaviour
 
         if (!this.name.Equals("Shadoow"))
         {
-            shadeAlpha = GetComponent<SpriteRenderer>().material.color;
-            GetComponent<SpriteRenderer>().material.color = new Color(shadeAlpha.r, shadeAlpha.g, shadeAlpha.b, 0);
+            shadeAlpha = this.GetComponent<SpriteRenderer>().material.color;
+            this.GetComponent<SpriteRenderer>().material.color = new Color(shadeAlpha.r, shadeAlpha.g, shadeAlpha.b, 0);
             Shadoow.enabled = false;
             StartCoroutine(shadeSpawn());
-            StartCoroutine(shadeDeath());
         }
 
     }
@@ -72,26 +71,13 @@ public class Enemy : MonoBehaviour
     {
         for (int i = 0; i < 40; i++)
         {
-            shadeAlpha = GetComponent<SpriteRenderer>().material.color;
-            GetComponent<SpriteRenderer>().material.color = new Color(shadeAlpha.r, shadeAlpha.g, shadeAlpha.b, shadeAlpha.a + 0.025f);
-            transform.position = new Vector3(transform.position.x, transform.position.y + 0.05f, transform.position.z);
-            yield return new WaitForSeconds(0.001f);
+            shadeAlpha = this.GetComponent<SpriteRenderer>().material.color;
+            this.GetComponent<SpriteRenderer>().material.color = new Color(shadeAlpha.r, shadeAlpha.g, shadeAlpha.b, shadeAlpha.a + 0.025f);
+            this.transform.position = new Vector3(this.transform.position.x, this.transform.position.y + 0.05f, this.transform.position.z);
+            yield return new WaitForSeconds(0.01f);
         }
         Shadoow.enabled = true;
     }
 
-    private IEnumerator shadeDeath()
-    {
-        yield return new WaitForSeconds(10f);
-        // If it's shadow hour, the Shades are immortal
-        if (!ShadowTimerController.shadowHour){
-            for (int i = 0; i < 20; i++)
-            {
-                shadeAlpha = GetComponent<SpriteRenderer>().material.color;
-                GetComponent<SpriteRenderer>().material.color = new Color(shadeAlpha.r, shadeAlpha.g, shadeAlpha.b, shadeAlpha.a - 0.05f);
-                yield return new WaitForSeconds(0.001f);
-            }
-            Destroy(this.gameObject);
-        }
-    }
+
 }
