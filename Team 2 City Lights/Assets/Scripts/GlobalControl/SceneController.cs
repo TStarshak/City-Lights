@@ -42,11 +42,6 @@ public class SceneController : MonoBehaviour
         currentScene = SceneManager.GetSceneByName(scene);
     }
 
-    // Destroy the game manager and reset the player's current progress
-    public void ResetGame(){
-        PlayerProgress.Instance = new PlayerProgress();
-    }
-
     // Displays the loading screen and begins loading the next scene in the background
     void InitLoadingScene(string nextScene){
         SceneManager.LoadScene("LoadingScreen");
