@@ -68,9 +68,18 @@ public class Spider : MonoBehaviour
         NavMesh.SamplePosition(randomDirection, out navHit, distance, layermask);
 
 
-        spdr.anim.SetFloat("X", randomDirection.x);
-        spdr.anim.SetFloat("Y", randomDirection.y);
-        spdr.anim.SetFloat("Z", randomDirection.z);
+        if (Mathf.Abs(randomDirection.x / randomDirection.z) < Mathf.Tan(30) && randomDirection.z < 0)
+            spdr.anim.SetTrigger("Backwalk");
+        if (Mathf.Abs(randomDirection.x / randomDirection.z) > Mathf.Tan(30) && Mathf.Abs(randomDirection.x / randomDirection.z) < Mathf.Tan(75) && randomDirection.z < 0)
+            spdr.anim.SetTrigger("BackSide");
+        if (Mathf.Abs(randomDirection.x / randomDirection.z) > Mathf.Tan(75))
+            spdr.anim.SetTrigger("Side");
+        if (Mathf.Abs(randomDirection.x / randomDirection.z) < Mathf.Abs(Mathf.Tan(105)) && Mathf.Abs(randomDirection.x / randomDirection.z) > Mathf.Abs(Mathf.Tan(165)) && randomDirection.z > 0)
+            spdr.anim.SetTrigger("Frontside");
+        if (Mathf.Abs(randomDirection.x / randomDirection.z) < Mathf.Abs(Mathf.Tan(165)) && randomDirection.z > 0)
+            spdr.anim.SetTrigger("Front");
+
+        spdr.rend.flipX = randomDirection.x < 0 ? false : true;
 
         return navHit.position;
     }
