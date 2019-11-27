@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 0.105
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 24128281}
-  m_IndirectSpecularColor: {r: 0.018929776, g: 0.023699922, b: 0.032226793, a: 0.105}
+  m_IndirectSpecularColor: {r: 0, g: 0, b: 0, a: 0.105}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -2353,6 +2353,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: shade3
+      objectReference: {fileID: 0}
+    - target: {fileID: 4109808252108860229, guid: 14ce19f1d7c2bbc44800582b81ad0426,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -8725526519911661675, guid: 14ce19f1d7c2bbc44800582b81ad0426,
         type: 3}
@@ -8709,7 +8714,7 @@ PrefabInstance:
     - target: {fileID: 3983748571251797054, guid: 6661abf964e95b5478d9e827d758c930,
         type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3983748571251797044, guid: 6661abf964e95b5478d9e827d758c930,
         type: 3}
@@ -8817,6 +8822,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Spideer
       objectReference: {fileID: 0}
+    - target: {fileID: 3484289702572944285, guid: 16c3808d605716f468ecf03ae8aedeb4,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3484289702572944280, guid: 16c3808d605716f468ecf03ae8aedeb4,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -8895,7 +8905,7 @@ PrefabInstance:
     - target: {fileID: 3858338571568173712, guid: 4eca4f5b750fa294cab5057af61b9f39,
         type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3858338571568173712, guid: 4eca4f5b750fa294cab5057af61b9f39,
         type: 3}

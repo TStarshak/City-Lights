@@ -49,21 +49,21 @@ public class SceneController : MonoBehaviour
 
     // Displays the loading screen and begins loading the next scene in the background
     void InitLoadingScene(string nextScene){
+        SceneManager.LoadScene("LoadingScreen");
         //Start asyncOperation
         StartCoroutine(LoadAsyncScene(nextScene));
     }
 
     IEnumerator LoadAsyncScene(string nextScene){
-        AsyncOperation displayLoadingScreen = SceneManager.LoadSceneAsync("LoadingScreen", LoadSceneMode.Single);
         // SceneManager.UnloadSceneAsync(currentScene);
         yield return new WaitForSeconds(3.0f);  //Buffer for short load times
         // Create an async operation
-        AsyncOperation loadingLevel = SceneManager.LoadSceneAsync(nextScene, LoadSceneMode.Additive);
+        SceneManager.LoadScene(nextScene);
+        // AsyncOperation loadingLevel = SceneManager.LoadSceneAsync(nextScene, LoadSceneMode.Additive);
         // loadingLevel.allowSceneActivation = false;
-        while (loadingLevel.progress <= 0.9f){
-            yield return null;
-        }
-        SceneManager.UnloadSceneAsync("LoadingScreen");
+        // while (loadingLevel.progress <= 0.9f){
+        //     yield return null;
+        // }
         // loadingLevel.allowSceneActivation = true;
         // When finished, load the game scene
         yield return new WaitForEndOfFrame();
