@@ -20,14 +20,15 @@ public class PlayerColliderScript : MonoBehaviour
         }
     }
 
-    private void OnTriggerStay(Collider other)
+    private void OnTriggerEnter(Collider other)
     {
         if (other.gameObject.tag.Equals("Firefly"))
         {
             if (Lighting.numFireflies < Lighting.capacity && Vacuum.isOn)
             {
+                int val = other.gameObject.GetComponent<FireflyMovement>().rarity;
                 Destroy(other.gameObject);
-                SendMessageUpwards("onFireflyEnter");
+                SendMessageUpwards("onFireflyEnter", val);
             }
             else if(Vacuum.isOn)
                 Destroy(other.gameObject);
@@ -38,10 +39,7 @@ public class PlayerColliderScript : MonoBehaviour
             Destroy(other);
             obj.GetComponent<Animator>().SetBool("hasAttacked", true);
             StartCoroutine(WaitAndDestroy(obj));
-            if (Lighting.numFireflies > 0)
-            {
-                SendMessageUpwards("onEnemyEnter");
-            }
+            SendMessageUpwards("onEnemyEnter");
 
         }
         else if (other.gameObject.tag.Equals("Web"))

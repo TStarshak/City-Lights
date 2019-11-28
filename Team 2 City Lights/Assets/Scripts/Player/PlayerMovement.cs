@@ -9,7 +9,7 @@ public class PlayerMovement : MonoBehaviour
 {
     [SerializeField] private GameObject player;
     private CharacterController _charController;
-    
+    private float yPos;
     // Retrieve the current movement speed according to level
     private PlayerData playerData; 
    // private float sprintMultiplier;
@@ -18,6 +18,7 @@ public class PlayerMovement : MonoBehaviour
 
     void Start()
     {
+        yPos = this.transform.position.y;
          playerData = PlayerState.localPlayerData;
          _charController = GetComponent<CharacterController>();
         // sprinting = false;
@@ -44,7 +45,6 @@ public class PlayerMovement : MonoBehaviour
         {
             float deltaX = Input.GetAxis("Horizontal") * playerData.movementSpeed;
             float deltaZ = Input.GetAxis("Vertical") * playerData.movementSpeed;
-
             Vector3 movement = new Vector3(deltaX, 0, deltaZ);
             movement = Vector3.ClampMagnitude(movement, playerData.movementSpeed);
             movement.y = 0f;
@@ -53,6 +53,7 @@ public class PlayerMovement : MonoBehaviour
             movement *= Time.deltaTime;
             movement = transform.TransformDirection(movement);
             _charController.Move(movement);
+            this.transform.position = new Vector3(transform.position.x, yPos, transform.position.z);
         }
     }
 
