@@ -62,7 +62,6 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Scripts\CameraFollow.cs" />
     <Compile Include="Assets\Scripts\CityController.cs" />
     <Compile Include="Assets\Scripts\Enemy.cs" />
     <Compile Include="Assets\Scripts\FireflyMovement.cs" />
@@ -74,7 +73,6 @@
     <Compile Include="Assets\Scripts\GlobalControl\PlayerData.cs" />
     <Compile Include="Assets\Scripts\GlobalControl\PlayerProgress.cs" />
     <Compile Include="Assets\Scripts\GlobalControl\SceneController.cs" />
-    <Compile Include="Assets\Scripts\Lighting.cs" />
     <Compile Include="Assets\Scripts\LocalNavMeshBuilder.cs" />
     <Compile Include="Assets\Scripts\MapFeatureGeneration.cs" />
     <Compile Include="Assets\Scripts\NavMeshSourceTag.cs" />
@@ -107,6 +105,9 @@
     <Compile Include="Assets\Scripts\UI\timerFlireflyController.cs" />
     <Compile Include="Assets\Scripts\UI\timerShadowController.cs" />
     <Compile Include="Assets\Scripts\UI\UpgradeMenuController.cs" />
+    <Compile Include="Assets\Scripts\Visuals\CameraFollow.cs" />
+    <Compile Include="Assets\Scripts\Visuals\Lighting.cs" />
+    <Compile Include="Assets\Scripts\Visuals\PostProcessing.cs" />
     <Compile Include="Assets\Scripts\ZoneFeaturePlanning.cs" />
     <Reference Include="Unity.Timeline.Editor">
       <HintPath>C:/Users/Three/Desktop/team2/Team 2 City Lights/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
