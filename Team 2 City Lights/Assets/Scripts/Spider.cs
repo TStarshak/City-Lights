@@ -45,16 +45,6 @@ public class Spider : MonoBehaviour
                 numWebs++;
             }
         }
-        if (transform.forward.x > 0 && lookRight)
-        {
-            lookRight = false;
-            rend.flipX = true;
-        }
-        else if (transform.forward.x < 0 && !lookRight)
-        {
-            lookRight = true;
-            rend.flipX = false;
-        }
     }
 
     public static Vector3 RandomNavSphere(Vector3 origin, float distance, int layermask, Spider spdr)

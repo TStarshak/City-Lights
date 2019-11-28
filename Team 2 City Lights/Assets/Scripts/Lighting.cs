@@ -49,11 +49,12 @@ public class Lighting : MonoBehaviour
             StartCoroutine(SmoothLight(-lightRange));  */
     }
 
-    void onFireflyEnter()
+    void onFireflyEnter(int value)
     {
-        numFireflies++;
-        PlayerState.localPlayerData.firefliesCollected++;
+        numFireflies += (value * value) + 1;
+        PlayerState.localPlayerData.firefliesCollected += (value * value) + 1;
         StartCoroutine(SmoothLight(lightRange));
+        Debug.Log(value + " " + (value * value  + 1) + " " + numFireflies);
     }
 
     void onEnemyEnter()
@@ -63,8 +64,15 @@ public class Lighting : MonoBehaviour
             numFireflies--;
             PlayerState.localPlayerData.firefliesCollected--;
         }
-        if(gameLightInner.GetComponent<Light>().range > 3)
-         StartCoroutine(SmoothLight(-lightRange));
+        else
+        {
+            if (PlayerState.localPlayerData.inDangerState)
+                PlayerState.playerDeath();
+            else
+                PlayerState.dangerState();
+        }
+        if (gameLightInner.GetComponent<Light>().range > 3)
+            StartCoroutine(SmoothLight(-lightRange));
     }
 
     IEnumerator SmoothLight(float range)

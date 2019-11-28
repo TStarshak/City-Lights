@@ -14,33 +14,58 @@ public class PlayerState : MonoBehaviour
     private MissionHandler.Mission currentMission;
 
     // At start, load data from PlayerProgress
-    void Awake(){
+    void Awake()
+    {
         localPlayerData = new PlayerData(PlayerProgress.Instance.savedPlayerData);
     }
 
-    void Start(){
+    void Start()
+    {
         currentMission = MissionHandler.Instance.currentMission;
     }
 
-    void Update(){
+    void Update()
+    {
         // Check the player's status in accomplishing their mission
-        if (localPlayerData.firefliesCollected >= currentMission.fireflyGoal){
+        if (localPlayerData.firefliesCollected >= currentMission.fireflyGoal)
+        {
             MissionHandler.Instance.updateMissionStatus(true);
         }
-        else if (localPlayerData.firefliesCollected < currentMission.fireflyGoal){
+        else if (localPlayerData.firefliesCollected < currentMission.fireflyGoal)
+        {
             MissionHandler.Instance.updateMissionStatus(false);
         }
     }
 
     // Save Data to Global Player Progress
-    public static void SavePlayer(){
+    public static void SavePlayer()
+    {
         PlayerProgress.Instance.savedPlayerData = new PlayerData(localPlayerData);
         PlayerProgress.Instance.currentUpgrades = currentUpgrades;
     }
 
-    public static void applyMultipliers(){
+    public static void applyMultipliers()
+    {
         localPlayerData.movementSpeed *= currentUpgrades.skillByName("speed").getMultiplier();
         localPlayerData.vacuLampCapacity *= currentUpgrades.skillByName("vlcapacity").getMultiplier();
         localPlayerData.vacuLampRange = currentUpgrades.skillByName("vlrange").getMultiplier();
+    }
+
+    public static void playerDeath()
+    {
+        Animator anim = GameObject.FindGameObjectWithTag("Player").GetComponent<Animator>();
+        anim.SetTrigger("Death");
+        //After playing the animation, move to the city
+        Debug.Log("DEATH");
+        
+    }
+
+    public static void dangerState()
+    {
+        localPlayerData.inDangerState = true;
+        //Camera Shake
+
+        //Turn Edge of player red
+
     }
 }

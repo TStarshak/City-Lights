@@ -10,6 +10,7 @@ public class PlayerData
     public float vacuLampRange;         // The player's current vacu-lamp range/power
     public int firefliesCollected;    // Fireflies currently collected
     public int firefliesInWallet;     // Firelies in wallet (not deposited and for upgrade use)
+    public bool inDangerState;         //Bool to denote if the player is a hit from losing (red screen, camera shake)
 
     // Creates new stats with default values
     public PlayerData(){
@@ -18,6 +19,7 @@ public class PlayerData
         movementSpeed = 6.0f;
         vacuLampCapacity = 20;
         vacuLampRange = 1.0f;   //Insert default range value
+        inDangerState = false;
     }
 
     // Creates new stats from a copy of other stats
@@ -27,5 +29,6 @@ public class PlayerData
         movementSpeed = oldStatistics.movementSpeed;
         vacuLampCapacity = oldStatistics.vacuLampCapacity;
         vacuLampRange = oldStatistics.vacuLampRange;
+        inDangerState = false;
     }
 }
