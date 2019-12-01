@@ -8,13 +8,15 @@ public class SceneController : MonoBehaviour
 {
     public static SceneController Instance;
     public static Scene currentScene; //The Current Loaded Scene
+    public static Scene previousScene; //The previous loaded scene
 
     // Called upon object creation
     void Awake()
     {
         // Retrieve the currently active scene as the initial scene
         currentScene = SceneManager.GetActiveScene();
-
+        // Current Scene is previous scene until another one is loaded
+        previousScene = currentScene;
         // Instantiate this tracker if none exists yet and keep game object alive
         if (Instance == null){
             DontDestroyOnLoad(gameObject);
@@ -27,16 +29,19 @@ public class SceneController : MonoBehaviour
     }
 
     public static void LoadFirstScene(){
+        previousScene = currentScene;
         Instance.InitLoadingScene("City");
         currentScene = SceneManager.GetSceneByName("City");
     }
 
     public static void LoadMainMenu(){
+        previousScene = currentScene;
         Instance.InitLoadingScene("MainMenu");
         currentScene = SceneManager.GetSceneByName("MainMenu");
     }
 
     public static void LoadScene(string scene){
+        previousScene = currentScene;
         PlayerState.SavePlayer();
         Instance.InitLoadingScene(scene);
         currentScene = SceneManager.GetSceneByName(scene);

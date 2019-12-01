@@ -92,6 +92,7 @@
      <Compile Include="Assets\Scripts\UI\MenuButtonController.cs" />
      <Compile Include="Assets\Scripts\UI\MissionResults.cs" />
      <Compile Include="Assets\Scripts\UI\PauseController.cs" />
+     <Compile Include="Assets\Scripts\UI\ReturnMessage.cs" />
      <Compile Include="Assets\Scripts\UI\ShadowTimer.cs" />
      <Compile Include="Assets\Scripts\UI\ShadowTimerController.cs" />
      <Compile Include="Assets\Scripts\UI\timerBackgroundController.cs" />

@@ -11,6 +11,7 @@ public class CityController : MonoBehaviour
     [SerializeField] private string forestScene;
     [SerializeField] private GameObject gameIntroduction;
     [SerializeField] private GameObject missionResults;
+    [SerializeField] private GameObject returnMessage;
     [SerializeField] private GameObject upgradeShopMenu;
 
     private Transform playerTransform;
@@ -25,6 +26,9 @@ public class CityController : MonoBehaviour
     {
         if (PlayerProgress.Instance.firstTimeInCity()) {
             gameIntroduction.SetActive(true);
+        }
+        else if (SceneController.previousScene.name != forestScene){
+            returnMessage.SetActive(true);
         }
         else {
             missionResults.SetActive(true);

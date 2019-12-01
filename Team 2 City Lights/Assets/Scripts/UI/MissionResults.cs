@@ -6,7 +6,6 @@ using UnityEngine.UI;
 public class MissionResults : MonoBehaviour
 {
     [SerializeField] private GameObject fireflyterChief;
-    private Button continueButton;
     [SerializeField] private Text missionResults;
     [SerializeField] private Text firefliesNeeded;
     [SerializeField] private Text collectedFireflies;
@@ -14,6 +13,7 @@ public class MissionResults : MonoBehaviour
     [SerializeField] private Text chiefDialogue;
     private MissionHandler.Mission currentMission;
     private PlayerData playerData;
+    private Button continueButton;
 
     // Start is called before the first frame update
     void Start()
