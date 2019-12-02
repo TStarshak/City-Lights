@@ -13,14 +13,19 @@ public class PlayerState : MonoBehaviour
 
     private MissionHandler.Mission currentMission;
 
+    private bool hasDied = false;
+
+
     // At start, load data from PlayerProgress
     void Awake()
     {
+        hasDied = false;
         localPlayerData = new PlayerData(PlayerProgress.Instance.savedPlayerData);
     }
 
     void Start()
     {
+        hasDied = false;
         currentMission = MissionHandler.Instance.currentMission;
     }
 
@@ -34,6 +39,12 @@ public class PlayerState : MonoBehaviour
         else if (localPlayerData.firefliesCollected < currentMission.fireflyGoal)
         {
             MissionHandler.Instance.updateMissionStatus(false);
+        }
+        if (localPlayerData.isDead && !hasDied)
+        {
+            hasDied = true;
+            StartCoroutine(Death());
+
         }
     }
 
@@ -51,21 +62,29 @@ public class PlayerState : MonoBehaviour
         localPlayerData.vacuLampRange = currentUpgrades.skillByName("vlrange").getMultiplier();
     }
 
-    public static void playerDeath()
+    public static void dangerState()
+    {
+        if (localPlayerData.inDangerState)
+            localPlayerData.isDead = true;
+        else
+        {
+            localPlayerData.inDangerState = true;
+            //Camera Shake
+
+            //Turn Edge of player red
+        }
+    }
+
+    IEnumerator Death()
     {
         Animator anim = GameObject.FindGameObjectWithTag("Player").GetComponent<Animator>();
         anim.SetTrigger("Death");
         //After playing the animation, move to the city
         Debug.Log("DEATH");
-        
-    }
 
-    public static void dangerState()
-    {
-        localPlayerData.inDangerState = true;
-        //Camera Shake
+        yield return new WaitForSeconds(3f);
 
-        //Turn Edge of player red
-
+        SceneController.LoadScene("City");
+        yield return null;
     }
 }

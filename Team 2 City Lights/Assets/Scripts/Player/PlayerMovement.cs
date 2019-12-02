@@ -41,7 +41,7 @@ public class PlayerMovement : MonoBehaviour
              StartCoroutine(RecoverStamina()); */
            
 
-        if (PauseController.isPaused == false)
+        if (PauseController.isPaused == false && !playerData.isDead)
         {
             float deltaX = Input.GetAxis("Horizontal") * playerData.movementSpeed;
             float deltaZ = Input.GetAxis("Vertical") * playerData.movementSpeed;

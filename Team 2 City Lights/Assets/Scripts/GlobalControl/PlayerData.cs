@@ -11,6 +11,7 @@ public class PlayerData
     public int firefliesCollected;    // Fireflies currently collected
     public int firefliesInWallet;     // Firelies in wallet (not deposited and for upgrade use)
     public bool inDangerState;         //Bool to denote if the player is a hit from losing (red screen, camera shake)
+    public bool isDead;
 
     // Creates new stats with default values
     public PlayerData(){
@@ -30,5 +31,6 @@ public class PlayerData
         vacuLampCapacity = oldStatistics.vacuLampCapacity;
         vacuLampRange = oldStatistics.vacuLampRange;
         inDangerState = false;
+        isDead = false;
     }
 }

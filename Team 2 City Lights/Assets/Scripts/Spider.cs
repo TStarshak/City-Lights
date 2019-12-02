@@ -33,16 +33,19 @@ public class Spider : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        elapsedTime += Time.deltaTime;
-        this.transform.rotation = rot;
-        if (elapsedTime > secondsBetweenSpawn)
+        if (!PlayerState.localPlayerData.isDead)
         {
-            spiderMesh.SetDestination(RandomNavSphere(spawn, 18, -1, this));
-            elapsedTime = 0;
-            if (numWebs <= 5)
+            elapsedTime += Time.deltaTime;
+            this.transform.rotation = rot;
+            if (elapsedTime > secondsBetweenSpawn)
             {
-                Instantiate(web, transform.position, transform.rotation);
-                numWebs++;
+                spiderMesh.SetDestination(RandomNavSphere(spawn, 18, -1, this));
+                elapsedTime = 0;
+                if (numWebs <= 5)
+                {
+                    Instantiate(web, transform.position, transform.rotation);
+                    numWebs++;
+                }
             }
         }
     }

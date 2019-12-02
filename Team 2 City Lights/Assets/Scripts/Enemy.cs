@@ -34,6 +34,10 @@ public class Enemy : MonoBehaviour
 
     void Update() //this all just tells the enemy to chase the player
     {
+        //If the player is dead, destroy the shades to get them off the screen
+        if (PlayerState.localPlayerData.isDead)
+            StartCoroutine(shadeDeath());
+
         float distance=Vector3.Distance(transform.position, Player.transform.position);
         Shadoow.transform.rotation = rot;
         if (PauseController.isPaused == false)

@@ -32,30 +32,33 @@ public class Vacuum : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetMouseButtonDown(0))
+        if (!playerData.isDead)
         {
-            particles.Play();
-            isOn = true;
-            PlayerState.localPlayerData.movementSpeed /= 2;
-        }
-        if (Input.GetMouseButtonUp(0))
-        {
-            particles.Pause();
-            particles.Clear();
-            isOn = false;
-            PlayerState.localPlayerData.movementSpeed *= 2;
-        }
-        Plane playerPlane = new Plane(Vector3.up, transform.position);
-        Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
-        float hitdist = 0.0f;
-        if (playerPlane.Raycast(ray, out hitdist))
-        {
-            Vector3 targetPoint = ray.GetPoint(hitdist);
-            targetPoint.y = transform.GetChild(transform.childCount - 2).transform.position.y;
-            Quaternion targetRotation = Quaternion.LookRotation(targetPoint - transform.GetChild(transform.childCount - 2).transform.position);
-            Vector3 rot = transform.GetChild(transform.childCount - 2).transform.rotation.eulerAngles - new Vector3(0, 90, 0);
-            transform.GetChild(transform.childCount - 2).transform.rotation = Quaternion.Lerp(transform.GetChild(transform.childCount - 2).transform.rotation, targetRotation, 72.0f * Time.deltaTime);
-            transform.GetChild(transform.childCount - 2).transform.Rotate(new Vector3(0, -90, 0));
+            if (Input.GetMouseButtonDown(0))
+            {
+                particles.Play();
+                isOn = true;
+                PlayerState.localPlayerData.movementSpeed /= 2;
+            }
+            if (Input.GetMouseButtonUp(0))
+            {
+                particles.Pause();
+                particles.Clear();
+                isOn = false;
+                PlayerState.localPlayerData.movementSpeed *= 2;
+            }
+            Plane playerPlane = new Plane(Vector3.up, transform.position);
+            Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
+            float hitdist = 0.0f;
+            if (playerPlane.Raycast(ray, out hitdist))
+            {
+                Vector3 targetPoint = ray.GetPoint(hitdist);
+                targetPoint.y = transform.GetChild(transform.childCount - 2).transform.position.y;
+                Quaternion targetRotation = Quaternion.LookRotation(targetPoint - transform.GetChild(transform.childCount - 2).transform.position);
+                Vector3 rot = transform.GetChild(transform.childCount - 2).transform.rotation.eulerAngles - new Vector3(0, 90, 0);
+                transform.GetChild(transform.childCount - 2).transform.rotation = Quaternion.Lerp(transform.GetChild(transform.childCount - 2).transform.rotation, targetRotation, 72.0f * Time.deltaTime);
+                transform.GetChild(transform.childCount - 2).transform.Rotate(new Vector3(0, -90, 0));
+            }
         }
 
     }

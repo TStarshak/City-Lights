@@ -55,6 +55,7 @@ public class Lighting : MonoBehaviour
         PlayerState.localPlayerData.firefliesCollected += (value * value) + 1;
         StartCoroutine(SmoothLight(lightRange));
         Debug.Log(value + " " + (value * value  + 1) + " " + numFireflies);
+        PlayerState.localPlayerData.inDangerState = false;
     }
 
     void onEnemyEnter()
@@ -66,9 +67,6 @@ public class Lighting : MonoBehaviour
         }
         else
         {
-            if (PlayerState.localPlayerData.inDangerState)
-                PlayerState.playerDeath();
-            else
                 PlayerState.dangerState();
         }
         if (gameLightInner.GetComponent<Light>().range > 3)

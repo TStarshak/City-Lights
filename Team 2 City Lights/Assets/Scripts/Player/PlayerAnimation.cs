@@ -7,6 +7,7 @@ public class PlayerAnimation : MonoBehaviour
     private Animator anim;
     private SpriteRenderer render;
     private bool vacuum;
+    private PlayerData playerData;
     // Start is called before the first frame update
     void Start()
     {
@@ -15,12 +16,13 @@ public class PlayerAnimation : MonoBehaviour
         render = this.GetComponent<SpriteRenderer>();
         render.sprite = Resources.Load<Sprite>("Player_Char");
         vacuum = false;
+        playerData = PlayerState.localPlayerData;
     }
 
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKey(KeyCode.W) || Input.GetKey(KeyCode.A) || Input.GetKey(KeyCode.S) || Input.GetKey(KeyCode.D))
+        if (Input.GetKey(KeyCode.W) || Input.GetKey(KeyCode.A) || Input.GetKey(KeyCode.S) || Input.GetKey(KeyCode.D) && !playerData.isDead)
         {
             if (!vacuum)
                 anim.SetBool("isWalking", true);
@@ -54,8 +56,11 @@ public class PlayerAnimation : MonoBehaviour
 
     private void OnMouseDown()
     {
-        vacuum = true;
-        anim.SetBool("isVac", true);
+        if (!playerData.isDead)
+        {
+            vacuum = true;
+            anim.SetBool("isVac", true);
+        }
     }
 
     private void OnMouseUp()
