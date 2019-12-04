@@ -8,7 +8,7 @@ public class snailWalk : MonoBehaviour
     public float currentAngle;
     private Vector3 nextPos;
     private bool direction = true;
-
+    public float speed = 0.01f;
     void Start()
     {
         StartCoroutine(walk());
@@ -33,30 +33,30 @@ public class snailWalk : MonoBehaviour
 
     private IEnumerator walk()
     {
-        if(mushroom == null){
-            Destroy(this);
-        }
         while (true)
         {
+            if (mushroom == null)
+            {
+                Destroy(this);
+            }
             if (direction && currentAngle > 360f)
             {
                 currentAngle = 0.01f;
             } else if(direction)
             {
-                currentAngle += 0.01f;
+                currentAngle += speed;
             } else if (!direction && currentAngle < 0f)
             {
                 currentAngle = 359.99f;
             }
             else
             {
-                currentAngle -= 0.01f;
+                currentAngle -= speed;
             }
 
             nextPos = new Vector3(mushroom.transform.position.x + (0.9f * Mathf.Cos(currentAngle)), transform.position.y, mushroom.transform.position.z + (0.9f * Mathf.Sin(currentAngle)));
+            transform.LookAt(nextPos);
             transform.position = nextPos;
-            //transform.eulerAngles = new Vector3(0f, Vector3.Angle(transform.position, mushroom.transform.position), 0f);
-
 
             RaycastHit hit;
             if (direction)
