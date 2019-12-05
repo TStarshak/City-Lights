@@ -1119,6 +1119,11 @@ PrefabInstance:
       propertyPath: m_Controller
       value: 
       objectReference: {fileID: 9100000, guid: 8d7285833f1c33047a554d732a605ccc, type: 2}
+    - target: {fileID: 7941981978070045415, guid: 7318cb11bbae1da4eaa7516780b148e3,
+        type: 3}
+      propertyPath: m_Constraints
+      value: 112
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 102886255569621860, guid: 7318cb11bbae1da4eaa7516780b148e3, type: 3}
     - {fileID: 102886255569621851, guid: 7318cb11bbae1da4eaa7516780b148e3, type: 3}

@@ -11,7 +11,6 @@ public class Enemy : MonoBehaviour
     private Quaternion rot;
     private SpriteRenderer rend;
     private bool lookRight;
-    private Light eyes;
     private Animator anim;
     private Color shadeAlpha;
     void Start()
@@ -20,7 +19,6 @@ public class Enemy : MonoBehaviour
         Shadoow = GetComponent<NavMeshAgent>(); //applies the agent to our lovely enemy
         rend = GetComponent<SpriteRenderer>();
         anim = GetComponent<Animator>();
-        eyes = GetComponentInChildren<Light>();
         lookRight = true;
 
         if (!this.name.Equals("Shadoow"))
@@ -42,7 +40,6 @@ public class Enemy : MonoBehaviour
         {
             if (distance < activationDistance)
             {
-                eyes.intensity = 1;
                 Vector3 dirToPlayer = transform.position - Player.transform.position;
                 Vector3 newPos = transform.position - dirToPlayer;
                 Shadoow.SetDestination(newPos);
@@ -57,10 +54,6 @@ public class Enemy : MonoBehaviour
                     lookRight = true;
                     rend.flipX = false;
                 }
-            }
-            else
-            {
-                eyes.intensity = 0;
             }
         }
         else

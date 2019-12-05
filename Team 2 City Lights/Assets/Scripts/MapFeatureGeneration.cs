@@ -233,6 +233,48 @@ public class MapFeatureGeneration : MonoBehaviour
         GameObject tree;
         float randScale;
 
+        RaycastHit hit;
+        for (int i = 0; i < maxX / 2; i++)
+        {
+            randomX = minX + (2 * i);
+            randomZ = Random.Range(minZ, minZ + 2);
+            Physics.Raycast(new Vector3(randomX, 20f, randomZ), -Vector3.up, out hit);
+            if (hit.collider != null)
+            {
+                treePositions.Add(new Vector3(randomX, hit.collider.gameObject.transform.position.y + 0.4f, randomZ));
+            }
+        }
+        for (int i = 0; i < maxX / 2; i++)
+        {
+            randomX = minX + (2 * i);
+            randomZ = Random.Range(maxZ - 2, maxZ);
+            Physics.Raycast(new Vector3(randomX, 20f, randomZ), -Vector3.up, out hit);
+            if (hit.collider != null)
+            {
+                treePositions.Add(new Vector3(randomX, hit.collider.gameObject.transform.position.y + 0.4f, randomZ));
+            }
+        }
+        for (int i = 2; i < maxZ / 2; i++)
+        {
+            randomX = Random.Range(minX, minX + 2);
+            randomZ = minZ + (2 * i);
+            Physics.Raycast(new Vector3(randomX, 20f, randomZ), -Vector3.up, out hit);
+            if (hit.collider != null)
+            {
+                treePositions.Add(new Vector3(randomX, hit.collider.gameObject.transform.position.y + 0.4f, randomZ));
+            }
+        }
+        for (int i = 2; i < maxZ / 2; i++)
+        {
+            randomX = Random.Range(maxX - 2, maxX);
+            randomZ = minZ + (2 * i);
+            Physics.Raycast(new Vector3(randomX, 20f, randomZ), -Vector3.up, out hit);
+            if (hit.collider != null)
+            {
+                treePositions.Add(new Vector3(randomX, hit.collider.gameObject.transform.position.y + 0.4f, randomZ));
+            }
+        }
+
         while (treeNum > 0)
         {
             randomX = Mathf.Floor(Random.Range(minX, maxX)) + 0.05f;
@@ -241,7 +283,6 @@ public class MapFeatureGeneration : MonoBehaviour
 
             for (int i = 0; i < treePositions.Count; i++)
             {
-                RaycastHit hit;
                 Physics.Raycast(new Vector3(randomX, 20f, randomZ), -Vector3.up, out hit);
                 if (hit.collider == null || Physics.CheckSphere(new Vector3(randomX, hit.collider.gameObject.transform.position.y + 1.8f, randomZ), 1.2f) || Vector3.Distance(new Vector3(randomX, 0.5f, randomZ), treePositions[i]) < 5f)
                 {
@@ -258,7 +299,6 @@ public class MapFeatureGeneration : MonoBehaviour
 
             if (newPosAttempt != 100)
             {
-                RaycastHit hit;
                 Physics.Raycast(new Vector3(randomX, 20f, randomZ), -Vector3.up, out hit);
                 if (hit.collider != null)
                 {
@@ -269,10 +309,16 @@ public class MapFeatureGeneration : MonoBehaviour
         }
 
 
-        foreach (Vector3 pos in treePositions)
+        for(int i = 0; i < treePositions.Count; i++)
         {
-            tree = Instantiate((GameObject)Resources.Load("Prefabs/TreePrefab", typeof(GameObject)), pos, new Quaternion(0f, 0f, 0f, 0f));
-            randScale = Random.Range(0.007f, 0.013f);
+            tree = Instantiate((GameObject)Resources.Load("Prefabs/TreePrefab", typeof(GameObject)), treePositions[i], new Quaternion(0f, 0f, 0f, 0f));
+            if (i < 1200)
+            {
+                randScale = Random.Range(0.009f, 0.011f);
+            } else
+            {
+                randScale = Random.Range(0.007f, 0.013f);
+            }
             tree.transform.localScale = new Vector3(randScale, randScale, randScale);
             tree.transform.RotateAround(tree.transform.position, Vector3.up, Random.Range(0, 360));
             trees.Add(tree);
