@@ -66,6 +66,7 @@
      <Compile Include="Assets\Scripts\GlobalControl\MissionHandler.cs" />
      <Compile Include="Assets\Scripts\GlobalControl\PlayerData.cs" />
      <Compile Include="Assets\Scripts\GlobalControl\PlayerProgress.cs" />
+     <Compile Include="Assets\Scripts\GlobalControl\SaveSystem.cs" />
      <Compile Include="Assets\Scripts\GlobalControl\SceneController.cs" />
      <Compile Include="Assets\Scripts\Lighting.cs" />
      <Compile Include="Assets\Scripts\LocalNavMeshBuilder.cs" />
@@ -95,6 +96,7 @@
      <Compile Include="Assets\Scripts\UI\ReturnMessage.cs" />
      <Compile Include="Assets\Scripts\UI\ShadowTimer.cs" />
      <Compile Include="Assets\Scripts\UI\ShadowTimerController.cs" />
+     <Compile Include="Assets\Scripts\UI\SkillText.cs" />
      <Compile Include="Assets\Scripts\UI\timerBackgroundController.cs" />
      <Compile Include="Assets\Scripts\UI\timercontroller.cs" />
      <Compile Include="Assets\Scripts\UI\timerFlireflyController.cs" />

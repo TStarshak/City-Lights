@@ -24,16 +24,17 @@ public class CityController : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        print(PlayerProgress.Instance.isReturningFromForest());
         if (PlayerProgress.Instance.firstTimeInCity()) {
             gameIntroduction.SetActive(true);
         }
-        else if (SceneController.previousScene.name != forestScene){
-            returnMessage.SetActive(true);
+        else if (PlayerProgress.Instance.isReturningFromForest()){
+            missionResults.SetActive(true);
+            PlayerProgress.Instance.returningFromForest = false;
         }
         else {
-            missionResults.SetActive(true);
+            returnMessage.SetActive(true);
         }
-
         playerTransform = player.transform;
     }
 

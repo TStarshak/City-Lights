@@ -7,16 +7,15 @@ using UnityEngine.SceneManagement;
 public class SceneController : MonoBehaviour
 {
     public static SceneController Instance;
-    public static Scene currentScene; //The Current Loaded Scene
-    public static Scene previousScene; //The previous loaded scene
+    public static Scene currentScene;   //The Current Loaded Scene
+    
+    public Scene previousScene;          // The previously loaded scene
 
     // Called upon object creation
     void Awake()
     {
         // Retrieve the currently active scene as the initial scene
-        currentScene = SceneManager.GetActiveScene();
-        // Current Scene is previous scene until another one is loaded
-        previousScene = currentScene;
+        currentScene = previousScene = SceneManager.GetActiveScene();
         // Instantiate this tracker if none exists yet and keep game object alive
         if (Instance == null){
             DontDestroyOnLoad(gameObject);
@@ -29,26 +28,31 @@ public class SceneController : MonoBehaviour
     }
 
     public static void LoadFirstScene(){
-        previousScene = currentScene;
         Instance.InitLoadingScene("City");
         currentScene = SceneManager.GetSceneByName("City");
     }
 
     public static void LoadMainMenu(){
-        previousScene = currentScene;
         Instance.InitLoadingScene("MainMenu");
         currentScene = SceneManager.GetSceneByName("MainMenu");
     }
 
+    // Load a given scene and automatically save progress
     public static void LoadScene(string scene){
-        previousScene = currentScene;
         PlayerState.SavePlayer();
+        if (currentScene.name == "PrototypeScene") {PlayerProgress.Instance.returningFromForest = true;}
+        // SaveSystem.SavePlayer(PlayerProgress.Instance);
         Instance.InitLoadingScene(scene);
         currentScene = SceneManager.GetSceneByName(scene);
     }
 
+    public string previousSceneName(){
+        return previousScene.name;
+    }
+
     // Displays the loading screen and begins loading the next scene in the background
     void InitLoadingScene(string nextScene){
+        Instance.previousScene = currentScene;
         SceneManager.LoadScene("LoadingScreen");
         //Start asyncOperation
         StartCoroutine(LoadAsyncScene(nextScene));
