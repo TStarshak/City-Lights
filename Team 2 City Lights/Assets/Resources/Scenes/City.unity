@@ -5599,6 +5599,22 @@ PrefabInstance:
       propertyPath: m_Pivot.y
       value: 0.5
       objectReference: {fileID: 0}
+    - target: {fileID: 1996320759, guid: 37436cc2c61e9ac439058dec49369d2f, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1996320761, guid: 37436cc2c61e9ac439058dec49369d2f, type: 3}
+      propertyPath: m_Color.r
+      value: 0.13333334
+      objectReference: {fileID: 0}
+    - target: {fileID: 1996320761, guid: 37436cc2c61e9ac439058dec49369d2f, type: 3}
+      propertyPath: m_Color.g
+      value: 0.10980393
+      objectReference: {fileID: 0}
+    - target: {fileID: 1996320761, guid: 37436cc2c61e9ac439058dec49369d2f, type: 3}
+      propertyPath: m_Color.b
+      value: 0.31764707
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 37436cc2c61e9ac439058dec49369d2f, type: 3}
 --- !u!1 &8256943434830782419 stripped
@@ -5677,6 +5693,11 @@ PrefabInstance:
     - target: {fileID: 8259127795511279626, guid: b2b1810b881170740b9f09cfd59e6e1b,
         type: 3}
       propertyPath: savedPlayerData.firefliesInWallet
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8259127795511279626, guid: b2b1810b881170740b9f09cfd59e6e1b,
+        type: 3}
+      propertyPath: savedPlayerData.inDangerState
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
