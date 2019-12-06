@@ -18,14 +18,15 @@ public class LocalNavMeshBuilder : MonoBehaviour
     AsyncOperation m_Operation;
     NavMeshDataInstance m_Instance;
     List<NavMeshBuildSource> m_Sources = new List<NavMeshBuildSource>();
-
+    int count = 0;
     IEnumerator Start()
     {
-        while (true)
+        if((count % 100) == 0)
         {
             UpdateNavMesh(true);
             yield return m_Operation;
         }
+        count++;
     }
 
     void OnEnable()
