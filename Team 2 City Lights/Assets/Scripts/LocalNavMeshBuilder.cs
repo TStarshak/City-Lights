@@ -21,11 +21,11 @@ public class LocalNavMeshBuilder : MonoBehaviour
 
     IEnumerator Start()
     {
-        while (true)
-        {
+       while (true)
+       {
             UpdateNavMesh(true);
             yield return m_Operation;
-        }
+       }
     }
 
     void OnEnable()

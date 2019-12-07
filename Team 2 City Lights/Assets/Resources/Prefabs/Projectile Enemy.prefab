@@ -85,7 +85,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Projectile: {fileID: 3858338571568173712, guid: 4eca4f5b750fa294cab5057af61b9f39,
     type: 3}
-  secondsBetweenSpawn: 5
+  secondsBetweenSpawn: 3
   Player: {fileID: 0}
   activationDistance: 6
 --- !u!212 &-692501902100231077

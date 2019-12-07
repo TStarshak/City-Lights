@@ -10,6 +10,7 @@ public class MapFeatureGeneration : MonoBehaviour
     [SerializeField] GameObject shadeExample;
     [SerializeField] GameObject fireflyExample;
 
+
     private List<GameObject[,,]> worldData;
     List<Vector3> treePositions = new List<Vector3>();
     List<Vector3> fireflyPositions = new List<Vector3>();
