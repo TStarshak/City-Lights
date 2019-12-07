@@ -11,6 +11,7 @@ public class CityController : MonoBehaviour
     [SerializeField] private string forestScene;
     [SerializeField] private GameObject gameIntroduction;
     [SerializeField] private GameObject missionResults;
+    [SerializeField] private GameObject returnMessage;
     [SerializeField] private GameObject upgradeShopMenu;
 
     private Transform playerTransform;
@@ -26,10 +27,13 @@ public class CityController : MonoBehaviour
         if (PlayerProgress.Instance.firstTimeInCity()) {
             gameIntroduction.SetActive(true);
         }
-        else {
+        else if (PlayerProgress.Instance.isReturningFromForest()){
             missionResults.SetActive(true);
+            PlayerProgress.Instance.returningFromForest = false;
         }
-
+        else {
+            returnMessage.SetActive(true);
+        }
         playerTransform = player.transform;
     }
 

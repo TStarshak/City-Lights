@@ -420,6 +420,13 @@ MonoBehaviour:
     type: 3}
   tiltedCube: {fileID: 277686659169178108, guid: 57c1879e22bff134592dedb8e1111c3f,
     type: 3}
+  landmarks:
+  - {fileID: 2652136002852251887, guid: 86d9e76cb5c41204e9d3ef3a83dff4cc, type: 3}
+  - {fileID: 2757931481631745215, guid: b2a01b7fe63bafd46a9b5d4e2e8cf609, type: 3}
+  - {fileID: 7369774494656709350, guid: 669367f546077504886f57acfe5e6f8e, type: 3}
+  - {fileID: 2888182515249603207, guid: d874a00c08897504bb9e6f4a8d0b4e7c, type: 3}
+  - {fileID: 773750488508936880, guid: f4b4ab376917e3a41bd68f9e6cacb32d, type: 3}
+  landmarkData: []
 --- !u!224 &53711756 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 8200335187170367813, guid: 7318cb11bbae1da4eaa7516780b148e3,
@@ -7919,6 +7926,11 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 0.6
       objectReference: {fileID: 0}
+    - target: {fileID: 4914273226450994577, guid: 7318cb11bbae1da4eaa7516780b148e3,
+        type: 3}
+      propertyPath: m_Name
+      value: PlayerLight
+      objectReference: {fileID: 0}
     - target: {fileID: 102886255569621850, guid: 7318cb11bbae1da4eaa7516780b148e3,
         type: 3}
       propertyPath: m_Radius
@@ -8214,11 +8226,6 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 356e098c08b3c19409e70e1c63a5ca52, type: 2}
-    - target: {fileID: 4914273226450994577, guid: 7318cb11bbae1da4eaa7516780b148e3,
-        type: 3}
-      propertyPath: m_Name
-      value: PlayerLight
-      objectReference: {fileID: 0}
     - target: {fileID: 102886256556719387, guid: 7318cb11bbae1da4eaa7516780b148e3,
         type: 3}
       propertyPath: m_UseGravity

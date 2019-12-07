@@ -37,7 +37,7 @@ public class snailWalk : MonoBehaviour
         {
             if (mushroom == null)
             {
-                Destroy(this);
+                Destroy(this.gameObject);
             }
             if (direction && currentAngle > 360f)
             {

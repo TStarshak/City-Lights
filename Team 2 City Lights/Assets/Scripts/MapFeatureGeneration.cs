@@ -120,13 +120,15 @@ public class MapFeatureGeneration : MonoBehaviour
                     if (attemptCount != 0)
                     {
                         Physics.Raycast(new Vector3(groundItem.transform.position.x + (0.9f * Mathf.Cos(randomAngle)), 20f, groundItem.transform.position.z + (0.9f * Mathf.Sin(randomAngle))), -Vector3.up, out hit);
-                        GameObject snail;
+                        GameObject snail = null;
                         float randAngle = Random.Range(0, 360);
-                        snail = Instantiate((GameObject)Resources.Load("Prefabs/snail", typeof(GameObject)), new Vector3(groundItem.transform.position.x + (0.9f * Mathf.Cos(randomAngle)), groundItem.transform.position.y + 0.01f, groundItem.transform.position.z + (0.9f * Mathf.Sin(randomAngle))), new Quaternion(0f, 0f, 0f, 0f));
-                        snail.transform.RotateAround(snail.transform.position, Vector3.up, randAngle);
-                        snail.GetComponent<snailWalk>().mushroom = groundItem;
-                        snail.GetComponent<snailWalk>().currentAngle = randAngle;
-                        snails.Add(snail);
+                        //snail = Instantiate((GameObject)Resources.Load("Prefabs/snail", typeof(GameObject)), new Vector3(groundItem.transform.position.x + (0.9f * Mathf.Cos(randomAngle)), groundItem.transform.position.y + 0.01f, groundItem.transform.position.z + (0.9f * Mathf.Sin(randomAngle))), new Quaternion(0f, 0f, 0f, 0f));
+                        if (snail != null && snail.GetComponent<snailWalk>().mushroom != null) {
+                            snail.transform.RotateAround(snail.transform.position, Vector3.up, randAngle);
+                            snail.GetComponent<snailWalk>().mushroom = groundItem;
+                            snail.GetComponent<snailWalk>().currentAngle = randAngle;
+                            snails.Add(snail);
+                        }
                     }
                 }
             }
