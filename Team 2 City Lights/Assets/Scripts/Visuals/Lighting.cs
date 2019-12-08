@@ -66,7 +66,7 @@ public class Lighting : MonoBehaviour
         }
         else
         {
-            if (PlayerState.localPlayerData.inDangerState)
+            if (PlayerState.isInDangerState)
                 PlayerState.playerDeath();
             else
                 PlayerState.dangerState();

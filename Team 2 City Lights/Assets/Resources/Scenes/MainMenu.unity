@@ -1615,6 +1615,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8259127795511279626, guid: b2b1810b881170740b9f09cfd59e6e1b,
+        type: 3}
+      propertyPath: resetData
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b2b1810b881170740b9f09cfd59e6e1b, type: 3}
 --- !u!1 &1746484006
@@ -1908,6 +1913,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 7971056022816803307}
     m_Modifications:
+    - target: {fileID: 4937991642185912093, guid: c6e207224b35e284fb649f3bf141eb94,
+        type: 3}
+      propertyPath: m_Name
+      value: SFX Slider
+      objectReference: {fileID: 0}
     - target: {fileID: 4937991642185912094, guid: c6e207224b35e284fb649f3bf141eb94,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -2012,11 +2022,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Pivot.y
       value: 0.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 4937991642185912093, guid: c6e207224b35e284fb649f3bf141eb94,
-        type: 3}
-      propertyPath: m_Name
-      value: SFX Slider
       objectReference: {fileID: 0}
     - target: {fileID: 4937991640850745700, guid: c6e207224b35e284fb649f3bf141eb94,
         type: 3}

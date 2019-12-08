@@ -8,7 +8,7 @@ public class ReturnMessage : MonoBehaviour
     [SerializeField] private Text returntext;
     [SerializeField] private GameObject fireflyterChief;
 
-    private MissionHandler.Mission currentMission;
+    private PlayerData.Mission currentMission;
     private PlayerData playerData;
     private Button continueButton;
 

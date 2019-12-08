@@ -9,28 +9,28 @@ public class PlayerState : MonoBehaviour
     public static PlayerData localPlayerData;
 
     // References global status of player upgrades
-    public static PlayerUpgrades currentUpgrades = new PlayerUpgrades();
-
-    private MissionHandler.Mission currentMission;
+    public static PlayerUpgrades currentUpgrades;
+    public static bool isInDangerState;            // Bool to denote if the player is a hit from losing (red screen, camera shake)
 
     // At start, load data from PlayerProgress
     void OnEnable(){
         localPlayerData = new PlayerData(PlayerProgress.Instance.savedPlayerData);
+        currentUpgrades = new PlayerUpgrades(PlayerProgress.Instance.currentUpgrades);
     }
 
     void Start()
     {
-        currentMission = MissionHandler.Instance.currentMission;
+        isInDangerState = false;
     }
 
     void Update()
     {
         // Check the player's status in accomplishing their mission
-        if (localPlayerData.firefliesCollected >= currentMission.fireflyGoal)
+        if (localPlayerData.firefliesCollected >= localPlayerData.currentMission.fireflyGoal)
         {
             MissionHandler.Instance.updateMissionStatus(true);
         }
-        else if (localPlayerData.firefliesCollected < currentMission.fireflyGoal)
+        else if (localPlayerData.firefliesCollected < localPlayerData.currentMission.fireflyGoal)
         {
             MissionHandler.Instance.updateMissionStatus(false);
         }
@@ -61,7 +61,7 @@ public class PlayerState : MonoBehaviour
 
     public static void dangerState()
     {
-        localPlayerData.inDangerState = true;
+        isInDangerState = true;
         //Camera Shake
 
         //Turn Edge of player red

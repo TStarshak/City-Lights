@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+[System.Serializable]
 public class PlayerUpgrades
 {
     // Hardcoded list of default possible upgrades for the game
@@ -11,6 +12,7 @@ public class PlayerUpgrades
     private List<Skill> skills;
 
     /* An upgradeable skill of the player */
+    [System.Serializable]
     public class Skill{
         private string name;
         private float multiplier;
@@ -86,6 +88,16 @@ public class PlayerUpgrades
     {
         // Assign the list of skills to the provided custom list
         skills = upgrades;
+    }
+
+    /* Upgrades (Copy)
+     * Instantiate an upgrade framework with the intention of copying from another list of upgrades
+     */
+    public PlayerUpgrades(PlayerUpgrades upgrades){
+        skills = new List<Skill>();
+        foreach (Skill skill in upgrades.skills){
+            this.skills.Add(skill);
+        }
     }
 
     public List<Skill> GetSkills(){

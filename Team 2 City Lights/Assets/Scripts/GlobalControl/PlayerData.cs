@@ -9,10 +9,28 @@ public class PlayerData
     public float movementSpeed;         // The player's movement speed
     public float vacuLampCapacity;      // The player's current vacu-lamp capacity
     public float vacuLampRange;         // The player's current vacu-lamp range/power
-    public int firefliesCollected;    // Fireflies currently collected
-    public int firefliesInWallet;     // Firelies in wallet (not deposited and for upgrade use)
-    public bool inDangerState;         //Bool to denote if the player is a hit from losing (red screen, camera shake)
+    public int firefliesCollected;      // Fireflies currently collected
+    public int firefliesInWallet;       // Firelies in wallet (not deposited and for upgrade use)
+    public bool HasVisitedCity;         // Tracks whether the player has visited the city for the first time
+    public Mission currentMission;      // The current mission that the player is on
 
+
+    // A subclass for a mission to be assigned by the Fireflyter Chief
+    [System.Serializable]
+    public class Mission{
+
+        public int fireflyGoal;
+        public bool hasMetGoal;
+
+        public Mission(int newGoal){
+            // Set the Default firefly goal
+            fireflyGoal = newGoal;
+            // Tracks whether the player has met thee goal for this mission
+            hasMetGoal = false;
+        }
+
+    }
+    
     // Creates new stats with default values
     public PlayerData(){
         firefliesCollected = 0;
@@ -20,7 +38,8 @@ public class PlayerData
         movementSpeed = 6.0f;
         vacuLampCapacity = 20;
         vacuLampRange = 1.0f;   //Insert default range value
-        inDangerState = false;
+        HasVisitedCity = false;
+        currentMission = new Mission(10);
     }
 
     // Creates new stats from a copy of other stats
@@ -30,6 +49,7 @@ public class PlayerData
         movementSpeed = oldStatistics.movementSpeed;
         vacuLampCapacity = oldStatistics.vacuLampCapacity;
         vacuLampRange = oldStatistics.vacuLampRange;
-        inDangerState = false;
+        HasVisitedCity = oldStatistics.HasVisitedCity;
+        currentMission = oldStatistics.currentMission;
     }
 }
