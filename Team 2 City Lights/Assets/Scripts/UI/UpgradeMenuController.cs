@@ -61,44 +61,52 @@ public class UpgradeMenuController : MonoBehaviour
     }
 
     // Manages the enabling/disabling and the text content of a button and its associated skill
-    void ButtonHandler(Button upgradeButton, PlayerUpgrades.Skill skill, Text priceText){
-        if (Economy.CanAffordSkill(PlayerState.localPlayerData, skill)){
-            // Enable button and show purchasable price color
-            upgradeButton.interactable = true;
-            priceText.color = new Color(255, 243, 42);
-        }
-        else {
-            if (skill.isUpgradeable()){
+    void ButtonHandler(Button upgradeButton, PlayerUpgrades.Skill skill, Text priceText){        
+        if (skill.isUpgradeable()){
+            if (Economy.CanAffordSkill(PlayerState.localPlayerData, skill)){
+                // Enable button and show purchasable price color
+                upgradeButton.interactable = true;
+                priceText.color = new Color(255, 243, 42);
+            }
+            else {
                 // Disable button and change text color if unaffordable
                 priceText.color = new Color(250, 84, 82);
                 upgradeButton.interactable = false;
             }
-            else {
-                // Skill is maxed and does not have a cost
-                upgradeButton.interactable = false;
-                priceText.color = new Color(250, 84, 82);
-                capacityUpgradePrice.text = "Skill is Maxed";
-            }
+        }
+        else {
+            // Disable button, Skill is maxed and does not have a cost
+            upgradeButton.interactable = false;
+            priceText.color = new Color(250, 84, 82);
+            priceText.text = "Skill is Maxed";
         }
     }
 
     void UpgradeCapacity(){
         UpgradeSkill(vaculampCapacity, capacityUpgradePrice);
+        // Resets the button animations
+        capacityUpgradeButton.enabled = false;
+        capacityUpgradeButton.enabled = true;
     }
 
     void UpgradeSpeed(){
         UpgradeSkill(playerSpeed, speedUpgradePrice);
+        // Resets the button animations
+        speedUpgradeButton.enabled = false;
+        speedUpgradeButton.enabled = true;
     }
 
     void UpgradeRange(){
         UpgradeSkill(vaculampRange, rangeUpgradePrice);
+        // Resets the button animations
+        rangeUpgradeButton.enabled = false;
+        rangeUpgradeButton.enabled = true;
     }
 
     // Upgrades the player's given skill and displayed price
     private void UpgradeSkill(PlayerUpgrades.Skill skill, Text priceText){
         PurchaseUpgrade(skill);
         priceText.text = $"{skill.getUpgradeCost()} fireflies";
-
     }
 
     // Purchases a provided upgrade

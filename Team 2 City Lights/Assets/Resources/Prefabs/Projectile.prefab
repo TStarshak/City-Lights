@@ -27,13 +27,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3858338571568173712}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: 0.7071068, y: 0, z: 0, w: 0.7071068}
   m_LocalPosition: {x: 7.420642, y: 6.1885276, z: 12.118552}
-  m_LocalScale: {x: 1.5, y: 1.5, z: 1.5}
+  m_LocalScale: {x: 2, y: 2, z: 2}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
 --- !u!136 &2211355256615412114
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -44,8 +44,8 @@ CapsuleCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 1
   m_Enabled: 1
-  m_Radius: 0.5
-  m_Height: 2
+  m_Radius: 0.25
+  m_Height: 0.25
   m_Direction: 1
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &887521227969652600
@@ -62,7 +62,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   pExplosion: {fileID: 0}
   soundExplosion: {fileID: 0}
-  player: {fileID: 0}
+  player: {fileID: 8200335187170367813, guid: 7318cb11bbae1da4eaa7516780b148e3, type: 3}
 --- !u!54 &2066968858674880740
 Rigidbody:
   m_ObjectHideFlags: 0

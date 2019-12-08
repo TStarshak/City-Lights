@@ -7,14 +7,15 @@ using UnityEngine.SceneManagement;
 public class SceneController : MonoBehaviour
 {
     public static SceneController Instance;
-    public static Scene currentScene; //The Current Loaded Scene
+    public static Scene currentScene;   //The Current Loaded Scene
+    
+    public Scene previousScene;          // The previously loaded scene
 
     // Called upon object creation
     void Awake()
     {
         // Retrieve the currently active scene as the initial scene
-        currentScene = SceneManager.GetActiveScene();
-
+        currentScene = previousScene = SceneManager.GetActiveScene();
         // Instantiate this tracker if none exists yet and keep game object alive
         if (Instance == null){
             DontDestroyOnLoad(gameObject);
@@ -36,19 +37,22 @@ public class SceneController : MonoBehaviour
         currentScene = SceneManager.GetSceneByName("MainMenu");
     }
 
+    // Load a given scene and automatically save progress
     public static void LoadScene(string scene){
         PlayerState.SavePlayer();
+        if (currentScene.name == "PrototypeScene") {PlayerProgress.Instance.returningFromForest = true;}
+        // SaveSystem.SavePlayer(PlayerProgress.Instance);
         Instance.InitLoadingScene(scene);
         currentScene = SceneManager.GetSceneByName(scene);
     }
 
-    // Destroy the game manager and reset the player's current progress
-    public void ResetGame(){
-        PlayerProgress.Instance = new PlayerProgress();
+    public string previousSceneName(){
+        return previousScene.name;
     }
 
     // Displays the loading screen and begins loading the next scene in the background
     void InitLoadingScene(string nextScene){
+        Instance.previousScene = currentScene;
         SceneManager.LoadScene("LoadingScreen");
         //Start asyncOperation
         StartCoroutine(LoadAsyncScene(nextScene));

@@ -17,9 +17,13 @@ public class PlayerState : MonoBehaviour
 
 
     // At start, load data from PlayerProgress
+<<<<<<< HEAD
     void Awake()
     {
         hasDied = false;
+=======
+    void OnEnable(){
+>>>>>>> 56f1af73173aaf9d22bdefcc464d015ca651e53e
         localPlayerData = new PlayerData(PlayerProgress.Instance.savedPlayerData);
     }
 

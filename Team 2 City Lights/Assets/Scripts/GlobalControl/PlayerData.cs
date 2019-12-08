@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+[System.Serializable]
 /* Keeps track of global Player numeric values. Represents a Serializable Class */
 public class PlayerData
 {
