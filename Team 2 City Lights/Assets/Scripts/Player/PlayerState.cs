@@ -65,7 +65,9 @@ public class PlayerState : MonoBehaviour
     public static void dangerState()
     {
         if (localPlayerData.inDangerState)
+        {
             localPlayerData.isDead = true;
+        }
         else
         {
             localPlayerData.inDangerState = true;

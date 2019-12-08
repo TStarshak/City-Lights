@@ -8,6 +8,7 @@ public class PlayerAnimation : MonoBehaviour
     private SpriteRenderer render;
     private bool vacuum;
     private PlayerData playerData;
+    private GameObject player;
     // Start is called before the first frame update
     void Start()
     {
@@ -22,6 +23,11 @@ public class PlayerAnimation : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if (PlayerState.localPlayerData.inDangerState)
+        {
+            player = GameObject.FindGameObjectWithTag("Player");
+            player.GetComponent<SpriteRenderer>().material.SetColor(0,Color.red);
+        }
         if (Input.GetKey(KeyCode.W) || Input.GetKey(KeyCode.A) || Input.GetKey(KeyCode.S) || Input.GetKey(KeyCode.D) && !playerData.isDead)
         {
             if (!vacuum)
