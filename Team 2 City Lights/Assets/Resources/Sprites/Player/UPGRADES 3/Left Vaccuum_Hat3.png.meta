@@ -1,12 +1,102 @@
 fileFormatVersion: 2
 guid: ca495b3903e626e45ab6e64729228763
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: -1183683215495651154
+    second: Left Vaccuum_Hat3_0
+  - first:
+      213: 7940163578476433076
+    second: Left Vaccuum_Hat3_1
+  - first:
+      213: -7948711168869446293
+    second: Left Vaccuum_Hat3_2
+  - first:
+      213: -7682057924954085249
+    second: Left Vaccuum_Hat3_3
+  - first:
+      213: 8186981664164435289
+    second: Left Vaccuum_Hat3_4
+  - first:
+      213: 2126495012454126041
+    second: Left Vaccuum_Hat3_5
+  - first:
+      213: -7355269824635329100
+    second: Left Vaccuum_Hat3_6
+  - first:
+      213: 7265448008744336738
+    second: Left Vaccuum_Hat3_7
+  - first:
+      213: 370205971160641924
+    second: Left Vaccuum_Hat3_8
+  - first:
+      213: -7829114775774873316
+    second: Left Vaccuum_Hat3_9
+  - first:
+      213: -3214062780271741885
+    second: Left Vaccuum_Hat3_10
+  - first:
+      213: -5264740745643730981
+    second: Left Vaccuum_Hat3_11
+  - first:
+      213: -6144381158052237703
+    second: Left Vaccuum_Hat3_12
+  - first:
+      213: -2076664662610176606
+    second: Left Vaccuum_Hat3_13
+  - first:
+      213: 2650800871997440403
+    second: Left Vaccuum_Hat3_14
+  - first:
+      213: 845126375755862673
+    second: Left Vaccuum_Hat3_15
+  - first:
+      213: 4789667710044984926
+    second: Left Vaccuum_Hat3_16
+  - first:
+      213: 5330522034245771112
+    second: Left Vaccuum_Hat3_17
+  - first:
+      213: -473369223150976429
+    second: Left Vaccuum_Hat3_18
+  - first:
+      213: -5296993088301397610
+    second: Left Vaccuum_Hat3_19
+  - first:
+      213: -3202546286099287596
+    second: Left Vaccuum_Hat3_20
+  - first:
+      213: 4850808556265294952
+    second: Left Vaccuum_Hat3_21
+  - first:
+      213: -2204524409596920804
+    second: Left Vaccuum_Hat3_22
+  - first:
+      213: 5529606208868393709
+    second: Left Vaccuum_Hat3_23
+  - first:
+      213: 2559438336099081549
+    second: Left Vaccuum_Hat3_24
+  - first:
+      213: -7075046485058816128
+    second: Left Vaccuum_Hat3_25
+  - first:
+      213: -3954917872020041050
+    second: Left Vaccuum_Hat3_26
+  - first:
+      213: 7578250057945915313
+    second: Left Vaccuum_Hat3_27
+  - first:
+      213: 7184147137755731224
+    second: Left Vaccuum_Hat3_28
+  - first:
+      213: -8725419716621435558
+    second: Left Vaccuum_Hat3_29
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
     mipMapMode: 0
-    enableMipMap: 1
+    enableMipMap: 0
     sRGBTexture: 1
     linearTexture: 0
     fadeOut: 0
@@ -34,24 +124,24 @@ TextureImporter:
     filterMode: -1
     aniso: -1
     mipBias: -100
-    wrapU: -1
-    wrapV: -1
+    wrapU: 1
+    wrapV: 1
     wrapW: -1
-  nPOTScale: 1
+  nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 0
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 32
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
-  alphaIsTransparency: 0
+  alphaIsTransparency: 1
   spriteTessellationDetail: -1
-  textureType: 0
+  textureType: 8
   textureShape: 1
   singleChannelComponent: 0
   maxTextureSizeSet: 0
@@ -70,13 +160,667 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Left Vaccuum_Hat3_0
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 972
+        width: 274
+        height: 282
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5efef97b1fdadf44e87b37abf71fa552
+      internalID: -1183683215495651154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Left Vaccuum_Hat3_1
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 974
+        width: 272
+        height: 279
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9290550a756441843a5c271cb29a0582
+      internalID: 7940163578476433076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Left Vaccuum_Hat3_2
+      rect:
+        serializedVersion: 2
+        x: 631
+        y: 975
+        width: 268
+        height: 279
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9af45601cd11a64c92ee0e0044e9a84
+      internalID: -7948711168869446293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Left Vaccuum_Hat3_3
+      rect:
+        serializedVersion: 2
+        x: 940
+        y: 975
+        width: 265
+        height: 278
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7caef9d9556a5c74f90a81024fe1c7c3
+      internalID: -7682057924954085249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Left Vaccuum_Hat3_4
+      rect:
+        serializedVersion: 2
+        x: 1248
+        y: 976
+        width: 262
+        height: 277
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbdf4497211c3804bae6f354ec08cad0
+      internalID: 8186981664164435289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Left Vaccuum_Hat3_5
+      rect:
+        serializedVersion: 2
+        x: 1557
+        y: 978
+        width: 259
+        height: 275
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fcf17a6900e29f540a0903425f3d78df
+      internalID: 2126495012454126041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Left Vaccuum_Hat3_6
+      rect:
+        serializedVersion: 2
+        x: 1866
+        y: 979
+        width: 255
+        height: 274
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1391c864dd1fe0498188ece5215cad7
+      internalID: -7355269824635329100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Left Vaccuum_Hat3_7
+      rect:
+        serializedVersion: 2
+        x: 2175
+        y: 980
+        width: 250
+        height: 272
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d32d99ef4fef02049b6f0a1d95945120
+      internalID: 7265448008744336738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Left Vaccuum_Hat3_8
+      rect:
+        serializedVersion: 2
+        x: 2483
+        y: 980
+        width: 245
+        height: 270
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee5eb7729cdf5b748b31eec51da4e4ae
+      internalID: 370205971160641924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Left Vaccuum_Hat3_9
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 688
+        width: 239
+        height: 265
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98db38fff34931a47a33c08041ad3bd8
+      internalID: -7829114775774873316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Left Vaccuum_Hat3_10
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 688
+        width: 233
+        height: 265
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d846e9683e34b79499afd3fe8de43684
+      internalID: -3214062780271741885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Left Vaccuum_Hat3_11
+      rect:
+        serializedVersion: 2
+        x: 646
+        y: 689
+        width: 226
+        height: 264
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51e85d0639ff95c4882725bc27df8c1f
+      internalID: -5264740745643730981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Left Vaccuum_Hat3_12
+      rect:
+        serializedVersion: 2
+        x: 955
+        y: 689
+        width: 220
+        height: 264
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc644045ac83b234f86ef2e422bd0c36
+      internalID: -6144381158052237703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Left Vaccuum_Hat3_13
+      rect:
+        serializedVersion: 2
+        x: 1265
+        y: 689
+        width: 218
+        height: 264
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 888cd2851a082ab48ab78d49c204c38e
+      internalID: -2076664662610176606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Left Vaccuum_Hat3_14
+      rect:
+        serializedVersion: 2
+        x: 1570
+        y: 686
+        width: 222
+        height: 267
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ddcf243a82ae96e4ebeea9cec80e6450
+      internalID: 2650800871997440403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Left Vaccuum_Hat3_15
+      rect:
+        serializedVersion: 2
+        x: 1877
+        y: 685
+        width: 224
+        height: 268
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77865af62f9471b40b6c13ce7d5aef86
+      internalID: 845126375755862673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Left Vaccuum_Hat3_16
+      rect:
+        serializedVersion: 2
+        x: 2183
+        y: 683
+        width: 227
+        height: 270
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 479d13a2c8b57dc4bb71ce02fe5e179e
+      internalID: 4789667710044984926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Left Vaccuum_Hat3_17
+      rect:
+        serializedVersion: 2
+        x: 2489
+        y: 682
+        width: 228
+        height: 271
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60f2901ad6ae36b49a2c16efc8049cc7
+      internalID: 5330522034245771112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Left Vaccuum_Hat3_18
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 387
+        width: 229
+        height: 271
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db88386f972f0be46be18d974c7d0c25
+      internalID: -473369223150976429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Left Vaccuum_Hat3_19
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 385
+        width: 232
+        height: 274
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f104395c75bfd1b44a6d12abac8f4fb2
+      internalID: -5296993088301397610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Left Vaccuum_Hat3_20
+      rect:
+        serializedVersion: 2
+        x: 647
+        y: 385
+        width: 235
+        height: 274
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20571a4efcbfc5340a340183e8e0e282
+      internalID: -3202546286099287596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Left Vaccuum_Hat3_21
+      rect:
+        serializedVersion: 2
+        x: 956
+        y: 385
+        width: 235
+        height: 274
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0493c5e4620063f45bfe1aae7055905d
+      internalID: 4850808556265294952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Left Vaccuum_Hat3_22
+      rect:
+        serializedVersion: 2
+        x: 1265
+        y: 385
+        width: 236
+        height: 275
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8281b13f33b9f542927dcf1cde41a0a
+      internalID: -2204524409596920804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Left Vaccuum_Hat3_23
+      rect:
+        serializedVersion: 2
+        x: 1569
+        y: 385
+        width: 241
+        height: 277
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a48fbfba6f8fb5e4da88a494fdf405a3
+      internalID: 5529606208868393709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Left Vaccuum_Hat3_24
+      rect:
+        serializedVersion: 2
+        x: 1871
+        y: 384
+        width: 249
+        height: 278
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e081eb677b1a8664eb0d6e1b5ad3bad1
+      internalID: 2559438336099081549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Left Vaccuum_Hat3_25
+      rect:
+        serializedVersion: 2
+        x: 2175
+        y: 384
+        width: 254
+        height: 278
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32318d36a5273ae47a700623a9a4d899
+      internalID: -7075046485058816128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Left Vaccuum_Hat3_26
+      rect:
+        serializedVersion: 2
+        x: 2479
+        y: 384
+        width: 260
+        height: 278
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb078aa1d7b3b1f489b40861882c1407
+      internalID: -3954917872020041050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Left Vaccuum_Hat3_27
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 88
+        width: 266
+        height: 280
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d42a6af6ed6cb9241badd18045bdc5c8
+      internalID: 7578250057945915313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Left Vaccuum_Hat3_28
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 88
+        width: 271
+        height: 280
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72bac59dcd0465548a31d5800278ef5e
+      internalID: 7184147137755731224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Left Vaccuum_Hat3_29
+      rect:
+        serializedVersion: 2
+        x: 628
+        y: 87
+        width: 275
+        height: 282
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0466b116b24ab443a22f6d0cc102b6e
+      internalID: -8725419716621435558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 840aa25f0425b2d43b627e43365540cb
     internalID: 0
     vertices: []
     indices: 

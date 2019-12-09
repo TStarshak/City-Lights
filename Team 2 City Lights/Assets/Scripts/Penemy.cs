@@ -27,45 +27,47 @@ public class Penemy : MonoBehaviour
     // Start is called before the first frame update
     void Update()
     {
-        this.transform.rotation = rot;
-        //timer for spawn
-        elapsedTime += Time.deltaTime;
-
-        if (elapsedTime > secondsBetweenSpawn) 
+        if (!PlayerState.localPlayerData.isDead)
         {
-            elapsedTime = 0;
-            Instantiate(Projectile, transform.position, transform.rotation );
-            anim.SetTrigger("Attack");
-        }
+            this.transform.rotation = rot;
+            //timer for spawn
+            elapsedTime += Time.deltaTime;
 
-        float distance = Vector3.Distance(transform.position, Player.transform.position);
-
-        if (distance > activationDistance)
-        {
-            Vector3 dirToPlayer = transform.position - Player.transform.position;
-
-            Vector3 newPos = transform.position - dirToPlayer;
-            
-            pMesh.SetDestination(newPos);
-            float xPos = dirToPlayer.x;
-            if (xPos > 0 && lookRight)
+            if (elapsedTime > secondsBetweenSpawn)
             {
-                lookRight = false;
-                rend.flipX = false;
-            }
-            else if (xPos < 0 && !lookRight)
-            {
-                lookRight = true;
-                rend.flipX = true;
+                elapsedTime = 0;
+                Instantiate(Projectile, transform.position, transform.rotation);
+                anim.SetTrigger("Attack");
             }
 
-        }
-        else
-        {
-            pMesh.SetDestination(transform.position);
+            float distance = Vector3.Distance(transform.position, Player.transform.position);
+
+            if (distance > activationDistance)
+            {
+                Vector3 dirToPlayer = transform.position - Player.transform.position;
+
+                Vector3 newPos = transform.position - dirToPlayer;
+
+                pMesh.SetDestination(newPos);
+                float xPos = dirToPlayer.x;
+                if (xPos > 0 && lookRight)
+                {
+                    lookRight = false;
+                    rend.flipX = false;
+                }
+                else if (xPos < 0 && !lookRight)
+                {
+                    lookRight = true;
+                    rend.flipX = true;
+                }
+
+            }
+            else
+            {
+                pMesh.SetDestination(transform.position);
+            }
         }
     }
-
 }
 
 

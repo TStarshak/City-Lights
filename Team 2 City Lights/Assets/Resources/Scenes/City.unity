@@ -1462,6 +1462,11 @@ PrefabInstance:
       propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4961978566878747787, guid: 7318cb11bbae1da4eaa7516780b148e3,
+        type: 3}
+      propertyPath: m_FlipX
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8894101309360991308, guid: 7318cb11bbae1da4eaa7516780b148e3,
         type: 3}
       propertyPath: m_LocalPosition.y
@@ -5176,8 +5181,8 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 1230822118}
-    m_RemovedComponents:
-    - {fileID: 7581465601199693396, guid: 5280b0edfcc264943b2586693f5db2a9, type: 3}
+    m_RemovedComponents: [{fileID: 7581465601199693396, guid: 5280b0edfcc264943b2586693f5db2a9,
+        type: 3}]
   m_SourcePrefab: {fileID: 100100000, guid: 5280b0edfcc264943b2586693f5db2a9, type: 3}
 --- !u!1 &1481455621
 GameObject:

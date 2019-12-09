@@ -11,6 +11,10 @@ public class PlayerState : MonoBehaviour
     // References global status of player upgrades
     public static PlayerUpgrades currentUpgrades;
     public static bool isInDangerState;            // Bool to denote if the player is a hit from losing (red screen, camera shake)
+    
+
+    private bool hasDied = false;
+
 
     // At start, load data from PlayerProgress
     void OnEnable(){
@@ -20,6 +24,7 @@ public class PlayerState : MonoBehaviour
 
     void Start()
     {
+        hasDied = false;
         isInDangerState = false;
     }
 
@@ -33,6 +38,12 @@ public class PlayerState : MonoBehaviour
         else if (localPlayerData.firefliesCollected < localPlayerData.currentMission.fireflyGoal)
         {
             MissionHandler.Instance.updateMissionStatus(false);
+        }
+        if (localPlayerData.isDead && !hasDied)
+        {
+            hasDied = true;
+            StartCoroutine(Death());
+
         }
     }
 
@@ -50,21 +61,30 @@ public class PlayerState : MonoBehaviour
         localPlayerData.vacuLampRange = currentUpgrades.skillByName("vlrange").getMultiplier();
     }
 
-    public static void playerDeath()
+    public static void dangerState()
+    {
+        if (localPlayerData.inDangerState)
+        {
+            localPlayerData.isDead = true;
+        }
+        else
+        {
+            localPlayerData.inDangerState = true;
+            //Camera Shake
+
+            //Turn Edge of player red
+        }
+    }
+
+    IEnumerator Death()
     {
         Animator anim = GameObject.FindGameObjectWithTag("Player").GetComponent<Animator>();
         anim.SetTrigger("Death");
         //After playing the animation, move to the city
         Debug.Log("DEATH");
-        
-    }
+        yield return new WaitForSeconds(3f);
 
-    public static void dangerState()
-    {
-        isInDangerState = true;
-        //Camera Shake
-
-        //Turn Edge of player red
-
+        SceneController.LoadScene("City");
+        yield return null;
     }
 }

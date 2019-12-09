@@ -1,12 +1,210 @@
 fileFormatVersion: 2
 guid: c4cea39593a5bdc4ab32dc44578ad90a
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: -6492792435513695614
+    second: Character Animations_Idle_hat4_0
+  - first:
+      213: 2567585615353779063
+    second: Character Animations_Idle_hat4_1
+  - first:
+      213: -6995143355186131885
+    second: Character Animations_Idle_hat4_2
+  - first:
+      213: -1566573888152738375
+    second: Character Animations_Idle_hat4_3
+  - first:
+      213: 2292359719234884489
+    second: Character Animations_Idle_hat4_4
+  - first:
+      213: -3490121488697812327
+    second: Character Animations_Idle_hat4_5
+  - first:
+      213: 6174162392259354033
+    second: Character Animations_Idle_hat4_6
+  - first:
+      213: 1355774143337724949
+    second: Character Animations_Idle_hat4_7
+  - first:
+      213: 8526000419160388509
+    second: Character Animations_Idle_hat4_8
+  - first:
+      213: -3960076014744390790
+    second: Character Animations_Idle_hat4_9
+  - first:
+      213: -2230173659115203977
+    second: Character Animations_Idle_hat4_10
+  - first:
+      213: -3536912993098499711
+    second: Character Animations_Idle_hat4_11
+  - first:
+      213: 7736917037415378871
+    second: Character Animations_Idle_hat4_12
+  - first:
+      213: 5525572891107607540
+    second: Character Animations_Idle_hat4_13
+  - first:
+      213: -81891603742835361
+    second: Character Animations_Idle_hat4_14
+  - first:
+      213: -2143135588088814774
+    second: Character Animations_Idle_hat4_15
+  - first:
+      213: -943152385434350070
+    second: Character Animations_Idle_hat4_16
+  - first:
+      213: 2836540122391650217
+    second: Character Animations_Idle_hat4_17
+  - first:
+      213: -1873683089035108009
+    second: Character Animations_Idle_hat4_18
+  - first:
+      213: -5358673988335077309
+    second: Character Animations_Idle_hat4_19
+  - first:
+      213: -7629210822344037134
+    second: Character Animations_Idle_hat4_20
+  - first:
+      213: -6626260197555359988
+    second: Character Animations_Idle_hat4_21
+  - first:
+      213: 6087262659952184006
+    second: Character Animations_Idle_hat4_22
+  - first:
+      213: -8724253330660895773
+    second: Character Animations_Idle_hat4_23
+  - first:
+      213: -1914728902993429339
+    second: Character Animations_Idle_hat4_24
+  - first:
+      213: 7355886060758809917
+    second: Character Animations_Idle_hat4_25
+  - first:
+      213: 1271949834194832742
+    second: Character Animations_Idle_hat4_26
+  - first:
+      213: -1159596882235084787
+    second: Character Animations_Idle_hat4_27
+  - first:
+      213: 5225025521764885660
+    second: Character Animations_Idle_hat4_28
+  - first:
+      213: -7751654239327335743
+    second: Character Animations_Idle_hat4_29
+  - first:
+      213: -7777829596808213216
+    second: Character Animations_Idle_hat4_30
+  - first:
+      213: -4602532614105172092
+    second: Character Animations_Idle_hat4_31
+  - first:
+      213: 5405038490431167944
+    second: Character Animations_Idle_hat4_32
+  - first:
+      213: 1809966831344025833
+    second: Character Animations_Idle_hat4_33
+  - first:
+      213: 6124213358568408811
+    second: Character Animations_Idle_hat4_34
+  - first:
+      213: -719473377817479304
+    second: Character Animations_Idle_hat4_35
+  - first:
+      213: -6233847392494276147
+    second: Character Animations_Idle_hat4_36
+  - first:
+      213: 7146989154572199356
+    second: Character Animations_Idle_hat4_37
+  - first:
+      213: -827340278734669604
+    second: Character Animations_Idle_hat4_38
+  - first:
+      213: -5660359125907923560
+    second: Character Animations_Idle_hat4_39
+  - first:
+      213: -9033132454546187668
+    second: Character Animations_Idle_hat4_40
+  - first:
+      213: 455534205103636423
+    second: Character Animations_Idle_hat4_41
+  - first:
+      213: -8090734541185519309
+    second: Character Animations_Idle_hat4_42
+  - first:
+      213: -6405396213738909487
+    second: Character Animations_Idle_hat4_43
+  - first:
+      213: 1775153910784871164
+    second: Character Animations_Idle_hat4_44
+  - first:
+      213: 7206419511330783088
+    second: Character Animations_Idle_hat4_45
+  - first:
+      213: -8701878771229562754
+    second: Character Animations_Idle_hat4_46
+  - first:
+      213: 6705128063258756173
+    second: Character Animations_Idle_hat4_47
+  - first:
+      213: 8219283832897510301
+    second: Character Animations_Idle_hat4_48
+  - first:
+      213: 2102661774632210587
+    second: Character Animations_Idle_hat4_49
+  - first:
+      213: -5914671196470351000
+    second: Character Animations_Idle_hat4_50
+  - first:
+      213: 3876360140498003963
+    second: Character Animations_Idle_hat4_51
+  - first:
+      213: -1322883847720908082
+    second: Character Animations_Idle_hat4_52
+  - first:
+      213: -802243065779537078
+    second: Character Animations_Idle_hat4_53
+  - first:
+      213: 7237545312759747914
+    second: Character Animations_Idle_hat4_54
+  - first:
+      213: 2157889387571298254
+    second: Character Animations_Idle_hat4_55
+  - first:
+      213: -6128151519905737448
+    second: Character Animations_Idle_hat4_56
+  - first:
+      213: -2605661090373600781
+    second: Character Animations_Idle_hat4_57
+  - first:
+      213: -518962382210182014
+    second: Character Animations_Idle_hat4_58
+  - first:
+      213: -4309120362719415458
+    second: Character Animations_Idle_hat4_59
+  - first:
+      213: 9173628290075975368
+    second: Character Animations_Idle_hat4_60
+  - first:
+      213: -8285788333174546252
+    second: Character Animations_Idle_hat4_61
+  - first:
+      213: -2718265629054671917
+    second: Character Animations_Idle_hat4_62
+  - first:
+      213: 4213874569681741427
+    second: Character Animations_Idle_hat4_63
+  - first:
+      213: 2963644380628397691
+    second: Character Animations_Idle_hat4_64
+  - first:
+      213: -8576627642229759162
+    second: Character Animations_Idle_hat4_65
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
     mipMapMode: 0
-    enableMipMap: 1
+    enableMipMap: 0
     sRGBTexture: 1
     linearTexture: 0
     fadeOut: 0
@@ -34,24 +232,24 @@ TextureImporter:
     filterMode: -1
     aniso: -1
     mipBias: -100
-    wrapU: -1
-    wrapV: -1
+    wrapU: 1
+    wrapV: 1
     wrapW: -1
-  nPOTScale: 1
+  nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 0
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 32
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
-  alphaIsTransparency: 0
+  alphaIsTransparency: 1
   spriteTessellationDetail: -1
-  textureType: 0
+  textureType: 8
   textureShape: 1
   singleChannelComponent: 0
   maxTextureSizeSet: 0
@@ -70,13 +268,1423 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Character Animations_Idle_hat4_0
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 2515
+        width: 256
+        height: 271
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3c226fe2cde74348a55565ff726403b
+      internalID: -6492792435513695614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character Animations_Idle_hat4_1
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 2515
+        width: 257
+        height: 271
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b421f71f7e894149bc226d344d45d6c
+      internalID: 2567585615353779063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character Animations_Idle_hat4_2
+      rect:
+        serializedVersion: 2
+        x: 607
+        y: 2515
+        width: 257
+        height: 272
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c9a8c357da22f348af244f7b2be7312
+      internalID: -6995143355186131885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character Animations_Idle_hat4_3
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 2515
+        width: 259
+        height: 271
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a8c5df219ce0894e841c3606f4d0f7e
+      internalID: -1566573888152738375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character Animations_Idle_hat4_4
+      rect:
+        serializedVersion: 2
+        x: 1194
+        y: 2516
+        width: 260
+        height: 270
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85ad24a59611da941b0f197112e82743
+      internalID: 2292359719234884489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character Animations_Idle_hat4_5
+      rect:
+        serializedVersion: 2
+        x: 1488
+        y: 2516
+        width: 259
+        height: 270
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4c49db80872082479182ed0b4eed3f0
+      internalID: -3490121488697812327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character Animations_Idle_hat4_6
+      rect:
+        serializedVersion: 2
+        x: 1781
+        y: 2516
+        width: 262
+        height: 270
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ddc62840c50e91247adca337775faa7b
+      internalID: 6174162392259354033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character Animations_Idle_hat4_7
+      rect:
+        serializedVersion: 2
+        x: 2076
+        y: 2516
+        width: 261
+        height: 270
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b7b43be174b974469353780621025cd
+      internalID: 1355774143337724949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character Animations_Idle_hat4_8
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 2222
+        width: 263
+        height: 270
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5213d9df74e2924fb2528eaa1de92da
+      internalID: 8526000419160388509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character Animations_Idle_hat4_9
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 2222
+        width: 264
+        height: 270
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf1b84ae20b8a1549985a348374aec98
+      internalID: -3960076014744390790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character Animations_Idle_hat4_10
+      rect:
+        serializedVersion: 2
+        x: 606
+        y: 2222
+        width: 261
+        height: 270
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd68267231d5db349843c636427b3e1c
+      internalID: -2230173659115203977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character Animations_Idle_hat4_11
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 2222
+        width: 261
+        height: 271
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc8b53c8dd590714899331e8c7080a48
+      internalID: -3536912993098499711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character Animations_Idle_hat4_12
+      rect:
+        serializedVersion: 2
+        x: 1194
+        y: 2222
+        width: 260
+        height: 270
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c1a24ecd72de8f43967960d5a293d0b
+      internalID: 7736917037415378871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character Animations_Idle_hat4_13
+      rect:
+        serializedVersion: 2
+        x: 1488
+        y: 2222
+        width: 260
+        height: 271
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ff124e5f8f7e3c4ea7b7a9b725d4274
+      internalID: 5525572891107607540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character Animations_Idle_hat4_14
+      rect:
+        serializedVersion: 2
+        x: 1782
+        y: 2223
+        width: 259
+        height: 269
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe3964d638bacea409242c6b69073dbc
+      internalID: -81891603742835361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character Animations_Idle_hat4_15
+      rect:
+        serializedVersion: 2
+        x: 2077
+        y: 2223
+        width: 257
+        height: 269
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7ae21303e52b834bb3c6286847bf7ea
+      internalID: -2143135588088814774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character Animations_Idle_hat4_16
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 1929
+        width: 259
+        height: 270
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd53f4be9b015824e99d1d17e4649a9d
+      internalID: -943152385434350070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character Animations_Idle_hat4_17
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 1930
+        width: 257
+        height: 269
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b2684943aa224443b7b0a09fc2cb0f2
+      internalID: 2836540122391650217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character Animations_Idle_hat4_18
+      rect:
+        serializedVersion: 2
+        x: 607
+        y: 1929
+        width: 257
+        height: 270
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a2290b4684ea8a4baa12fb65ffec79c
+      internalID: -1873683089035108009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character Animations_Idle_hat4_19
+      rect:
+        serializedVersion: 2
+        x: 901
+        y: 1929
+        width: 256
+        height: 270
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c16c927ea84dcab48b00a517fe0db935
+      internalID: -5358673988335077309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character Animations_Idle_hat4_20
+      rect:
+        serializedVersion: 2
+        x: 1196
+        y: 1929
+        width: 255
+        height: 270
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c26e631c285140489d9444ef07d7547
+      internalID: -7629210822344037134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character Animations_Idle_hat4_21
+      rect:
+        serializedVersion: 2
+        x: 1490
+        y: 1929
+        width: 256
+        height: 270
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b878f348b3521eb428cbbc4be1f58983
+      internalID: -6626260197555359988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character Animations_Idle_hat4_22
+      rect:
+        serializedVersion: 2
+        x: 1784
+        y: 1929
+        width: 256
+        height: 270
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a224318545982648bce4b5edf1678cb
+      internalID: 6087262659952184006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character Animations_Idle_hat4_23
+      rect:
+        serializedVersion: 2
+        x: 2078
+        y: 1929
+        width: 256
+        height: 270
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99a136086355a934dad17083683b6b8b
+      internalID: -8724253330660895773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character Animations_Idle_hat4_24
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 1635
+        width: 257
+        height: 270
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 250cc44eec833bf45aad3b33dbf010f2
+      internalID: -1914728902993429339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character Animations_Idle_hat4_25
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 1635
+        width: 256
+        height: 271
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7d4c9659a96fda4d80a6d15ba3b2032
+      internalID: 7355886060758809917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character Animations_Idle_hat4_26
+      rect:
+        serializedVersion: 2
+        x: 610
+        y: 1635
+        width: 254
+        height: 271
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1337a3ef4491c4a49a9ec5fbe677dcc4
+      internalID: 1271949834194832742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character Animations_Idle_hat4_27
+      rect:
+        serializedVersion: 2
+        x: 904
+        y: 1635
+        width: 256
+        height: 271
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f709afa95457de498b08ffc71ec7b1e
+      internalID: -1159596882235084787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character Animations_Idle_hat4_28
+      rect:
+        serializedVersion: 2
+        x: 1198
+        y: 1634
+        width: 256
+        height: 272
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8c50b83c98b1394daef1d4673705b0e
+      internalID: 5225025521764885660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character Animations_Idle_hat4_29
+      rect:
+        serializedVersion: 2
+        x: 1490
+        y: 1635
+        width: 258
+        height: 271
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f6dd439c0fcc12438895bfd26acd587
+      internalID: -7751654239327335743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character Animations_Idle_hat4_30
+      rect:
+        serializedVersion: 2
+        x: 1783
+        y: 1635
+        width: 260
+        height: 271
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df3a5ced174d2c0469d6c0b76a71aca8
+      internalID: -7777829596808213216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character Animations_Idle_hat4_31
+      rect:
+        serializedVersion: 2
+        x: 2076
+        y: 1635
+        width: 262
+        height: 269
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73c1e0f69b668754997a6450ee1e2a4c
+      internalID: -4602532614105172092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character Animations_Idle_hat4_32
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 1342
+        width: 265
+        height: 268
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7585ed220c8d3344a43bed06f188dab
+      internalID: 5405038490431167944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character Animations_Idle_hat4_33
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 1342
+        width: 265
+        height: 268
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31ba6a0c8918b5d4d8bbdbe649de5528
+      internalID: 1809966831344025833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character Animations_Idle_hat4_34
+      rect:
+        serializedVersion: 2
+        x: 602
+        y: 1342
+        width: 266
+        height: 268
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: caf64906233925d46913c1b59ba70f03
+      internalID: 6124213358568408811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character Animations_Idle_hat4_35
+      rect:
+        serializedVersion: 2
+        x: 893
+        y: 1343
+        width: 268
+        height: 267
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da246ca64da30a547b9d0891ac57405b
+      internalID: -719473377817479304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character Animations_Idle_hat4_36
+      rect:
+        serializedVersion: 2
+        x: 1186
+        y: 1343
+        width: 268
+        height: 267
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7bc8dd5d564842f48acd7bedfdfe5ef9
+      internalID: -6233847392494276147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character Animations_Idle_hat4_37
+      rect:
+        serializedVersion: 2
+        x: 1479
+        y: 1343
+        width: 268
+        height: 267
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a82ab9185e78cbf4c81125c6ee6247ae
+      internalID: 7146989154572199356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character Animations_Idle_hat4_38
+      rect:
+        serializedVersion: 2
+        x: 1774
+        y: 1343
+        width: 267
+        height: 267
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af80eaa4d1f275c4abcf297512571ec8
+      internalID: -827340278734669604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character Animations_Idle_hat4_39
+      rect:
+        serializedVersion: 2
+        x: 2069
+        y: 1343
+        width: 265
+        height: 267
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7dcad1ef38823c4bbc0da0720de2c2a
+      internalID: -5660359125907923560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character Animations_Idle_hat4_40
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 1049
+        width: 263
+        height: 267
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc08c373a6e239547a52ed4cc5de18f2
+      internalID: -9033132454546187668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character Animations_Idle_hat4_41
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 1049
+        width: 261
+        height: 267
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70a1c115a67cfaa4cab493ff9e15919b
+      internalID: 455534205103636423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character Animations_Idle_hat4_42
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 1049
+        width: 263
+        height: 268
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd7a6a70693862f41a26d2d07f2a572e
+      internalID: -8090734541185519309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character Animations_Idle_hat4_43
+      rect:
+        serializedVersion: 2
+        x: 892
+        y: 1049
+        width: 264
+        height: 268
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 901733918db5f8f4f9cc590b3aec2195
+      internalID: -6405396213738909487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character Animations_Idle_hat4_44
+      rect:
+        serializedVersion: 2
+        x: 1185
+        y: 1049
+        width: 265
+        height: 267
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8f0270db41c1814785d5a9bb1ec74e8
+      internalID: 1775153910784871164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character Animations_Idle_hat4_45
+      rect:
+        serializedVersion: 2
+        x: 1476
+        y: 1049
+        width: 267
+        height: 267
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 761e6947e58bee44f8fa475e951cd3c3
+      internalID: 7206419511330783088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character Animations_Idle_hat4_46
+      rect:
+        serializedVersion: 2
+        x: 1769
+        y: 1049
+        width: 268
+        height: 267
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ae021e3fba020644be0fc50a8ad9208
+      internalID: -8701878771229562754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character Animations_Idle_hat4_47
+      rect:
+        serializedVersion: 2
+        x: 2063
+        y: 1048
+        width: 269
+        height: 268
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef5ca612e335dad45b47b4a5d872062c
+      internalID: 6705128063258756173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character Animations_Idle_hat4_48
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 755
+        width: 268
+        height: 267
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0cac39e84bc0e4a4a9a21f1b4e722a36
+      internalID: 8219283832897510301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character Animations_Idle_hat4_49
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 754
+        width: 267
+        height: 268
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c2013ee5ea92ce46abcae46bd59374d
+      internalID: 2102661774632210587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character Animations_Idle_hat4_50
+      rect:
+        serializedVersion: 2
+        x: 595
+        y: 753
+        width: 267
+        height: 269
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e1b18f0533f10749a097dcdc10bb004
+      internalID: -5914671196470351000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character Animations_Idle_hat4_51
+      rect:
+        serializedVersion: 2
+        x: 889
+        y: 755
+        width: 267
+        height: 267
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4be56f37c4f4a241ac7c5e413159b74
+      internalID: 3876360140498003963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character Animations_Idle_hat4_52
+      rect:
+        serializedVersion: 2
+        x: 1183
+        y: 755
+        width: 267
+        height: 267
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c492c83a65549bc42b02f29e9d2f74d1
+      internalID: -1322883847720908082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character Animations_Idle_hat4_53
+      rect:
+        serializedVersion: 2
+        x: 1478
+        y: 755
+        width: 266
+        height: 267
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca82085df6aa6d842a95eb63b17c18f7
+      internalID: -802243065779537078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character Animations_Idle_hat4_54
+      rect:
+        serializedVersion: 2
+        x: 1772
+        y: 755
+        width: 267
+        height: 268
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f9bf8a39cdb2324d8420589bc025c27
+      internalID: 7237545312759747914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character Animations_Idle_hat4_55
+      rect:
+        serializedVersion: 2
+        x: 2067
+        y: 755
+        width: 266
+        height: 267
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48b15a711e06471458b8b6dcda4b20cd
+      internalID: 2157889387571298254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character Animations_Idle_hat4_56
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 461
+        width: 264
+        height: 268
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b675216016a19f4fa7f90cde369b6da
+      internalID: -6128151519905737448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character Animations_Idle_hat4_57
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 461
+        width: 264
+        height: 268
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae9a25b94e59c8a4b90ada34e3ef6c1d
+      internalID: -2605661090373600781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character Animations_Idle_hat4_58
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 461
+        width: 263
+        height: 268
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f52a01a5a7522194ca4af3caea88891f
+      internalID: -518962382210182014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character Animations_Idle_hat4_59
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 459
+        width: 261
+        height: 270
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6467cc6ceed52574cbcdcd68ca37b19f
+      internalID: -4309120362719415458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character Animations_Idle_hat4_60
+      rect:
+        serializedVersion: 2
+        x: 1190
+        y: 459
+        width: 261
+        height: 269
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f87e34db873de1648bf8339145b668a9
+      internalID: 9173628290075975368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character Animations_Idle_hat4_61
+      rect:
+        serializedVersion: 2
+        x: 1486
+        y: 459
+        width: 260
+        height: 270
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c11c66bd422edc4c8885332134f74e3
+      internalID: -8285788333174546252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character Animations_Idle_hat4_62
+      rect:
+        serializedVersion: 2
+        x: 1780
+        y: 458
+        width: 259
+        height: 271
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f772fb3045fe4d41b584b6b35993239
+      internalID: -2718265629054671917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character Animations_Idle_hat4_63
+      rect:
+        serializedVersion: 2
+        x: 2076
+        y: 458
+        width: 257
+        height: 271
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58b2c55fc0d1cd945bde00b19c5906be
+      internalID: 4213874569681741427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character Animations_Idle_hat4_64
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 164
+        width: 258
+        height: 270
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95bfe4a1f43a72445a8223cce81c0881
+      internalID: 2963644380628397691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character Animations_Idle_hat4_65
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 162
+        width: 257
+        height: 272
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 209fc45e92da1d845aa384f7729e3069
+      internalID: -8576627642229759162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 5a3b00bd0ad200a4999b5b3f79c3a0cb
     internalID: 0
     vertices: []
     indices: 

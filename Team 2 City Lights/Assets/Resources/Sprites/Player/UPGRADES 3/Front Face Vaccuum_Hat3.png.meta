@@ -1,12 +1,177 @@
 fileFormatVersion: 2
 guid: 342242affc346654ba8a7be7b3e7471b
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: 7507228510264794723
+    second: Front Face Vaccuum_Hat3_0
+  - first:
+      213: -6418821242215954805
+    second: Front Face Vaccuum_Hat3_1
+  - first:
+      213: -2758748921479300879
+    second: Front Face Vaccuum_Hat3_2
+  - first:
+      213: 8718124281793041172
+    second: Front Face Vaccuum_Hat3_3
+  - first:
+      213: -3657285212240958714
+    second: Front Face Vaccuum_Hat3_4
+  - first:
+      213: 5074326769537820931
+    second: Front Face Vaccuum_Hat3_5
+  - first:
+      213: -1904094282691992560
+    second: Front Face Vaccuum_Hat3_6
+  - first:
+      213: 6097306716324700266
+    second: Front Face Vaccuum_Hat3_7
+  - first:
+      213: 4223484418082694021
+    second: Front Face Vaccuum_Hat3_8
+  - first:
+      213: -3701028542050926439
+    second: Front Face Vaccuum_Hat3_9
+  - first:
+      213: -8280929582721183766
+    second: Front Face Vaccuum_Hat3_10
+  - first:
+      213: 7068631985910600674
+    second: Front Face Vaccuum_Hat3_11
+  - first:
+      213: 4844630484515693086
+    second: Front Face Vaccuum_Hat3_12
+  - first:
+      213: -7693139331025632565
+    second: Front Face Vaccuum_Hat3_13
+  - first:
+      213: 6444560999556845422
+    second: Front Face Vaccuum_Hat3_14
+  - first:
+      213: -2491090275039965970
+    second: Front Face Vaccuum_Hat3_15
+  - first:
+      213: 5427535225525501218
+    second: Front Face Vaccuum_Hat3_16
+  - first:
+      213: 5752658143897008623
+    second: Front Face Vaccuum_Hat3_17
+  - first:
+      213: 7061294182245433940
+    second: Front Face Vaccuum_Hat3_18
+  - first:
+      213: -4638520843917335774
+    second: Front Face Vaccuum_Hat3_19
+  - first:
+      213: -9194523117819386233
+    second: Front Face Vaccuum_Hat3_20
+  - first:
+      213: 575694909705602700
+    second: Front Face Vaccuum_Hat3_21
+  - first:
+      213: 2471306678338229341
+    second: Front Face Vaccuum_Hat3_22
+  - first:
+      213: -6863432012586468808
+    second: Front Face Vaccuum_Hat3_23
+  - first:
+      213: 3127843201689666850
+    second: Front Face Vaccuum_Hat3_24
+  - first:
+      213: -2478552943868880940
+    second: Front Face Vaccuum_Hat3_25
+  - first:
+      213: 7769468766367662106
+    second: Front Face Vaccuum_Hat3_26
+  - first:
+      213: -3997296933671826385
+    second: Front Face Vaccuum_Hat3_27
+  - first:
+      213: -8208249348833189744
+    second: Front Face Vaccuum_Hat3_28
+  - first:
+      213: -7038007082344770780
+    second: Front Face Vaccuum_Hat3_29
+  - first:
+      213: 126274455343023526
+    second: Front Face Vaccuum_Hat3_30
+  - first:
+      213: 1820089473954386599
+    second: Front Face Vaccuum_Hat3_31
+  - first:
+      213: -1057683608011286673
+    second: Front Face Vaccuum_Hat3_32
+  - first:
+      213: -8373156021362606778
+    second: Front Face Vaccuum_Hat3_33
+  - first:
+      213: -6749783300529048532
+    second: Front Face Vaccuum_Hat3_34
+  - first:
+      213: -1637680664841195397
+    second: Front Face Vaccuum_Hat3_35
+  - first:
+      213: 2143755989662180481
+    second: Front Face Vaccuum_Hat3_36
+  - first:
+      213: 4001672162289639136
+    second: Front Face Vaccuum_Hat3_37
+  - first:
+      213: 3917077278667431362
+    second: Front Face Vaccuum_Hat3_38
+  - first:
+      213: -3475626281027077326
+    second: Front Face Vaccuum_Hat3_39
+  - first:
+      213: -1966397095616041447
+    second: Front Face Vaccuum_Hat3_40
+  - first:
+      213: 4538466733516434032
+    second: Front Face Vaccuum_Hat3_41
+  - first:
+      213: 5954234577856140263
+    second: Front Face Vaccuum_Hat3_42
+  - first:
+      213: 3721152883223807577
+    second: Front Face Vaccuum_Hat3_43
+  - first:
+      213: -223234274000231835
+    second: Front Face Vaccuum_Hat3_44
+  - first:
+      213: 227069396607937242
+    second: Front Face Vaccuum_Hat3_45
+  - first:
+      213: -3450955412666100360
+    second: Front Face Vaccuum_Hat3_46
+  - first:
+      213: -7711046772984576938
+    second: Front Face Vaccuum_Hat3_47
+  - first:
+      213: 8178084325781358981
+    second: Front Face Vaccuum_Hat3_48
+  - first:
+      213: -7447039336419130688
+    second: Front Face Vaccuum_Hat3_49
+  - first:
+      213: 3792384082966392181
+    second: Front Face Vaccuum_Hat3_50
+  - first:
+      213: -3462298797073411783
+    second: Front Face Vaccuum_Hat3_51
+  - first:
+      213: 6553099563201496929
+    second: Front Face Vaccuum_Hat3_52
+  - first:
+      213: -9188053451252913378
+    second: Front Face Vaccuum_Hat3_53
+  - first:
+      213: -3477662357188225447
+    second: Front Face Vaccuum_Hat3_54
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
     mipMapMode: 0
-    enableMipMap: 1
+    enableMipMap: 0
     sRGBTexture: 1
     linearTexture: 0
     fadeOut: 0
@@ -34,24 +199,24 @@ TextureImporter:
     filterMode: -1
     aniso: -1
     mipBias: -100
-    wrapU: -1
-    wrapV: -1
+    wrapU: 1
+    wrapV: 1
     wrapW: -1
-  nPOTScale: 1
+  nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 0
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 32
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
-  alphaIsTransparency: 0
+  alphaIsTransparency: 1
   spriteTessellationDetail: -1
-  textureType: 0
+  textureType: 8
   textureShape: 1
   singleChannelComponent: 0
   maxTextureSizeSet: 0
@@ -70,13 +235,1192 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Front Face Vaccuum_Hat3_0
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 1948
+        width: 261
+        height: 283
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c60a8b2e116b584c83a59c4ef8bff60
+      internalID: 7507228510264794723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Front Face Vaccuum_Hat3_1
+      rect:
+        serializedVersion: 2
+        x: 361
+        y: 1956
+        width: 262
+        height: 276
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6709aa85ead2c0e468ef0fa58d79dee4
+      internalID: -6418821242215954805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Front Face Vaccuum_Hat3_2
+      rect:
+        serializedVersion: 2
+        x: 684
+        y: 1957
+        width: 261
+        height: 275
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c5517df35bae1348a67891085eb7ac7
+      internalID: -2758748921479300879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Front Face Vaccuum_Hat3_3
+      rect:
+        serializedVersion: 2
+        x: 1008
+        y: 1957
+        width: 261
+        height: 275
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 534071103b6ca4947995093166fb92bb
+      internalID: 8718124281793041172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Front Face Vaccuum_Hat3_4
+      rect:
+        serializedVersion: 2
+        x: 1330
+        y: 1957
+        width: 262
+        height: 274
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0266c31d6ebb1642b2cfa73096221e7
+      internalID: -3657285212240958714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Front Face Vaccuum_Hat3_5
+      rect:
+        serializedVersion: 2
+        x: 1653
+        y: 1958
+        width: 261
+        height: 273
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5869a5933539db84c9cad124326ecc19
+      internalID: 5074326769537820931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Front Face Vaccuum_Hat3_6
+      rect:
+        serializedVersion: 2
+        x: 1977
+        y: 1957
+        width: 261
+        height: 274
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e2ef0de5206fca459b44c74de827dd1
+      internalID: -1904094282691992560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Front Face Vaccuum_Hat3_7
+      rect:
+        serializedVersion: 2
+        x: 2299
+        y: 1957
+        width: 262
+        height: 273
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6aeffcd1f1f1344ca3ceb0322649160
+      internalID: 6097306716324700266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Front Face Vaccuum_Hat3_8
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 1635
+        width: 261
+        height: 274
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60919cbb81bbb2c4ba06fc8a880aefc5
+      internalID: 4223484418082694021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Front Face Vaccuum_Hat3_9
+      rect:
+        serializedVersion: 2
+        x: 361
+        y: 1635
+        width: 263
+        height: 274
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf39eeb281b68a74f94abd61ea4c7dd1
+      internalID: -3701028542050926439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Front Face Vaccuum_Hat3_10
+      rect:
+        serializedVersion: 2
+        x: 684
+        y: 1635
+        width: 264
+        height: 274
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a140d282d5109f34b9f9b088f5637f02
+      internalID: -8280929582721183766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Front Face Vaccuum_Hat3_11
+      rect:
+        serializedVersion: 2
+        x: 1008
+        y: 1635
+        width: 264
+        height: 273
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9b115911d151654e9b43b0f8d8a8948
+      internalID: 7068631985910600674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Front Face Vaccuum_Hat3_12
+      rect:
+        serializedVersion: 2
+        x: 1330
+        y: 1633
+        width: 266
+        height: 275
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 581cd2472bc4dfb478a26827f81c718b
+      internalID: 4844630484515693086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Front Face Vaccuum_Hat3_13
+      rect:
+        serializedVersion: 2
+        x: 1653
+        y: 1635
+        width: 267
+        height: 273
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ec5ed34aaed01b4db3da9feab324cc7
+      internalID: -7693139331025632565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Front Face Vaccuum_Hat3_14
+      rect:
+        serializedVersion: 2
+        x: 1975
+        y: 1635
+        width: 269
+        height: 273
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 378d919fc8d433d469f15c282b68a7f5
+      internalID: 6444560999556845422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Front Face Vaccuum_Hat3_15
+      rect:
+        serializedVersion: 2
+        x: 2297
+        y: 1635
+        width: 269
+        height: 272
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 164e60018b829b44891c0d24a95b303a
+      internalID: -2491090275039965970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Front Face Vaccuum_Hat3_16
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 1315
+        width: 269
+        height: 271
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52f3b16b568cd424ea1244f2e96d380e
+      internalID: 5427535225525501218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Front Face Vaccuum_Hat3_17
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 1315
+        width: 269
+        height: 272
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dae8b39ee656037429832b59d4b0f02c
+      internalID: 5752658143897008623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Front Face Vaccuum_Hat3_18
+      rect:
+        serializedVersion: 2
+        x: 680
+        y: 1315
+        width: 269
+        height: 270
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35b12ddf66709b54b9a3b15ed8dddaee
+      internalID: 7061294182245433940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Front Face Vaccuum_Hat3_19
+      rect:
+        serializedVersion: 2
+        x: 1002
+        y: 1315
+        width: 271
+        height: 269
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7379dee2824a27d4e9a6172c4a761029
+      internalID: -4638520843917335774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Front Face Vaccuum_Hat3_20
+      rect:
+        serializedVersion: 2
+        x: 1324
+        y: 1315
+        width: 273
+        height: 273
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c371743183aa284799f7863b80d57e9
+      internalID: -9194523117819386233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Front Face Vaccuum_Hat3_21
+      rect:
+        serializedVersion: 2
+        x: 1649
+        y: 1314
+        width: 272
+        height: 272
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c01cb134bae37d54b97684b265a23db6
+      internalID: 575694909705602700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Front Face Vaccuum_Hat3_22
+      rect:
+        serializedVersion: 2
+        x: 1975
+        y: 1314
+        width: 269
+        height: 273
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02b5fa886c008ad4bb81828d3d4e0cb1
+      internalID: 2471306678338229341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Front Face Vaccuum_Hat3_23
+      rect:
+        serializedVersion: 2
+        x: 2299
+        y: 1314
+        width: 267
+        height: 274
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 081ef9107873a1c4896a90c3041fbaa4
+      internalID: -6863432012586468808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Front Face Vaccuum_Hat3_24
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 993
+        width: 267
+        height: 274
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15c904b0d87ae2d409f82e0f851226bc
+      internalID: 3127843201689666850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Front Face Vaccuum_Hat3_25
+      rect:
+        serializedVersion: 2
+        x: 361
+        y: 993
+        width: 267
+        height: 275
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a752994bcac648940b46b3de23d6b473
+      internalID: -2478552943868880940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Front Face Vaccuum_Hat3_26
+      rect:
+        serializedVersion: 2
+        x: 684
+        y: 991
+        width: 267
+        height: 277
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 745b1c4d50cb98d49bc46d80c2d61b5b
+      internalID: 7769468766367662106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Front Face Vaccuum_Hat3_27
+      rect:
+        serializedVersion: 2
+        x: 1008
+        y: 991
+        width: 265
+        height: 277
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43c8fbeb66bbb084f8904f86be5a9f56
+      internalID: -3997296933671826385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Front Face Vaccuum_Hat3_28
+      rect:
+        serializedVersion: 2
+        x: 1330
+        y: 993
+        width: 265
+        height: 275
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32e94e3f7138a564abe481aba8f10345
+      internalID: -8208249348833189744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Front Face Vaccuum_Hat3_29
+      rect:
+        serializedVersion: 2
+        x: 1653
+        y: 993
+        width: 264
+        height: 275
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 634afa35e9e773544857fcbae2883acd
+      internalID: -7038007082344770780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Front Face Vaccuum_Hat3_30
+      rect:
+        serializedVersion: 2
+        x: 1977
+        y: 993
+        width: 261
+        height: 275
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2dd6de2820dd5ef4e9be0abddec0e59c
+      internalID: 126274455343023526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Front Face Vaccuum_Hat3_31
+      rect:
+        serializedVersion: 2
+        x: 2299
+        y: 994
+        width: 262
+        height: 274
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db79ac9b16f6371418388d10d350d05e
+      internalID: 1820089473954386599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Front Face Vaccuum_Hat3_32
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 673
+        width: 261
+        height: 274
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ffef1ab06b8b6b4891ae10cfdd807ab
+      internalID: -1057683608011286673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Front Face Vaccuum_Hat3_33
+      rect:
+        serializedVersion: 2
+        x: 361
+        y: 673
+        width: 262
+        height: 273
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b3a8e8247b43fb4e94dfcb6ba307b18
+      internalID: -8373156021362606778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Front Face Vaccuum_Hat3_34
+      rect:
+        serializedVersion: 2
+        x: 684
+        y: 674
+        width: 261
+        height: 272
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25b4ec3db2c936c4695be2b698b18cdc
+      internalID: -6749783300529048532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Front Face Vaccuum_Hat3_35
+      rect:
+        serializedVersion: 2
+        x: 1008
+        y: 674
+        width: 261
+        height: 272
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5845e9aba9b6d384bb60acf07d57be9e
+      internalID: -1637680664841195397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Front Face Vaccuum_Hat3_36
+      rect:
+        serializedVersion: 2
+        x: 1330
+        y: 674
+        width: 262
+        height: 271
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2111fef4f88f68c4099b7b0e9838f46d
+      internalID: 2143755989662180481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Front Face Vaccuum_Hat3_37
+      rect:
+        serializedVersion: 2
+        x: 1653
+        y: 673
+        width: 261
+        height: 273
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d86f974416830954e80d258ceb0580d4
+      internalID: 4001672162289639136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Front Face Vaccuum_Hat3_38
+      rect:
+        serializedVersion: 2
+        x: 1977
+        y: 673
+        width: 261
+        height: 273
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db6a98052418a0743b13378e4041594f
+      internalID: 3917077278667431362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Front Face Vaccuum_Hat3_39
+      rect:
+        serializedVersion: 2
+        x: 2299
+        y: 671
+        width: 262
+        height: 275
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ae10d200c9836d4a865e63a21d11013
+      internalID: -3475626281027077326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Front Face Vaccuum_Hat3_40
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 342
+        width: 261
+        height: 281
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 608af05120c4a574d96041ef3204507d
+      internalID: -1966397095616041447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Front Face Vaccuum_Hat3_41
+      rect:
+        serializedVersion: 2
+        x: 361
+        y: 342
+        width: 262
+        height: 283
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73f9d9a4057983946842d5da42bbd34c
+      internalID: 4538466733516434032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Front Face Vaccuum_Hat3_42
+      rect:
+        serializedVersion: 2
+        x: 684
+        y: 342
+        width: 261
+        height: 283
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8b78a59b98fc3c4cb24138d67e51445
+      internalID: 5954234577856140263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Front Face Vaccuum_Hat3_43
+      rect:
+        serializedVersion: 2
+        x: 1008
+        y: 342
+        width: 261
+        height: 284
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b450b04b495f80941b82a44afba85c30
+      internalID: 3721152883223807577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Front Face Vaccuum_Hat3_44
+      rect:
+        serializedVersion: 2
+        x: 1330
+        y: 342
+        width: 262
+        height: 284
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92273234ac403c94b8b672ccd38e2cf5
+      internalID: -223234274000231835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Front Face Vaccuum_Hat3_45
+      rect:
+        serializedVersion: 2
+        x: 1653
+        y: 353
+        width: 261
+        height: 273
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df438018f326a8448ac3bf68964c0b63
+      internalID: 227069396607937242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Front Face Vaccuum_Hat3_46
+      rect:
+        serializedVersion: 2
+        x: 1977
+        y: 353
+        width: 261
+        height: 273
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a62105a8c97d174891f89e5cecac06c
+      internalID: -3450955412666100360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Front Face Vaccuum_Hat3_47
+      rect:
+        serializedVersion: 2
+        x: 2299
+        y: 353
+        width: 262
+        height: 273
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d5bfdbd1007efc4e97b6f88a9edf370
+      internalID: -7711046772984576938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Front Face Vaccuum_Hat3_48
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 32
+        width: 261
+        height: 273
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ae9209742e20c44885b9b9d854b3b33
+      internalID: 8178084325781358981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Front Face Vaccuum_Hat3_49
+      rect:
+        serializedVersion: 2
+        x: 361
+        y: 32
+        width: 262
+        height: 273
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b9b34d7a001b5c4ba6857f81851cccb
+      internalID: -7447039336419130688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Front Face Vaccuum_Hat3_50
+      rect:
+        serializedVersion: 2
+        x: 684
+        y: 32
+        width: 261
+        height: 273
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a9b98396781c5e4ba937503529d7848
+      internalID: 3792384082966392181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Front Face Vaccuum_Hat3_51
+      rect:
+        serializedVersion: 2
+        x: 1008
+        y: 32
+        width: 264
+        height: 272
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3aa9df83eaf70c841b6469c53460c7d6
+      internalID: -3462298797073411783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Front Face Vaccuum_Hat3_52
+      rect:
+        serializedVersion: 2
+        x: 1330
+        y: 32
+        width: 266
+        height: 272
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3faed91220d6f6f4f98ed3ead1787c2e
+      internalID: 6553099563201496929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Front Face Vaccuum_Hat3_53
+      rect:
+        serializedVersion: 2
+        x: 1653
+        y: 32
+        width: 267
+        height: 271
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9840ecc043aea0e40bfbfb1a2af43a3f
+      internalID: -9188053451252913378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Front Face Vaccuum_Hat3_54
+      rect:
+        serializedVersion: 2
+        x: 1977
+        y: 32
+        width: 264
+        height: 271
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ddc6ecd59ef73e41bde4f692ce020c0
+      internalID: -3477662357188225447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 60619acca1484c041bca43c99bbcf18f
     internalID: 0
     vertices: []
     indices: 
