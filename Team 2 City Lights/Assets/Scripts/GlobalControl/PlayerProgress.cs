@@ -2,8 +2,6 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-
-[System.Serializable]
 /*Stores the Global Progress of the Player Across Scenes */
 public class PlayerProgress : MonoBehaviour
 {
@@ -14,7 +12,6 @@ public class PlayerProgress : MonoBehaviour
     */
     // The instance of this progress script
     public static PlayerProgress Instance;
-    public bool HasVisitedCity; // Tracks whether the player has visited the city for the first time
     public bool returningFromForest; // Tracks whether the player is currently returning from the forest
     
     // References global status of player upgrades
@@ -23,27 +20,31 @@ public class PlayerProgress : MonoBehaviour
     // References global progress of player statistics
     public PlayerData savedPlayerData = new PlayerData();
 
+    // Helper boolean to be toggled in editor menu for erasing saved player data
+    [SerializeField] private bool resetData;
+
     // Called upon object creation
     void Awake()
     {
         // Instantiate this tracker if none exists yet and keep game object alive
         if (Instance == null){
             DontDestroyOnLoad(gameObject);
-            // loadPlayerProgress();
             Instance = this;
+            loadPlayerProgress();
         }
         // Otherwise prevent duplicates
         else if (Instance != this){
             Destroy(gameObject);
         }
+    }
 
-        HasVisitedCity = false;
+    void OnEnable(){
         returningFromForest = false;
     }
 
     // Tells whether this is the player's first time in the city
     public bool firstTimeInCity(){
-        return !HasVisitedCity;
+        return !savedPlayerData.HasVisitedCity;
     }
 
     // Tells whether this player is returning from the forest
@@ -51,16 +52,15 @@ public class PlayerProgress : MonoBehaviour
         return returningFromForest;
     }
 
-    // Constructor for copying player progress
-    public PlayerProgress(PlayerProgress progress){
-        this.HasVisitedCity = progress.firstTimeInCity();
-        this.currentUpgrades = progress.currentUpgrades;
-        this.savedPlayerData = progress.savedPlayerData;
-    }
-
     // Load progress if it exists, or create a new instance otherwise
     public void loadPlayerProgress(){
-        PlayerProgress progress = SaveSystem.LoadPlayer();
-        Instance = (progress == null) ? this : progress;
+        // Call for data erase if desired
+        if (resetData){
+            SaveSystem.DeleteSavedData();
+            resetData = false;
+        }
+        else if (SaveSystem.playerSaveExists()){
+            SaveSystem.LoadPlayer(this);
+        }
     }
 }

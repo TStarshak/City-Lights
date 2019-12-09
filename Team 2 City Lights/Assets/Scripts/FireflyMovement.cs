@@ -39,7 +39,7 @@ public class FireflyMovement : MonoBehaviour
         else if (r <= 8)
         {
             rarity = 2;
-            GetComponent<SpriteRenderer>().sprite = Resources.Load<Sprite>("Sprites/firefly/rare3");
+            GetComponent<SpriteRenderer>().sprite = Resources.Load<Sprite>("Sprites/firefly/rare2");
         }
         else if (r <= 15)
         {

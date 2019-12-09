@@ -41,7 +41,6 @@ public class SceneController : MonoBehaviour
     public static void LoadScene(string scene){
         PlayerState.SavePlayer();
         if (currentScene.name == "PrototypeScene") {PlayerProgress.Instance.returningFromForest = true;}
-        // SaveSystem.SavePlayer(PlayerProgress.Instance);
         Instance.InitLoadingScene(scene);
         currentScene = SceneManager.GetSceneByName(scene);
     }
@@ -52,6 +51,7 @@ public class SceneController : MonoBehaviour
 
     // Displays the loading screen and begins loading the next scene in the background
     void InitLoadingScene(string nextScene){
+        SaveSystem.SavePlayer(PlayerProgress.Instance.savedPlayerData, PlayerProgress.Instance.currentUpgrades);
         Instance.previousScene = currentScene;
         SceneManager.LoadScene("LoadingScreen");
         //Start asyncOperation

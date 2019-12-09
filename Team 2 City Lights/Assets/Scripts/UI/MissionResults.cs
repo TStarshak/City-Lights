@@ -11,7 +11,7 @@ public class MissionResults : MonoBehaviour
     [SerializeField] private Text collectedFireflies;
     [SerializeField] private Text depositedFireflies;
     [SerializeField] private Text chiefDialogue;
-    private MissionHandler.Mission currentMission;
+    private PlayerData.Mission currentMission;
     private PlayerData playerData;
     private Button continueButton;
 

@@ -20,7 +20,6 @@ public class GameIntroduction : MonoBehaviour
     void StartGame(){
         PauseController.enablePauseFunctionality();
         fireflyterChief.SetActive(true);
-        PlayerProgress.Instance.HasVisitedCity = true;
         gameObject.SetActive(false);
     }
 }

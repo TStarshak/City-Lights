@@ -511,7 +511,7 @@ public class GenerateChunk : MonoBehaviour {
 		blockNum = chunkMap[newX][newY];
 		
 		if(blockNum == 4) {
-            lakeInf.add(new Vector3((xStart + (float)newX), workingZ, (yStart + (float)newY)));
+            lakeInf.Add(new Vector3((xStart + (float)newX), workingZ, (yStart + (float)newY)));
 			buildChunk(chunkSpace, chunkMap, xStart, yStart, index, newX, (newY + 1));
 			return;
 		}
@@ -646,7 +646,9 @@ public class GenerateChunk : MonoBehaviour {
             infSale.RemoveAt(currentChunk);
         }
 
-        this.gameObject.GetComponent<MapFeatureGeneration>().beginGeneration(worldData, lakePos, landmarkData);
+		// This was returning an error saying lakePos doesn't exist
+        // this.gameObject.GetComponent<MapFeatureGeneration>().beginGeneration(worldData, lakePos, landmarkData);
+		this.gameObject.GetComponent<MapFeatureGeneration>().beginGeneration(worldData);
     }
 
 	public int currentRing(int cX, int cY, int mX, int mY) {

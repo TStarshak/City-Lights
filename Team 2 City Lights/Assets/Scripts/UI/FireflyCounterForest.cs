@@ -6,7 +6,7 @@ using UnityEngine.UI;
 public class FireflyCounterForest : MonoBehaviour
 {
     private Text display;
-    private MissionHandler.Mission currentMission;
+    private PlayerData.Mission currentMission;
 
     // Start is called before the first frame update
     void Start()

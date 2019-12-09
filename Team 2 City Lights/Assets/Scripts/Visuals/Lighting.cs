@@ -67,6 +67,12 @@ public class Lighting : MonoBehaviour
         }
         else
         {
+<<<<<<< HEAD
+=======
+            if (PlayerState.isInDangerState)
+                PlayerState.playerDeath();
+            else
+>>>>>>> d943178c35f025c23f4cfbefcdb26bc6fed93fe5
                 PlayerState.dangerState();
         }
         if (gameLightInner.GetComponent<Light>().range > 3)

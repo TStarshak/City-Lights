@@ -17,15 +17,16 @@ public class CityController : MonoBehaviour
     private Transform playerTransform;
     private float playerPosX;
     private float playerPosZ;
-
     private string cityExitPrompt = "enter the forest!";
     private string upgradeShopPrompt = "access the Upgrade Shop!";
 
     // Start is called before the first frame update
     void Start()
     {
+        Debug.Log(PlayerProgress.Instance.returningFromForest);
         if (PlayerProgress.Instance.firstTimeInCity()) {
             gameIntroduction.SetActive(true);
+            PlayerProgress.Instance.savedPlayerData.HasVisitedCity = true;
         }
         else if (PlayerProgress.Instance.isReturningFromForest()){
             missionResults.SetActive(true);
