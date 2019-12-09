@@ -638,7 +638,7 @@ public class GenerateChunk : MonoBehaviour {
             //place it
             if(V1 != null && V2 != null && V3 != null && V4 != null && I1 == null && I2 == null && I3 == null && I4 == null) {
                 currentLandmark--;
-                landmarkData.Add(Instantiate(landmarks[currentLandmark], new Vector3((xSpace + (chunkSizeX / 2)), 1, (ySpace + (chunkSizeY / 2))), Quaternion.identity));
+                landmarkData.Add(Instantiate(landmarks[currentLandmark], new Vector3((xSpace + (chunkSizeX / 2)), 0, (ySpace + (chunkSizeY / 2))), Quaternion.identity));
                 Debug.Log("help");
             }
 
