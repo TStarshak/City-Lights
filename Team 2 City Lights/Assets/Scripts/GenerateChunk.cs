@@ -646,9 +646,8 @@ public class GenerateChunk : MonoBehaviour {
             infSale.RemoveAt(currentChunk);
         }
 
-		// This was returning an error saying lakePos doesn't exist
-        // this.gameObject.GetComponent<MapFeatureGeneration>().beginGeneration(worldData, lakePos, landmarkData);
-		this.gameObject.GetComponent<MapFeatureGeneration>().beginGeneration(worldData);
+		//the big handoff
+        this.gameObject.GetComponent<MapFeatureGeneration>().beginGeneration(worldData, landmarkData, lakeInf);
     }
 
 	public int currentRing(int cX, int cY, int mX, int mY) {

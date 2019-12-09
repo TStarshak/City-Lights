@@ -33,43 +33,21 @@ public class Penemy : MonoBehaviour
     // Start is called before the first frame update
     void Update()
     {
-<<<<<<< HEAD
-        this.transform.rotation = rot;
-        //timer for spawn
-        elapsedTime += Time.deltaTime;
-
-        if (elapsedTime > secondsBetweenSpawn && pMesh.enabled) 
-=======
         if (!PlayerState.localPlayerData.isDead)
->>>>>>> 888758deae04525be13f501ac32bc5d454841849
         {
             this.transform.rotation = rot;
             //timer for spawn
             elapsedTime += Time.deltaTime;
 
-            if (elapsedTime > secondsBetweenSpawn)
+            if (elapsedTime > secondsBetweenSpawn && pMesh.enabled)
             {
                 elapsedTime = 0;
                 Instantiate(Projectile, transform.position, transform.rotation);
                 anim.SetTrigger("Attack");
             }
 
-<<<<<<< HEAD
-        if (distance > activationDistance && pMesh.enabled)
-        {
-            Vector3 dirToPlayer = transform.position - Player.transform.position;
-
-            Vector3 newPos = transform.position - dirToPlayer;
-
-            pMesh.SetDestination(newPos);
-            float xPos = dirToPlayer.x;
-            if (xPos > 0 && lookRight)
-=======
-            float distance = Vector3.Distance(transform.position, Player.transform.position);
-
-            if (distance > activationDistance)
->>>>>>> 888758deae04525be13f501ac32bc5d454841849
-            {
+           float distance = Vector3.Distance(transform.position, Player.transform.position);
+           if (distance > activationDistance && pMesh.enabled) {
                 Vector3 dirToPlayer = transform.position - Player.transform.position;
 
                 Vector3 newPos = transform.position - dirToPlayer;
@@ -92,7 +70,6 @@ public class Penemy : MonoBehaviour
             {
                 pMesh.SetDestination(transform.position);
             }
-<<<<<<< HEAD
 
         }
         else if(pMesh.enabled)
@@ -128,10 +105,6 @@ public class Penemy : MonoBehaviour
             Destroy(this.gameObject);
         }
     }
-=======
-        }
-    }
->>>>>>> 888758deae04525be13f501ac32bc5d454841849
 }
 
 
