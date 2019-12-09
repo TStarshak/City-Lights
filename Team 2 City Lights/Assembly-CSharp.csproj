@@ -2,8 +2,6 @@
 <Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
     <LangVersion>latest</LangVersion>
-    <CscToolPath>C:\Program Files\Unity\Editor\2019.2.4f1\Editor\Data\Tools\RoslynScripts</CscToolPath>
-    <CscToolExe>unity_csc.bat</CscToolExe>
   </PropertyGroup>
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
@@ -104,6 +102,7 @@
      <Compile Include="Assets\Scripts\UI\timerShadowController.cs" />
      <Compile Include="Assets\Scripts\UI\UpgradeMenuController.cs" />
      <Compile Include="Assets\Scripts\Visuals\CameraFollow.cs" />
+     <Compile Include="Assets\Scripts\Visuals\CameraFollowCity.cs" />
      <Compile Include="Assets\Scripts\Visuals\Lighting.cs" />
      <Compile Include="Assets\Scripts\Visuals\PostProcessing.cs" />
      <Compile Include="Assets\Scripts\ZoneFeaturePlanning.cs" />
