@@ -14,7 +14,6 @@ public class Projectile : MonoBehaviour
     {
         player = GameObject.FindGameObjectWithTag("Player").transform;
 
-        Debug.Log("MOO");
         dir = player.position - transform.position;
         this.GetComponent<Rigidbody>().velocity = dir.normalized * projectileSpeed;
         transform.LookAt(player);
@@ -26,22 +25,9 @@ public class Projectile : MonoBehaviour
         //gets the players transform
 
         //the direction the projectile will travel
-        
+
         //Destroys the projectile after it has lived its life
         Destroy(this.gameObject, lifeSpan);
 
-    }
-
-    void OnCollisionEnter(Collision other)
-    {
-        if (other.gameObject.tag != "Enemy")
-        {
-            if (other.gameObject.tag == "Player")
-            {
-                Debug.Log("Meow");
-                Destroy(this.gameObject);
-
-            }
-        }
     }
 }

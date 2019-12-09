@@ -35,10 +35,6 @@ public class snailWalk : MonoBehaviour
     {
         while (true)
         {
-            if (mushroom == null)
-            {
-                Destroy(this.gameObject);
-            }
             if (direction && currentAngle > 360f)
             {
                 currentAngle = 0.01f;
@@ -54,19 +50,35 @@ public class snailWalk : MonoBehaviour
                 currentAngle -= speed;
             }
 
-            nextPos = new Vector3(mushroom.transform.position.x + (0.9f * Mathf.Cos(currentAngle)), transform.position.y, mushroom.transform.position.z + (0.9f * Mathf.Sin(currentAngle)));
+            if (mushroom != null && this.gameObject != null)
+            {
+                nextPos = new Vector3(mushroom.transform.position.x + (0.9f * Mathf.Cos(currentAngle)), transform.position.y, mushroom.transform.position.z + (0.9f * Mathf.Sin(currentAngle)));
+            } else
+            {
+                Destroy(gameObject);
+            }
+            
             transform.LookAt(nextPos);
             transform.position = nextPos;
 
             RaycastHit hit;
-            if (direction)
+            Physics.Raycast(new Vector3(2000f, 20f, 2000f), -Vector3.up, out hit);
+            if (mushroom != null && this.gameObject != null)
             {
-                Physics.Raycast(new Vector3(mushroom.transform.position.x + (0.9f * Mathf.Cos(currentAngle + 0.5f)), transform.position.y + 0.5f, mushroom.transform.position.z + (0.9f * Mathf.Sin(currentAngle + 0.5f))), -Vector3.up, out hit);
+                if (direction)
+                {
+                    Physics.Raycast(new Vector3(mushroom.transform.position.x + (0.9f * Mathf.Cos(currentAngle + 0.5f)), transform.position.y + 0.5f, mushroom.transform.position.z + (0.9f * Mathf.Sin(currentAngle + 0.5f))), -Vector3.up, out hit);
+                }
+                else
+                {
+                    Physics.Raycast(new Vector3(mushroom.transform.position.x + (0.9f * Mathf.Cos(currentAngle - 0.5f)), transform.position.y + 0.5f, mushroom.transform.position.z + (0.9f * Mathf.Sin(currentAngle - 0.5f))), -Vector3.up, out hit);
+                }
             }
             else
             {
-                Physics.Raycast(new Vector3(mushroom.transform.position.x + (0.9f * Mathf.Cos(currentAngle - 0.5f)), transform.position.y + 0.5f, mushroom.transform.position.z + (0.9f * Mathf.Sin(currentAngle - 0.5f))), -Vector3.up, out hit);
+                Destroy(gameObject);
             }
+            
 
             if (hit.collider == null)
             {
