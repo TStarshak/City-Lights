@@ -21,20 +21,12 @@ public class LocalNavMeshBuilder : MonoBehaviour
     int count = 0;
     IEnumerator Start()
     {
-<<<<<<< HEAD
-       while (true)
-       {
-            UpdateNavMesh(true);
-            yield return m_Operation;
-       }
-=======
         if((count % 100) == 0)
         {
             UpdateNavMesh(true);
             yield return m_Operation;
         }
         count++;
->>>>>>> 44a642a97b14f076724f491f5db2ba7a5230aca6
     }
 
     void OnEnable()

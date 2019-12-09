@@ -8,7 +8,6 @@ public class Vacuum : MonoBehaviour
     [SerializeField] private BoxCollider vacuLampCollider;
     private ParticleSystem particles;
     public static bool isOn;
-    private bool lookRight;
     private PlayerData playerData;
     // Start is called before the first frame update
     void Start()
@@ -16,7 +15,6 @@ public class Vacuum : MonoBehaviour
         playerData = PlayerState.localPlayerData;
         particles = this.transform.GetChild(transform.childCount - 2).GetComponent<ParticleSystem>();
         isOn = false;
-        lookRight = true;
         transform.GetChild(transform.childCount - 2).transform.Rotate(new Vector3(0, 1, 0), 90);
 
         // Apply upgrade multiplier to vacuLamp range

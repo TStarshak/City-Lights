@@ -1,12 +1,129 @@
 fileFormatVersion: 2
 guid: 9a0f99744d6f32f40a408f60dfd93ff0
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: 945538397311208753
+    second: Character Animations_Right_Hat2_0
+  - first:
+      213: -4371819344227642963
+    second: Character Animations_Right_Hat2_1
+  - first:
+      213: -7684782173461856671
+    second: Character Animations_Right_Hat2_2
+  - first:
+      213: -2717458313685466091
+    second: Character Animations_Right_Hat2_3
+  - first:
+      213: 252715401951252817
+    second: Character Animations_Right_Hat2_4
+  - first:
+      213: -3682964354521270889
+    second: Character Animations_Right_Hat2_5
+  - first:
+      213: -458743756343236239
+    second: Character Animations_Right_Hat2_6
+  - first:
+      213: 6876584927643412235
+    second: Character Animations_Right_Hat2_7
+  - first:
+      213: 5676949839549857990
+    second: Character Animations_Right_Hat2_8
+  - first:
+      213: 3912126317341973266
+    second: Character Animations_Right_Hat2_9
+  - first:
+      213: 2774988689573398096
+    second: Character Animations_Right_Hat2_10
+  - first:
+      213: 24341374506357205
+    second: Character Animations_Right_Hat2_11
+  - first:
+      213: -6269779704490322751
+    second: Character Animations_Right_Hat2_12
+  - first:
+      213: -8977682421044665988
+    second: Character Animations_Right_Hat2_13
+  - first:
+      213: 745139609274749557
+    second: Character Animations_Right_Hat2_14
+  - first:
+      213: 4169510051071197278
+    second: Character Animations_Right_Hat2_15
+  - first:
+      213: 1596306424016019470
+    second: Character Animations_Right_Hat2_16
+  - first:
+      213: -4150276986408646325
+    second: Character Animations_Right_Hat2_17
+  - first:
+      213: -482859293715466599
+    second: Character Animations_Right_Hat2_18
+  - first:
+      213: 8985682558569242977
+    second: Character Animations_Right_Hat2_19
+  - first:
+      213: -991116302528853674
+    second: Character Animations_Right_Hat2_20
+  - first:
+      213: 6587618737094934965
+    second: Character Animations_Right_Hat2_21
+  - first:
+      213: 8794405559850681062
+    second: Character Animations_Right_Hat2_22
+  - first:
+      213: -2053864152950048703
+    second: Character Animations_Right_Hat2_23
+  - first:
+      213: -4625657141876582256
+    second: Character Animations_Right_Hat2_24
+  - first:
+      213: -119656366153153239
+    second: Character Animations_Right_Hat2_25
+  - first:
+      213: -1139100048643287017
+    second: Character Animations_Right_Hat2_26
+  - first:
+      213: -5583501856586688230
+    second: Character Animations_Right_Hat2_27
+  - first:
+      213: -7334756829291663815
+    second: Character Animations_Right_Hat2_28
+  - first:
+      213: -531452801252361950
+    second: Character Animations_Right_Hat2_29
+  - first:
+      213: -5834697056321582497
+    second: Character Animations_Right_Hat2_30
+  - first:
+      213: -329087855723716103
+    second: Character Animations_Right_Hat2_31
+  - first:
+      213: -3592035316684556490
+    second: Character Animations_Right_Hat2_32
+  - first:
+      213: -8025924297572217765
+    second: Character Animations_Right_Hat2_33
+  - first:
+      213: -1661828389641068551
+    second: Character Animations_Right_Hat2_34
+  - first:
+      213: 6673780959832745107
+    second: Character Animations_Right_Hat2_35
+  - first:
+      213: -2081428339269918089
+    second: Character Animations_Right_Hat2_36
+  - first:
+      213: 5403954204520655016
+    second: Character Animations_Right_Hat2_37
+  - first:
+      213: 5575345295807788578
+    second: Character Animations_Right_Hat2_38
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
     mipMapMode: 0
-    enableMipMap: 1
+    enableMipMap: 0
     sRGBTexture: 1
     linearTexture: 0
     fadeOut: 0
@@ -34,24 +151,24 @@ TextureImporter:
     filterMode: -1
     aniso: -1
     mipBias: -100
-    wrapU: -1
-    wrapV: -1
+    wrapU: 1
+    wrapV: 1
     wrapW: -1
-  nPOTScale: 1
+  nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 0
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 32
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
-  alphaIsTransparency: 0
+  alphaIsTransparency: 1
   spriteTessellationDetail: -1
-  textureType: 0
+  textureType: 8
   textureShape: 1
   singleChannelComponent: 0
   maxTextureSizeSet: 0
@@ -70,13 +187,856 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Character Animations_Right_Hat2_0
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 1176
+        width: 243
+        height: 267
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 349b04a1fbbef3e49bee42b05a070391
+      internalID: 945538397311208753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character Animations_Right_Hat2_1
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 1177
+        width: 245
+        height: 267
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1042f567cea64843aae90ad2cfb8628
+      internalID: -4371819344227642963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character Animations_Right_Hat2_2
+      rect:
+        serializedVersion: 2
+        x: 579
+        y: 1178
+        width: 246
+        height: 267
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8006b282f4b5393499c315fe47b3a2b6
+      internalID: -7684782173461856671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character Animations_Right_Hat2_3
+      rect:
+        serializedVersion: 2
+        x: 860
+        y: 1180
+        width: 248
+        height: 265
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfaf18ee5d794794c917e4ec85dcd965
+      internalID: -2717458313685466091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character Animations_Right_Hat2_4
+      rect:
+        serializedVersion: 2
+        x: 1142
+        y: 1178
+        width: 250
+        height: 268
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe516eee2438bd149a6e583f5db6c469
+      internalID: 252715401951252817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character Animations_Right_Hat2_5
+      rect:
+        serializedVersion: 2
+        x: 1425
+        y: 1177
+        width: 251
+        height: 268
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a7be7b5b1cce10479a1038262f77e10
+      internalID: -3682964354521270889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character Animations_Right_Hat2_6
+      rect:
+        serializedVersion: 2
+        x: 1708
+        y: 1177
+        width: 253
+        height: 269
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 945b75436127bc0479c7d091447f1324
+      internalID: -458743756343236239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character Animations_Right_Hat2_7
+      rect:
+        serializedVersion: 2
+        x: 1990
+        y: 1177
+        width: 253
+        height: 270
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ff0da090c9aa5a4e9ee8be3e04588b0
+      internalID: 6876584927643412235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character Animations_Right_Hat2_8
+      rect:
+        serializedVersion: 2
+        x: 2272
+        y: 1176
+        width: 253
+        height: 270
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b2bb6cb80fb9534c8dac0adfc1e3748
+      internalID: 5676949839549857990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character Animations_Right_Hat2_9
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 891
+        width: 252
+        height: 271
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ccc842a8b2b0c8439ca881bcc537cea
+      internalID: 3912126317341973266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character Animations_Right_Hat2_10
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 891
+        width: 250
+        height: 271
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06ee75edd35fdd442a7f598825bf1bea
+      internalID: 2774988689573398096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character Animations_Right_Hat2_11
+      rect:
+        serializedVersion: 2
+        x: 578
+        y: 891
+        width: 247
+        height: 271
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d55b1517bdc19804eaae557c11f4987f
+      internalID: 24341374506357205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character Animations_Right_Hat2_12
+      rect:
+        serializedVersion: 2
+        x: 861
+        y: 891
+        width: 247
+        height: 270
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe44fc156978ff1468ad1a0e951409de
+      internalID: -6269779704490322751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character Animations_Right_Hat2_13
+      rect:
+        serializedVersion: 2
+        x: 1147
+        y: 891
+        width: 245
+        height: 270
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5749c4dd2649df45b92b4d9a61712b3
+      internalID: -8977682421044665988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character Animations_Right_Hat2_14
+      rect:
+        serializedVersion: 2
+        x: 1432
+        y: 891
+        width: 241
+        height: 269
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77a40f02196cf4d45b5fe3ee7e2f3fd5
+      internalID: 745139609274749557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character Animations_Right_Hat2_15
+      rect:
+        serializedVersion: 2
+        x: 1717
+        y: 891
+        width: 238
+        height: 268
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83b168f4f8ce6164084c3dc371fc6caa
+      internalID: 4169510051071197278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character Animations_Right_Hat2_16
+      rect:
+        serializedVersion: 2
+        x: 1999
+        y: 891
+        width: 238
+        height: 267
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4aca95860475a3b4f93db7ae209bd9b3
+      internalID: 1596306424016019470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character Animations_Right_Hat2_17
+      rect:
+        serializedVersion: 2
+        x: 2283
+        y: 890
+        width: 238
+        height: 267
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9bf21b2ba53502b4d98dc445a2703884
+      internalID: -4150276986408646325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character Animations_Right_Hat2_18
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 605
+        width: 237
+        height: 267
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7f9e71e8135f1d4792ae7e9c5085c90
+      internalID: -482859293715466599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character Animations_Right_Hat2_19
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 605
+        width: 236
+        height: 266
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f4c3e8922d8b1848b8b8467fbc5a745
+      internalID: 8985682558569242977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character Animations_Right_Hat2_20
+      rect:
+        serializedVersion: 2
+        x: 585
+        y: 605
+        width: 235
+        height: 266
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9674fb190b165f349b25c61d7587bb46
+      internalID: -991116302528853674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character Animations_Right_Hat2_21
+      rect:
+        serializedVersion: 2
+        x: 868
+        y: 605
+        width: 233
+        height: 265
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d5099a79f0bdc54c9efabb4021cb9ab
+      internalID: 6587618737094934965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character Animations_Right_Hat2_22
+      rect:
+        serializedVersion: 2
+        x: 1151
+        y: 604
+        width: 233
+        height: 266
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb9229d8f85c9924e88fb44085b93cf3
+      internalID: 8794405559850681062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character Animations_Right_Hat2_23
+      rect:
+        serializedVersion: 2
+        x: 1433
+        y: 604
+        width: 237
+        height: 266
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1943cea92883d994c8f156aca18a9f4e
+      internalID: -2053864152950048703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character Animations_Right_Hat2_24
+      rect:
+        serializedVersion: 2
+        x: 1715
+        y: 604
+        width: 240
+        height: 267
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 106ae587b4dd495489038be9b39eb82c
+      internalID: -4625657141876582256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character Animations_Right_Hat2_25
+      rect:
+        serializedVersion: 2
+        x: 1998
+        y: 604
+        width: 242
+        height: 268
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b28922f761c69d14bb6c7d83e19e55dd
+      internalID: -119656366153153239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character Animations_Right_Hat2_26
+      rect:
+        serializedVersion: 2
+        x: 2281
+        y: 605
+        width: 243
+        height: 267
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37dd2549d2951214eb0d92ca5f80cd52
+      internalID: -1139100048643287017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character Animations_Right_Hat2_27
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 320
+        width: 245
+        height: 267
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12f579c74d43a264f989385799de5844
+      internalID: -5583501856586688230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character Animations_Right_Hat2_28
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 320
+        width: 245
+        height: 269
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8dee8e184c0e3542849a5ba277c6b01
+      internalID: -7334756829291663815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character Animations_Right_Hat2_29
+      rect:
+        serializedVersion: 2
+        x: 582
+        y: 319
+        width: 243
+        height: 271
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d39d30eb4ef3eb147934a77fe60963f6
+      internalID: -531452801252361950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character Animations_Right_Hat2_30
+      rect:
+        serializedVersion: 2
+        x: 865
+        y: 319
+        width: 241
+        height: 271
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51763aef8575e964b9c5f5f94fa38507
+      internalID: -5834697056321582497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character Animations_Right_Hat2_31
+      rect:
+        serializedVersion: 2
+        x: 1147
+        y: 319
+        width: 242
+        height: 271
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ddce6659764d6c645ab9c4143be03b81
+      internalID: -329087855723716103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character Animations_Right_Hat2_32
+      rect:
+        serializedVersion: 2
+        x: 1430
+        y: 319
+        width: 241
+        height: 272
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60f5cd79309bc184c98018bd043e97f8
+      internalID: -3592035316684556490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character Animations_Right_Hat2_33
+      rect:
+        serializedVersion: 2
+        x: 1713
+        y: 319
+        width: 241
+        height: 273
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff0281f602852504f8f2f46d0a75bc5e
+      internalID: -8025924297572217765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character Animations_Right_Hat2_34
+      rect:
+        serializedVersion: 2
+        x: 1995
+        y: 319
+        width: 242
+        height: 273
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37ebe1a5f4d94334ca302c0184783492
+      internalID: -1661828389641068551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character Animations_Right_Hat2_35
+      rect:
+        serializedVersion: 2
+        x: 2280
+        y: 320
+        width: 241
+        height: 271
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 391490096de3ae24ba34360ba8172de3
+      internalID: 6673780959832745107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character Animations_Right_Hat2_36
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 38
+        width: 241
+        height: 270
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 904ceb217ed45f64aac110630de5eafe
+      internalID: -2081428339269918089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character Animations_Right_Hat2_37
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 38
+        width: 241
+        height: 271
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a331fb9892438047905b656fea5908b
+      internalID: 5403954204520655016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character Animations_Right_Hat2_38
+      rect:
+        serializedVersion: 2
+        x: 582
+        y: 40
+        width: 243
+        height: 269
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 900aed6140030bd45b302fa54dfd477a
+      internalID: 5575345295807788578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 340b96a6d60df8441b0899ea651cca15
     internalID: 0
     vertices: []
     indices: 

@@ -1,12 +1,78 @@
 fileFormatVersion: 2
 guid: fefec5fb207cccd458ef5d797d28ad56
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: -4344904900047740732
+    second: Character Animations_BackWalk_Hat4_0
+  - first:
+      213: -7728402069463204637
+    second: Character Animations_BackWalk_Hat4_1
+  - first:
+      213: 7026016292634659947
+    second: Character Animations_BackWalk_Hat4_2
+  - first:
+      213: -3986844742333741717
+    second: Character Animations_BackWalk_Hat4_3
+  - first:
+      213: 1388072965884015213
+    second: Character Animations_BackWalk_Hat4_4
+  - first:
+      213: -589329593991160817
+    second: Character Animations_BackWalk_Hat4_5
+  - first:
+      213: 3459467727159300513
+    second: Character Animations_BackWalk_Hat4_6
+  - first:
+      213: 5078372174270031087
+    second: Character Animations_BackWalk_Hat4_7
+  - first:
+      213: 8378232186230068588
+    second: Character Animations_BackWalk_Hat4_8
+  - first:
+      213: 4233282495652682600
+    second: Character Animations_BackWalk_Hat4_9
+  - first:
+      213: 5121059084528743213
+    second: Character Animations_BackWalk_Hat4_10
+  - first:
+      213: -1297242872037407210
+    second: Character Animations_BackWalk_Hat4_11
+  - first:
+      213: 5178951171786083762
+    second: Character Animations_BackWalk_Hat4_12
+  - first:
+      213: -5322813163604449087
+    second: Character Animations_BackWalk_Hat4_13
+  - first:
+      213: -6741654482934163110
+    second: Character Animations_BackWalk_Hat4_14
+  - first:
+      213: 1146032214842827275
+    second: Character Animations_BackWalk_Hat4_15
+  - first:
+      213: -5748793596502671474
+    second: Character Animations_BackWalk_Hat4_16
+  - first:
+      213: -4215792772324020879
+    second: Character Animations_BackWalk_Hat4_17
+  - first:
+      213: 5903732397089179861
+    second: Character Animations_BackWalk_Hat4_18
+  - first:
+      213: 312536586484625011
+    second: Character Animations_BackWalk_Hat4_19
+  - first:
+      213: 888461833643115723
+    second: Character Animations_BackWalk_Hat4_20
+  - first:
+      213: 8926572165568145662
+    second: Character Animations_BackWalk_Hat4_21
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
     mipMapMode: 0
-    enableMipMap: 1
+    enableMipMap: 0
     sRGBTexture: 1
     linearTexture: 0
     fadeOut: 0
@@ -34,24 +100,24 @@ TextureImporter:
     filterMode: -1
     aniso: -1
     mipBias: -100
-    wrapU: -1
-    wrapV: -1
+    wrapU: 1
+    wrapV: 1
     wrapW: -1
-  nPOTScale: 1
+  nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 0
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 32
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
-  alphaIsTransparency: 0
+  alphaIsTransparency: 1
   spriteTessellationDetail: -1
-  textureType: 0
+  textureType: 8
   textureShape: 1
   singleChannelComponent: 0
   maxTextureSizeSet: 0
@@ -70,13 +136,499 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Character Animations_BackWalk_Hat4_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 565
+        width: 258
+        height: 252
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed1f76ced63406a44a10b2cc33aba361
+      internalID: -4344904900047740732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character Animations_BackWalk_Hat4_1
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 566
+        width: 259
+        height: 252
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48eca714b31f75547a63ef3ce0843b58
+      internalID: -7728402069463204637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character Animations_BackWalk_Hat4_2
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 566
+        width: 258
+        height: 251
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 541d2f41abe3b234d863cab79a1543f7
+      internalID: 7026016292634659947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character Animations_BackWalk_Hat4_3
+      rect:
+        serializedVersion: 2
+        x: 798
+        y: 566
+        width: 258
+        height: 251
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 255f47f9bb06e914a9adc66f0fee5dac
+      internalID: -3986844742333741717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character Animations_BackWalk_Hat4_4
+      rect:
+        serializedVersion: 2
+        x: 1064
+        y: 566
+        width: 257
+        height: 253
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be4b2fc0044eefd4ea9bc9d3620b4316
+      internalID: 1388072965884015213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character Animations_BackWalk_Hat4_5
+      rect:
+        serializedVersion: 2
+        x: 1331
+        y: 566
+        width: 256
+        height: 251
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c147b5db52fb134f9399ec962b9146b
+      internalID: -589329593991160817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character Animations_BackWalk_Hat4_6
+      rect:
+        serializedVersion: 2
+        x: 1596
+        y: 565
+        width: 254
+        height: 252
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f45252d6d33b6a14cb7d7281db40ac4d
+      internalID: 3459467727159300513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character Animations_BackWalk_Hat4_7
+      rect:
+        serializedVersion: 2
+        x: 1862
+        y: 565
+        width: 255
+        height: 252
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a454fb769ca904448b513e724ef600e6
+      internalID: 5078372174270031087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character Animations_BackWalk_Hat4_8
+      rect:
+        serializedVersion: 2
+        x: 2128
+        y: 565
+        width: 256
+        height: 253
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8fb3ce7e189be24a81842e6f149876f
+      internalID: 8378232186230068588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character Animations_BackWalk_Hat4_9
+      rect:
+        serializedVersion: 2
+        x: 2394
+        y: 565
+        width: 254
+        height: 253
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f83ebbc7e15c0634282c15fcf23933de
+      internalID: 4233282495652682600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character Animations_BackWalk_Hat4_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 294
+        width: 257
+        height: 254
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0087aeb14d6900b4eb9da5a1a7482049
+      internalID: 5121059084528743213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character Animations_BackWalk_Hat4_11
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 293
+        width: 256
+        height: 255
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8945bc89ddb82bb44a86ad8408e2fb75
+      internalID: -1297242872037407210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character Animations_BackWalk_Hat4_12
+      rect:
+        serializedVersion: 2
+        x: 531
+        y: 293
+        width: 255
+        height: 255
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8e0c2b35277e814f977f81d551d6624
+      internalID: 5178951171786083762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character Animations_BackWalk_Hat4_13
+      rect:
+        serializedVersion: 2
+        x: 799
+        y: 294
+        width: 255
+        height: 254
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80459f9505c7dfd48b44d4d4e335cc4f
+      internalID: -5322813163604449087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character Animations_BackWalk_Hat4_14
+      rect:
+        serializedVersion: 2
+        x: 1066
+        y: 295
+        width: 256
+        height: 252
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08bad559d669724479f2ba4ff85cd006
+      internalID: -6741654482934163110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character Animations_BackWalk_Hat4_15
+      rect:
+        serializedVersion: 2
+        x: 1333
+        y: 295
+        width: 255
+        height: 251
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63db7c52a2914c1459292b8736a474cf
+      internalID: 1146032214842827275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character Animations_BackWalk_Hat4_16
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 295
+        width: 255
+        height: 251
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea6be2c8dd0a5924ea75f4219acc010f
+      internalID: -5748793596502671474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character Animations_BackWalk_Hat4_17
+      rect:
+        serializedVersion: 2
+        x: 1865
+        y: 297
+        width: 256
+        height: 251
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5322b10c28ec574386ab280de3aeadf
+      internalID: -4215792772324020879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character Animations_BackWalk_Hat4_18
+      rect:
+        serializedVersion: 2
+        x: 2129
+        y: 297
+        width: 258
+        height: 251
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5d553c28d2d68441b0c75ae331cda93
+      internalID: 5903732397089179861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character Animations_BackWalk_Hat4_19
+      rect:
+        serializedVersion: 2
+        x: 2396
+        y: 297
+        width: 258
+        height: 251
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55f94b015b8f3b8498d425db0b443115
+      internalID: 312536586484625011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character Animations_BackWalk_Hat4_20
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 26
+        width: 256
+        height: 252
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03e0b0c201958fc4ea9e5c2cd2583584
+      internalID: 888461833643115723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character Animations_BackWalk_Hat4_21
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 26
+        width: 258
+        height: 253
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f626500bb8f5b714c9daa093b8f4835f
+      internalID: 8926572165568145662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 15af3b9d56a75db408cfe2e19215c454
     internalID: 0
     vertices: []
     indices: 

@@ -1,12 +1,156 @@
 fileFormatVersion: 2
 guid: da531ee707fbb4f45bc3a9c7c81a3990
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: 6099743146180718642
+    second: Character Animations_Walk_hat3_0
+  - first:
+      213: 7461101091333407859
+    second: Character Animations_Walk_hat3_1
+  - first:
+      213: 2947348015291135572
+    second: Character Animations_Walk_hat3_2
+  - first:
+      213: -5888260983200017621
+    second: Character Animations_Walk_hat3_3
+  - first:
+      213: -779210292233580487
+    second: Character Animations_Walk_hat3_4
+  - first:
+      213: -1444418386376109585
+    second: Character Animations_Walk_hat3_5
+  - first:
+      213: 622664903085077318
+    second: Character Animations_Walk_hat3_6
+  - first:
+      213: -3294231045501799549
+    second: Character Animations_Walk_hat3_7
+  - first:
+      213: -5332253294994173062
+    second: Character Animations_Walk_hat3_8
+  - first:
+      213: -2887060566440943886
+    second: Character Animations_Walk_hat3_9
+  - first:
+      213: -8126181995722043773
+    second: Character Animations_Walk_hat3_10
+  - first:
+      213: 8392671048047947950
+    second: Character Animations_Walk_hat3_11
+  - first:
+      213: -4946884733126170074
+    second: Character Animations_Walk_hat3_12
+  - first:
+      213: -6014622361003214673
+    second: Character Animations_Walk_hat3_13
+  - first:
+      213: 4700119274549926126
+    second: Character Animations_Walk_hat3_14
+  - first:
+      213: -184212800125330494
+    second: Character Animations_Walk_hat3_15
+  - first:
+      213: -6177206525583233800
+    second: Character Animations_Walk_hat3_16
+  - first:
+      213: -3456758406049022705
+    second: Character Animations_Walk_hat3_17
+  - first:
+      213: -4989936475112245851
+    second: Character Animations_Walk_hat3_18
+  - first:
+      213: 3723506068269650633
+    second: Character Animations_Walk_hat3_19
+  - first:
+      213: -568881015578353035
+    second: Character Animations_Walk_hat3_20
+  - first:
+      213: -979092674240048547
+    second: Character Animations_Walk_hat3_21
+  - first:
+      213: 4295405721258170194
+    second: Character Animations_Walk_hat3_22
+  - first:
+      213: -6855413876937528084
+    second: Character Animations_Walk_hat3_23
+  - first:
+      213: 3741197682080711143
+    second: Character Animations_Walk_hat3_24
+  - first:
+      213: -7152353587745938846
+    second: Character Animations_Walk_hat3_25
+  - first:
+      213: 1977818436953212437
+    second: Character Animations_Walk_hat3_26
+  - first:
+      213: 4373483349575861813
+    second: Character Animations_Walk_hat3_27
+  - first:
+      213: -8396206861661272960
+    second: Character Animations_Walk_hat3_28
+  - first:
+      213: 5253037478013589748
+    second: Character Animations_Walk_hat3_29
+  - first:
+      213: 2067660583361036924
+    second: Character Animations_Walk_hat3_30
+  - first:
+      213: -4826713714093868944
+    second: Character Animations_Walk_hat3_31
+  - first:
+      213: -6746607072983471441
+    second: Character Animations_Walk_hat3_32
+  - first:
+      213: 430112384461216325
+    second: Character Animations_Walk_hat3_33
+  - first:
+      213: 4140758441864380173
+    second: Character Animations_Walk_hat3_34
+  - first:
+      213: 7834679684246586773
+    second: Character Animations_Walk_hat3_35
+  - first:
+      213: 4833282211035381127
+    second: Character Animations_Walk_hat3_36
+  - first:
+      213: 700071121530128224
+    second: Character Animations_Walk_hat3_37
+  - first:
+      213: -1502140099338241999
+    second: Character Animations_Walk_hat3_38
+  - first:
+      213: -5811705113909350090
+    second: Character Animations_Walk_hat3_39
+  - first:
+      213: -1851657326718250946
+    second: Character Animations_Walk_hat3_40
+  - first:
+      213: 8125903844800120869
+    second: Character Animations_Walk_hat3_41
+  - first:
+      213: -5592701023238869419
+    second: Character Animations_Walk_hat3_42
+  - first:
+      213: -2852077885350003417
+    second: Character Animations_Walk_hat3_43
+  - first:
+      213: 996704824316461218
+    second: Character Animations_Walk_hat3_44
+  - first:
+      213: -6356736751614048943
+    second: Character Animations_Walk_hat3_45
+  - first:
+      213: 3763864794652449613
+    second: Character Animations_Walk_hat3_46
+  - first:
+      213: -3922115008345037134
+    second: Character Animations_Walk_hat3_47
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
     mipMapMode: 0
-    enableMipMap: 1
+    enableMipMap: 0
     sRGBTexture: 1
     linearTexture: 0
     fadeOut: 0
@@ -34,24 +178,24 @@ TextureImporter:
     filterMode: -1
     aniso: -1
     mipBias: -100
-    wrapU: -1
-    wrapV: -1
+    wrapU: 1
+    wrapV: 1
     wrapW: -1
-  nPOTScale: 1
+  nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 0
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 32
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
-  alphaIsTransparency: 0
+  alphaIsTransparency: 1
   spriteTessellationDetail: -1
-  textureType: 0
+  textureType: 8
   textureShape: 1
   singleChannelComponent: 0
   maxTextureSizeSet: 0
@@ -70,13 +214,1045 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Character Animations_Walk_hat3_0
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 1931
+        width: 257
+        height: 275
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 185b488083a844649a42fce642f9a103
+      internalID: 6099743146180718642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character Animations_Walk_hat3_1
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 1931
+        width: 256
+        height: 275
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 515f5560f3d44cf479817ec6d7c47522
+      internalID: 7461101091333407859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character Animations_Walk_hat3_2
+      rect:
+        serializedVersion: 2
+        x: 582
+        y: 1931
+        width: 257
+        height: 275
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45ede706702746248940744711d34a06
+      internalID: 2947348015291135572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character Animations_Walk_hat3_3
+      rect:
+        serializedVersion: 2
+        x: 871
+        y: 1931
+        width: 255
+        height: 275
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c08f708eeff06fe4dbc9fa75b34c2d39
+      internalID: -5888260983200017621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character Animations_Walk_hat3_4
+      rect:
+        serializedVersion: 2
+        x: 1159
+        y: 1931
+        width: 257
+        height: 275
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7038f7ed1321b648877179e35d4677f
+      internalID: -779210292233580487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character Animations_Walk_hat3_5
+      rect:
+        serializedVersion: 2
+        x: 1446
+        y: 1931
+        width: 260
+        height: 275
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27b359dbea63bfb46adb69a71511d594
+      internalID: -1444418386376109585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character Animations_Walk_hat3_6
+      rect:
+        serializedVersion: 2
+        x: 1735
+        y: 1931
+        width: 260
+        height: 275
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b0d10c07593fa84c84a093134f31ec8
+      internalID: 622664903085077318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character Animations_Walk_hat3_7
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 1642
+        width: 262
+        height: 274
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2db46c8cbff0365419b908149d9f6679
+      internalID: -3294231045501799549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character Animations_Walk_hat3_8
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 1642
+        width: 261
+        height: 274
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ddeb0e21e0b84e4faa5000523aba783
+      internalID: -5332253294994173062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character Animations_Walk_hat3_9
+      rect:
+        serializedVersion: 2
+        x: 581
+        y: 1643
+        width: 263
+        height: 273
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3dac9501f4b35040b31fd4f0d971348
+      internalID: -2887060566440943886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character Animations_Walk_hat3_10
+      rect:
+        serializedVersion: 2
+        x: 869
+        y: 1645
+        width: 264
+        height: 271
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc656e21b9e3f0246a4598369687a76e
+      internalID: -8126181995722043773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character Animations_Walk_hat3_11
+      rect:
+        serializedVersion: 2
+        x: 1156
+        y: 1646
+        width: 264
+        height: 270
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7dd85e7bb0a2d4248ab601d3ab6b6af9
+      internalID: 8392671048047947950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character Animations_Walk_hat3_12
+      rect:
+        serializedVersion: 2
+        x: 1444
+        y: 1647
+        width: 264
+        height: 269
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66c77a38ebfa6a44793028b25a228813
+      internalID: -4946884733126170074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character Animations_Walk_hat3_13
+      rect:
+        serializedVersion: 2
+        x: 1733
+        y: 1647
+        width: 263
+        height: 269
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab633658747de9b418383fe8b28de165
+      internalID: -6014622361003214673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character Animations_Walk_hat3_14
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 1357
+        width: 263
+        height: 270
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b13494319305cba4691fe3d2ec6e1501
+      internalID: 4700119274549926126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character Animations_Walk_hat3_15
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 1356
+        width: 261
+        height: 271
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a003e0eee753344ebd3e8c99d6864af
+      internalID: -184212800125330494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character Animations_Walk_hat3_16
+      rect:
+        serializedVersion: 2
+        x: 582
+        y: 1356
+        width: 260
+        height: 271
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b68c06ce3e8ccac45ad042c6d98082f5
+      internalID: -6177206525583233800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character Animations_Walk_hat3_17
+      rect:
+        serializedVersion: 2
+        x: 871
+        y: 1356
+        width: 258
+        height: 271
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ac50aca16b120446bd5a90d82a5a118
+      internalID: -3456758406049022705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character Animations_Walk_hat3_18
+      rect:
+        serializedVersion: 2
+        x: 1159
+        y: 1357
+        width: 257
+        height: 270
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2ad6825691d6b6438f5a12fff64d67d
+      internalID: -4989936475112245851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character Animations_Walk_hat3_19
+      rect:
+        serializedVersion: 2
+        x: 1447
+        y: 1356
+        width: 257
+        height: 271
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 144152d6afab8b0429498916d32a423a
+      internalID: 3723506068269650633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character Animations_Walk_hat3_20
+      rect:
+        serializedVersion: 2
+        x: 1736
+        y: 1355
+        width: 255
+        height: 272
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f54baab2470f5eb4e80fdfde203ebfa5
+      internalID: -568881015578353035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character Animations_Walk_hat3_21
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 1064
+        width: 256
+        height: 272
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 920052b1338a1524c8dd927aaee94eb9
+      internalID: -979092674240048547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character Animations_Walk_hat3_22
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 1064
+        width: 256
+        height: 273
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 362822834c1567a478fa5af5ddb5db14
+      internalID: 4295405721258170194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character Animations_Walk_hat3_23
+      rect:
+        serializedVersion: 2
+        x: 583
+        y: 1063
+        width: 258
+        height: 274
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 076f6f9c0a97a834a91181ca50089d6f
+      internalID: -6855413876937528084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character Animations_Walk_hat3_24
+      rect:
+        serializedVersion: 2
+        x: 875
+        y: 1063
+        width: 258
+        height: 274
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4258264e541b534bb91933040c06622
+      internalID: 3741197682080711143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character Animations_Walk_hat3_25
+      rect:
+        serializedVersion: 2
+        x: 1162
+        y: 1063
+        width: 257
+        height: 274
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88fe1b44ed2fa8b49a435829e80c29cb
+      internalID: -7152353587745938846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character Animations_Walk_hat3_26
+      rect:
+        serializedVersion: 2
+        x: 1450
+        y: 1063
+        width: 256
+        height: 274
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b20f443725cda444819040b5df03545
+      internalID: 1977818436953212437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character Animations_Walk_hat3_27
+      rect:
+        serializedVersion: 2
+        x: 1737
+        y: 1063
+        width: 256
+        height: 274
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b49f8dfc7787afe4d91460e0f832f4b6
+      internalID: 4373483349575861813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character Animations_Walk_hat3_28
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 774
+        width: 257
+        height: 272
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ece007cfdef580d4fa4ea5538e46fb9c
+      internalID: -8396206861661272960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character Animations_Walk_hat3_29
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 774
+        width: 259
+        height: 273
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48ca9c84300475d4e8b981579f62c9c4
+      internalID: 5253037478013589748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character Animations_Walk_hat3_30
+      rect:
+        serializedVersion: 2
+        x: 582
+        y: 774
+        width: 261
+        height: 272
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6dd368e24fc8d34eb9b160a718cacbe
+      internalID: 2067660583361036924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character Animations_Walk_hat3_31
+      rect:
+        serializedVersion: 2
+        x: 870
+        y: 774
+        width: 262
+        height: 272
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6468b133ea896d45a73c0a7205bc847
+      internalID: -4826713714093868944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character Animations_Walk_hat3_32
+      rect:
+        serializedVersion: 2
+        x: 1158
+        y: 774
+        width: 262
+        height: 271
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ff566ed90b90074ba05b3a935b9c81d
+      internalID: -6746607072983471441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character Animations_Walk_hat3_33
+      rect:
+        serializedVersion: 2
+        x: 1445
+        y: 774
+        width: 263
+        height: 271
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 350d175ffdd07a04e9723efb41e9502a
+      internalID: 430112384461216325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character Animations_Walk_hat3_34
+      rect:
+        serializedVersion: 2
+        x: 1733
+        y: 774
+        width: 264
+        height: 271
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0fa4df55df46a3349bdba9003eab2588
+      internalID: 4140758441864380173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character Animations_Walk_hat3_35
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 484
+        width: 264
+        height: 270
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cdff897a2d23f934db5bec8bbc2481c3
+      internalID: 7834679684246586773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character Animations_Walk_hat3_36
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 484
+        width: 263
+        height: 269
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b63b5f300d257384ba9a99b73a9a26ca
+      internalID: 4833282211035381127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character Animations_Walk_hat3_37
+      rect:
+        serializedVersion: 2
+        x: 580
+        y: 484
+        width: 264
+        height: 269
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aaa22f5d55683c74b84c6e04388347d0
+      internalID: 700071121530128224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character Animations_Walk_hat3_38
+      rect:
+        serializedVersion: 2
+        x: 869
+        y: 484
+        width: 263
+        height: 269
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 661665a2b568399468fc7714d454f21d
+      internalID: -1502140099338241999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character Animations_Walk_hat3_39
+      rect:
+        serializedVersion: 2
+        x: 1158
+        y: 483
+        width: 260
+        height: 270
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba1886a72a8d77e459f7a16e354c7224
+      internalID: -5811705113909350090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character Animations_Walk_hat3_40
+      rect:
+        serializedVersion: 2
+        x: 1446
+        y: 483
+        width: 260
+        height: 270
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95b0e39549d59c74dbce45e54a3e8f80
+      internalID: -1851657326718250946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character Animations_Walk_hat3_41
+      rect:
+        serializedVersion: 2
+        x: 1735
+        y: 483
+        width: 257
+        height: 270
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c31c72f31cc24fa4b934c04884d2d1b6
+      internalID: 8125903844800120869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character Animations_Walk_hat3_42
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 194
+        width: 256
+        height: 269
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf24ded09d02cc34ba4be48b55dfef8c
+      internalID: -5592701023238869419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character Animations_Walk_hat3_43
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 193
+        width: 255
+        height: 271
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 097a53b487ca45e4784f72f9b85d379b
+      internalID: -2852077885350003417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character Animations_Walk_hat3_44
+      rect:
+        serializedVersion: 2
+        x: 582
+        y: 193
+        width: 257
+        height: 271
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3402319719912e64186e02ebf0f80171
+      internalID: 996704824316461218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character Animations_Walk_hat3_45
+      rect:
+        serializedVersion: 2
+        x: 871
+        y: 192
+        width: 255
+        height: 273
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58ea8a3405c244f4d917187a7b6f2f2d
+      internalID: -6356736751614048943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character Animations_Walk_hat3_46
+      rect:
+        serializedVersion: 2
+        x: 1158
+        y: 192
+        width: 257
+        height: 273
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fabf5769ebe1bdc4cb75f263196494a3
+      internalID: 3763864794652449613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character Animations_Walk_hat3_47
+      rect:
+        serializedVersion: 2
+        x: 1446
+        y: 191
+        width: 258
+        height: 275
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ec2fdc5b034ecb48a288799baa21ed8
+      internalID: -3922115008345037134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: f24b6fc129447de44ab21626ce4dddb4
     internalID: 0
     vertices: []
     indices: 
