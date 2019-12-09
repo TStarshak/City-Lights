@@ -130,6 +130,7 @@ GameObject:
   m_Component:
   - component: {fileID: 56641021}
   - component: {fileID: 56641022}
+  - component: {fileID: 56641023}
   m_Layer: 0
   m_Name: mid_building1_unlit_1
   m_TagString: Untagged
@@ -200,6 +201,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &56641023
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 56641020}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 65d09e3af0967ee428f23c78972b36a0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  litBuildingSprite: {fileID: 21300000, guid: 13e5f8b57a5d5f944b114f6995932986, type: 3}
+  fireflyRequirement: 30
 --- !u!1 &95252169
 GameObject:
   m_ObjectHideFlags: 0
@@ -560,6 +575,7 @@ GameObject:
   m_Component:
   - component: {fileID: 217033438}
   - component: {fileID: 217033439}
+  - component: {fileID: 217033440}
   m_Layer: 0
   m_Name: building_3_unlit_1
   m_TagString: Untagged
@@ -630,6 +646,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &217033440
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 217033437}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 65d09e3af0967ee428f23c78972b36a0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  litBuildingSprite: {fileID: 21300000, guid: 1c1fb85e254fac84b99f0bdbb27c2dca, type: 3}
+  fireflyRequirement: 20
 --- !u!1 &278576396
 GameObject:
   m_ObjectHideFlags: 0
@@ -640,6 +670,7 @@ GameObject:
   m_Component:
   - component: {fileID: 278576397}
   - component: {fileID: 278576398}
+  - component: {fileID: 278576399}
   m_Layer: 0
   m_Name: building_6_unlit_1
   m_TagString: Untagged
@@ -710,6 +741,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &278576399
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 278576396}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 65d09e3af0967ee428f23c78972b36a0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  litBuildingSprite: {fileID: 21300000, guid: f792ad364c955984990bf2479232f68c, type: 3}
+  fireflyRequirement: 25
 --- !u!1 &301769325
 GameObject:
   m_ObjectHideFlags: 0
@@ -842,6 +887,7 @@ GameObject:
   m_Component:
   - component: {fileID: 308899505}
   - component: {fileID: 308899506}
+  - component: {fileID: 308899507}
   m_Layer: 0
   m_Name: middle_all_unlit (1)
   m_TagString: Untagged
@@ -912,6 +958,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &308899507
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 308899504}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 65d09e3af0967ee428f23c78972b36a0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  litBuildingSprite: {fileID: 21300000, guid: bbe523a3743a28844a160450826e6cb3, type: 3}
+  fireflyRequirement: 40
 --- !u!1 &339273453
 GameObject:
   m_ObjectHideFlags: 0
@@ -1080,6 +1140,7 @@ GameObject:
   m_Component:
   - component: {fileID: 360560291}
   - component: {fileID: 360560292}
+  - component: {fileID: 360560293}
   m_Layer: 0
   m_Name: Fireflyter Building
   m_TagString: Untagged
@@ -1150,6 +1211,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &360560293
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 360560290}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 65d09e3af0967ee428f23c78972b36a0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  litBuildingSprite: {fileID: 21300000, guid: a7e1f0b42a999b94aadb83362b57077a, type: 3}
+  fireflyRequirement: 15
 --- !u!1 &372336552
 GameObject:
   m_ObjectHideFlags: 0
@@ -1712,7 +1787,7 @@ RectTransform:
   - {fileID: 679185498}
   - {fileID: 1215601440}
   m_Father: {fileID: 0}
-  m_RootOrder: 10
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -1729,6 +1804,7 @@ GameObject:
   m_Component:
   - component: {fileID: 580301818}
   - component: {fileID: 580301819}
+  - component: {fileID: 580301820}
   m_Layer: 0
   m_Name: mid_building4_unlit_1
   m_TagString: Untagged
@@ -1799,6 +1875,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &580301820
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 580301817}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 65d09e3af0967ee428f23c78972b36a0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  litBuildingSprite: {fileID: 21300000, guid: 9f7469feeef7574469fb704cf80a34fa, type: 3}
+  fireflyRequirement: 35
 --- !u!1 &584850820
 GameObject:
   m_ObjectHideFlags: 0
@@ -2293,6 +2383,7 @@ GameObject:
   m_Component:
   - component: {fileID: 765890171}
   - component: {fileID: 765890172}
+  - component: {fileID: 765890173}
   m_Layer: 0
   m_Name: back_allbuildings_unlit
   m_TagString: Untagged
@@ -2363,6 +2454,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &765890173
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 765890170}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 65d09e3af0967ee428f23c78972b36a0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  litBuildingSprite: {fileID: 21300000, guid: 6828072e9cb66cf4f89a45224ba564b5, type: 3}
+  fireflyRequirement: 45
 --- !u!1 &819722716
 GameObject:
   m_ObjectHideFlags: 0
@@ -2476,7 +2581,7 @@ Transform:
   - {fileID: 1453887608}
   - {fileID: 360560291}
   m_Father: {fileID: 0}
-  m_RootOrder: 13
+  m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &845721031 stripped
 GameObject:
@@ -2651,7 +2756,7 @@ Transform:
   - {fileID: 2088139335}
   - {fileID: 1648410601}
   m_Father: {fileID: 0}
-  m_RootOrder: 14
+  m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &894057906 stripped
 GameObject:
@@ -2881,6 +2986,7 @@ GameObject:
   m_Component:
   - component: {fileID: 981838485}
   - component: {fileID: 981838486}
+  - component: {fileID: 981838487}
   m_Layer: 0
   m_Name: building_2_unlit_1
   m_TagString: Untagged
@@ -2951,6 +3057,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &981838487
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 981838484}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 65d09e3af0967ee428f23c78972b36a0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  litBuildingSprite: {fileID: 21300000, guid: eb1114f221418b84587c2d999a7ba0fb, type: 3}
+  fireflyRequirement: 25
 --- !u!1001 &1043453509
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3248,6 +3368,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1145747168}
   - component: {fileID: 1145747169}
+  - component: {fileID: 1145747170}
   m_Layer: 0
   m_Name: UNLIT_lamppost_asset
   m_TagString: Untagged
@@ -3318,6 +3439,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1145747170
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1145747167}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 65d09e3af0967ee428f23c78972b36a0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  litBuildingSprite: {fileID: 21300000, guid: b5708e878daa63643b75f96bc5e3cdde, type: 3}
+  fireflyRequirement: 25
 --- !u!1 &1149477767
 GameObject:
   m_ObjectHideFlags: 0
@@ -3328,6 +3463,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1149477768}
   - component: {fileID: 1149477769}
+  - component: {fileID: 1149477770}
   m_Layer: 0
   m_Name: back_allbuildings_unlit (1)
   m_TagString: Untagged
@@ -3398,6 +3534,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1149477770
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1149477767}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 65d09e3af0967ee428f23c78972b36a0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  litBuildingSprite: {fileID: 21300000, guid: 6828072e9cb66cf4f89a45224ba564b5, type: 3}
+  fireflyRequirement: 30
 --- !u!1 &1166211394
 GameObject:
   m_ObjectHideFlags: 0
@@ -3408,6 +3558,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1166211395}
   - component: {fileID: 1166211396}
+  - component: {fileID: 1166211397}
   m_Layer: 0
   m_Name: mid_building2_unlit_1
   m_TagString: Untagged
@@ -3478,6 +3629,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1166211397
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1166211394}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 65d09e3af0967ee428f23c78972b36a0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  litBuildingSprite: {fileID: 0}
+  fireflyRequirement: 35
 --- !u!1 &1185291881
 GameObject:
   m_ObjectHideFlags: 0
@@ -3646,6 +3811,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1202423228}
   - component: {fileID: 1202423229}
+  - component: {fileID: 1202423230}
   m_Layer: 0
   m_Name: mid_building3_unlit_1
   m_TagString: Untagged
@@ -3716,6 +3882,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1202423230
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1202423227}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 65d09e3af0967ee428f23c78972b36a0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  litBuildingSprite: {fileID: 21300000, guid: d3adf1f2a063d024bb41a8eaf487d11d, type: 3}
+  fireflyRequirement: 30
 --- !u!1 &1214572521
 GameObject:
   m_ObjectHideFlags: 0
@@ -4095,6 +4275,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1294510497}
   - component: {fileID: 1294510498}
+  - component: {fileID: 1294510499}
   m_Layer: 0
   m_Name: building_5_unlit_1
   m_TagString: Untagged
@@ -4165,6 +4346,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1294510499
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1294510496}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 65d09e3af0967ee428f23c78972b36a0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  litBuildingSprite: {fileID: 21300000, guid: dc194412d5c1bcf4587a8cbfa2d7070c, type: 3}
+  fireflyRequirement: 20
 --- !u!1 &1333046929
 GameObject:
   m_ObjectHideFlags: 0
@@ -4728,7 +4923,7 @@ RectTransform:
   m_Children:
   - {fileID: 418870228}
   m_Father: {fileID: 0}
-  m_RootOrder: 11
+  m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -4745,6 +4940,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1453887608}
   - component: {fileID: 1453887607}
+  - component: {fileID: 1453887609}
   m_Layer: 0
   m_Name: Upgrade Shop
   m_TagString: Untagged
@@ -4815,6 +5011,20 @@ Transform:
   m_Father: {fileID: 823040265}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1453887609
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1453887606}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 65d09e3af0967ee428f23c78972b36a0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  litBuildingSprite: {fileID: 21300000, guid: 5a0fc34e32e720d4cabce18ba3f6f5f4, type: 3}
+  fireflyRequirement: 15
 --- !u!1 &1476218058
 GameObject:
   m_ObjectHideFlags: 0
@@ -5511,6 +5721,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1606736095}
   - component: {fileID: 1606736096}
+  - component: {fileID: 1606736097}
   m_Layer: 0
   m_Name: building_4_unlit_1
   m_TagString: Untagged
@@ -5581,6 +5792,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1606736097
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1606736094}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 65d09e3af0967ee428f23c78972b36a0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  litBuildingSprite: {fileID: 21300000, guid: 067ff4de2d50568418386a50328a4fb0, type: 3}
+  fireflyRequirement: 25
 --- !u!1 &1606754321
 GameObject:
   m_ObjectHideFlags: 0
@@ -5657,6 +5882,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1616433736}
   - component: {fileID: 1616433737}
+  - component: {fileID: 1616433738}
   m_Layer: 0
   m_Name: back_allbuildings_unlit (2)
   m_TagString: Untagged
@@ -5727,6 +5953,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1616433738
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1616433735}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 65d09e3af0967ee428f23c78972b36a0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  litBuildingSprite: {fileID: 21300000, guid: 6828072e9cb66cf4f89a45224ba564b5, type: 3}
+  fireflyRequirement: 35
 --- !u!1 &1638960392
 GameObject:
   m_ObjectHideFlags: 0
@@ -5816,6 +6056,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1648410601}
   - component: {fileID: 1648410602}
+  - component: {fileID: 1648410603}
   m_Layer: 0
   m_Name: UNLIT_lamppost_asset (3)
   m_TagString: Untagged
@@ -5886,6 +6127,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1648410603
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1648410600}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 65d09e3af0967ee428f23c78972b36a0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  litBuildingSprite: {fileID: 21300000, guid: b5708e878daa63643b75f96bc5e3cdde, type: 3}
+  fireflyRequirement: 25
 --- !u!1 &1688150860
 GameObject:
   m_ObjectHideFlags: 0
@@ -5971,6 +6226,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1718392995}
   - component: {fileID: 1718392996}
+  - component: {fileID: 1718392997}
   m_Layer: 0
   m_Name: building_1_unlit
   m_TagString: Untagged
@@ -6041,6 +6297,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1718392997
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1718392994}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 65d09e3af0967ee428f23c78972b36a0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  litBuildingSprite: {fileID: 21300000, guid: 948424b9b109b2b44b973c27e4c1a6b2, type: 3}
+  fireflyRequirement: 20
 --- !u!1 &1735846121
 GameObject:
   m_ObjectHideFlags: 0
@@ -6051,6 +6321,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1735846122}
   - component: {fileID: 1735846123}
+  - component: {fileID: 1735846124}
   m_Layer: 0
   m_Name: UNLIT_lamppost_asset (1)
   m_TagString: Untagged
@@ -6121,6 +6392,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1735846124
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1735846121}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 65d09e3af0967ee428f23c78972b36a0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  litBuildingSprite: {fileID: 21300000, guid: b5708e878daa63643b75f96bc5e3cdde, type: 3}
+  fireflyRequirement: 25
 --- !u!1 &1751373023
 GameObject:
   m_ObjectHideFlags: 0
@@ -6523,6 +6808,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1883144268}
   - component: {fileID: 1883144269}
+  - component: {fileID: 1883144270}
   m_Layer: 0
   m_Name: middle_all_unlit
   m_TagString: Untagged
@@ -6593,6 +6879,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1883144270
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1883144267}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 65d09e3af0967ee428f23c78972b36a0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  litBuildingSprite: {fileID: 21300000, guid: bbe523a3743a28844a160450826e6cb3, type: 3}
+  fireflyRequirement: 40
 --- !u!1 &1887044256
 GameObject:
   m_ObjectHideFlags: 0
@@ -6682,6 +6982,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1912375095}
   - component: {fileID: 1912375096}
+  - component: {fileID: 1912375097}
   m_Layer: 0
   m_Name: mid_building5_unlit
   m_TagString: Untagged
@@ -6752,6 +7053,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1912375097
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1912375094}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 65d09e3af0967ee428f23c78972b36a0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  litBuildingSprite: {fileID: 21300000, guid: 579a71e2cca605440b36322362a65bdb, type: 3}
+  fireflyRequirement: 30
 --- !u!1 &1955573130
 GameObject:
   m_ObjectHideFlags: 0
@@ -6838,7 +7153,7 @@ PrefabInstance:
     - target: {fileID: 2297868937424434435, guid: ef555bed0b836654ba845e032b5ebcbb,
         type: 3}
       propertyPath: m_RootOrder
-      value: 12
+      value: 11
       objectReference: {fileID: 0}
     - target: {fileID: 2297868937424434435, guid: ef555bed0b836654ba845e032b5ebcbb,
         type: 3}
@@ -6882,6 +7197,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2088139335}
   - component: {fileID: 2088139336}
+  - component: {fileID: 2088139337}
   m_Layer: 0
   m_Name: UNLIT_lamppost_asset (2)
   m_TagString: Untagged
@@ -6952,6 +7268,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &2088139337
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2088139334}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 65d09e3af0967ee428f23c78972b36a0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  litBuildingSprite: {fileID: 21300000, guid: b5708e878daa63643b75f96bc5e3cdde, type: 3}
+  fireflyRequirement: 25
 --- !u!1 &2092736652
 GameObject:
   m_ObjectHideFlags: 0
@@ -7052,7 +7382,7 @@ Transform:
   m_Children:
   - {fileID: 1334745477}
   m_Father: {fileID: 0}
-  m_RootOrder: 8
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &2092736656
 MonoBehaviour:
@@ -7126,7 +7456,7 @@ RectTransform:
   - {fileID: 894057913}
   - {fileID: 97696940}
   m_Father: {fileID: 0}
-  m_RootOrder: 9
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -7368,7 +7698,7 @@ PrefabInstance:
     - target: {fileID: 8259127795511279629, guid: b2b1810b881170740b9f09cfd59e6e1b,
         type: 3}
       propertyPath: m_RootOrder
-      value: 7
+      value: 14
       objectReference: {fileID: 0}
     - target: {fileID: 8259127795511279629, guid: b2b1810b881170740b9f09cfd59e6e1b,
         type: 3}
