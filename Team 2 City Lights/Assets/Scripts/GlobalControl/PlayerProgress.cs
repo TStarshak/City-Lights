@@ -63,4 +63,11 @@ public class PlayerProgress : MonoBehaviour
             SaveSystem.LoadPlayer(this);
         }
     }
+
+    // Reset the player's progress
+    public void resetPlayerProgress(){
+        returningFromForest = false;
+        currentUpgrades = new PlayerUpgrades();
+        savedPlayerData = new PlayerData();
+    }
 }

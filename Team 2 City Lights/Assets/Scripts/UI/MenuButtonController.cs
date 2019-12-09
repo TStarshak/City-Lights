@@ -22,4 +22,9 @@ public class MenuButtonController : MonoBehaviour
     public void StartGame(){
         SceneController.LoadFirstScene();
     }
+
+    public void ResetGameData(){
+        SaveSystem.DeleteSavedData();
+        PlayerProgress.Instance.resetPlayerProgress();
+    }
 }
