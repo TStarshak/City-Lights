@@ -10,7 +10,6 @@ public class LocalNavMeshBuilder : MonoBehaviour
 {
     // The center of the build
     public Transform m_Tracked;
-    [SerializeField] GameObject player;
 
     // The size of the build bounds
     public Vector3 m_Size = new Vector3(80.0f, 20.0f, 80.0f);
@@ -19,15 +18,11 @@ public class LocalNavMeshBuilder : MonoBehaviour
     AsyncOperation m_Operation;
     NavMeshDataInstance m_Instance;
     List<NavMeshBuildSource> m_Sources = new List<NavMeshBuildSource>();
-    // IEnumerator Start()
-    // {
-    //     // if(player.GetComponent<MapFeatureGeneration>().readyToGenerateNavMesh)
-    //     // while (true)
-    //     // {
-    //     //     UpdateNavMesh(true);
-    //     //     yield return m_Operation;
-    //     // }
-    // }
+    IEnumerator Start()
+    {
+        StartCoroutine(doShit());
+        yield return new WaitForSeconds(0);
+    }
 
     void OnEnable()
     {
@@ -37,13 +32,6 @@ public class LocalNavMeshBuilder : MonoBehaviour
         if (m_Tracked == null)
             m_Tracked = transform;
         UpdateNavMesh(false);
-    }
-
-    IEnumerator Update(){
-        if(player.GetComponent<MapFeatureGeneration>().readyToGenerateNavMesh){
-            UpdateNavMesh(true);
-            yield return m_Operation;
-        }
     }
 
     void OnDisable()
@@ -94,5 +82,14 @@ public class LocalNavMeshBuilder : MonoBehaviour
         Gizmos.color = Color.green;
         var center = m_Tracked ? m_Tracked.position : transform.position;
         Gizmos.DrawWireCube(center, m_Size);
+    }
+
+    IEnumerator doShit()
+    {
+        while (true)
+        {
+            UpdateNavMesh(true);
+            yield return m_Operation;
+        }
     }
 }

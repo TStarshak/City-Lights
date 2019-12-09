@@ -26,7 +26,7 @@ public class PlayerColliderScript : MonoBehaviour
         {
             int fireflyValue = other.gameObject.GetComponent<FireflyMovement>().rarity;
             // Make sure the value of collecting the firefly won't exceed the vaculamp capacity
-            if ((Lighting.numFireflies + fireflyValue <= Lighting.capacity) && Vacuum.isOn)
+            if ((Lighting.numFireflies + fireflyValue < Lighting.capacity) && Vacuum.isOn)
             {
                 Destroy(other.gameObject);
                 SendMessageUpwards("onFireflyEnter", fireflyValue);
@@ -46,6 +46,11 @@ public class PlayerColliderScript : MonoBehaviour
         else if (other.gameObject.tag.Equals("Web"))
         {
             PlayerState.localPlayerData.movementSpeed = 5;
+        }
+        else if (other.gameObject.tag.Equals("Projectile"))
+        {
+            Destroy(other.gameObject);
+            SendMessageUpwards("onEnemyEnter");
         }
     }
 

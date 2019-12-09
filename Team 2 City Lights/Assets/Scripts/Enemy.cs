@@ -46,7 +46,10 @@ public class Enemy : MonoBehaviour
             {
                 Vector3 dirToPlayer = transform.position - Player.transform.position;
                 Vector3 newPos = transform.position - dirToPlayer;
-                Shadoow.SetDestination(newPos);
+                if (Shadoow.enabled)
+                {
+                    Shadoow.SetDestination(newPos);
+                }
                 float xPos = dirToPlayer.x;
                 if (xPos > 0 && lookRight)
                 {
