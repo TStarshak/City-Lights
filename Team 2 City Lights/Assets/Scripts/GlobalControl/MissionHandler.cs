@@ -43,7 +43,7 @@ public class MissionHandler : MonoBehaviour
     // Early iteration of mission updates. Next iteration will call from an array of pre-created Missions
     // with attached buildings assets to them to represent which will be lit up
     public void assignNextMission(){
-        PlayerState.localPlayerData.currentMission = new PlayerData.Mission(currentMission.fireflyGoal + 5);
+        currentMission = PlayerState.localPlayerData.currentMission = new PlayerData.Mission(currentMission.fireflyGoal + 5);
     }
 
 

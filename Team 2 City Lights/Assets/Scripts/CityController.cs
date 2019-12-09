@@ -23,7 +23,7 @@ public class CityController : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        Debug.Log(PlayerProgress.Instance.returningFromForest);
+        Debug.Log(PlayerProgress.Instance.firstTimeInCity());
         if (PlayerProgress.Instance.firstTimeInCity()) {
             gameIntroduction.SetActive(true);
             PlayerProgress.Instance.savedPlayerData.HasVisitedCity = true;
@@ -104,7 +104,7 @@ public class CityController : MonoBehaviour
     bool isNearUpgradeShop(){
         playerPosX = playerTransform.position.x;
         playerPosZ = playerTransform.position.z;
-        return (playerPosZ > 2.0f) && (playerPosX > -6.0f && playerPosX < 3.5f);
+        return (playerPosZ > 2.0f) && (playerPosX > -4.0f && playerPosX < 6.0f);
     }
 
     // Determines if the given position is near edge of city

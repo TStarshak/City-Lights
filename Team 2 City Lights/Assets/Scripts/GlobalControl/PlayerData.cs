@@ -29,7 +29,7 @@ public class PlayerData
         public Mission(int newGoal){
             // Set the Default firefly goal
             fireflyGoal = newGoal;
-            // Tracks whether the player has met thee goal for this mission
+            // Tracks whether the player has met the goal for this mission
             hasMetGoal = false;
         }
 
@@ -53,9 +53,13 @@ public class PlayerData
         movementSpeed = oldStatistics.movementSpeed;
         vacuLampCapacity = oldStatistics.vacuLampCapacity;
         vacuLampRange = oldStatistics.vacuLampRange;
+<<<<<<< HEAD
         inDangerState = false;
         isDead = false;
         HasVisitedCity = oldStatistics.HasVisitedCity;
+=======
+        HasVisitedCity = true;                                  // Hacky, but the player should have visited the city by the time this is called
+>>>>>>> 717ce8e80ef2cf7d6655debb768462bc00a40fb0
         currentMission = oldStatistics.currentMission;
     }
 }
