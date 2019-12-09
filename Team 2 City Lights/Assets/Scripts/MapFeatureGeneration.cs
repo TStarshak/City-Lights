@@ -21,6 +21,7 @@ public class MapFeatureGeneration : MonoBehaviour
     List<GameObject> snails = new List<GameObject>();
     float minX, maxX, minZ, maxZ, minY;
     string ringLocation = "0";
+    public bool readyToGenerateNavMesh = false;
 
     void Start()
     {
@@ -77,6 +78,7 @@ public class MapFeatureGeneration : MonoBehaviour
         StartCoroutine(shadeSpawn());
         sw.Stop();
         UnityEngine.Debug.Log("Time Taken: " + sw.ElapsedMilliseconds);
+        readyToGenerateNavMesh = true;
     }
 
     public void Update()

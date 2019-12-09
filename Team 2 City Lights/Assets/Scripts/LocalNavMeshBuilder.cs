@@ -10,6 +10,7 @@ public class LocalNavMeshBuilder : MonoBehaviour
 {
     // The center of the build
     public Transform m_Tracked;
+    [SerializeField] GameObject player;
 
     // The size of the build bounds
     public Vector3 m_Size = new Vector3(80.0f, 20.0f, 80.0f);
@@ -18,16 +19,15 @@ public class LocalNavMeshBuilder : MonoBehaviour
     AsyncOperation m_Operation;
     NavMeshDataInstance m_Instance;
     List<NavMeshBuildSource> m_Sources = new List<NavMeshBuildSource>();
-    int count = 0;
-    IEnumerator Start()
-    {
-        if((count % 100) == 0)
-        {
-            UpdateNavMesh(true);
-            yield return m_Operation;
-        }
-        count++;
-    }
+    // IEnumerator Start()
+    // {
+    //     // if(player.GetComponent<MapFeatureGeneration>().readyToGenerateNavMesh)
+    //     // while (true)
+    //     // {
+    //     //     UpdateNavMesh(true);
+    //     //     yield return m_Operation;
+    //     // }
+    // }
 
     void OnEnable()
     {
@@ -37,6 +37,13 @@ public class LocalNavMeshBuilder : MonoBehaviour
         if (m_Tracked == null)
             m_Tracked = transform;
         UpdateNavMesh(false);
+    }
+
+    IEnumerator Update(){
+        if(player.GetComponent<MapFeatureGeneration>().readyToGenerateNavMesh){
+            UpdateNavMesh(true);
+            yield return m_Operation;
+        }
     }
 
     void OnDisable()

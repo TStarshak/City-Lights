@@ -33,8 +33,10 @@ public class SceneController : MonoBehaviour
     }
 
     public static void LoadMainMenu(){
+        PlayerState.SavePlayer();
         Instance.InitLoadingScene("MainMenu");
         currentScene = SceneManager.GetSceneByName("MainMenu");
+        PlayerProgress.Instance.returningFromForest = false;
     }
 
     // Load a given scene and automatically save progress

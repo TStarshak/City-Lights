@@ -15,6 +15,10 @@ public class MenuButtonController : MonoBehaviour
         SceneController.LoadScene(sceneName);
     }
 
+    public void LoadMainMenu(){
+        SceneController.LoadMainMenu();
+    }
+
     public void StartGame(){
         SceneController.LoadFirstScene();
     }

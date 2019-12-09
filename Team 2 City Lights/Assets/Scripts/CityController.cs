@@ -23,7 +23,7 @@ public class CityController : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        Debug.Log(PlayerProgress.Instance.returningFromForest);
+        Debug.Log(PlayerProgress.Instance.firstTimeInCity());
         if (PlayerProgress.Instance.firstTimeInCity()) {
             gameIntroduction.SetActive(true);
             PlayerProgress.Instance.savedPlayerData.HasVisitedCity = true;
