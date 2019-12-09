@@ -93,6 +93,7 @@ public class PostProcessing : MonoBehaviour
 
             yield return new WaitForSeconds(time);
         }
+        profile.GetSetting<ColorGrading>().colorFilter.Override(new Color(0.8f, 0.8f, 0.8f));
         yield return null;
 
     }    

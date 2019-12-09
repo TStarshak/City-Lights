@@ -53,8 +53,9 @@ public class PlayerData
         movementSpeed = oldStatistics.movementSpeed;
         vacuLampCapacity = oldStatistics.vacuLampCapacity;
         vacuLampRange = oldStatistics.vacuLampRange;
-        inDangerState = false;
+
+        HasVisitedCity = true;                                  // Hacky, but the player should have visited the city by the time this is called
+        currentMission = oldStatistics.currentMission;
         isDead = false;
-        HasVisitedCity = oldStatistics.HasVisitedCity;
     }
 }

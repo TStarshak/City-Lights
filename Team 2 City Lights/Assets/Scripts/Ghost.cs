@@ -47,7 +47,6 @@ public class Ghost : MonoBehaviour
             move = false;
             Shadoow.SetDestination(transform.position);
             anim.SetBool("Hide", true);
-          
         }
         else if (move && !dead)
         {
@@ -75,10 +74,9 @@ public class Ghost : MonoBehaviour
             elapsedTime += Time.deltaTime;
             if (elapsedTime >= secondsBetweenMove)
             {
+                anim.SetBool("Hide", false);
                 move = true;
             }
-            if (elapsedTime >= secondsBetweenMove) move = true;
-            anim.SetBool("Hide", true);
         }
     }
 

@@ -1,0 +1,667 @@
+fileFormatVersion: 2
+guid: 524adbdaa4e4d9243aead52b93a443cb
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7194584620117243309
+    second: VacuumParticles_0
+  - first:
+      213: 5107397611207746214
+    second: VacuumParticles_1
+  - first:
+      213: -3289923478940912411
+    second: VacuumParticles_2
+  - first:
+      213: 11802170711997327
+    second: VacuumParticles_3
+  - first:
+      213: -4424396129788262898
+    second: VacuumParticles_4
+  - first:
+      213: -5414023909113364339
+    second: VacuumParticles_5
+  - first:
+      213: 7793393637086330770
+    second: VacuumParticles_6
+  - first:
+      213: -2944178192004735681
+    second: VacuumParticles_7
+  - first:
+      213: -4238283013896940490
+    second: VacuumParticles_8
+  - first:
+      213: 5407797225884093365
+    second: VacuumParticles_9
+  - first:
+      213: 7240496381046808190
+    second: VacuumParticles_10
+  - first:
+      213: 6246187364840064764
+    second: VacuumParticles_11
+  - first:
+      213: 9058570519071529454
+    second: VacuumParticles_12
+  - first:
+      213: 7461659801733071824
+    second: VacuumParticles_13
+  - first:
+      213: 3092653195625708407
+    second: VacuumParticles_14
+  - first:
+      213: -7372550368216289665
+    second: VacuumParticles_15
+  - first:
+      213: 913880665410013980
+    second: VacuumParticles_16
+  - first:
+      213: -5122777451595208380
+    second: VacuumParticles_17
+  - first:
+      213: 3686036115779875908
+    second: VacuumParticles_18
+  - first:
+      213: 5801866862182652238
+    second: VacuumParticles_19
+  - first:
+      213: 254649971977270468
+    second: VacuumParticles_20
+  - first:
+      213: -9058057883827141116
+    second: VacuumParticles_21
+  - first:
+      213: 6212263892756174263
+    second: VacuumParticles_22
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: -1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: VacuumParticles_0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1431
+        width: 223
+        height: 616
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4412ab0ad92ea0b438023c5adb0e0d06
+      internalID: -7194584620117243309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VacuumParticles_1
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 1431
+        width: 223
+        height: 616
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 132d4c0d79611e84aa28232c703110bc
+      internalID: 5107397611207746214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VacuumParticles_2
+      rect:
+        serializedVersion: 2
+        x: 451
+        y: 1431
+        width: 223
+        height: 616
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a0a7b7432360794cbf74b90713a0616
+      internalID: -3289923478940912411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VacuumParticles_3
+      rect:
+        serializedVersion: 2
+        x: 676
+        y: 1431
+        width: 223
+        height: 616
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d037958b47634bc4e8c6baa7d8acbe00
+      internalID: 11802170711997327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VacuumParticles_4
+      rect:
+        serializedVersion: 2
+        x: 901
+        y: 1431
+        width: 223
+        height: 616
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83f39edd6d7315540a2aef917e0f327f
+      internalID: -4424396129788262898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VacuumParticles_5
+      rect:
+        serializedVersion: 2
+        x: 1126
+        y: 1431
+        width: 223
+        height: 616
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df27b4977334f8f4197f50f72b5a30cc
+      internalID: -5414023909113364339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VacuumParticles_6
+      rect:
+        serializedVersion: 2
+        x: 1351
+        y: 1431
+        width: 223
+        height: 616
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5b5b82045d0c734ca6831da38c6583d
+      internalID: 7793393637086330770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VacuumParticles_7
+      rect:
+        serializedVersion: 2
+        x: 1576
+        y: 1431
+        width: 223
+        height: 616
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7956168f38b86dc4680dea555b7ec8ea
+      internalID: -2944178192004735681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VacuumParticles_8
+      rect:
+        serializedVersion: 2
+        x: 1801
+        y: 1431
+        width: 223
+        height: 616
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e10a488d17f18f74f83ab3f21bc1a906
+      internalID: -4238283013896940490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VacuumParticles_9
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 814
+        width: 223
+        height: 616
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4576f9f6a015439458c3b7a05e2ecc67
+      internalID: 5407797225884093365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VacuumParticles_10
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 814
+        width: 223
+        height: 616
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f85d32ac4ae9be740838c55ab598954a
+      internalID: 7240496381046808190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VacuumParticles_11
+      rect:
+        serializedVersion: 2
+        x: 451
+        y: 814
+        width: 223
+        height: 616
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52eafd25e45445c43bb30e2c8e3fafad
+      internalID: 6246187364840064764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VacuumParticles_12
+      rect:
+        serializedVersion: 2
+        x: 676
+        y: 814
+        width: 223
+        height: 616
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c836aeb45183c14388cac1847b82d3a
+      internalID: 9058570519071529454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VacuumParticles_13
+      rect:
+        serializedVersion: 2
+        x: 901
+        y: 814
+        width: 223
+        height: 616
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04ca76927777b084f8c7ee327a50e210
+      internalID: 7461659801733071824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VacuumParticles_14
+      rect:
+        serializedVersion: 2
+        x: 1126
+        y: 814
+        width: 223
+        height: 616
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb83ac7c29154a9438b029774fd8555a
+      internalID: 3092653195625708407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VacuumParticles_15
+      rect:
+        serializedVersion: 2
+        x: 1351
+        y: 814
+        width: 223
+        height: 616
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbe971bd64609474081240283caad314
+      internalID: -7372550368216289665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VacuumParticles_16
+      rect:
+        serializedVersion: 2
+        x: 1576
+        y: 814
+        width: 223
+        height: 616
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d52faad5085d3fd49a39f9a05d08d1d4
+      internalID: 913880665410013980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VacuumParticles_17
+      rect:
+        serializedVersion: 2
+        x: 1801
+        y: 814
+        width: 223
+        height: 616
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e42c812dd9c1d57429728e06263803e3
+      internalID: -5122777451595208380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VacuumParticles_18
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 197
+        width: 223
+        height: 616
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8136dad81d091394c992b3400693891e
+      internalID: 3686036115779875908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VacuumParticles_19
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 197
+        width: 223
+        height: 616
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d93dd6c010f8f04b9a7aacb09e1d192
+      internalID: 5801866862182652238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VacuumParticles_20
+      rect:
+        serializedVersion: 2
+        x: 451
+        y: 197
+        width: 223
+        height: 616
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51fb13a85406bd6438aadf5b6a6031af
+      internalID: 254649971977270468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VacuumParticles_21
+      rect:
+        serializedVersion: 2
+        x: 676
+        y: 197
+        width: 223
+        height: 616
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16eab6e7c64955f41a063ddb42d96403
+      internalID: -9058057883827141116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VacuumParticles_22
+      rect:
+        serializedVersion: 2
+        x: 901
+        y: 197
+        width: 223
+        height: 616
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b11b000b5c75eb40823190b0e4f8619
+      internalID: 6212263892756174263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 1ef090351864c67449e0124902ca82ca
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
