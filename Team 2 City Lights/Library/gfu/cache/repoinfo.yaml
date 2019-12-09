@@ -24,14 +24,14 @@ MonoBehaviour:
     function: 0
     token: 
   currentGitBranch:
-    name: playerprogress
-    tracking: origin/playerprogress
+    name: master
+    tracking: origin/master
   currentConfigBranch:
-    name: playerprogress
+    name: master
     remote:
       name: origin
       url: https://csecode.case.edu/academic/eecs-390/team2.git
-    trackingBranch: playerprogress
+    trackingBranch: master
   currentConfigRemote:
     name: origin
     url: https://csecode.case.edu/academic/eecs-390/team2.git
