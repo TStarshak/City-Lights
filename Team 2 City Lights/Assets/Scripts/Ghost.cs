@@ -21,7 +21,11 @@ public class Ghost : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+<<<<<<< HEAD
         vac = GameObject.Find("Vacuum").GetComponent<Vacuum>();
+=======
+        Shadoow = GetComponent<UnityEngine.AI.NavMeshAgent>();
+>>>>>>> 9ed0f38825c61cf370b14890799151dc15a7d978
         rot = transform.rotation;
         Shadoow = GetComponent<UnityEngine.AI.NavMeshAgent>(); //applies the agent to our lovely enemy
         rend = GetComponent<SpriteRenderer>();
@@ -47,6 +51,10 @@ public class Ghost : MonoBehaviour
             move = false;
             Shadoow.SetDestination(transform.position);
             anim.SetBool("Hide", true);
+<<<<<<< HEAD
+=======
+          
+>>>>>>> 9ed0f38825c61cf370b14890799151dc15a7d978
         }
         else if (move && !dead)
         {
@@ -77,6 +85,11 @@ public class Ghost : MonoBehaviour
                 anim.SetBool("Hide", false);
                 move = true;
             }
+<<<<<<< HEAD
+=======
+            if (elapsedTime >= secondsBetweenMove) move = true;
+            anim.SetBool("Hide", true);
+>>>>>>> 9ed0f38825c61cf370b14890799151dc15a7d978
         }
     }
 
@@ -97,5 +110,8 @@ public class Ghost : MonoBehaviour
             Destroy(this.gameObject);
         }
     }
+<<<<<<< HEAD
 
+=======
+>>>>>>> 9ed0f38825c61cf370b14890799151dc15a7d978
 }
