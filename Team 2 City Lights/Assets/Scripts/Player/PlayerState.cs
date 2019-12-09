@@ -11,6 +11,7 @@ public class PlayerState : MonoBehaviour
     // References global status of player upgrades
     public static PlayerUpgrades currentUpgrades;
     public static bool isInDangerState;            // Bool to denote if the player is a hit from losing (red screen, camera shake)
+    
 
     private bool hasDied = false;
 
@@ -23,12 +24,8 @@ public class PlayerState : MonoBehaviour
 
     void Start()
     {
-<<<<<<< HEAD
         hasDied = false;
-        currentMission = MissionHandler.Instance.currentMission;
-=======
         isInDangerState = false;
->>>>>>> d943178c35f025c23f4cfbefcdb26bc6fed93fe5
     }
 
     void Update()
@@ -85,17 +82,6 @@ public class PlayerState : MonoBehaviour
         anim.SetTrigger("Death");
         //After playing the animation, move to the city
         Debug.Log("DEATH");
-<<<<<<< HEAD
-=======
-        
-    }
-
-    public static void dangerState()
-    {
-        isInDangerState = true;
-        //Camera Shake
->>>>>>> d943178c35f025c23f4cfbefcdb26bc6fed93fe5
-
         yield return new WaitForSeconds(3f);
 
         SceneController.LoadScene("City");

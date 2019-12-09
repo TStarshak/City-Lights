@@ -56,24 +56,20 @@ public class Lighting : MonoBehaviour
         StartCoroutine(SmoothLight(lightRange));
         Debug.Log(value + " " + (value * value  + 1) + " " + numFireflies);
         PlayerState.localPlayerData.inDangerState = false;
+        PostProcessing.ChangeVignette(1);
     }
 
     void onEnemyEnter()
     {
         if (numFireflies > 0)
         {
+            PostProcessing.ChangeVignette(-1);
             numFireflies--;
             PlayerState.localPlayerData.firefliesCollected--;
         }
         else
         {
-<<<<<<< HEAD
-=======
-            if (PlayerState.isInDangerState)
-                PlayerState.playerDeath();
-            else
->>>>>>> d943178c35f025c23f4cfbefcdb26bc6fed93fe5
-                PlayerState.dangerState();
+            PlayerState.dangerState();
         }
         if (gameLightInner.GetComponent<Light>().range > 3)
             StartCoroutine(SmoothLight(-lightRange));

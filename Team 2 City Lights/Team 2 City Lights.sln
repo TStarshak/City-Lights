@@ -1,11 +1,6 @@
 ﻿
-<<<<<<< HEAD
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-=======
-Microsoft Visual Studio Solution File, Format Version 11.00
-# Visual Studio 2010
->>>>>>> d943178c35f025c23f4cfbefcdb26bc6fed93fe5
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NavMeshComponents", "NavMeshComponents.csproj", "{4247ADF5-B202-8703-5A74-D81CFC4A22A0}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp", "Assembly-CSharp.csproj", "{36DDDCD3-82F9-B14B-DBE9-FA51F23129F6}"

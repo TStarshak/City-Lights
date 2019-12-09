@@ -1,36 +1,100 @@
 ﻿using UnityEngine;
 using UnityEngine.Rendering.PostProcessing;
+using System.Collections;
+using System.Collections.Generic;
 
 public class PostProcessing : MonoBehaviour
 {
-    PostProcessVolume m_Volume;
-    Vignette vig;
+    static PostProcessVolume m_Volume;
+    static PostProcessProfile profile;
+    Color grey = new Color(0.24f, 0.24f, 0.24f);
+    Color red = new Color(1, 0, 0);
+    Color intermediate = new Color(0.6f, 0.1f, 0.1f);
+    Color red2 = new Color(1, 0.25f, 0.25f);
+
+
+    float time = 0.33f;
+
+    private bool pulsing;
 
     void Start()
     {
-        vig = ScriptableObject.CreateInstance<Vignette>();
-        vig.enabled.Override(true);
-        vig.intensity.Override(1f);
-
-        m_Volume = PostProcessManager.instance.QuickVolume(gameObject.layer, 100f, vig);
+        profile = Resources.Load("Scenes/PrototypeScene_Profiles/Main Camera Profile") as PostProcessProfile;
+        profile.GetSetting<Vignette>().intensity.Override(0.6f);
+        profile.GetSetting<Vignette>().color.Override(grey);
+        profile.GetSetting<ColorGrading>().colorFilter.Override(new Color(0.8f, 0.8f, 0.8f));
+        pulsing = false;
     }
 
     void Update()
     {
-
+        /*
+        if (!pulsing)
+        {
+            pulsing = true;
+            StartCoroutine(pulse());
+        } */
+        if (PlayerState.localPlayerData.inDangerState)
+        {
+            if (!pulsing)
+            {
+                StartCoroutine(pulse());
+                pulsing = true;
+            }
+        }
+        else
+        {
+            if (pulsing)
+            {
+                StopCoroutine(pulse());
+                profile.GetSetting<Vignette>().color.Override(grey);
+                profile.GetSetting<ColorGrading>().colorFilter.Override(new Color(0.8f, 0.8f, 0.8f));
+                pulsing = false;
+            }
+        }
     }
 
-    void ChangeVignette(int dir)
+    public static void ChangeVignette(int dir)
     {
-        if (dir <= 1 && vig.intensity.value > 0.45)
-            vig.intensity.value = vig.intensity.value - 0.05f;
+        Vignette vig = profile.GetSetting<Vignette>();
+        if (dir < 0 && vig.intensity.value < 0.6)
+            vig.intensity.Override(vig.intensity + 0.05f);
         else
             if (vig.intensity.value < 1)
-                vig.intensity.value = vig.intensity.value + 0.05f;
+            vig.intensity.Override(vig.intensity - 0.05f);
+        
+
+        profile.RemoveSettings<Vignette>();
+        profile.AddSettings(vig);
     }
 
-    void OnDestroy()
+    public IEnumerator pulse()
     {
-        RuntimeUtilities.DestroyVolume(m_Volume, true, true);
-    }
+        ColorGrading grade = profile.GetSetting<ColorGrading>();
+        Vignette vig = profile.GetSetting<Vignette>();
+        while (PlayerState.localPlayerData.inDangerState) {
+            profile.GetSetting<Vignette>().color.Override(intermediate);
+            profile.GetSetting<ColorGrading>().colorFilter.Override(new Color(1, 0.125f, 0.125f));
+            
+            yield return new WaitForSeconds(time);
+
+            profile.GetSetting<Vignette>().color.Override(red);
+            profile.GetSetting<ColorGrading>().colorFilter.Override(red2);
+
+            yield return new WaitForSeconds(time);
+
+            profile.GetSetting<Vignette>().color.Override(intermediate);
+            profile.GetSetting<ColorGrading>().colorFilter.Override(new Color(1, 0.125f, 0.125f));
+
+            yield return new WaitForSeconds(time);
+
+            profile.GetSetting<Vignette>().color.Override(grey);
+            profile.GetSetting<ColorGrading>().colorFilter.Override(new Color(1, 0f, 0f));
+
+            yield return new WaitForSeconds(time);
+        }
+        yield return null;
+
+    }    
+    
 }
