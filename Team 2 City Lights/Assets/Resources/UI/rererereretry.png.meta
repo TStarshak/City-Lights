@@ -1,0 +1,799 @@
+fileFormatVersion: 2
+guid: de71efda8b7ed0f449792d13444b48bb
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4638134213677630142
+    second: rererereretry_0
+  - first:
+      213: -2616825239177977621
+    second: rererereretry_1
+  - first:
+      213: -8417800728017027772
+    second: rererereretry_2
+  - first:
+      213: -2117549111816687611
+    second: rererereretry_3
+  - first:
+      213: 4863310045685056974
+    second: rererereretry_4
+  - first:
+      213: -4130982918914072434
+    second: rererereretry_5
+  - first:
+      213: -1100217052610635797
+    second: rererereretry_6
+  - first:
+      213: -8452289561827628218
+    second: rererereretry_7
+  - first:
+      213: 2467449500724353596
+    second: rererereretry_8
+  - first:
+      213: 8295436789776217662
+    second: rererereretry_9
+  - first:
+      213: -8223983894513107010
+    second: rererereretry_10
+  - first:
+      213: -4957852863154326374
+    second: rererereretry_11
+  - first:
+      213: -1477487219951705863
+    second: rererereretry_12
+  - first:
+      213: 5277870619632995863
+    second: rererereretry_13
+  - first:
+      213: -7993877873492976357
+    second: rererereretry_14
+  - first:
+      213: 2104293791475546037
+    second: rererereretry_15
+  - first:
+      213: 6477177069701205643
+    second: rererereretry_16
+  - first:
+      213: -8867937024169413008
+    second: rererereretry_17
+  - first:
+      213: 2653381752523379349
+    second: rererereretry_18
+  - first:
+      213: 3671800912793340649
+    second: rererereretry_19
+  - first:
+      213: -8152558648933581605
+    second: rererereretry_20
+  - first:
+      213: -8696704471507525730
+    second: rererereretry_21
+  - first:
+      213: 4218048360448347888
+    second: rererereretry_22
+  - first:
+      213: 4372867518103723573
+    second: rererereretry_23
+  - first:
+      213: 5110752844871138297
+    second: rererereretry_24
+  - first:
+      213: -6393593151028999593
+    second: rererereretry_25
+  - first:
+      213: 6169926090691570289
+    second: rererereretry_26
+  - first:
+      213: 541142994694077826
+    second: rererereretry_27
+  - first:
+      213: -4629424978393760570
+    second: rererereretry_28
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: -1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: rererereretry_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2430
+        width: 1082
+        height: 270
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5620dbc9c7764eb438fc1848bd074f73
+      internalID: -4638134213677630142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rererereretry_1
+      rect:
+        serializedVersion: 2
+        x: 1082
+        y: 2430
+        width: 1082
+        height: 270
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87ac67fa16b11d9439170dd947e9a230
+      internalID: -2616825239177977621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rererereretry_2
+      rect:
+        serializedVersion: 2
+        x: 2164
+        y: 2430
+        width: 1082
+        height: 270
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9cedb8cf6756d294e9edaace860acc9e
+      internalID: -8417800728017027772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rererereretry_3
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2160
+        width: 1082
+        height: 270
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6dde620d6fde4ef4c894c891f77f26fa
+      internalID: -2117549111816687611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rererereretry_4
+      rect:
+        serializedVersion: 2
+        x: 1082
+        y: 2160
+        width: 1082
+        height: 270
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5cb8e6a058e4dd048b8bbeee5f8f7e7e
+      internalID: 4863310045685056974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rererereretry_5
+      rect:
+        serializedVersion: 2
+        x: 2164
+        y: 2160
+        width: 1082
+        height: 270
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b9bf7e41f6c94140a04c4ad2ffe00d3
+      internalID: -4130982918914072434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rererereretry_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1890
+        width: 1082
+        height: 270
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 697b0244324bd9d4289d80524913ddc3
+      internalID: -1100217052610635797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rererereretry_7
+      rect:
+        serializedVersion: 2
+        x: 1082
+        y: 1890
+        width: 1082
+        height: 270
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff419e407accc9e49a5d9120d852d639
+      internalID: -8452289561827628218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rererereretry_8
+      rect:
+        serializedVersion: 2
+        x: 2164
+        y: 1890
+        width: 1082
+        height: 270
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff3425af09e0c45488742c1cec0bce7e
+      internalID: 2467449500724353596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rererereretry_9
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1620
+        width: 1082
+        height: 270
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c588b82f2e6a3744aca5abcab4b55ef
+      internalID: 8295436789776217662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rererereretry_10
+      rect:
+        serializedVersion: 2
+        x: 1082
+        y: 1620
+        width: 1082
+        height: 270
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd68a89ae83502b4aa0be005f097eef0
+      internalID: -8223983894513107010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rererereretry_11
+      rect:
+        serializedVersion: 2
+        x: 2164
+        y: 1620
+        width: 1082
+        height: 270
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fdcc1f1d345bfa14e80fa5886c18a565
+      internalID: -4957852863154326374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rererereretry_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1350
+        width: 1082
+        height: 270
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78c1d1ec172aefa45a1046abcf0e3945
+      internalID: -1477487219951705863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rererereretry_13
+      rect:
+        serializedVersion: 2
+        x: 1082
+        y: 1350
+        width: 1082
+        height: 270
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b60bedb92c84aa41b8a3b003c120bb3
+      internalID: 5277870619632995863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rererereretry_14
+      rect:
+        serializedVersion: 2
+        x: 2164
+        y: 1350
+        width: 1082
+        height: 270
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 080b661bf22a77b449333f5e0a7e84a3
+      internalID: -7993877873492976357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rererereretry_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1080
+        width: 1082
+        height: 270
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86ba9abd53252fa48847d7edec47d1e9
+      internalID: 2104293791475546037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rererereretry_16
+      rect:
+        serializedVersion: 2
+        x: 1082
+        y: 1080
+        width: 1082
+        height: 270
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1a6b448a34501f4cbaefe87e5c8024c
+      internalID: 6477177069701205643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rererereretry_17
+      rect:
+        serializedVersion: 2
+        x: 2164
+        y: 1080
+        width: 1082
+        height: 270
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 925967400e7cca94f9c72a17c32a9dd3
+      internalID: -8867937024169413008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rererereretry_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 810
+        width: 1082
+        height: 270
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ded05598311513f4f9e5c7dad9ec6abb
+      internalID: 2653381752523379349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rererereretry_19
+      rect:
+        serializedVersion: 2
+        x: 1082
+        y: 810
+        width: 1082
+        height: 270
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb91660fb9396fb47ba75ec3394753c0
+      internalID: 3671800912793340649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rererereretry_20
+      rect:
+        serializedVersion: 2
+        x: 2164
+        y: 810
+        width: 1082
+        height: 270
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8ecca22f4e43e3478ccad0bc3d152df
+      internalID: -8152558648933581605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rererereretry_21
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 540
+        width: 1082
+        height: 270
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94eb456beb533434bb88b73e270a50b0
+      internalID: -8696704471507525730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rererereretry_22
+      rect:
+        serializedVersion: 2
+        x: 1082
+        y: 540
+        width: 1082
+        height: 270
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9e7afa5831e0a14eb9aa732fd5852ea
+      internalID: 4218048360448347888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rererereretry_23
+      rect:
+        serializedVersion: 2
+        x: 2164
+        y: 540
+        width: 1082
+        height: 270
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c299149ea2afc247b59521ca85b7cc4
+      internalID: 4372867518103723573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rererereretry_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 270
+        width: 1082
+        height: 270
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 769dc184db8fe1b489720dc84eb922f7
+      internalID: 5110752844871138297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rererereretry_25
+      rect:
+        serializedVersion: 2
+        x: 1082
+        y: 270
+        width: 1082
+        height: 270
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8982fe09c6b26cf47b156949859b21cb
+      internalID: -6393593151028999593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rererereretry_26
+      rect:
+        serializedVersion: 2
+        x: 2164
+        y: 270
+        width: 1082
+        height: 270
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab28c02d7d40aa44db285d1dff5278b9
+      internalID: 6169926090691570289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rererereretry_27
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1082
+        height: 270
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69dae99a1654cc44c8d1d87e7c82504c
+      internalID: 541142994694077826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rererereretry_28
+      rect:
+        serializedVersion: 2
+        x: 1082
+        y: 0
+        width: 1082
+        height: 270
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3dd6f5ec82c0ed48b0cc854e91cc376
+      internalID: -4629424978393760570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: b97e1fb0289e908498c2defe868d642f
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

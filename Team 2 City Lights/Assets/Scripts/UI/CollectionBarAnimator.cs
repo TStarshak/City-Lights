@@ -10,7 +10,7 @@ public class CollectionBarAnimator : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        barSprites = Resources.LoadAll<Sprite>("UI/collectionBar");
+        barSprites = Resources.LoadAll<Sprite>("UI/rererereretry");
     }
 
     // Update is called once per frame
@@ -18,7 +18,7 @@ public class CollectionBarAnimator : MonoBehaviour
     {
         this.gameObject.GetComponent<Image>().sprite = barSprites[x];
         x++;
-        if (x==144)
+        if (x==28)
         {
             x = 0;
         }
