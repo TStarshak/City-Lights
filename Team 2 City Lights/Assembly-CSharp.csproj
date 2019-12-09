@@ -69,6 +69,7 @@
      <Compile Include="Assets\Scripts\GlobalControl\SaveSystem.cs" />
      <Compile Include="Assets\Scripts\GlobalControl\SceneController.cs" />
      <Compile Include="Assets\Scripts\LocalNavMeshBuilder.cs" />
+     <Compile Include="Assets\Scripts\MainMenuAudio.cs" />
      <Compile Include="Assets\Scripts\MapFeatureGeneration.cs" />
      <Compile Include="Assets\Scripts\NavMeshSourceTag.cs" />
      <Compile Include="Assets\Scripts\Penemy.cs" />
