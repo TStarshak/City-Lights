@@ -10,7 +10,7 @@ public class PostProcessing : MonoBehaviour
     Color grey = new Color(0.24f, 0.24f, 0.24f);
     Color red = new Color(1, 0, 0);
     Color intermediate = new Color(0.6f, 0.1f, 0.1f);
-    Color red2 = new Color(1, 0.25f, 0.25f);
+    Color red2 = new Color(1, 0.125f, 0.125f);
 
 
     float time = 0.33f;
@@ -74,7 +74,7 @@ public class PostProcessing : MonoBehaviour
         Vignette vig = profile.GetSetting<Vignette>();
         while (PlayerState.localPlayerData.inDangerState) {
             profile.GetSetting<Vignette>().color.Override(intermediate);
-            profile.GetSetting<ColorGrading>().colorFilter.Override(new Color(1, 0.125f, 0.125f));
+            profile.GetSetting<ColorGrading>().colorFilter.Override(new Color(1, 0.33f, 0.33f));
             
             yield return new WaitForSeconds(time);
 
@@ -84,16 +84,16 @@ public class PostProcessing : MonoBehaviour
             yield return new WaitForSeconds(time);
 
             profile.GetSetting<Vignette>().color.Override(intermediate);
-            profile.GetSetting<ColorGrading>().colorFilter.Override(new Color(1, 0.125f, 0.125f));
+            profile.GetSetting<ColorGrading>().colorFilter.Override(new Color(1, 0.33f, 0.33f));
 
             yield return new WaitForSeconds(time);
 
             profile.GetSetting<Vignette>().color.Override(grey);
-            profile.GetSetting<ColorGrading>().colorFilter.Override(new Color(1, 0f, 0f));
+            profile.GetSetting<ColorGrading>().colorFilter.Override(new Color(1, 1f, 1f));
 
             yield return new WaitForSeconds(time);
         }
-        profile.GetSetting<ColorGrading>().colorFilter.Override(new Color(0.8f, 0.8f, 0.8f));
+        profile.GetSetting<ColorGrading>().colorFilter.Override(new Color(1f, 1f, 1f));
         yield return null;
 
     }    
