@@ -40,11 +40,11 @@ public class UpgradeMenuController : MonoBehaviour
 
         //Set Price for Upgrades
         capacityUpgradePrice = capacityUpgradeButton.GetComponentInChildren<Text>();
-        capacityUpgradePrice.text = $"{vaculampCapacity.getUpgradeCost()} fireflies";
+        capacityUpgradePrice.text = $"{vaculampCapacity.getUpgradeCost()}";
         speedUpgradePrice = speedUpgradeButton.GetComponentInChildren<Text>();
-        speedUpgradePrice.text = $"{playerSpeed.getUpgradeCost()} fireflies";
+        speedUpgradePrice.text = $"{playerSpeed.getUpgradeCost()}";
         rangeUpgradePrice = rangeUpgradeButton.GetComponentInChildren<Text>();
-        rangeUpgradePrice.text =  $"{vaculampRange.getUpgradeCost()} fireflies";
+        rangeUpgradePrice.text =  $"{vaculampRange.getUpgradeCost()}";
     }
 
     // Update is called once per frame
@@ -66,11 +66,11 @@ public class UpgradeMenuController : MonoBehaviour
             if (Economy.CanAffordSkill(PlayerState.localPlayerData, skill)){
                 // Enable button and show purchasable price color
                 upgradeButton.interactable = true;
-                priceText.color = new Color(255, 243, 42);
+                priceText.color = new Color(95, 83, 159);
             }
             else {
                 // Disable button and change text color if unaffordable
-                priceText.color = new Color(250, 84, 82);
+                priceText.color = new Color(0, 0, 0);
                 upgradeButton.interactable = false;
             }
         }
@@ -78,7 +78,8 @@ public class UpgradeMenuController : MonoBehaviour
             // Disable button, Skill is maxed and does not have a cost
             upgradeButton.interactable = false;
             priceText.color = new Color(250, 84, 82);
-            priceText.text = "Skill is Maxed";
+            priceText.text = "N/A";
+            priceText.fontSize = 18;
         }
     }
 
@@ -106,7 +107,8 @@ public class UpgradeMenuController : MonoBehaviour
     // Upgrades the player's given skill and displayed price
     private void UpgradeSkill(PlayerUpgrades.Skill skill, Text priceText){
         PurchaseUpgrade(skill);
-        priceText.text = $"{skill.getUpgradeCost()} fireflies";
+        // priceText.text = $"{skill.getUpgradeCost()} fireflies";
+        priceText.text = $"{skill.getUpgradeCost()}";
     }
 
     // Purchases a provided upgrade

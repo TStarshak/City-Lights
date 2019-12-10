@@ -58,10 +58,12 @@ public class PauseController : MonoBehaviour
 
     public void resumeGame(){
         isPaused = false;
+        Time.timeScale = 1;
     }
 
     public void pauseGame(){
         isPaused = true;
+        Time.timeScale = 0;
     }
 
     public static bool pauseIsEnabled(){

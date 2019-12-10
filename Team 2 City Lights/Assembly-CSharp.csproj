@@ -84,6 +84,7 @@
      <Compile Include="Assets\Scripts\snailWalk.cs" />
      <Compile Include="Assets\Scripts\Spider.cs" />
      <Compile Include="Assets\Scripts\SpiderWeb.cs" />
+     <Compile Include="Assets\Scripts\UI\ButtonAudio.cs" />
      <Compile Include="Assets\Scripts\UI\ChiefDialogue.cs" />
      <Compile Include="Assets\Scripts\UI\CollectionBarAnimator.cs" />
      <Compile Include="Assets\Scripts\UI\collectionBarController.cs" />
