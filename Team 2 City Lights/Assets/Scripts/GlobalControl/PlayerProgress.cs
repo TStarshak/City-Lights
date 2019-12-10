@@ -57,6 +57,7 @@ public class PlayerProgress : MonoBehaviour
         // Call for data erase if desired
         if (resetData){
             SaveSystem.DeleteSavedData();
+            savedPlayerData.firefliesCollected = 0;
             resetData = false;
         }
         else if (SaveSystem.playerSaveExists()){
