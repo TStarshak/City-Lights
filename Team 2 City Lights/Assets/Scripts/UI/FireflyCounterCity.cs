@@ -5,22 +5,26 @@ using UnityEngine.UI;
 
 public class FireflyCounterCity : MonoBehaviour
 {
-    private Text display;
+    [SerializeField] private Text display;
+    [SerializeField] private GameObject wallet;
     [SerializeField] private GameObject upgradeMenu;
 
     // Start is called before the first frame update
     void Start()
     {
-        display = gameObject.GetComponent<Text>();
+        display = display.GetComponent<Text>();
     }
 
     // Update is called once per frame
     void Update()
     {
         if(PauseController.pauseIsEnabled() || upgradeMenu.activeInHierarchy){
-            display.text = $"Fireflies in Wallet: {PlayerState.localPlayerData.firefliesInWallet}";
+            // display.text = $"Fireflies in Wallet: {PlayerState.localPlayerData.firefliesInWallet}";
+            wallet.SetActive(true);
+            display.text = $"{PlayerState.localPlayerData.firefliesInWallet}";
         }
         else {
+            wallet.SetActive(false);
             display.text = "";
         }
     }

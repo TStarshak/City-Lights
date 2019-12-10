@@ -6,15 +6,14 @@ using UnityEngine.UI;
 public class GameIntroduction : MonoBehaviour
 {
     public GameObject fireflyterChief;
-    private Button continueButton;
+    [SerializeField] private Button startButton;
 
     // Start is called before the first frame update
     void Start()
     {
         fireflyterChief.SetActive(false);
         PauseController.disablePauseFunctionality();
-        continueButton = GetComponentInChildren<Button>();
-        continueButton.onClick.AddListener(StartGame);
+        startButton.onClick.AddListener(StartGame);
     }
 
     void StartGame(){
