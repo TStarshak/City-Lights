@@ -39,9 +39,6 @@ public class Penemy : MonoBehaviour
         if (elapsedTime > secondsBetweenSpawn && pMesh.enabled)
             if (!PlayerState.localPlayerData.isDead)
             {
-                this.transform.rotation = rot;
-                //timer for spawn
-                elapsedTime += Time.deltaTime;
                 if (elapsedTime > secondsBetweenSpawn && pMesh.enabled)
                 {
                     elapsedTime = 0;
@@ -56,76 +53,58 @@ public class Penemy : MonoBehaviour
 
                     Vector3 newPos = transform.position - dirToPlayer;
 
-                    if (distance > activationDistance && pMesh.enabled)
+                    pMesh.SetDestination(newPos);
+                    float xPos = dirToPlayer.x;
+
+                    if (xPos > 0 && lookRight)
                     {
-                        Vector3 dirToPlayer = transform.position - Player.transform.position;
-
-                        Vector3 newPos = transform.position - dirToPlayer;
-
-                        pMesh.SetDestination(newPos);
-                        float xPos = dirToPlayer.x;
-                        if (xPos > 0 && lookRight)
-                            float distance = Vector3.Distance(transform.position, Player.transform.position);
-
-                        if (distance > activationDistance)
-                        {
-                            Vector3 dirToPlayer = transform.position - Player.transform.position;
-
-                            Vector3 newPos = transform.position - dirToPlayer;
-
-                            pMesh.SetDestination(newPos);
-                            float xPos = dirToPlayer.x;
-                            if (xPos > 0 && lookRight)
-                            {
-                                lookRight = false;
-                                rend.flipX = false;
-                            }
-                            else if (xPos < 0 && !lookRight)
-                            {
-                                lookRight = true;
-                                rend.flipX = true;
-                            }
-
-                        }
-                        else
-                        {
-                            pMesh.SetDestination(transform.position);
-                        }
-
+                        lookRight = false;
+                        rend.flipX = false;
                     }
-                    else if (pMesh.enabled)
+                    else if (xPos < 0 && !lookRight)
                     {
-                        pMesh.SetDestination(transform.position);
+                        lookRight = true;
+                        rend.flipX = true;
                     }
+
                 }
-            }
+                else
+                {
+                    pMesh.SetDestination(transform.position);
+                }
 
-        IEnumerator shadeSpawn()
+            }
+            else if (pMesh.enabled)
+            {
+                pMesh.SetDestination(transform.position);
+            }
+    }
+
+    IEnumerator shadeSpawn()
+    {
+        for (int i = 0; i < 40; i++)
         {
-            for (int i = 0; i < 40; i++)
+            shadeAlpha = GetComponent<SpriteRenderer>().material.color;
+            GetComponent<SpriteRenderer>().material.color = new Color(shadeAlpha.r, shadeAlpha.g, shadeAlpha.b, shadeAlpha.a + 0.025f);
+            transform.position = new Vector3(transform.position.x, transform.position.y + 0.05f, transform.position.z);
+            yield return new WaitForSeconds(0.001f);
+        }
+        pMesh.enabled = true;
+    }
+
+    IEnumerator shadeDeath()
+    {
+        yield return new WaitForSeconds(15f);
+        // If it's shadow hour, the Shades are immortal
+        if (!ShadowTimerController.shadowHour)
+        {
+            for (int i = 0; i < 20; i++)
             {
                 shadeAlpha = GetComponent<SpriteRenderer>().material.color;
-                GetComponent<SpriteRenderer>().material.color = new Color(shadeAlpha.r, shadeAlpha.g, shadeAlpha.b, shadeAlpha.a + 0.025f);
-                transform.position = new Vector3(transform.position.x, transform.position.y + 0.05f, transform.position.z);
+                GetComponent<SpriteRenderer>().material.color = new Color(shadeAlpha.r, shadeAlpha.g, shadeAlpha.b, shadeAlpha.a - 0.05f);
                 yield return new WaitForSeconds(0.001f);
             }
-            pMesh.enabled = true;
-        }
-
-        IEnumerator shadeDeath()
-        {
-            yield return new WaitForSeconds(15f);
-            // If it's shadow hour, the Shades are immortal
-            if (!ShadowTimerController.shadowHour)
-            {
-                for (int i = 0; i < 20; i++)
-                {
-                    shadeAlpha = GetComponent<SpriteRenderer>().material.color;
-                    GetComponent<SpriteRenderer>().material.color = new Color(shadeAlpha.r, shadeAlpha.g, shadeAlpha.b, shadeAlpha.a - 0.05f);
-                    yield return new WaitForSeconds(0.001f);
-                }
-                Destroy(this.gameObject);
-            }
+            Destroy(this.gameObject);
         }
     }
 }

@@ -22,7 +22,7 @@ public class PostProcessing : MonoBehaviour
         profile = Resources.Load("Scenes/PrototypeScene_Profiles/Main Camera Profile") as PostProcessProfile;
         profile.GetSetting<Vignette>().intensity.Override(0.6f);
         profile.GetSetting<Vignette>().color.Override(grey);
-        profile.GetSetting<ColorGrading>().colorFilter.Override(new Color(0.8f, 0.8f, 0.8f));
+        profile.GetSetting<ColorGrading>().colorFilter.Override(new Color(1f, 1f, 1f));
         pulsing = false;
     }
 
