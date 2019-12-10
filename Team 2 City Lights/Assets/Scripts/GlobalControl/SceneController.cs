@@ -55,6 +55,7 @@ public class SceneController : MonoBehaviour
     void InitLoadingScene(string nextScene){
         SaveSystem.SavePlayer(PlayerProgress.Instance.savedPlayerData, PlayerProgress.Instance.currentUpgrades);
         Instance.previousScene = currentScene;
+        Time.timeScale = 1;
         SceneManager.LoadScene("LoadingScreen");
         //Start asyncOperation
         StartCoroutine(LoadAsyncScene(nextScene));
