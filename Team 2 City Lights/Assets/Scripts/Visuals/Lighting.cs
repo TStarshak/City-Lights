@@ -63,9 +63,9 @@ public class Lighting : MonoBehaviour
     {
         if (numFireflies > 0)
         {
-            PostProcessing.ChangeVignette(-1);
             numFireflies--;
             PlayerState.localPlayerData.firefliesCollected--;
+            PostProcessing.ChangeVignette(-1);
         }
         else
         {

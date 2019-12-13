@@ -4,10 +4,10 @@ using UnityEngine;
 
 public class ShadowTimerController : MonoBehaviour
 {
-    public static bool shadowHour = false;     // Whether the timer has expired. Shades come out when true.
+    public static bool shadowHour;     // Whether the timer has expired. Shades come out when true.
 
     [SerializeField]
-    private int timerStart = 180;
+    private int timerStart;
     private int timeUntilShadowHour;
     public GameObject shadowIcon;
     public GameObject fireflyAnimation;
@@ -17,8 +17,9 @@ public class ShadowTimerController : MonoBehaviour
     void Start()
     {
         //RotateTimer();
+        shadowHour = false;
         Time.timeScale = 1;
-        timeUntilShadowHour = timerStart;
+        timeUntilShadowHour = timerStart = 180;
         StartCoroutine("Countdown");
     }
 

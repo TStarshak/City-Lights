@@ -42,6 +42,16 @@ public class CityController : MonoBehaviour
     {
         // Check whether player is eligible to perform an action
         checkforEligibleAction();
+
+        // Check whether player has entered the cheat key
+        checkForFireflyCheat();
+    }
+
+    // Increase fireflies if the number 4 is pressed 
+    void checkForFireflyCheat(){
+        if (Input.GetKeyDown(KeyCode.Alpha4) || Input.GetKeyDown(KeyCode.Keypad4)){
+            PlayerState.localPlayerData.firefliesInWallet += 10;
+        }
     }
 
     void checkforEligibleAction(){

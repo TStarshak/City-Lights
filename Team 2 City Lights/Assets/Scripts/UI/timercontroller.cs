@@ -7,7 +7,7 @@ public class timercontroller : MonoBehaviour
     public bool shadowHour = false;     // Whether the timer has expired. Shades come out when true.
 
     [SerializeField]
-    public int timerStart = 90;
+    public int timerStart;
     private int timeUntilShadowHour;
     public GameObject pauseM;
     public GameObject shadowIcon;
@@ -17,7 +17,7 @@ public class timercontroller : MonoBehaviour
     {
         //RotateTimer();
         Time.timeScale = 1;
-        timeUntilShadowHour = timerStart;
+        timeUntilShadowHour = timerStart = 180;
         StartCoroutine("Countdown");
     }
 

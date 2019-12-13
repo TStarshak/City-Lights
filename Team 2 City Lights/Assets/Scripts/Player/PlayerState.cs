@@ -56,7 +56,7 @@ public class PlayerState : MonoBehaviour
 
     public static void applyMultipliers()
     {
-        localPlayerData.movementSpeed += currentUpgrades.skillByName("speed").getMultiplier();
+        localPlayerData.movementSpeed += (currentUpgrades.skillByName("speed").getMultiplier() - 1);
         localPlayerData.vacuLampCapacity *= currentUpgrades.skillByName("vlcapacity").getMultiplier();
         localPlayerData.vacuLampRange = currentUpgrades.skillByName("vlrange").getMultiplier();
     }

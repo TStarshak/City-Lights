@@ -70,5 +70,8 @@ public class PlayerProgress : MonoBehaviour
         returningFromForest = false;
         currentUpgrades = new PlayerUpgrades();
         savedPlayerData = new PlayerData();
+        savedPlayerData.firefliesCollected = 0;
+        savedPlayerData.currentMission = new PlayerData.Mission(10);
+        MissionHandler.Instance.currentMission = Instance.savedPlayerData.currentMission;
     }
 }
